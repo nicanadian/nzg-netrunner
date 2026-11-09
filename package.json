@@ -21,6 +21,12 @@
     "test:reference": "node tests/reference-eval.cjs && node tests/reference-presentation.cjs",
     "test:matchups": "node tests/deck-matchups.cjs",
     "test:recorded-games": "node scripts/check-recorded-game-ledgers.cjs && node tests/recorded-game-scenarios.cjs && node scripts/run-recorded-full-games.cjs --check && node tests/recorded-rules-audit.cjs && node tests/rules-paid-choices.cjs && node scripts/run-recorded-full-games.cjs --full-paid-choices --check",
-    "test:interaction-browser": "node tests/interaction-browser.cjs"
+    "test:interaction-browser": "node tests/interaction-browser.cjs",
+    "desktop": "node desktop/main.cjs",
+    "build:release": "node scripts/build-release.cjs",
+    "test:desktop": "node tests/desktop-launcher.cjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
   }
 }

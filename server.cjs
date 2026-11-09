@@ -17,15 +17,17 @@ const mime = {
   ".mjs": "text/javascript",
   ".svg": "image/svg+xml",
 };
-function createServer() { return http.createServer(async (req, res) => {
+function createServer({root: contentRoot = root, helperEnv = process.env} = {}) {
+  const root = path.resolve(contentRoot);
+  return http.createServer(async (req, res) => {
     if (req.url.split('?')[0] === '/api/helper') {
-      if (req.method === 'GET') { json(res,200,await helper.connectionStatus()); return; }
+      if (req.method === 'GET') { json(res,200,await helper.connectionStatus(helperEnv)); return; }
       if (req.method !== 'POST') { json(res,405,{error:'Use POST to ask a question.'}); return; }
       if (req.headers.origin && req.headers.origin !== `http://${req.headers.host}`) { json(res,403,{error:'Open the helper from Local Table.'}); return; }
       let body = '';
       try {
         for await (const chunk of req) { body += chunk; if (Buffer.byteLength(body)>150000) { json(res,413,{error:'The question context is too large.'}); return; } }
-        const result = await helper.answer(JSON.parse(body)); json(res,200,result);
+        const result = await helper.answer(JSON.parse(body),{env:helperEnv}); json(res,200,result);
       } catch (error) { json(res,error instanceof SyntaxError ? 400 : error.status || 500,{error:error instanceof SyntaxError ? 'Invalid question JSON.' : error.status ? error.message : 'The helper could not answer. Your game is unchanged.'}); }
       return;
     }

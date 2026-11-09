@@ -1,0 +1,70 @@
+name: Verify Alpha packages
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Release tag to download and verify
+        default: alpha-build-1
+        required: true
+permissions:
+  contents: read
+jobs:
+  native-smoke:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - runner: windows-2022
+            target: windows-x64
+          - runner: ubuntu-22.04
+            target: linux-x64
+          - runner: macos-15
+            target: macos-arm64
+          - runner: macos-15-intel
+            target: macos-x64
+    runs-on: ${{ matrix.runner }}
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.tag }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Download ZIP and manifest
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ inputs.tag }}
+          TARGET: ${{ matrix.target }}
+        run: |
+          gh release download "$RELEASE_TAG" --pattern "*-$TARGET.zip" --pattern manifest.json --dir release-test
+      - name: Check SHA256 and extract
+        shell: bash
+        env:
+          TARGET: ${{ matrix.target }}
+        run: |
+          node <<'JS'
+          const fs=require('fs'),crypto=require('crypto'),cp=require('child_process'),path=require('path');
+          const manifest=JSON.parse(fs.readFileSync('release-test/manifest.json'));
+          const item=manifest.packages.find(p=>p.target===process.env.TARGET);
+          if(!item || item.dirty)throw Error('Missing target or dirty source manifest');
+          const head=cp.execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim();
+          if(item.sourceCommit!==head)throw Error('Release tag and package source differ');
+          const zip=path.resolve('release-test',item.file);
+          if(crypto.createHash('sha256').update(fs.readFileSync(zip)).digest('hex')!==item.sha256)throw Error('Checksum mismatch');
+          if(process.platform==='win32')cp.execFileSync('tar',['-xf',zip,'-C','release-test']);
+          else cp.execFileSync('unzip',['-q',zip,'-d','release-test']);
+          JS
+      - name: Run native packaged game smoke test
+        shell: bash
+        env:
+          TARGET: ${{ matrix.target }}
+        run: |
+          node <<'JS'
+          const path=require('path');
+          const {smoke}=require('./scripts/smoke-release.cjs');
+          const base=path.resolve('release-test',`nzg-netrunner-alpha-build-1-${process.env.TARGET}`);
+          const binary=process.platform==='win32'?'LocalTable.exe':process.platform==='darwin'?'Local Table.app/Contents/MacOS/LocalTable':'LocalTable';
+          smoke(path.join(base,binary)).catch(error=>{console.error(error);process.exitCode=1;});
+          JS

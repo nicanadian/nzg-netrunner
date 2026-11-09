@@ -5,3 +5,7 @@ node_modules/
 !.env.example
 /tmp/
 coverage/
+/builds/*/.work/
+/builds/*/*.zip
+/builds/*/SHA256SUMS
+/builds/*/manifest.json
