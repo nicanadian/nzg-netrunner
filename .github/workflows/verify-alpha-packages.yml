@@ -53,7 +53,7 @@ jobs:
           if(item.sourceCommit!==head)throw Error('Release tag and package source differ');
           const zip=path.resolve('release-test',item.file);
           if(crypto.createHash('sha256').update(fs.readFileSync(zip)).digest('hex')!==item.sha256)throw Error('Checksum mismatch');
-          if(process.platform==='win32')cp.execFileSync('tar',['-xf',zip,'-C','release-test']);
+          if(process.platform==='win32')cp.execFileSync(path.join(process.env.SystemRoot,'System32','tar.exe'),['-xf',zip,'-C','release-test']);
           else cp.execFileSync('unzip',['-q',zip,'-d','release-test']);
           JS
       - name: Run native packaged game smoke test
