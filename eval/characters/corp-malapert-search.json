@@ -1,0 +1,78 @@
+{
+  "engine": "chiriboga-77c80b1-local-1",
+  "config": {
+    "side": "corp",
+    "seed": "malapert-panel-57",
+    "deckIds": {
+      "corp": "built-to-last-v1",
+      "runner": "zahya-v1"
+    }
+  },
+  "choices": [
+    {
+      "command": "n",
+      "index": 0,
+      "version": 1
+    },
+    {
+      "command": "install",
+      "index": 2,
+      "version": 8
+    },
+    {
+      "command": "install",
+      "index": 5,
+      "version": 10
+    },
+    {
+      "command": "install",
+      "index": 3,
+      "version": 12
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 13
+    },
+    {
+      "command": "rez",
+      "index": 0,
+      "version": 14
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 71
+    },
+    {
+      "command": "continue",
+      "index": 0,
+      "version": 72
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 101
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 102
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 103
+    },
+    {
+      "command": "score",
+      "index": 0,
+      "version": 104
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 107
+    }
+  ]
+}

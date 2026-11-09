@@ -1,0 +1,56 @@
+[
+  {
+    "config": {
+      "side": "runner",
+      "faceoff": true,
+      "rulesVersion": "26.03-local-2",
+      "seed": "revised-lineup-precision-design-v2",
+      "deckIds": {
+        "runner": "zahya-v2",
+        "corp": "precision-design-v2"
+      }
+    },
+    "terminal": {
+      "winner": "corp",
+      "reason": "Corp reached 8 agenda points."
+    },
+    "turn": 41,
+    "steps": 1874
+  },
+  {
+    "config": {
+      "side": "runner",
+      "faceoff": true,
+      "rulesVersion": "26.03-local-2",
+      "seed": "revised-lineup-restoring-humanity-v2",
+      "deckIds": {
+        "runner": "zahya-v2",
+        "corp": "restoring-humanity-v2"
+      }
+    },
+    "terminal": {
+      "winner": "runner",
+      "reason": "Runner reached 9 agenda points."
+    },
+    "turn": 32,
+    "steps": 1288
+  },
+  {
+    "config": {
+      "side": "runner",
+      "faceoff": true,
+      "rulesVersion": "26.03-local-2",
+      "seed": "revised-lineup-reality-plus-v2",
+      "deckIds": {
+        "runner": "zahya-v2",
+        "corp": "reality-plus-v2"
+      }
+    },
+    "terminal": {
+      "winner": "runner",
+      "reason": "Runner reached 8 agenda points."
+    },
+    "turn": 28,
+    "steps": 1060
+  }
+]

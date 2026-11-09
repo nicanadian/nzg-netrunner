@@ -1,0 +1,120 @@
+{
+  "engine": "chiriboga-77c80b1-local-1",
+  "config": {
+    "side": "corp",
+    "seed": "counter-income-3"
+  },
+  "choices": [
+    {
+      "version": 1,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 8,
+      "command": "install",
+      "index": 6
+    },
+    {
+      "version": 10,
+      "command": "rez",
+      "index": 0
+    },
+    {
+      "version": 11,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 12,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 84,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 89,
+      "command": "play",
+      "index": 0
+    },
+    {
+      "version": 91,
+      "command": "install",
+      "index": 12
+    },
+    {
+      "version": 93,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 133,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 138,
+      "command": "purge",
+      "index": 0
+    },
+    {
+      "version": 183,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 190,
+      "command": "install",
+      "index": 6
+    },
+    {
+      "version": 192,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 193,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 194,
+      "command": "rez",
+      "index": 0
+    },
+    {
+      "version": 222,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 223,
+      "command": "continue",
+      "index": 1
+    },
+    {
+      "version": 245,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 247,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 249,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 263,
+      "command": "continue",
+      "index": 0
+    }
+  ],
+  "conceded": false
+}

@@ -1,0 +1,57 @@
+# Jinteki Runner UX playtest
+
+Agent: GPT-6.1 Sol. Date: 2026-11-07. This is an agent-operated browser playtest, not human participant evidence. No source changes are part of this review.
+
+## Scope and method
+
+Shared T3 browser, dedicated incognito Runner tab on `127.0.0.1:1042`. A paired Corp agent operated `localhost:1042` through the first run approach; during the first Diviner encounter the parent assigned one agent both sides, and I opened my own Corp tab for the remainder. This is paired opening followed by self-play, not a competitive two-player evaluation. This isolates cookies from the user's ongoing Beginner game. Chrome extension access was unavailable (`The browser access host is unavailable`). Actual game actions use native UI controls only; DOM reads are limited to the rendered page. No engine globals, injected positions, API actions, or automated policy are used.
+
+Comparison session: separate Local Table origin `localhost:5178`, with independent storage.
+
+## Session log
+
+- Opened the untouched Intermediate teaching matchup. Runner waits for Corp's opening hand decision. Runner opening hand shown in the intro overlay and anchored hand; the duplicate presentation is useful for inspecting cards but the overlay's disabled Keep button does not itself explain the dependency. The sidebar does: “Waiting for Corp to keep hand or mulligan”.
+- First shared-browser accessibility snapshot timed out; read-only DOM text succeeded. This is a browser-tool limitation, not a game bug.
+
+## Completion status
+
+Intermediate completed: Runner won **8–5 on Runner turn 17** by stealing Offworld Office during a seven-card Conduit breach. The visible log explicitly records the win. Full visible terminal text: `eval/jinteki-ux/runner-intermediate-terminal.txt`. Local Table completed two successful runs through Runner turn2 as a scoped comparison sample; the AI match was intentionally not completed. Ordinary UI replay export: `eval/jinteki-ux/runner-local-table-sample-replay.json`.
+
+- Intermediate R1: kept opening hand; played Sure Gamble, installed Carmen, played Wildcat Strike (Corp chose four cards), then Overclock on HQ. Let Diviner's unbreakable-by-Carmen code-gate subroutine fire, took one net damage, breached HQ and stole Superconducting Hub for one point. No strategy was based on the Corp's concealed cards. The Corp-side handoff happened at the Diviner encounter; from that point one agent controls both sides for operational efficiency, without claiming a competitive test.
+- Jinteki's **Let unbroken subroutines fire** / Corp **Fire unbroken subroutines** distinction makes the players' agreement explicit. The adjacent **Continue to Movement** option requires rules awareness; it is easy to wonder whether it also resolves damage. The log records exact damage source, trashed card, phase and agenda result once resolved.
+- Jinteki's zero-based position wording (“ICE protecting HQ at position 0”) is less natural for tabletop teaching than our outermost-first numbering.
+- Local Table sample R1: kept hand, played Sure Gamble, installed Cleaver, successfully ran Archives and accessed Hansei Review/Nico Campaign, then began installing Carmen with the successful-run discount shown as three credits. The action rail explicitly quotes costs and destinations. It also exposes optional out-of-encounter breaker boosts and an optional trash-program install step even with spare MU; these legal but unnecessary choices add teaching friction. This is a sampled comparison, not yet a full game.
+- Comparison identity/decks: René “Loup” Arcemont 40-card preset vs Haas-Bioroid: Precision Design AI 44-card preset as observed in the current lobby. Jinteki uses neutral teaching identities and 40/44-card Intermediate lists. Card/identity and AI-vs-human differences are not UI or balance findings.
+
+- R2: three basic credits then another HQ run. Diviner trashed Sure Gamble (an event) with its net damage and then ended the run. R1 had trashed a resource, so that run continued. This directly observed conditional behavior is clear in the log; no claim of a card-rule difference from our app.
+- C3–C6/R3–R5: Corp built a remote with Brân 1.0, advanced/scored Offworld Office for two points and began another advanced remote. Runner installed Verbal Plasticity and Telework Contract, searched for missing breakers, and paid three to trash the unprotected Regolith economy asset on R5. Current score at R6: Corp 2, Runner 1.
+- R6: Carmen offered a four-credit **Match strength of Brân 1.0** convenience action even though the encountered ice is a barrier and Carmen breaks sentries. I selected it and paid four Overclock credits, one source click per credit; matching strength did not enable Break Sentry. This was my real play mistake, not a forced state or undo test. It reveals a teaching opportunity: distinguish matching strength from having a compatible breaker. The payment prompt explicitly tracks “1 of 4”, etc.; choosing temporary run credits is clear but repetitive.
+- Visual evidence limitation: repeated accessibility/screenshot snapshots timed out although DOM reads and many native click handlers worked. No board readability/visual hierarchy claims are inferred from those failures. Brân's printed card image was read from the exact image URL already rendered in the DOM to confirm its barrier/bioroid text; that was an ordinary public UI asset, not hidden game state.
+
+- Bioroid ability discovery was source-assisted by the parent: Runner abilities live in `.runner-abilities`. The successful native UI target was the installed encountered ice image; its enclosing element clicks did nothing in this automation session. This is DOM/tool hit-target friction, not proven human-pointer hitbox failure. Lose-click breaking opens a subroutine chooser and can continue offering breaks until Done. Duplicate “End the run” choices lack ordinal context. I closed a nested chooser opened while learning, with no extra paid action; log confirms exactly two click breaks.
+- R8/R10: Mayfly provided **2 credits: Match strength and fully break Palisade**. R11: Carmen provided **2 credits: Fully break Tithe** and Unity **2 credits: Match strength and fully break Diviner**. R13 onward: Cleaver provided **1 credit: Fully break Palisade**. R14 onward Carmen provided **4 credits: Match strength and fully break Karunā**. These were used and confirmed in the log. This combined-cost convenience is worth borrowing, while keeping the individual legal actions available.
+- Read Run Timing help in place during the Brân encounter. It explains initiation, approach, encounter, movement, success, and run ends, including paid windows and jack-out timing. It is useful reference material; it did not itself reveal where the opponent-card click-break control was located. No undo was used or tested.
+- Later match: Runner sustained central pressure while Corp rebuilt economy, added ice, and scored Send a Message (Corp5–Runner4 on C13). Repeated R&D accesses found no agendas until Orbital Superiority on R16 brought Runner to6. On R17 Runner paid6 total to fully break Palisade/Karunā/Palisade, then stole Offworld Office for8. This long match reflects deck order, card choices, and novice self-play; it is not evidence about balance or AI strength.
+- Terminal quirk: after the log recorded the win at8–5, the next Send a Message access prompt appeared. I stopped immediately without resolving it. The win was clear in the log, but an explicit terminal overlay/disabled game controls would make completion clearer.
+
+## Direct Local Table encounter comparison
+
+On Runner turn2 in the same fresh Loup vs Precision Design sample, I ran R&D. The AI paid3 to rez Palisade: **rez cost3, printed/current strength2**. Cleaver had strength3, sufficient to break it; Carmen had strength2 and the wrong sentry subtype. I opened **Read full card**, read the Palisade modal, closed it, and continued into encounter. The rail stated **Cleaver — Strength matches · can break** (sufficient strength, not numerical equality) and **Carmen — Cannot break this ice / The ice type does not match**. It quoted **1 credit to break all remaining with this program alone**.
+
+I selected Cleaver's break ability, then **Break subroutine1: End the run**. The chooser said **Nothing spent yet; Cancel returns to your encounter options**. Only after selecting the target did the pool fall3→2 and the card summary change to **0 unresolved of1 / ✓Broken**. I passed priority, continued the run, accessed Whitespace, and finished accessing. The activity log tied the one-credit deduction to **Break subroutine1 · Cleaver**.
+
+This direct comparison supports three concrete lessons:
+
+- Our explicit subtype explanation and numbered target selection would have prevented or clarified the mistaken wrong-type Carmen boost experienced in Jinteki. The current legal boost button remains available, so explanatory guidance is still needed.
+- Jinteki's compatible **Fully break** control accomplishes this one-subroutine break in one ability selection; our flow requires ability selection then target selection. A clearly priced optional full-break action could reduce routine steps without removing granular choices.
+- Our target chooser also offered **Break0 subroutines —1credit**, and after all subroutines were broken the encounter still offered the break ability plus paid boosts. Those are legal choices under this project's full-rules profile, but risky teaching choices. Contextual explanations or de-emphasis would help; they are not legality defects.
+
+The run rail kept phase, pool/click totals, ice subtype/strength, unresolved count, and a card-inspection button available throughout. This is an observation of rendered controls/text; I make no screenshot-based readability claim. Passing otherwise unneeded breaker boosts was also required at Runner post-action, discard, Corp draw/action/discard, and Runner turn-begins windows. The resulting repeated **Continue** decisions were felt friction even against AI; human-priority requirements in Jinteki are a separate comparison dimension.
+
+Mixed-source payments and a bioroid encounter were not exercised in this Local Table sample. We can directly compare its ordinary pool payment to Jinteki's tested Overclock source picker, but cannot claim the same scenario or bioroid control was tested on both. No undo was exercised; the native Menu exposed **Undo your last decision** and an ordinary **Export game replay** action. Export completed despite the browser click tool reporting a timeout; the downloaded replay was copied unchanged into the evidence directory and parsed successfully.
+
+Evidence: `runner-local-table-palisade-encounter.txt`, `runner-local-table-palisade-broken.txt`, `runner-local-table-sample-replay.json` in `eval/jinteki-ux/`. No source files were changed for this review.
+
+No native Jinteki replay/download action was visible at terminal. I preserved the complete visible UI log instead and did not navigate away to hunt for an export. Browser test tabs were closed after evidence collection; the user's default-profile Beginner tabs were untouched.
+
+Replay metadata confirms the comparison preset IDs `loup-v1` vs `precision-design-v2`, engine `chiriboga-77c80b1-local-1`, rules `26.03-local-2`, seed `786064f8-ce12-46b0-bbc8-bcc1fca80eb0`,32 UI choices, and `conceded:false`. This is a sampled game stopped after its second successful run, not a terminal Local Table result.

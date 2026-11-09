@@ -1,0 +1,43 @@
+{
+  "engine": "chiriboga-77c80b1-local-1",
+  "config": {
+    "side": "corp",
+    "seed": "corp-target-anoetic-3",
+    "deckIds": {
+      "corp": "restoring-humanity-v1",
+      "runner": "zahya-v1"
+    }
+  },
+  "choices": [
+    {
+      "command": "n",
+      "index": 0,
+      "version": 1
+    },
+    {
+      "command": "install",
+      "index": 1,
+      "version": 8
+    },
+    {
+      "command": "rez",
+      "index": 0,
+      "version": 10
+    },
+    {
+      "command": "play",
+      "index": 0,
+      "version": 11
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 13
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 30
+    }
+  ]
+}

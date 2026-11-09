@@ -1,0 +1,3923 @@
+{
+  "browser": "Chrome extension",
+  "generatedAt": "2026-11-06T03:07:01.664Z",
+  "fixture": "nsg-example-gateway-adaptation-v1",
+  "rows": [
+    {
+      "version": "before",
+      "step": "layered-servers",
+      "image": "before-layered-servers-1280.jpg",
+      "boardScroll": [
+        {
+          "side": "corp",
+          "vertical": 67
+        },
+        {
+          "side": "runner",
+          "vertical": 18
+        }
+      ],
+      "brokenSubroutines": 0,
+      "clippedBoardCards": [
+        {
+          "bottom": 361.5,
+          "height": 105,
+          "left": 754.5,
+          "name": "Nico Campaign, 6 credits",
+          "right": 829.5,
+          "top": 256.5,
+          "width": 75
+        }
+      ],
+      "emptyZoneWidths": [
+        224
+      ],
+      "hand": [
+        {
+          "bottom": 785.796875,
+          "height": 161.34942626953125,
+          "left": 260.983154296875,
+          "name": "Cleaver — action available",
+          "right": 379.4508666992187,
+          "top": 624.4474487304688,
+          "width": 118.46771240234376
+        },
+        {
+          "bottom": 785.796875,
+          "height": 158.3453369140625,
+          "left": 384.3162231445313,
+          "name": "Sure Gamble — action available",
+          "right": 498.4945373535156,
+          "top": 627.4515380859375,
+          "width": 114.17831420898438
+        },
+        {
+          "bottom": 785.796875,
+          "height": 158.3453369140625,
+          "left": 505.5054626464844,
+          "name": "Verbal Plasticity — action available",
+          "right": 619.6837768554688,
+          "top": 627.4515380859375,
+          "width": 114.17831420898438
+        },
+        {
+          "bottom": 785.796875,
+          "height": 161.34942626953125,
+          "left": 624.5491333007812,
+          "name": "Carmen — action available",
+          "right": 743.016845703125,
+          "top": 624.4474487304688,
+          "width": 118.46771240234376
+        }
+      ],
+      "hiddenNumberLeaks": 0,
+      "hqIdentity": false,
+      "images": [
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30035.jpg"
+        },
+        {
+          "cssWidth": 75,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30072.jpg"
+        },
+        {
+          "cssWidth": 73,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30037.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30001.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30008.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30027.jpg"
+        },
+        {
+          "cssWidth": 110,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30006.jpg"
+        },
+        {
+          "cssWidth": 110,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30030.jpg"
+        },
+        {
+          "cssWidth": 110,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30034.jpg"
+        },
+        {
+          "cssWidth": 110,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30015.jpg"
+        }
+      ],
+      "nativeNames": [],
+      "pageOverflow": false,
+      "readableNames": 0,
+      "rigCardWidths": [
+        90,
+        90
+      ],
+      "servers": [
+        {
+          "ice": [
+            {
+              "bottom": 250.5,
+              "height": 75,
+              "id": "c36",
+              "left": 187.5,
+              "right": 292.5,
+              "top": 175.5,
+              "width": 105
+            }
+          ],
+          "name": "HQ",
+          "root": {
+            "bottom": 363.4921875,
+            "height": 106.9921875,
+            "left": 210.5,
+            "right": 269.5,
+            "top": 256.5,
+            "width": 59
+          },
+          "rootsBehindIce": false,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 250.5,
+              "height": 75,
+              "id": "c34",
+              "left": 371.5,
+              "right": 476.5,
+              "top": 175.5,
+              "width": 105
+            },
+            {
+              "bottom": 285.5,
+              "height": 75,
+              "id": "c32",
+              "left": 371.5,
+              "right": 476.5,
+              "top": 210.5,
+              "width": 105
+            }
+          ],
+          "name": "R&D",
+          "root": {
+            "bottom": 395.09375,
+            "height": 103.59375,
+            "left": 394.5,
+            "right": 453.5,
+            "top": 291.5,
+            "width": 59
+          },
+          "rootsBehindIce": false,
+          "innerToOuterOrder": false
+        },
+        {
+          "ice": [],
+          "name": "Archives",
+          "root": {
+            "bottom": 271.5,
+            "height": 90,
+            "left": 583.1875,
+            "right": 632.8125,
+            "top": 181.5,
+            "width": 49.625
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 250.5,
+              "height": 75,
+              "id": "c39",
+              "left": 739.5,
+              "right": 844.5,
+              "top": 175.5,
+              "width": 105
+            }
+          ],
+          "name": "Remote 0",
+          "root": {
+            "bottom": 361.5,
+            "height": 105,
+            "left": 754.5,
+            "right": 829.5,
+            "top": 256.5,
+            "width": 75
+          },
+          "rootsBehindIce": false,
+          "innerToOuterOrder": true
+        }
+      ],
+      "viewport": {
+        "dpr": 1,
+        "height": 800,
+        "width": 1280
+      }
+    },
+    {
+      "version": "before",
+      "step": "breaker-before-boost",
+      "image": "before-breaker-before-boost-1280.jpg",
+      "boardScroll": [
+        {
+          "side": "corp",
+          "vertical": 64
+        },
+        {
+          "side": "runner",
+          "vertical": 18
+        }
+      ],
+      "brokenSubroutines": 0,
+      "clippedBoardCards": [
+        {
+          "bottom": 358.5,
+          "height": 105,
+          "left": 754.5,
+          "name": "Nico Campaign, 6 credits",
+          "right": 829.5,
+          "top": 253.5,
+          "width": 75
+        }
+      ],
+      "emptyZoneWidths": [
+        192
+      ],
+      "hand": [
+        {
+          "bottom": 785.796875,
+          "height": 159.86297607421875,
+          "left": 322.643798828125,
+          "name": "Sure Gamble",
+          "right": 438.9781799316406,
+          "top": 625.9338989257812,
+          "width": 116.33438110351562
+        },
+        {
+          "bottom": 785.796875,
+          "height": 156.796875,
+          "left": 446,
+          "name": "Verbal Plasticity",
+          "right": 558,
+          "top": 629,
+          "width": 112
+        },
+        {
+          "bottom": 785.796875,
+          "height": 159.86297607421875,
+          "left": 565.0218505859375,
+          "name": "Carmen",
+          "right": 681.356201171875,
+          "top": 625.9338989257812,
+          "width": 116.3343505859375
+        }
+      ],
+      "hiddenNumberLeaks": 0,
+      "hqIdentity": false,
+      "images": [
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30035.jpg"
+        },
+        {
+          "cssWidth": 75,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30072.jpg"
+        },
+        {
+          "cssWidth": 73,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30037.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30001.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30008.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30006.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30027.jpg"
+        },
+        {
+          "cssWidth": 110,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30030.jpg"
+        },
+        {
+          "cssWidth": 110,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30034.jpg"
+        },
+        {
+          "cssWidth": 110,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30015.jpg"
+        },
+        {
+          "cssWidth": 113,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30072.jpg"
+        }
+      ],
+      "nativeNames": [],
+      "pageOverflow": false,
+      "readableNames": 0,
+      "rigCardWidths": [
+        90,
+        90,
+        90
+      ],
+      "servers": [
+        {
+          "ice": [
+            {
+              "bottom": 247.5,
+              "height": 75,
+              "id": "c36",
+              "left": 187.5,
+              "right": 292.5,
+              "top": 172.5,
+              "width": 105
+            }
+          ],
+          "name": "HQ",
+          "root": {
+            "bottom": 360.4921875,
+            "height": 106.9921875,
+            "left": 210.5,
+            "right": 269.5,
+            "top": 253.5,
+            "width": 59
+          },
+          "rootsBehindIce": false,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 247.5,
+              "height": 75,
+              "id": "c34",
+              "left": 371.5,
+              "right": 476.5,
+              "top": 172.5,
+              "width": 105
+            },
+            {
+              "bottom": 282.5,
+              "height": 75,
+              "id": "c32",
+              "left": 371.5,
+              "right": 476.5,
+              "top": 207.5,
+              "width": 105
+            }
+          ],
+          "name": "R&D",
+          "root": {
+            "bottom": 392.09375,
+            "height": 103.59375,
+            "left": 394.5,
+            "right": 453.5,
+            "top": 288.5,
+            "width": 59
+          },
+          "rootsBehindIce": false,
+          "innerToOuterOrder": false
+        },
+        {
+          "ice": [],
+          "name": "Archives",
+          "root": {
+            "bottom": 268.5,
+            "height": 90,
+            "left": 583.1875,
+            "right": 632.8125,
+            "top": 178.5,
+            "width": 49.625
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 247.5,
+              "height": 75,
+              "id": "c39",
+              "left": 739.5,
+              "right": 844.5,
+              "top": 172.5,
+              "width": 105
+            }
+          ],
+          "name": "Remote 0",
+          "root": {
+            "bottom": 358.5,
+            "height": 105,
+            "left": 754.5,
+            "right": 829.5,
+            "top": 253.5,
+            "width": 75
+          },
+          "rootsBehindIce": false,
+          "innerToOuterOrder": true
+        }
+      ],
+      "viewport": {
+        "dpr": 1,
+        "height": 800,
+        "width": 1280
+      }
+    },
+    {
+      "version": "before",
+      "step": "breaker-broken",
+      "image": "before-breaker-broken-1280.jpg",
+      "boardScroll": [
+        {
+          "side": "corp",
+          "vertical": 64
+        },
+        {
+          "side": "runner",
+          "vertical": 18
+        }
+      ],
+      "brokenSubroutines": 0,
+      "clippedBoardCards": [
+        {
+          "bottom": 358.5,
+          "height": 105,
+          "left": 754.5,
+          "name": "Nico Campaign, 6 credits",
+          "right": 829.5,
+          "top": 253.5,
+          "width": 75
+        }
+      ],
+      "emptyZoneWidths": [
+        192
+      ],
+      "hand": [
+        {
+          "bottom": 785.796875,
+          "height": 159.86297607421875,
+          "left": 322.643798828125,
+          "name": "Sure Gamble",
+          "right": 438.9781799316406,
+          "top": 625.9338989257812,
+          "width": 116.33438110351562
+        },
+        {
+          "bottom": 785.796875,
+          "height": 156.796875,
+          "left": 446,
+          "name": "Verbal Plasticity",
+          "right": 558,
+          "top": 629,
+          "width": 112
+        },
+        {
+          "bottom": 785.796875,
+          "height": 159.86297607421875,
+          "left": 565.0218505859375,
+          "name": "Carmen",
+          "right": 681.356201171875,
+          "top": 625.9338989257812,
+          "width": 116.3343505859375
+        }
+      ],
+      "hiddenNumberLeaks": 0,
+      "hqIdentity": false,
+      "images": [
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30035.jpg"
+        },
+        {
+          "cssWidth": 75,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30072.jpg"
+        },
+        {
+          "cssWidth": 73,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30037.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30001.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30008.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30006.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30027.jpg"
+        },
+        {
+          "cssWidth": 110,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30030.jpg"
+        },
+        {
+          "cssWidth": 110,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30034.jpg"
+        },
+        {
+          "cssWidth": 110,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30015.jpg"
+        }
+      ],
+      "nativeNames": [],
+      "pageOverflow": false,
+      "readableNames": 0,
+      "rigCardWidths": [
+        90,
+        90,
+        90
+      ],
+      "servers": [
+        {
+          "ice": [
+            {
+              "bottom": 247.5,
+              "height": 75,
+              "id": "c36",
+              "left": 187.5,
+              "right": 292.5,
+              "top": 172.5,
+              "width": 105
+            }
+          ],
+          "name": "HQ",
+          "root": {
+            "bottom": 360.4921875,
+            "height": 106.9921875,
+            "left": 210.5,
+            "right": 269.5,
+            "top": 253.5,
+            "width": 59
+          },
+          "rootsBehindIce": false,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 247.5,
+              "height": 75,
+              "id": "c34",
+              "left": 371.5,
+              "right": 476.5,
+              "top": 172.5,
+              "width": 105
+            },
+            {
+              "bottom": 282.5,
+              "height": 75,
+              "id": "c32",
+              "left": 371.5,
+              "right": 476.5,
+              "top": 207.5,
+              "width": 105
+            }
+          ],
+          "name": "R&D",
+          "root": {
+            "bottom": 392.09375,
+            "height": 103.59375,
+            "left": 394.5,
+            "right": 453.5,
+            "top": 288.5,
+            "width": 59
+          },
+          "rootsBehindIce": false,
+          "innerToOuterOrder": false
+        },
+        {
+          "ice": [],
+          "name": "Archives",
+          "root": {
+            "bottom": 268.5,
+            "height": 90,
+            "left": 583.1875,
+            "right": 632.8125,
+            "top": 178.5,
+            "width": 49.625
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 247.5,
+              "height": 75,
+              "id": "c39",
+              "left": 739.5,
+              "right": 844.5,
+              "top": 172.5,
+              "width": 105
+            }
+          ],
+          "name": "Remote 0",
+          "root": {
+            "bottom": 358.5,
+            "height": 105,
+            "left": 754.5,
+            "right": 829.5,
+            "top": 253.5,
+            "width": 75
+          },
+          "rootsBehindIce": false,
+          "innerToOuterOrder": true
+        }
+      ],
+      "viewport": {
+        "dpr": 1,
+        "height": 800,
+        "width": 1280
+      }
+    },
+    {
+      "version": "before",
+      "step": "tag-removed",
+      "image": "before-tag-removed-1280.jpg",
+      "boardScroll": [
+        {
+          "side": "corp",
+          "vertical": 64
+        },
+        {
+          "side": "runner",
+          "vertical": 18
+        }
+      ],
+      "brokenSubroutines": 0,
+      "clippedBoardCards": [],
+      "emptyZoneWidths": [
+        192
+      ],
+      "hand": [
+        {
+          "bottom": 785.796875,
+          "height": 161.34942626953125,
+          "left": 260.983154296875,
+          "name": "Sure Gamble",
+          "right": 379.4508666992187,
+          "top": 624.4474487304688,
+          "width": 118.46771240234376
+        },
+        {
+          "bottom": 785.796875,
+          "height": 158.3453369140625,
+          "left": 384.3162231445313,
+          "name": "Verbal Plasticity",
+          "right": 498.4945373535156,
+          "top": 627.4515380859375,
+          "width": 114.17831420898438
+        },
+        {
+          "bottom": 785.796875,
+          "height": 158.3453369140625,
+          "left": 505.5054626464844,
+          "name": "Carmen",
+          "right": 619.6837768554688,
+          "top": 627.4515380859375,
+          "width": 114.17831420898438
+        },
+        {
+          "bottom": 785.796875,
+          "height": 161.34942626953125,
+          "left": 624.5491333007812,
+          "name": "T400 Memory Diamond",
+          "right": 743.016845703125,
+          "top": 624.4474487304688,
+          "width": 118.46771240234376
+        }
+      ],
+      "hiddenNumberLeaks": 0,
+      "hqIdentity": false,
+      "images": [
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30035.jpg"
+        },
+        {
+          "cssWidth": 75,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30055.jpg"
+        },
+        {
+          "cssWidth": 75,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30072.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30001.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30008.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30006.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30027.jpg"
+        },
+        {
+          "cssWidth": 110,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30030.jpg"
+        },
+        {
+          "cssWidth": 110,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30034.jpg"
+        },
+        {
+          "cssWidth": 110,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30015.jpg"
+        },
+        {
+          "cssWidth": 110,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30031.jpg"
+        }
+      ],
+      "nativeNames": [],
+      "pageOverflow": false,
+      "readableNames": 0,
+      "rigCardWidths": [
+        90,
+        90,
+        90
+      ],
+      "servers": [
+        {
+          "ice": [
+            {
+              "bottom": 247.5,
+              "height": 75,
+              "id": "c36",
+              "left": 187.5,
+              "right": 292.5,
+              "top": 172.5,
+              "width": 105
+            }
+          ],
+          "name": "HQ",
+          "root": {
+            "bottom": 360.4921875,
+            "height": 106.9921875,
+            "left": 210.5,
+            "right": 269.5,
+            "top": 253.5,
+            "width": 59
+          },
+          "rootsBehindIce": false,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 247.5,
+              "height": 75,
+              "id": "c34",
+              "left": 371.5,
+              "right": 476.5,
+              "top": 172.5,
+              "width": 105
+            },
+            {
+              "bottom": 282.5,
+              "height": 75,
+              "id": "c32",
+              "left": 371.5,
+              "right": 476.5,
+              "top": 207.5,
+              "width": 105
+            }
+          ],
+          "name": "R&D",
+          "root": {
+            "bottom": 392.09375,
+            "height": 103.59375,
+            "left": 394.5,
+            "right": 453.5,
+            "top": 288.5,
+            "width": 59
+          },
+          "rootsBehindIce": false,
+          "innerToOuterOrder": false
+        },
+        {
+          "ice": [],
+          "name": "Archives",
+          "root": {
+            "bottom": 268.5,
+            "height": 90,
+            "left": 583.1875,
+            "right": 632.8125,
+            "top": 178.5,
+            "width": 49.625
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 247.5,
+              "height": 75,
+              "id": "c39",
+              "left": 739.5,
+              "right": 844.5,
+              "top": 172.5,
+              "width": 105
+            }
+          ],
+          "name": "Remote 0",
+          "root": {
+            "bottom": 343.5,
+            "height": 90,
+            "left": 776.0859375,
+            "right": 807.90625,
+            "top": 253.5,
+            "width": 31.8203125
+          },
+          "rootsBehindIce": false,
+          "innerToOuterOrder": true
+        }
+      ],
+      "viewport": {
+        "dpr": 1,
+        "height": 800,
+        "width": 1280
+      }
+    },
+    {
+      "version": "after",
+      "step": "layered-servers",
+      "image": "after-layered-servers-1280.jpg",
+      "boardScroll": [
+        {
+          "side": "corp",
+          "vertical": 0
+        },
+        {
+          "side": "runner",
+          "vertical": 0
+        }
+      ],
+      "brokenSubroutines": 0,
+      "clippedBoardCards": [],
+      "emptyZoneWidths": [
+        66
+      ],
+      "hand": [
+        {
+          "bottom": 789,
+          "height": 170.47625732421875,
+          "left": 247.9948272705078,
+          "name": "Cleaver — action available",
+          "right": 371.4868469238281,
+          "top": 618.5237426757812,
+          "width": 123.49201965332033
+        },
+        {
+          "bottom": 789,
+          "height": 168.83367919921875,
+          "left": 377.32861328125,
+          "name": "Sure Gamble — action available",
+          "right": 498.49853515625,
+          "top": 620.1663208007812,
+          "width": 121.169921875
+        },
+        {
+          "bottom": 789,
+          "height": 168.83367919921875,
+          "left": 505.50146484375,
+          "name": "Verbal Plasticity — action available",
+          "right": 626.67138671875,
+          "top": 620.1663208007812,
+          "width": 121.169921875
+        },
+        {
+          "bottom": 789,
+          "height": 170.47625732421875,
+          "left": 632.51318359375,
+          "name": "Carmen — action available",
+          "right": 756.0051879882812,
+          "top": 618.5237426757812,
+          "width": 123.49200439453124
+        }
+      ],
+      "hiddenNumberLeaks": 0,
+      "hqIdentity": true,
+      "images": [
+        {
+          "cssWidth": 73,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30035-600.webp"
+        },
+        {
+          "cssWidth": 73,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30037-300.webp"
+        },
+        {
+          "cssWidth": 73,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30037-300.webp"
+        },
+        {
+          "cssWidth": 75,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30072-300.webp"
+        },
+        {
+          "cssWidth": 86,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30001-600.webp"
+        },
+        {
+          "cssWidth": 98,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30008-300.webp"
+        },
+        {
+          "cssWidth": 98,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30027-300.webp"
+        },
+        {
+          "cssWidth": 118,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30006-300.webp"
+        },
+        {
+          "cssWidth": 118,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30030-300.webp"
+        },
+        {
+          "cssWidth": 118,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30034-300.webp"
+        },
+        {
+          "cssWidth": 118,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30015-300.webp"
+        }
+      ],
+      "nativeNames": [
+        {
+          "fontSize": "10px",
+          "text": "Nico Campaign"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Nico Campaign"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Palisade"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Leech"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Telework Contract"
+        },
+        {
+          "fontSize": "11px",
+          "text": "Cleaver"
+        },
+        {
+          "fontSize": "11px",
+          "text": "Sure Gamble"
+        },
+        {
+          "fontSize": "11px",
+          "text": "Verbal Plasticity"
+        },
+        {
+          "fontSize": "11px",
+          "text": "Carmen"
+        }
+      ],
+      "pageOverflow": false,
+      "readableNames": 6,
+      "rigCardWidths": [
+        100,
+        100
+      ],
+      "servers": [
+        {
+          "ice": [
+            {
+              "bottom": 319,
+              "height": 75,
+              "id": "c36",
+              "left": 146.5,
+              "right": 251.5,
+              "top": 244,
+              "width": 105
+            }
+          ],
+          "name": "HQ",
+          "root": {
+            "bottom": 238,
+            "height": 105,
+            "left": 161.5,
+            "right": 236.5,
+            "top": 133,
+            "width": 75
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 319,
+              "height": 75,
+              "id": "c32",
+              "left": 348.5,
+              "right": 453.5,
+              "top": 244,
+              "width": 105
+            },
+            {
+              "bottom": 345,
+              "height": 75,
+              "id": "c34",
+              "left": 348.5,
+              "right": 453.5,
+              "top": 270,
+              "width": 105
+            }
+          ],
+          "name": "R&D",
+          "root": {
+            "bottom": 238,
+            "height": 105,
+            "left": 363.5,
+            "right": 438.5,
+            "top": 133,
+            "width": 75
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [],
+          "name": "Archives",
+          "root": {
+            "bottom": 238,
+            "height": 105,
+            "left": 565.5,
+            "right": 640.5,
+            "top": 133,
+            "width": 75
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 320,
+              "height": 75,
+              "id": "c39",
+              "left": 752.5,
+              "right": 857.5,
+              "top": 245,
+              "width": 105
+            }
+          ],
+          "name": "Remote 0",
+          "root": {
+            "bottom": 239,
+            "height": 105,
+            "left": 767.5,
+            "right": 842.5,
+            "top": 134,
+            "width": 75
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        }
+      ],
+      "viewport": {
+        "dpr": 1,
+        "height": 800,
+        "width": 1280
+      }
+    },
+    {
+      "version": "after",
+      "step": "breaker-before-boost",
+      "image": "after-breaker-before-boost-1280.jpg",
+      "boardScroll": [
+        {
+          "side": "corp",
+          "vertical": 0
+        },
+        {
+          "side": "runner",
+          "vertical": 0
+        }
+      ],
+      "brokenSubroutines": 0,
+      "clippedBoardCards": [],
+      "emptyZoneWidths": [
+        66
+      ],
+      "hand": [
+        {
+          "bottom": 789,
+          "height": 169.65911865234375,
+          "left": 312.66021728515625,
+          "name": "Sure Gamble",
+          "right": 434.994140625,
+          "top": 619.3408813476562,
+          "width": 122.33392333984376
+        },
+        {
+          "bottom": 789,
+          "height": 168,
+          "left": 442,
+          "name": "Verbal Plasticity",
+          "right": 562,
+          "top": 621,
+          "width": 120
+        },
+        {
+          "bottom": 789,
+          "height": 169.65911865234375,
+          "left": 569.005859375,
+          "name": "Carmen",
+          "right": 691.3397827148438,
+          "top": 619.3408813476562,
+          "width": 122.33392333984376
+        }
+      ],
+      "hiddenNumberLeaks": 0,
+      "hqIdentity": true,
+      "images": [
+        {
+          "cssWidth": 73,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30035-600.webp"
+        },
+        {
+          "cssWidth": 73,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30037-300.webp"
+        },
+        {
+          "cssWidth": 73,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30037-300.webp"
+        },
+        {
+          "cssWidth": 75,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30072-300.webp"
+        },
+        {
+          "cssWidth": 86,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30001-600.webp"
+        },
+        {
+          "cssWidth": 98,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30008-300.webp"
+        },
+        {
+          "cssWidth": 98,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30006-300.webp"
+        },
+        {
+          "cssWidth": 98,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30027-300.webp"
+        },
+        {
+          "cssWidth": 118,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30030-300.webp"
+        },
+        {
+          "cssWidth": 118,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30034-300.webp"
+        },
+        {
+          "cssWidth": 118,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30015-300.webp"
+        },
+        {
+          "cssWidth": 113,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30072-300.webp"
+        }
+      ],
+      "nativeNames": [
+        {
+          "fontSize": "10px",
+          "text": "Nico Campaign"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Nico Campaign"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Palisade"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Leech"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Cleaver"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Telework Contract"
+        },
+        {
+          "fontSize": "11px",
+          "text": "Sure Gamble"
+        },
+        {
+          "fontSize": "11px",
+          "text": "Verbal Plasticity"
+        },
+        {
+          "fontSize": "11px",
+          "text": "Carmen"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Palisade"
+        }
+      ],
+      "pageOverflow": false,
+      "readableNames": 6,
+      "rigCardWidths": [
+        100,
+        100,
+        100
+      ],
+      "servers": [
+        {
+          "ice": [
+            {
+              "bottom": 319,
+              "height": 75,
+              "id": "c36",
+              "left": 146.5,
+              "right": 251.5,
+              "top": 244,
+              "width": 105
+            }
+          ],
+          "name": "HQ",
+          "root": {
+            "bottom": 238,
+            "height": 105,
+            "left": 161.5,
+            "right": 236.5,
+            "top": 133,
+            "width": 75
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 319,
+              "height": 75,
+              "id": "c32",
+              "left": 348.5,
+              "right": 453.5,
+              "top": 244,
+              "width": 105
+            },
+            {
+              "bottom": 345,
+              "height": 75,
+              "id": "c34",
+              "left": 348.5,
+              "right": 453.5,
+              "top": 270,
+              "width": 105
+            }
+          ],
+          "name": "R&D",
+          "root": {
+            "bottom": 238,
+            "height": 105,
+            "left": 363.5,
+            "right": 438.5,
+            "top": 133,
+            "width": 75
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [],
+          "name": "Archives",
+          "root": {
+            "bottom": 238,
+            "height": 105,
+            "left": 565.5,
+            "right": 640.5,
+            "top": 133,
+            "width": 75
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 320,
+              "height": 75,
+              "id": "c39",
+              "left": 752.5,
+              "right": 857.5,
+              "top": 245,
+              "width": 105
+            }
+          ],
+          "name": "Remote 0",
+          "root": {
+            "bottom": 239,
+            "height": 105,
+            "left": 767.5,
+            "right": 842.5,
+            "top": 134,
+            "width": 75
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        }
+      ],
+      "viewport": {
+        "dpr": 1,
+        "height": 800,
+        "width": 1280
+      }
+    },
+    {
+      "version": "after",
+      "step": "breaker-broken",
+      "image": "after-breaker-broken-1280.jpg",
+      "boardScroll": [
+        {
+          "side": "corp",
+          "vertical": 0
+        },
+        {
+          "side": "runner",
+          "vertical": 0
+        }
+      ],
+      "brokenSubroutines": 1,
+      "clippedBoardCards": [],
+      "emptyZoneWidths": [
+        66
+      ],
+      "hand": [
+        {
+          "bottom": 789,
+          "height": 169.65911865234375,
+          "left": 312.66021728515625,
+          "name": "Sure Gamble",
+          "right": 434.994140625,
+          "top": 619.3408813476562,
+          "width": 122.33392333984376
+        },
+        {
+          "bottom": 789,
+          "height": 168,
+          "left": 442,
+          "name": "Verbal Plasticity",
+          "right": 562,
+          "top": 621,
+          "width": 120
+        },
+        {
+          "bottom": 789,
+          "height": 169.65911865234375,
+          "left": 569.005859375,
+          "name": "Carmen",
+          "right": 691.3397827148438,
+          "top": 619.3408813476562,
+          "width": 122.33392333984376
+        }
+      ],
+      "hiddenNumberLeaks": 0,
+      "hqIdentity": true,
+      "images": [
+        {
+          "cssWidth": 73,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30035-600.webp"
+        },
+        {
+          "cssWidth": 73,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30037-300.webp"
+        },
+        {
+          "cssWidth": 73,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30037-300.webp"
+        },
+        {
+          "cssWidth": 75,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30072-300.webp"
+        },
+        {
+          "cssWidth": 86,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30001-600.webp"
+        },
+        {
+          "cssWidth": 98,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30008-300.webp"
+        },
+        {
+          "cssWidth": 98,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30006-300.webp"
+        },
+        {
+          "cssWidth": 98,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30027-300.webp"
+        },
+        {
+          "cssWidth": 118,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30030-300.webp"
+        },
+        {
+          "cssWidth": 118,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30034-300.webp"
+        },
+        {
+          "cssWidth": 118,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30015-300.webp"
+        },
+        {
+          "cssWidth": 113,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30072-300.webp"
+        }
+      ],
+      "nativeNames": [
+        {
+          "fontSize": "10px",
+          "text": "Nico Campaign"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Nico Campaign"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Palisade"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Leech"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Cleaver"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Telework Contract"
+        },
+        {
+          "fontSize": "11px",
+          "text": "Sure Gamble"
+        },
+        {
+          "fontSize": "11px",
+          "text": "Verbal Plasticity"
+        },
+        {
+          "fontSize": "11px",
+          "text": "Carmen"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Palisade"
+        }
+      ],
+      "pageOverflow": false,
+      "readableNames": 6,
+      "rigCardWidths": [
+        100,
+        100,
+        100
+      ],
+      "servers": [
+        {
+          "ice": [
+            {
+              "bottom": 319,
+              "height": 75,
+              "id": "c36",
+              "left": 146.5,
+              "right": 251.5,
+              "top": 244,
+              "width": 105
+            }
+          ],
+          "name": "HQ",
+          "root": {
+            "bottom": 238,
+            "height": 105,
+            "left": 161.5,
+            "right": 236.5,
+            "top": 133,
+            "width": 75
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 319,
+              "height": 75,
+              "id": "c32",
+              "left": 348.5,
+              "right": 453.5,
+              "top": 244,
+              "width": 105
+            },
+            {
+              "bottom": 345,
+              "height": 75,
+              "id": "c34",
+              "left": 348.5,
+              "right": 453.5,
+              "top": 270,
+              "width": 105
+            }
+          ],
+          "name": "R&D",
+          "root": {
+            "bottom": 238,
+            "height": 105,
+            "left": 363.5,
+            "right": 438.5,
+            "top": 133,
+            "width": 75
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [],
+          "name": "Archives",
+          "root": {
+            "bottom": 238,
+            "height": 105,
+            "left": 565.5,
+            "right": 640.5,
+            "top": 133,
+            "width": 75
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 320,
+              "height": 75,
+              "id": "c39",
+              "left": 752.5,
+              "right": 857.5,
+              "top": 245,
+              "width": 105
+            }
+          ],
+          "name": "Remote 0",
+          "root": {
+            "bottom": 239,
+            "height": 105,
+            "left": 767.5,
+            "right": 842.5,
+            "top": 134,
+            "width": 75
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        }
+      ],
+      "viewport": {
+        "dpr": 1,
+        "height": 800,
+        "width": 1280
+      }
+    },
+    {
+      "version": "after",
+      "step": "tag-removed",
+      "image": "after-tag-removed-1280.jpg",
+      "boardScroll": [
+        {
+          "side": "corp",
+          "vertical": 0
+        },
+        {
+          "side": "runner",
+          "vertical": 0
+        }
+      ],
+      "brokenSubroutines": 0,
+      "clippedBoardCards": [],
+      "emptyZoneWidths": [
+        66
+      ],
+      "hand": [
+        {
+          "bottom": 789,
+          "height": 170.47625732421875,
+          "left": 247.9948272705078,
+          "name": "Sure Gamble",
+          "right": 371.4868469238281,
+          "top": 618.5237426757812,
+          "width": 123.49201965332033
+        },
+        {
+          "bottom": 789,
+          "height": 168.83367919921875,
+          "left": 377.32861328125,
+          "name": "Verbal Plasticity",
+          "right": 498.49853515625,
+          "top": 620.1663208007812,
+          "width": 121.169921875
+        },
+        {
+          "bottom": 789,
+          "height": 168.83367919921875,
+          "left": 505.50146484375,
+          "name": "Carmen",
+          "right": 626.67138671875,
+          "top": 620.1663208007812,
+          "width": 121.169921875
+        },
+        {
+          "bottom": 789,
+          "height": 170.47625732421875,
+          "left": 632.51318359375,
+          "name": "T400 Memory Diamond",
+          "right": 756.0051879882812,
+          "top": 618.5237426757812,
+          "width": 123.49200439453124
+        }
+      ],
+      "hiddenNumberLeaks": 0,
+      "hqIdentity": true,
+      "images": [
+        {
+          "cssWidth": 73,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30035-600.webp"
+        },
+        {
+          "cssWidth": 75,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30055-300.webp"
+        },
+        {
+          "cssWidth": 73,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30037-300.webp"
+        },
+        {
+          "cssWidth": 75,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30072-300.webp"
+        },
+        {
+          "cssWidth": 86,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30001-600.webp"
+        },
+        {
+          "cssWidth": 98,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30008-300.webp"
+        },
+        {
+          "cssWidth": 98,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30006-300.webp"
+        },
+        {
+          "cssWidth": 98,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30027-300.webp"
+        },
+        {
+          "cssWidth": 118,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30030-300.webp"
+        },
+        {
+          "cssWidth": 118,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30034-300.webp"
+        },
+        {
+          "cssWidth": 118,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30015-300.webp"
+        },
+        {
+          "cssWidth": 118,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30031-300.webp"
+        }
+      ],
+      "nativeNames": [
+        {
+          "fontSize": "10px",
+          "text": "Ping"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Nico Campaign"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Palisade"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Leech"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Cleaver"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Telework Contract"
+        },
+        {
+          "fontSize": "11px",
+          "text": "Sure Gamble"
+        },
+        {
+          "fontSize": "11px",
+          "text": "Verbal Plasticity"
+        },
+        {
+          "fontSize": "11px",
+          "text": "Carmen"
+        },
+        {
+          "fontSize": "11px",
+          "text": "T400 Memory Diamond"
+        }
+      ],
+      "pageOverflow": false,
+      "readableNames": 7,
+      "rigCardWidths": [
+        100,
+        100,
+        100
+      ],
+      "servers": [
+        {
+          "ice": [
+            {
+              "bottom": 319,
+              "height": 75,
+              "id": "c36",
+              "left": 146.5,
+              "right": 251.5,
+              "top": 244,
+              "width": 105
+            }
+          ],
+          "name": "HQ",
+          "root": {
+            "bottom": 238,
+            "height": 105,
+            "left": 161.5,
+            "right": 236.5,
+            "top": 133,
+            "width": 75
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 319,
+              "height": 75,
+              "id": "c32",
+              "left": 348.5,
+              "right": 453.5,
+              "top": 244,
+              "width": 105
+            },
+            {
+              "bottom": 345,
+              "height": 75,
+              "id": "c34",
+              "left": 348.5,
+              "right": 453.5,
+              "top": 270,
+              "width": 105
+            }
+          ],
+          "name": "R&D",
+          "root": {
+            "bottom": 238,
+            "height": 105,
+            "left": 363.5,
+            "right": 438.5,
+            "top": 133,
+            "width": 75
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [],
+          "name": "Archives",
+          "root": {
+            "bottom": 238,
+            "height": 105,
+            "left": 565.5,
+            "right": 640.5,
+            "top": 133,
+            "width": 75
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 320,
+              "height": 75,
+              "id": "c39",
+              "left": 752.5,
+              "right": 857.5,
+              "top": 245,
+              "width": 105
+            }
+          ],
+          "name": "Remote 0",
+          "root": {
+            "bottom": 239,
+            "height": 105,
+            "left": 771.15625,
+            "right": 838.84375,
+            "top": 134,
+            "width": 67.6875
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        }
+      ],
+      "viewport": {
+        "dpr": 1,
+        "height": 800,
+        "width": 1280
+      }
+    },
+    {
+      "version": "before",
+      "step": "layered-servers",
+      "image": "before-layered-servers-1440.jpg",
+      "boardScroll": [
+        {
+          "side": "corp",
+          "vertical": 10
+        },
+        {
+          "side": "runner",
+          "vertical": 0
+        }
+      ],
+      "brokenSubroutines": 0,
+      "clippedBoardCards": [],
+      "emptyZoneWidths": [
+        281
+      ],
+      "hand": [
+        {
+          "bottom": 885.796875,
+          "height": 161.34942626953125,
+          "left": 340.983154296875,
+          "name": "Cleaver — action available",
+          "right": 459.4508666992187,
+          "top": 724.4474487304688,
+          "width": 118.46771240234376
+        },
+        {
+          "bottom": 885.796875,
+          "height": 158.3453369140625,
+          "left": 464.3162231445313,
+          "name": "Sure Gamble — action available",
+          "right": 578.4945678710938,
+          "top": 727.4515380859375,
+          "width": 114.1783447265625
+        },
+        {
+          "bottom": 885.796875,
+          "height": 158.3453369140625,
+          "left": 585.5054321289062,
+          "name": "Verbal Plasticity — action available",
+          "right": 699.6837768554688,
+          "top": 727.4515380859375,
+          "width": 114.1783447265625
+        },
+        {
+          "bottom": 885.796875,
+          "height": 161.34942626953125,
+          "left": 704.5491333007812,
+          "name": "Carmen — action available",
+          "right": 823.016845703125,
+          "top": 724.4474487304688,
+          "width": 118.46771240234376
+        }
+      ],
+      "hiddenNumberLeaks": 0,
+      "hqIdentity": false,
+      "images": [
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30035.jpg"
+        },
+        {
+          "cssWidth": 75,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30072.jpg"
+        },
+        {
+          "cssWidth": 73,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30037.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30001.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30008.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30027.jpg"
+        },
+        {
+          "cssWidth": 110,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30006.jpg"
+        },
+        {
+          "cssWidth": 110,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30030.jpg"
+        },
+        {
+          "cssWidth": 110,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30034.jpg"
+        },
+        {
+          "cssWidth": 110,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30015.jpg"
+        }
+      ],
+      "nativeNames": [],
+      "pageOverflow": false,
+      "readableNames": 0,
+      "rigCardWidths": [
+        90,
+        90
+      ],
+      "servers": [
+        {
+          "ice": [
+            {
+              "bottom": 250.5,
+              "height": 75,
+              "id": "c36",
+              "left": 187.5,
+              "right": 292.5,
+              "top": 175.5,
+              "width": 105
+            }
+          ],
+          "name": "HQ",
+          "root": {
+            "bottom": 363.4921875,
+            "height": 106.9921875,
+            "left": 210.5,
+            "right": 269.5,
+            "top": 256.5,
+            "width": 59
+          },
+          "rootsBehindIce": false,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 250.5,
+              "height": 75,
+              "id": "c34",
+              "left": 371.5,
+              "right": 476.5,
+              "top": 175.5,
+              "width": 105
+            },
+            {
+              "bottom": 285.5,
+              "height": 75,
+              "id": "c32",
+              "left": 371.5,
+              "right": 476.5,
+              "top": 210.5,
+              "width": 105
+            }
+          ],
+          "name": "R&D",
+          "root": {
+            "bottom": 395.09375,
+            "height": 103.59375,
+            "left": 394.5,
+            "right": 453.5,
+            "top": 291.5,
+            "width": 59
+          },
+          "rootsBehindIce": false,
+          "innerToOuterOrder": false
+        },
+        {
+          "ice": [],
+          "name": "Archives",
+          "root": {
+            "bottom": 271.5,
+            "height": 90,
+            "left": 583.1875,
+            "right": 632.8125,
+            "top": 181.5,
+            "width": 49.625
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 250.5,
+              "height": 75,
+              "id": "c39",
+              "left": 739.5,
+              "right": 844.5,
+              "top": 175.5,
+              "width": 105
+            }
+          ],
+          "name": "Remote 0",
+          "root": {
+            "bottom": 361.5,
+            "height": 105,
+            "left": 754.5,
+            "right": 829.5,
+            "top": 256.5,
+            "width": 75
+          },
+          "rootsBehindIce": false,
+          "innerToOuterOrder": true
+        }
+      ],
+      "viewport": {
+        "dpr": 1,
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "version": "before",
+      "step": "breaker-before-boost",
+      "image": "before-breaker-before-boost-1440.jpg",
+      "boardScroll": [
+        {
+          "side": "corp",
+          "vertical": 7
+        },
+        {
+          "side": "runner",
+          "vertical": 0
+        }
+      ],
+      "brokenSubroutines": 0,
+      "clippedBoardCards": [],
+      "emptyZoneWidths": [
+        249
+      ],
+      "hand": [
+        {
+          "bottom": 885.796875,
+          "height": 159.86297607421875,
+          "left": 402.643798828125,
+          "name": "Sure Gamble",
+          "right": 518.9781494140625,
+          "top": 725.9338989257812,
+          "width": 116.3343505859375
+        },
+        {
+          "bottom": 885.796875,
+          "height": 156.796875,
+          "left": 526,
+          "name": "Verbal Plasticity",
+          "right": 638,
+          "top": 729,
+          "width": 112
+        },
+        {
+          "bottom": 885.796875,
+          "height": 159.86297607421875,
+          "left": 645.0218505859375,
+          "name": "Carmen",
+          "right": 761.356201171875,
+          "top": 725.9338989257812,
+          "width": 116.3343505859375
+        }
+      ],
+      "hiddenNumberLeaks": 0,
+      "hqIdentity": false,
+      "images": [
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30035.jpg"
+        },
+        {
+          "cssWidth": 75,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30072.jpg"
+        },
+        {
+          "cssWidth": 73,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30037.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30001.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30008.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30006.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30027.jpg"
+        },
+        {
+          "cssWidth": 110,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30030.jpg"
+        },
+        {
+          "cssWidth": 110,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30034.jpg"
+        },
+        {
+          "cssWidth": 110,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30015.jpg"
+        },
+        {
+          "cssWidth": 113,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30072.jpg"
+        }
+      ],
+      "nativeNames": [],
+      "pageOverflow": false,
+      "readableNames": 0,
+      "rigCardWidths": [
+        90,
+        90,
+        90
+      ],
+      "servers": [
+        {
+          "ice": [
+            {
+              "bottom": 247.5,
+              "height": 75,
+              "id": "c36",
+              "left": 187.5,
+              "right": 292.5,
+              "top": 172.5,
+              "width": 105
+            }
+          ],
+          "name": "HQ",
+          "root": {
+            "bottom": 360.4921875,
+            "height": 106.9921875,
+            "left": 210.5,
+            "right": 269.5,
+            "top": 253.5,
+            "width": 59
+          },
+          "rootsBehindIce": false,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 247.5,
+              "height": 75,
+              "id": "c34",
+              "left": 371.5,
+              "right": 476.5,
+              "top": 172.5,
+              "width": 105
+            },
+            {
+              "bottom": 282.5,
+              "height": 75,
+              "id": "c32",
+              "left": 371.5,
+              "right": 476.5,
+              "top": 207.5,
+              "width": 105
+            }
+          ],
+          "name": "R&D",
+          "root": {
+            "bottom": 392.09375,
+            "height": 103.59375,
+            "left": 394.5,
+            "right": 453.5,
+            "top": 288.5,
+            "width": 59
+          },
+          "rootsBehindIce": false,
+          "innerToOuterOrder": false
+        },
+        {
+          "ice": [],
+          "name": "Archives",
+          "root": {
+            "bottom": 268.5,
+            "height": 90,
+            "left": 583.1875,
+            "right": 632.8125,
+            "top": 178.5,
+            "width": 49.625
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 247.5,
+              "height": 75,
+              "id": "c39",
+              "left": 739.5,
+              "right": 844.5,
+              "top": 172.5,
+              "width": 105
+            }
+          ],
+          "name": "Remote 0",
+          "root": {
+            "bottom": 358.5,
+            "height": 105,
+            "left": 754.5,
+            "right": 829.5,
+            "top": 253.5,
+            "width": 75
+          },
+          "rootsBehindIce": false,
+          "innerToOuterOrder": true
+        }
+      ],
+      "viewport": {
+        "dpr": 1,
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "version": "before",
+      "step": "breaker-broken",
+      "image": "before-breaker-broken-1440.jpg",
+      "boardScroll": [
+        {
+          "side": "corp",
+          "vertical": 7
+        },
+        {
+          "side": "runner",
+          "vertical": 0
+        }
+      ],
+      "brokenSubroutines": 0,
+      "clippedBoardCards": [],
+      "emptyZoneWidths": [
+        249
+      ],
+      "hand": [
+        {
+          "bottom": 885.796875,
+          "height": 159.86297607421875,
+          "left": 402.643798828125,
+          "name": "Sure Gamble",
+          "right": 518.9781494140625,
+          "top": 725.9338989257812,
+          "width": 116.3343505859375
+        },
+        {
+          "bottom": 885.796875,
+          "height": 156.796875,
+          "left": 526,
+          "name": "Verbal Plasticity",
+          "right": 638,
+          "top": 729,
+          "width": 112
+        },
+        {
+          "bottom": 885.796875,
+          "height": 159.86297607421875,
+          "left": 645.0218505859375,
+          "name": "Carmen",
+          "right": 761.356201171875,
+          "top": 725.9338989257812,
+          "width": 116.3343505859375
+        }
+      ],
+      "hiddenNumberLeaks": 0,
+      "hqIdentity": false,
+      "images": [
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30035.jpg"
+        },
+        {
+          "cssWidth": 75,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30072.jpg"
+        },
+        {
+          "cssWidth": 73,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30037.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30001.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30008.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30006.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30027.jpg"
+        },
+        {
+          "cssWidth": 110,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30030.jpg"
+        },
+        {
+          "cssWidth": 110,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30034.jpg"
+        },
+        {
+          "cssWidth": 110,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30015.jpg"
+        }
+      ],
+      "nativeNames": [],
+      "pageOverflow": false,
+      "readableNames": 0,
+      "rigCardWidths": [
+        90,
+        90,
+        90
+      ],
+      "servers": [
+        {
+          "ice": [
+            {
+              "bottom": 247.5,
+              "height": 75,
+              "id": "c36",
+              "left": 187.5,
+              "right": 292.5,
+              "top": 172.5,
+              "width": 105
+            }
+          ],
+          "name": "HQ",
+          "root": {
+            "bottom": 360.4921875,
+            "height": 106.9921875,
+            "left": 210.5,
+            "right": 269.5,
+            "top": 253.5,
+            "width": 59
+          },
+          "rootsBehindIce": false,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 247.5,
+              "height": 75,
+              "id": "c34",
+              "left": 371.5,
+              "right": 476.5,
+              "top": 172.5,
+              "width": 105
+            },
+            {
+              "bottom": 282.5,
+              "height": 75,
+              "id": "c32",
+              "left": 371.5,
+              "right": 476.5,
+              "top": 207.5,
+              "width": 105
+            }
+          ],
+          "name": "R&D",
+          "root": {
+            "bottom": 392.09375,
+            "height": 103.59375,
+            "left": 394.5,
+            "right": 453.5,
+            "top": 288.5,
+            "width": 59
+          },
+          "rootsBehindIce": false,
+          "innerToOuterOrder": false
+        },
+        {
+          "ice": [],
+          "name": "Archives",
+          "root": {
+            "bottom": 268.5,
+            "height": 90,
+            "left": 583.1875,
+            "right": 632.8125,
+            "top": 178.5,
+            "width": 49.625
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 247.5,
+              "height": 75,
+              "id": "c39",
+              "left": 739.5,
+              "right": 844.5,
+              "top": 172.5,
+              "width": 105
+            }
+          ],
+          "name": "Remote 0",
+          "root": {
+            "bottom": 358.5,
+            "height": 105,
+            "left": 754.5,
+            "right": 829.5,
+            "top": 253.5,
+            "width": 75
+          },
+          "rootsBehindIce": false,
+          "innerToOuterOrder": true
+        }
+      ],
+      "viewport": {
+        "dpr": 1,
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "version": "before",
+      "step": "tag-removed",
+      "image": "before-tag-removed-1440.jpg",
+      "boardScroll": [
+        {
+          "side": "corp",
+          "vertical": 7
+        },
+        {
+          "side": "runner",
+          "vertical": 0
+        }
+      ],
+      "brokenSubroutines": 0,
+      "clippedBoardCards": [],
+      "emptyZoneWidths": [
+        249
+      ],
+      "hand": [
+        {
+          "bottom": 885.796875,
+          "height": 161.34942626953125,
+          "left": 340.983154296875,
+          "name": "Sure Gamble",
+          "right": 459.4508666992187,
+          "top": 724.4474487304688,
+          "width": 118.46771240234376
+        },
+        {
+          "bottom": 885.796875,
+          "height": 158.3453369140625,
+          "left": 464.3162231445313,
+          "name": "Verbal Plasticity",
+          "right": 578.4945678710938,
+          "top": 727.4515380859375,
+          "width": 114.1783447265625
+        },
+        {
+          "bottom": 885.796875,
+          "height": 158.3453369140625,
+          "left": 585.5054321289062,
+          "name": "Carmen",
+          "right": 699.6837768554688,
+          "top": 727.4515380859375,
+          "width": 114.1783447265625
+        },
+        {
+          "bottom": 885.796875,
+          "height": 161.34942626953125,
+          "left": 704.5491333007812,
+          "name": "T400 Memory Diamond",
+          "right": 823.016845703125,
+          "top": 724.4474487304688,
+          "width": 118.46771240234376
+        }
+      ],
+      "hiddenNumberLeaks": 0,
+      "hqIdentity": false,
+      "images": [
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30035.jpg"
+        },
+        {
+          "cssWidth": 75,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30055.jpg"
+        },
+        {
+          "cssWidth": 75,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30072.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30001.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30008.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30006.jpg"
+        },
+        {
+          "cssWidth": 88,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30027.jpg"
+        },
+        {
+          "cssWidth": 110,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30030.jpg"
+        },
+        {
+          "cssWidth": 110,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30034.jpg"
+        },
+        {
+          "cssWidth": 110,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30015.jpg"
+        },
+        {
+          "cssWidth": 110,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards/30031.jpg"
+        }
+      ],
+      "nativeNames": [],
+      "pageOverflow": false,
+      "readableNames": 0,
+      "rigCardWidths": [
+        90,
+        90,
+        90
+      ],
+      "servers": [
+        {
+          "ice": [
+            {
+              "bottom": 247.5,
+              "height": 75,
+              "id": "c36",
+              "left": 187.5,
+              "right": 292.5,
+              "top": 172.5,
+              "width": 105
+            }
+          ],
+          "name": "HQ",
+          "root": {
+            "bottom": 360.4921875,
+            "height": 106.9921875,
+            "left": 210.5,
+            "right": 269.5,
+            "top": 253.5,
+            "width": 59
+          },
+          "rootsBehindIce": false,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 247.5,
+              "height": 75,
+              "id": "c34",
+              "left": 371.5,
+              "right": 476.5,
+              "top": 172.5,
+              "width": 105
+            },
+            {
+              "bottom": 282.5,
+              "height": 75,
+              "id": "c32",
+              "left": 371.5,
+              "right": 476.5,
+              "top": 207.5,
+              "width": 105
+            }
+          ],
+          "name": "R&D",
+          "root": {
+            "bottom": 392.09375,
+            "height": 103.59375,
+            "left": 394.5,
+            "right": 453.5,
+            "top": 288.5,
+            "width": 59
+          },
+          "rootsBehindIce": false,
+          "innerToOuterOrder": false
+        },
+        {
+          "ice": [],
+          "name": "Archives",
+          "root": {
+            "bottom": 268.5,
+            "height": 90,
+            "left": 583.1875,
+            "right": 632.8125,
+            "top": 178.5,
+            "width": 49.625
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 247.5,
+              "height": 75,
+              "id": "c39",
+              "left": 739.5,
+              "right": 844.5,
+              "top": 172.5,
+              "width": 105
+            }
+          ],
+          "name": "Remote 0",
+          "root": {
+            "bottom": 343.5,
+            "height": 90,
+            "left": 776.0859375,
+            "right": 807.90625,
+            "top": 253.5,
+            "width": 31.8203125
+          },
+          "rootsBehindIce": false,
+          "innerToOuterOrder": true
+        }
+      ],
+      "viewport": {
+        "dpr": 1,
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "version": "after",
+      "step": "layered-servers",
+      "image": "after-layered-servers-1440.jpg",
+      "boardScroll": [
+        {
+          "side": "corp",
+          "vertical": 0
+        },
+        {
+          "side": "runner",
+          "vertical": 0
+        }
+      ],
+      "brokenSubroutines": 0,
+      "clippedBoardCards": [],
+      "emptyZoneWidths": [
+        66
+      ],
+      "hand": [
+        {
+          "bottom": 878.796875,
+          "height": 187.520751953125,
+          "left": 303.6443786621094,
+          "name": "Cleaver — action available",
+          "right": 439.4855346679687,
+          "top": 691.276123046875,
+          "width": 135.84115600585938
+        },
+        {
+          "bottom": 878.796875,
+          "height": 185.71392822265625,
+          "left": 445.21148681640625,
+          "name": "Sure Gamble — action available",
+          "right": 578.4984130859375,
+          "top": 693.0829467773438,
+          "width": 133.28692626953125
+        },
+        {
+          "bottom": 878.796875,
+          "height": 185.71392822265625,
+          "left": 585.5015869140625,
+          "name": "Verbal Plasticity — action available",
+          "right": 718.7885131835938,
+          "top": 693.0829467773438,
+          "width": 133.28692626953125
+        },
+        {
+          "bottom": 878.796875,
+          "height": 187.520751953125,
+          "left": 724.5144653320312,
+          "name": "Carmen — action available",
+          "right": 860.3555908203125,
+          "top": 691.276123046875,
+          "width": 135.84112548828125
+        }
+      ],
+      "hiddenNumberLeaks": 0,
+      "hqIdentity": true,
+      "images": [
+        {
+          "cssWidth": 82,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30035-600.webp"
+        },
+        {
+          "cssWidth": 82,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30037-300.webp"
+        },
+        {
+          "cssWidth": 82,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30037-300.webp"
+        },
+        {
+          "cssWidth": 84,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30072-300.webp"
+        },
+        {
+          "cssWidth": 86,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30001-600.webp"
+        },
+        {
+          "cssWidth": 106,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30008-300.webp"
+        },
+        {
+          "cssWidth": 106,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30027-300.webp"
+        },
+        {
+          "cssWidth": 130,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30006-300.webp"
+        },
+        {
+          "cssWidth": 130,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30030-300.webp"
+        },
+        {
+          "cssWidth": 130,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30034-300.webp"
+        },
+        {
+          "cssWidth": 130,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30015-300.webp"
+        }
+      ],
+      "nativeNames": [
+        {
+          "fontSize": "10px",
+          "text": "Nico Campaign"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Nico Campaign"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Palisade"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Leech"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Telework Contract"
+        },
+        {
+          "fontSize": "11px",
+          "text": "Cleaver"
+        },
+        {
+          "fontSize": "11px",
+          "text": "Sure Gamble"
+        },
+        {
+          "fontSize": "11px",
+          "text": "Verbal Plasticity"
+        },
+        {
+          "fontSize": "11px",
+          "text": "Carmen"
+        }
+      ],
+      "pageOverflow": false,
+      "readableNames": 6,
+      "rigCardWidths": [
+        108,
+        108
+      ],
+      "servers": [
+        {
+          "ice": [
+            {
+              "bottom": 341,
+              "height": 84,
+              "id": "c36",
+              "left": 220,
+              "right": 338,
+              "top": 257,
+              "width": 118
+            }
+          ],
+          "name": "HQ",
+          "root": {
+            "bottom": 251,
+            "height": 118,
+            "left": 237,
+            "right": 321,
+            "top": 133,
+            "width": 84
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 341,
+              "height": 84,
+              "id": "c32",
+              "left": 422,
+              "right": 540,
+              "top": 257,
+              "width": 118
+            },
+            {
+              "bottom": 368,
+              "height": 84,
+              "id": "c34",
+              "left": 422,
+              "right": 540,
+              "top": 284,
+              "width": 118
+            }
+          ],
+          "name": "R&D",
+          "root": {
+            "bottom": 251,
+            "height": 118,
+            "left": 439,
+            "right": 523,
+            "top": 133,
+            "width": 84
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [],
+          "name": "Archives",
+          "root": {
+            "bottom": 251,
+            "height": 118,
+            "left": 641,
+            "right": 725,
+            "top": 133,
+            "width": 84
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 342,
+              "height": 84,
+              "id": "c39",
+              "left": 826,
+              "right": 944,
+              "top": 258,
+              "width": 118
+            }
+          ],
+          "name": "Remote 0",
+          "root": {
+            "bottom": 252,
+            "height": 118,
+            "left": 843,
+            "right": 927,
+            "top": 134,
+            "width": 84
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        }
+      ],
+      "viewport": {
+        "dpr": 1,
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "version": "after",
+      "step": "breaker-before-boost",
+      "image": "after-breaker-before-boost-1440.jpg",
+      "boardScroll": [
+        {
+          "side": "corp",
+          "vertical": 0
+        },
+        {
+          "side": "runner",
+          "vertical": 0
+        }
+      ],
+      "brokenSubroutines": 0,
+      "clippedBoardCards": [],
+      "emptyZoneWidths": [
+        66
+      ],
+      "hand": [
+        {
+          "bottom": 878.796875,
+          "height": 186.62188720703125,
+          "left": 374.42626953125,
+          "name": "Sure Gamble",
+          "right": 508.9935607910156,
+          "top": 692.1749877929688,
+          "width": 134.56729125976562
+        },
+        {
+          "bottom": 878.796875,
+          "height": 184.796875,
+          "left": 516,
+          "name": "Verbal Plasticity",
+          "right": 648,
+          "top": 694,
+          "width": 132
+        },
+        {
+          "bottom": 878.796875,
+          "height": 186.62188720703125,
+          "left": 655.0064086914062,
+          "name": "Carmen",
+          "right": 789.57373046875,
+          "top": 692.1749877929688,
+          "width": 134.56732177734375
+        }
+      ],
+      "hiddenNumberLeaks": 0,
+      "hqIdentity": true,
+      "images": [
+        {
+          "cssWidth": 82,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30035-600.webp"
+        },
+        {
+          "cssWidth": 82,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30037-300.webp"
+        },
+        {
+          "cssWidth": 82,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30037-300.webp"
+        },
+        {
+          "cssWidth": 84,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30072-300.webp"
+        },
+        {
+          "cssWidth": 86,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30001-600.webp"
+        },
+        {
+          "cssWidth": 106,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30008-300.webp"
+        },
+        {
+          "cssWidth": 106,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30006-300.webp"
+        },
+        {
+          "cssWidth": 106,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30027-300.webp"
+        },
+        {
+          "cssWidth": 130,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30030-300.webp"
+        },
+        {
+          "cssWidth": 130,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30034-300.webp"
+        },
+        {
+          "cssWidth": 130,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30015-300.webp"
+        },
+        {
+          "cssWidth": 113,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30072-300.webp"
+        }
+      ],
+      "nativeNames": [
+        {
+          "fontSize": "10px",
+          "text": "Nico Campaign"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Nico Campaign"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Palisade"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Leech"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Cleaver"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Telework Contract"
+        },
+        {
+          "fontSize": "11px",
+          "text": "Sure Gamble"
+        },
+        {
+          "fontSize": "11px",
+          "text": "Verbal Plasticity"
+        },
+        {
+          "fontSize": "11px",
+          "text": "Carmen"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Palisade"
+        }
+      ],
+      "pageOverflow": false,
+      "readableNames": 6,
+      "rigCardWidths": [
+        108,
+        108,
+        108
+      ],
+      "servers": [
+        {
+          "ice": [
+            {
+              "bottom": 341,
+              "height": 84,
+              "id": "c36",
+              "left": 220,
+              "right": 338,
+              "top": 257,
+              "width": 118
+            }
+          ],
+          "name": "HQ",
+          "root": {
+            "bottom": 251,
+            "height": 118,
+            "left": 237,
+            "right": 321,
+            "top": 133,
+            "width": 84
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 341,
+              "height": 84,
+              "id": "c32",
+              "left": 422,
+              "right": 540,
+              "top": 257,
+              "width": 118
+            },
+            {
+              "bottom": 368,
+              "height": 84,
+              "id": "c34",
+              "left": 422,
+              "right": 540,
+              "top": 284,
+              "width": 118
+            }
+          ],
+          "name": "R&D",
+          "root": {
+            "bottom": 251,
+            "height": 118,
+            "left": 439,
+            "right": 523,
+            "top": 133,
+            "width": 84
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [],
+          "name": "Archives",
+          "root": {
+            "bottom": 251,
+            "height": 118,
+            "left": 641,
+            "right": 725,
+            "top": 133,
+            "width": 84
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 342,
+              "height": 84,
+              "id": "c39",
+              "left": 826,
+              "right": 944,
+              "top": 258,
+              "width": 118
+            }
+          ],
+          "name": "Remote 0",
+          "root": {
+            "bottom": 252,
+            "height": 118,
+            "left": 843,
+            "right": 927,
+            "top": 134,
+            "width": 84
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        }
+      ],
+      "viewport": {
+        "dpr": 1,
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "version": "after",
+      "step": "breaker-broken",
+      "image": "after-breaker-broken-1440.jpg",
+      "boardScroll": [
+        {
+          "side": "corp",
+          "vertical": 0
+        },
+        {
+          "side": "runner",
+          "vertical": 0
+        }
+      ],
+      "brokenSubroutines": 1,
+      "clippedBoardCards": [],
+      "emptyZoneWidths": [
+        66
+      ],
+      "hand": [
+        {
+          "bottom": 878.796875,
+          "height": 186.62188720703125,
+          "left": 374.42626953125,
+          "name": "Sure Gamble",
+          "right": 508.9935607910156,
+          "top": 692.1749877929688,
+          "width": 134.56729125976562
+        },
+        {
+          "bottom": 878.796875,
+          "height": 184.796875,
+          "left": 516,
+          "name": "Verbal Plasticity",
+          "right": 648,
+          "top": 694,
+          "width": 132
+        },
+        {
+          "bottom": 878.796875,
+          "height": 186.62188720703125,
+          "left": 655.0064086914062,
+          "name": "Carmen",
+          "right": 789.57373046875,
+          "top": 692.1749877929688,
+          "width": 134.56732177734375
+        }
+      ],
+      "hiddenNumberLeaks": 0,
+      "hqIdentity": true,
+      "images": [
+        {
+          "cssWidth": 82,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30035-600.webp"
+        },
+        {
+          "cssWidth": 82,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30037-300.webp"
+        },
+        {
+          "cssWidth": 82,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30037-300.webp"
+        },
+        {
+          "cssWidth": 84,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30072-300.webp"
+        },
+        {
+          "cssWidth": 86,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30001-600.webp"
+        },
+        {
+          "cssWidth": 106,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30008-300.webp"
+        },
+        {
+          "cssWidth": 106,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30006-300.webp"
+        },
+        {
+          "cssWidth": 106,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30027-300.webp"
+        },
+        {
+          "cssWidth": 130,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30030-300.webp"
+        },
+        {
+          "cssWidth": 130,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30034-300.webp"
+        },
+        {
+          "cssWidth": 130,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30015-300.webp"
+        },
+        {
+          "cssWidth": 113,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30072-300.webp"
+        }
+      ],
+      "nativeNames": [
+        {
+          "fontSize": "10px",
+          "text": "Nico Campaign"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Nico Campaign"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Palisade"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Leech"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Cleaver"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Telework Contract"
+        },
+        {
+          "fontSize": "11px",
+          "text": "Sure Gamble"
+        },
+        {
+          "fontSize": "11px",
+          "text": "Verbal Plasticity"
+        },
+        {
+          "fontSize": "11px",
+          "text": "Carmen"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Palisade"
+        }
+      ],
+      "pageOverflow": false,
+      "readableNames": 6,
+      "rigCardWidths": [
+        108,
+        108,
+        108
+      ],
+      "servers": [
+        {
+          "ice": [
+            {
+              "bottom": 341,
+              "height": 84,
+              "id": "c36",
+              "left": 220,
+              "right": 338,
+              "top": 257,
+              "width": 118
+            }
+          ],
+          "name": "HQ",
+          "root": {
+            "bottom": 251,
+            "height": 118,
+            "left": 237,
+            "right": 321,
+            "top": 133,
+            "width": 84
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 341,
+              "height": 84,
+              "id": "c32",
+              "left": 422,
+              "right": 540,
+              "top": 257,
+              "width": 118
+            },
+            {
+              "bottom": 368,
+              "height": 84,
+              "id": "c34",
+              "left": 422,
+              "right": 540,
+              "top": 284,
+              "width": 118
+            }
+          ],
+          "name": "R&D",
+          "root": {
+            "bottom": 251,
+            "height": 118,
+            "left": 439,
+            "right": 523,
+            "top": 133,
+            "width": 84
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [],
+          "name": "Archives",
+          "root": {
+            "bottom": 251,
+            "height": 118,
+            "left": 641,
+            "right": 725,
+            "top": 133,
+            "width": 84
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 342,
+              "height": 84,
+              "id": "c39",
+              "left": 826,
+              "right": 944,
+              "top": 258,
+              "width": 118
+            }
+          ],
+          "name": "Remote 0",
+          "root": {
+            "bottom": 252,
+            "height": 118,
+            "left": 843,
+            "right": 927,
+            "top": 134,
+            "width": 84
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        }
+      ],
+      "viewport": {
+        "dpr": 1,
+        "height": 900,
+        "width": 1440
+      }
+    },
+    {
+      "version": "after",
+      "step": "tag-removed",
+      "image": "after-tag-removed-1440.jpg",
+      "boardScroll": [
+        {
+          "side": "corp",
+          "vertical": 0
+        },
+        {
+          "side": "runner",
+          "vertical": 0
+        }
+      ],
+      "brokenSubroutines": 0,
+      "clippedBoardCards": [],
+      "emptyZoneWidths": [
+        66
+      ],
+      "hand": [
+        {
+          "bottom": 878.796875,
+          "height": 187.520751953125,
+          "left": 303.6443786621094,
+          "name": "Sure Gamble",
+          "right": 439.4855346679687,
+          "top": 691.276123046875,
+          "width": 135.84115600585938
+        },
+        {
+          "bottom": 878.796875,
+          "height": 185.71392822265625,
+          "left": 445.21148681640625,
+          "name": "Verbal Plasticity",
+          "right": 578.4984130859375,
+          "top": 693.0829467773438,
+          "width": 133.28692626953125
+        },
+        {
+          "bottom": 878.796875,
+          "height": 185.71392822265625,
+          "left": 585.5015869140625,
+          "name": "Carmen",
+          "right": 718.7885131835938,
+          "top": 693.0829467773438,
+          "width": 133.28692626953125
+        },
+        {
+          "bottom": 878.796875,
+          "height": 187.520751953125,
+          "left": 724.5144653320312,
+          "name": "T400 Memory Diamond",
+          "right": 860.3555908203125,
+          "top": 691.276123046875,
+          "width": 135.84112548828125
+        }
+      ],
+      "hiddenNumberLeaks": 0,
+      "hqIdentity": true,
+      "images": [
+        {
+          "cssWidth": 82,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30035-600.webp"
+        },
+        {
+          "cssWidth": 84,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30055-300.webp"
+        },
+        {
+          "cssWidth": 82,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30037-300.webp"
+        },
+        {
+          "cssWidth": 84,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30072-300.webp"
+        },
+        {
+          "cssWidth": 86,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30001-600.webp"
+        },
+        {
+          "cssWidth": 106,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30008-300.webp"
+        },
+        {
+          "cssWidth": 106,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30006-300.webp"
+        },
+        {
+          "cssWidth": 106,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30027-300.webp"
+        },
+        {
+          "cssWidth": 130,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30030-300.webp"
+        },
+        {
+          "cssWidth": 130,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30034-300.webp"
+        },
+        {
+          "cssWidth": 130,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30015-300.webp"
+        },
+        {
+          "cssWidth": 130,
+          "loaded": true,
+          "src": "http://localhost:5173/assets/cards-display/30031-300.webp"
+        }
+      ],
+      "nativeNames": [
+        {
+          "fontSize": "10px",
+          "text": "Ping"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Nico Campaign"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Palisade"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Leech"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Cleaver"
+        },
+        {
+          "fontSize": "10px",
+          "text": "Telework Contract"
+        },
+        {
+          "fontSize": "11px",
+          "text": "Sure Gamble"
+        },
+        {
+          "fontSize": "11px",
+          "text": "Verbal Plasticity"
+        },
+        {
+          "fontSize": "11px",
+          "text": "Carmen"
+        },
+        {
+          "fontSize": "11px",
+          "text": "T400 Memory Diamond"
+        }
+      ],
+      "pageOverflow": false,
+      "readableNames": 7,
+      "rigCardWidths": [
+        108,
+        108,
+        108
+      ],
+      "servers": [
+        {
+          "ice": [
+            {
+              "bottom": 341,
+              "height": 84,
+              "id": "c36",
+              "left": 220,
+              "right": 338,
+              "top": 257,
+              "width": 118
+            }
+          ],
+          "name": "HQ",
+          "root": {
+            "bottom": 251,
+            "height": 118,
+            "left": 237,
+            "right": 321,
+            "top": 133,
+            "width": 84
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 341,
+              "height": 84,
+              "id": "c32",
+              "left": 422,
+              "right": 540,
+              "top": 257,
+              "width": 118
+            },
+            {
+              "bottom": 368,
+              "height": 84,
+              "id": "c34",
+              "left": 422,
+              "right": 540,
+              "top": 284,
+              "width": 118
+            }
+          ],
+          "name": "R&D",
+          "root": {
+            "bottom": 251,
+            "height": 118,
+            "left": 439,
+            "right": 523,
+            "top": 133,
+            "width": 84
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [],
+          "name": "Archives",
+          "root": {
+            "bottom": 251,
+            "height": 118,
+            "left": 641,
+            "right": 725,
+            "top": 133,
+            "width": 84
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        },
+        {
+          "ice": [
+            {
+              "bottom": 342,
+              "height": 84,
+              "id": "c39",
+              "left": 826,
+              "right": 944,
+              "top": 258,
+              "width": 118
+            }
+          ],
+          "name": "Remote 0",
+          "root": {
+            "bottom": 252,
+            "height": 118,
+            "left": 851.15625,
+            "right": 918.84375,
+            "top": 134,
+            "width": 67.6875
+          },
+          "rootsBehindIce": true,
+          "innerToOuterOrder": true
+        }
+      ],
+      "viewport": {
+        "dpr": 1,
+        "height": 900,
+        "width": 1440
+      }
+    }
+  ]
+}

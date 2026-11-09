@@ -1,0 +1,622 @@
+{
+  "side": "runner",
+  "terminal": {
+    "reason": "Corp reached 7 agenda points.",
+    "winner": "corp"
+  },
+  "steps": 732,
+  "turn": 21,
+  "diagnostics": [],
+  "humanDecisions": 87,
+  "trace": [
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Runner's Mulligan",
+      "version": 2
+    },
+    {
+      "command": "play",
+      "index": 2,
+      "label": "Wildcat Strike",
+      "phase": "Runner's Action Phase",
+      "version": 31
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "label": "Gain 1 credit",
+      "phase": "Runner's Action Phase",
+      "version": 35
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "label": "Gain 1 credit",
+      "phase": "Runner's Action Phase",
+      "version": 37
+    },
+    {
+      "command": "play",
+      "index": 2,
+      "label": "Sure Gamble",
+      "phase": "Runner's Action Phase",
+      "version": 39
+    },
+    {
+      "command": "discard",
+      "index": 0,
+      "label": "Leech",
+      "phase": "Runner's Discard Phase",
+      "version": 42
+    },
+    {
+      "command": "discard",
+      "index": 0,
+      "label": "Overclock",
+      "phase": "Runner's Discard Phase",
+      "version": 43
+    },
+    {
+      "command": "install",
+      "index": 1,
+      "label": "Install Cleaver into program row",
+      "phase": "Runner's Action Phase",
+      "version": 80
+    },
+    {
+      "command": "install",
+      "index": 2,
+      "label": "Install Buzzsaw into program row",
+      "phase": "Runner's Action Phase",
+      "version": 83
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Trash Before Install",
+      "version": 84
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "label": "Draw a card",
+      "phase": "Runner's Action Phase",
+      "version": 86
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "label": "Gain 1 credit",
+      "phase": "Runner's Action Phase",
+      "version": 88
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "label": "Gain 1 credit",
+      "phase": "Runner's Action Phase",
+      "version": 130
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "label": "Gain 1 credit",
+      "phase": "Runner's Action Phase",
+      "version": 132
+    },
+    {
+      "command": "run",
+      "index": 3,
+      "label": "Remote 0",
+      "phase": "Runner's Action Phase",
+      "version": 134
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Movement",
+      "version": 135
+    },
+    {
+      "command": "access",
+      "index": 0,
+      "label": "Nico Campaign",
+      "phase": "Run: Breach",
+      "version": 142
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Access",
+      "version": 143
+    },
+    {
+      "command": "run",
+      "index": 3,
+      "label": "Remote 0",
+      "phase": "Runner's Action Phase",
+      "version": 147
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Movement",
+      "version": 148
+    },
+    {
+      "command": "access",
+      "index": 0,
+      "label": "Nico Campaign",
+      "phase": "Run: Breach",
+      "version": 155
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Access",
+      "version": 156
+    },
+    {
+      "command": "run",
+      "index": 1,
+      "label": "R&D",
+      "phase": "Runner's Action Phase",
+      "version": 194
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Movement",
+      "version": 210
+    },
+    {
+      "command": "access",
+      "index": 0,
+      "label": "Facedown card",
+      "phase": "Run: Breach",
+      "version": 217
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Access",
+      "version": 218
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "label": "Draw a card",
+      "phase": "Runner's Action Phase",
+      "version": 222
+    },
+    {
+      "command": "play",
+      "index": 0,
+      "label": "Wildcat Strike",
+      "phase": "Runner's Action Phase",
+      "version": 224
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "label": "Gain 1 credit",
+      "phase": "Runner's Action Phase",
+      "version": 228
+    },
+    {
+      "command": "discard",
+      "index": 0,
+      "label": "Carnivore",
+      "phase": "Runner's Discard Phase",
+      "version": 230
+    },
+    {
+      "command": "discard",
+      "index": 0,
+      "label": "Verbal Plasticity",
+      "phase": "Runner's Discard Phase",
+      "version": 231
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "label": "Gain 1 credit",
+      "phase": "Runner's Action Phase",
+      "version": 263
+    },
+    {
+      "command": "install",
+      "index": 3,
+      "label": "Install Carmen into program row",
+      "phase": "Runner's Action Phase",
+      "version": 265
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Trash Before Install",
+      "version": 266
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "label": "Gain 1 credit",
+      "phase": "Runner's Action Phase",
+      "version": 268
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "label": "Gain 1 credit",
+      "phase": "Runner's Action Phase",
+      "version": 270
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "label": "Gain 1 credit",
+      "phase": "Runner's Action Phase",
+      "version": 303
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "label": "Gain 1 credit",
+      "phase": "Runner's Action Phase",
+      "version": 305
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "label": "Gain 1 credit",
+      "phase": "Runner's Action Phase",
+      "version": 307
+    },
+    {
+      "command": "run",
+      "index": 1,
+      "label": "R&D",
+      "phase": "Runner's Action Phase",
+      "version": 309
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Encounter Ice",
+      "version": 312
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Movement",
+      "version": 323
+    },
+    {
+      "command": "access",
+      "index": 0,
+      "label": "Facedown card",
+      "phase": "Run: Breach",
+      "version": 330
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Access",
+      "version": 331
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "label": "Draw a card",
+      "phase": "Runner's Action Phase",
+      "version": 372
+    },
+    {
+      "command": "run",
+      "index": 1,
+      "label": "R&D",
+      "phase": "Runner's Action Phase",
+      "version": 374
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Encounter Ice",
+      "version": 379
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Movement",
+      "version": 390
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Encounter Ice",
+      "version": 395
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Movement",
+      "version": 406
+    },
+    {
+      "command": "access",
+      "index": 0,
+      "label": "Facedown card",
+      "phase": "Run: Breach",
+      "version": 413
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Access",
+      "version": 414
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "label": "Draw a card",
+      "phase": "Runner's Action Phase",
+      "version": 418
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "label": "Draw a card",
+      "phase": "Runner's Action Phase",
+      "version": 420
+    },
+    {
+      "command": "run",
+      "index": 1,
+      "label": "R&D",
+      "phase": "Runner's Action Phase",
+      "version": 455
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Encounter Ice",
+      "version": 458
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Movement",
+      "version": 469
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Encounter Ice",
+      "version": 474
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Movement",
+      "version": 485
+    },
+    {
+      "command": "access",
+      "index": 0,
+      "label": "Facedown card",
+      "phase": "Run: Breach",
+      "version": 492
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Access",
+      "version": 493
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "label": "Draw a card",
+      "phase": "Runner's Action Phase",
+      "version": 497
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "label": "Draw a card",
+      "phase": "Runner's Action Phase",
+      "version": 499
+    },
+    {
+      "command": "run",
+      "index": 1,
+      "label": "R&D",
+      "phase": "Runner's Action Phase",
+      "version": 501
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Encounter Ice",
+      "version": 504
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Movement",
+      "version": 515
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Encounter Ice",
+      "version": 520
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Movement",
+      "version": 531
+    },
+    {
+      "command": "access",
+      "index": 0,
+      "label": "Palisade",
+      "phase": "Run: Breach",
+      "version": 538
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Access",
+      "version": 539
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "label": "Draw a card",
+      "phase": "Runner's Action Phase",
+      "version": 589
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "label": "Draw a card",
+      "phase": "Runner's Action Phase",
+      "version": 591
+    },
+    {
+      "command": "run",
+      "index": 1,
+      "label": "R&D",
+      "phase": "Runner's Action Phase",
+      "version": 593
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Encounter Ice",
+      "version": 596
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Movement",
+      "version": 607
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Encounter Ice",
+      "version": 612
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Movement",
+      "version": 623
+    },
+    {
+      "command": "access",
+      "index": 0,
+      "label": "Facedown card",
+      "phase": "Run: Breach",
+      "version": 630
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Access",
+      "version": 631
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "label": "Draw a card",
+      "phase": "Runner's Action Phase",
+      "version": 635
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "label": "Draw a card",
+      "phase": "Runner's Action Phase",
+      "version": 670
+    },
+    {
+      "command": "run",
+      "index": 1,
+      "label": "R&D",
+      "phase": "Runner's Action Phase",
+      "version": 672
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Encounter Ice",
+      "version": 677
+    },
+    {
+      "command": "run",
+      "index": 1,
+      "label": "R&D",
+      "phase": "Runner's Action Phase",
+      "version": 687
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Encounter Ice",
+      "version": 690
+    },
+    {
+      "command": "run",
+      "index": 1,
+      "label": "R&D",
+      "phase": "Runner's Action Phase",
+      "version": 700
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "label": "Continue",
+      "phase": "Run: Encounter Ice",
+      "version": 703
+    }
+  ]
+}

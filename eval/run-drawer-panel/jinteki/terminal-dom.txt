@@ -1,0 +1,245 @@
+- banner:
+  - link "Netrunner Local Table":
+    - /url: /
+    - generic: N∕
+    - text: NETRUNNER
+    - generic: LOCAL TABLE
+  - generic: SYSTEM GATEWAY · CORPORATION
+  - navigation:
+    - button "Ask helper"
+    - button "How to play"
+    - button "Game log"
+    - button "Menu ☰" [active]
+- main:
+  - region "Corporation play area":
+    - text: CORPORATION
+    - generic: YOU
+    - generic "Credits in your pool":
+      - generic: "2"
+      - generic: "2"
+      - generic: credits
+    - img "0 clicks remaining out of 3":
+      - generic: ↻
+      - generic: —
+      - generic: ↻
+      - generic: —
+      - generic: ↻
+      - generic: —
+    - generic: 0 clicks
+    - button "Inspect 2 scored agenda points":
+      - strong: "2"
+      - generic: / 7 AGENDA
+    - heading "HQ · 1 ICE" [level=3]
+    - button "Inspect HQ · 3 cards": 3 cards ›
+    - 'button "Jinteki: Restoring Humanity"'
+    - generic "HQ ice, innermost to outermost":
+      - button "Diviner":
+        - generic "Current strength 3":
+          - generic: STR
+          - generic: "3"
+        - generic: Diviner
+    - heading "R&D · 1 ICE" [level=3]
+    - generic: 14 cards
+    - generic "14 cards in deck":
+      - generic: "N"
+    - generic "R&D ice, innermost to outermost":
+      - button "Tithe":
+        - generic: UNREZZED
+        - generic "Current strength 1":
+          - generic: STR
+          - generic: "1"
+        - generic: Tithe
+    - heading "Archives" [level=3]
+    - button "Inspect Archives · 14 cards": 14 cards ›
+    - button "Anoetic Void":
+      - generic: Anoetic Void
+    - generic "Archives ice, innermost to outermost"
+    - heading "Remote 4 · 2 ICE" [level=3]
+    - generic: EMPTY ROOT
+    - generic "Remote 4 ice, innermost to outermost":
+      - button "Whitespace":
+        - generic "Current strength 0":
+          - generic: STR
+          - generic: "0"
+        - generic: Whitespace
+      - button "Palisade":
+        - generic "Current strength 4":
+          - generic: STR
+          - generic: "4"
+        - generic: Palisade
+  - strong: RUN ON HQ
+  - generic: ／
+  - generic: Approach
+  - generic: ›
+  - generic: Encounter
+  - generic: ›
+  - generic: Movement
+  - generic: ›
+  - generic: Breach
+  - generic: ›
+  - generic: Access
+  - region "Runner play area":
+    - text: RUNNER
+    - text: CHIRIBOGA AI
+    - generic "Current turn"
+    - generic "Credits in your pool":
+      - generic: "8"
+      - generic: "8"
+      - generic "credits changed by -1": "-1"
+      - generic: credits
+    - img "1 click remaining out of 4":
+      - generic: ↻
+      - generic: —
+      - generic: ↻
+      - generic: —
+      - generic: ↻
+      - generic: —
+      - generic: ↻
+      - generic: —
+    - generic: 1 click
+    - generic "Available memory":
+      - strong: "0"
+      - generic: MU free
+    - button "Scroll runner play area": ↕ Board
+    - button "Inspect 7 scored agenda points":
+      - strong: "7"
+      - generic "points changed by 3": "+3"
+      - generic: / 7 AGENDA
+    - 'button "René \"Loup\" Arcemont: Party Animal"'
+    - generic: IDENTITY
+    - generic: PROGRAMS
+    - button "Buzzsaw":
+      - generic "Current strength 3":
+        - generic: STR
+        - generic: "3"
+      - generic: Buzzsaw
+    - button "Cleaver":
+      - generic "Current strength 3":
+        - generic: STR
+        - generic: "3"
+      - generic: Cleaver
+    - button "Carmen":
+      - generic "Current strength 2":
+        - generic: STR
+        - generic: "2"
+      - generic: Carmen
+    - button "Leech, 2 virus counters":
+      - generic "2 virus counters":
+        - generic: ☣
+        - generic: "2"
+        - generic: VIRUS
+        - generic: "+1"
+      - generic: Leech
+    - generic: HARDWARE
+    - generic: —
+    - generic: RESOURCES
+    - button "Smartware Distributor, 2 hosted credits":
+      - generic "2 hosted credits":
+        - generic: ¢
+        - generic: "2"
+        - generic: CR
+      - generic: Smartware Distributor
+    - button "Smartware Distributor, 4 hosted credits":
+      - generic "4 hosted credits":
+        - generic: ¢
+        - generic: "4"
+        - generic: CR
+      - generic: Smartware Distributor
+    - generic: STACK
+    - generic "18 cards in deck":
+      - generic: "N"
+    - generic: 18 cards
+    - button "HEAP 11":
+      - text: HEAP
+      - generic: "11"
+    - generic: RESOLVING
+    - button "Jailbreak":
+      - generic: Jailbreak
+  - region "Your hand":
+    - generic: YOUR HQ
+    - generic: Hover to read · Click to inspect
+    - generic: 3 cards · limit 5
+    - button "Karunā":
+      - generic: Karunā
+    - button "Palisade":
+      - generic: Palisade
+    - button "Hedge Fund":
+      - generic: Hedge Fund
+  - complementary "Game decisions":
+    - generic: GAME COMPLETE
+    - generic: TURN 11
+    - heading "Game over." [level=1]
+    - region "Run threats and card details"
+    - region "Your available decisions":
+      - paragraph: Every run tells a story.
+      - generic "Available actions":
+        - text: RUNNER WINS
+        - heading "Another run awaits." [level=2]
+        - paragraph: Runner reached 7 agenda points.
+        - button "Play again →"
+      - generic "Activity & last action"
+      - region "Last resource change":
+        - text: LAST RESOURCE CHANGE
+        - generic: TURN 11
+        - heading "Resource changes" [level=3]
+        - list:
+          - generic: Corp HQ · cards
+          - strong: −2 · 3 left
+          - generic: Runner · credits
+          - strong: −1 · 8 left
+          - generic: Runner · clicks
+          - strong: −1 · 1 left
+          - generic: Runner · agenda points
+          - strong: +3 · 7 total
+          - generic: Leech · programs
+          - strong: +1 · 2 virus counters
+        - paragraph: Net resource changes. Automatic effects are included.
+      - button "Watch actions again ↺"
+      - text: ACTIVITY
+      - button "Full log ›"
+      - group "Activity view":
+        - button "Runner activity" [pressed]
+        - button "Latest"
+      - heading "Runner · turn 11" [level=2]
+      - paragraph: 2 runs · 1 install · 2 agendas stolen · 37 events · oldest first
+      - list "Runner · turn 11 events":
+        - listitem: 1 credit taken from Smartware Distributor
+        - listitem: 1 credit taken from Smartware Distributor
+        - listitem: Runner spent one click
+        - listitem: Runner spent 1 credit from credit pool
+        - listitem: Runner installed Leech
+        - listitem: Runner spent one click
+        - listitem: Run initiated attacking HQ
+        - listitem: Approaching outermost piece of ice protecting HQ
+        - listitem: Corp spent 2 credits from credit pool
+        - listitem: Corp rezzed Diviner protecting HQ · ice 1
+        - listitem: Approaching outermost piece of ice protecting HQ
+        - listitem: Encountering Diviner protecting HQ · ice 1
+        - listitem: "Using Buzzsaw:"
+        - listitem: Runner spent 1 credit from credit pool
+        - listitem: Subroutine "Do 1 net damage. If you trash a card with a printed play or install cost that is an odd number, end the run." broken
+        - listitem: Approaching HQ
+        - listitem: Run successful
+        - listitem: 1 virus counter placed on Leech
+        - listitem: Superconducting Hub accessed
+        - listitem: Superconducting Hub stolen
+        - listitem: Run ends
+        - listitem: Runner spent one click
+        - listitem: Played "Jailbreak"
+        - listitem: Run initiated attacking HQ
+        - listitem: Approaching outermost piece of ice protecting HQ
+        - listitem: Approaching outermost piece of ice protecting HQ
+        - listitem: Encountering Diviner protecting HQ · ice 1
+        - listitem: "Using Buzzsaw:"
+        - listitem: Runner spent 1 credit from credit pool
+        - listitem: Subroutine "Do 1 net damage. If you trash a card with a printed play or install cost that is an odd number, end the run." broken
+        - listitem: Approaching HQ
+        - listitem: Run successful
+        - listitem: 1 virus counter placed on Leech
+        - text: Runner drew a card
+        - generic: Card effect · Jailbreak
+        - listitem: Offworld Office accessed
+        - listitem: Offworld Office stolen
+        - listitem: Runner reached 7 agenda points.
+      - generic: Read any visible card with a click
+- status: "Run: Access. Runner reached 7 agenda points. Corp HQ · cards: 3 remaining. Runner · credits: 8 remaining. Runner · clicks: 1 remaining. Runner · agenda points: 7 total. Leech · programs: 2 virus counters"

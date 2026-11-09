@@ -1,0 +1,16 @@
+{
+  "id": 12,
+  "seed": "gateway-benchmark-30001-30051-0",
+  "runnerId": "loup-v1",
+  "corpId": "reality-plus-v2",
+  "runnerFamily": "baseline",
+  "corpFamily": "candidate",
+  "status": "completed",
+  "winner": "runner",
+  "reason": "Runner reached 7 agenda points.",
+  "runnerPoints": 7,
+  "corpPoints": 4,
+  "turn": 32,
+  "steps": 1167,
+  "ms": 2326
+}

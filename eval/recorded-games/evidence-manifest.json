@@ -1,0 +1,123 @@
+{
+  "reviewedOn": "2026-11-06",
+  "sources": [
+    {
+      "id": "neon-starter",
+      "videoId": "EpoV0ezJFFg",
+      "url": "https://www.youtube.com/watch?v=EpoV0ezJFFg",
+      "title": "Netrunner - System Gateway Starter Decks (Full Demo Game)",
+      "creator": "Neon Static",
+      "durationSeconds": 2064,
+      "captionFileSha256": "5f70c81975fbca34ceff44d578c3b2d6c8dc4e5a3f44d5296c60221064ff7c8a",
+      "captionBytes": 613822,
+      "selectedTrack": "en",
+      "trackKind": "asr",
+      "videoReviewResolution": "1280x720",
+      "logCropPixels": null,
+      "evidenceFrames": [
+        {
+          "seconds": 111,
+          "purpose": "Opening remote placement"
+        },
+        {
+          "seconds": 645,
+          "purpose": "End R4; only three narrated actions"
+        },
+        {
+          "seconds": 1570,
+          "purpose": "Late unaccessed remote"
+        },
+        {
+          "seconds": 1755,
+          "purpose": "Overwritten Urtica and Send a Message advancement"
+        }
+      ]
+    },
+    {
+      "id": "lt-starter",
+      "videoId": "4Gr47iNjo0w",
+      "url": "https://www.youtube.com/watch?v=4Gr47iNjo0w",
+      "title": "ANDROID NETRUNNER / System Gateway STARTER DECKS PLAYTHROUGH",
+      "creator": "Legendary Tactics",
+      "durationSeconds": 1554,
+      "captionFileSha256": "405627f42393d6be94f2cf4b3ae5f0e57c864cfd41cf9410412802d4b9ab40fa",
+      "captionBytes": 37332,
+      "selectedTrack": "en",
+      "trackKind": "non-asr",
+      "videoReviewResolution": "1280x720",
+      "logCropPixels": {
+        "x": 1080,
+        "y": 348,
+        "width": 200,
+        "height": 275
+      },
+      "evidenceFrames": [
+        {
+          "seconds": 156,
+          "purpose": "Corp hand before last click of C1"
+        },
+        {
+          "seconds": 230,
+          "purpose": "Two first-turn Red Team payouts"
+        },
+        {
+          "seconds": 490,
+          "purpose": "Red Team still installed on R2"
+        },
+        {
+          "seconds": 595,
+          "purpose": "Fifth Red Team payout and trash"
+        },
+        {
+          "seconds": 1150,
+          "purpose": "Urtica flatline ending"
+        }
+      ]
+    },
+    {
+      "id": "lt-booster",
+      "videoId": "NwMp40meA1A",
+      "url": "https://www.youtube.com/watch?v=NwMp40meA1A",
+      "title": "ANDROID NETRUNNER / System Gateway BOOSTER DECKS PLAYTHROUGH",
+      "creator": "Legendary Tactics",
+      "durationSeconds": 2599,
+      "captionFileSha256": "f3862b6a1f4eb51ac62b5ff360458b1d9aa2141b95eba1586170db11d1ea6bad",
+      "captionBytes": 55203,
+      "selectedTrack": "en",
+      "trackKind": "non-asr",
+      "videoReviewResolution": "1280x720",
+      "logCropPixels": {
+        "x": 1080,
+        "y": 348,
+        "width": 200,
+        "height": 275
+      },
+      "evidenceFrames": [
+        {
+          "seconds": 90,
+          "purpose": "Initial board and starter economy"
+        },
+        {
+          "seconds": 1750,
+          "purpose": "Regolith revealed in Server 2"
+        },
+        {
+          "seconds": 1770,
+          "purpose": "C13 credit checkpoint and Regolith balance"
+        },
+        {
+          "seconds": 1970,
+          "purpose": "C15 root installs"
+        },
+        {
+          "seconds": 2255,
+          "purpose": "Terminal score and credit totals"
+        }
+      ]
+    }
+  ],
+  "captionAcquisition": "uvx yt-dlp --skip-download --no-playlist --write-subs --write-auto-subs --sub-langs en --sub-format json3 --write-info-json -o <private-cache>/%(id)s.%(ext)s <source URLs>",
+  "videoAcquisition": "uvx yt-dlp --no-playlist --js-runtimes node -f bestvideo[height<=720][ext=mp4]/best[height<=720] -o <private-cache>/%(id)s.%(ext)s <source URLs>",
+  "ocrMethod": "ffmpeg fps=1/10,crop=200:275:1080:348,scale=800:1100; macOS Vision VNRecognizeTextRequest accurate/en-US; overlap alignment followed by manual annotation against narration/frames. 116 starter log frames and 224 booster log frames, plus targeted ending frames.",
+  "limitations": "The annotation is manual research, not a lossless import of a native replay. Approximate times, source corrections, unknown cards and explicit gaps are retained in ledgers. Raw captions and signed media URLs are intentionally omitted."
+}

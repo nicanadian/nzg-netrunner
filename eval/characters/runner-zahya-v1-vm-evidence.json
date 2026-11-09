@@ -1,0 +1,3652 @@
+{
+  "terminal": {
+    "winner": "runner",
+    "reason": "Runner reached 7 agenda points."
+  },
+  "points": [
+    7,
+    2
+  ],
+  "turn": 38,
+  "choices": 99,
+  "checkpoints": [
+    {
+      "choice": 12,
+      "turn": 2,
+      "phase": {
+        "title": "Run: End",
+        "identifier": "Run 6.4",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "note": "Optional: gain 2 credits for this run’s accesses · once per turn"
+        },
+        "label": "Zahya Sadeghi: Versatile Smuggler",
+        "card": {
+          "id": "c42",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30010,
+          "title": "Zahya Sadeghi: Versatile Smuggler",
+          "type": "identity",
+          "subTypes": [
+            "Cyborg"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c42",
+        "source": "Zahya Sadeghi: Versatile Smuggler",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 13,
+      "turn": 2,
+      "phase": {
+        "title": "Zahya Sadeghi",
+        "identifier": "Run 6.4",
+        "source": "Zahya Sadeghi: Versatile Smuggler"
+      },
+      "option": {
+        "index": 0,
+        "cost": null,
+        "label": "Gain 2 credit",
+        "card": null,
+        "server": null,
+        "sourceId": "c42",
+        "command": "continue"
+      }
+    },
+    {
+      "choice": 14,
+      "turn": 2,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 2,
+        "cost": {
+          "clicks": 1,
+          "credits": 3
+        },
+        "label": "Install Pennyshaver into hardware row",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "command": "install"
+      }
+    },
+    {
+      "choice": 16,
+      "turn": 4,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 17,
+      "turn": 4,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 18,
+      "turn": 4,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 19,
+      "turn": 4,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 20,
+      "turn": 6,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 21,
+      "turn": 6,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 22,
+      "turn": 6,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 23,
+      "turn": 6,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 24,
+      "turn": 8,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 25,
+      "turn": 8,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 26,
+      "turn": 8,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 27,
+      "turn": 8,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 28,
+      "turn": 10,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 29,
+      "turn": 10,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 30,
+      "turn": 10,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 31,
+      "turn": 10,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 32,
+      "turn": 12,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 33,
+      "turn": 12,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 34,
+      "turn": 12,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 35,
+      "turn": 12,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 36,
+      "turn": 14,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 37,
+      "turn": 14,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 38,
+      "turn": 14,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 39,
+      "turn": 14,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 40,
+      "turn": 16,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 41,
+      "turn": 16,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 42,
+      "turn": 16,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 43,
+      "turn": 16,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 44,
+      "turn": 18,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 45,
+      "turn": 18,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 46,
+      "turn": 18,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 47,
+      "turn": 18,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 48,
+      "turn": 20,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 49,
+      "turn": 20,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 50,
+      "turn": 20,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 51,
+      "turn": 20,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 52,
+      "turn": 22,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 53,
+      "turn": 22,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 54,
+      "turn": 22,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 55,
+      "turn": 22,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 56,
+      "turn": 24,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 57,
+      "turn": 24,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 58,
+      "turn": 24,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 59,
+      "turn": 24,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 60,
+      "turn": 26,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 61,
+      "turn": 26,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 62,
+      "turn": 26,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 63,
+      "turn": 26,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 64,
+      "turn": 28,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 65,
+      "turn": 28,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 66,
+      "turn": 28,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 67,
+      "turn": 28,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 68,
+      "turn": 30,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 69,
+      "turn": 30,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 70,
+      "turn": 30,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 71,
+      "turn": 30,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 72,
+      "turn": 32,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 73,
+      "turn": 32,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 74,
+      "turn": 32,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 75,
+      "turn": 32,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 76,
+      "turn": 34,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 77,
+      "turn": 34,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 78,
+      "turn": 34,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 79,
+      "turn": 34,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Pennyshaver · Place 1 credit on this hardware, then take all credits from it.",
+        "card": {
+          "id": "c52",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30014,
+          "title": "Pennyshaver",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c52",
+        "detail": "Place 1 credit on this hardware, then take all credits from it.",
+        "source": "Pennyshaver",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 87,
+      "turn": 36,
+      "phase": {
+        "title": "Run: End",
+        "identifier": "Run 6.4",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "note": "Optional: gain 1 credits for this run’s accesses · once per turn"
+        },
+        "label": "Zahya Sadeghi: Versatile Smuggler",
+        "card": {
+          "id": "c42",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30010,
+          "title": "Zahya Sadeghi: Versatile Smuggler",
+          "type": "identity",
+          "subTypes": [
+            "Cyborg"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c42",
+        "source": "Zahya Sadeghi: Versatile Smuggler",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 88,
+      "turn": 36,
+      "phase": {
+        "title": "Zahya Sadeghi",
+        "identifier": "Run 6.4",
+        "source": "Zahya Sadeghi: Versatile Smuggler"
+      },
+      "option": {
+        "index": 0,
+        "cost": null,
+        "label": "Gain 1 credit",
+        "card": null,
+        "server": null,
+        "sourceId": "c42",
+        "command": "continue"
+      }
+    }
+  ],
+  "history": [
+    {
+      "text": "Corp spent one click",
+      "turn": 29,
+      "side": "corp"
+    },
+    {
+      "text": "Corp gained one credit",
+      "turn": 29,
+      "side": "corp"
+    },
+    {
+      "text": "Using Pennyshaver:",
+      "turn": 30,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 30,
+      "side": "runner"
+    },
+    {
+      "text": "1 credit placed on Pennyshaver",
+      "turn": 30,
+      "side": "runner"
+    },
+    {
+      "text": "1 credit taken from Pennyshaver",
+      "turn": 30,
+      "side": "runner"
+    },
+    {
+      "text": "Using Pennyshaver:",
+      "turn": 30,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 30,
+      "side": "runner"
+    },
+    {
+      "text": "1 credit placed on Pennyshaver",
+      "turn": 30,
+      "side": "runner"
+    },
+    {
+      "text": "1 credit taken from Pennyshaver",
+      "turn": 30,
+      "side": "runner"
+    },
+    {
+      "text": "Using Pennyshaver:",
+      "turn": 30,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 30,
+      "side": "runner"
+    },
+    {
+      "text": "1 credit placed on Pennyshaver",
+      "turn": 30,
+      "side": "runner"
+    },
+    {
+      "text": "1 credit taken from Pennyshaver",
+      "turn": 30,
+      "side": "runner"
+    },
+    {
+      "text": "Using Pennyshaver:",
+      "turn": 30,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 30,
+      "side": "runner"
+    },
+    {
+      "text": "1 credit placed on Pennyshaver",
+      "turn": 30,
+      "side": "runner"
+    },
+    {
+      "text": "1 credit taken from Pennyshaver",
+      "turn": 30,
+      "side": "runner"
+    },
+    {
+      "text": "Corp drew a card",
+      "turn": 31,
+      "side": "corp",
+      "draw": {
+        "kind": "mandatory"
+      }
+    },
+    {
+      "text": "Corp spent one click",
+      "turn": 31,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent 3 credits",
+      "turn": 31,
+      "side": "corp"
+    },
+    {
+      "text": "Corp installed ice protecting a remote server",
+      "turn": 31,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent one click",
+      "turn": 31,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent one credit",
+      "turn": 31,
+      "side": "corp"
+    },
+    {
+      "text": "Card advanced",
+      "turn": 31,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent one click",
+      "turn": 31,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent one credit",
+      "turn": 31,
+      "side": "corp"
+    },
+    {
+      "text": "Card advanced",
+      "turn": 31,
+      "side": "corp"
+    },
+    {
+      "text": "Using Pennyshaver:",
+      "turn": 32,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 32,
+      "side": "runner"
+    },
+    {
+      "text": "1 credit placed on Pennyshaver",
+      "turn": 32,
+      "side": "runner"
+    },
+    {
+      "text": "1 credit taken from Pennyshaver",
+      "turn": 32,
+      "side": "runner"
+    },
+    {
+      "text": "Using Pennyshaver:",
+      "turn": 32,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 32,
+      "side": "runner"
+    },
+    {
+      "text": "1 credit placed on Pennyshaver",
+      "turn": 32,
+      "side": "runner"
+    },
+    {
+      "text": "1 credit taken from Pennyshaver",
+      "turn": 32,
+      "side": "runner"
+    },
+    {
+      "text": "Using Pennyshaver:",
+      "turn": 32,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 32,
+      "side": "runner"
+    },
+    {
+      "text": "1 credit placed on Pennyshaver",
+      "turn": 32,
+      "side": "runner"
+    },
+    {
+      "text": "1 credit taken from Pennyshaver",
+      "turn": 32,
+      "side": "runner"
+    },
+    {
+      "text": "Using Pennyshaver:",
+      "turn": 32,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 32,
+      "side": "runner"
+    },
+    {
+      "text": "1 credit placed on Pennyshaver",
+      "turn": 32,
+      "side": "runner"
+    },
+    {
+      "text": "1 credit taken from Pennyshaver",
+      "turn": 32,
+      "side": "runner"
+    },
+    {
+      "text": "Corp drew a card",
+      "turn": 33,
+      "side": "corp",
+      "draw": {
+        "kind": "mandatory"
+      }
+    },
+    {
+      "text": "Corp spent one click",
+      "turn": 33,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent one credit",
+      "turn": 33,
+      "side": "corp"
+    },
+    {
+      "text": "Card advanced",
+      "turn": 33,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent one click",
+      "turn": 33,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent one credit",
+      "turn": 33,
+      "side": "corp"
+    },
+    {
+      "text": "Card advanced",
+      "turn": 33,
+      "side": "corp"
+    },
+    {
+      "text": "Orbital Superiority scored",
+      "turn": 33,
+      "side": "corp"
+    },
+    {
+      "text": "Do 4 meat damage or give the Runner 1 tag triggered",
+      "turn": 33,
+      "side": "corp"
+    },
+    {
+      "text": "1 tag added",
+      "turn": 33,
+      "side": "corp"
+    },
+    {
+      "text": "Corp gained 2 credits",
+      "turn": 33,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent one click",
+      "turn": 33,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent one credit",
+      "turn": 33,
+      "side": "corp"
+    },
+    {
+      "text": "Played \"Retribution\"",
+      "turn": 33,
+      "side": "corp"
+    },
+    {
+      "text": "Carmen trashed",
+      "turn": 33,
+      "side": "corp"
+    },
+    {
+      "text": "Using Pennyshaver:",
+      "turn": 34,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 34,
+      "side": "runner"
+    },
+    {
+      "text": "1 credit placed on Pennyshaver",
+      "turn": 34,
+      "side": "runner"
+    },
+    {
+      "text": "1 credit taken from Pennyshaver",
+      "turn": 34,
+      "side": "runner"
+    },
+    {
+      "text": "Using Pennyshaver:",
+      "turn": 34,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 34,
+      "side": "runner"
+    },
+    {
+      "text": "1 credit placed on Pennyshaver",
+      "turn": 34,
+      "side": "runner"
+    },
+    {
+      "text": "1 credit taken from Pennyshaver",
+      "turn": 34,
+      "side": "runner"
+    },
+    {
+      "text": "Using Pennyshaver:",
+      "turn": 34,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 34,
+      "side": "runner"
+    },
+    {
+      "text": "1 credit placed on Pennyshaver",
+      "turn": 34,
+      "side": "runner"
+    },
+    {
+      "text": "1 credit taken from Pennyshaver",
+      "turn": 34,
+      "side": "runner"
+    },
+    {
+      "text": "Using Pennyshaver:",
+      "turn": 34,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 34,
+      "side": "runner"
+    },
+    {
+      "text": "1 credit placed on Pennyshaver",
+      "turn": 34,
+      "side": "runner"
+    },
+    {
+      "text": "1 credit taken from Pennyshaver",
+      "turn": 34,
+      "side": "runner"
+    },
+    {
+      "text": "Corp drew a card",
+      "turn": 35,
+      "side": "corp",
+      "draw": {
+        "kind": "mandatory"
+      }
+    },
+    {
+      "text": "Corp spent one click",
+      "turn": 35,
+      "side": "corp"
+    },
+    {
+      "text": "Played \"Predictive Planogram\"",
+      "turn": 35,
+      "side": "corp"
+    },
+    {
+      "text": "Corp gained 3 credits",
+      "turn": 35,
+      "side": "corp"
+    },
+    {
+      "text": "Corp drew 3 cards",
+      "turn": 35,
+      "side": "corp",
+      "draw": {
+        "kind": "effect",
+        "source": "Predictive Planogram"
+      }
+    },
+    {
+      "text": "Corp spent one click",
+      "turn": 35,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent one credit",
+      "turn": 35,
+      "side": "corp"
+    },
+    {
+      "text": "Played \"Retribution\"",
+      "turn": 35,
+      "side": "corp"
+    },
+    {
+      "text": "Pennyshaver trashed",
+      "turn": 35,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent one click",
+      "turn": 35,
+      "side": "corp"
+    },
+    {
+      "text": "Played \"Predictive Planogram\"",
+      "turn": 35,
+      "side": "corp"
+    },
+    {
+      "text": "Corp gained 3 credits",
+      "turn": 35,
+      "side": "corp"
+    },
+    {
+      "text": "Corp drew 3 cards",
+      "turn": 35,
+      "side": "corp",
+      "draw": {
+        "kind": "effect",
+        "source": "Predictive Planogram"
+      }
+    },
+    {
+      "text": "Corp discarded \"hidden card\"",
+      "turn": 35,
+      "side": "corp"
+    },
+    {
+      "text": "Corp discarded \"hidden card\"",
+      "turn": 35,
+      "side": "corp"
+    },
+    {
+      "text": "Corp discarded \"hidden card\"",
+      "turn": 35,
+      "side": "corp"
+    },
+    {
+      "text": "Corp discarded \"hidden card\"",
+      "turn": 35,
+      "side": "corp"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 36,
+      "side": "runner"
+    },
+    {
+      "text": "Run initiated attacking HQ",
+      "turn": 36,
+      "side": "runner"
+    },
+    {
+      "text": "Approaching outermost piece of ice protecting HQ",
+      "turn": 36,
+      "side": "runner"
+    },
+    {
+      "text": "Corp spent 5 credits",
+      "turn": 36,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Corp rezzed Funhouse protecting HQ at position 1",
+      "turn": 36,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Encountering Funhouse protecting HQ at position 1",
+      "turn": 36,
+      "side": "runner"
+    },
+    {
+      "text": "1 tag added",
+      "turn": 36,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Corp gained 2 credits",
+      "turn": 36,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Firing \"Give the Runner 1 tag unless they pay 4 credit.\" on Funhouse protecting HQ at position 1:",
+      "turn": 36,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Runner spent 4 credits",
+      "turn": 36,
+      "side": "runner"
+    },
+    {
+      "text": "Approaching next piece of ice protecting HQ",
+      "turn": 36,
+      "side": "runner"
+    },
+    {
+      "text": "Encountering Tithe protecting HQ at position 0",
+      "turn": 36,
+      "side": "runner"
+    },
+    {
+      "text": "Firing \"Do 1 net damage.\" on Tithe protecting HQ at position 0:",
+      "turn": 36,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Runner takes 1 net damage",
+      "turn": 36,
+      "side": "runner"
+    },
+    {
+      "text": "Overclock trashed",
+      "turn": 36,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Firing \"Gain 1 credit.\" on Tithe protecting HQ at position 0:",
+      "turn": 36,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Corp gained one credit",
+      "turn": 36,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Approaching HQ",
+      "turn": 36,
+      "side": "runner"
+    },
+    {
+      "text": "Run successful",
+      "turn": 36,
+      "side": "runner"
+    },
+    {
+      "text": "Offworld Office accessed",
+      "turn": 36,
+      "side": "runner"
+    },
+    {
+      "text": "Offworld Office stolen",
+      "turn": 36,
+      "side": "runner"
+    },
+    {
+      "text": "Run ends",
+      "turn": 36,
+      "side": "runner"
+    },
+    {
+      "text": "Runner gained one credit",
+      "turn": 36,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 36,
+      "side": "runner"
+    },
+    {
+      "text": "Runner drew a card",
+      "turn": 36,
+      "side": "runner",
+      "draw": {
+        "kind": "action"
+      }
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 36,
+      "side": "runner"
+    },
+    {
+      "text": "Runner gained one credit",
+      "turn": 36,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 36,
+      "side": "runner"
+    },
+    {
+      "text": "Runner gained one credit",
+      "turn": 36,
+      "side": "runner"
+    },
+    {
+      "text": "Corp drew a card",
+      "turn": 37,
+      "side": "corp",
+      "draw": {
+        "kind": "mandatory"
+      }
+    },
+    {
+      "text": "Corp spent one click",
+      "turn": 37,
+      "side": "corp"
+    },
+    {
+      "text": "Corp installed a card in root of a remote server",
+      "turn": 37,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent one click",
+      "turn": 37,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent one credit",
+      "turn": 37,
+      "side": "corp"
+    },
+    {
+      "text": "Card advanced",
+      "turn": 37,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent one click",
+      "turn": 37,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent one credit",
+      "turn": 37,
+      "side": "corp"
+    },
+    {
+      "text": "Card advanced",
+      "turn": 37,
+      "side": "corp"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 38,
+      "side": "runner"
+    },
+    {
+      "text": "Run initiated attacking HQ",
+      "turn": 38,
+      "side": "runner"
+    },
+    {
+      "text": "Approaching outermost piece of ice protecting HQ",
+      "turn": 38,
+      "side": "runner"
+    },
+    {
+      "text": "Encountering Funhouse protecting HQ at position 1",
+      "turn": 38,
+      "side": "runner"
+    },
+    {
+      "text": "1 tag added",
+      "turn": 38,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Corp gained 2 credits",
+      "turn": 38,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Firing \"Give the Runner 1 tag unless they pay 4 credit.\" on Funhouse protecting HQ at position 1:",
+      "turn": 38,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Runner spent 4 credits",
+      "turn": 38,
+      "side": "runner"
+    },
+    {
+      "text": "Approaching next piece of ice protecting HQ",
+      "turn": 38,
+      "side": "runner"
+    },
+    {
+      "text": "Encountering Tithe protecting HQ at position 0",
+      "turn": 38,
+      "side": "runner"
+    },
+    {
+      "text": "Firing \"Do 1 net damage.\" on Tithe protecting HQ at position 0:",
+      "turn": 38,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Runner takes 1 net damage",
+      "turn": 38,
+      "side": "runner"
+    },
+    {
+      "text": "Botulus trashed",
+      "turn": 38,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Firing \"Gain 1 credit.\" on Tithe protecting HQ at position 0:",
+      "turn": 38,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Corp gained one credit",
+      "turn": 38,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Approaching HQ",
+      "turn": 38,
+      "side": "runner"
+    },
+    {
+      "text": "Run successful",
+      "turn": 38,
+      "side": "runner"
+    },
+    {
+      "text": "Tomorrow's Headline accessed",
+      "turn": 38,
+      "side": "runner"
+    },
+    {
+      "text": "Tomorrow's Headline stolen",
+      "turn": 38,
+      "side": "runner"
+    },
+    {
+      "text": "Runner reached 7 agenda points.",
+      "turn": 38,
+      "side": "runner"
+    }
+  ]
+}

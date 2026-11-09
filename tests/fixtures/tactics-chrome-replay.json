@@ -1,0 +1,355 @@
+{
+  "engine": "chiriboga-77c80b1-local-1",
+  "config": {
+    "side": "corp",
+    "seed": "4b8b775b-60c2-40be-8a90-264649a3139c"
+  },
+  "choices": [
+    {
+      "version": 1,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 8,
+      "command": "install",
+      "index": 9
+    },
+    {
+      "version": 10,
+      "command": "install",
+      "index": 4
+    },
+    {
+      "version": 12,
+      "command": "install",
+      "index": 6
+    },
+    {
+      "version": 75,
+      "command": "advance",
+      "index": 0
+    },
+    {
+      "version": 76,
+      "command": "play",
+      "index": 0
+    },
+    {
+      "version": 77,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 78,
+      "command": "score",
+      "index": 0
+    },
+    {
+      "version": 79,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 81,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 82,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 83,
+      "command": "continue",
+      "index": 2
+    },
+    {
+      "version": 86,
+      "command": "install",
+      "index": 6
+    },
+    {
+      "version": 101,
+      "command": "continue",
+      "index": 1
+    },
+    {
+      "version": 123,
+      "command": "advance",
+      "index": 0
+    },
+    {
+      "version": 124,
+      "command": "advance",
+      "index": 0
+    },
+    {
+      "version": 125,
+      "command": "play",
+      "index": 0
+    },
+    {
+      "version": 126,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 127,
+      "command": "score",
+      "index": 0
+    },
+    {
+      "version": 128,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 129,
+      "command": "continue",
+      "index": 2
+    },
+    {
+      "version": 173,
+      "command": "install",
+      "index": 1
+    },
+    {
+      "version": 174,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 175,
+      "command": "install",
+      "index": 6
+    },
+    {
+      "version": 177,
+      "command": "play",
+      "index": 1
+    },
+    {
+      "version": 192,
+      "command": "continue",
+      "index": 1
+    },
+    {
+      "version": 226,
+      "command": "advance",
+      "index": 0
+    },
+    {
+      "version": 227,
+      "command": "advance",
+      "index": 0
+    },
+    {
+      "version": 228,
+      "command": "advance",
+      "index": 0
+    },
+    {
+      "version": 229,
+      "command": "score",
+      "index": 0
+    },
+    {
+      "version": 230,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 232,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 233,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 234,
+      "command": "continue",
+      "index": 2
+    },
+    {
+      "version": 296,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 297,
+      "command": "continue",
+      "index": 3
+    },
+    {
+      "version": 314,
+      "command": "install",
+      "index": 8
+    },
+    {
+      "version": 316,
+      "command": "install",
+      "index": 7
+    },
+    {
+      "version": 318,
+      "command": "rez",
+      "index": 0
+    },
+    {
+      "version": 319,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 323,
+      "command": "install",
+      "index": 13
+    },
+    {
+      "version": 325,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 328,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 333,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 348,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 351,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 356,
+      "command": "advance",
+      "index": 0
+    },
+    {
+      "version": 357,
+      "command": "advance",
+      "index": 0
+    },
+    {
+      "version": 358,
+      "command": "play",
+      "index": 1
+    },
+    {
+      "version": 359,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 360,
+      "command": "score",
+      "index": 0
+    },
+    {
+      "version": 361,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 362,
+      "command": "continue",
+      "index": 4
+    },
+    {
+      "version": 365,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 368,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 373,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 387,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 390,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 395,
+      "command": "install",
+      "index": 13
+    },
+    {
+      "version": 397,
+      "command": "advance",
+      "index": 0
+    },
+    {
+      "version": 398,
+      "command": "advance",
+      "index": 0
+    },
+    {
+      "version": 399,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 402,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 407,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 425,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 428,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 433,
+      "command": "advance",
+      "index": 0
+    },
+    {
+      "version": 434,
+      "command": "advance",
+      "index": 0
+    },
+    {
+      "version": 435,
+      "command": "score",
+      "index": 0
+    }
+  ],
+  "conceded": false
+}

@@ -1,0 +1,74 @@
+{
+  "browser": "Google Chrome, extension backend",
+  "testers": "Three independent AI-operated testers, not recruited humans",
+  "games": [
+    {
+      "match": "Loup vs Precision Design",
+      "side": "runner",
+      "ui_choices": 67,
+      "result": "Runner agenda victory 7\u20130, turn 5",
+      "replay": "eval/run-drawer-panel/loup/full-game-replay.json",
+      "report": "docs/playtesting/run-drawer-panel-loup.md"
+    },
+    {
+      "match": "Restoring Humanity vs Loup",
+      "side": "corp",
+      "ui_choices": 72,
+      "result": "Runner agenda victory 7\u20132, turn 11",
+      "replay": "eval/run-drawer-panel/jinteki/final-replay.json",
+      "report": "docs/playtesting/run-drawer-panel-jinteki.md"
+    },
+    {
+      "match": "Tao vs Precision Design",
+      "side": "runner",
+      "ui_choices": 380,
+      "result": "Runner victory by Corp deck exhaustion, final engine half-turn 43; score 2\u20136",
+      "replay": "eval/run-drawer-panel/tao/full-game.json",
+      "report": "docs/playtesting/run-drawer-panel-tao.md"
+    }
+  ],
+  "validation": "Parent independently restored all 519 choices from ordinary UI exports, checked each decision snapshot, and reached matching natural terminal outcomes. No imported engine game was counted as fresh UI play.",
+  "strengths": [
+    "Separate ice and actions kept choices visible",
+    "Breaker mismatch, counter constraints and numbered subroutine outcomes clear",
+    "Rezzing, ambush activation, click breaks and six-credit boost/break sequence matched displayed costs",
+    "Cancellation preserved resources; card inspection and sidebar actions agreed in sampled paths"
+  ],
+  "priority_followups": [
+    {
+      "priority": "P2",
+      "finding": "Remote numbering disagrees between board/choices and action/resource receipts",
+      "observed_by": [
+        "Jinteki",
+        "Tao"
+      ]
+    },
+    {
+      "priority": "P2",
+      "finding": "Pantograph decline-only choice labeled Install; identity/conditional triggers lack accurate outcome previews",
+      "observed_by": [
+        "Tao",
+        "Loup",
+        "Jinteki"
+      ]
+    },
+    {
+      "priority": "P2/P3",
+      "finding": "Repeated optional ability passes and a zero-unbroken-subroutine review interrupt pacing",
+      "observed_by": [
+        "Tao"
+      ]
+    },
+    {
+      "priority": "P3",
+      "finding": "Initiation stage labeled Movement; Corp responses heading includes Runner actions; guidance still says below",
+      "observed_by": [
+        "Loup",
+        "Jinteki",
+        "Tao"
+      ]
+    }
+  ],
+  "limits": "Functional tests with limited competitive intent, later automated repeated UI pass/economy/draw decisions; no balance claim, no comprehensive mobile/keyboard or every-card coverage.",
+  "application_edits": false
+}

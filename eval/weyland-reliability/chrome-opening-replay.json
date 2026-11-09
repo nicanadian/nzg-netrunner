@@ -1,0 +1,55 @@
+{
+  "engine": "chiriboga-77c80b1-local-1",
+  "config": {
+    "side": "corp",
+    "seed": "fce89166-caa3-4fe5-b2a5-cf7117697a89",
+    "deckIds": {
+      "runner": "loup-v1",
+      "corp": "built-to-last-v1"
+    },
+    "rulesVersion": "26.03-local-2"
+  },
+  "choices": [
+    {
+      "version": 1,
+      "command": "m",
+      "index": 0
+    },
+    {
+      "version": 8,
+      "command": "play",
+      "index": 0
+    },
+    {
+      "version": 10,
+      "command": "install",
+      "index": 6
+    },
+    {
+      "version": 12,
+      "command": "install",
+      "index": 3
+    },
+    {
+      "version": 45,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 46,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 47,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 79,
+      "command": "gain",
+      "index": 0
+    }
+  ],
+  "conceded": false
+}

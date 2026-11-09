@@ -1,0 +1,403 @@
+{
+  "kind": "Deck opening reliability; not full games or balance/win-rate evidence",
+  "assumptions": "Opening five plus three mandatory Corp draws, through start of Corp turn3; no extra draws, Runner accesses or card effects. Cheap means printed rez cost <=3, not guaranteed end-the-run. Cheap stopping ice means Ping/Palisade/Whitespace; Whitespace is conditional, and no ice guarantees stopping every Runner. Conditional mulligan when opening has fewer than two ice; opponents RNG/AI decisions omitted in mulligan model.",
+  "nativeOpeningParityChecks": 100,
+  "results": [
+    {
+      "id": "built-to-last-v1",
+      "cards": [
+        [
+          30060,
+          1
+        ],
+        [
+          30067,
+          3
+        ],
+        [
+          30068,
+          2
+        ],
+        [
+          30069,
+          1
+        ],
+        [
+          30070,
+          3
+        ],
+        [
+          30061,
+          3
+        ],
+        [
+          30062,
+          3
+        ],
+        [
+          30063,
+          3
+        ],
+        [
+          30064,
+          3
+        ],
+        [
+          30065,
+          2
+        ],
+        [
+          30066,
+          2
+        ],
+        [
+          30071,
+          3
+        ],
+        [
+          30072,
+          3
+        ],
+        [
+          30074,
+          3
+        ],
+        [
+          30075,
+          3
+        ],
+        [
+          30053,
+          2
+        ]
+      ],
+      "ice": 12,
+      "iceRez3OrLess": 6,
+      "iceRez5OrMore": 6,
+      "influence": 2,
+      "exact": {
+        "openingAtMost1Ice": 0.5227596017069701,
+        "turn3AtMost1Ice": 0.22516944188770813,
+        "turn3NoCheapIce": 0.236087099244994,
+        "turn3NoCheapStoppingIce": 0.236087099244994
+      },
+      "sampleCount": 20000,
+      "stats": {
+        "noMulligan": {
+          "openingAtMost1Ice": 0.5288,
+          "turn3AtMost1Ice": 0.22615,
+          "turn3NoCheapIce": 0.2336,
+          "turn3NoCheapStoppingIce": 0.2336
+        },
+        "mulliganBelow2Ice": {
+          "openingAtMost1Ice": 0.2735,
+          "turn3AtMost1Ice": 0.11595,
+          "turn3NoCheapIce": 0.16775,
+          "turn3NoCheapStoppingIce": 0.16775
+        }
+      }
+    },
+    {
+      "id": "candidate-14",
+      "cards": [
+        [
+          30060,
+          1
+        ],
+        [
+          30067,
+          3
+        ],
+        [
+          30068,
+          2
+        ],
+        [
+          30069,
+          1
+        ],
+        [
+          30070,
+          3
+        ],
+        [
+          30061,
+          3
+        ],
+        [
+          30062,
+          3
+        ],
+        [
+          30063,
+          2
+        ],
+        [
+          30064,
+          2
+        ],
+        [
+          30065,
+          2
+        ],
+        [
+          30066,
+          1
+        ],
+        [
+          30071,
+          3
+        ],
+        [
+          30072,
+          3
+        ],
+        [
+          30074,
+          3
+        ],
+        [
+          30075,
+          3
+        ],
+        [
+          30053,
+          2
+        ],
+        [
+          30073,
+          3
+        ]
+      ],
+      "ice": 14,
+      "iceRez3OrLess": 9,
+      "iceRez5OrMore": 5,
+      "influence": 2,
+      "exact": {
+        "openingAtMost1Ice": 0.41804962857594435,
+        "turn3AtMost1Ice": 0.14006266328247752,
+        "turn3NoCheapIce": 0.1025779508751645,
+        "turn3NoCheapStoppingIce": 0.236087099244994
+      },
+      "sampleCount": 20000,
+      "stats": {
+        "noMulligan": {
+          "openingAtMost1Ice": 0.4198,
+          "turn3AtMost1Ice": 0.1415,
+          "turn3NoCheapIce": 0.1027,
+          "turn3NoCheapStoppingIce": 0.23545
+        },
+        "mulliganBelow2Ice": {
+          "openingAtMost1Ice": 0.17505,
+          "turn3AtMost1Ice": 0.0567,
+          "turn3NoCheapIce": 0.0577,
+          "turn3NoCheapStoppingIce": 0.1742
+        }
+      }
+    },
+    {
+      "id": "candidate-15",
+      "cards": [
+        [
+          30060,
+          1
+        ],
+        [
+          30067,
+          3
+        ],
+        [
+          30068,
+          2
+        ],
+        [
+          30069,
+          1
+        ],
+        [
+          30070,
+          3
+        ],
+        [
+          30061,
+          3
+        ],
+        [
+          30062,
+          3
+        ],
+        [
+          30063,
+          2
+        ],
+        [
+          30064,
+          1
+        ],
+        [
+          30065,
+          2
+        ],
+        [
+          30066,
+          1
+        ],
+        [
+          30071,
+          3
+        ],
+        [
+          30072,
+          3
+        ],
+        [
+          30074,
+          3
+        ],
+        [
+          30075,
+          3
+        ],
+        [
+          30053,
+          2
+        ],
+        [
+          30073,
+          3
+        ],
+        [
+          30055,
+          1
+        ]
+      ],
+      "ice": 15,
+      "iceRez3OrLess": 10,
+      "iceRez5OrMore": 5,
+      "influence": 4,
+      "exact": {
+        "openingAtMost1Ice": 0.3691140533245797,
+        "turn3AtMost1Ice": 0.10782275488157841,
+        "turn3NoCheapIce": 0.07610622161705753,
+        "turn3NoCheapStoppingIce": 0.18053719354028952
+      },
+      "sampleCount": 20000,
+      "stats": {
+        "noMulligan": {
+          "openingAtMost1Ice": 0.37025,
+          "turn3AtMost1Ice": 0.1078,
+          "turn3NoCheapIce": 0.07505,
+          "turn3NoCheapStoppingIce": 0.1807
+        },
+        "mulliganBelow2Ice": {
+          "openingAtMost1Ice": 0.1362,
+          "turn3AtMost1Ice": 0.037,
+          "turn3NoCheapIce": 0.0396,
+          "turn3NoCheapStoppingIce": 0.12675
+        }
+      }
+    },
+    {
+      "id": "candidate-16",
+      "cards": [
+        [
+          30060,
+          1
+        ],
+        [
+          30067,
+          3
+        ],
+        [
+          30068,
+          2
+        ],
+        [
+          30069,
+          1
+        ],
+        [
+          30070,
+          3
+        ],
+        [
+          30061,
+          2
+        ],
+        [
+          30062,
+          2
+        ],
+        [
+          30063,
+          2
+        ],
+        [
+          30064,
+          1
+        ],
+        [
+          30065,
+          1
+        ],
+        [
+          30066,
+          1
+        ],
+        [
+          30071,
+          3
+        ],
+        [
+          30072,
+          3
+        ],
+        [
+          30074,
+          3
+        ],
+        [
+          30075,
+          3
+        ],
+        [
+          30053,
+          3
+        ],
+        [
+          30073,
+          3
+        ],
+        [
+          30055,
+          3
+        ]
+      ],
+      "ice": 16,
+      "iceRez3OrLess": 12,
+      "iceRez5OrMore": 4,
+      "influence": 9,
+      "exact": {
+        "openingAtMost1Ice": 0.3229747966590072,
+        "turn3AtMost1Ice": 0.08157025804084628,
+        "turn3NoCheapIce": 0.0404150280311271,
+        "turn3NoCheapStoppingIce": 0.1025779508751645
+      },
+      "sampleCount": 20000,
+      "stats": {
+        "noMulligan": {
+          "openingAtMost1Ice": 0.3221,
+          "turn3AtMost1Ice": 0.07915,
+          "turn3NoCheapIce": 0.03955,
+          "turn3NoCheapStoppingIce": 0.10185
+        },
+        "mulliganBelow2Ice": {
+          "openingAtMost1Ice": 0.1018,
+          "turn3AtMost1Ice": 0.0253,
+          "turn3NoCheapIce": 0.0177,
+          "turn3NoCheapStoppingIce": 0.0666
+        }
+      }
+    }
+  ]
+}

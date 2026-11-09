@@ -1,0 +1,542 @@
+{
+  "checkedOn": "2026-11-06",
+  "scope": "Three adapted encounter fixtures, with explicit initial state injection. No full source-game replay or browser/UI validation is claimed.",
+  "scenarios": [
+    {
+      "id": "neon-R1-overclock-manegarm",
+      "setupKind": "explicitly injected starting position adapted from video",
+      "legalDecisionCount": 16,
+      "final": {
+        "corpCredits": 3,
+        "runnerCredits": 1,
+        "corpPoints": 0,
+        "runnerPoints": 0,
+        "runnerClicks": 1,
+        "terminal": null
+      },
+      "trace": [
+        {
+          "before": {
+            "phase": "Runner's Action Phase",
+            "active": "runner"
+          },
+          "command": "play",
+          "index": 0,
+          "label": "Overclock"
+        },
+        {
+          "before": {
+            "phase": "Playing Overclock",
+            "active": "runner"
+          },
+          "command": "continue",
+          "index": 3,
+          "label": "Recorded remote"
+        },
+        {
+          "before": {
+            "phase": "Run: Approach Ice",
+            "active": "corp"
+          },
+          "command": "rez",
+          "index": 2,
+          "label": "Tithe · Recorded remote · ice 1 from outside"
+        },
+        {
+          "before": {
+            "phase": "Run: Approach Ice",
+            "active": "corp"
+          },
+          "command": "n",
+          "index": 0,
+          "label": "Continue"
+        },
+        {
+          "before": {
+            "phase": "Run: Encounter Ice",
+            "active": "runner"
+          },
+          "command": "n",
+          "index": 0,
+          "label": "Continue"
+        },
+        {
+          "before": {
+            "phase": "Run: Subroutines",
+            "active": "corp"
+          },
+          "command": "trigger",
+          "index": 0,
+          "label": "Tithe · Do 1 net damage."
+        },
+        {
+          "before": {
+            "phase": "Run: Subroutines",
+            "active": "corp"
+          },
+          "command": "trigger",
+          "index": 0,
+          "label": "Tithe · Gain 1 credit."
+        },
+        {
+          "before": {
+            "phase": "Run: Movement",
+            "active": "runner"
+          },
+          "command": "n",
+          "index": 0,
+          "label": "Continue"
+        },
+        {
+          "before": {
+            "phase": "Run: Movement",
+            "active": "corp"
+          },
+          "command": "rez",
+          "index": 0,
+          "label": "Manegarm Skunkworks"
+        },
+        {
+          "before": {
+            "phase": "Run: Movement",
+            "active": "corp"
+          },
+          "command": "n",
+          "index": 0,
+          "label": "Continue"
+        },
+        {
+          "before": {
+            "phase": "Run: Approach Server",
+            "active": "corp"
+          },
+          "command": "trigger",
+          "index": 0,
+          "label": "Manegarm Skunkworks · Whenever the Runner approaches this server"
+        },
+        {
+          "before": {
+            "phase": "Manegarm Skunkworks",
+            "active": "runner"
+          },
+          "command": "continue",
+          "index": 0,
+          "label": "Pay 5 credit"
+        },
+        {
+          "before": {
+            "phase": "Run: Breach",
+            "active": "runner"
+          },
+          "command": "access",
+          "index": 0,
+          "label": "Manegarm Skunkworks"
+        },
+        {
+          "before": {
+            "phase": "Run: Access",
+            "active": "runner"
+          },
+          "command": "trash",
+          "index": 0,
+          "label": "Trash"
+        },
+        {
+          "before": {
+            "phase": "Run: Access",
+            "active": "runner"
+          },
+          "command": "access",
+          "index": 0,
+          "label": "Facedown card · Recorded remote"
+        },
+        {
+          "before": {
+            "phase": "Run: Access",
+            "active": "runner"
+          },
+          "command": "trash",
+          "index": 0,
+          "label": "Trash"
+        }
+      ]
+    },
+    {
+      "id": "lt-starter-R6-urtica-flatline",
+      "setupKind": "explicitly injected starting position adapted from video",
+      "legalDecisionCount": 14,
+      "final": {
+        "corpCredits": 4,
+        "runnerCredits": 5,
+        "corpPoints": 2,
+        "runnerPoints": 5,
+        "runnerClicks": 2,
+        "terminal": {
+          "winner": "corp",
+          "reason": "Runner flatlined",
+          "damage": {
+            "amount": 3,
+            "type": "net",
+            "gripBefore": 2,
+            "card": {
+              "id": "c9",
+              "number": 30045,
+              "title": "Urtica Cipher",
+              "advancement": 1
+            }
+          }
+        }
+      },
+      "trace": [
+        {
+          "before": {
+            "phase": "Runner's Action Phase",
+            "active": "runner"
+          },
+          "command": "play",
+          "index": 0,
+          "label": "Overclock"
+        },
+        {
+          "before": {
+            "phase": "Playing Overclock",
+            "active": "runner"
+          },
+          "command": "continue",
+          "index": 3,
+          "label": "Recorded remote"
+        },
+        {
+          "before": {
+            "phase": "Run: Approach Ice",
+            "active": "corp"
+          },
+          "command": "rez",
+          "index": 1,
+          "label": "Manegarm Skunkworks"
+        },
+        {
+          "before": {
+            "phase": "Run: Approach Ice",
+            "active": "corp"
+          },
+          "command": "n",
+          "index": 0,
+          "label": "Continue"
+        },
+        {
+          "before": {
+            "phase": "Run: Encounter Ice",
+            "active": "runner"
+          },
+          "command": "trigger",
+          "index": 0,
+          "label": "Cleaver · +1 strength."
+        },
+        {
+          "before": {
+            "phase": "Run: Encounter Ice",
+            "active": "runner"
+          },
+          "command": "trigger",
+          "index": 0,
+          "label": "Cleaver · Break up to 2 barrier subroutines"
+        },
+        {
+          "before": {
+            "phase": "Break up to 2 barrier subroutines",
+            "active": "runner"
+          },
+          "command": "continue",
+          "index": 0,
+          "label": "Break subroutine 1: End the run."
+        },
+        {
+          "before": {
+            "phase": "Break up to 2 barrier subroutines",
+            "active": "runner"
+          },
+          "command": "continue",
+          "index": 0,
+          "label": "Continue"
+        },
+        {
+          "before": {
+            "phase": "Run: Movement",
+            "active": "runner"
+          },
+          "command": "n",
+          "index": 0,
+          "label": "Continue"
+        },
+        {
+          "before": {
+            "phase": "Run: Movement",
+            "active": "corp"
+          },
+          "command": "n",
+          "index": 0,
+          "label": "Continue"
+        },
+        {
+          "before": {
+            "phase": "Run: Approach Server",
+            "active": "corp"
+          },
+          "command": "trigger",
+          "index": 0,
+          "label": "Manegarm Skunkworks · Whenever the Runner approaches this server"
+        },
+        {
+          "before": {
+            "phase": "Manegarm Skunkworks",
+            "active": "runner"
+          },
+          "command": "continue",
+          "index": 1,
+          "label": "Pay 5 credit"
+        },
+        {
+          "before": {
+            "phase": "Run: Breach",
+            "active": "runner"
+          },
+          "command": "access",
+          "index": 0,
+          "label": "Facedown card · Recorded remote"
+        },
+        {
+          "before": {
+            "phase": "Accessed",
+            "active": "corp"
+          },
+          "command": "trigger",
+          "index": 0,
+          "label": "Urtica Cipher"
+        }
+      ]
+    },
+    {
+      "id": "lt-booster-R12-leech-partial-break",
+      "setupKind": "explicitly injected starting position adapted from video",
+      "legalDecisionCount": 23,
+      "final": {
+        "corpCredits": 8,
+        "runnerCredits": 0,
+        "corpPoints": 5,
+        "runnerPoints": 1,
+        "runnerClicks": 1,
+        "terminal": null
+      },
+      "trace": [
+        {
+          "before": {
+            "phase": "Runner's Action Phase",
+            "active": "runner"
+          },
+          "command": "run",
+          "index": 3,
+          "label": "Recorded remote"
+        },
+        {
+          "before": {
+            "phase": "Run: Encounter Ice",
+            "active": "runner"
+          },
+          "command": "trigger",
+          "index": 1,
+          "label": "Leech · −1 ice strength this encounter."
+        },
+        {
+          "before": {
+            "phase": "Run: Encounter Ice",
+            "active": "runner"
+          },
+          "command": "trigger",
+          "index": 1,
+          "label": "Leech · −1 ice strength this encounter."
+        },
+        {
+          "before": {
+            "phase": "Run: Encounter Ice",
+            "active": "runner"
+          },
+          "command": "trigger",
+          "index": 1,
+          "label": "Leech · −1 ice strength this encounter."
+        },
+        {
+          "before": {
+            "phase": "Run: Encounter Ice",
+            "active": "runner"
+          },
+          "command": "trigger",
+          "index": 0,
+          "label": "Cleaver · Break up to 2 barrier subroutines"
+        },
+        {
+          "before": {
+            "phase": "Break up to 2 barrier subroutines",
+            "active": "runner"
+          },
+          "command": "continue",
+          "index": 0,
+          "label": "Break subroutine 1: You may install 1 piece of ice from HQ or Archives directly inward from this ice, ignoring all costs."
+        },
+        {
+          "before": {
+            "phase": "Break up to 2 barrier subroutines",
+            "active": "runner"
+          },
+          "command": "continue",
+          "index": 0,
+          "label": "Break another subroutine 2: End the run."
+        },
+        {
+          "before": {
+            "phase": "Run: Encounter Ice",
+            "active": "runner"
+          },
+          "command": "trigger",
+          "index": 0,
+          "label": "Cleaver · Break up to 2 barrier subroutines"
+        },
+        {
+          "before": {
+            "phase": "Break up to 2 barrier subroutines",
+            "active": "runner"
+          },
+          "command": "continue",
+          "index": 0,
+          "label": "Break subroutine 3: End the run."
+        },
+        {
+          "before": {
+            "phase": "Break up to 2 barrier subroutines",
+            "active": "runner"
+          },
+          "command": "continue",
+          "index": 0,
+          "label": "Continue"
+        },
+        {
+          "before": {
+            "phase": "Run: Movement",
+            "active": "runner"
+          },
+          "command": "n",
+          "index": 0,
+          "label": "Continue"
+        },
+        {
+          "before": {
+            "phase": "Run: Encounter Ice",
+            "active": "runner"
+          },
+          "command": "trigger",
+          "index": 0,
+          "label": "Carmen · Break 1 sentry subroutine."
+        },
+        {
+          "before": {
+            "phase": "Break 1 sentry subroutine.",
+            "active": "runner"
+          },
+          "command": "continue",
+          "index": 0,
+          "label": "Break subroutine 1: Do 1 net damage."
+        },
+        {
+          "before": {
+            "phase": "Run: Encounter Ice",
+            "active": "runner"
+          },
+          "command": "n",
+          "index": 0,
+          "label": "Continue"
+        },
+        {
+          "before": {
+            "phase": "Run: Subroutines",
+            "active": "corp"
+          },
+          "command": "trigger",
+          "index": 0,
+          "label": "Tithe · Gain 1 credit."
+        },
+        {
+          "before": {
+            "phase": "Run: Movement",
+            "active": "runner"
+          },
+          "command": "n",
+          "index": 0,
+          "label": "Continue"
+        },
+        {
+          "before": {
+            "phase": "Run: Encounter Ice",
+            "active": "runner"
+          },
+          "command": "trigger",
+          "index": 0,
+          "label": "Cleaver · +1 strength."
+        },
+        {
+          "before": {
+            "phase": "Run: Encounter Ice",
+            "active": "runner"
+          },
+          "command": "trigger",
+          "index": 0,
+          "label": "Cleaver · Break up to 2 barrier subroutines"
+        },
+        {
+          "before": {
+            "phase": "Break up to 2 barrier subroutines",
+            "active": "runner"
+          },
+          "command": "continue",
+          "index": 0,
+          "label": "Break subroutine 1: End the run."
+        },
+        {
+          "before": {
+            "phase": "Break up to 2 barrier subroutines",
+            "active": "runner"
+          },
+          "command": "continue",
+          "index": 0,
+          "label": "Continue"
+        },
+        {
+          "before": {
+            "phase": "Run: Movement",
+            "active": "runner"
+          },
+          "command": "n",
+          "index": 0,
+          "label": "Continue"
+        },
+        {
+          "before": {
+            "phase": "Run: Breach",
+            "active": "runner"
+          },
+          "command": "access",
+          "index": 0,
+          "label": "Facedown card · Recorded remote"
+        },
+        {
+          "before": {
+            "phase": "Run: Access",
+            "active": "runner"
+          },
+          "command": "steal",
+          "index": 0,
+          "label": "Steal agenda"
+        }
+      ]
+    }
+  ]
+}

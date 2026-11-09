@@ -1,0 +1,879 @@
+{
+  "title": "System Gateway online playthrough source catalog",
+  "checkedOn": "2026-11-06",
+  "scope": "Discovery inventory, supplemented by timestamped annotation of three candidates; see gateway-ledgers/README.md for coverage and limits.",
+  "summary": {
+    "distinctVideoRecordings": 18,
+    "videoCategoryCounts": {
+      "gateway-starter-play": 4,
+      "broader-recorded-play": 5,
+      "scripted-example-video": 2,
+      "support-video": 7
+    },
+    "starterBoosterRuntimeSeconds": 19407,
+    "recordedPlayRuntimeSeconds": 54715,
+    "videosAdvertisingCaptionTracks": 18,
+    "downloadedVideoTranscripts": 3,
+    "usableGatewayActionReplayFilesObtained": 0,
+    "writtenScripts": 2,
+    "tournamentRecords": 3,
+    "annotatedPublicActionLedgers": 3,
+    "annotatedSideTurns": 71,
+    "annotatedEvents": 385,
+    "adaptedEngineEncounterFixtures": 3,
+    "exactExecutableFullGameReproductions": 0,
+    "verifiedNormalizedFullGameReproductions": 3,
+    "fullReconstructionLegalDecisions": 696
+  },
+  "deduplication": "Count canonical videos once; exclude BoardGameGeek mirrors, playlists and the unlisted alternate upload from video totals.",
+  "deckEvidence": [
+    {
+      "video": "EpoV0ezJFFg",
+      "url": "https://netrunnerdb.com/en/decklist/0665c5c7-f7f1-4674-86b5-ca4e371888f2/system-gateway-starter-corp-34-cards-",
+      "api": "https://netrunnerdb.com/api/2.0/public/decklist/0665c5c7-f7f1-4674-86b5-ca4e371888f2",
+      "name": "System Gateway Starter Corp (34 cards)",
+      "distinctCards": 17,
+      "outsideGatewayTitles": [],
+      "gatewayOnlyByCardTitles": true,
+      "cardDataSource": "https://netrunnerdb.com/api/2.0/public/cards"
+    },
+    {
+      "video": "EpoV0ezJFFg",
+      "url": "https://netrunnerdb.com/en/decklist/d71397b7-af7b-475c-8984-18360a64f6ee/system-gateway-starter-runner-30-cards-",
+      "api": "https://netrunnerdb.com/api/2.0/public/decklist/d71397b7-af7b-475c-8984-18360a64f6ee",
+      "name": "System Gateway Starter Runner (30 cards)",
+      "distinctCards": 17,
+      "outsideGatewayTitles": [],
+      "gatewayOnlyByCardTitles": true,
+      "cardDataSource": "https://netrunnerdb.com/api/2.0/public/cards"
+    },
+    {
+      "video": "vjxGUoaEbY0",
+      "url": "https://netrunnerdb.com/en/decklist/35bbef9e-c221-4bbd-b615-ce067b222736/neon-static-beginner-series-game-1-criminal",
+      "api": "https://netrunnerdb.com/api/2.0/public/decklist/35bbef9e-c221-4bbd-b615-ce067b222736",
+      "name": "Neon Static Learning Netrunner Episode 1 - Criminal",
+      "distinctCards": 22,
+      "outsideGatewayTitles": [
+        "The Class Act",
+        "Paladin Poemu",
+        "Bravado",
+        "Boomerang",
+        "Daily Casts",
+        "Mystic Maemi",
+        "The Twinning",
+        "Pinhole Threading",
+        "Cezve",
+        "WAKE Implant v2A-JRJ",
+        "Dr. Nuka Vrolyck",
+        "Hermes",
+        "Curupira",
+        "Shibboleth",
+        "Clean Getaway",
+        "Transfer of Wealth"
+      ],
+      "gatewayOnlyByCardTitles": false,
+      "cardDataSource": "https://netrunnerdb.com/api/2.0/public/cards"
+    },
+    {
+      "video": "vjxGUoaEbY0",
+      "url": "https://netrunnerdb.com/en/decklist/4a5fd1bf-27c8-4a43-8be3-343acdc700fe/neon-static-beginner-series-game-1-haas-bioroid",
+      "api": "https://netrunnerdb.com/api/2.0/public/decklist/4a5fd1bf-27c8-4a43-8be3-343acdc700fe",
+      "name": "Neon Static Learning Netrunner Episode 1 - Haas-Bioroid",
+      "distinctCards": 18,
+      "outsideGatewayTitles": [
+        "Architect Deployment Test",
+        "Hagen",
+        "Drafter",
+        "Tranquility Home Grid",
+        "M.I.C.",
+        "Greasing the Palm",
+        "Humanoid Resources",
+        "Méliès City Luxury Line",
+        "Sleipnir",
+        "Let Them Dream"
+      ],
+      "gatewayOnlyByCardTitles": false,
+      "cardDataSource": "https://netrunnerdb.com/api/2.0/public/cards"
+    },
+    {
+      "video": "1NsqCmztyks",
+      "url": "https://netrunnerdb.com/en/decklist/527db0fd-e1dc-4e57-b99e-2809cf101fe8/neon-static-learning-netrunner-episode-2-shaper",
+      "api": "https://netrunnerdb.com/api/2.0/public/decklist/527db0fd-e1dc-4e57-b99e-2809cf101fe8",
+      "name": "Neon Static Learning Netrunner Episode 2 - Shaper",
+      "distinctCards": 21,
+      "outsideGatewayTitles": [
+        "Simulchip",
+        "Self-modifying Code",
+        "Daily Casts",
+        "Pinhole Threading",
+        "Revolver",
+        "Deep Dive",
+        "Propeller",
+        "Stoneship Chart Room",
+        "Dr. Nuka Vrolyck",
+        "Hannah \"Wheels\" Pilintra",
+        "LilyPAD",
+        "Coalescence",
+        "Rising Tide",
+        "Magdalene Keino-Chemutai: Cryptarchitect"
+      ],
+      "gatewayOnlyByCardTitles": false,
+      "cardDataSource": "https://netrunnerdb.com/api/2.0/public/cards"
+    },
+    {
+      "video": "1NsqCmztyks",
+      "url": "https://netrunnerdb.com/en/decklist/234afd05-53a2-4533-9eb5-ea8bad10895e/neon-static-learning-netrunner-episode-2-weyland",
+      "api": "https://netrunnerdb.com/api/2.0/public/decklist/234afd05-53a2-4533-9eb5-ea8bad10895e",
+      "name": "Neon Static Learning Netrunner Episode 2 - Weyland",
+      "distinctCards": 19,
+      "outsideGatewayTitles": [
+        "SDS Drone Deployment",
+        "Wall to Wall",
+        "Akhet",
+        "Mavirus",
+        "Mestnichestvo",
+        "Tree Line",
+        "Charlotte Caçador",
+        "The Basalt Spire",
+        "Logjam",
+        "Key Performance Indicators",
+        "Measured Response",
+        "Petty Cash",
+        "Event Horizon"
+      ],
+      "gatewayOnlyByCardTitles": false,
+      "cardDataSource": "https://netrunnerdb.com/api/2.0/public/cards"
+    },
+    {
+      "video": "CwErYHoRoPs",
+      "url": "https://netrunnerdb.com/en/decklist/5a3d3a15-6cde-4b43-86dc-26ef97d1a2d7/neon-static-learning-netrunner-episode-3-anarch",
+      "api": "https://netrunnerdb.com/api/2.0/public/decklist/5a3d3a15-6cde-4b43-86dc-26ef97d1a2d7",
+      "name": "Neon Static Learning Netrunner Episode 3 - Anarch",
+      "distinctCards": 21,
+      "outsideGatewayTitles": [
+        "Fencer Fueno",
+        "Gachapon",
+        "Keiko",
+        "Paladin Poemu",
+        "Bravado",
+        "Boomerang",
+        "Daily Casts",
+        "Mystic Maemi",
+        "Steelskin Scarring",
+        "The Twinning",
+        "Pinhole Threading",
+        "Strike Fund",
+        "Solidarity Badge",
+        "Audrey v2",
+        "Gourmand",
+        "Rising Tide",
+        "The Tungsten Tailor"
+      ],
+      "gatewayOnlyByCardTitles": false,
+      "cardDataSource": "https://netrunnerdb.com/api/2.0/public/cards"
+    },
+    {
+      "video": "CwErYHoRoPs",
+      "url": "https://netrunnerdb.com/en/decklist/bceb4009-124c-44e6-9c75-d7c5940a06c9/neon-static-learning-netrunner-episode-3-jinteki",
+      "api": "https://netrunnerdb.com/api/2.0/public/decklist/bceb4009-124c-44e6-9c75-d7c5940a06c9",
+      "name": "Neon Static Learning Netrunner Episode 3 - Jinteki",
+      "distinctCards": 20,
+      "outsideGatewayTitles": [
+        "Regenesis",
+        "Bladderwort",
+        "Moon Pool",
+        "Anemone",
+        "Hybrid Release",
+        "Hostile Architecture",
+        "Fujii Asset Retrieval",
+        "Tatu-Bola",
+        "Cohort Guidance Program",
+        "Scatter Field",
+        "AU Co.: The Gold Standard in Clones",
+        "Sericulture Expansion",
+        "Phật Gioan Baotixita",
+        "Semak-samun",
+        "Petty Cash"
+      ],
+      "gatewayOnlyByCardTitles": false,
+      "cardDataSource": "https://netrunnerdb.com/api/2.0/public/cards"
+    },
+    {
+      "video": "i1zoeeDJr-k",
+      "url": "https://www.netrunnerdb.com/en/deck/view/b7fe17cb-10c0-48d2-b6f1-dab638fbd9b2",
+      "api": "https://netrunnerdb.com/api/2.0/public/decklist/b7fe17cb-10c0-48d2-b6f1-dab638fbd9b2",
+      "error": "The public decklist endpoint returned no published list for this creator-linked deck/view URL."
+    },
+    {
+      "video": "oqCPDn7Qhsk",
+      "url": "https://www.netrunnerdb.com/en/deck/view/ff853697-9575-49b4-b05f-fb6b6653fe11",
+      "api": "https://netrunnerdb.com/api/2.0/public/decklist/ff853697-9575-49b4-b05f-fb6b6653fe11",
+      "error": "The public decklist endpoint returned no published list for this creator-linked deck/view URL."
+    }
+  ],
+  "sources": [
+    {
+      "id": "EpoV0ezJFFg",
+      "url": "https://www.youtube.com/watch?v=EpoV0ezJFFg",
+      "title": "Netrunner - System Gateway Starter Decks (Full Demo Game)",
+      "creator": "Neon Static",
+      "published": "2024-07-17T03:09:12-07:00",
+      "durationSeconds": 2064,
+      "category": "gateway-starter-play",
+      "cardPool": "starter",
+      "summary": "A complete teaching match with linked 34-card Corp and 30-card Runner starter lists; both linked lists were checked against Gateway card titles.",
+      "evidenceLevel": "Captions retrieved; gameplay annotated from narration, sampled board frames and visible Jinteki log where available. Hidden-state and source-rule gaps explicitly retained.",
+      "captionTracksAdvertised": [
+        {
+          "language": "en",
+          "type": "asr"
+        }
+      ],
+      "transcriptRetrieved": true,
+      "checkedOn": "2026-11-06",
+      "captionFetchProbe": {
+        "status": 200,
+        "bytes": 0
+      },
+      "deckLinks": [
+        "https://netrunnerdb.com/en/decklist/0665c5c7-f7f1-4674-86b5-ca4e371888f2/system-gateway-starter-corp-34-cards-",
+        "https://netrunnerdb.com/en/decklist/d71397b7-af7b-475c-8984-18360a64f6ee/system-gateway-starter-runner-30-cards-"
+      ],
+      "ledger": "gateway-ledgers/neon-starter.md",
+      "annotationStatus": "Opening-to-ending public-action ledger, not an exact executable full-game replay",
+      "captionAcquisitionFollowup": {
+        "method": "yt-dlp JSON3 English track",
+        "success": true,
+        "reviewedOn": "2026-11-06"
+      }
+    },
+    {
+      "id": "4Gr47iNjo0w",
+      "url": "https://www.youtube.com/watch?v=4Gr47iNjo0w",
+      "title": "ANDROID NETRUNNER / System Gateway STARTER DECKS PLAYTHROUGH",
+      "creator": "Legendary Tactics",
+      "published": "2022-09-11T08:00:03-07:00",
+      "durationSeconds": 1554,
+      "category": "gateway-starter-play",
+      "cardPool": "starter",
+      "summary": "Two players discover starter decks in Jinteki.net, Corp viewpoint. Source contains an extra Red Team payout, Seamless undo and manual Overclock credit correction.",
+      "evidenceLevel": "Captions retrieved; gameplay annotated from narration, sampled board frames and visible Jinteki log where available. Hidden-state and source-rule gaps explicitly retained.",
+      "captionTracksAdvertised": [
+        {
+          "language": "zh",
+          "type": "non-asr"
+        },
+        {
+          "language": "nl",
+          "type": "non-asr"
+        },
+        {
+          "language": "en",
+          "type": "non-asr"
+        },
+        {
+          "language": "en",
+          "type": "asr"
+        },
+        {
+          "language": "fr",
+          "type": "non-asr"
+        },
+        {
+          "language": "de",
+          "type": "non-asr"
+        },
+        {
+          "language": "hi",
+          "type": "non-asr"
+        },
+        {
+          "language": "it",
+          "type": "non-asr"
+        },
+        {
+          "language": "ja",
+          "type": "non-asr"
+        },
+        {
+          "language": "ko",
+          "type": "non-asr"
+        },
+        {
+          "language": "pl",
+          "type": "non-asr"
+        },
+        {
+          "language": "pt",
+          "type": "non-asr"
+        },
+        {
+          "language": "es",
+          "type": "non-asr"
+        },
+        {
+          "language": "sv",
+          "type": "non-asr"
+        }
+      ],
+      "transcriptRetrieved": true,
+      "checkedOn": "2026-11-06",
+      "deckLinks": [],
+      "ledger": "gateway-ledgers/lt-starter.md",
+      "annotationStatus": "Opening-to-ending public-action ledger, not an exact executable full-game replay",
+      "captionAcquisitionFollowup": {
+        "method": "yt-dlp JSON3 English track",
+        "success": true,
+        "reviewedOn": "2026-11-06"
+      }
+    },
+    {
+      "id": "NwMp40meA1A",
+      "url": "https://www.youtube.com/watch?v=NwMp40meA1A",
+      "title": "ANDROID NETRUNNER / System Gateway BOOSTER DECKS PLAYTHROUGH",
+      "creator": "Legendary Tactics",
+      "published": "2022-09-16T08:00:17-07:00",
+      "durationSeconds": 2599,
+      "category": "gateway-starter-play",
+      "cardPool": "booster",
+      "summary": "Starter-plus-booster game in Jinteki.net, Runner viewpoint; strong public action log with DZMZ, Leech, tags, partial breaking and Urtica.",
+      "evidenceLevel": "Captions retrieved; gameplay annotated from narration, sampled board frames and visible Jinteki log where available. Hidden-state and source-rule gaps explicitly retained.",
+      "captionTracksAdvertised": [
+        {
+          "language": "zh",
+          "type": "non-asr"
+        },
+        {
+          "language": "nl",
+          "type": "non-asr"
+        },
+        {
+          "language": "en",
+          "type": "non-asr"
+        },
+        {
+          "language": "en",
+          "type": "asr"
+        },
+        {
+          "language": "fr",
+          "type": "non-asr"
+        },
+        {
+          "language": "de",
+          "type": "non-asr"
+        },
+        {
+          "language": "hi",
+          "type": "non-asr"
+        },
+        {
+          "language": "it",
+          "type": "non-asr"
+        },
+        {
+          "language": "ja",
+          "type": "non-asr"
+        },
+        {
+          "language": "ko",
+          "type": "non-asr"
+        },
+        {
+          "language": "pl",
+          "type": "non-asr"
+        },
+        {
+          "language": "pt",
+          "type": "non-asr"
+        },
+        {
+          "language": "es",
+          "type": "non-asr"
+        },
+        {
+          "language": "sv",
+          "type": "non-asr"
+        }
+      ],
+      "transcriptRetrieved": true,
+      "checkedOn": "2026-11-06",
+      "deckLinks": [],
+      "ledger": "gateway-ledgers/lt-booster.md",
+      "annotationStatus": "Opening-to-ending public-action ledger, not an exact executable full-game replay",
+      "captionAcquisitionFollowup": {
+        "method": "yt-dlp JSON3 English track",
+        "success": true,
+        "reviewedOn": "2026-11-06"
+      }
+    },
+    {
+      "id": "f7boqDmz1WM",
+      "url": "https://www.youtube.com/watch?v=f7boqDmz1WM",
+      "title": "Throwback Thursday - Netrunner, Nisei System Gateway",
+      "creator": "Covenant",
+      "published": "2021-05-06T15:29:27-07:00",
+      "durationSeconds": 13190,
+      "category": "gateway-starter-play",
+      "cardPool": "starter",
+      "summary": "Long starter-product session with Steven and Zach; recording runtime includes conversation. Exact game count was not annotated.",
+      "evidenceLevel": "Direct public player metadata and creator description; no full move annotation",
+      "captionTracksAdvertised": [
+        {
+          "language": "en",
+          "type": "asr"
+        }
+      ],
+      "transcriptRetrieved": false,
+      "checkedOn": "2026-11-06",
+      "deckLinks": []
+    },
+    {
+      "id": "GJ3HLismm1g",
+      "url": "https://www.youtube.com/watch?v=GJ3HLismm1g",
+      "title": "System Gateway Preview - Android: Netrunner // LIVE",
+      "creator": "Metropole Grid",
+      "published": "2021-03-18T21:55:59-07:00",
+      "durationSeconds": 13092,
+      "category": "broader-recorded-play",
+      "cardPool": "mixed",
+      "summary": "Six chaptered preview games featuring Gateway cards alongside older cards, including Kabonesa and Euler. Gateway identities alone do not establish a Gateway-only deck.",
+      "evidenceLevel": "Direct public player metadata and creator description; no full move annotation",
+      "captionTracksAdvertised": [
+        {
+          "language": "en",
+          "type": "asr"
+        }
+      ],
+      "transcriptRetrieved": false,
+      "checkedOn": "2026-11-06",
+      "deckLinks": []
+    },
+    {
+      "id": "vjxGUoaEbY0",
+      "url": "https://www.youtube.com/watch?v=vjxGUoaEbY0",
+      "title": "Learning Netrunner | Episode 1 - Criminal vs Haas-Bioroid",
+      "creator": "Neon Static",
+      "published": "2026-06-09T16:58:08-07:00",
+      "durationSeconds": 5081,
+      "category": "broader-recorded-play",
+      "cardPool": "mixed",
+      "summary": "Narrated Zahya versus Precision Design match with turn, tag and damage chapters. Linked lists contain many non-Gateway cards.",
+      "evidenceLevel": "Direct public player metadata and creator description; no full move annotation",
+      "captionTracksAdvertised": [
+        {
+          "language": "en",
+          "type": "asr"
+        }
+      ],
+      "transcriptRetrieved": false,
+      "checkedOn": "2026-11-06",
+      "deckLinks": [
+        "https://netrunnerdb.com/en/decklist/35bbef9e-c221-4bbd-b615-ce067b222736/neon-static-beginner-series-game-1-criminal",
+        "https://netrunnerdb.com/en/decklist/4a5fd1bf-27c8-4a43-8be3-343acdc700fe/neon-static-beginner-series-game-1-haas-bioroid"
+      ],
+      "aliases": [
+        {
+          "url": "https://www.youtube.com/watch?v=nIEFHzqIi2w",
+          "status": "Playable but explicitly unlisted; same episode title and 5081-second duration. Excluded from distinct-recording counts."
+        }
+      ]
+    },
+    {
+      "id": "1NsqCmztyks",
+      "url": "https://www.youtube.com/watch?v=1NsqCmztyks",
+      "title": "Learning Netrunner | Episode 2 - Shaper vs Weyland",
+      "creator": "Neon Static",
+      "published": "2026-06-21T19:36:17-07:00",
+      "durationSeconds": 3883,
+      "category": "broader-recorded-play",
+      "cardPool": "mixed",
+      "summary": "Narrated Magdalene versus Built to Last match, with advancement, purge and charge explanations. Both linked lists extend beyond Gateway.",
+      "evidenceLevel": "Direct public player metadata and creator description; no full move annotation",
+      "captionTracksAdvertised": [
+        {
+          "language": "en",
+          "type": "asr"
+        },
+        {
+          "language": "fr-FR",
+          "type": "asr"
+        },
+        {
+          "language": "id",
+          "type": "asr"
+        },
+        {
+          "language": "it",
+          "type": "asr"
+        }
+      ],
+      "transcriptRetrieved": false,
+      "checkedOn": "2026-11-06",
+      "deckLinks": [
+        "https://netrunnerdb.com/en/decklist/527db0fd-e1dc-4e57-b99e-2809cf101fe8/neon-static-learning-netrunner-episode-2-shaper",
+        "https://netrunnerdb.com/en/decklist/234afd05-53a2-4533-9eb5-ea8bad10895e/neon-static-learning-netrunner-episode-2-weyland"
+      ]
+    },
+    {
+      "id": "CwErYHoRoPs",
+      "url": "https://www.youtube.com/watch?v=CwErYHoRoPs",
+      "title": "Learning Netrunner | Episode 3 - Anarch vs Jinteki",
+      "creator": "Neon Static",
+      "published": "2026-07-06T04:24:48-07:00",
+      "durationSeconds": 2949,
+      "category": "broader-recorded-play",
+      "cardPool": "mixed",
+      "summary": "Narrated Loup versus AU Co.; chapters show an initial game segment, a reset discussion, then a second opening. Both lists extend beyond Gateway.",
+      "evidenceLevel": "Direct public player metadata and creator description; no full move annotation",
+      "captionTracksAdvertised": [
+        {
+          "language": "en",
+          "type": "asr"
+        },
+        {
+          "language": "fr-FR",
+          "type": "asr"
+        }
+      ],
+      "transcriptRetrieved": false,
+      "checkedOn": "2026-11-06",
+      "deckLinks": [
+        "https://netrunnerdb.com/en/decklist/5a3d3a15-6cde-4b43-86dc-26ef97d1a2d7/neon-static-learning-netrunner-episode-3-anarch",
+        "https://netrunnerdb.com/en/decklist/bceb4009-124c-44e6-9c75-d7c5940a06c9/neon-static-learning-netrunner-episode-3-jinteki"
+      ]
+    },
+    {
+      "id": "f8ct2RyonrE",
+      "url": "https://www.youtube.com/watch?v=f8ct2RyonrE",
+      "title": "Netrunner from Null Signal Games - Playthroughs",
+      "creator": "Gaming Rules!",
+      "published": "2025-04-11T09:00:52-07:00",
+      "durationSeconds": 10303,
+      "category": "broader-recorded-play",
+      "cardPool": "unverified",
+      "summary": "Two separately chaptered games. The description does not establish exact decklists or card-pool restrictions; retained as a candidate, not a verified Gateway-only recording.",
+      "evidenceLevel": "Direct public player metadata and creator description; no full move annotation",
+      "captionTracksAdvertised": [
+        {
+          "language": "en",
+          "type": "asr"
+        }
+      ],
+      "transcriptRetrieved": false,
+      "checkedOn": "2026-11-06",
+      "deckLinks": []
+    },
+    {
+      "id": "xtI0-j0utLo",
+      "url": "https://www.youtube.com/watch?v=xtI0-j0utLo",
+      "title": "Learn To Play Netrunner - Example Game",
+      "creator": "Null Signal Games",
+      "published": "2026-06-08T10:06:29-07:00",
+      "durationSeconds": 915,
+      "category": "scripted-example-video",
+      "cardPool": "mixed",
+      "summary": "Official three-turn edited example matching the June 2026 teaching script. Uses cards outside Gateway and is already the reference for our adapted evaluation.",
+      "evidenceLevel": "Direct public player metadata and creator description; no full move annotation",
+      "captionTracksAdvertised": [
+        {
+          "language": "en",
+          "type": "non-asr"
+        },
+        {
+          "language": "en",
+          "type": "asr"
+        }
+      ],
+      "transcriptRetrieved": false,
+      "checkedOn": "2026-11-06",
+      "captionFetchProbe": {
+        "status": 200,
+        "bytes": 0
+      },
+      "deckLinks": []
+    },
+    {
+      "id": "aG0eTf7BncU",
+      "url": "https://www.youtube.com/watch?v=aG0eTf7BncU",
+      "title": "Netrunner: How to play with System Gateway",
+      "creator": "Null Signal Games",
+      "published": "2022-08-03T08:15:17-07:00",
+      "durationSeconds": 866,
+      "category": "support-video",
+      "cardPool": "gateway-rules",
+      "summary": "Official explanation and demonstrations, rather than a complete natural game. Creator correction at 10:49 requires boosting Cleaver before breaking remote Palisade.",
+      "evidenceLevel": "Direct public player metadata and creator description; no full move annotation",
+      "captionTracksAdvertised": [
+        {
+          "language": "en",
+          "type": "asr"
+        }
+      ],
+      "transcriptRetrieved": false,
+      "checkedOn": "2026-11-06",
+      "deckLinks": []
+    },
+    {
+      "id": "_E3n_qNbt04",
+      "url": "https://www.youtube.com/watch?v=_E3n_qNbt04",
+      "title": "What is Netrunner? - Netrunner Introduction 1 of 3",
+      "creator": "Good Games",
+      "published": "2023-12-18T06:19:19-08:00",
+      "durationSeconds": 377,
+      "category": "support-video",
+      "cardPool": "general",
+      "summary": "First of three introduction videos; history and ways to play. The playlist is counted through its individual videos, not as another source.",
+      "evidenceLevel": "Direct public player metadata and creator description; no full move annotation",
+      "captionTracksAdvertised": [
+        {
+          "language": "en",
+          "type": "asr"
+        }
+      ],
+      "transcriptRetrieved": false,
+      "checkedOn": "2026-11-06",
+      "deckLinks": []
+    },
+    {
+      "id": "2cZosc0JkOE",
+      "url": "https://www.youtube.com/watch?v=2cZosc0JkOE",
+      "title": "Bigger Picture - Introduzione a Netrunner",
+      "creator": "Milano City Grid",
+      "published": "2026-05-06T04:00:13-07:00",
+      "durationSeconds": 1002,
+      "category": "support-video",
+      "cardPool": "introductory",
+      "summary": "Italian introduction with run and breaker demonstrations; not a full recorded match.",
+      "evidenceLevel": "Direct public player metadata and creator description; no full move annotation",
+      "captionTracksAdvertised": [
+        {
+          "language": "it",
+          "type": "asr"
+        }
+      ],
+      "transcriptRetrieved": false,
+      "checkedOn": "2026-11-06",
+      "deckLinks": []
+    },
+    {
+      "id": "i1zoeeDJr-k",
+      "url": "https://www.youtube.com/watch?v=i1zoeeDJr-k",
+      "title": "Deckbuilding 101 - Building Our First Netrunner Corp Deck - System Gateway",
+      "creator": "Metropole Grid",
+      "published": "2024-11-25T07:15:04-08:00",
+      "durationSeconds": 6358,
+      "category": "support-video",
+      "cardPool": "gateway-deckbuilding",
+      "summary": "Gateway-only Precision Design deck construction and strategy. No actual match is counted. Linked unpublished deck could not be retrieved through the public decklist endpoint.",
+      "evidenceLevel": "Direct public player metadata and creator description; no full move annotation",
+      "captionTracksAdvertised": [
+        {
+          "language": "en",
+          "type": "asr"
+        }
+      ],
+      "transcriptRetrieved": false,
+      "checkedOn": "2026-11-06",
+      "deckLinks": [
+        "https://www.netrunnerdb.com/en/deck/view/b7fe17cb-10c0-48d2-b6f1-dab638fbd9b2"
+      ]
+    },
+    {
+      "id": "oqCPDn7Qhsk",
+      "url": "https://www.youtube.com/watch?v=oqCPDn7Qhsk",
+      "title": "Deckbuilding 101 - Building Our First Netrunner Runner Deck - System Gateway",
+      "creator": "Metropole Grid",
+      "published": "2024-12-02T07:15:02-08:00",
+      "durationSeconds": 5104,
+      "category": "support-video",
+      "cardPool": "gateway-deckbuilding",
+      "summary": "Gateway-only Zahya deck construction and strategy. No actual match is counted. Linked unpublished deck could not be retrieved through the public decklist endpoint.",
+      "evidenceLevel": "Direct public player metadata and creator description; no full move annotation",
+      "captionTracksAdvertised": [
+        {
+          "language": "bn",
+          "type": "asr"
+        },
+        {
+          "language": "nl-NL",
+          "type": "asr"
+        },
+        {
+          "language": "en",
+          "type": "asr"
+        },
+        {
+          "language": "iw",
+          "type": "asr"
+        },
+        {
+          "language": "ja",
+          "type": "asr"
+        },
+        {
+          "language": "ko",
+          "type": "asr"
+        },
+        {
+          "language": "ml",
+          "type": "asr"
+        },
+        {
+          "language": "pl",
+          "type": "asr"
+        },
+        {
+          "language": "ru",
+          "type": "asr"
+        },
+        {
+          "language": "uk",
+          "type": "asr"
+        }
+      ],
+      "transcriptRetrieved": false,
+      "checkedOn": "2026-11-06",
+      "deckLinks": [
+        "https://www.netrunnerdb.com/en/deck/view/ff853697-9575-49b4-b05f-fb6b6653fe11"
+      ]
+    },
+    {
+      "id": "9_CBpG8c_9Y",
+      "url": "https://www.youtube.com/watch?v=9_CBpG8c_9Y",
+      "title": "Android: Netrunner – System Gateway Strategy Tips with June Cuervo",
+      "creator": "Show Me How To Win",
+      "published": "2022-03-08T08:00:27-08:00",
+      "durationSeconds": 1005,
+      "category": "support-video",
+      "cardPool": "gateway-strategy",
+      "summary": "Designer strategy discussion, useful for intended play patterns; not a complete playthrough.",
+      "evidenceLevel": "Direct public player metadata and creator description; no full move annotation",
+      "captionTracksAdvertised": [
+        {
+          "language": "en",
+          "type": "asr"
+        }
+      ],
+      "transcriptRetrieved": false,
+      "checkedOn": "2026-11-06",
+      "deckLinks": []
+    },
+    {
+      "id": "DCiugkmct3k",
+      "url": "https://www.youtube.com/watch?v=DCiugkmct3k",
+      "title": "How to play Netrunner - Netrunner Introduction 2 of 3",
+      "creator": "Good Games",
+      "published": "2023-12-18T07:17:06-08:00",
+      "durationSeconds": 1461,
+      "category": "scripted-example-video",
+      "cardPool": "unverified",
+      "summary": "Rules instruction includes a staged example starting at 13:33. Creator corrections cover scoring timing, private R&D access and mulligan order; not a recorded natural match.",
+      "evidenceLevel": "Direct public player metadata and creator description; no full move annotation",
+      "captionTracksAdvertised": [
+        {
+          "language": "en",
+          "type": "asr"
+        }
+      ],
+      "transcriptRetrieved": false,
+      "checkedOn": "2026-11-06",
+      "deckLinks": []
+    },
+    {
+      "id": "p1syxJzO2vU",
+      "url": "https://www.youtube.com/watch?v=p1syxJzO2vU",
+      "title": "Advanced Rules of Netrunner - Netrunner Introduction 3 of 3",
+      "creator": "Good Games",
+      "published": "2023-12-18T07:33:25-08:00",
+      "durationSeconds": 836,
+      "category": "support-video",
+      "cardPool": "general",
+      "summary": "Third introduction video discusses counters, damage, tags, traces and factions. Some concepts exceed Gateway.",
+      "evidenceLevel": "Direct public player metadata and creator description; no full move annotation",
+      "captionTracksAdvertised": [
+        {
+          "language": "en",
+          "type": "asr"
+        }
+      ],
+      "transcriptRetrieved": false,
+      "checkedOn": "2026-11-06",
+      "deckLinks": []
+    },
+    {
+      "id": "nsg-script-2026",
+      "category": "written-script",
+      "url": "https://nullsignal.games/blog/new-learn-to-play-resources/",
+      "title": "New Learn To Play Resources",
+      "creator": "Null Signal Games",
+      "published": "2026-06-08",
+      "cardPool": "Gateway plus newer sets",
+      "summary": "Three paired teaching turns, fixed opening order, decklists, action sequence and end-state resources. This is the text companion of the existing reference video, not independent match evidence."
+    },
+    {
+      "id": "nsg-script-legacy",
+      "category": "written-script",
+      "url": "https://nullsignal.games/l2p-decks-teacher/",
+      "title": "Teach Netrunner with L2P Decks",
+      "creator": "Null Signal Games",
+      "cardPool": "Gateway plus Elevation",
+      "summary": "Earlier three-turn teaching sequence with Built to Last and Zahya; includes deck order, clicks and resource totals. Different from the June 2026 script; linked from the older L2P landing page."
+    },
+    {
+      "id": "jnet-summary-20211208",
+      "category": "statistics-dataset",
+      "url": "https://github.com/jwarwick/netrunner_stats/blob/main/20211208_games.csv",
+      "creator": "jwarwick",
+      "summary": "111112 historical game-summary rows, including 3135 labelled system-gateway. No action traces or decklists. Aggregated inspection is saved separately.",
+      "derivedFile": "system-gateway-stats-summary.json"
+    },
+    {
+      "id": "abr-tlv",
+      "category": "tournament-results",
+      "url": "https://alwaysberunning.net/tournaments/4531/tlv-system-gateway-tournament",
+      "title": "TLV System Gateway Tournament",
+      "date": "2024-11-08",
+      "players": 9,
+      "cardPool": "Gateway only per organizer",
+      "summary": "Identity standings and some linked decks; no listed videos or Swiss match data."
+    },
+    {
+      "id": "abr-kayfabe",
+      "category": "tournament-results",
+      "url": "https://alwaysberunning.net/tournaments/4690/system-gateway-showdown-gnk-kayfabe",
+      "title": "System Gateway Showdown GNK at Kayfabe",
+      "date": "2025-03-11",
+      "players": 8,
+      "cardPool": "Gateway only per organizer",
+      "summary": "Standings include all seven main Gateway identities across entrants and links to multiple lists. No listed videos or Swiss match data."
+    },
+    {
+      "id": "abr-fargo",
+      "category": "tournament-results",
+      "url": "https://alwaysberunning.net/tournaments/4739/netrunner-local-meetup",
+      "title": "Netrunner Local Meetup Fargo",
+      "date": "2025-03-15",
+      "players": 6,
+      "cardPool": "Gateway only per organizer",
+      "summary": "Standings and Gateway deck links; no listed recordings or Swiss match data."
+    },
+    {
+      "id": "historical-starter-replay",
+      "category": "unavailable-replay-lead",
+      "url": "https://www.jinteki.net/replay/a76653f6-82d8-42da-ab64-776677d7f14f",
+      "discoveryUrl": "https://www.tumgik.com/tag/jinteki",
+      "summary": "A mirrored post describes a Gateway starter-tournament game between The Syndicate and The Catalyst. The direct replay returned HTTP 404. No usable replay was obtained.",
+      "replayFetchStatus": 404
+    },
+    {
+      "id": "nsg-sample-decks",
+      "category": "decklist-reference",
+      "url": "https://nullsignal.games/players/getting-started-sample-decklists/",
+      "title": "Getting Started Sample Decklists",
+      "creator": "Null Signal Games",
+      "summary": "Seven Gateway-only identity decks with strategy links, plus a separate Gateway/Elevation section. These supply intended play styles, not recorded game actions."
+    }
+  ],
+  "fullGameAudit": "gateway-ledgers/end-to-end-audit.md"
+}

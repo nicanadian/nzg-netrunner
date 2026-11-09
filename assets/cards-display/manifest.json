@@ -1,0 +1,2257 @@
+{
+  "schemaVersion": 1,
+  "set": "System Gateway",
+  "sourceManifest": "assets/card-sources.json",
+  "sourcePrinting": "Checked-in 2023 Null Signal Games PNG card faces",
+  "generator": "scripts/build-card-display.py",
+  "pillowVersion": "13.0.0",
+  "webpVersion": "1.6.0",
+  "encoding": {
+    "format": "WebP",
+    "mode": "8-bit RGBA",
+    "lossless": true,
+    "quality": 75,
+    "method": 6,
+    "exact": true,
+    "qualityMeaning": "Compression effort only in lossless mode; decoded RGBA pixels are exact",
+    "sourceConversion": "Pillow 16-bit PNG decode to 8-bit RGBA; alpha retained",
+    "resize": "300px: single Lanczos downsample to 300x420; 600px: no resize",
+    "upscaling": false,
+    "sharpening": false
+  },
+  "cards": [
+    {
+      "code": "30001",
+      "input": {
+        "path": "assets/cards-hires/30001.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2692806,
+        "sha256": "8d03cf5d3fd75570ca03dafed48bbc41570424ce52159a2c63d98416adeadbfd",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30001-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 155814,
+          "sha256": "22a925facf61fc8f00a8902c3518ccbf8b9c89c976c2482693faf0db006a1bb5"
+        },
+        {
+          "path": "assets/cards-display/30001-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 488658,
+          "sha256": "bda9ab1b362ece2cf43c191ffdcfbf95a78513673fd32f9d85b39e861727afd9"
+        }
+      ]
+    },
+    {
+      "code": "30002",
+      "input": {
+        "path": "assets/cards-hires/30002.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2567276,
+        "sha256": "af134e33efe6c2c4a56506019df1b0a47bbfd0426ecc6fd72bda8679b8dc2813",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30002-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 139696,
+          "sha256": "ba7b94bc8c451111a5a3fc45f1f12cc5332f136096d5f38997d18b8946e70f34"
+        },
+        {
+          "path": "assets/cards-display/30002-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 427744,
+          "sha256": "dd1cd67b50c2b28206c35d69a9d60653e660812ce96d7fe045764dfa39f8f850"
+        }
+      ]
+    },
+    {
+      "code": "30003",
+      "input": {
+        "path": "assets/cards-hires/30003.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2556786,
+        "sha256": "53ce5239372de90309a9cb3c5648c34ee78bfe9c9f181e412b07f45c96231ab2",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30003-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 147212,
+          "sha256": "ea9a1632be898b8514bb775de9f1e5ec3b6dd021e0e567f03cb1f9dcc038e485"
+        },
+        {
+          "path": "assets/cards-display/30003-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 469146,
+          "sha256": "72bc5f7904467db3896baff1e95b372491ea15bff2cee3d9ce649af5e673788b"
+        }
+      ]
+    },
+    {
+      "code": "30004",
+      "input": {
+        "path": "assets/cards-hires/30004.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2565867,
+        "sha256": "abd68eea9cf45c3b668425875f4608c88f8a9eb13728c8a3a60d6f896617282d",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30004-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 182308,
+          "sha256": "4827d8c5c112de024eb873a81fed2a1e901f03185cf0a012788add27c8ee9031"
+        },
+        {
+          "path": "assets/cards-display/30004-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 544152,
+          "sha256": "f7be0f0d99308d5c969671053c34be7929ccb2f60ec00f956c46ec7c35e9d930"
+        }
+      ]
+    },
+    {
+      "code": "30005",
+      "input": {
+        "path": "assets/cards-hires/30005.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2510363,
+        "sha256": "7fbc40957c9c2c471714b378647e7a2ce0306160024a0f80c262ce6abd31b1de",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30005-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 162102,
+          "sha256": "a1788371e5b60b5718b017ca51b3a12b47b52ad41f32795f270d764c2e81dcee"
+        },
+        {
+          "path": "assets/cards-display/30005-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 486244,
+          "sha256": "5a45cee3cb7aaa08246f9240f2fe0ad1821e97bc0ac6d69933734a2405c313bf"
+        }
+      ]
+    },
+    {
+      "code": "30006",
+      "input": {
+        "path": "assets/cards-hires/30006.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2491410,
+        "sha256": "a74106e8033eb62f0bacfbecaa55d00603085181835a1a9d488dba7abbfd53b4",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30006-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 155582,
+          "sha256": "6d80578ddbe17617c590f8170ed75d7dbb4adbaabaa229ba54ea176c056cf639"
+        },
+        {
+          "path": "assets/cards-display/30006-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 457630,
+          "sha256": "8f6cdab172152f8e6c7a1eb60b2f6f9efa4dc9599e88a5d88a9783debfb87b16"
+        }
+      ]
+    },
+    {
+      "code": "30007",
+      "input": {
+        "path": "assets/cards-hires/30007.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2574210,
+        "sha256": "cf466190ddd8abb4d33a9572d2e50f474576ab006a747f9d2cbcf36e9be01010",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30007-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 178576,
+          "sha256": "aab8b080443dc0ebbaf23f5196334541843822687bfad2a2f2ea506ea02436cb"
+        },
+        {
+          "path": "assets/cards-display/30007-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 531124,
+          "sha256": "7b87dfb9088736148585fc116e86f1945ac0e2cb774530f67253003f9f283541"
+        }
+      ]
+    },
+    {
+      "code": "30008",
+      "input": {
+        "path": "assets/cards-hires/30008.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2526127,
+        "sha256": "469ad63d50012cfb037a6d75c368f039ae11241c2b995b7e11f63cec33bdc99b",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30008-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 186380,
+          "sha256": "8e86e2e44d2c1f50a755f12b8ce34d86072b93bab7300c122536562656069f45"
+        },
+        {
+          "path": "assets/cards-display/30008-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 537498,
+          "sha256": "d11ad23965bf63ea962220c89b21e6634b550b64beb52d932115f13ae71a89ad"
+        }
+      ]
+    },
+    {
+      "code": "30009",
+      "input": {
+        "path": "assets/cards-hires/30009.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2555968,
+        "sha256": "8a6fbb5ab38e2a8a05f967a2e66a1403781128c0154b530324a44aabfaacae75",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30009-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 159258,
+          "sha256": "4362e5168dfa6d8ce611b6dc78372c5224ae052604cec49f7400e85ce63363d4"
+        },
+        {
+          "path": "assets/cards-display/30009-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 459636,
+          "sha256": "3774a63022a64f56663e48e3820312399c2a055edda29909691248e122ebba9e"
+        }
+      ]
+    },
+    {
+      "code": "30010",
+      "input": {
+        "path": "assets/cards-hires/30010.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2644785,
+        "sha256": "a7dfc3d2fa32cddf78eb68211d305e946c9e8ff72ada5aa17c389755a36951cf",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30010-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 149132,
+          "sha256": "707bec61d7bf77c529e82a4c410800c71313ff423d51bc0db0b9938c531c3584"
+        },
+        {
+          "path": "assets/cards-display/30010-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 463744,
+          "sha256": "9397fb3c716048deefb6cad52fece392f7ce71e90510d591ea309002c3aeb3f0"
+        }
+      ]
+    },
+    {
+      "code": "30011",
+      "input": {
+        "path": "assets/cards-hires/30011.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2433839,
+        "sha256": "742486677b1b645e35e5d34cd0a058311c29274b1996f10f424fed0b6f582ea9",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30011-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 129190,
+          "sha256": "f478747738de89e72be5b35fe08122c14d1d842a338c76dc6fb15c25ae692142"
+        },
+        {
+          "path": "assets/cards-display/30011-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 375804,
+          "sha256": "fb3c90e8dd48250dc029bbbac06a902084acc6e63fd8ce32c307822c03e143cf"
+        }
+      ]
+    },
+    {
+      "code": "30012",
+      "input": {
+        "path": "assets/cards-hires/30012.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2363960,
+        "sha256": "8c88fe4914f85d612f1eb5973f86e1d7451d98e9e425cbddb06fb5d58b3d5949",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30012-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 140736,
+          "sha256": "f8c01e438cefdf66171d128242f8cc8aff8c86ab5174c6efd7a2b63c0caaab2f"
+        },
+        {
+          "path": "assets/cards-display/30012-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 411150,
+          "sha256": "1fc8d3fc66cf40ff485353104d2f2a37ee4060f996a1a5d5303ac36ee35a661e"
+        }
+      ]
+    },
+    {
+      "code": "30013",
+      "input": {
+        "path": "assets/cards-hires/30013.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2429513,
+        "sha256": "24f4f383f223b2ff5cd0080806864e55920473a4b98cfce70e506b5774b74723",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30013-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 125198,
+          "sha256": "61360d999f1a2efaaa6f31c10be474277a1d3ea09747377630f9acbadd72f3f0"
+        },
+        {
+          "path": "assets/cards-display/30013-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 366500,
+          "sha256": "083b5b8515e1c8aca223e9fc490648be1645834e6a2484dd067878685a2efa20"
+        }
+      ]
+    },
+    {
+      "code": "30014",
+      "input": {
+        "path": "assets/cards-hires/30014.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2516760,
+        "sha256": "52dfd896f2380163670f17c498b5948360bfe0a312cef058d40259b5f090aee2",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30014-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 139012,
+          "sha256": "41f34d2505f6f320b296dda9f7ced7b954efb4092e7c4eb2909097d0f8429311"
+        },
+        {
+          "path": "assets/cards-display/30014-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 420296,
+          "sha256": "30107595cffd2502f5b5de8351aba3c839a076664ed6bb6b6ed6f7dc1caa6c99"
+        }
+      ]
+    },
+    {
+      "code": "30015",
+      "input": {
+        "path": "assets/cards-hires/30015.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2367891,
+        "sha256": "de790546d54e0d21cead1c1286d7e52c19c8c7b135ec42916cfc220ee2426a59",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30015-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 154270,
+          "sha256": "6ae7c12737539916056c0eb4deff1a39c1476ad480cb7d8ddf87dcacc3cdc53f"
+        },
+        {
+          "path": "assets/cards-display/30015-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 443242,
+          "sha256": "07903c858837e5e49e8caf514494847987eabe657150dd7f836676f76e532606"
+        }
+      ]
+    },
+    {
+      "code": "30016",
+      "input": {
+        "path": "assets/cards-hires/30016.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2406983,
+        "sha256": "e4088f99a6a39d60cf47d4ab706dd41ad2a6bb32a34969bae4c110402c1a1820",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30016-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 152202,
+          "sha256": "b0146a902f9130caf4b363f9195f67c8447e23848f5f6a5f99054855a43a8f55"
+        },
+        {
+          "path": "assets/cards-display/30016-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 453202,
+          "sha256": "e24c706a0ffd02b5f739ac53133566fe7647bf43cda899152cde06eef8ecd93f"
+        }
+      ]
+    },
+    {
+      "code": "30017",
+      "input": {
+        "path": "assets/cards-hires/30017.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2484291,
+        "sha256": "03d6b14c4cb9e7a03f411c1e4fd0a1649eae00a40e94cf30b276f3e4905b6848",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30017-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 161102,
+          "sha256": "52f92aba272a5eaa9fe62129a2473e07a0da4c7dba1fc5fc15b1c04735b8ec68"
+        },
+        {
+          "path": "assets/cards-display/30017-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 482938,
+          "sha256": "e48089d7c5376c6dc1b6f705d31aab5d4af5ec23284a3731b1d1ae32a06186be"
+        }
+      ]
+    },
+    {
+      "code": "30018",
+      "input": {
+        "path": "assets/cards-hires/30018.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2516991,
+        "sha256": "eafabd1043584c70b0a6f914f0ee01d183b231984b579ce81cb91b3177e66845",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30018-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 151160,
+          "sha256": "3375646cdf386d726dab477f9d8569f7d82d4e183c8c60c09349d4fbbb186c88"
+        },
+        {
+          "path": "assets/cards-display/30018-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 447060,
+          "sha256": "eac045dd735c433cc125345ea35a82d551ab8aa7c77b47a149b81dbd2ec9a80f"
+        }
+      ]
+    },
+    {
+      "code": "30019",
+      "input": {
+        "path": "assets/cards-hires/30019.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2822223,
+        "sha256": "4bf2fd4a441d7749bb41b354898f252ed187b313f063af508e3bc577d2914742",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30019-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 154290,
+          "sha256": "667bfe4f60626561aa6733f96573db81212e0cacd846b4bbe383ba72167f2dd3"
+        },
+        {
+          "path": "assets/cards-display/30019-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 480244,
+          "sha256": "274a57fd411c08dfd3eb04a933b760e3263852f4593bc8fd8daf6889d52bc48a"
+        }
+      ]
+    },
+    {
+      "code": "30020",
+      "input": {
+        "path": "assets/cards-hires/30020.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2706458,
+        "sha256": "63747f4a08ddbdc990b78da0a494f079fcb5c1b02a1edca34804a5a531cb4338",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30020-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 172746,
+          "sha256": "08fb8cf0075d2eea670e23e6862429730c5443a7b8a38420c3380d8fabe921e3"
+        },
+        {
+          "path": "assets/cards-display/30020-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 523924,
+          "sha256": "55d308a692d6761c76c0988cbfa1c907b16dce5a30c897b939595b5a5e818305"
+        }
+      ]
+    },
+    {
+      "code": "30021",
+      "input": {
+        "path": "assets/cards-hires/30021.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2645371,
+        "sha256": "cceaeaf0b22e00ae3bd673311ebde5dfaf746c7faaff187d7426ca3fa2f72f64",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30021-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 157222,
+          "sha256": "c84dd0de9750d626e13433b43b536d2f3c4bbf38935fa31b57263a8b89fa0fb0"
+        },
+        {
+          "path": "assets/cards-display/30021-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 472320,
+          "sha256": "69409ecee1cafa43638d33bba8a31b61280054b12426f4e157672350ca655b35"
+        }
+      ]
+    },
+    {
+      "code": "30022",
+      "input": {
+        "path": "assets/cards-hires/30022.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2732451,
+        "sha256": "479dc1a91ea2ce8e2797ccff94d09f9740e1a65d810dbb53f920af66b0db7c4c",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30022-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 161876,
+          "sha256": "bca174d6a95bf14e52fe5f7ee7f2adff04c16c1bb929ac4c965159f4bebe6331"
+        },
+        {
+          "path": "assets/cards-display/30022-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 489122,
+          "sha256": "85ada1a50063a4fe6beeb39a03f1ac52be09029440ddd4e697fff4fdf8647aa1"
+        }
+      ]
+    },
+    {
+      "code": "30023",
+      "input": {
+        "path": "assets/cards-hires/30023.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2711885,
+        "sha256": "d58f90a9a9901af1bc7cac660280b04fa0309190dee69769aee59366d4dcc66d",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30023-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 162508,
+          "sha256": "8bbd34cde8ad1ac34b121f656bf2a6fcb942837e02a4a59d252f451e89b1d074"
+        },
+        {
+          "path": "assets/cards-display/30023-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 453806,
+          "sha256": "61a25a4ca8eb1d6a7539f15bcd63056dae553e97e808f6393ccb6b2bf6174387"
+        }
+      ]
+    },
+    {
+      "code": "30024",
+      "input": {
+        "path": "assets/cards-hires/30024.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2589372,
+        "sha256": "e7a8a1e17fdff5ed828fc5333a19177895dd094f7ac7f0bba3ebeae379dfbfb8",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30024-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 155552,
+          "sha256": "586dd10347c9318df54a060f5ca7dda88dc1d89e981b6ab3d06255fcb7458be0"
+        },
+        {
+          "path": "assets/cards-display/30024-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 431956,
+          "sha256": "09e3905abb6cfb824d7460aaefc7f5af7d1d46de12f36432f771a20edea06d80"
+        }
+      ]
+    },
+    {
+      "code": "30025",
+      "input": {
+        "path": "assets/cards-hires/30025.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2582296,
+        "sha256": "cd4fc8fb9088adb1c888333a642ef1e8855fa1d0df804450f31c3bb75693b43b",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30025-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 155844,
+          "sha256": "8b8ba4e9c2485bc94fbb1af1ad6f3e9000bf9f8ed0e2d0f038555774baca2842"
+        },
+        {
+          "path": "assets/cards-display/30025-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 431278,
+          "sha256": "a8593cd30f870197fa7e250dc1be617c16ccd07baa54052f0a6bf1eb9e40d849"
+        }
+      ]
+    },
+    {
+      "code": "30026",
+      "input": {
+        "path": "assets/cards-hires/30026.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2660532,
+        "sha256": "5574ad2b6020f339160df6c9e20a5ff5816687b018ecfb566af09fa95c69eb87",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30026-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 175192,
+          "sha256": "b0afea0e9046732f6230e7e5372981efdaaf8bc06d6e326b0a323d99a1757317"
+        },
+        {
+          "path": "assets/cards-display/30026-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 509180,
+          "sha256": "5c382d197286637f89dcac7cb5aa64d58a1f2839077bd119bb7d7e970af31108"
+        }
+      ]
+    },
+    {
+      "code": "30027",
+      "input": {
+        "path": "assets/cards-hires/30027.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2712802,
+        "sha256": "06a644ade53d4bf99eabd0600a386b8a34295d53c2f093fff046ef5b080c7b84",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30027-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 160702,
+          "sha256": "2374bfef724b8040a5f21e88deab2bd7eec1fdd64dd8108eb04b762bd6b65cb6"
+        },
+        {
+          "path": "assets/cards-display/30027-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 479194,
+          "sha256": "ce4c5112d637490a52eb988cd52c250b5ee4f11e27dfc9187a58cedaa815755d"
+        }
+      ]
+    },
+    {
+      "code": "30028",
+      "input": {
+        "path": "assets/cards-hires/30028.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2404434,
+        "sha256": "0c14ea8d6536a33bad47dc9b93e1ff9b65b6b0b87f04744cb985d33f06c5c869",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30028-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 113228,
+          "sha256": "385440c5354318387ef1608ef4c0ab19fa2ef16b52dbff170decfddb58e283d6"
+        },
+        {
+          "path": "assets/cards-display/30028-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 354346,
+          "sha256": "ee3b5304e0e31deaac86f7385452c45be101c0209dc0f96275e868d35c6426b4"
+        }
+      ]
+    },
+    {
+      "code": "30029",
+      "input": {
+        "path": "assets/cards-hires/30029.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2571026,
+        "sha256": "9671b041659c540d4e72f5c59a04039c416e955c9f5ba511f10b1890d8146184",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30029-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 165082,
+          "sha256": "1034f333b294c5b13a11a618c685f04b3e2531743225dd18f60afa785bbd6039"
+        },
+        {
+          "path": "assets/cards-display/30029-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 559686,
+          "sha256": "b2382866b4377ccd297c7a0f641c9c4cf4b013774d87d3e0242835b411c8b895"
+        }
+      ]
+    },
+    {
+      "code": "30030",
+      "input": {
+        "path": "assets/cards-hires/30030.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2395014,
+        "sha256": "72c7799b9142b852000b331ae0da41b5ca50e1dbb0c82efec2c638adbd265445",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30030-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 108142,
+          "sha256": "14c35c23ba38d13c88deb238fba5fb3d8ecce6765857ca3c807e99682e9c9287"
+        },
+        {
+          "path": "assets/cards-display/30030-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 360582,
+          "sha256": "85183816c7d2058c13ea63064b6d4ab1077c66421606dee91ca5338abf983509"
+        }
+      ]
+    },
+    {
+      "code": "30031",
+      "input": {
+        "path": "assets/cards-hires/30031.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2573737,
+        "sha256": "3a7b90500aab5383333b72cf9e43900e9dc65754815c3612ab128263d2c180f8",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30031-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 125866,
+          "sha256": "8b4719db66e81b87104e73cb624b5d44001f7bbee9ed7904d6677cc84721cdaf"
+        },
+        {
+          "path": "assets/cards-display/30031-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 378882,
+          "sha256": "b925eb96a84511d4d06766f0af1e7685bc8372f817499365328ce029b2fc686c"
+        }
+      ]
+    },
+    {
+      "code": "30032",
+      "input": {
+        "path": "assets/cards-hires/30032.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2713500,
+        "sha256": "0dcc3724a6fdd2c2e33532144dd31f791fce67a602cb5317bce7a1cfae8ed726",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30032-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 149338,
+          "sha256": "67a9aba0399e00fa9ef3d68ebcfd0ed809cb315645a5f68123c526f0f2cc5cdc"
+        },
+        {
+          "path": "assets/cards-display/30032-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 497900,
+          "sha256": "145aac96eb803bc90670942b1cb01d5c958ce558fd5b64209c5deb868eee17b7"
+        }
+      ]
+    },
+    {
+      "code": "30033",
+      "input": {
+        "path": "assets/cards-hires/30033.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2618008,
+        "sha256": "ebf984c21962f3a3f99cc084d5ddda2ea06bcf2110ed9d6a8e028c2a536c1615",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30033-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 138214,
+          "sha256": "2735f42d7899de51355c7b97def1edb5d0bf6e9174f9299cad382f871bd276bb"
+        },
+        {
+          "path": "assets/cards-display/30033-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 443102,
+          "sha256": "f347f992c81226d6f657591883398a0e0ddeb0cbcdf5efbc8755615b7232371f"
+        }
+      ]
+    },
+    {
+      "code": "30034",
+      "input": {
+        "path": "assets/cards-hires/30034.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2585866,
+        "sha256": "06c2396b9acd88ea7bad9290cf0bdf622e31e23666b435d2865c85cf80fbe190",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30034-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 131422,
+          "sha256": "d03bd437dea208e0a588e674c91573f7d66b7710cebcf6c01b7ec0f24f039f49"
+        },
+        {
+          "path": "assets/cards-display/30034-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 418596,
+          "sha256": "9914b311032a26819125c212fd14617439374c9958feeac6a341c5dc0fd55959"
+        }
+      ]
+    },
+    {
+      "code": "30035",
+      "input": {
+        "path": "assets/cards-hires/30035.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2390959,
+        "sha256": "196f66669ac6d27e0fd396ccc5b169d4dfbc6fdedfe928dce3e295952c078506",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30035-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 117300,
+          "sha256": "e1795b501275446e6aa20246868319f5a7a0077454c88b36db94349a660537d6"
+        },
+        {
+          "path": "assets/cards-display/30035-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 337768,
+          "sha256": "a4d2f676874bcc790f710572df45f2591ef46cdfa28aa7d61cabdf4368fd6d0a"
+        }
+      ]
+    },
+    {
+      "code": "30036",
+      "input": {
+        "path": "assets/cards-hires/30036.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2691588,
+        "sha256": "ba809413d8a1421293ebfa84a64c40041d6155549e57e304b05660b82defa529",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30036-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 138554,
+          "sha256": "93729c22fcca4e03f453149c822eb9cb55ea107d270e5775c6e47c2fb0a8fb42"
+        },
+        {
+          "path": "assets/cards-display/30036-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 436038,
+          "sha256": "d477028096b63fcdf24609eeee3b918bf46c18cdd0f7d5c98ca23712c309925b"
+        }
+      ]
+    },
+    {
+      "code": "30037",
+      "input": {
+        "path": "assets/cards-hires/30037.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2743788,
+        "sha256": "85341e53bf7f896a57238491f1e79147cb558a6d65d0d4be442798a5e33e8861",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30037-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 148476,
+          "sha256": "d55e92df228e91bbe3383449410edf4871ef22838a084c7954e7316cfe82e563"
+        },
+        {
+          "path": "assets/cards-display/30037-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 460510,
+          "sha256": "a91f54b3acc1883f8561c52286e0b0a62c63d271cc42182b316d4ff75c337172"
+        }
+      ]
+    },
+    {
+      "code": "30038",
+      "input": {
+        "path": "assets/cards-hires/30038.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2561865,
+        "sha256": "18c723038cf36b756a30739c6b78b007a80c1a24c7c48f03104416199e1fc1a7",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30038-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 160702,
+          "sha256": "d71502db3a0b4020c9175197eb27326eeacaae8248c0f6276d53d29ce7b11cc6"
+        },
+        {
+          "path": "assets/cards-display/30038-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 549188,
+          "sha256": "ac0b2e73d03a7f9fabf0d9f63b2f351259837ffd3ad8ea7672b23750e90a9443"
+        }
+      ]
+    },
+    {
+      "code": "30039",
+      "input": {
+        "path": "assets/cards-hires/30039.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2542988,
+        "sha256": "2bab8290031407940d6d475e700b12514cad7e233a1ac43e7525bec34a3adabf",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30039-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 147906,
+          "sha256": "2ff6834303bb918a68b87b6296b5bee981c3db4b002831ee71b879c9c8f35f28"
+        },
+        {
+          "path": "assets/cards-display/30039-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 512704,
+          "sha256": "966ea6e535b28e4b37cb0e4414545c795bfdd659173b6518c61b8aede4400330"
+        }
+      ]
+    },
+    {
+      "code": "30040",
+      "input": {
+        "path": "assets/cards-hires/30040.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2658717,
+        "sha256": "f44bc286f57ba9cd0b012cbbecdc3d7c7792cf82f724efaefb65543b1f10b7e0",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30040-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 129740,
+          "sha256": "db8e1260820da0c96c85c7dafffc748e70ca299c144945adad644891bd135875"
+        },
+        {
+          "path": "assets/cards-display/30040-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 408730,
+          "sha256": "0f38bcaca5f0f64e13c8e03ed51f9bdb50becff25b183d1a1792d65843223a0f"
+        }
+      ]
+    },
+    {
+      "code": "30041",
+      "input": {
+        "path": "assets/cards-hires/30041.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2732034,
+        "sha256": "068ffd852ad76565b0128f42ac3452be9cfddfa9211f27695973e3e8f0d2756f",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30041-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 145534,
+          "sha256": "84a5c13f5d07ee9a93ad08e19f93748ee5c0cb73d124f606f22683bb83eb4642"
+        },
+        {
+          "path": "assets/cards-display/30041-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 483588,
+          "sha256": "3081543613be1f0a2f1d9d2ea972c30655c264a3f8804921d989a4ffcab6ff26"
+        }
+      ]
+    },
+    {
+      "code": "30042",
+      "input": {
+        "path": "assets/cards-hires/30042.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2690850,
+        "sha256": "c48a38b0e6a2eb9ef99c22533efef293480308373b9b0e1d4e1e865a2394fb86",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30042-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 138748,
+          "sha256": "5326ef19deb8f8d53a5e87dd6714234b08f050e9b08566f6a1f6a657eab8306d"
+        },
+        {
+          "path": "assets/cards-display/30042-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 437866,
+          "sha256": "d10142e67f455de4d290d3da1ee5c9fd9ce5c453adb09219789545d0395df6eb"
+        }
+      ]
+    },
+    {
+      "code": "30043",
+      "input": {
+        "path": "assets/cards-hires/30043.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2639276,
+        "sha256": "a31214d38071c14bbbcda5341e373931136c09e7984622f4aba1b3a98abf8996",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30043-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 167612,
+          "sha256": "6d613ef4d98955c410036df1fa72c70fab0543675eb0d000c2783486c5f903c7"
+        },
+        {
+          "path": "assets/cards-display/30043-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 523068,
+          "sha256": "50cffbf9b699e2a9642ca37d8c921a7b0e76aa56a6b60e21d82f828e9233ccbc"
+        }
+      ]
+    },
+    {
+      "code": "30044",
+      "input": {
+        "path": "assets/cards-hires/30044.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2631977,
+        "sha256": "2848d4cc84ba16a62c867cd451e1236262a79a80b54eae2645d764c6a244659a",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30044-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 154242,
+          "sha256": "9992235458580373cfa1a7231b74383e9fac213e360464af89ac56eb815ee746"
+        },
+        {
+          "path": "assets/cards-display/30044-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 477958,
+          "sha256": "72a84107ec9213e337ebaeef67120c7f13a87f84adbb7ad0e345b1d7c478a03c"
+        }
+      ]
+    },
+    {
+      "code": "30045",
+      "input": {
+        "path": "assets/cards-hires/30045.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2704951,
+        "sha256": "21b10280ca4aa93d2d166f4840b8e53e244fda3ea0ce38e7b880a66cb90f6e38",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30045-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 152054,
+          "sha256": "42d63e43e7eab7f88ac7565d7a103f3b048d5e3cb2918f3ff5f415d236abf546"
+        },
+        {
+          "path": "assets/cards-display/30045-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 460120,
+          "sha256": "b41eed92034d3b8eb9afcd0ff4387a54b0347724a16760f477c99cf3040e9ff1"
+        }
+      ]
+    },
+    {
+      "code": "30046",
+      "input": {
+        "path": "assets/cards-hires/30046.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2339417,
+        "sha256": "d05d8cce5f1f1eb84eb81008619aaadf7c9c3e2ea9da104f84f1df93f172ebc0",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30046-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 139386,
+          "sha256": "28533f0671e3658afb5bc7d2c2ebb1040bd8e83ac199aece89470f5f5ae58b72"
+        },
+        {
+          "path": "assets/cards-display/30046-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 392820,
+          "sha256": "17bf0e8e46250383f21ca49d70a0cadd7041486efa09a910bff22fe07052e37e"
+        }
+      ]
+    },
+    {
+      "code": "30047",
+      "input": {
+        "path": "assets/cards-hires/30047.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2292093,
+        "sha256": "eeeea91572e36175d6e60e01b2b6d2773b45fae080bacfae2ae666a4779d8b68",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30047-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 121098,
+          "sha256": "df560a611a0033c813325c2c23fc9add3d6845b808f650116f77a3e0e35c6896"
+        },
+        {
+          "path": "assets/cards-display/30047-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 330524,
+          "sha256": "723626f98a96cd625baee5128c632d63f09081c425390f7a6c324cfd3fb7c23f"
+        }
+      ]
+    },
+    {
+      "code": "30048",
+      "input": {
+        "path": "assets/cards-hires/30048.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2671409,
+        "sha256": "42a05f97457b1399210257554f40b5881c7223ffdc7b8423293084b098b9fbda",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30048-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 138374,
+          "sha256": "28e4954aa31b20a766f62876aeb58e0f1ae9a12206a35428f20387c772014b45"
+        },
+        {
+          "path": "assets/cards-display/30048-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 415134,
+          "sha256": "88a5c183fba5be0419e91393eec38868c49360cab47213c91fe1a5967bf86745"
+        }
+      ]
+    },
+    {
+      "code": "30049",
+      "input": {
+        "path": "assets/cards-hires/30049.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2606334,
+        "sha256": "4cf124e1fcc184a2f378526a122b1e56ca0428a6c4cda305eeb2f6a0772d5af3",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30049-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 133554,
+          "sha256": "6ab6037bc14a3720955dccf1225e4b5f256a448dbe578bdc952958e971e641e8"
+        },
+        {
+          "path": "assets/cards-display/30049-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 383596,
+          "sha256": "1db74294fb808732b414fc17ad772fdcc8e9d2e776080c243f8cc44eebc79d57"
+        }
+      ]
+    },
+    {
+      "code": "30050",
+      "input": {
+        "path": "assets/cards-hires/30050.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2625482,
+        "sha256": "dbe829dde2dcae3175da2a5b29388f4772e12622db0da88a7aa7c9b08bf1ecaa",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30050-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 144840,
+          "sha256": "0055c573357334de8f0f3f98b4eccc2584d61b5425345ff0e271ef535f22a451"
+        },
+        {
+          "path": "assets/cards-display/30050-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 412784,
+          "sha256": "ed44bc08736be78cc3848def6c1bf3f9131ad412303eea425f4734d88ecb881d"
+        }
+      ]
+    },
+    {
+      "code": "30051",
+      "input": {
+        "path": "assets/cards-hires/30051.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2471141,
+        "sha256": "a2f8d170db183a6818b789017f2471b18408684187114baa325929a144b67110",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30051-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 157108,
+          "sha256": "d02709a122b242d3111011860484336a08826a300c03d887c768502eec1cce1c"
+        },
+        {
+          "path": "assets/cards-display/30051-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 474506,
+          "sha256": "0f282d2f784bf68b7dea4999a3c8f7ced447da9720238d08d8c426475277c2ce"
+        }
+      ]
+    },
+    {
+      "code": "30052",
+      "input": {
+        "path": "assets/cards-hires/30052.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2556213,
+        "sha256": "2e31747ac2fd3c52a3ca47431c60ffcb457a098a66a8a251f49cffcb34f4adb3",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30052-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 131180,
+          "sha256": "7e283b8aa1d249ad27b23bcdca18beb1bd4f321fc5e5e9428fad77e29319d785"
+        },
+        {
+          "path": "assets/cards-display/30052-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 407572,
+          "sha256": "7776a0bb66ae47306f9fb09d3ea221c7a21419e7245275aef3c543eb0df5e413"
+        }
+      ]
+    },
+    {
+      "code": "30053",
+      "input": {
+        "path": "assets/cards-hires/30053.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2594012,
+        "sha256": "cce2ff2a2c588372c76e4eb55c3194940a23b7536cd1151c3409269b22535a75",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30053-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 139832,
+          "sha256": "68f1c4e399b11cce14a6d3107ae960a37c91eaef9c410a2ad463bbe0799c1c65"
+        },
+        {
+          "path": "assets/cards-display/30053-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 415760,
+          "sha256": "c380918ab125df263481d5e676f33ab57baddfd223deb8af5d04dbaf28d078c2"
+        }
+      ]
+    },
+    {
+      "code": "30054",
+      "input": {
+        "path": "assets/cards-hires/30054.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2194376,
+        "sha256": "d4c5d587f5717e12b7d74a0cb6e826637901cdf2ae9663f2391e0aa4ecc900c1",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30054-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 134104,
+          "sha256": "b319f7fa3cd1dbcf3b655edbb15ab23a5a8a767e05641d87e4375d2d1d6213e4"
+        },
+        {
+          "path": "assets/cards-display/30054-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 364540,
+          "sha256": "d086be9c2b927468b58486c2bc6c1bb08a303834cba5fc89cfadfb65c5f68ff0"
+        }
+      ]
+    },
+    {
+      "code": "30055",
+      "input": {
+        "path": "assets/cards-hires/30055.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2163236,
+        "sha256": "c1ab89494053eea71d23931baa32a4eda32eb67cac53463097bd7e90c8fa621a",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30055-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 141152,
+          "sha256": "6a6d604d90c72d0811eff0c6f66bd32b0a98c60fa9b683e3c3eff37be049c056"
+        },
+        {
+          "path": "assets/cards-display/30055-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 400586,
+          "sha256": "f430f9f78b574784d683a77dd97088a83e90261575566d94cf283720a0e7625d"
+        }
+      ]
+    },
+    {
+      "code": "30056",
+      "input": {
+        "path": "assets/cards-hires/30056.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2376019,
+        "sha256": "4fe4cc485b78a5469cb57a496cb79f77e43378f12dc30c1e5cb4497e8f247e84",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30056-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 141910,
+          "sha256": "29b4b0f01febef8b46cecc2dd0830bc02d1642a1ee72e9e4d2e7ec14fff2f33b"
+        },
+        {
+          "path": "assets/cards-display/30056-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 413088,
+          "sha256": "dcfc46cb6721a85b06d5572846cef9ae62b06ddf21e7396086b249da120cbbe5"
+        }
+      ]
+    },
+    {
+      "code": "30057",
+      "input": {
+        "path": "assets/cards-hires/30057.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2328670,
+        "sha256": "89639c0e693583fec1a6ff76cd3b648be2df702f8e72d880a465940624f346e5",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30057-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 141986,
+          "sha256": "abba7f9f7c9f9caf8a468e2fca36ef3cb6c7bb47ba57939077b12f4871741994"
+        },
+        {
+          "path": "assets/cards-display/30057-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 410938,
+          "sha256": "c2c5f6937a60adb97c337811c2fd3d24aea513cafe6797588bf7287b6307aa12"
+        }
+      ]
+    },
+    {
+      "code": "30058",
+      "input": {
+        "path": "assets/cards-hires/30058.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2574134,
+        "sha256": "ab5181ce845f3b89d61b08c6a571176f81cf3a1d232d28888bb25331bffc4368",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30058-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 158910,
+          "sha256": "89d4ccc7330adfb5940e173888397ea61ec5f05e80de265879b5606d117a4bc1"
+        },
+        {
+          "path": "assets/cards-display/30058-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 483874,
+          "sha256": "4599520f45ccd890ab0383f3eec44e6644c69706e04f0dbe9a9e74ba2b388e14"
+        }
+      ]
+    },
+    {
+      "code": "30059",
+      "input": {
+        "path": "assets/cards-hires/30059.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2556882,
+        "sha256": "9a22ec1d75645798eb18aa4cdccc4d38a5fcb89513ae12778529e0723e2622ec",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30059-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 132158,
+          "sha256": "9088a0ba2d3b94d92a1d963538d16100bc74d955f4f03fa24f84a90764f24e22"
+        },
+        {
+          "path": "assets/cards-display/30059-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 399394,
+          "sha256": "b777bfc5cd6a1b735addf39f7bbdfbd3e5b8d10738a8f9baa8624e89c0a5c5ae"
+        }
+      ]
+    },
+    {
+      "code": "30060",
+      "input": {
+        "path": "assets/cards-hires/30060.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2533605,
+        "sha256": "f18dac10e2c2adf2b4f8d1986086a68f434603e99f9802405c2bccb5d0237780",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30060-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 117820,
+          "sha256": "1a0dc0c272e3883e3d60a67fa1df2d64fb7e3b895b5401edb6df6d090e8f16e5"
+        },
+        {
+          "path": "assets/cards-display/30060-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 361286,
+          "sha256": "1a8b604814da21e1206939e3f38d6821fbb6cecab146e22b4b582fff9073a3ed"
+        }
+      ]
+    },
+    {
+      "code": "30061",
+      "input": {
+        "path": "assets/cards-hires/30061.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2640397,
+        "sha256": "5b80e837d6469a5a9026eba6e78947da71c994d7000483b50c47e6745d5159f4",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30061-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 123004,
+          "sha256": "4e50e50f550225d41f75558444eaa82345a2dd3fc2874c2ca003243fa0a4fbc2"
+        },
+        {
+          "path": "assets/cards-display/30061-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 369002,
+          "sha256": "7294d92fc03f15ff7ceb7838db3b6da61edb9e0e54dd838e6bb67d551422aecf"
+        }
+      ]
+    },
+    {
+      "code": "30062",
+      "input": {
+        "path": "assets/cards-hires/30062.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2253308,
+        "sha256": "eaa49d1618687df61279e4a4bd7597c88f7342c702194f3b9c2180d2d807f45f",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30062-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 103574,
+          "sha256": "ac2f83a984aaf5ded12746582f743dc7daa15d54e38071b83c15f643dacc0161"
+        },
+        {
+          "path": "assets/cards-display/30062-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 303080,
+          "sha256": "4a519cee999dadf0b94acb842ce7ea98135cd0b7deace37500b87dcd1f61ab2d"
+        }
+      ]
+    },
+    {
+      "code": "30063",
+      "input": {
+        "path": "assets/cards-hires/30063.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2379704,
+        "sha256": "ee6be061aa6b637f349c601fc47e5629ddc93f3625afab5558338306b7de7245",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30063-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 130632,
+          "sha256": "fb3deff0b929611925f94da8e0c52c996a758cc9035a44ff09b9c8b6b4fa35b8"
+        },
+        {
+          "path": "assets/cards-display/30063-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 395224,
+          "sha256": "6c5482b6fb1259fb0b4c5adcd5845b18b1c7b9b6272fd232fea686cca6604658"
+        }
+      ]
+    },
+    {
+      "code": "30064",
+      "input": {
+        "path": "assets/cards-hires/30064.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2614079,
+        "sha256": "ab3a301777694b62f5e676ffcef3a98b7d987712fd741b476977bd41dc071f28",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30064-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 128574,
+          "sha256": "92fe1e2bbad1a718a4504eee41f06507bb79711fb88848c92126972c3e59d8ce"
+        },
+        {
+          "path": "assets/cards-display/30064-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 380392,
+          "sha256": "8dfb1cc3c9c14296dd57fb4420e4a9def30f14f5cebc9f98a657f3436f358ce4"
+        }
+      ]
+    },
+    {
+      "code": "30065",
+      "input": {
+        "path": "assets/cards-hires/30065.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2633383,
+        "sha256": "40b7c14964af9207cdad6e503bd9c9f6a4a3f7fead4856a88a02f4306cc45ff1",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30065-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 142116,
+          "sha256": "07dd2db46fa59df8c3c3a1d59ec30e0a57f551b7b127375de0c0dc5eb5f24251"
+        },
+        {
+          "path": "assets/cards-display/30065-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 444476,
+          "sha256": "ba7932844bbdf2c1fa908ef3faf8c9c3ee16986674cfa1d6b61628224a5530f8"
+        }
+      ]
+    },
+    {
+      "code": "30066",
+      "input": {
+        "path": "assets/cards-hires/30066.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2415158,
+        "sha256": "4061baddd27c2334cacebc0cdb9203e0440e2e887923470a21ecba9ba0839e85",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30066-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 123524,
+          "sha256": "495fd197d1dbceccb4a86af99eace04ef8b7abb9a5106fae8322d242d88cea65"
+        },
+        {
+          "path": "assets/cards-display/30066-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 384340,
+          "sha256": "151671b8be9226c0a9bfdb31e8e5713f8365affe0edf1d01144f828ee16373e2"
+        }
+      ]
+    },
+    {
+      "code": "30067",
+      "input": {
+        "path": "assets/cards-hires/30067.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2653529,
+        "sha256": "5faa7fab7893c35f010b777c41938910e1745f283975af55d8b46cc0c0ab184e",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30067-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 123608,
+          "sha256": "74de2f28d216f9c72900c6ca1643842ad53633b1995bc7ff6184ddf3ad863075"
+        },
+        {
+          "path": "assets/cards-display/30067-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 390424,
+          "sha256": "0940bdb33fc9182f2ab55776481536efaf7f4e711244279a0ac4eff6888fafaa"
+        }
+      ]
+    },
+    {
+      "code": "30068",
+      "input": {
+        "path": "assets/cards-hires/30068.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2619561,
+        "sha256": "dde49e243df3bccc35ba946ff9f7e55e9065367153d7aa11ece67fb65569366b",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30068-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 127218,
+          "sha256": "4836bbe2ed73c105d06a59f8d692d8fd5edfdd8146ebddea39dd1d7dd4301091"
+        },
+        {
+          "path": "assets/cards-display/30068-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 391366,
+          "sha256": "45b6789795c2e4f964dfb6cbfd0b01b6a87ecd5a143d8e348933a096d5cb96c6"
+        }
+      ]
+    },
+    {
+      "code": "30069",
+      "input": {
+        "path": "assets/cards-hires/30069.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2628114,
+        "sha256": "b994491c65b796e57300cf724cd49d42b8ab16d7da6debe34e293a0698000764",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30069-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 125062,
+          "sha256": "28e7e5ab7563774ac8656b1e11498e468a815014adee22f7c676d323034f347b"
+        },
+        {
+          "path": "assets/cards-display/30069-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 391874,
+          "sha256": "29ebd8b49bbf8b73c62e3ec315faf9c3415066a25900dec279f7a14b518a41f0"
+        }
+      ]
+    },
+    {
+      "code": "30070",
+      "input": {
+        "path": "assets/cards-hires/30070.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2644324,
+        "sha256": "aeaf4396a8e0e7b61d2918741fafbc4e3254d20affb4020d4c2f87f3e769df84",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30070-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 134398,
+          "sha256": "edeafbb0d61d4f47a89c03db4e766f5922d42e63a3984547f8b9a9c446e55727"
+        },
+        {
+          "path": "assets/cards-display/30070-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 432760,
+          "sha256": "1588c45acfc9ee6c807a74ffd1ae202a3d329ac33060416d1cd1492bb7773e7b"
+        }
+      ]
+    },
+    {
+      "code": "30071",
+      "input": {
+        "path": "assets/cards-hires/30071.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2775843,
+        "sha256": "1c93f01a9865d4e167ca50818a962197b7c86ded1a8d6f425495c946c9290ae0",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30071-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 149726,
+          "sha256": "878d751912cc9cbb22c241f50aa693e005a149885caf8e0cb83177e7317180e5"
+        },
+        {
+          "path": "assets/cards-display/30071-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 482426,
+          "sha256": "12e88761e734b1e3cdd3f0759f658f441cc8f49714d786bb596b13774dafce66"
+        }
+      ]
+    },
+    {
+      "code": "30072",
+      "input": {
+        "path": "assets/cards-hires/30072.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2364063,
+        "sha256": "59507d36b198e5186e1f63f71b8c091470c0d1dc7c994dcf85c280c757b383d3",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30072-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 125882,
+          "sha256": "766277c67f2f855b53d6e68c9d99fc4549b6ce195d188d16b635e4acbe316239"
+        },
+        {
+          "path": "assets/cards-display/30072-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 389038,
+          "sha256": "aaeea670c2f4eb743f482a8e561e3bcac485a46a9d94235347e807e333d03296"
+        }
+      ]
+    },
+    {
+      "code": "30073",
+      "input": {
+        "path": "assets/cards-hires/30073.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2358331,
+        "sha256": "11434cd5ce8707bdd634f97fa784067054c4ae42ee2099791933b3ed75fbeccb",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30073-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 119368,
+          "sha256": "b920b216c915d3c342744eb04f071d1fac5588c888fdff306bb75df80d1062b5"
+        },
+        {
+          "path": "assets/cards-display/30073-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 354692,
+          "sha256": "d9aa76ef6c6d9ab270f4dac1ca0e7ca5b9109a5332e4db9c4e622ae259aaf525"
+        }
+      ]
+    },
+    {
+      "code": "30074",
+      "input": {
+        "path": "assets/cards-hires/30074.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2340877,
+        "sha256": "f902281e355e07e93ed389f1f074f15c4b3f3ef2a40d1855f5b7762586fa4cfa",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30074-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 122758,
+          "sha256": "a26648a3968a5d02d92908dfa0e42b80522239a1b894a563408596080d7a7a90"
+        },
+        {
+          "path": "assets/cards-display/30074-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 399442,
+          "sha256": "36e2f80333fb31028445179dc3fe743e64950eaa88f56357cc1fd2b42d5f7429"
+        }
+      ]
+    },
+    {
+      "code": "30075",
+      "input": {
+        "path": "assets/cards-hires/30075.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2594546,
+        "sha256": "13941f70fb97fd71d3a1c50fbdd14cd6ec5ab260f2fd1ff6ce6ca39723baf417",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30075-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 119376,
+          "sha256": "6ad8704963b32e726c1856c2698011ce0fd5708f65d5d0037d4f50378921773a"
+        },
+        {
+          "path": "assets/cards-display/30075-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 350754,
+          "sha256": "0651f94ff014116993ca058928081df0ec010119198857e9cdb10209ac2c2a7b"
+        }
+      ]
+    },
+    {
+      "code": "30076",
+      "input": {
+        "path": "assets/cards-hires/30076.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2722524,
+        "sha256": "5db8045ec9b78f7f6fc2ebedb679549de5fc7990aa85db8525dd1d77379bd40b",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30076-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 119246,
+          "sha256": "b05ee8040c3bfb9b251b2912fc63c5ad45c63d41976ac8e3a6835a76c50a8449"
+        },
+        {
+          "path": "assets/cards-display/30076-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 375238,
+          "sha256": "655b7a5a246a98ec161456a7f44676207d30b3cf5a610c08eea5f55b4715a123"
+        }
+      ]
+    },
+    {
+      "code": "30077",
+      "input": {
+        "path": "assets/cards-hires/30077.png",
+        "width": 600,
+        "height": 839,
+        "bytes": 2755667,
+        "sha256": "924037160986266c14c0b41e1b092577a1ebb37f6ad17f649d481f09534b768e",
+        "format": "PNG",
+        "bitDepth": 16,
+        "pngColorType": 6
+      },
+      "variants": [
+        {
+          "path": "assets/cards-display/30077-300.webp",
+          "width": 300,
+          "height": 420,
+          "bytes": 126528,
+          "sha256": "d5b5797c20582e96e04423eb5566ab878c72858cb72cbce292b151b97132667b"
+        },
+        {
+          "path": "assets/cards-display/30077-600.webp",
+          "width": 600,
+          "height": 839,
+          "bytes": 422676,
+          "sha256": "3627bfc054f3ae810c30d1f8d1c2b2ce92347ddb600d8034c1e9d2cfae289683"
+        }
+      ]
+    }
+  ]
+}

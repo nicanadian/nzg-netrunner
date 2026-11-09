@@ -1,0 +1,16 @@
+{
+  "id": 89,
+  "seed": "gateway-benchmark-30019-30059-0",
+  "runnerId": "tao-v1",
+  "corpId": "nsg-built-to-last-v2",
+  "runnerFamily": "current",
+  "corpFamily": "reference",
+  "status": "completed",
+  "winner": "runner",
+  "reason": "Corp attempted to draw a card from empty R&D",
+  "runnerPoints": 5,
+  "corpPoints": 6,
+  "turn": 57,
+  "steps": 1685,
+  "ms": 4663
+}

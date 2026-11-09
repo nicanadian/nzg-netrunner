@@ -1,0 +1,24 @@
+/* Interaction hierarchy shared with the reviewed prototype. */
+.priority-status{display:inline-block;padding:6px 9px;margin:8px 0;border:1px solid #52717b;border-radius:5px;background:#162c36;color:#e5eee9;font-size:12px;font-weight:600}
+.action-receipt{padding:13px 0;margin:12px 0;border-top:1px solid #48636a;border-bottom:1px solid #48636a;font-size:12px;line-height:1.55;color:#d9e6e3}
+.action-receipt strong,.receipt-kind{display:block}.receipt-kind{font-size:10px;letter-spacing:.1em;color:#b8ccd0;margin-bottom:5px}.action-receipt p{margin:5px 0;color:#bbced1}.action-receipt ul{margin:8px 0;padding-left:16px}
+.waiting-response{padding:14px;background:#172f38;border-left:3px solid #607f86;border-radius:5px;font-size:13px;line-height:1.6}.waiting-response p{margin:6px 0 0;color:#bed0d2}
+.more-abilities{border-top:1px solid #45626a;padding:7px 0;margin-top:10px}.more-abilities summary{min-height:44px;display:list-item;align-content:center;font-size:13px;color:#d3dfda;cursor:pointer}.more-abilities p{color:#b8ccd0;font-size:12px;line-height:1.6}.more-abilities .action-button{margin:7px 0}
+.breaker-plan,.credit-sources{display:grid;gap:12px;min-width:0}.breaker-plan h2,.credit-sources h2{margin:0;font-size:18px;font-weight:500}.breaker-plan p,.credit-sources>p{font-size:13px;line-height:1.6;color:#c7d6d4;margin:0}.breaker-plan .plan-warning{padding:10px;background:#40342a;color:#f0c99a;border-radius:6px}.plan-quote strong{display:block;color:#eddfbf;font-variant-numeric:tabular-nums}.plan-reason{padding:10px;border:1px solid #6d7770;border-radius:5px}
+.credit-source{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px 12px;padding:12px;border:1px solid #45626a;border-radius:7px}.credit-source label{font-size:14px;line-height:1.5}.credit-source small{display:block;font-size:12px;color:#b8cdd0;margin-top:3px}.credit-source select{min-height:44px;min-width:64px;background:#122932;color:#edf1e9;border:1px solid #68858b;border-radius:5px;padding:7px;font:inherit;font-size:16px}.credit-source .action-button{grid-column:1/-1;margin:0;min-width:0}
+.tool-availability:empty{display:none}.tool-availability{font-size:13px!important;color:#e0c795!important}.unavailable-ability{padding:10px 0;font-size:13px;line-height:1.6}.unavailable-ability p{color:#cedbd7}.unavailable-ability button:disabled{opacity:.65;padding:8px 12px;border:1px solid #52686c;border-radius:5px;background:transparent;color:#d5ded8}
+.interaction-preference{display:block;font-size:14px;line-height:1.6;margin:14px 0;color:#dfebe5}.interaction-preference input{accent-color:#e2c78f;margin-right:9px;width:18px;height:18px;vertical-align:middle}.interaction-preference small{display:block;margin:7px 0 0 29px;font-size:12px;color:#b8c9cc}
+.run-footer-controls .run-pass-risk{background:transparent!important;border:1px solid #65818a!important;color:#e4e9df!important}.run-footer-controls .run-pass-risk small{color:#e3bc8f!important}
+.search-choice{min-width:0}.search-choice .quiet{min-height:40px}.encounter-tool>.primary-action{width:100%;font-size:13px}.encounter-tool p,.target-instruction{font-size:13px;line-height:1.6}
+@media(max-width:720px){.breaker-plan,.credit-sources{gap:10px}.breaker-plan h2{font-size:17px}.priority-status{margin:4px 0}.credit-source{padding:10px}.action-receipt{font-size:12px}.interaction-preference small{margin-left:0}}
+@media(pointer:coarse){.more-abilities summary,.credit-sources button,.breaker-plan button{min-height:44px}}
+.run-active .encounter-tool p{font-size:13px;line-height:1.55}.run-active .tool-card img{width:36px;height:50px}.run-active .tool-card strong{font-size:14px}.run-active .tool-card small{font-size:12px}.run-active .phase-hint{font-size:13px}.run-active .action-button{font-size:13px}
+.next-step{display:grid;gap:9px;padding:14px;margin:0 0 18px;background:#223b43;border:1px solid #668d8b;border-radius:7px}.next-step.next-install{background:#302e25;border-color:#d2b675}.next-step-label{font-size:11px;font-weight:600;letter-spacing:.1em;color:#ead6a6}.next-step p{font-size:13px;line-height:1.55;color:#d0dfda;margin:0}.next-step>.action-button{margin:0;width:100%;min-height:48px}.next-step .action-cost{display:block;margin-top:5px}.run-active .next-step{padding:11px}.run-footer-controls .action-button{min-height:48px}
+.priority-control {display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin:8px 0 12px;font-size:12px;color:var(--muted);}
+.priority-control input {margin:0;width:16px;height:16px;}
+.priority-control small {flex-basis:100%;margin-left:22px;}
+.pending-install-notice {padding:12px;margin-bottom:16px;background:var(--bg);border:1px solid var(--gold);}
+#install-dialog {width:min(540px,calc(100vw - 32px));max-height:calc(100dvh - 32px);overflow:auto;}
+#install-content {display:grid;gap:14px;}
+#install-content h2 {padding-right:24px;}
+.install-replacements summary {padding:12px 0;cursor:pointer;}

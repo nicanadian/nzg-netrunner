@@ -1,0 +1,957 @@
+{
+  "rulesVersion": "26.03-local-2",
+  "metrics": "Exact hypergeometric probabilities, no mulligan/extra draw/access/card effects. Corp turn3 = initial5 + mandatory3. Runner first10 = ten cards seen, not a turn count. Economy/draw roles are explicit broad labels, conditional cards not guaranteed payouts. CheapStop includes conditional Whitespace; Tithe excluded. Permanent breaker metric excludes tutors/Mayfly and is not inability-to-run probability.",
+  "economyNumbers": [
+    30002,
+    30007,
+    30014,
+    30018,
+    30020,
+    30027,
+    30030,
+    30033,
+    30037,
+    30048,
+    30056,
+    30064,
+    30071,
+    30075
+  ],
+  "drawSelectionNumbers": [
+    30002,
+    30021,
+    30034,
+    30037,
+    30041,
+    30053,
+    30056
+  ],
+  "profiles": [
+    {
+      "id": "loup-v1",
+      "name": "René “Loup” Arcemont",
+      "side": "runner",
+      "size": 40,
+      "influence": 6,
+      "agendaPoints": 0,
+      "agendaCards": 0,
+      "ice": 0,
+      "economyCards": 12,
+      "drawSelectionCards": 6,
+      "openingNoEconomy": 0.14935988620199148,
+      "first10NoDrawSelection": 0.15469416785206258,
+      "typeCounts": {
+        "event": 12,
+        "hardware": 4,
+        "program": 18,
+        "resource": 6
+      },
+      "diffFromReference": [
+        {
+          "number": 30003,
+          "title": "Carnivore",
+          "current": 2,
+          "reference": 3
+        },
+        {
+          "number": 30005,
+          "title": "Buzzsaw",
+          "current": 3,
+          "reference": 2
+        },
+        {
+          "number": 30006,
+          "title": "Cleaver",
+          "current": 3,
+          "reference": 2
+        },
+        {
+          "number": 30008,
+          "title": "Leech",
+          "current": 3,
+          "reference": 2
+        },
+        {
+          "number": 30015,
+          "title": "Carmen",
+          "current": 3,
+          "reference": 2
+        },
+        {
+          "number": 30028,
+          "title": "Jailbreak",
+          "current": 3,
+          "reference": 0
+        },
+        {
+          "number": 30031,
+          "title": "T400 Memory Diamond",
+          "current": 2,
+          "reference": 0
+        },
+        {
+          "number": 30013,
+          "title": "Docklands Pass",
+          "current": 0,
+          "reference": 2
+        },
+        {
+          "number": 30022,
+          "title": "DZMZ Optimizer",
+          "current": 0,
+          "reference": 3
+        },
+        {
+          "number": 30009,
+          "title": "Cookbook",
+          "current": 0,
+          "reference": 3
+        }
+      ],
+      "breakers": {
+        "Fracter": 3,
+        "Decoder": 3,
+        "Killer": 3
+      },
+      "first10MissingPermanentBreakerType": 0.8210340460727457,
+      "breakerTutorCopies": 0,
+      "oneShotAIBreakers": 0,
+      "multiaccessCopies": 3,
+      "family": "current"
+    },
+    {
+      "id": "zahya-v1",
+      "name": "Zahya Sadeghi",
+      "side": "runner",
+      "size": 40,
+      "influence": 15,
+      "agendaPoints": 0,
+      "agendaCards": 0,
+      "ice": 0,
+      "economyCards": 11,
+      "drawSelectionCards": 2,
+      "openingNoEconomy": 0.1804765291607397,
+      "first10NoDrawSelection": 0.5576923076923077,
+      "typeCounts": {
+        "event": 15,
+        "hardware": 4,
+        "program": 13,
+        "resource": 8
+      },
+      "diffFromReference": [
+        {
+          "number": 30011,
+          "title": "Mutual Favor",
+          "current": 3,
+          "reference": 2
+        },
+        {
+          "number": 30014,
+          "title": "Pennyshaver",
+          "current": 2,
+          "reference": 3
+        },
+        {
+          "number": 30015,
+          "title": "Carmen",
+          "current": 3,
+          "reference": 2
+        },
+        {
+          "number": 30016,
+          "title": "Marjanah",
+          "current": 3,
+          "reference": 2
+        },
+        {
+          "number": 30017,
+          "title": "Tranquilizer",
+          "current": 2,
+          "reference": 0
+        },
+        {
+          "number": 30005,
+          "title": "Buzzsaw",
+          "current": 3,
+          "reference": 2
+        },
+        {
+          "number": 30004,
+          "title": "Botulus",
+          "current": 2,
+          "reference": 0
+        },
+        {
+          "number": 30027,
+          "title": "Telework Contract",
+          "current": 3,
+          "reference": 0
+        },
+        {
+          "number": 30021,
+          "title": "VRcation",
+          "current": 0,
+          "reference": 3
+        },
+        {
+          "number": 30031,
+          "title": "T400 Memory Diamond",
+          "current": 0,
+          "reference": 1
+        },
+        {
+          "number": 30033,
+          "title": "Smartware Distributor",
+          "current": 0,
+          "reference": 3
+        },
+        {
+          "number": 30024,
+          "title": "Conduit",
+          "current": 0,
+          "reference": 1
+        },
+        {
+          "number": 30008,
+          "title": "Leech",
+          "current": 0,
+          "reference": 2
+        }
+      ],
+      "breakers": {
+        "Fracter": 3,
+        "Decoder": 3,
+        "Killer": 3
+      },
+      "first10MissingPermanentBreakerType": 0.8210340460727457,
+      "breakerTutorCopies": 3,
+      "oneShotAIBreakers": 0,
+      "multiaccessCopies": 5,
+      "family": "current"
+    },
+    {
+      "id": "tao-v1",
+      "name": "Tāo Salonga",
+      "side": "runner",
+      "size": 40,
+      "influence": 12,
+      "agendaPoints": 0,
+      "agendaCards": 0,
+      "ice": 0,
+      "economyCards": 12,
+      "drawSelectionCards": 5,
+      "openingNoEconomy": 0.14935988620199148,
+      "first10NoDrawSelection": 0.21657183499288762,
+      "typeCounts": {
+        "event": 15,
+        "hardware": 4,
+        "program": 13,
+        "resource": 8
+      },
+      "diffFromReference": [
+        {
+          "number": 30022,
+          "title": "DZMZ Optimizer",
+          "current": 2,
+          "reference": 3
+        },
+        {
+          "number": 30025,
+          "title": "Echelon",
+          "current": 3,
+          "reference": 2
+        },
+        {
+          "number": 30026,
+          "title": "Unity",
+          "current": 3,
+          "reference": 2
+        },
+        {
+          "number": 30006,
+          "title": "Cleaver",
+          "current": 3,
+          "reference": 2
+        },
+        {
+          "number": 30004,
+          "title": "Botulus",
+          "current": 2,
+          "reference": 0
+        },
+        {
+          "number": 30029,
+          "title": "Overclock",
+          "current": 3,
+          "reference": 0
+        },
+        {
+          "number": 30012,
+          "title": "Tread Lightly",
+          "current": 0,
+          "reference": 2
+        },
+        {
+          "number": 30032,
+          "title": "Mayfly",
+          "current": 0,
+          "reference": 2
+        },
+        {
+          "number": 30017,
+          "title": "Tranquilizer",
+          "current": 0,
+          "reference": 3
+        }
+      ],
+      "breakers": {
+        "Fracter": 3,
+        "Decoder": 3,
+        "Killer": 3
+      },
+      "first10MissingPermanentBreakerType": 0.8210340460727457,
+      "breakerTutorCopies": 0,
+      "oneShotAIBreakers": 0,
+      "multiaccessCopies": 5,
+      "family": "current"
+    },
+    {
+      "id": "precision-design-v1",
+      "name": "Haas-Bioroid: Precision Design",
+      "side": "corp",
+      "size": 40,
+      "influence": 4,
+      "agendaPoints": 18,
+      "agendaCards": 10,
+      "ice": 12,
+      "economyCards": 11,
+      "drawSelectionCards": 5,
+      "openingNoEconomy": 0.1804765291607397,
+      "first10NoDrawSelection": 0.21657183499288762,
+      "typeCounts": {
+        "agenda": 10,
+        "asset": 8,
+        "ice": 12,
+        "operation": 8,
+        "upgrade": 2
+      },
+      "diffFromReference": [
+        {
+          "number": 30068,
+          "title": "Orbital Superiority",
+          "current": 2,
+          "reference": 0
+        },
+        {
+          "number": 30069,
+          "title": "Send a Message",
+          "current": 1,
+          "reference": 3
+        },
+        {
+          "number": 30070,
+          "title": "Superconducting Hub",
+          "current": 3,
+          "reference": 1
+        },
+        {
+          "number": 30039,
+          "title": "Brân 1.0",
+          "current": 3,
+          "reference": 2
+        },
+        {
+          "number": 30040,
+          "title": "Seamless Launch",
+          "current": 3,
+          "reference": 2
+        },
+        {
+          "number": 30071,
+          "title": "Regolith Mining License",
+          "current": 3,
+          "reference": 0
+        },
+        {
+          "number": 30053,
+          "title": "Spin Doctor",
+          "current": 2,
+          "reference": 0
+        },
+        {
+          "number": 30048,
+          "title": "Hansei Review",
+          "current": 2,
+          "reference": 0
+        },
+        {
+          "number": 30045,
+          "title": "Urtica Cipher",
+          "current": 0,
+          "reference": 3
+        },
+        {
+          "number": 30064,
+          "title": "Government Subsidy",
+          "current": 0,
+          "reference": 3
+        },
+        {
+          "number": 30056,
+          "title": "Predictive Planogram",
+          "current": 0,
+          "reference": 3
+        },
+        {
+          "number": 30041,
+          "title": "Sprint",
+          "current": 0,
+          "reference": 2
+        },
+        {
+          "number": 30063,
+          "title": "Pharos",
+          "current": 0,
+          "reference": 1
+        },
+        {
+          "number": 30074,
+          "title": "Whitespace",
+          "current": 0,
+          "reference": 3
+        }
+      ],
+      "cheapIce": 6,
+      "cheapStopIce": 3,
+      "expensiveIce": 6,
+      "turn3AtMost1Ice": 0.22516944188770815,
+      "turn3NoCheapIce": 0.236087099244994,
+      "turn3NoCheapStopIce": 0.5020242914979757,
+      "openingTwoIceAndEconomy": 0.3495717377296324,
+      "openingThreePlusAgendas": 0.08928766823503664,
+      "family": "current"
+    },
+    {
+      "id": "restoring-humanity-v1",
+      "name": "Jinteki: Restoring Humanity",
+      "side": "corp",
+      "size": 40,
+      "influence": 2,
+      "agendaPoints": 18,
+      "agendaCards": 10,
+      "ice": 12,
+      "economyCards": 9,
+      "drawSelectionCards": 2,
+      "openingNoEconomy": 0.2582202647992122,
+      "first10NoDrawSelection": 0.5576923076923077,
+      "typeCounts": {
+        "agenda": 10,
+        "asset": 8,
+        "ice": 12,
+        "operation": 8,
+        "upgrade": 2
+      },
+      "diffFromReference": [
+        {
+          "number": 30069,
+          "title": "Send a Message",
+          "current": 1,
+          "reference": 2
+        },
+        {
+          "number": 30070,
+          "title": "Superconducting Hub",
+          "current": 3,
+          "reference": 0
+        },
+        {
+          "number": 30049,
+          "title": "Neurospike",
+          "current": 2,
+          "reference": 0
+        },
+        {
+          "number": 30073,
+          "title": "Tithe",
+          "current": 2,
+          "reference": 3
+        },
+        {
+          "number": 30074,
+          "title": "Whitespace",
+          "current": 1,
+          "reference": 3
+        },
+        {
+          "number": 30053,
+          "title": "Spin Doctor",
+          "current": 2,
+          "reference": 3
+        },
+        {
+          "number": 30061,
+          "title": "Clearinghouse",
+          "current": 0,
+          "reference": 3
+        },
+        {
+          "number": 30038,
+          "title": "Ansel 1.0",
+          "current": 0,
+          "reference": 1
+        }
+      ],
+      "cheapIce": 9,
+      "cheapStopIce": 4,
+      "expensiveIce": 0,
+      "turn3AtMost1Ice": 0.22516944188770815,
+      "turn3NoCheapIce": 0.1025779508751645,
+      "turn3NoCheapStopIce": 0.39347849874165663,
+      "openingTwoIceAndEconomy": 0.30737772185140605,
+      "openingThreePlusAgendas": 0.08928766823503664,
+      "family": "current"
+    },
+    {
+      "id": "reality-plus-v1",
+      "name": "NBN: Reality Plus",
+      "side": "corp",
+      "size": 40,
+      "influence": 3,
+      "agendaPoints": 18,
+      "agendaCards": 10,
+      "ice": 11,
+      "economyCards": 9,
+      "drawSelectionCards": 6,
+      "openingNoEconomy": 0.2582202647992122,
+      "first10NoDrawSelection": 0.15469416785206258,
+      "typeCounts": {
+        "agenda": 10,
+        "asset": 6,
+        "ice": 11,
+        "operation": 11,
+        "upgrade": 2
+      },
+      "diffFromReference": [
+        {
+          "number": 30067,
+          "title": "Offworld Office",
+          "current": 3,
+          "reference": 0
+        },
+        {
+          "number": 30068,
+          "title": "Orbital Superiority",
+          "current": 2,
+          "reference": 3
+        },
+        {
+          "number": 30069,
+          "title": "Send a Message",
+          "current": 1,
+          "reference": 3
+        },
+        {
+          "number": 30070,
+          "title": "Superconducting Hub",
+          "current": 3,
+          "reference": 1
+        },
+        {
+          "number": 30057,
+          "title": "Public Trail",
+          "current": 2,
+          "reference": 3
+        },
+        {
+          "number": 30071,
+          "title": "Regolith Mining License",
+          "current": 3,
+          "reference": 0
+        },
+        {
+          "number": 30073,
+          "title": "Tithe",
+          "current": 2,
+          "reference": 3
+        },
+        {
+          "number": 30065,
+          "title": "Retribution",
+          "current": 3,
+          "reference": 0
+        },
+        {
+          "number": 30048,
+          "title": "Hansei Review",
+          "current": 0,
+          "reference": 3
+        },
+        {
+          "number": 30049,
+          "title": "Neurospike",
+          "current": 0,
+          "reference": 2
+        },
+        {
+          "number": 30042,
+          "title": "Manegarm Skunkworks",
+          "current": 0,
+          "reference": 2
+        },
+        {
+          "number": 30074,
+          "title": "Whitespace",
+          "current": 0,
+          "reference": 3
+        }
+      ],
+      "cheapIce": 8,
+      "cheapStopIce": 6,
+      "expensiveIce": 3,
+      "turn3AtMost1Ice": 0.27905614592921096,
+      "turn3NoCheapIce": 0.136770601166886,
+      "turn3NoCheapStopIce": 0.236087099244994,
+      "openingTwoIceAndEconomy": 0.2688113214429004,
+      "openingThreePlusAgendas": 0.08928766823503664,
+      "family": "current"
+    },
+    {
+      "id": "built-to-last-v2",
+      "name": "Weyland Consortium: Built to Last",
+      "side": "corp",
+      "size": 40,
+      "influence": 9,
+      "agendaPoints": 18,
+      "agendaCards": 10,
+      "ice": 16,
+      "economyCards": 7,
+      "drawSelectionCards": 3,
+      "openingNoEconomy": 0.36068862384651856,
+      "first10NoDrawSelection": 0.4109311740890688,
+      "typeCounts": {
+        "agenda": 10,
+        "asset": 8,
+        "ice": 16,
+        "operation": 5,
+        "upgrade": 1
+      },
+      "diffFromReference": [
+        {
+          "number": 30069,
+          "title": "Send a Message",
+          "current": 1,
+          "reference": 2
+        },
+        {
+          "number": 30070,
+          "title": "Superconducting Hub",
+          "current": 3,
+          "reference": 0
+        },
+        {
+          "number": 30061,
+          "title": "Clearinghouse",
+          "current": 2,
+          "reference": 0
+        },
+        {
+          "number": 30062,
+          "title": "Ballista",
+          "current": 2,
+          "reference": 3
+        },
+        {
+          "number": 30063,
+          "title": "Pharos",
+          "current": 2,
+          "reference": 3
+        },
+        {
+          "number": 30064,
+          "title": "Government Subsidy",
+          "current": 1,
+          "reference": 3
+        },
+        {
+          "number": 30065,
+          "title": "Retribution",
+          "current": 1,
+          "reference": 3
+        },
+        {
+          "number": 30066,
+          "title": "Malapert Data Vault",
+          "current": 1,
+          "reference": 2
+        },
+        {
+          "number": 30071,
+          "title": "Regolith Mining License",
+          "current": 3,
+          "reference": 0
+        },
+        {
+          "number": 30053,
+          "title": "Spin Doctor",
+          "current": 3,
+          "reference": 0
+        },
+        {
+          "number": 30055,
+          "title": "Ping",
+          "current": 3,
+          "reference": 0
+        },
+        {
+          "number": 30056,
+          "title": "Predictive Planogram",
+          "current": 0,
+          "reference": 3
+        },
+        {
+          "number": 30057,
+          "title": "Public Trail",
+          "current": 0,
+          "reference": 3
+        },
+        {
+          "number": 30041,
+          "title": "Sprint",
+          "current": 0,
+          "reference": 2
+        },
+        {
+          "number": 30054,
+          "title": "Funhouse",
+          "current": 0,
+          "reference": 2
+        }
+      ],
+      "cheapIce": 12,
+      "cheapStopIce": 9,
+      "expensiveIce": 4,
+      "turn3AtMost1Ice": 0.08157025804084628,
+      "turn3NoCheapIce": 0.0404150280311271,
+      "turn3NoCheapStopIce": 0.1025779508751645,
+      "openingTwoIceAndEconomy": 0.38361235729656784,
+      "openingThreePlusAgendas": 0.08928766823503664,
+      "family": "current"
+    },
+    {
+      "id": "nsg-loup-v1",
+      "name": "Party Hard (Anarch –  René “Loup” Arcemont: Party Animal)",
+      "side": "runner",
+      "size": 40,
+      "influence": 14,
+      "agendaPoints": 0,
+      "agendaCards": 0,
+      "ice": 0,
+      "economyCards": 12,
+      "drawSelectionCards": 6,
+      "openingNoEconomy": 0.14935988620199148,
+      "first10NoDrawSelection": 0.15469416785206258,
+      "typeCounts": {
+        "event": 9,
+        "hardware": 8,
+        "resource": 9,
+        "program": 14
+      },
+      "diffFromReference": [],
+      "breakers": {
+        "Fracter": 2,
+        "Decoder": 2,
+        "Killer": 2
+      },
+      "first10MissingPermanentBreakerType": 0.9281650071123757,
+      "breakerTutorCopies": 0,
+      "oneShotAIBreakers": 0,
+      "multiaccessCopies": 2,
+      "family": "reference"
+    },
+    {
+      "id": "nsg-zahya-v1",
+      "name": "Stolen Goods (Criminal – Zahya Sadeghi: Versatile Smuggler)",
+      "side": "runner",
+      "size": 40,
+      "influence": 14,
+      "agendaPoints": 0,
+      "agendaCards": 0,
+      "ice": 0,
+      "economyCards": 12,
+      "drawSelectionCards": 5,
+      "openingNoEconomy": 0.14935988620199148,
+      "first10NoDrawSelection": 0.21657183499288762,
+      "typeCounts": {
+        "event": 17,
+        "hardware": 6,
+        "resource": 8,
+        "program": 9
+      },
+      "diffFromReference": [],
+      "breakers": {
+        "Fracter": 2,
+        "Decoder": 2,
+        "Killer": 2
+      },
+      "first10MissingPermanentBreakerType": 0.9281650071123757,
+      "breakerTutorCopies": 2,
+      "oneShotAIBreakers": 0,
+      "multiaccessCopies": 6,
+      "family": "reference"
+    },
+    {
+      "id": "nsg-tao-v1",
+      "name": "Planning Ahead (Shaper – Tāo Salonga: Telepresence Magician) ",
+      "side": "runner",
+      "size": 40,
+      "influence": 15,
+      "agendaPoints": 0,
+      "agendaCards": 0,
+      "ice": 0,
+      "economyCards": 12,
+      "drawSelectionCards": 5,
+      "openingNoEconomy": 0.14935988620199148,
+      "first10NoDrawSelection": 0.21657183499288762,
+      "typeCounts": {
+        "event": 14,
+        "hardware": 5,
+        "resource": 8,
+        "program": 13
+      },
+      "diffFromReference": [],
+      "breakers": {
+        "Fracter": 2,
+        "Decoder": 2,
+        "Killer": 2
+      },
+      "first10MissingPermanentBreakerType": 0.9281650071123757,
+      "breakerTutorCopies": 0,
+      "oneShotAIBreakers": 2,
+      "multiaccessCopies": 5,
+      "family": "reference"
+    },
+    {
+      "id": "nsg-precision-design-v1",
+      "name": " Discretion Advised (Haas-Bioroid: Precision Design)",
+      "side": "corp",
+      "size": 44,
+      "influence": 15,
+      "agendaPoints": 18,
+      "agendaCards": 8,
+      "ice": 15,
+      "economyCards": 12,
+      "drawSelectionCards": 8,
+      "openingNoEconomy": 0.18542773165575208,
+      "first10NoDrawSelection": 0.10244278554873533,
+      "typeCounts": {
+        "agenda": 8,
+        "asset": 6,
+        "operation": 13,
+        "upgrade": 2,
+        "ice": 15
+      },
+      "diffFromReference": [],
+      "cheapIce": 9,
+      "cheapStopIce": 6,
+      "expensiveIce": 6,
+      "turn3AtMost1Ice": 0.15631345914654868,
+      "turn3NoCheapIce": 0.13279620348910137,
+      "turn3NoCheapStopIce": 0.27592826912168944,
+      "openingTwoIceAndEconomy": 0.4157427937915743,
+      "openingThreePlusAgendas": 0.03485793843139273,
+      "family": "reference"
+    },
+    {
+      "id": "nsg-restoring-humanity-v1",
+      "name": "Advanced Yomi (Jinteki: Restoring Humanity)",
+      "side": "corp",
+      "size": 44,
+      "influence": 15,
+      "agendaPoints": 18,
+      "agendaCards": 8,
+      "ice": 16,
+      "economyCards": 9,
+      "drawSelectionCards": 3,
+      "openingNoEconomy": 0.29892229154849687,
+      "first10NoDrawSelection": 0.45182724252491696,
+      "typeCounts": {
+        "agenda": 8,
+        "asset": 12,
+        "operation": 6,
+        "upgrade": 2,
+        "ice": 16
+      },
+      "diffFromReference": [],
+      "cheapIce": 12,
+      "cheapStopIce": 6,
+      "expensiveIce": 1,
+      "turn3AtMost1Ice": 0.1244282464988797,
+      "turn3NoCheapIce": 0.05934742478313544,
+      "turn3NoCheapStopIce": 0.27592826912168944,
+      "openingTwoIceAndEconomy": 0.3767375562610957,
+      "openingThreePlusAgendas": 0.03485793843139273,
+      "family": "reference"
+    },
+    {
+      "id": "nsg-reality-plus-v1",
+      "name": "Hyper Velocity (NBN: Reality Plus)",
+      "side": "corp",
+      "size": 44,
+      "influence": 15,
+      "agendaPoints": 18,
+      "agendaCards": 8,
+      "ice": 15,
+      "economyCards": 9,
+      "drawSelectionCards": 6,
+      "openingNoEconomy": 0.29892229154849687,
+      "first10NoDrawSelection": 0.19052190010783318,
+      "typeCounts": {
+        "agenda": 8,
+        "asset": 3,
+        "operation": 14,
+        "upgrade": 4,
+        "ice": 15
+      },
+      "diffFromReference": [],
+      "cheapIce": 12,
+      "cheapStopIce": 9,
+      "expensiveIce": 3,
+      "turn3AtMost1Ice": 0.15631345914654868,
+      "turn3NoCheapIce": 0.05934742478313544,
+      "turn3NoCheapStopIce": 0.13279620348910137,
+      "openingTwoIceAndEconomy": 0.34487315010570824,
+      "openingThreePlusAgendas": 0.03485793843139273,
+      "family": "reference"
+    },
+    {
+      "id": "nsg-built-to-last-v2",
+      "name": "Quick and Dirty (Weyland Consortium: Built to Last)",
+      "side": "corp",
+      "size": 44,
+      "influence": 15,
+      "agendaPoints": 18,
+      "agendaCards": 8,
+      "ice": 17,
+      "economyCards": 9,
+      "drawSelectionCards": 5,
+      "openingNoEconomy": 0.29892229154849687,
+      "first10NoDrawSelection": 0.25621910704156875,
+      "typeCounts": {
+        "agenda": 8,
+        "operation": 17,
+        "upgrade": 2,
+        "ice": 17
+      },
+      "diffFromReference": [],
+      "cheapIce": 9,
+      "cheapStopIce": 6,
+      "expensiveIce": 8,
+      "turn3AtMost1Ice": 0.09770540161321425,
+      "turn3NoCheapIce": 0.13279620348910137,
+      "turn3NoCheapStopIce": 0.27592826912168944,
+      "openingTwoIceAndEconomy": 0.40780915057715966,
+      "openingThreePlusAgendas": 0.03485793843139273,
+      "family": "reference"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "engine": "chiriboga-77c80b1-local-1",
+  "config": {
+    "side": "runner",
+    "seed": "e5041c11-119a-4925-af9f-fc281b3fdefa"
+  },
+  "choices": [
+    {
+      "version": 2,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 31,
+      "command": "play",
+      "index": 0
+    },
+    {
+      "version": 34,
+      "command": "install",
+      "index": 2
+    },
+    {
+      "version": 37,
+      "command": "install",
+      "index": 1
+    },
+    {
+      "version": 40,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 78,
+      "command": "install",
+      "index": 1
+    },
+    {
+      "version": 79,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 81,
+      "command": "trigger",
+      "index": 1
+    },
+    {
+      "version": 84,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 86,
+      "command": "install",
+      "index": 1
+    },
+    {
+      "version": 125,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 130,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 132,
+      "command": "play",
+      "index": 1
+    },
+    {
+      "version": 136,
+      "command": "play",
+      "index": 0
+    },
+    {
+      "version": 137,
+      "command": "continue",
+      "index": 1
+    },
+    {
+      "version": 193,
+      "command": "install",
+      "index": 1
+    },
+    {
+      "version": 196,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 198,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 200,
+      "command": "install",
+      "index": 3
+    },
+    {
+      "version": 201,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 236,
+      "command": "remove",
+      "index": 0
+    },
+    {
+      "version": 238,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 240,
+      "command": "run",
+      "index": 2
+    },
+    {
+      "version": 241,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 248,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 253,
+      "command": "install",
+      "index": 2
+    },
+    {
+      "version": 254,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 289,
+      "command": "install",
+      "index": 1
+    },
+    {
+      "version": 290,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 292,
+      "command": "play",
+      "index": 0
+    },
+    {
+      "version": 296,
+      "command": "trigger",
+      "index": 1
+    },
+    {
+      "version": 299,
+      "command": "run",
+      "index": 4
+    },
+    {
+      "version": 304,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 318,
+      "command": "jack",
+      "index": 0
+    },
+    {
+      "version": 324,
+      "command": "discard",
+      "index": 3
+    }
+  ],
+  "conceded": false
+}

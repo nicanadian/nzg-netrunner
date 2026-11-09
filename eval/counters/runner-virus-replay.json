@@ -1,0 +1,105 @@
+{
+  "engine": "chiriboga-77c80b1-local-1",
+  "config": {
+    "side": "runner",
+    "seed": "4e2bd374-fa72-4ff3-98a0-cc68f2e499a8"
+  },
+  "choices": [
+    {
+      "version": 2,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 30,
+      "command": "play",
+      "index": 0
+    },
+    {
+      "version": 33,
+      "command": "install",
+      "index": 0
+    },
+    {
+      "version": 36,
+      "command": "run",
+      "index": 0
+    },
+    {
+      "version": 37,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 44,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 45,
+      "command": "trash",
+      "index": 0
+    },
+    {
+      "version": 46,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 54,
+      "command": "play",
+      "index": 0
+    },
+    {
+      "version": 55,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 56,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 61,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 65,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 66,
+      "command": "trash",
+      "index": 0
+    },
+    {
+      "version": 70,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 71,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 110,
+      "command": "install",
+      "index": 0
+    },
+    {
+      "version": 111,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 113,
+      "command": "run",
+      "index": 0
+    }
+  ],
+  "conceded": false
+}

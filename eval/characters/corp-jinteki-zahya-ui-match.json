@@ -1,0 +1,139 @@
+{
+  "engine": "chiriboga-77c80b1-local-1",
+  "config": {
+    "side": "corp",
+    "seed": "c1251b3d-8c9f-4221-ae65-6b82f17a53ef",
+    "deckIds": {
+      "runner": "zahya-v1",
+      "corp": "restoring-humanity-v1"
+    }
+  },
+  "choices": [
+    {
+      "version": 1,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 8,
+      "command": "install",
+      "index": 0
+    },
+    {
+      "version": 10,
+      "command": "advance",
+      "index": 0
+    },
+    {
+      "version": 11,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 12,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 14,
+      "command": "discard",
+      "index": 3
+    },
+    {
+      "version": 16,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 18,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 23,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 29,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 36,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 97,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 98,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 99,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 102,
+      "command": "discard",
+      "index": 0
+    },
+    {
+      "version": 103,
+      "command": "discard",
+      "index": 0
+    },
+    {
+      "version": 104,
+      "command": "discard",
+      "index": 0
+    },
+    {
+      "version": 108,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 202,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 203,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 204,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 207,
+      "command": "discard",
+      "index": 0
+    },
+    {
+      "version": 208,
+      "command": "discard",
+      "index": 0
+    },
+    {
+      "version": 209,
+      "command": "discard",
+      "index": 0
+    },
+    {
+      "version": 213,
+      "command": "trigger",
+      "index": 0
+    }
+  ],
+  "conceded": false
+}

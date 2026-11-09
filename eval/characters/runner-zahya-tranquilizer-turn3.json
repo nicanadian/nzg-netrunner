@@ -1,0 +1,89 @@
+{
+  "engine": "chiriboga-77c80b1-local-1",
+  "config": {
+    "side": "runner",
+    "seed": "939edd87-a057-4c2b-b8b9-e10647f0354a",
+    "deckIds": {
+      "runner": "zahya-v1",
+      "corp": "reality-plus-v1"
+    }
+  },
+  "choices": [
+    {
+      "version": 2,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 31,
+      "command": "install",
+      "index": 2
+    },
+    {
+      "version": 34,
+      "command": "install",
+      "index": 0
+    },
+    {
+      "version": 35,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 37,
+      "command": "run",
+      "index": 1
+    },
+    {
+      "version": 51,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 58,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 59,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 60,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 62,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 66,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 100,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 102,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 104,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 106,
+      "command": "gain",
+      "index": 0
+    }
+  ],
+  "conceded": false
+}

@@ -1,0 +1,130 @@
+WelcomeChatCardsDeck BuilderPlayHelpSettingsStatsAbout
+GatewayInterCorp
+−100%+
+2 Games
+ConcedeLeave GameMute spectators
+Game LogSettingsRun TimingTurn Timing
+Timing Structure of a Run
+This structure has been simplified for clarity. For complete rules, see the Null Signal Games website.
+6.9.1: Initiation Phase
+a)	
+Runner declares a server
+b)	
+Runner gains Bad Publicity credits
+c)	
+Run formally begins - Run events fire
+d)	
+Paid Ability Window. Corp may rez non-ice cards during this window.
+e)	
+Proceed to the outermost ice, if applicable, and begin the approach phase (6.9.2)
+f)	
+Otherwise, proceed to the movement phase (6.9.4)
+6.9.2: Approach Ice Phase
+a)	
+You are now approaching the ice. Approach events resolve
+b)	
+Paid Ability Window. Corp may rez the approached ice, or non-ice cards, during this window
+c)	
+If approached ice is rezzed, continue to encounter phase (6.9.3)
+d)	
+Otherwise, proceed to the movement phase (6.9.4)
+6.9.3: Encounter Ice Phase
+a)	
+You are now encountering this ice. Encounter events resolve
+b)	
+Paid ability window. Encountered ice may be interfaced during this window
+c)	
+If there are unbroken subroutines to resolve, the corporation resolves the topmost unbroken subroutine. If they do, repeat this step
+d)	
+The encounter is complete. Proceed to the movement phase (6.9.4)
+6.9.4: Movement Phase
+a)	
+If you were encountering or approaching an ice, you pass it. Pass-Ice events resolve
+b)	
+If there are no more ice inwards from the passed ice, 'when you pass all ice on the server' events resolve
+c)	
+Paid ability window
+d)	
+The runner may jack out. If they do, proceed to the run ends phase (6.9.6)
+e)	
+The runner proceeds to the next position inwards, if applicable
+f)	
+Paid ability window. The corporation may rez non-ice cards
+g)	
+If you are approaching another ice, return to the approach ice phase (6.9.2)
+h)	
+The runner approaches the attacked server. Approach events resolve
+i)	
+Continue to the success phase (6.9.5)
+6.9.5: Success Phase
+a)	
+The run is declared successful. Successful run events are met
+b)	
+The runner breaches the attacked server
+c)	
+The success phase is complete. Continue to the run ends phase (6.9.6)
+6.9.6: Run Ends Phase
+a)	
+Any open priority windows complete or are closed
+b)	
+The runner loses any unspent bad publicity credits
+c)	
+If the success phase was not reached and the server still exists, the run becomes unsuccessful
+d)	
+The run ends. Run ends events resolve
+VRcation
+Heap (5)
+Stack (18)
+The Catalyst: Convention Breaker
+Grip (5)
+Cleaver
+3
+Unity
+1
+Brân 1.0
+Server 2
+Regolith Mining License
+9
+Server 1
+Diviner
+The Syndicate: Profit over Principle
+HQ (5)
+Palisade
+2
+R&D (23)
+Urtica Cipher
+Archives (2 ↑ 0 ↓)
+Grip (5/5)
++
+#
+GatewayInterRunner
+unspecified
+0 1 2/4 0 
+0 Tags
+0 Core Damage
+Scored Area (0)
+0 Agenda Points (6 required)
+Scored Area (0)
+0 Agenda Points (6 required)
+GatewayInterCorp
+unspecified
+0 
+10 
+0 Bad Publicity
+Stats
+Gameplay Options
+Game start: 1:07:09 PM
+-
+14
+m:
+46
+s
+PurgeTrash ResourceDrawGain Credit
+Seamless Launch
+Tithe
+Palisade
+Manegarm Skunkworks
+Karunā
+HQ (5/5)
++
+#

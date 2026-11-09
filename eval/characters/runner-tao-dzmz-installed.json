@@ -1,0 +1,24 @@
+{
+  "engine": "chiriboga-77c80b1-local-1",
+  "config": {
+    "side": "runner",
+    "seed": "panel-dzmz-2",
+    "deckIds": {
+      "runner": "tao-v1",
+      "corp": "built-to-last-v1"
+    }
+  },
+  "choices": [
+    {
+      "version": 2,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 31,
+      "command": "install",
+      "index": 2
+    }
+  ],
+  "conceded": false
+}

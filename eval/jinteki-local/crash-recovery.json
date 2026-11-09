@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-11-07T18:19:18.289Z",
+  "failure": "React log renderer unmounted the board after card-str-edn received serialized string zones. zone->name returned null and lower-case threw.",
+  "scope": "Frontend-only rebuild and page reload; server process and match remained live.",
+  "gameid": "efe7bce8-5608-4065-9a1f-9ba5ec8e21db",
+  "runnerViewBeforeAndAfter": {
+    "turn": 4,
+    "corp": {
+      "clicks": 0,
+      "credits": 11,
+      "hand": 0
+    },
+    "runner": {
+      "clicks": 0,
+      "credits": 3,
+      "hand": 1
+    },
+    "run": {
+      "phase": "approach-ice",
+      "position": 1,
+      "server": [
+        "rd"
+      ]
+    },
+    "logCount": 68
+  },
+  "verification": {
+    "runnerLogEntriesRendered": 68,
+    "corpLogEntriesRendered": 75,
+    "formatErrors": 0,
+    "regressionAssertions": 22,
+    "regressionFailures": 0
+  },
+  "note": "Hand counts in this fingerprint are from the Runner observation; concealed Corp cards are represented separately by the upstream view. The Corp view exposes its own hand. No game choices were made during recovery."
+}

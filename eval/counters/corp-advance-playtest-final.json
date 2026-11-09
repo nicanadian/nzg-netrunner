@@ -1,0 +1,50 @@
+{
+  "engine": "chiriboga-77c80b1-local-1",
+  "config": {
+    "side": "corp",
+    "seed": "4b8b775b-60c2-40be-8a90-264649a3139c"
+  },
+  "choices": [
+    {
+      "version": 1,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 8,
+      "command": "install",
+      "index": 9
+    },
+    {
+      "version": 10,
+      "command": "install",
+      "index": 4
+    },
+    {
+      "version": 12,
+      "command": "install",
+      "index": 6
+    },
+    {
+      "version": 75,
+      "command": "advance",
+      "index": 0
+    },
+    {
+      "version": 76,
+      "command": "advance",
+      "index": 0
+    },
+    {
+      "version": 77,
+      "command": "advance",
+      "index": 0
+    },
+    {
+      "version": 78,
+      "command": "score",
+      "index": 0
+    }
+  ],
+  "conceded": false
+}

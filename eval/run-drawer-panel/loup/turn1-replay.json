@@ -1,0 +1,75 @@
+{
+  "engine": "chiriboga-77c80b1-local-1",
+  "config": {
+    "side": "runner",
+    "seed": "09e8877f-66ce-4333-a1cd-340658b75974",
+    "deckIds": {
+      "runner": "loup-v1",
+      "corp": "precision-design-v1"
+    },
+    "rulesVersion": "26.03-local-2"
+  },
+  "choices": [
+    {
+      "version": 2,
+      "command": "m",
+      "index": 0
+    },
+    {
+      "version": 31,
+      "command": "play",
+      "index": 0
+    },
+    {
+      "version": 34,
+      "command": "run",
+      "index": 3
+    },
+    {
+      "version": 37,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 44,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 45,
+      "command": "trash",
+      "index": 0
+    },
+    {
+      "version": 46,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 54,
+      "command": "install",
+      "index": 0
+    },
+    {
+      "version": 57,
+      "command": "run",
+      "index": 0
+    },
+    {
+      "version": 64,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 71,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 72,
+      "command": "steal",
+      "index": 0
+    }
+  ],
+  "conceded": false
+}

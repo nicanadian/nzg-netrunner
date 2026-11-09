@@ -1,0 +1,6 @@
+WARNING: random-uuid already refers to: #'clojure.core/random-uuid in namespace: monger.util, being replaced by: #'monger.util/random-uuid
+
+Testing comparison.scenarios
+
+Ran 6 tests containing 248 assertions.
+0 failures, 0 errors.

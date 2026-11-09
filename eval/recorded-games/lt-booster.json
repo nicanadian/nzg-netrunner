@@ -1,0 +1,3432 @@
+{
+  "schemaVersion": 1,
+  "id": "lt-booster",
+  "title": "Legendary Tactics — starter plus booster game",
+  "source": {
+    "url": "https://www.youtube.com/watch?v=NwMp40meA1A",
+    "videoId": "NwMp40meA1A",
+    "reviewedOn": "2026-11-06",
+    "evidence": [
+      "English captions",
+      "720p source video",
+      "sampled board frames",
+      "OCR of visible Jinteki action log, checked against frames and narration"
+    ],
+    "timestampPrecision": "Approximate navigation anchors; Jinteki log observations sampled every 10 seconds. They are not wall-clock action times."
+  },
+  "format": "44/40-card starter-plus-booster decks; Jinteki.net, Runner viewpoint",
+  "identities": {
+    "corp": 30077,
+    "runner": 30076
+  },
+  "initialState": {
+    "corpCredits": 5,
+    "runnerCredits": 5,
+    "corpPoints": 0,
+    "runnerPoints": 0
+  },
+  "result": {
+    "winner": "corp",
+    "corpPoints": 8,
+    "runnerPoints": 1,
+    "completedCorpTurns": 16,
+    "completedRunnerTurns": 16,
+    "terminalCorpTurn": 17,
+    "reason": "agenda points"
+  },
+  "reproduction": {
+    "level": "verified normalized full-game reconstruction with annotated source ledger",
+    "executableFullGame": true,
+    "originalShuffleRecovered": false,
+    "unknownPolicy": "null or an explicit gap; never silently fill hidden cards, randomness or omitted actions",
+    "coverage": "Opening through recorded game ending. Public action order and credit/point effects are annotated; this is not a native engine decision replay.",
+    "verifiedNormalizedFullGame": true,
+    "normalizedFullGameArtifact": "lt-booster-full-replay.json",
+    "fullGameQualification": "Legal reconstruction with explicit source corrections, synthetic hidden-state completion and controlled random outcomes. Not a literal original-shuffle reproduction.",
+    "exactSourceGameExecutable": false
+  },
+  "issues": [
+    {
+      "id": "booster-memory-undo",
+      "severity": "source correction",
+      "text": "R12 contains multiple UI undo/manual move operations. Final accepted state has Cleaver installed, original Mayfly absent, one-click install cost 2, and enough memory with DZMZ. Replaying every undo as another paid install would corrupt the ledger.",
+      "turns": [
+        "R12"
+      ]
+    },
+    {
+      "id": "booster-hidden-order",
+      "severity": "reproduction blocker",
+      "text": "Original shuffles, Corp hand/draw sequence, unrezzed R&D ice, unidentified R&D accesses and the unrezzed Server 1 upgrade installed C15 are not recovered. Regolith is visibly in Server 2 at 29:10, resolving the earlier hidden-root mapping. This ledger establishes the public game, not a unique complete hidden-state replay.",
+      "turns": [
+        "C1",
+        "R2",
+        "C4",
+        "C7",
+        "C8",
+        "C12",
+        "C15"
+      ]
+    }
+  ],
+  "turns": [
+    {
+      "id": "C1",
+      "side": "corp",
+      "round": 1,
+      "sourceStart": "01:20",
+      "sourceEnd": "02:10",
+      "events": [
+        {
+          "time": "01:20",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "lt-booster/C1/01"
+        },
+        {
+          "time": "01:30",
+          "kind": "play",
+          "text": "Hedge Fund: pay 5, gain 9.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30075,
+              "title": "Hedge Fund"
+            }
+          ],
+          "delta": {
+            "corpCredits": 4
+          },
+          "id": "lt-booster/C1/02"
+        },
+        {
+          "time": "02:00",
+          "kind": "basic-credit",
+          "text": "Gain 1 credit.",
+          "clicks": 1,
+          "delta": {
+            "corpCredits": 1
+          },
+          "id": "lt-booster/C1/03"
+        },
+        {
+          "time": "02:00",
+          "kind": "play",
+          "text": "Government Subsidy: pay 10, gain 15.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30064,
+              "title": "Government Subsidy"
+            }
+          ],
+          "delta": {
+            "corpCredits": 5
+          },
+          "id": "lt-booster/C1/04"
+        }
+      ],
+      "observedEndHandSize": 4,
+      "observedEndCredits": 15
+    },
+    {
+      "id": "R1",
+      "side": "runner",
+      "round": 1,
+      "sourceStart": "02:10",
+      "sourceEnd": "03:30",
+      "events": [
+        {
+          "time": "02:30",
+          "kind": "install",
+          "text": "Install Red Team for 5; load 12.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30018,
+              "title": "Red Team"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -5
+          },
+          "counters": [
+            {
+              "instance": "red-team",
+              "counter": "credits",
+              "delta": 12
+            }
+          ],
+          "id": "lt-booster/R1/01"
+        },
+        {
+          "time": "02:40",
+          "kind": "play-run",
+          "text": "Jailbreak HQ: draw 1; access Diviner and Nico, leave both (pool 0).",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30028,
+              "title": "Jailbreak"
+            },
+            {
+              "number": 30046,
+              "title": "Diviner"
+            },
+            {
+              "number": 30037,
+              "title": "Nico Campaign"
+            }
+          ],
+          "delta": {},
+          "id": "lt-booster/R1/02"
+        },
+        {
+          "time": "03:10",
+          "kind": "ability-run",
+          "text": "Red Team R&D: take 3.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30018,
+              "title": "Red Team"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 3
+          },
+          "counters": [
+            {
+              "instance": "red-team",
+              "counter": "credits",
+              "delta": -3
+            }
+          ],
+          "id": "lt-booster/R1/03"
+        },
+        {
+          "time": "03:30",
+          "kind": "access-trash",
+          "text": "Access Regolith Mining License in R&D; trash for 3.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30071,
+              "title": "Regolith Mining License"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -3
+          },
+          "id": "lt-booster/R1/04"
+        },
+        {
+          "time": "03:30",
+          "kind": "install",
+          "text": "Install Smartware for 0.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30033,
+              "title": "Smartware Distributor"
+            }
+          ],
+          "delta": {},
+          "id": "lt-booster/R1/05"
+        }
+      ],
+      "observedEndHandSize": 3,
+      "observedEndCredits": 0
+    },
+    {
+      "id": "C2",
+      "side": "corp",
+      "round": 2,
+      "sourceStart": "03:30",
+      "sourceEnd": "04:00",
+      "events": [
+        {
+          "time": "03:30",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "lt-booster/C2/01"
+        },
+        {
+          "time": "03:50",
+          "kind": "install",
+          "text": "Install Palisade protecting new Server 1 for 0.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30072,
+              "title": "Palisade"
+            }
+          ],
+          "delta": {},
+          "certainty": "retrospective identification",
+          "id": "lt-booster/C2/02"
+        },
+        {
+          "time": "04:00",
+          "kind": "install",
+          "text": "Install Offworld Office in Server 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30067,
+              "title": "Offworld Office"
+            }
+          ],
+          "delta": {},
+          "certainty": "retrospective identification",
+          "id": "lt-booster/C2/03"
+        },
+        {
+          "time": "04:00",
+          "kind": "advance",
+          "text": "Advance Offworld once for 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30067,
+              "title": "Offworld Office"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "id": "lt-booster/C2/04"
+        }
+      ],
+      "observedEndHandSize": 3,
+      "observedEndCredits": 14
+    },
+    {
+      "id": "R2",
+      "side": "runner",
+      "round": 2,
+      "sourceStart": "04:10",
+      "sourceEnd": "04:50",
+      "events": [
+        {
+          "time": "04:10",
+          "kind": "ability-run",
+          "text": "Red Team R&D: take 3.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30018,
+              "title": "Red Team"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 3
+          },
+          "counters": [
+            {
+              "instance": "red-team",
+              "counter": "credits",
+              "delta": -3
+            }
+          ],
+          "id": "lt-booster/R2/01"
+        },
+        {
+          "time": "04:20",
+          "kind": "access-trash",
+          "text": "Trash Urtica Cipher from R&D for 2; no access damage because it is not installed.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30045,
+              "title": "Urtica Cipher"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -2
+          },
+          "id": "lt-booster/R2/02"
+        },
+        {
+          "time": "04:20",
+          "kind": "run",
+          "text": "Basic run on R&D; access an unidentified non-agenda and leave it.",
+          "clicks": 1,
+          "delta": {},
+          "hidden": {
+            "accessedCards": [
+              null
+            ]
+          },
+          "id": "lt-booster/R2/03"
+        },
+        {
+          "time": "04:40",
+          "kind": "ability-run",
+          "text": "Red Team HQ: take 3, access Seamless Launch and leave it.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30018,
+              "title": "Red Team"
+            },
+            {
+              "number": 30040,
+              "title": "Seamless Launch"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 3
+          },
+          "counters": [
+            {
+              "instance": "red-team",
+              "counter": "credits",
+              "delta": -3
+            }
+          ],
+          "id": "lt-booster/R2/04"
+        },
+        {
+          "time": "04:50",
+          "kind": "ability",
+          "text": "Load Smartware with 3.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30033,
+              "title": "Smartware Distributor"
+            }
+          ],
+          "delta": {},
+          "counters": [
+            {
+              "instance": "smartware",
+              "counter": "credits",
+              "delta": 3
+            }
+          ],
+          "id": "lt-booster/R2/05"
+        }
+      ],
+      "observedEndHandSize": 3,
+      "observedEndCredits": 4
+    },
+    {
+      "id": "C3",
+      "side": "corp",
+      "round": 3,
+      "sourceStart": "04:50",
+      "sourceEnd": "05:00",
+      "events": [
+        {
+          "time": "04:50",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "lt-booster/C3/01"
+        },
+        {
+          "time": "05:00",
+          "kind": "advance",
+          "text": "Advance Offworld once for 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30067,
+              "title": "Offworld Office"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "id": "lt-booster/C3/02"
+        },
+        {
+          "time": "05:00",
+          "kind": "advance",
+          "text": "Advance Offworld once for 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30067,
+              "title": "Offworld Office"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "id": "lt-booster/C3/03"
+        },
+        {
+          "time": "05:00",
+          "kind": "advance",
+          "text": "Advance Offworld once for 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30067,
+              "title": "Offworld Office"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "id": "lt-booster/C3/04"
+        },
+        {
+          "time": "05:00",
+          "kind": "score",
+          "text": "Score Offworld for 2 points and gain 7.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30067,
+              "title": "Offworld Office"
+            }
+          ],
+          "delta": {
+            "corpCredits": 7,
+            "corpPoints": 2
+          },
+          "id": "lt-booster/C3/05"
+        }
+      ],
+      "observedEndHandSize": 4,
+      "observedEndCredits": 18
+    },
+    {
+      "id": "R3",
+      "side": "runner",
+      "round": 3,
+      "sourceStart": "05:10",
+      "sourceEnd": "05:50",
+      "events": [
+        {
+          "time": "05:10",
+          "kind": "automatic-income",
+          "text": "Smartware pays 1 at turn start.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30033,
+              "title": "Smartware Distributor"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 1
+          },
+          "counters": [
+            {
+              "instance": "smartware",
+              "counter": "credits",
+              "delta": -1
+            }
+          ],
+          "id": "lt-booster/R3/01"
+        },
+        {
+          "time": "05:10",
+          "kind": "play",
+          "text": "Sure Gamble: net +4.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30030,
+              "title": "Sure Gamble"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 4
+          },
+          "id": "lt-booster/R3/02"
+        },
+        {
+          "time": "05:20",
+          "kind": "install",
+          "text": "Install Verbal Plasticity for 3.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30034,
+              "title": "Verbal Plasticity"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -3
+          },
+          "id": "lt-booster/R3/03"
+        },
+        {
+          "time": "05:40",
+          "kind": "basic-draw",
+          "text": "Basic draw 1, then Verbal Plasticity draws 1 additional card (first basic draw this turn).",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30034,
+              "title": "Verbal Plasticity"
+            }
+          ],
+          "delta": {},
+          "id": "lt-booster/R3/04"
+        },
+        {
+          "time": "05:40",
+          "kind": "play-run",
+          "text": "Jailbreak HQ: draw 1; access Karunā and Nico.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30028,
+              "title": "Jailbreak"
+            },
+            {
+              "number": 30047,
+              "title": "Karunā"
+            },
+            {
+              "number": 30037,
+              "title": "Nico Campaign"
+            }
+          ],
+          "delta": {},
+          "id": "lt-booster/R3/05"
+        },
+        {
+          "time": "05:50",
+          "kind": "access-trash",
+          "text": "Trash Nico from HQ for 2.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30037,
+              "title": "Nico Campaign"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -2
+          },
+          "id": "lt-booster/R3/06"
+        }
+      ],
+      "observedEndHandSize": 3,
+      "observedEndCredits": 4
+    },
+    {
+      "id": "C4",
+      "side": "corp",
+      "round": 4,
+      "sourceStart": "06:10",
+      "sourceEnd": "07:00",
+      "events": [
+        {
+          "time": "06:10",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "lt-booster/C4/01"
+        },
+        {
+          "time": "07:00",
+          "kind": "install",
+          "text": "Install concealed ice on R&D for 0.",
+          "clicks": 1,
+          "delta": {},
+          "certainty": "not established; only server and cost certain",
+          "hidden": {
+            "card": null,
+            "server": "R&D"
+          },
+          "id": "lt-booster/C4/02"
+        },
+        {
+          "time": "07:00",
+          "kind": "install",
+          "text": "Install Diviner on HQ for 0; later revealed.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30046,
+              "title": "Diviner"
+            }
+          ],
+          "delta": {},
+          "certainty": "retrospective identification",
+          "id": "lt-booster/C4/03"
+        },
+        {
+          "time": "07:00",
+          "kind": "install",
+          "text": "Install Tithe outside remote Palisade for 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30073,
+              "title": "Tithe"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "certainty": "retrospective identification",
+          "id": "lt-booster/C4/04"
+        }
+      ],
+      "observedEndHandSize": 1,
+      "observedEndCredits": 17
+    },
+    {
+      "id": "R4",
+      "side": "runner",
+      "round": 4,
+      "sourceStart": "07:00",
+      "sourceEnd": "08:10",
+      "events": [
+        {
+          "time": "07:00",
+          "kind": "automatic-income",
+          "text": "Smartware pays 1 at turn start.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30033,
+              "title": "Smartware Distributor"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 1
+          },
+          "counters": [
+            {
+              "instance": "smartware",
+              "counter": "credits",
+              "delta": -1
+            }
+          ],
+          "id": "lt-booster/R4/01"
+        },
+        {
+          "time": "07:10",
+          "kind": "play",
+          "text": "Wildcat Strike for 2; Corp chooses Runner draw 4.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30002,
+              "title": "Wildcat Strike"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -2
+          },
+          "id": "lt-booster/R4/02"
+        },
+        {
+          "time": "07:40",
+          "kind": "ability-run",
+          "text": "Fourth Red Team payout: Archives run gains 3, empty Red Team trashes.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30018,
+              "title": "Red Team"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 3
+          },
+          "counters": [
+            {
+              "instance": "red-team",
+              "counter": "credits",
+              "delta": -3
+            }
+          ],
+          "id": "lt-booster/R4/03"
+        },
+        {
+          "time": "08:10",
+          "kind": "install",
+          "text": "Install Leech for 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30008,
+              "title": "Leech"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -1
+          },
+          "counters": [
+            {
+              "instance": "leech-1",
+              "counter": "virus",
+              "delta": 0
+            }
+          ],
+          "id": "lt-booster/R4/04"
+        },
+        {
+          "time": "08:10",
+          "kind": "basic-credit",
+          "text": "Gain 1 credit.",
+          "clicks": 1,
+          "delta": {
+            "runnerCredits": 1
+          },
+          "id": "lt-booster/R4/05"
+        }
+      ],
+      "observedEndHandSize": 5,
+      "observedEndCredits": 6
+    },
+    {
+      "id": "C5",
+      "side": "corp",
+      "round": 5,
+      "sourceStart": "08:10",
+      "sourceEnd": "08:30",
+      "events": [
+        {
+          "time": "08:10",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "lt-booster/C5/01"
+        },
+        {
+          "time": "08:20",
+          "kind": "install",
+          "text": "Install Superconducting Hub in Server 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30070,
+              "title": "Superconducting Hub"
+            }
+          ],
+          "delta": {},
+          "certainty": "retrospective identification",
+          "id": "lt-booster/C5/02"
+        },
+        {
+          "time": "08:30",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "lt-booster/C5/03"
+        },
+        {
+          "time": "08:30",
+          "kind": "advance",
+          "text": "Advance Hub once for 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30070,
+              "title": "Superconducting Hub"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "id": "lt-booster/C5/04"
+        }
+      ],
+      "observedEndHandSize": 2,
+      "observedEndCredits": 16
+    },
+    {
+      "id": "R5",
+      "side": "runner",
+      "round": 5,
+      "sourceStart": "08:30",
+      "sourceEnd": "09:30",
+      "events": [
+        {
+          "time": "08:30",
+          "kind": "automatic-income",
+          "text": "Smartware pays 1 at turn start.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30033,
+              "title": "Smartware Distributor"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 1
+          },
+          "counters": [
+            {
+              "instance": "smartware",
+              "counter": "credits",
+              "delta": -1
+            }
+          ],
+          "id": "lt-booster/R5/01"
+        },
+        {
+          "time": "08:40",
+          "kind": "play-run",
+          "text": "Tread Lightly for 1 runs Server 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30012,
+              "title": "Tread Lightly"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -1
+          },
+          "id": "lt-booster/R5/02"
+        },
+        {
+          "time": "08:40",
+          "kind": "rez",
+          "text": "Rez Tithe for 1+3 tax = 4.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30073,
+              "title": "Tithe"
+            },
+            {
+              "number": 30012,
+              "title": "Tread Lightly"
+            }
+          ],
+          "delta": {
+            "corpCredits": -4
+          },
+          "id": "lt-booster/R5/03"
+        },
+        {
+          "time": "08:50",
+          "kind": "damage",
+          "text": "Allow Tithe: 1 net damage trashes Overclock.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30073,
+              "title": "Tithe"
+            },
+            {
+              "number": 30029,
+              "title": "Overclock"
+            }
+          ],
+          "delta": {},
+          "damage": {
+            "type": "net",
+            "amount": 1,
+            "trashed": [
+              30029
+            ]
+          },
+          "id": "lt-booster/R5/04"
+        },
+        {
+          "time": "09:00",
+          "kind": "subroutine",
+          "text": "Allow Tithe: Corp gains 1.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30073,
+              "title": "Tithe"
+            }
+          ],
+          "delta": {
+            "corpCredits": 1
+          },
+          "id": "lt-booster/R5/05"
+        },
+        {
+          "time": "09:10",
+          "kind": "rez",
+          "text": "Rez remote Palisade for 3+3 tax = 6.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30072,
+              "title": "Palisade"
+            },
+            {
+              "number": 30012,
+              "title": "Tread Lightly"
+            }
+          ],
+          "delta": {
+            "corpCredits": -6
+          },
+          "id": "lt-booster/R5/06"
+        },
+        {
+          "time": "09:20",
+          "kind": "subroutine",
+          "text": "Palisade ends run; no successful-central Leech counter.",
+          "clicks": 0,
+          "delta": {},
+          "id": "lt-booster/R5/07"
+        },
+        {
+          "time": "09:30",
+          "kind": "basic-draw",
+          "text": "Basic draw 1, then Verbal Plasticity draws 1 additional card (first basic draw this turn).",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30034,
+              "title": "Verbal Plasticity"
+            }
+          ],
+          "delta": {},
+          "id": "lt-booster/R5/08"
+        },
+        {
+          "time": "09:30",
+          "kind": "install",
+          "text": "Install first DZMZ Optimizer for 2.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30022,
+              "title": "DZMZ Optimizer"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -2
+          },
+          "id": "lt-booster/R5/09"
+        },
+        {
+          "time": "09:30",
+          "kind": "install",
+          "text": "Install Mayfly for 0: first program this turn gets DZMZ discount.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30032,
+              "title": "Mayfly"
+            },
+            {
+              "number": 30022,
+              "title": "DZMZ Optimizer"
+            }
+          ],
+          "delta": {},
+          "id": "lt-booster/R5/10"
+        }
+      ],
+      "observedEndHandSize": 3,
+      "observedEndCredits": 4
+    },
+    {
+      "id": "C6",
+      "side": "corp",
+      "round": 6,
+      "sourceStart": "09:40",
+      "sourceEnd": "10:40",
+      "events": [
+        {
+          "time": "09:40",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "lt-booster/C6/01"
+        },
+        {
+          "time": "09:40",
+          "kind": "play",
+          "text": "Seamless Launch costs 1; add 2 advancement to previously installed Hub.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30040,
+              "title": "Seamless Launch"
+            },
+            {
+              "number": 30070,
+              "title": "Superconducting Hub"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "id": "lt-booster/C6/02"
+        },
+        {
+          "time": "09:50",
+          "kind": "score",
+          "text": "Score Hub for 1 (Corp total 3); take optional draw 2.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30070,
+              "title": "Superconducting Hub"
+            }
+          ],
+          "delta": {
+            "corpPoints": 1
+          },
+          "id": "lt-booster/C6/03"
+        },
+        {
+          "time": "10:40",
+          "kind": "install",
+          "text": "Install Nico Campaign in Server 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30037,
+              "title": "Nico Campaign"
+            }
+          ],
+          "delta": {},
+          "certainty": "retrospective identification",
+          "id": "lt-booster/C6/04"
+        },
+        {
+          "time": "10:40",
+          "kind": "basic-credit",
+          "text": "Gain 1 credit.",
+          "clicks": 1,
+          "delta": {
+            "corpCredits": 1
+          },
+          "id": "lt-booster/C6/05"
+        }
+      ],
+      "observedEndHandSize": 3,
+      "observedEndCredits": 7
+    },
+    {
+      "id": "R6",
+      "side": "runner",
+      "round": 6,
+      "sourceStart": "11:00",
+      "sourceEnd": "11:50",
+      "events": [
+        {
+          "time": "11:00",
+          "kind": "basic-draw",
+          "text": "Basic draw 1, then Verbal Plasticity draws 1 additional card (first basic draw this turn).",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30034,
+              "title": "Verbal Plasticity"
+            }
+          ],
+          "delta": {},
+          "id": "lt-booster/R6/01"
+        },
+        {
+          "time": "11:20",
+          "kind": "install",
+          "text": "Install Docklands Pass for 2.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30013,
+              "title": "Docklands Pass"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -2
+          },
+          "id": "lt-booster/R6/02"
+        },
+        {
+          "time": "11:50",
+          "kind": "ability",
+          "text": "Reload Smartware with 3.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30033,
+              "title": "Smartware Distributor"
+            }
+          ],
+          "delta": {},
+          "counters": [
+            {
+              "instance": "smartware",
+              "counter": "credits",
+              "delta": 3
+            }
+          ],
+          "id": "lt-booster/R6/03"
+        },
+        {
+          "time": "11:50",
+          "kind": "basic-credit",
+          "text": "Gain 1 credit.",
+          "clicks": 1,
+          "delta": {
+            "runnerCredits": 1
+          },
+          "id": "lt-booster/R6/04"
+        }
+      ],
+      "observedEndHandSize": 4,
+      "observedEndCredits": 3
+    },
+    {
+      "id": "C7",
+      "side": "corp",
+      "round": 7,
+      "sourceStart": "12:00",
+      "sourceEnd": "12:40",
+      "events": [
+        {
+          "time": "12:00",
+          "kind": "rez",
+          "text": "Rez Nico before Corp turn for 2; load 9.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30037,
+              "title": "Nico Campaign"
+            }
+          ],
+          "delta": {
+            "corpCredits": -2
+          },
+          "counters": [
+            {
+              "instance": "nico",
+              "counter": "credits",
+              "delta": 9
+            }
+          ],
+          "id": "lt-booster/C7/01"
+        },
+        {
+          "time": "12:00",
+          "kind": "automatic-income",
+          "text": "Nico pays 3.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30037,
+              "title": "Nico Campaign"
+            }
+          ],
+          "delta": {
+            "corpCredits": 3
+          },
+          "counters": [
+            {
+              "instance": "nico",
+              "counter": "credits",
+              "delta": -3
+            }
+          ],
+          "id": "lt-booster/C7/02"
+        },
+        {
+          "time": "12:10",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "lt-booster/C7/03"
+        },
+        {
+          "time": "12:40",
+          "kind": "install",
+          "text": "Install outer HQ ice for 1; later revealed as Palisade.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30072,
+              "title": "Palisade"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "certainty": "retrospective identification",
+          "id": "lt-booster/C7/04"
+        },
+        {
+          "time": "12:40",
+          "kind": "install",
+          "text": "Install concealed outer R&D ice for 1.",
+          "clicks": 1,
+          "delta": {
+            "corpCredits": -1
+          },
+          "hidden": {
+            "card": null,
+            "server": "R&D"
+          },
+          "id": "lt-booster/C7/05"
+        },
+        {
+          "time": "12:40",
+          "kind": "basic-credit",
+          "text": "Gain 1 credit.",
+          "clicks": 1,
+          "delta": {
+            "corpCredits": 1
+          },
+          "id": "lt-booster/C7/06"
+        }
+      ],
+      "observedEndHandSize": 2,
+      "observedEndCredits": 7
+    },
+    {
+      "id": "R7",
+      "side": "runner",
+      "round": 7,
+      "sourceStart": "12:40",
+      "sourceEnd": "13:10",
+      "events": [
+        {
+          "time": "12:50",
+          "kind": "automatic-income",
+          "text": "Smartware pays 1 at turn start.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30033,
+              "title": "Smartware Distributor"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 1
+          },
+          "counters": [
+            {
+              "instance": "smartware",
+              "counter": "credits",
+              "delta": -1
+            }
+          ],
+          "id": "lt-booster/R7/01"
+        },
+        {
+          "time": "12:50",
+          "kind": "basic-draw",
+          "text": "Basic draw 1, then Verbal Plasticity draws 1 additional card (first basic draw this turn).",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30034,
+              "title": "Verbal Plasticity"
+            }
+          ],
+          "delta": {},
+          "id": "lt-booster/R7/02"
+        },
+        {
+          "time": "13:00",
+          "kind": "install",
+          "text": "Install Unity for 2 after first-program DZMZ discount.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30026,
+              "title": "Unity"
+            },
+            {
+              "number": 30022,
+              "title": "DZMZ Optimizer"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -2
+          },
+          "id": "lt-booster/R7/03"
+        },
+        {
+          "time": "13:10",
+          "kind": "basic-credit",
+          "text": "Gain 1 credit.",
+          "clicks": 1,
+          "delta": {
+            "runnerCredits": 1
+          },
+          "id": "lt-booster/R7/04"
+        },
+        {
+          "time": "13:10",
+          "kind": "basic-credit",
+          "text": "Gain 1 credit.",
+          "clicks": 1,
+          "delta": {
+            "runnerCredits": 1
+          },
+          "id": "lt-booster/R7/05"
+        }
+      ],
+      "observedEndHandSize": 5,
+      "observedEndCredits": 4
+    },
+    {
+      "id": "C8",
+      "side": "corp",
+      "round": 8,
+      "sourceStart": "13:20",
+      "sourceEnd": "13:50",
+      "events": [
+        {
+          "time": "13:20",
+          "kind": "automatic-income",
+          "text": "Nico pays 3.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30037,
+              "title": "Nico Campaign"
+            }
+          ],
+          "delta": {
+            "corpCredits": 3
+          },
+          "counters": [
+            {
+              "instance": "nico",
+              "counter": "credits",
+              "delta": -3
+            }
+          ],
+          "id": "lt-booster/C8/01"
+        },
+        {
+          "time": "13:20",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "lt-booster/C8/02"
+        },
+        {
+          "time": "13:40",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "lt-booster/C8/03"
+        },
+        {
+          "time": "13:40",
+          "kind": "install",
+          "text": "Install third R&D ice for 2; unrezzed throughout play.",
+          "clicks": 1,
+          "delta": {
+            "corpCredits": -2
+          },
+          "hidden": {
+            "card": null,
+            "server": "R&D"
+          },
+          "id": "lt-booster/C8/04"
+        },
+        {
+          "time": "13:40",
+          "kind": "play",
+          "text": "Hedge Fund: net +4.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30075,
+              "title": "Hedge Fund"
+            }
+          ],
+          "delta": {
+            "corpCredits": 4
+          },
+          "id": "lt-booster/C8/05"
+        }
+      ],
+      "observedEndHandSize": 2,
+      "observedEndCredits": 12
+    },
+    {
+      "id": "R8",
+      "side": "runner",
+      "round": 8,
+      "sourceStart": "13:50",
+      "sourceEnd": "15:00",
+      "events": [
+        {
+          "time": "14:10",
+          "kind": "automatic-income",
+          "text": "Smartware pays 1 at turn start.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30033,
+              "title": "Smartware Distributor"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 1
+          },
+          "counters": [
+            {
+              "instance": "smartware",
+              "counter": "credits",
+              "delta": -1
+            }
+          ],
+          "id": "lt-booster/R8/01"
+        },
+        {
+          "time": "14:10",
+          "kind": "basic-credit",
+          "text": "Gain 1 credit.",
+          "clicks": 1,
+          "delta": {
+            "runnerCredits": 1
+          },
+          "id": "lt-booster/R8/02"
+        },
+        {
+          "time": "14:10",
+          "kind": "basic-credit",
+          "text": "Gain 1 credit.",
+          "clicks": 1,
+          "delta": {
+            "runnerCredits": 1
+          },
+          "id": "lt-booster/R8/03"
+        },
+        {
+          "time": "14:10",
+          "kind": "basic-credit",
+          "text": "Gain 1 credit.",
+          "clicks": 1,
+          "delta": {
+            "runnerCredits": 1
+          },
+          "id": "lt-booster/R8/04"
+        },
+        {
+          "time": "14:20",
+          "kind": "play-run",
+          "text": "Tread Lightly HQ for 1; pass two unrezzed ice.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30012,
+              "title": "Tread Lightly"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -1
+          },
+          "id": "lt-booster/R8/05"
+        },
+        {
+          "time": "14:40",
+          "kind": "successful-run",
+          "text": "Successful HQ: Leech +1; Docklands adds one access.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30008,
+              "title": "Leech"
+            },
+            {
+              "number": 30013,
+              "title": "Docklands Pass"
+            }
+          ],
+          "delta": {},
+          "counters": [
+            {
+              "instance": "leech-1",
+              "counter": "virus",
+              "delta": 1
+            }
+          ],
+          "id": "lt-booster/R8/06"
+        },
+        {
+          "time": "14:50",
+          "kind": "access",
+          "text": "Access Karunā and Predictive Planogram from HQ; leave both.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30047,
+              "title": "Karunā"
+            },
+            {
+              "number": 30056,
+              "title": "Predictive Planogram"
+            }
+          ],
+          "delta": {},
+          "id": "lt-booster/R8/07"
+        }
+      ],
+      "observedEndHandSize": 4,
+      "observedEndCredits": 7
+    },
+    {
+      "id": "C9",
+      "side": "corp",
+      "round": 9,
+      "sourceStart": "15:00",
+      "sourceEnd": "15:50",
+      "events": [
+        {
+          "time": "15:00",
+          "kind": "automatic-income",
+          "text": "Nico pays last 3, trashes, and draws 1; separate from mandatory draw.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30037,
+              "title": "Nico Campaign"
+            }
+          ],
+          "delta": {
+            "corpCredits": 3
+          },
+          "counters": [
+            {
+              "instance": "nico",
+              "counter": "credits",
+              "delta": -3
+            }
+          ],
+          "id": "lt-booster/C9/01"
+        },
+        {
+          "time": "15:20",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "lt-booster/C9/02"
+        },
+        {
+          "time": "15:20",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "lt-booster/C9/03"
+        },
+        {
+          "time": "15:50",
+          "kind": "install",
+          "text": "Install Orbital Superiority in Server 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30068,
+              "title": "Orbital Superiority"
+            }
+          ],
+          "delta": {},
+          "certainty": "retrospective identification",
+          "id": "lt-booster/C9/04"
+        },
+        {
+          "time": "15:50",
+          "kind": "install",
+          "text": "Install Brân 1.0 outside Tithe on Server 1 for 2.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30039,
+              "title": "Brân 1.0"
+            }
+          ],
+          "delta": {
+            "corpCredits": -2
+          },
+          "certainty": "retrospective identification",
+          "id": "lt-booster/C9/05"
+        }
+      ],
+      "observedEndHandSize": 3,
+      "observedEndCredits": 13
+    },
+    {
+      "id": "R9",
+      "side": "runner",
+      "round": 9,
+      "sourceStart": "15:50",
+      "sourceEnd": "17:00",
+      "events": [
+        {
+          "time": "16:00",
+          "kind": "automatic-income",
+          "text": "Smartware pays 1 at turn start.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30033,
+              "title": "Smartware Distributor"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 1
+          },
+          "counters": [
+            {
+              "instance": "smartware",
+              "counter": "credits",
+              "delta": -1
+            }
+          ],
+          "id": "lt-booster/R9/01"
+        },
+        {
+          "time": "16:00",
+          "kind": "basic-draw",
+          "text": "Basic draw 1, then Verbal Plasticity draws 1 additional card (first basic draw this turn).",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30034,
+              "title": "Verbal Plasticity"
+            }
+          ],
+          "delta": {},
+          "id": "lt-booster/R9/02"
+        },
+        {
+          "time": "16:30",
+          "kind": "install",
+          "text": "Install Telework Contract for 1, load 9.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30027,
+              "title": "Telework Contract"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -1
+          },
+          "counters": [
+            {
+              "instance": "telework",
+              "counter": "credits",
+              "delta": 9
+            }
+          ],
+          "id": "lt-booster/R9/03"
+        },
+        {
+          "time": "16:40",
+          "kind": "run",
+          "text": "Basic Archives run; successful central adds 1 Leech counter (now 2).",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30008,
+              "title": "Leech"
+            }
+          ],
+          "delta": {},
+          "counters": [
+            {
+              "instance": "leech-1",
+              "counter": "virus",
+              "delta": 1
+            }
+          ],
+          "id": "lt-booster/R9/04"
+        },
+        {
+          "time": "17:00",
+          "kind": "install",
+          "text": "Install Carmen for 2: successful-run discount 2 plus first-program DZMZ discount 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30015,
+              "title": "Carmen"
+            },
+            {
+              "number": 30022,
+              "title": "DZMZ Optimizer"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -2
+          },
+          "id": "lt-booster/R9/05"
+        }
+      ],
+      "observedEndHandSize": 4,
+      "observedEndCredits": 5
+    },
+    {
+      "id": "C10",
+      "side": "corp",
+      "round": 10,
+      "sourceStart": "17:10",
+      "sourceEnd": "17:20",
+      "events": [
+        {
+          "time": "17:10",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "lt-booster/C10/01"
+        },
+        {
+          "time": "17:10",
+          "kind": "play",
+          "text": "Government Subsidy: net +5.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30064,
+              "title": "Government Subsidy"
+            }
+          ],
+          "delta": {
+            "corpCredits": 5
+          },
+          "id": "lt-booster/C10/02"
+        },
+        {
+          "time": "17:10",
+          "kind": "advance",
+          "text": "Advance Orbital once for 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30068,
+              "title": "Orbital Superiority"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "id": "lt-booster/C10/03"
+        },
+        {
+          "time": "17:20",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "lt-booster/C10/04"
+        }
+      ],
+      "observedEndHandSize": 4,
+      "observedEndCredits": 17
+    },
+    {
+      "id": "R10",
+      "side": "runner",
+      "round": 10,
+      "sourceStart": "17:30",
+      "sourceEnd": "19:30",
+      "events": [
+        {
+          "time": "18:10",
+          "kind": "ability",
+          "text": "Take 3 from Telework.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30027,
+              "title": "Telework Contract"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 3
+          },
+          "counters": [
+            {
+              "instance": "telework",
+              "counter": "credits",
+              "delta": -3
+            }
+          ],
+          "id": "lt-booster/R10/01"
+        },
+        {
+          "time": "18:10",
+          "kind": "run",
+          "text": "Run Server 1.",
+          "clicks": 1,
+          "delta": {},
+          "id": "lt-booster/R10/02"
+        },
+        {
+          "time": "19:00",
+          "kind": "rez",
+          "text": "Corp rezzes Brân 1.0 for 6.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30039,
+              "title": "Brân 1.0"
+            }
+          ],
+          "delta": {
+            "corpCredits": -6
+          },
+          "id": "lt-booster/R10/03"
+        },
+        {
+          "time": "19:10",
+          "kind": "bioroid-break",
+          "text": "Spend one remaining click to break only Brân’s install-ice subroutine. An unbroken end-the-run subroutine still ends the run.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30039,
+              "title": "Brân 1.0"
+            }
+          ],
+          "delta": {},
+          "id": "lt-booster/R10/04"
+        },
+        {
+          "time": "19:30",
+          "kind": "ability",
+          "text": "Spend final click to reload Smartware with 3.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30033,
+              "title": "Smartware Distributor"
+            }
+          ],
+          "delta": {},
+          "counters": [
+            {
+              "instance": "smartware",
+              "counter": "credits",
+              "delta": 3
+            }
+          ],
+          "id": "lt-booster/R10/05"
+        }
+      ],
+      "observedEndHandSize": 4,
+      "observedEndCredits": 8
+    },
+    {
+      "id": "C11",
+      "side": "corp",
+      "round": 11,
+      "sourceStart": "19:40",
+      "sourceEnd": "20:40",
+      "events": [
+        {
+          "time": "19:40",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "lt-booster/C11/01"
+        },
+        {
+          "time": "19:40",
+          "kind": "play",
+          "text": "Seamless Launch for 1 adds 2 advancement to Orbital.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30040,
+              "title": "Seamless Launch"
+            },
+            {
+              "number": 30068,
+              "title": "Orbital Superiority"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "id": "lt-booster/C11/02"
+        },
+        {
+          "time": "19:50",
+          "kind": "advance",
+          "text": "Advance Orbital once for 1 (total 4).",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30068,
+              "title": "Orbital Superiority"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "id": "lt-booster/C11/03"
+        },
+        {
+          "time": "19:50",
+          "kind": "score",
+          "text": "Score Orbital Superiority for 2 (Corp total 5); untagged Runner receives 1 tag.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30068,
+              "title": "Orbital Superiority"
+            }
+          ],
+          "delta": {
+            "corpPoints": 2
+          },
+          "tagDelta": 1,
+          "id": "lt-booster/C11/04"
+        },
+        {
+          "time": "20:40",
+          "kind": "basic-trash-resource",
+          "text": "Spend click and 2 credits to trash tagged Runner’s Telework; remaining 6 hosted credits lost.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30027,
+              "title": "Telework Contract"
+            }
+          ],
+          "delta": {
+            "corpCredits": -2
+          },
+          "counters": [
+            {
+              "instance": "telework",
+              "counter": "credits",
+              "delta": -6
+            }
+          ],
+          "id": "lt-booster/C11/05"
+        }
+      ],
+      "observedEndHandSize": 4,
+      "observedEndCredits": 7
+    },
+    {
+      "id": "R11",
+      "side": "runner",
+      "round": 11,
+      "sourceStart": "20:40",
+      "sourceEnd": "22:30",
+      "events": [
+        {
+          "time": "20:50",
+          "kind": "automatic-income",
+          "text": "Smartware pays 1 at turn start.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30033,
+              "title": "Smartware Distributor"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 1
+          },
+          "counters": [
+            {
+              "instance": "smartware",
+              "counter": "credits",
+              "delta": -1
+            }
+          ],
+          "id": "lt-booster/R11/01"
+        },
+        {
+          "time": "21:00",
+          "kind": "remove-tag",
+          "text": "Spend click and 2 to remove tag.",
+          "clicks": 1,
+          "delta": {
+            "runnerCredits": -2
+          },
+          "tagDelta": -1,
+          "id": "lt-booster/R11/02"
+        },
+        {
+          "time": "21:10",
+          "kind": "play-run",
+          "text": "Overclock for 1 runs HQ; ice remain unrezzed. Its 5 temporary credits are unused and expire.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30029,
+              "title": "Overclock"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -1
+          },
+          "temporaryCredits": {
+            "loaded": 5,
+            "spent": 0,
+            "expired": 5
+          },
+          "id": "lt-booster/R11/03"
+        },
+        {
+          "time": "21:20",
+          "kind": "successful-run",
+          "text": "HQ success: Leech +1 (total 3); Docklands extra access.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30008,
+              "title": "Leech"
+            },
+            {
+              "number": 30013,
+              "title": "Docklands Pass"
+            }
+          ],
+          "delta": {},
+          "counters": [
+            {
+              "instance": "leech-1",
+              "counter": "virus",
+              "delta": 1
+            }
+          ],
+          "id": "lt-booster/R11/04"
+        },
+        {
+          "time": "21:30",
+          "kind": "access",
+          "text": "Access Predictive Planogram and Karunā; leave both.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30056,
+              "title": "Predictive Planogram"
+            },
+            {
+              "number": 30047,
+              "title": "Karunā"
+            }
+          ],
+          "delta": {},
+          "id": "lt-booster/R11/05"
+        },
+        {
+          "time": "21:50",
+          "kind": "basic-credit",
+          "text": "Gain 1 credit.",
+          "clicks": 1,
+          "delta": {
+            "runnerCredits": 1
+          },
+          "id": "lt-booster/R11/06"
+        },
+        {
+          "time": "21:50",
+          "kind": "play",
+          "text": "Last-click VRcation for 1: draw 4, no remaining click to lose.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30021,
+              "title": "VRcation"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -1
+          },
+          "id": "lt-booster/R11/07"
+        },
+        {
+          "time": "22:30",
+          "kind": "discard",
+          "text": "Discard another VRcation to hand limit 5.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30021,
+              "title": "VRcation"
+            }
+          ],
+          "delta": {},
+          "id": "lt-booster/R11/08"
+        }
+      ],
+      "observedEndHandSize": 5,
+      "observedEndCredits": 6
+    },
+    {
+      "id": "C12",
+      "side": "corp",
+      "round": 12,
+      "sourceStart": "22:40",
+      "sourceEnd": "23:10",
+      "events": [
+        {
+          "time": "22:40",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "lt-booster/C12/01"
+        },
+        {
+          "time": "23:00",
+          "kind": "install",
+          "text": "Install Superconducting Hub in Server 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30070,
+              "title": "Superconducting Hub"
+            }
+          ],
+          "delta": {},
+          "certainty": "retrospective identification",
+          "id": "lt-booster/C12/02"
+        },
+        {
+          "time": "23:10",
+          "kind": "install",
+          "text": "Install Karunā on new Server 2 for 0.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30047,
+              "title": "Karunā"
+            }
+          ],
+          "delta": {},
+          "certainty": "retrospective identification",
+          "id": "lt-booster/C12/03"
+        },
+        {
+          "time": "23:10",
+          "kind": "install",
+          "text": "Install Regolith Mining License in Server 2; identified when rezzed before C13 and visible there at 29:10.",
+          "clicks": 1,
+          "delta": {},
+          "id": "lt-booster/C12/04",
+          "cards": [
+            {
+              "number": 30071,
+              "title": "Regolith Mining License"
+            }
+          ],
+          "certainty": "retrospective identification from revealed position"
+        }
+      ],
+      "observedEndHandSize": 2,
+      "observedEndCredits": 7
+    },
+    {
+      "id": "R12",
+      "side": "runner",
+      "round": 12,
+      "sourceStart": "23:10",
+      "sourceEnd": "29:00",
+      "events": [
+        {
+          "time": "24:40",
+          "kind": "automatic-income",
+          "text": "Smartware pays 1 at turn start.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30033,
+              "title": "Smartware Distributor"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 1
+          },
+          "counters": [
+            {
+              "instance": "smartware",
+              "counter": "credits",
+              "delta": -1
+            }
+          ],
+          "id": "lt-booster/R12/01"
+        },
+        {
+          "time": "25:00",
+          "kind": "source-correction",
+          "text": "Several Cleaver install attempts, /undo-click commands and manual return-to-grip operations while resolving memory. Count only final accepted install.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30006,
+              "title": "Cleaver"
+            }
+          ],
+          "delta": {},
+          "issue": "booster-memory-undo",
+          "id": "lt-booster/R12/02"
+        },
+        {
+          "time": "26:40",
+          "kind": "install",
+          "text": "Final Cleaver install costs 2 with DZMZ. Mayfly is removed to fit memory.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30006,
+              "title": "Cleaver"
+            },
+            {
+              "number": 30022,
+              "title": "DZMZ Optimizer"
+            },
+            {
+              "number": 30032,
+              "title": "Mayfly"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -2
+          },
+          "issue": "booster-memory-undo",
+          "id": "lt-booster/R12/03"
+        },
+        {
+          "time": "26:50",
+          "kind": "basic-credit",
+          "text": "Gain 1 credit.",
+          "clicks": 1,
+          "delta": {
+            "runnerCredits": 1
+          },
+          "id": "lt-booster/R12/04"
+        },
+        {
+          "time": "26:50",
+          "kind": "run",
+          "text": "Run Server 1.",
+          "clicks": 1,
+          "delta": {},
+          "id": "lt-booster/R12/05"
+        },
+        {
+          "time": "27:00",
+          "kind": "ability",
+          "text": "Spend all 3 Leech counters: Brân strength 6 → 3 for this encounter.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30008,
+              "title": "Leech"
+            },
+            {
+              "number": 30039,
+              "title": "Brân 1.0"
+            }
+          ],
+          "delta": {},
+          "counters": [
+            {
+              "instance": "leech-1",
+              "counter": "virus",
+              "delta": -3
+            }
+          ],
+          "id": "lt-booster/R12/06"
+        },
+        {
+          "time": "27:20",
+          "kind": "break",
+          "text": "Cleaver pays 2 to break all three Brân subroutines, with no strength boost.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30006,
+              "title": "Cleaver"
+            },
+            {
+              "number": 30039,
+              "title": "Brân 1.0"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -2
+          },
+          "id": "lt-booster/R12/07"
+        },
+        {
+          "time": "28:20",
+          "kind": "break",
+          "text": "Carmen pays 1 to break only Tithe’s net-damage subroutine.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30015,
+              "title": "Carmen"
+            },
+            {
+              "number": 30073,
+              "title": "Tithe"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -1
+          },
+          "id": "lt-booster/R12/08"
+        },
+        {
+          "time": "28:20",
+          "kind": "subroutine",
+          "text": "Allow Tithe’s remaining gain-credit subroutine: Corp +1.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30073,
+              "title": "Tithe"
+            }
+          ],
+          "delta": {
+            "corpCredits": 1
+          },
+          "id": "lt-booster/R12/09"
+        },
+        {
+          "time": "28:30",
+          "kind": "break",
+          "text": "Cleaver boosts once for 2 and breaks remote Palisade for 1, total 3.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30006,
+              "title": "Cleaver"
+            },
+            {
+              "number": 30072,
+              "title": "Palisade"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -3
+          },
+          "id": "lt-booster/R12/10"
+        },
+        {
+          "time": "29:00",
+          "kind": "steal",
+          "text": "Steal Superconducting Hub for 1; remote run does not refill Leech.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30070,
+              "title": "Superconducting Hub"
+            },
+            {
+              "number": 30008,
+              "title": "Leech"
+            }
+          ],
+          "delta": {
+            "runnerPoints": 1
+          },
+          "id": "lt-booster/R12/11"
+        },
+        {
+          "time": "29:00",
+          "kind": "basic-credit",
+          "text": "Gain 1 credit.",
+          "clicks": 1,
+          "delta": {
+            "runnerCredits": 1
+          },
+          "id": "lt-booster/R12/12"
+        }
+      ],
+      "observedEndHandSize": 4,
+      "observedEndCredits": 1
+    },
+    {
+      "id": "C13",
+      "side": "corp",
+      "round": 13,
+      "sourceStart": "29:00",
+      "sourceEnd": "29:30",
+      "events": [
+        {
+          "time": "29:00",
+          "kind": "rez",
+          "text": "Rez Regolith Mining License in Server 2 for 2; load 15.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30071,
+              "title": "Regolith Mining License"
+            }
+          ],
+          "delta": {
+            "corpCredits": -2
+          },
+          "counters": [
+            {
+              "instance": "regolith",
+              "counter": "credits",
+              "delta": 15
+            }
+          ],
+          "id": "lt-booster/C13/01"
+        },
+        {
+          "time": "29:10",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "lt-booster/C13/02"
+        },
+        {
+          "time": "29:20",
+          "kind": "ability",
+          "text": "Take 3 from Regolith.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30071,
+              "title": "Regolith Mining License"
+            }
+          ],
+          "delta": {
+            "corpCredits": 3
+          },
+          "counters": [
+            {
+              "instance": "regolith",
+              "counter": "credits",
+              "delta": -3
+            }
+          ],
+          "id": "lt-booster/C13/03"
+        },
+        {
+          "time": "29:20",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "lt-booster/C13/04"
+        },
+        {
+          "time": "29:30",
+          "kind": "ability",
+          "text": "Take 3 from Regolith.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30071,
+              "title": "Regolith Mining License"
+            }
+          ],
+          "delta": {
+            "corpCredits": 3
+          },
+          "counters": [
+            {
+              "instance": "regolith",
+              "counter": "credits",
+              "delta": -3
+            }
+          ],
+          "id": "lt-booster/C13/05"
+        }
+      ],
+      "observedEndHandSize": 4,
+      "observedEndCredits": 12
+    },
+    {
+      "id": "R13",
+      "side": "runner",
+      "round": 13,
+      "sourceStart": "29:30",
+      "sourceEnd": "30:00",
+      "events": [
+        {
+          "time": "29:40",
+          "kind": "automatic-income",
+          "text": "Smartware pays 1 at turn start.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30033,
+              "title": "Smartware Distributor"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 1
+          },
+          "counters": [
+            {
+              "instance": "smartware",
+              "counter": "credits",
+              "delta": -1
+            }
+          ],
+          "id": "lt-booster/R13/01"
+        },
+        {
+          "time": "29:50",
+          "kind": "install",
+          "text": "Install second DZMZ Optimizer for 2.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30022,
+              "title": "DZMZ Optimizer"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -2
+          },
+          "id": "lt-booster/R13/02"
+        },
+        {
+          "time": "29:50",
+          "kind": "basic-draw",
+          "text": "Basic draw 1, then Verbal Plasticity draws 1 additional card (first basic draw this turn).",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30034,
+              "title": "Verbal Plasticity"
+            }
+          ],
+          "delta": {},
+          "id": "lt-booster/R13/03"
+        },
+        {
+          "time": "30:00",
+          "kind": "basic-credit",
+          "text": "Gain 1 credit.",
+          "clicks": 1,
+          "delta": {
+            "runnerCredits": 1
+          },
+          "id": "lt-booster/R13/04"
+        },
+        {
+          "time": "30:00",
+          "kind": "play",
+          "text": "Last-click Creative Commission: net +4.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30020,
+              "title": "Creative Commission"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 4
+          },
+          "id": "lt-booster/R13/05"
+        }
+      ],
+      "observedEndHandSize": 4,
+      "observedEndCredits": 5
+    },
+    {
+      "id": "C14",
+      "side": "corp",
+      "round": 14,
+      "sourceStart": "30:30",
+      "sourceEnd": "30:40",
+      "events": [
+        {
+          "time": "30:30",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "lt-booster/C14/01"
+        },
+        {
+          "time": "30:40",
+          "kind": "ability",
+          "text": "Take 3 from Regolith; after third use it is empty and trashes.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30071,
+              "title": "Regolith Mining License"
+            }
+          ],
+          "delta": {
+            "corpCredits": 3
+          },
+          "counters": [
+            {
+              "instance": "regolith",
+              "counter": "credits",
+              "delta": -3
+            }
+          ],
+          "id": "lt-booster/C14/02"
+        },
+        {
+          "time": "30:40",
+          "kind": "ability",
+          "text": "Take 3 from Regolith; after third use it is empty and trashes.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30071,
+              "title": "Regolith Mining License"
+            }
+          ],
+          "delta": {
+            "corpCredits": 3
+          },
+          "counters": [
+            {
+              "instance": "regolith",
+              "counter": "credits",
+              "delta": -3
+            }
+          ],
+          "id": "lt-booster/C14/03"
+        },
+        {
+          "time": "30:40",
+          "kind": "ability",
+          "text": "Take 3 from Regolith; after third use it is empty and trashes.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30071,
+              "title": "Regolith Mining License"
+            }
+          ],
+          "delta": {
+            "corpCredits": 3
+          },
+          "counters": [
+            {
+              "instance": "regolith",
+              "counter": "credits",
+              "delta": -3
+            }
+          ],
+          "id": "lt-booster/C14/04"
+        }
+      ],
+      "observedEndHandSize": 5,
+      "observedEndCredits": 21
+    },
+    {
+      "id": "R14",
+      "side": "runner",
+      "round": 14,
+      "sourceStart": "30:50",
+      "sourceEnd": "32:00",
+      "events": [
+        {
+          "time": "31:00",
+          "kind": "ability",
+          "text": "Reload Smartware with 3.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30033,
+              "title": "Smartware Distributor"
+            }
+          ],
+          "delta": {},
+          "counters": [
+            {
+              "instance": "smartware",
+              "counter": "credits",
+              "delta": 3
+            }
+          ],
+          "id": "lt-booster/R14/01"
+        },
+        {
+          "time": "31:00",
+          "kind": "play",
+          "text": "Wildcat Strike for 2; Corp chooses Runner draw 4.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30002,
+              "title": "Wildcat Strike"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -2
+          },
+          "id": "lt-booster/R14/02"
+        },
+        {
+          "time": "31:50",
+          "kind": "install",
+          "text": "Install Mayfly for 0 with two DZMZ discounts (cost cannot go below 0).",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30032,
+              "title": "Mayfly"
+            },
+            {
+              "number": 30022,
+              "title": "DZMZ Optimizer"
+            }
+          ],
+          "delta": {},
+          "id": "lt-booster/R14/03"
+        },
+        {
+          "time": "32:00",
+          "kind": "basic-credit",
+          "text": "Gain 1 credit.",
+          "clicks": 1,
+          "delta": {
+            "runnerCredits": 1
+          },
+          "id": "lt-booster/R14/04"
+        },
+        {
+          "time": "32:00",
+          "kind": "discard",
+          "text": "Discard Mutual Favor to hand limit 5.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30011,
+              "title": "Mutual Favor"
+            }
+          ],
+          "delta": {},
+          "id": "lt-booster/R14/05"
+        }
+      ],
+      "observedEndHandSize": 5,
+      "observedEndCredits": 4
+    },
+    {
+      "id": "C15",
+      "side": "corp",
+      "round": 15,
+      "sourceStart": "32:10",
+      "sourceEnd": "32:20",
+      "events": [
+        {
+          "time": "32:10",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "lt-booster/C15/01"
+        },
+        {
+          "time": "32:10",
+          "kind": "play",
+          "text": "Hedge Fund: net +4.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30075,
+              "title": "Hedge Fund"
+            }
+          ],
+          "delta": {
+            "corpCredits": 4
+          },
+          "id": "lt-booster/C15/02"
+        },
+        {
+          "time": "32:10",
+          "kind": "install",
+          "text": "Install a concealed root card in Server 1; final board shows an unrezzed root alongside Send a Message.",
+          "clicks": 1,
+          "delta": {},
+          "hidden": {
+            "card": null,
+            "server": "Server 1"
+          },
+          "id": "lt-booster/C15/03"
+        },
+        {
+          "time": "32:20",
+          "kind": "install",
+          "text": "Install Urtica Cipher in now-empty Server 2; identified when accessed R16.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30045,
+              "title": "Urtica Cipher"
+            }
+          ],
+          "delta": {},
+          "certainty": "retrospective identification",
+          "id": "lt-booster/C15/04"
+        }
+      ],
+      "observedEndHandSize": 3,
+      "observedEndCredits": 25
+    },
+    {
+      "id": "R15",
+      "side": "runner",
+      "round": 15,
+      "sourceStart": "32:20",
+      "sourceEnd": "34:40",
+      "events": [
+        {
+          "time": "33:20",
+          "kind": "automatic-income",
+          "text": "Smartware pays 1 at turn start.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30033,
+              "title": "Smartware Distributor"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 1
+          },
+          "counters": [
+            {
+              "instance": "smartware",
+              "counter": "credits",
+              "delta": -1
+            }
+          ],
+          "id": "lt-booster/R15/01"
+        },
+        {
+          "time": "33:20",
+          "kind": "basic-credit",
+          "text": "Gain 1 credit.",
+          "clicks": 1,
+          "delta": {
+            "runnerCredits": 1
+          },
+          "id": "lt-booster/R15/02"
+        },
+        {
+          "time": "33:20",
+          "kind": "basic-credit",
+          "text": "Gain 1 credit.",
+          "clicks": 1,
+          "delta": {
+            "runnerCredits": 1
+          },
+          "id": "lt-booster/R15/03"
+        },
+        {
+          "time": "33:20",
+          "kind": "basic-credit",
+          "text": "Gain 1 credit.",
+          "clicks": 1,
+          "delta": {
+            "runnerCredits": 1
+          },
+          "id": "lt-booster/R15/04"
+        },
+        {
+          "time": "33:30",
+          "kind": "run",
+          "text": "Run HQ.",
+          "clicks": 1,
+          "delta": {},
+          "id": "lt-booster/R15/05"
+        },
+        {
+          "time": "33:50",
+          "kind": "rez",
+          "text": "Corp rezzes outer Palisade for 3 and inner Diviner for 2.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30072,
+              "title": "Palisade"
+            },
+            {
+              "number": 30046,
+              "title": "Diviner"
+            }
+          ],
+          "delta": {
+            "corpCredits": -5
+          },
+          "id": "lt-booster/R15/06"
+        },
+        {
+          "time": "33:50",
+          "kind": "break",
+          "text": "Cleaver pays 1 to break central Palisade.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30006,
+              "title": "Cleaver"
+            },
+            {
+              "number": 30072,
+              "title": "Palisade"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -1
+          },
+          "id": "lt-booster/R15/07"
+        },
+        {
+          "time": "34:30",
+          "kind": "break",
+          "text": "Unity boosts once for 1 (four installed breakers give +4 strength) and breaks Diviner for 1.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30026,
+              "title": "Unity"
+            },
+            {
+              "number": 30046,
+              "title": "Diviner"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -2
+          },
+          "id": "lt-booster/R15/08"
+        },
+        {
+          "time": "34:30",
+          "kind": "successful-run",
+          "text": "HQ success: Leech +1; Docklands adds access.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30008,
+              "title": "Leech"
+            },
+            {
+              "number": 30013,
+              "title": "Docklands Pass"
+            }
+          ],
+          "delta": {},
+          "counters": [
+            {
+              "instance": "leech-1",
+              "counter": "virus",
+              "delta": 1
+            }
+          ],
+          "id": "lt-booster/R15/09"
+        },
+        {
+          "time": "34:40",
+          "kind": "access",
+          "text": "Access Predictive Planogram and Retribution; leave both.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30056,
+              "title": "Predictive Planogram"
+            },
+            {
+              "number": 30065,
+              "title": "Retribution"
+            }
+          ],
+          "delta": {},
+          "id": "lt-booster/R15/10"
+        }
+      ],
+      "observedEndHandSize": 5,
+      "observedEndCredits": 5
+    },
+    {
+      "id": "C16",
+      "side": "corp",
+      "round": 16,
+      "sourceStart": "34:50",
+      "sourceEnd": "35:00",
+      "events": [
+        {
+          "time": "34:50",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "lt-booster/C16/01"
+        },
+        {
+          "time": "35:00",
+          "kind": "install",
+          "text": "Install Send a Message in Server 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30069,
+              "title": "Send a Message"
+            }
+          ],
+          "delta": {},
+          "certainty": "retrospective identification",
+          "id": "lt-booster/C16/02"
+        },
+        {
+          "time": "35:00",
+          "kind": "advance",
+          "text": "Advance Send a Message once for 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30069,
+              "title": "Send a Message"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "id": "lt-booster/C16/03"
+        },
+        {
+          "time": "35:00",
+          "kind": "advance",
+          "text": "Advance Send a Message once for 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30069,
+              "title": "Send a Message"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "id": "lt-booster/C16/04"
+        }
+      ],
+      "observedEndHandSize": 3,
+      "observedEndCredits": 18
+    },
+    {
+      "id": "R16",
+      "side": "runner",
+      "round": 16,
+      "sourceStart": "35:10",
+      "sourceEnd": "37:10",
+      "events": [
+        {
+          "time": "36:00",
+          "kind": "automatic-income",
+          "text": "Smartware pays 1 at turn start.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30033,
+              "title": "Smartware Distributor"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 1
+          },
+          "counters": [
+            {
+              "instance": "smartware",
+              "counter": "credits",
+              "delta": -1
+            }
+          ],
+          "id": "lt-booster/R16/01"
+        },
+        {
+          "time": "36:00",
+          "kind": "run",
+          "text": "Run Server 2.",
+          "clicks": 1,
+          "delta": {},
+          "id": "lt-booster/R16/02"
+        },
+        {
+          "time": "36:20",
+          "kind": "rez",
+          "text": "Corp rezzes Karunā for 4.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30047,
+              "title": "Karunā"
+            }
+          ],
+          "delta": {
+            "corpCredits": -4
+          },
+          "id": "lt-booster/R16/03"
+        },
+        {
+          "time": "36:20",
+          "kind": "break",
+          "text": "Carmen boosts for 2 and breaks both Karunā subroutines for 2, total 4.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30015,
+              "title": "Carmen"
+            },
+            {
+              "number": 30047,
+              "title": "Karunā"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -4
+          },
+          "id": "lt-booster/R16/04"
+        },
+        {
+          "time": "36:30",
+          "kind": "damage",
+          "text": "Access unadvanced installed Urtica: 2 net damage trashes Jailbreak and a second Leech from grip. Installed Leech survives.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30045,
+              "title": "Urtica Cipher"
+            },
+            {
+              "number": 30028,
+              "title": "Jailbreak"
+            },
+            {
+              "number": 30008,
+              "title": "Leech"
+            }
+          ],
+          "delta": {},
+          "damage": {
+            "type": "net",
+            "amount": 2,
+            "trashed": [
+              30028,
+              30008
+            ]
+          },
+          "id": "lt-booster/R16/05"
+        },
+        {
+          "time": "37:10",
+          "kind": "basic-credit",
+          "text": "Gain 1 credit.",
+          "clicks": 1,
+          "delta": {
+            "runnerCredits": 1
+          },
+          "id": "lt-booster/R16/06"
+        },
+        {
+          "time": "37:10",
+          "kind": "basic-credit",
+          "text": "Gain 1 credit.",
+          "clicks": 1,
+          "delta": {
+            "runnerCredits": 1
+          },
+          "id": "lt-booster/R16/07"
+        },
+        {
+          "time": "37:10",
+          "kind": "basic-credit",
+          "text": "Gain 1 credit.",
+          "clicks": 1,
+          "delta": {
+            "runnerCredits": 1
+          },
+          "id": "lt-booster/R16/08"
+        }
+      ],
+      "observedEndHandSize": 3,
+      "observedEndCredits": 5
+    },
+    {
+      "id": "C17",
+      "side": "corp",
+      "round": 17,
+      "sourceStart": "37:10",
+      "sourceEnd": "37:35",
+      "events": [
+        {
+          "time": "37:10",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "lt-booster/C17/01"
+        },
+        {
+          "time": "37:20",
+          "kind": "advance",
+          "text": "Advance Send a Message once for 1 (ends with 5 advancement).",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30069,
+              "title": "Send a Message"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "id": "lt-booster/C17/02"
+        },
+        {
+          "time": "37:20",
+          "kind": "advance",
+          "text": "Advance Send a Message once for 1 (ends with 5 advancement).",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30069,
+              "title": "Send a Message"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "id": "lt-booster/C17/03"
+        },
+        {
+          "time": "37:20",
+          "kind": "advance",
+          "text": "Advance Send a Message once for 1 (ends with 5 advancement).",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30069,
+              "title": "Send a Message"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "id": "lt-booster/C17/04"
+        },
+        {
+          "time": "37:25",
+          "kind": "score",
+          "text": "Score Send a Message for 3: Corp total 8, Runner 1. Corp wins.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30069,
+              "title": "Send a Message"
+            }
+          ],
+          "delta": {
+            "corpPoints": 3
+          },
+          "id": "lt-booster/C17/05"
+        },
+        {
+          "time": "37:35",
+          "kind": "postgame",
+          "text": "Post-win source log shows optional free rez of Karunā from Send a Message. It is not needed to establish the terminal result.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30069,
+              "title": "Send a Message"
+            },
+            {
+              "number": 30047,
+              "title": "Karunā"
+            }
+          ],
+          "delta": {},
+          "id": "lt-booster/C17/06"
+        }
+      ],
+      "observedEndCredits": 11
+    }
+  ],
+  "players": {
+    "corp": "cax",
+    "runner": "natopotato167"
+  },
+  "decks": {
+    "corp": {
+      "identity": 30077,
+      "cards": {
+        "30037": 2,
+        "30039": 2,
+        "30040": 2,
+        "30042": 1,
+        "30045": 2,
+        "30046": 2,
+        "30047": 2,
+        "30064": 2,
+        "30067": 3,
+        "30069": 2,
+        "30070": 2,
+        "30071": 2,
+        "30072": 3,
+        "30073": 2,
+        "30074": 2,
+        "30075": 3,
+        "30068": 2,
+        "30054": 2,
+        "30057": 2,
+        "30056": 2,
+        "30065": 1,
+        "30058": 1
+      },
+      "size": 44
+    },
+    "runner": {
+      "identity": 30076,
+      "cards": {
+        "30006": 2,
+        "30012": 2,
+        "30013": 1,
+        "30014": 1,
+        "30015": 2,
+        "30018": 1,
+        "30020": 2,
+        "30021": 2,
+        "30026": 2,
+        "30027": 2,
+        "30028": 3,
+        "30029": 2,
+        "30030": 3,
+        "30032": 2,
+        "30033": 2,
+        "30034": 1,
+        "30002": 2,
+        "30011": 2,
+        "30022": 2,
+        "30008": 2,
+        "30024": 2
+      },
+      "size": 40
+    }
+  },
+  "deckSources": [
+    "https://nullsignal.games/products/system-gateway/"
+  ]
+}

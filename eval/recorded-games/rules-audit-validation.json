@@ -1,0 +1,49 @@
+{
+  "checkedOn": "2026-11-06",
+  "rulesVersion": "26.03-local-1",
+  "scope": "Additional targeted rule probes; injected setups are distinct from the three boot-to-terminal full-game replays.",
+  "badPublicity": [
+    {
+      "profile": "legacy",
+      "firstPhase": "Run 2.1",
+      "afterWhitespaceLoss": {
+        "pool": 9,
+        "fund": 2
+      },
+      "whitespaceEndedRun": false
+    },
+    {
+      "profile": "26.03-local-1",
+      "firstPhase": "Run 1.5",
+      "afterWhitespaceLoss": {
+        "pool": 6,
+        "fund": 5
+      },
+      "whitespaceEndedRun": true
+    }
+  ],
+  "seamless": {
+    "oldNonAdvanceableIceEligible": true,
+    "oldRunnerProgramEligible": true,
+    "newUrticaEligible": false,
+    "placedCountersOnPalisade": 2
+  },
+  "starterBudgetBranch": {
+    "creditsAfterCorrectedRun": 5,
+    "creditsIfMayflyInstalledFirst": 4,
+    "sureGambleThenUnavailable": true,
+    "normalization": "Play Sure Gamble before installing Mayfly"
+  },
+  "hqVisibility": {
+    "legacyNativeRetainedPriorAccess": false,
+    "currentRetainsPriorAccess": true,
+    "unseenHQRemainsHidden": true,
+    "hiddenAgainAfterBreach": true
+  },
+  "guidedBoostRestriction": {
+    "kind": "known guided-choice restriction, not a full legal-action enumerator",
+    "mayflyStrength": 1,
+    "iceStrength": 1,
+    "boostOfferedAtMatchingStrength": false
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "engine": "chiriboga-77c80b1-local-1",
+  "config": {
+    "side": "corp",
+    "seed": "corp-panel-reality-plus-v1",
+    "deckIds": {
+      "corp": "reality-plus-v1",
+      "runner": "tao-v1"
+    }
+  },
+  "choices": [
+    {
+      "command": "m",
+      "index": 0,
+      "version": 1
+    },
+    {
+      "command": "install",
+      "index": 2,
+      "version": 8
+    },
+    {
+      "command": "play",
+      "index": 1,
+      "version": 10
+    },
+    {
+      "command": "play",
+      "index": 0,
+      "version": 12
+    },
+    {
+      "command": "continue",
+      "index": 0,
+      "version": 13
+    },
+    {
+      "command": "play",
+      "index": 0,
+      "version": 77
+    },
+    {
+      "command": "continue",
+      "index": 0,
+      "version": 78
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "version": 79
+    },
+    {
+      "command": "play",
+      "index": 0,
+      "version": 80
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "version": 155
+    },
+    {
+      "command": "install",
+      "index": 5,
+      "version": 156
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "version": 158
+    },
+    {
+      "command": "rez",
+      "index": 0,
+      "version": 177
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 179
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 182
+    }
+  ]
+}

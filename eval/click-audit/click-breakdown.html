@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Full-game click audit</title>
+<style>
+:root { --viz-series-1: var(--chart-1); --viz-series-2: var(--chart-2); }
+html,body { margin:0; padding:0; }
+#click-audit-chart { width:100%; }
+#click-audit-chart h2 { font-size:inherit; font-weight:500; margin:0 90px 12px 0; }
+#click-audit-chart .legend { display:flex; flex-wrap:wrap; gap:8px 20px; margin-top:8px; }
+#click-audit-chart .legend span { display:inline-flex; align-items:center; gap:6px; }
+#click-audit-chart .swatch { width:12px; height:12px; display:inline-block; }
+#click-audit-chart svg { display:block; width:100%; height:204px; }
+#click-audit-chart svg text { fill:var(--foreground); font-size:12px; font-family:var(--font-sans); }
+#click-audit-chart .caption { margin-top:12px; color:var(--muted-foreground); }
+</style>
+</head>
+<body>
+<figure id="click-audit-chart" style="margin:0">
+<h2>Clicks to finish each game</h2>
+<svg role="img" aria-labelledby="audit-title audit-desc"></svg>
+<figcaption>
+<div class="legend">
+<span><i class="swatch" style="background:var(--viz-series-1)" aria-hidden="true"></i>Other activations</span>
+<span><i class="swatch" style="background:var(--viz-series-2)" aria-hidden="true"></i>Boost-only passes outside a run</span>
+</div>
+<p class="caption">Actual browser activations, including setup and a two-click Corp recovery probe. Other activations include both useful choices and further friction.</p>
+</figcaption>
+</figure>
+<script>
+(() => {
+ const root=document.getElementById('click-audit-chart');
+ const svg=root.querySelector('svg');
+ const rows=[{name:'Corp',other:107,boost:0},{name:'Runner',other:73,boost:24}];
+ const ns='http://www.w3.org/2000/svg';
+ function draw(){
+  const width=root.clientWidth, left=66, right=32, end=width-right;
+  const max=Math.max(...rows.map(d=>d.other+d.boost))*1.08;
+  const x=v=>left+(end-left)*v/max;
+  svg.setAttribute('viewBox',`0 0 ${width} 204`); svg.replaceChildren();
+  function el(tag,attrs,text){const n=document.createElementNS(ns,tag);for(const [k,v] of Object.entries(attrs))n.setAttribute(k,v);if(text!==undefined)n.textContent=text;svg.append(n);return n;}
+  el('title',{id:'audit-title'},'Full-game click audit');
+  el('desc',{id:'audit-desc'},'Corp: 107 activations, none were boost-only passes outside a run. Runner: 97 activations, including 24 boost-only passes outside a run and 73 other activations.');
+  el('rect',{'data-chart-frame':'',x:left,y:25,width:end-left,height:128,fill:'none',stroke:'var(--border)'});
+  rows.forEach((d,i)=>{
+   const y=44+i*69,total=d.other+d.boost;
+   el('text',{x:left-9,y:y+19,'text-anchor':'end'},d.name);
+   el('rect',{x:left,y,width:x(d.other)-left,height:32,fill:'var(--viz-series-1)'});
+   if(d.boost){
+    el('rect',{x:x(d.other),y,width:x(total)-x(d.other),height:32,fill:'var(--viz-series-2)'});
+    el('text',{x:(x(total)+x(d.other))/2,y:y+21,'text-anchor':'middle'},String(d.boost));
+   }
+   el('text',{x:x(total)+5,y:y+20},String(total));
+  });
+  const ticks=width<420?[0,50,100]:[0,25,50,75,100];
+  for(const value of ticks){el('line',{x1:x(value),x2:x(value),y1:153,y2:158,stroke:'var(--border)'});el('text',{x:x(value),y:174,'text-anchor':value===0?'start':'middle'},String(value));}
+  el('text',{class:'axis-title','data-axis':'x',x:(left+end)/2,y:197,'text-anchor':'middle'},'UI activations (clicks)');
+ }
+ new ResizeObserver(draw).observe(root); draw();
+})();
+</script>
+</body>
+</html>

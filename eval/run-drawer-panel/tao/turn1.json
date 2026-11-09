@@ -1,0 +1,60 @@
+{
+  "engine": "chiriboga-77c80b1-local-1",
+  "config": {
+    "side": "runner",
+    "seed": "355fd498-00a1-4bd6-8e99-68cefb2d8086",
+    "deckIds": {
+      "runner": "tao-v1",
+      "corp": "precision-design-v1"
+    },
+    "rulesVersion": "26.03-local-2"
+  },
+  "choices": [
+    {
+      "version": 2,
+      "command": "m",
+      "index": 0
+    },
+    {
+      "version": 31,
+      "command": "install",
+      "index": 1
+    },
+    {
+      "version": 34,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 37,
+      "command": "run",
+      "index": 0
+    },
+    {
+      "version": 40,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 47,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 48,
+      "command": "steal",
+      "index": 0
+    },
+    {
+      "version": 55,
+      "command": "install",
+      "index": 1
+    },
+    {
+      "version": 57,
+      "command": "n",
+      "index": 0
+    }
+  ],
+  "conceded": false
+}

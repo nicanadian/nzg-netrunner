@@ -1,0 +1,3026 @@
+{
+  "side": "runner",
+  "total": 59,
+  "trace": [
+    {
+      "version": 2,
+      "command": "m",
+      "index": 0,
+      "label": "Take a mulligan\n→"
+    },
+    {
+      "version": 31,
+      "command": "install",
+      "index": 1,
+      "label": "Install\n1 click · 1 credit\n→"
+    },
+    {
+      "version": 34,
+      "command": "install",
+      "index": 0,
+      "label": "Install\n1 click · 3 credits\n→"
+    },
+    {
+      "version": 37,
+      "command": "play",
+      "index": 0,
+      "label": "Play\n1 click · 1 credit\n→"
+    },
+    {
+      "version": 38,
+      "command": "continue",
+      "index": 0,
+      "label": "HQ"
+    },
+    {
+      "version": 45,
+      "command": "n",
+      "index": 0,
+      "label": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order."
+    },
+    {
+      "version": 56,
+      "command": "draw",
+      "index": 0,
+      "label": "Draw a card\n1 click"
+    },
+    {
+      "version": 90,
+      "command": "draw",
+      "index": 0,
+      "label": "Draw a card\n1 click"
+    },
+    {
+      "version": 92,
+      "command": "draw",
+      "index": 0,
+      "label": "Draw a card\n1 click"
+    },
+    {
+      "version": 94,
+      "command": "trigger",
+      "index": 0,
+      "label": "Fermenter · Gain 2 credit for each hosted virus counter\n1 click\nTrash this program\n→"
+    },
+    {
+      "version": 99,
+      "command": "install",
+      "index": 7,
+      "label": "Install\n1 click · 3 credits\n→"
+    },
+    {
+      "version": 132,
+      "command": "draw",
+      "index": 0,
+      "label": "Draw a card\n1 click"
+    },
+    {
+      "version": 134,
+      "command": "gain",
+      "index": 0,
+      "label": "Gain 1 credit\n1 click"
+    },
+    {
+      "version": 136,
+      "command": "gain",
+      "index": 0,
+      "label": "Gain 1 credit\n1 click"
+    },
+    {
+      "version": 138,
+      "command": "gain",
+      "index": 0,
+      "label": "Gain 1 credit\n1 click"
+    },
+    {
+      "version": 140,
+      "command": "discard",
+      "index": 1,
+      "label": "Cleaver"
+    },
+    {
+      "version": 172,
+      "command": "gain",
+      "index": 0,
+      "label": "Gain 1 credit\n1 click"
+    },
+    {
+      "version": 174,
+      "command": "play",
+      "index": 0,
+      "label": "Play\n1 click · 5 credits\n→"
+    },
+    {
+      "version": 177,
+      "command": "run",
+      "index": 3,
+      "label": "Remote 1\n1 click"
+    },
+    {
+      "version": 184,
+      "command": "trigger",
+      "index": 0,
+      "label": "Break all · 3 credits"
+    },
+    {
+      "version": 196,
+      "command": "n",
+      "index": 0,
+      "label": "Continue the run\nMove to the next run window, or jack out to end the run."
+    },
+    {
+      "version": 204,
+      "command": "steal",
+      "index": 0,
+      "label": "Steal agenda\n→"
+    },
+    {
+      "version": 214,
+      "command": "draw",
+      "index": 0,
+      "label": "Draw a card\n1 click"
+    },
+    {
+      "version": 216,
+      "command": "discard",
+      "index": 3,
+      "label": "Cleaver"
+    },
+    {
+      "version": 250,
+      "command": "play",
+      "index": 0,
+      "label": "Play\n1 click · 2 credits\n→"
+    },
+    {
+      "version": 254,
+      "command": "install",
+      "index": 9,
+      "label": "Install\n1 click · 0 credits\n→"
+    },
+    {
+      "version": 257,
+      "command": "trigger",
+      "index": 0,
+      "label": "Smartware Distributor · Place 3 credit on this resource.\n1 click\n→"
+    },
+    {
+      "version": 260,
+      "command": "install",
+      "index": 3,
+      "label": "Install → Facedown ice · Remote 2 · ice 1 from outside\n1 click · 2 credits\n→"
+    },
+    {
+      "version": 263,
+      "command": "discard",
+      "index": 4,
+      "label": "Verbal Plasticity"
+    },
+    {
+      "version": 304,
+      "command": "run",
+      "index": 4,
+      "label": "Remote 2\n1 click"
+    },
+    {
+      "version": 311,
+      "command": "n",
+      "index": 0,
+      "label": "Continue the run\nMove to the next run window, or jack out to end the run."
+    },
+    {
+      "version": 318,
+      "command": "n",
+      "index": 0,
+      "label": "Continue the run\nMove to the next run window, or jack out to end the run."
+    },
+    {
+      "version": 326,
+      "command": "steal",
+      "index": 0,
+      "label": "Steal agenda\n→"
+    },
+    {
+      "version": 331,
+      "command": "install",
+      "index": 1,
+      "label": "Install → Whitespace · HQ · ice 1 from outside\n1 click · 2 credits\n→"
+    },
+    {
+      "version": 334,
+      "command": "run",
+      "index": 0,
+      "label": "HQ\n1 click"
+    },
+    {
+      "version": 339,
+      "command": "trigger",
+      "index": 0,
+      "label": "Botulus · Break 1 subroutine on host ice\n1 virus counter\n→"
+    },
+    {
+      "version": 340,
+      "command": "continue",
+      "index": 1,
+      "label": "Break subroutine 2: If the Runner has 6 credit or less, end the run.\n1 virus counter"
+    },
+    {
+      "version": 349,
+      "command": "n",
+      "index": 0,
+      "label": "Continue the run\nMove to the next run window, or jack out to end the run."
+    },
+    {
+      "version": 357,
+      "command": "n",
+      "index": 0,
+      "label": "Finish accessing\nFinish resolving this card’s access."
+    },
+    {
+      "version": 361,
+      "command": "gain",
+      "index": 0,
+      "label": "Gain 1 credit\n1 click"
+    },
+    {
+      "version": 395,
+      "command": "gain",
+      "index": 0,
+      "label": "Gain 1 credit\n1 click"
+    },
+    {
+      "version": 397,
+      "command": "run",
+      "index": 3,
+      "label": "Remote 1\n1 click"
+    },
+    {
+      "version": 402,
+      "command": "trigger",
+      "index": 0,
+      "label": "Break all · 3 credits"
+    },
+    {
+      "version": 414,
+      "command": "n",
+      "index": 0,
+      "label": "Continue the run\nMove to the next run window, or jack out to end the run."
+    },
+    {
+      "version": 422,
+      "command": "steal",
+      "index": 0,
+      "label": "Steal agenda\n→"
+    }
+  ],
+  "session": {
+    "engine": "chiriboga-77c80b1-local-1",
+    "config": {
+      "side": "runner",
+      "seed": "9c346412-1e4a-4c8c-be1c-612c8c90665f",
+      "rulesVersion": "26.03-local-2",
+      "deckIds": {
+        "runner": "loup-v1",
+        "corp": "precision-design-v2"
+      }
+    },
+    "choices": [
+      {
+        "version": 2,
+        "command": "m",
+        "index": 0
+      },
+      {
+        "version": 31,
+        "command": "install",
+        "index": 1
+      },
+      {
+        "version": 34,
+        "command": "install",
+        "index": 0
+      },
+      {
+        "version": 35,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 37,
+        "command": "play",
+        "index": 0
+      },
+      {
+        "version": 38,
+        "command": "continue",
+        "index": 0
+      },
+      {
+        "version": 39,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 41,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 44,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 45,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 56,
+        "command": "draw",
+        "index": 0
+      },
+      {
+        "version": 90,
+        "command": "draw",
+        "index": 0
+      },
+      {
+        "version": 92,
+        "command": "draw",
+        "index": 0
+      },
+      {
+        "version": 94,
+        "command": "trigger",
+        "index": 0
+      },
+      {
+        "version": 98,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 99,
+        "command": "install",
+        "index": 7
+      },
+      {
+        "version": 132,
+        "command": "draw",
+        "index": 0
+      },
+      {
+        "version": 134,
+        "command": "gain",
+        "index": 0
+      },
+      {
+        "version": 135,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 136,
+        "command": "gain",
+        "index": 0
+      },
+      {
+        "version": 137,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 138,
+        "command": "gain",
+        "index": 0
+      },
+      {
+        "version": 139,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 140,
+        "command": "discard",
+        "index": 1
+      },
+      {
+        "version": 142,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 147,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 152,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 155,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 158,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 161,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 165,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 168,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 172,
+        "command": "gain",
+        "index": 0
+      },
+      {
+        "version": 173,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 174,
+        "command": "play",
+        "index": 0
+      },
+      {
+        "version": 176,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 177,
+        "command": "run",
+        "index": 3
+      },
+      {
+        "version": 178,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 180,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 183,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 184,
+        "command": "trigger",
+        "index": 0
+      },
+      {
+        "version": 186,
+        "command": "trigger",
+        "index": 0
+      },
+      {
+        "version": 187,
+        "command": "continue",
+        "index": 0
+      },
+      {
+        "version": 188,
+        "command": "continue",
+        "index": 0
+      },
+      {
+        "version": 189,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 196,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 203,
+        "command": "access",
+        "index": 0
+      },
+      {
+        "version": 204,
+        "command": "steal",
+        "index": 0
+      },
+      {
+        "version": 213,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 214,
+        "command": "draw",
+        "index": 0
+      },
+      {
+        "version": 215,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 216,
+        "command": "discard",
+        "index": 3
+      },
+      {
+        "version": 218,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 223,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 228,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 232,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 236,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 240,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 243,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 246,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 250,
+        "command": "play",
+        "index": 0
+      },
+      {
+        "version": 253,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 254,
+        "command": "install",
+        "index": 9
+      },
+      {
+        "version": 256,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 257,
+        "command": "trigger",
+        "index": 0
+      },
+      {
+        "version": 259,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 260,
+        "command": "install",
+        "index": 3
+      },
+      {
+        "version": 261,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 262,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 263,
+        "command": "discard",
+        "index": 4
+      },
+      {
+        "version": 265,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 270,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 284,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 287,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 290,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 294,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 297,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 300,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 304,
+        "command": "run",
+        "index": 4
+      },
+      {
+        "version": 305,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 307,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 311,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 314,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 318,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 325,
+        "command": "access",
+        "index": 0
+      },
+      {
+        "version": 326,
+        "command": "steal",
+        "index": 0
+      },
+      {
+        "version": 330,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 331,
+        "command": "install",
+        "index": 1
+      },
+      {
+        "version": 332,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 334,
+        "command": "run",
+        "index": 0
+      },
+      {
+        "version": 339,
+        "command": "trigger",
+        "index": 0
+      },
+      {
+        "version": 340,
+        "command": "continue",
+        "index": 1
+      },
+      {
+        "version": 349,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 356,
+        "command": "access",
+        "index": 0
+      },
+      {
+        "version": 357,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 361,
+        "command": "gain",
+        "index": 0
+      },
+      {
+        "version": 395,
+        "command": "gain",
+        "index": 0
+      },
+      {
+        "version": 396,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 397,
+        "command": "run",
+        "index": 3
+      },
+      {
+        "version": 398,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 400,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 402,
+        "command": "trigger",
+        "index": 0
+      },
+      {
+        "version": 404,
+        "command": "trigger",
+        "index": 0
+      },
+      {
+        "version": 405,
+        "command": "continue",
+        "index": 0
+      },
+      {
+        "version": 406,
+        "command": "continue",
+        "index": 0
+      },
+      {
+        "version": 414,
+        "command": "n",
+        "index": 0
+      },
+      {
+        "version": 421,
+        "command": "access",
+        "index": 0
+      },
+      {
+        "version": 422,
+        "command": "steal",
+        "index": 0
+      }
+    ],
+    "conceded": false
+  },
+  "state": {
+    "version": 422,
+    "steps": 422,
+    "turn": 14,
+    "side": "runner",
+    "seed": "9c346412-1e4a-4c8c-be1c-612c8c90665f",
+    "rulesVersion": "26.03-local-2",
+    "agendaPointTarget": 7,
+    "active": "runner",
+    "playerTurn": "runner",
+    "phase": {
+      "title": "Run: Access",
+      "identifier": "Run Accessing",
+      "source": null
+    },
+    "terminal": {
+      "winner": "runner",
+      "reason": "Runner reached 7 agenda points."
+    },
+    "corp": {
+      "side": "corp",
+      "identity": {
+        "id": "c1",
+        "side": "corp",
+        "hidden": false,
+        "installed": false,
+        "rezzed": false,
+        "faceUp": true,
+        "advancement": 0,
+        "hosted": [],
+        "number": 30035,
+        "title": "Haas-Bioroid: Precision Design",
+        "type": "identity",
+        "subTypes": [
+          "Megacorp"
+        ],
+        "strength": null,
+        "advancementRequirement": null,
+        "canScore": false,
+        "counters": {},
+        "subroutines": []
+      },
+      "credits": 3,
+      "clicks": 0,
+      "points": 0,
+      "maxHand": 6,
+      "score": [],
+      "hand": [
+        {
+          "id": "c18",
+          "side": "corp",
+          "hidden": true,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": []
+        },
+        {
+          "id": "c40",
+          "side": "corp",
+          "hidden": true,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": []
+        },
+        {
+          "id": "c7",
+          "side": "corp",
+          "hidden": true,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": []
+        },
+        {
+          "id": "c23",
+          "side": "corp",
+          "hidden": true,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": []
+        },
+        {
+          "id": "c13",
+          "side": "corp",
+          "hidden": true,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": []
+        }
+      ],
+      "deck": 29,
+      "discard": [],
+      "resolving": [],
+      "badPublicity": 0,
+      "servers": [
+        {
+          "name": "HQ",
+          "central": true,
+          "ice": [
+            {
+              "id": "c32",
+              "side": "corp",
+              "hidden": false,
+              "installed": true,
+              "rezzed": true,
+              "faceUp": true,
+              "advancement": 0,
+              "hosted": [
+                {
+                  "id": "c52",
+                  "side": "runner",
+                  "hidden": false,
+                  "installed": true,
+                  "rezzed": false,
+                  "faceUp": true,
+                  "advancement": 0,
+                  "hosted": [],
+                  "number": 30004,
+                  "title": "Botulus",
+                  "type": "program",
+                  "subTypes": [
+                    "Virus"
+                  ],
+                  "strength": null,
+                  "advancementRequirement": null,
+                  "canScore": false,
+                  "counters": {
+                    "virus": 1
+                  },
+                  "subroutines": []
+                }
+              ],
+              "number": 30074,
+              "title": "Whitespace",
+              "type": "ice",
+              "subTypes": [
+                "Code Gate"
+              ],
+              "strength": 0,
+              "advancementRequirement": null,
+              "canScore": false,
+              "counters": {},
+              "subroutines": [
+                {
+                  "text": "The Runner loses 3 credit.",
+                  "broken": false,
+                  "fired": true
+                },
+                {
+                  "text": "If the Runner has 6 credit or less, end the run.",
+                  "broken": false,
+                  "fired": false
+                }
+              ]
+            }
+          ],
+          "root": []
+        },
+        {
+          "name": "R&D",
+          "central": true,
+          "ice": [
+            {
+              "id": "c33",
+              "side": "corp",
+              "hidden": false,
+              "installed": true,
+              "rezzed": true,
+              "faceUp": true,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30074,
+              "title": "Whitespace",
+              "type": "ice",
+              "subTypes": [
+                "Code Gate"
+              ],
+              "strength": 0,
+              "advancementRequirement": null,
+              "canScore": false,
+              "counters": {},
+              "subroutines": [
+                {
+                  "text": "The Runner loses 3 credit.",
+                  "broken": false,
+                  "fired": false
+                },
+                {
+                  "text": "If the Runner has 6 credit or less, end the run.",
+                  "broken": false,
+                  "fired": false
+                }
+              ]
+            }
+          ],
+          "root": []
+        },
+        {
+          "name": "Archives",
+          "central": true,
+          "ice": [],
+          "root": []
+        },
+        {
+          "name": "Remote 0",
+          "central": false,
+          "ice": [
+            {
+              "id": "c26",
+              "side": "corp",
+              "hidden": false,
+              "installed": true,
+              "rezzed": true,
+              "faceUp": true,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30072,
+              "title": "Palisade",
+              "type": "ice",
+              "subTypes": [
+                "Barrier"
+              ],
+              "strength": 4,
+              "advancementRequirement": null,
+              "canScore": false,
+              "counters": {},
+              "subroutines": [
+                {
+                  "text": "End the run.",
+                  "broken": true,
+                  "fired": false
+                }
+              ]
+            }
+          ],
+          "root": []
+        },
+        {
+          "name": "Remote 1",
+          "central": false,
+          "ice": [
+            {
+              "id": "c29",
+              "side": "corp",
+              "hidden": true,
+              "installed": true,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": [
+                {
+                  "id": "c54",
+                  "side": "runner",
+                  "hidden": false,
+                  "installed": true,
+                  "rezzed": false,
+                  "faceUp": true,
+                  "advancement": 0,
+                  "hosted": [],
+                  "number": 30004,
+                  "title": "Botulus",
+                  "type": "program",
+                  "subTypes": [
+                    "Virus"
+                  ],
+                  "strength": null,
+                  "advancementRequirement": null,
+                  "canScore": false,
+                  "counters": {
+                    "virus": 3
+                  },
+                  "subroutines": []
+                }
+              ]
+            },
+            {
+              "id": "c14",
+              "side": "corp",
+              "hidden": true,
+              "installed": true,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": []
+            }
+          ],
+          "root": [
+            {
+              "id": "c11",
+              "side": "corp",
+              "hidden": true,
+              "installed": true,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": []
+            }
+          ]
+        }
+      ]
+    },
+    "runner": {
+      "side": "runner",
+      "identity": {
+        "id": "c46",
+        "side": "runner",
+        "hidden": false,
+        "installed": false,
+        "rezzed": false,
+        "faceUp": true,
+        "advancement": 0,
+        "hosted": [],
+        "number": 30001,
+        "title": "René \"Loup\" Arcemont: Party Animal",
+        "type": "identity",
+        "subTypes": [],
+        "strength": null,
+        "advancementRequirement": null,
+        "canScore": false,
+        "counters": {},
+        "subroutines": []
+      },
+      "credits": 0,
+      "clicks": 2,
+      "points": 7,
+      "maxHand": 5,
+      "score": [
+        {
+          "id": "c8",
+          "side": "corp",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30069,
+          "title": "Send a Message",
+          "type": "agenda",
+          "subTypes": [
+            "Security"
+          ],
+          "strength": null,
+          "advancementRequirement": 5,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c5",
+          "side": "corp",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30067,
+          "title": "Offworld Office",
+          "type": "agenda",
+          "subTypes": [
+            "Expansion"
+          ],
+          "strength": null,
+          "advancementRequirement": 4,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c4",
+          "side": "corp",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30067,
+          "title": "Offworld Office",
+          "type": "agenda",
+          "subTypes": [
+            "Expansion"
+          ],
+          "strength": null,
+          "advancementRequirement": 4,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        }
+      ],
+      "hand": [
+        {
+          "id": "c79",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30031,
+          "title": "T400 Memory Diamond",
+          "type": "hardware",
+          "subTypes": [
+            "Chip"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c49",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30002,
+          "title": "Wildcat Strike",
+          "type": "event",
+          "subTypes": [],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c82",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30033,
+          "title": "Smartware Distributor",
+          "type": "resource",
+          "subTypes": [
+            "Connection"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c83",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30033,
+          "title": "Smartware Distributor",
+          "type": "resource",
+          "subTypes": [
+            "Connection"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        }
+      ],
+      "deck": 24,
+      "discard": [
+        {
+          "id": "c73",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30029,
+          "title": "Overclock",
+          "type": "event",
+          "subTypes": [
+            "Run"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c61",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30007,
+          "title": "Fermenter",
+          "type": "program",
+          "subTypes": [
+            "Virus"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c59",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30006,
+          "title": "Cleaver",
+          "type": "program",
+          "subTypes": [
+            "Icebreaker",
+            "Fracter"
+          ],
+          "strength": 3,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c77",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30030,
+          "title": "Sure Gamble",
+          "type": "event",
+          "subTypes": [],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c60",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30006,
+          "title": "Cleaver",
+          "type": "program",
+          "subTypes": [
+            "Icebreaker",
+            "Fracter"
+          ],
+          "strength": 3,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c47",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30002,
+          "title": "Wildcat Strike",
+          "type": "event",
+          "subTypes": [],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c86",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30034,
+          "title": "Verbal Plasticity",
+          "type": "resource",
+          "subTypes": [
+            "Genetics"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        }
+      ],
+      "resolving": [],
+      "tags": 0,
+      "coreDamage": 0,
+      "temporaryCredits": 0,
+      "memory": 4,
+      "memoryUsed": 3,
+      "rig": {
+        "programs": [
+          {
+            "id": "c58",
+            "side": "runner",
+            "hidden": false,
+            "installed": true,
+            "rezzed": false,
+            "faceUp": true,
+            "advancement": 0,
+            "hosted": [],
+            "number": 30006,
+            "title": "Cleaver",
+            "type": "program",
+            "subTypes": [
+              "Icebreaker",
+              "Fracter"
+            ],
+            "strength": 3,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "subroutines": []
+          }
+        ],
+        "hardware": [],
+        "resources": [
+          {
+            "id": "c84",
+            "side": "runner",
+            "hidden": false,
+            "installed": true,
+            "rezzed": false,
+            "faceUp": true,
+            "advancement": 0,
+            "hosted": [],
+            "number": 30034,
+            "title": "Verbal Plasticity",
+            "type": "resource",
+            "subTypes": [
+              "Genetics"
+            ],
+            "strength": null,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "subroutines": []
+          },
+          {
+            "id": "c81",
+            "side": "runner",
+            "hidden": false,
+            "installed": true,
+            "rezzed": false,
+            "faceUp": true,
+            "advancement": 0,
+            "hosted": [],
+            "number": 30033,
+            "title": "Smartware Distributor",
+            "type": "resource",
+            "subTypes": [
+              "Connection"
+            ],
+            "strength": null,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {
+              "credits": 1
+            },
+            "subroutines": []
+          }
+        ]
+      }
+    },
+    "run": {
+      "server": "Remote 0",
+      "ice": -1,
+      "encountering": false,
+      "movement": false,
+      "tools": [],
+      "restrictions": [],
+      "card": null
+    },
+    "access": null,
+    "decision": null,
+    "quietWindow": false,
+    "assistance": null,
+    "installation": null,
+    "historyCount": 212,
+    "history": [
+      {
+        "text": "Corp spent 1 credit from credit pool",
+        "turn": 5,
+        "side": "corp"
+      },
+      {
+        "text": "Card advanced",
+        "turn": 5,
+        "side": "corp"
+      },
+      {
+        "text": "Corp spent one click",
+        "turn": 5,
+        "side": "corp"
+      },
+      {
+        "text": "Corp gained one credit",
+        "turn": 5,
+        "side": "corp"
+      },
+      {
+        "text": "Runner spent one click",
+        "turn": 6,
+        "side": "runner"
+      },
+      {
+        "text": "Runner drew 2 cards",
+        "turn": 6,
+        "side": "runner",
+        "draw": {
+          "kind": "action"
+        }
+      },
+      {
+        "text": "Runner spent one click",
+        "turn": 6,
+        "side": "runner"
+      },
+      {
+        "text": "Runner gained one credit",
+        "turn": 6,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one click",
+        "turn": 6,
+        "side": "runner"
+      },
+      {
+        "text": "Runner gained one credit",
+        "turn": 6,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one click",
+        "turn": 6,
+        "side": "runner"
+      },
+      {
+        "text": "Runner gained one credit",
+        "turn": 6,
+        "side": "runner"
+      },
+      {
+        "text": "Runner discarded \"Cleaver\"",
+        "turn": 6,
+        "side": "runner"
+      },
+      {
+        "text": "Corp drew a card",
+        "turn": 7,
+        "side": "corp",
+        "draw": {
+          "kind": "mandatory"
+        }
+      },
+      {
+        "text": "Corp spent one click",
+        "turn": 7,
+        "side": "corp"
+      },
+      {
+        "text": "Corp spent 1 credit from credit pool",
+        "turn": 7,
+        "side": "corp"
+      },
+      {
+        "text": "Card advanced",
+        "turn": 7,
+        "side": "corp"
+      },
+      {
+        "text": "Corp spent one click",
+        "turn": 7,
+        "side": "corp"
+      },
+      {
+        "text": "Corp gained one credit",
+        "turn": 7,
+        "side": "corp"
+      },
+      {
+        "text": "Corp spent one click",
+        "turn": 7,
+        "side": "corp"
+      },
+      {
+        "text": "Corp spent 1 credit from credit pool",
+        "turn": 7,
+        "side": "corp"
+      },
+      {
+        "text": "Card advanced",
+        "turn": 7,
+        "side": "corp"
+      },
+      {
+        "text": "Corp discarded \"hidden card\"",
+        "turn": 7,
+        "side": "corp"
+      },
+      {
+        "text": "Runner spent one click",
+        "turn": 8,
+        "side": "runner"
+      },
+      {
+        "text": "Runner gained one credit",
+        "turn": 8,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one click",
+        "turn": 8,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent 5 credits from credit pool",
+        "turn": 8,
+        "side": "runner"
+      },
+      {
+        "text": "Played \"Sure Gamble\"",
+        "turn": 8,
+        "side": "runner"
+      },
+      {
+        "text": "Runner gained 9 credits",
+        "turn": 8,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one click",
+        "turn": 8,
+        "side": "runner"
+      },
+      {
+        "text": "Run initiated attacking Remote 0",
+        "turn": 8,
+        "side": "runner"
+      },
+      {
+        "text": "Approaching outermost piece of ice protecting Remote 0",
+        "turn": 8,
+        "side": "runner"
+      },
+      {
+        "text": "Approaching outermost piece of ice protecting Remote 0",
+        "turn": 8,
+        "side": "runner"
+      },
+      {
+        "text": "Corp spent 3 credits from credit pool",
+        "turn": 8,
+        "side": "runner",
+        "actor": "corp"
+      },
+      {
+        "text": "Corp rezzed Palisade protecting Remote 0 at position 0",
+        "turn": 8,
+        "side": "runner",
+        "actor": "corp"
+      },
+      {
+        "text": "Encountering Palisade protecting Remote 0 at position 0",
+        "turn": 8,
+        "side": "runner"
+      },
+      {
+        "text": "Using Cleaver:",
+        "turn": 8,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent 2 credits from credit pool",
+        "turn": 8,
+        "side": "runner"
+      },
+      {
+        "text": "Cleaver gets +1 strength",
+        "turn": 8,
+        "side": "runner"
+      },
+      {
+        "text": "Using Cleaver:",
+        "turn": 8,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent 1 credit from credit pool",
+        "turn": 8,
+        "side": "runner"
+      },
+      {
+        "text": "Subroutine \"End the run.\" broken",
+        "turn": 8,
+        "side": "runner"
+      },
+      {
+        "text": "Approaching Remote 0",
+        "turn": 8,
+        "side": "runner"
+      },
+      {
+        "text": "Run successful",
+        "turn": 8,
+        "side": "runner"
+      },
+      {
+        "text": "Send a Message accessed",
+        "turn": 8,
+        "side": "runner"
+      },
+      {
+        "text": "Send a Message stolen",
+        "turn": 8,
+        "side": "runner"
+      },
+      {
+        "text": "You may rez 1 installed piece of ice, ignoring all costs triggered",
+        "turn": 8,
+        "side": "runner",
+        "actor": "corp"
+      },
+      {
+        "text": "Corp rezzed Whitespace protecting R&D at position 0",
+        "turn": 8,
+        "side": "runner",
+        "actor": "corp"
+      },
+      {
+        "text": "Run ends",
+        "turn": 8,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one click",
+        "turn": 8,
+        "side": "runner"
+      },
+      {
+        "text": "Runner drew 2 cards",
+        "turn": 8,
+        "side": "runner",
+        "draw": {
+          "kind": "action"
+        }
+      },
+      {
+        "text": "Runner discarded \"Cleaver\"",
+        "turn": 8,
+        "side": "runner"
+      },
+      {
+        "text": "Corp drew a card",
+        "turn": 9,
+        "side": "corp",
+        "draw": {
+          "kind": "mandatory"
+        }
+      },
+      {
+        "text": "Corp spent one click",
+        "turn": 9,
+        "side": "corp"
+      },
+      {
+        "text": "Corp installed a card in root of a remote server",
+        "turn": 9,
+        "side": "corp"
+      },
+      {
+        "text": "Corp created a new remote server",
+        "turn": 9,
+        "side": "corp"
+      },
+      {
+        "text": "Corp spent one click",
+        "turn": 9,
+        "side": "corp"
+      },
+      {
+        "text": "Corp installed ice protecting a remote server",
+        "turn": 9,
+        "side": "corp"
+      },
+      {
+        "text": "Corp spent one click",
+        "turn": 9,
+        "side": "corp"
+      },
+      {
+        "text": "Corp installed a card in root of a remote server",
+        "turn": 9,
+        "side": "corp"
+      },
+      {
+        "text": "Runner spent one click",
+        "turn": 10,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent 2 credits from credit pool",
+        "turn": 10,
+        "side": "runner"
+      },
+      {
+        "text": "Played \"Wildcat Strike\"",
+        "turn": 10,
+        "side": "runner"
+      },
+      {
+        "text": "Runner drew 4 cards",
+        "turn": 10,
+        "side": "runner",
+        "draw": {
+          "kind": "effect",
+          "source": "Wildcat Strike"
+        }
+      },
+      {
+        "text": "Runner spent one click",
+        "turn": 10,
+        "side": "runner"
+      },
+      {
+        "text": "Runner installed Smartware Distributor",
+        "turn": 10,
+        "side": "runner"
+      },
+      {
+        "text": "Using Smartware Distributor:",
+        "turn": 10,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one click",
+        "turn": 10,
+        "side": "runner"
+      },
+      {
+        "text": "3 credits placed on Smartware Distributor",
+        "turn": 10,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one click",
+        "turn": 10,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent 2 credits from credit pool",
+        "turn": 10,
+        "side": "runner"
+      },
+      {
+        "text": "Runner installed Botulus",
+        "turn": 10,
+        "side": "runner"
+      },
+      {
+        "text": "1 virus counter placed on Botulus",
+        "turn": 10,
+        "side": "runner"
+      },
+      {
+        "text": "Runner discarded \"Verbal Plasticity\"",
+        "turn": 10,
+        "side": "runner"
+      },
+      {
+        "text": "Corp drew a card",
+        "turn": 11,
+        "side": "corp",
+        "draw": {
+          "kind": "mandatory"
+        }
+      },
+      {
+        "text": "Corp rezzed Spin Doctor",
+        "turn": 11,
+        "side": "corp",
+        "effect": {
+          "kind": "rez",
+          "card": {
+            "id": "c37",
+            "number": 30053,
+            "title": "Spin Doctor"
+          },
+          "server": "Remote 0"
+        }
+      },
+      {
+        "text": "Corp drew 2 cards",
+        "turn": 11,
+        "side": "corp",
+        "draw": {
+          "kind": "effect",
+          "source": "Spin Doctor"
+        }
+      },
+      {
+        "text": "Using Spin Doctor:",
+        "turn": 11,
+        "side": "corp",
+        "effect": {
+          "kind": "ability",
+          "card": {
+            "id": "c37",
+            "number": 30053,
+            "title": "Spin Doctor"
+          },
+          "server": "Remote 0"
+        }
+      },
+      {
+        "text": "Spin Doctor removed from the game",
+        "turn": 11,
+        "side": "corp",
+        "effect": {
+          "kind": "remove",
+          "card": {
+            "id": "c37",
+            "number": 30053,
+            "title": "Spin Doctor"
+          },
+          "server": "Remote 0",
+          "rootEmpty": true
+        }
+      },
+      {
+        "text": "hidden card shuffled into R&D from Archives",
+        "turn": 11,
+        "side": "corp",
+        "effect": {
+          "kind": "shuffle",
+          "card": {
+            "id": "c37",
+            "number": 30053,
+            "title": "Spin Doctor"
+          },
+          "server": "Remote 0"
+        }
+      },
+      {
+        "text": "Predictive Planogram shuffled into R&D from Archives",
+        "turn": 11,
+        "side": "corp",
+        "effect": {
+          "kind": "shuffle",
+          "card": {
+            "id": "c37",
+            "number": 30053,
+            "title": "Spin Doctor"
+          },
+          "server": "Remote 0"
+        }
+      },
+      {
+        "text": "Corp spent one click",
+        "turn": 11,
+        "side": "corp"
+      },
+      {
+        "text": "Corp gained one credit",
+        "turn": 11,
+        "side": "corp"
+      },
+      {
+        "text": "Corp spent one click",
+        "turn": 11,
+        "side": "corp"
+      },
+      {
+        "text": "Corp gained one credit",
+        "turn": 11,
+        "side": "corp"
+      },
+      {
+        "text": "Corp spent one click",
+        "turn": 11,
+        "side": "corp"
+      },
+      {
+        "text": "Corp spent 1 credit from credit pool",
+        "turn": 11,
+        "side": "corp"
+      },
+      {
+        "text": "Corp installed ice protecting a remote server",
+        "turn": 11,
+        "side": "corp"
+      },
+      {
+        "text": "1 virus counter placed on Botulus",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "1 credit taken from Smartware Distributor",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one click",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "Run initiated attacking Remote 1",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "Approaching outermost piece of ice protecting Remote 1",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "Approaching outermost piece of ice protecting Remote 1",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "Corp did not rez ice",
+        "turn": 12,
+        "side": "runner",
+        "actor": "corp"
+      },
+      {
+        "text": "Approaching next piece of ice protecting Remote 1",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "Corp did not rez ice",
+        "turn": 12,
+        "side": "runner",
+        "actor": "corp"
+      },
+      {
+        "text": "Approaching Remote 1",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "Run successful",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "Offworld Office accessed",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "Offworld Office stolen",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "Run ends",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one click",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent 2 credits from credit pool",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "Runner installed Botulus",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "1 virus counter placed on Botulus",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one click",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "Run initiated attacking HQ",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "Approaching outermost piece of ice protecting HQ",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "Approaching outermost piece of ice protecting HQ",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "Encountering Whitespace protecting HQ at position 0",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "Using Botulus:",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "1 virus counter removed from Botulus",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "Subroutine \"If the Runner has 6 credit or less, end the run.\" broken",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "Firing \"The Runner loses 3 credit.\" on Whitespace protecting HQ at position 0:",
+        "turn": 12,
+        "side": "runner",
+        "actor": "corp"
+      },
+      {
+        "text": "Runner lost 1 credit",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "Approaching HQ",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "Run successful",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "Ansel 1.0 accessed",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "Run ends",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one click",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "Runner gained one credit",
+        "turn": 12,
+        "side": "runner"
+      },
+      {
+        "text": "Corp drew a card",
+        "turn": 13,
+        "side": "corp",
+        "draw": {
+          "kind": "mandatory"
+        }
+      },
+      {
+        "text": "Corp spent one click",
+        "turn": 13,
+        "side": "corp"
+      },
+      {
+        "text": "Corp installed a card in root of a remote server",
+        "turn": 13,
+        "side": "corp"
+      },
+      {
+        "text": "Corp spent one click",
+        "turn": 13,
+        "side": "corp"
+      },
+      {
+        "text": "Corp installed a card in root of a remote server",
+        "turn": 13,
+        "side": "corp"
+      },
+      {
+        "text": "Corp spent one click",
+        "turn": 13,
+        "side": "corp"
+      },
+      {
+        "text": "Corp gained one credit",
+        "turn": 13,
+        "side": "corp"
+      },
+      {
+        "text": "1 virus counter placed on Botulus",
+        "turn": 14,
+        "side": "runner"
+      },
+      {
+        "text": "1 virus counter placed on Botulus",
+        "turn": 14,
+        "side": "runner"
+      },
+      {
+        "text": "1 credit taken from Smartware Distributor",
+        "turn": 14,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one click",
+        "turn": 14,
+        "side": "runner"
+      },
+      {
+        "text": "Runner gained one credit",
+        "turn": 14,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one click",
+        "turn": 14,
+        "side": "runner"
+      },
+      {
+        "text": "Run initiated attacking Remote 0",
+        "turn": 14,
+        "side": "runner"
+      },
+      {
+        "text": "Approaching outermost piece of ice protecting Remote 0",
+        "turn": 14,
+        "side": "runner"
+      },
+      {
+        "text": "Approaching outermost piece of ice protecting Remote 0",
+        "turn": 14,
+        "side": "runner"
+      },
+      {
+        "text": "Encountering Palisade protecting Remote 0 at position 0",
+        "turn": 14,
+        "side": "runner"
+      },
+      {
+        "text": "Using Cleaver:",
+        "turn": 14,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent 2 credits from credit pool",
+        "turn": 14,
+        "side": "runner"
+      },
+      {
+        "text": "Cleaver gets +1 strength",
+        "turn": 14,
+        "side": "runner"
+      },
+      {
+        "text": "Using Cleaver:",
+        "turn": 14,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent 1 credit from credit pool",
+        "turn": 14,
+        "side": "runner"
+      },
+      {
+        "text": "Subroutine \"End the run.\" broken",
+        "turn": 14,
+        "side": "runner"
+      },
+      {
+        "text": "Approaching Remote 0",
+        "turn": 14,
+        "side": "runner"
+      },
+      {
+        "text": "Run successful",
+        "turn": 14,
+        "side": "runner"
+      },
+      {
+        "text": "Offworld Office accessed",
+        "turn": 14,
+        "side": "runner"
+      },
+      {
+        "text": "Offworld Office stolen",
+        "turn": 14,
+        "side": "runner"
+      },
+      {
+        "text": "Runner reached 7 agenda points.",
+        "turn": 14,
+        "side": "runner"
+      }
+    ],
+    "diagnostics": []
+  },
+  "events": [
+    {
+      "n": 1,
+      "label": "Resume game",
+      "data": {}
+    },
+    {
+      "n": 2,
+      "label": "Take a mulligan →",
+      "data": {
+        "relatedCards": "",
+        "command": "m",
+        "group": ""
+      },
+      "version": 2,
+      "phase": "Runner Mulligan"
+    },
+    {
+      "n": 3,
+      "label": "Fermenter",
+      "data": {
+        "card": "c61",
+        "number": "30007"
+      },
+      "version": 31,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 4,
+      "label": "Install 1 click · 1 credit →",
+      "data": {
+        "inspectCommand": "install",
+        "option": "1",
+        "relatedCards": "c61"
+      },
+      "version": 31,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 5,
+      "label": "Cleaver",
+      "data": {
+        "card": "c58",
+        "number": "30006"
+      },
+      "version": 34,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 6,
+      "label": "Install 1 click · 3 credits →",
+      "data": {
+        "inspectCommand": "install",
+        "option": "0",
+        "relatedCards": "c58"
+      },
+      "version": 34,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 7,
+      "label": "Overclock",
+      "data": {
+        "card": "c73",
+        "number": "30029"
+      },
+      "version": 37,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 8,
+      "label": "Play 1 click · 1 credit →",
+      "data": {
+        "inspectCommand": "play",
+        "option": "0",
+        "relatedCards": "c73"
+      },
+      "version": 37,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 9,
+      "label": "HQ",
+      "data": {
+        "relatedCards": "c73",
+        "option": "0",
+        "command": "continue"
+      },
+      "version": 38,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 10,
+      "label": "Continue · resolve unbroken subroutines If both players pass, unbroken subroutines resolve in order.",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "version": 45,
+      "phase": "Run 3.1"
+    },
+    {
+      "n": 11,
+      "label": "Draw a card 1 click",
+      "data": {
+        "relatedCards": "",
+        "command": "draw",
+        "group": ""
+      },
+      "version": 56,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 12,
+      "label": "Draw a card 1 click",
+      "data": {
+        "relatedCards": "",
+        "command": "draw",
+        "group": ""
+      },
+      "version": 90,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 13,
+      "label": "Draw a card 1 click",
+      "data": {
+        "relatedCards": "",
+        "command": "draw",
+        "group": ""
+      },
+      "version": 92,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 14,
+      "label": "Fermenter · Gain 2 credit for each hosted virus counter 1 click Trash this program →",
+      "data": {
+        "sourceId": "c61",
+        "abilityKind": "",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c61"
+      },
+      "version": 94,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 15,
+      "label": "Verbal Plasticity",
+      "data": {
+        "card": "c84",
+        "number": "30034"
+      },
+      "version": 99,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 16,
+      "label": "Install 1 click · 3 credits →",
+      "data": {
+        "inspectCommand": "install",
+        "option": "7",
+        "relatedCards": "c84"
+      },
+      "version": 99,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 17,
+      "label": "Draw a card 1 click",
+      "data": {
+        "relatedCards": "",
+        "command": "draw",
+        "group": ""
+      },
+      "version": 132,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 18,
+      "label": "Gain 1 credit 1 click",
+      "data": {
+        "relatedCards": "",
+        "command": "gain",
+        "group": ""
+      },
+      "version": 134,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 19,
+      "label": "Gain 1 credit 1 click",
+      "data": {
+        "relatedCards": "",
+        "command": "gain",
+        "group": ""
+      },
+      "version": 136,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 20,
+      "label": "Gain 1 credit 1 click",
+      "data": {
+        "relatedCards": "",
+        "command": "gain",
+        "group": ""
+      },
+      "version": 138,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 21,
+      "label": "Cleaver",
+      "data": {
+        "relatedCards": "c59",
+        "option": "1",
+        "command": "discard"
+      },
+      "version": 140,
+      "phase": "Runner 2.1"
+    },
+    {
+      "n": 22,
+      "label": "Gain 1 credit 1 click",
+      "data": {
+        "relatedCards": "",
+        "command": "gain",
+        "group": ""
+      },
+      "version": 172,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 23,
+      "label": "Sure Gamble",
+      "data": {
+        "card": "c77",
+        "number": "30030"
+      },
+      "version": 174,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 24,
+      "label": "Play 1 click · 5 credits →",
+      "data": {
+        "inspectCommand": "play",
+        "option": "0",
+        "relatedCards": "c77"
+      },
+      "version": 174,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 25,
+      "label": "Make a run 1 click 4 choices ›",
+      "data": {
+        "relatedCards": "",
+        "command": "run",
+        "group": ""
+      },
+      "version": 177,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 26,
+      "label": "Remote 1 1 click",
+      "data": {
+        "relatedCards": "",
+        "option": "3",
+        "command": "run"
+      },
+      "version": 177,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 27,
+      "label": "Break all · 3 credits",
+      "data": {
+        "planReview": "c58"
+      },
+      "version": 184,
+      "phase": "Run 3.1"
+    },
+    {
+      "n": 28,
+      "label": "Continue the run Move to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "version": 196,
+      "phase": "Run 4.3"
+    },
+    {
+      "n": 29,
+      "label": "Steal agenda →",
+      "data": {
+        "relatedCards": "",
+        "command": "steal",
+        "group": ""
+      },
+      "version": 204,
+      "phase": "Run Accessing"
+    },
+    {
+      "n": 30,
+      "label": "Draw a card 1 click",
+      "data": {
+        "relatedCards": "",
+        "command": "draw",
+        "group": ""
+      },
+      "version": 214,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 31,
+      "label": "Cleaver",
+      "data": {
+        "relatedCards": "c60",
+        "option": "3",
+        "command": "discard"
+      },
+      "version": 216,
+      "phase": "Runner 2.1"
+    },
+    {
+      "n": 32,
+      "label": "Wildcat Strike",
+      "data": {
+        "card": "c47",
+        "number": "30002"
+      },
+      "version": 250,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 33,
+      "label": "Play 1 click · 2 credits →",
+      "data": {
+        "inspectCommand": "play",
+        "option": "0",
+        "relatedCards": "c47"
+      },
+      "version": 250,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 34,
+      "label": "Smartware Distributor",
+      "data": {
+        "card": "c81",
+        "number": "30033"
+      },
+      "version": 254,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 35,
+      "label": "Install 1 click · 0 credits →",
+      "data": {
+        "inspectCommand": "install",
+        "option": "9",
+        "relatedCards": "c81"
+      },
+      "version": 254,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 36,
+      "label": "Smartware Distributor · Place 3 credit on this resource. 1 click →",
+      "data": {
+        "sourceId": "c81",
+        "abilityKind": "",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c81"
+      },
+      "version": 257,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 37,
+      "label": "Botulus",
+      "data": {
+        "card": "c54",
+        "number": "30004"
+      },
+      "version": 260,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 38,
+      "label": "Install → Facedown ice · Remote 2 · ice 1 from outside 1 click · 2 credits →",
+      "data": {
+        "inspectCommand": "install",
+        "option": "3",
+        "relatedCards": "c54 c29"
+      },
+      "version": 260,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 39,
+      "label": "Verbal Plasticity",
+      "data": {
+        "relatedCards": "c86",
+        "option": "4",
+        "command": "discard"
+      },
+      "version": 263,
+      "phase": "Runner 2.1"
+    },
+    {
+      "n": 40,
+      "label": "Make a run 1 click 5 choices ›",
+      "data": {
+        "relatedCards": "",
+        "command": "run",
+        "group": ""
+      },
+      "version": 304,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 41,
+      "label": "Remote 2 1 click",
+      "data": {
+        "relatedCards": "",
+        "option": "4",
+        "command": "run"
+      },
+      "version": 304,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 42,
+      "label": "Continue the run Move to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "version": 311,
+      "phase": "Run 4.3"
+    },
+    {
+      "n": 43,
+      "label": "Continue the run Move to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "version": 318,
+      "phase": "Run 4.3"
+    },
+    {
+      "n": 44,
+      "label": "Steal agenda →",
+      "data": {
+        "relatedCards": "",
+        "command": "steal",
+        "group": ""
+      },
+      "version": 326,
+      "phase": "Run Accessing"
+    },
+    {
+      "n": 45,
+      "label": "Botulus",
+      "data": {
+        "card": "c52",
+        "number": "30004"
+      },
+      "version": 331,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 46,
+      "label": "Install → Whitespace · HQ · ice 1 from outside 1 click · 2 credits →",
+      "data": {
+        "inspectCommand": "install",
+        "option": "1",
+        "relatedCards": "c52 c32"
+      },
+      "version": 331,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 47,
+      "label": "Make a run 1 click 5 choices ›",
+      "data": {
+        "relatedCards": "",
+        "command": "run",
+        "group": ""
+      },
+      "version": 334,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 48,
+      "label": "HQ 1 click",
+      "data": {
+        "relatedCards": "",
+        "option": "0",
+        "command": "run"
+      },
+      "version": 334,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 49,
+      "label": "Botulus · Break 1 subroutine on host ice 1 virus counter →",
+      "data": {
+        "sourceId": "c52",
+        "abilityKind": "",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c52"
+      },
+      "version": 339,
+      "phase": "Run 3.1"
+    },
+    {
+      "n": 50,
+      "label": "Break subroutine 2: If the Runner has 6 credit or less, end the run. 1 virus counter",
+      "data": {
+        "relatedCards": "c52 c32",
+        "targetSubroutine": "2",
+        "option": "1",
+        "command": "continue"
+      },
+      "version": 340,
+      "phase": "Run 3.1"
+    },
+    {
+      "n": 51,
+      "label": "Continue the run Move to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "version": 349,
+      "phase": "Run 4.3"
+    },
+    {
+      "n": 52,
+      "label": "Finish accessing Finish resolving this card’s access.",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "version": 357,
+      "phase": "Run Accessing"
+    },
+    {
+      "n": 53,
+      "label": "Gain 1 credit 1 click",
+      "data": {
+        "relatedCards": "",
+        "command": "gain",
+        "group": ""
+      },
+      "version": 361,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 54,
+      "label": "Gain 1 credit 1 click",
+      "data": {
+        "relatedCards": "",
+        "command": "gain",
+        "group": ""
+      },
+      "version": 395,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 55,
+      "label": "Make a run 1 click 5 choices ›",
+      "data": {
+        "relatedCards": "",
+        "command": "run",
+        "group": ""
+      },
+      "version": 397,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 56,
+      "label": "Remote 1 1 click",
+      "data": {
+        "relatedCards": "",
+        "option": "3",
+        "command": "run"
+      },
+      "version": 397,
+      "phase": "Runner 1.3"
+    },
+    {
+      "n": 57,
+      "label": "Break all · 3 credits",
+      "data": {
+        "planReview": "c58"
+      },
+      "version": 402,
+      "phase": "Run 3.1"
+    },
+    {
+      "n": 58,
+      "label": "Continue the run Move to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "version": 414,
+      "phase": "Run 4.3"
+    },
+    {
+      "n": 59,
+      "label": "Steal agenda →",
+      "data": {
+        "relatedCards": "",
+        "command": "steal",
+        "group": ""
+      },
+      "version": 422,
+      "phase": "Run Accessing"
+    }
+  ],
+  "errors": [],
+  "narrationPaceMs": 20,
+  "method": "Audited strategic choices reproduced through UI from fresh audited-seed shuffle; only narration delay accelerated."
+}

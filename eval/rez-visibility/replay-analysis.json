@@ -1,0 +1,43 @@
+{
+  "seed": "1ad685a0-1d1a-4070-9295-0cec86005a01",
+  "turn": 14,
+  "windows": [
+    {
+      "version": 786,
+      "ice": "Ping",
+      "cost": 2,
+      "available": 1,
+      "rezOffered": false
+    },
+    {
+      "version": 793,
+      "ice": "Palisade",
+      "cost": 3,
+      "available": 1,
+      "rezOffered": false
+    },
+    {
+      "version": 800,
+      "ice": "Tithe",
+      "cost": 1,
+      "available": 1,
+      "rezOffered": true
+    },
+    {
+      "version": 807,
+      "ice": "Whitespace",
+      "cost": 2,
+      "available": 1,
+      "rezOffered": false
+    },
+    {
+      "version": 814,
+      "ice": "Whitespace",
+      "cost": 2,
+      "available": 1,
+      "rezOffered": false
+    }
+  ],
+  "ending": "Runner wins with 9 agenda points",
+  "counterfactual": "With 2 credits, Ping is offered as a primary rez action and assistance does not pass."
+}

@@ -1,0 +1,24 @@
+{
+  "engine": "chiriboga-77c80b1-local-1",
+  "config": {
+    "side": "runner",
+    "seed": "panel-redteam-2",
+    "deckIds": {
+      "runner": "zahya-v1",
+      "corp": "reality-plus-v1"
+    }
+  },
+  "choices": [
+    {
+      "version": 2,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 30,
+      "command": "install",
+      "index": 2
+    }
+  ],
+  "conceded": false
+}

@@ -1,0 +1,67 @@
+{
+  "checkedOn": "2026-11-06",
+  "method": "Semantic ledger accounting: click budgets, nonnegative pool credits, source credit checkpoints, counter accounting, deck card counts and terminal points. Does not execute the game engine or verify every source annotation independently.",
+  "games": [
+    {
+      "id": "lt-booster",
+      "sideTurns": 33,
+      "events": 183,
+      "actionEntries": 115,
+      "sourceCreditCheckpoints": 33,
+      "final": {
+        "corpCredits": 11,
+        "runnerCredits": 5,
+        "corpPoints": 8,
+        "runnerPoints": 1
+      },
+      "counterAnomalies": [],
+      "unresolvedIssues": [
+        "booster-hidden-order"
+      ]
+    },
+    {
+      "id": "lt-starter",
+      "sideTurns": 12,
+      "events": 62,
+      "actionEntries": 40,
+      "sourceCreditCheckpoints": 12,
+      "final": {
+        "corpCredits": 4,
+        "runnerCredits": 5,
+        "corpPoints": 2,
+        "runnerPoints": 5
+      },
+      "counterAnomalies": [
+        {
+          "event": "lt-starter/R3/02",
+          "issue": "lt-starter-red-team",
+          "counter": "red-team/credits",
+          "observedBalanceAgainstCurrentText": -3
+        }
+      ],
+      "unresolvedIssues": [
+        "lt-starter-red-team",
+        "lt-starter-hidden-order"
+      ]
+    },
+    {
+      "id": "neon-starter",
+      "sideTurns": 26,
+      "events": 140,
+      "actionEntries": 88,
+      "sourceCreditCheckpoints": 0,
+      "final": {
+        "corpCredits": 7,
+        "runnerCredits": 3,
+        "corpPoints": 3,
+        "runnerPoints": 7
+      },
+      "counterAnomalies": [],
+      "unresolvedIssues": [
+        "neon-opening-install-order",
+        "neon-R4-click",
+        "neon-hidden-order"
+      ]
+    }
+  ]
+}

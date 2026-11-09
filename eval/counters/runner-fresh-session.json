@@ -1,0 +1,90 @@
+{
+  "engine": "chiriboga-77c80b1-local-1",
+  "config": {
+    "side": "runner",
+    "seed": "327a3566-86ad-4e62-907e-4144b7de09af"
+  },
+  "choices": [
+    {
+      "version": 2,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 31,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 33,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 35,
+      "command": "install",
+      "index": 2
+    },
+    {
+      "version": 38,
+      "command": "run",
+      "index": 0
+    },
+    {
+      "version": 57,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 64,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 65,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 99,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 101,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 103,
+      "command": "install",
+      "index": 3
+    },
+    {
+      "version": 106,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 139,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 141,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 143,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 145,
+      "command": "install",
+      "index": 2
+    }
+  ],
+  "conceded": false
+}

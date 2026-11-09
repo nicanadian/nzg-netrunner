@@ -1,0 +1,20 @@
+{
+  "pins": {
+    "jinteki": "74577d02973901d9d5ef681d781acb0620abe005",
+    "cardData": "78917d587f38744aab39a52dd5750144ec65c187",
+    "leiningen": "40227328d4a9c8945362d6d626d19c2449175df6",
+    "chiriboga": "77c80b1f0f96a2af068f5d267cc0df1a1b0c9b39",
+    "localRulesVersion": "26.03-local-2"
+  },
+  "javaHome": "/opt/homebrew/opt/openjdk@21/libexec/openjdk.jdk/Contents/Home",
+  "cardsSha256": "e69da9b10aa288d4343092bddbe729fd8b8bc430936a938b5e0a21140670cf77",
+  "localVendorSha256": {
+    "phase.js": "0f67d22f995f6077bf365302fe65edaba914f42e401be35d95109d37baf9ac5e",
+    "mechanics.js": "08606f8e861d623549f1352fffb7c604fa3eb59e59fe427d6a087ad895ed1f58",
+    "utility.js": "1c67e246201ad9cf791cb8b7f20e8c27b97d5a4b443e17f6c08de84775152de7",
+    "sets/systemgateway.js": "36f0b3434280ffa3097892bb0e2ff20988cffa5c79f1ca9261f05c26b7a7b9a3"
+  },
+  "localAdapterSha256": "b560dacc199f15fe8bc8928cf18d66f5ca2b9007c7da3c3095a42b914b9c8152",
+  "jintekiScenarioSha256": "6aaf9d201288ce015d16f5de5aff5a2636a9524d10de7e8b8290087cdd4b18a3",
+  "localScenarioSha256": "8c23b121852c3ecfd26936d0af3425a2b97db1168aaf48e3b28e11fa2f350d3a"
+}

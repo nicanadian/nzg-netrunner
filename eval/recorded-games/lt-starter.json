@@ -1,0 +1,1220 @@
+{
+  "schemaVersion": 1,
+  "id": "lt-starter",
+  "title": "Legendary Tactics — starter game",
+  "source": {
+    "url": "https://www.youtube.com/watch?v=4Gr47iNjo0w",
+    "videoId": "4Gr47iNjo0w",
+    "reviewedOn": "2026-11-06",
+    "evidence": [
+      "English captions",
+      "720p source video",
+      "sampled board frames",
+      "OCR of visible Jinteki action log, checked against frames and narration"
+    ],
+    "timestampPrecision": "Approximate navigation anchors; Jinteki log observations sampled every 10 seconds. They are not wall-clock action times."
+  },
+  "format": "34/30-card starter decks; Jinteki.net, Corp viewpoint",
+  "identities": {
+    "corp": 30077,
+    "runner": 30076
+  },
+  "initialState": {
+    "corpCredits": 5,
+    "runnerCredits": 5,
+    "corpPoints": 0,
+    "runnerPoints": 0
+  },
+  "result": {
+    "winner": "corp",
+    "corpPoints": 2,
+    "runnerPoints": 5,
+    "completedCorpTurns": 6,
+    "completedRunnerTurns": 5,
+    "terminalRunnerTurn": 6,
+    "reason": "flatline"
+  },
+  "reproduction": {
+    "level": "verified normalized full-game reconstruction with annotated source ledger",
+    "executableFullGame": true,
+    "originalShuffleRecovered": false,
+    "unknownPolicy": "null or an explicit gap; never silently fill hidden cards, randomness or omitted actions",
+    "coverage": "Opening through recorded game ending. Public action order and credit/point effects are annotated; this is not a native engine decision replay.",
+    "verifiedNormalizedFullGame": true,
+    "normalizedFullGameArtifact": "lt-starter-full-replay.json",
+    "fullGameQualification": "Legal reconstruction with explicit source corrections, synthetic hidden-state completion and controlled random outcomes. Not a literal original-shuffle reproduction.",
+    "exactSourceGameExecutable": false
+  },
+  "issues": [
+    {
+      "id": "lt-starter-red-team",
+      "severity": "source anomaly",
+      "text": "Five successful Red Team runs/payouts are recorded: R1 R&D/HQ, R2 Archives/HQ, R3 R&D. Current card loads 12, permitting four 3-credit payouts. Video shows Red Team surviving the fourth and paying on the fifth. Cause not established; do not attribute it to our engine or silently copy it into a legal fixture. Observed runner balance includes the extra 3.",
+      "turns": [
+        "R1",
+        "R2",
+        "R3"
+      ]
+    },
+    {
+      "id": "lt-starter-seamless-undo",
+      "severity": "source correction",
+      "text": "Keep the attempted action/undo as a UI observation, but only the replacement basic advancement enters the normalized resource ledger. Seamless cannot target a card installed this turn.",
+      "turns": [
+        "C6"
+      ]
+    },
+    {
+      "id": "lt-starter-overclock-adjustment",
+      "severity": "source correction",
+      "text": "Manual +5 pool adjustment reconciles the source UI with the intended Overclock funds. The ledger collapses debit/refund into one legal temporary-credit payment; does not award an extra 5 credits.",
+      "turns": [
+        "R6"
+      ]
+    },
+    {
+      "id": "lt-starter-hidden-order",
+      "severity": "reproduction blocker",
+      "text": "Complete Runner draw order, unseen R&D access identities, concealed central ice and HQ random access selection are not recovered. Corp-view footage contains more hand evidence than the narration, but this ledger does not claim every hidden slot is identified.",
+      "turns": [
+        "C1",
+        "R1",
+        "C2",
+        "R2",
+        "R3",
+        "C4",
+        "R4",
+        "R5",
+        "R6"
+      ]
+    }
+  ],
+  "turns": [
+    {
+      "id": "C1",
+      "side": "corp",
+      "round": 1,
+      "sourceStart": "02:00",
+      "sourceEnd": "02:40",
+      "events": [
+        {
+          "time": "02:00",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "lt-starter/C1/01"
+        },
+        {
+          "time": "02:20",
+          "kind": "install",
+          "text": "Install Palisade protecting new Server 1 for 0.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30072,
+              "title": "Palisade"
+            }
+          ],
+          "delta": {},
+          "certainty": "retrospective identification",
+          "id": "lt-starter/C1/02"
+        },
+        {
+          "time": "02:30",
+          "kind": "install",
+          "text": "Install Offworld Office in Server 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30067,
+              "title": "Offworld Office"
+            }
+          ],
+          "delta": {},
+          "certainty": "retrospective identification",
+          "id": "lt-starter/C1/03"
+        },
+        {
+          "time": "02:40",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "lt-starter/C1/04"
+        }
+      ],
+      "observedEndHandSize": 5,
+      "observedEndCredits": 5
+    },
+    {
+      "id": "R1",
+      "side": "runner",
+      "round": 1,
+      "sourceStart": "02:50",
+      "sourceEnd": "04:50",
+      "events": [
+        {
+          "time": "02:50",
+          "kind": "install",
+          "text": "Install Red Team for 5.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30018,
+              "title": "Red Team"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -5
+          },
+          "counters": [
+            {
+              "instance": "red-team",
+              "counter": "credits",
+              "delta": 12
+            }
+          ],
+          "id": "lt-starter/R1/01"
+        },
+        {
+          "time": "03:20",
+          "kind": "ability-run",
+          "text": "Red Team run R&D: gain 3, access unseen card.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30018,
+              "title": "Red Team"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 3
+          },
+          "counters": [
+            {
+              "instance": "red-team",
+              "counter": "credits",
+              "delta": -3
+            }
+          ],
+          "hidden": {
+            "accessedCards": [
+              null
+            ]
+          },
+          "id": "lt-starter/R1/02"
+        },
+        {
+          "time": "03:40",
+          "kind": "ability-run",
+          "text": "Red Team run HQ: gain 3.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30018,
+              "title": "Red Team"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 3
+          },
+          "counters": [
+            {
+              "instance": "red-team",
+              "counter": "credits",
+              "delta": -3
+            }
+          ],
+          "id": "lt-starter/R1/03"
+        },
+        {
+          "time": "04:00",
+          "kind": "steal",
+          "text": "Access and steal Send a Message for 3 points.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30069,
+              "title": "Send a Message"
+            }
+          ],
+          "delta": {
+            "runnerPoints": 3
+          },
+          "id": "lt-starter/R1/04"
+        },
+        {
+          "time": "04:10",
+          "kind": "rez",
+          "text": "Send a Message lets Corp rez remote Palisade for 0.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30069,
+              "title": "Send a Message"
+            },
+            {
+              "number": 30072,
+              "title": "Palisade"
+            }
+          ],
+          "delta": {},
+          "id": "lt-starter/R1/05"
+        },
+        {
+          "time": "04:30",
+          "kind": "play-run",
+          "text": "Jailbreak HQ: draw 1, access Brân 1.0 and Seamless Launch; leave both.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30028,
+              "title": "Jailbreak"
+            },
+            {
+              "number": 30039,
+              "title": "Brân 1.0"
+            },
+            {
+              "number": 30040,
+              "title": "Seamless Launch"
+            }
+          ],
+          "delta": {},
+          "id": "lt-starter/R1/06"
+        }
+      ],
+      "observedEndHandSize": 4,
+      "observedEndCredits": 6
+    },
+    {
+      "id": "C2",
+      "side": "corp",
+      "round": 2,
+      "sourceStart": "05:00",
+      "sourceEnd": "06:00",
+      "events": [
+        {
+          "time": "05:00",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "lt-starter/C2/01"
+        },
+        {
+          "time": "05:30",
+          "kind": "install",
+          "text": "Install ice on R&D for 0; later revealed as Palisade.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30072,
+              "title": "Palisade"
+            }
+          ],
+          "delta": {},
+          "certainty": "retrospective identification",
+          "id": "lt-starter/C2/02"
+        },
+        {
+          "time": "05:50",
+          "kind": "install",
+          "text": "Install Brân 1.0 on HQ for 0; identified by the visible C1 hand and subsequent card movements, while still concealed from the Runner.",
+          "clicks": 1,
+          "delta": {},
+          "id": "lt-starter/C2/03",
+          "cards": [
+            {
+              "number": 30039,
+              "title": "Brân 1.0"
+            }
+          ],
+          "certainty": "retrospective constraint from Corp-view hand"
+        },
+        {
+          "time": "05:50",
+          "kind": "basic-credit",
+          "text": "Gain 1 credit.",
+          "clicks": 1,
+          "delta": {
+            "corpCredits": 1
+          },
+          "id": "lt-starter/C2/04"
+        }
+      ],
+      "observedEndHandSize": 3,
+      "observedEndCredits": 6
+    },
+    {
+      "id": "R2",
+      "side": "runner",
+      "round": 2,
+      "sourceStart": "06:10",
+      "sourceEnd": "08:20",
+      "events": [
+        {
+          "time": "06:40",
+          "kind": "install",
+          "text": "Install Cleaver for 3.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30006,
+              "title": "Cleaver"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -3
+          },
+          "id": "lt-starter/R2/01"
+        },
+        {
+          "time": "06:40",
+          "kind": "ability-run",
+          "text": "Red Team run Archives: take 3.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30018,
+              "title": "Red Team"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 3
+          },
+          "counters": [
+            {
+              "instance": "red-team",
+              "counter": "credits",
+              "delta": -3
+            }
+          ],
+          "id": "lt-starter/R2/02"
+        },
+        {
+          "time": "07:00",
+          "kind": "play-run",
+          "text": "Play Jailbreak on R&D: draw 1, access 2 if successful.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30028,
+              "title": "Jailbreak"
+            }
+          ],
+          "delta": {},
+          "id": "lt-starter/R2/03"
+        },
+        {
+          "time": "07:00",
+          "kind": "rez",
+          "text": "Corp rezzes central Palisade for 3.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30072,
+              "title": "Palisade"
+            }
+          ],
+          "delta": {
+            "corpCredits": -3
+          },
+          "id": "lt-starter/R2/04"
+        },
+        {
+          "time": "07:40",
+          "kind": "break",
+          "text": "Cleaver pays 1 to break Palisade; no boost needed on central server.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30006,
+              "title": "Cleaver"
+            },
+            {
+              "number": 30072,
+              "title": "Palisade"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -1
+          },
+          "id": "lt-starter/R2/05"
+        },
+        {
+          "time": "07:40",
+          "kind": "steal",
+          "text": "Steal Offworld Office for 2 points (total 5); other access remains unidentified.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30067,
+              "title": "Offworld Office"
+            }
+          ],
+          "delta": {
+            "runnerPoints": 2
+          },
+          "hidden": {
+            "otherAccess": null
+          },
+          "id": "lt-starter/R2/06"
+        },
+        {
+          "time": "08:00",
+          "kind": "ability-run",
+          "text": "Red Team run HQ; Corp leaves HQ ice unrezzed. Take 3.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30018,
+              "title": "Red Team"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 3
+          },
+          "counters": [
+            {
+              "instance": "red-team",
+              "counter": "credits",
+              "delta": -3
+            }
+          ],
+          "id": "lt-starter/R2/07"
+        },
+        {
+          "time": "08:20",
+          "kind": "access-trash",
+          "text": "Access Nico Campaign in HQ and trash for 2.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30037,
+              "title": "Nico Campaign"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -2
+          },
+          "id": "lt-starter/R2/08"
+        }
+      ],
+      "observedEndHandSize": 3,
+      "observedEndCredits": 6
+    },
+    {
+      "id": "C3",
+      "side": "corp",
+      "round": 3,
+      "sourceStart": "08:20",
+      "sourceEnd": "08:50",
+      "events": [
+        {
+          "time": "08:20",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "lt-starter/C3/01"
+        },
+        {
+          "time": "08:40",
+          "kind": "advance",
+          "text": "Advance installed Offworld for 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30067,
+              "title": "Offworld Office"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "id": "lt-starter/C3/02"
+        },
+        {
+          "time": "08:40",
+          "kind": "advance",
+          "text": "Advance installed Offworld for 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30067,
+              "title": "Offworld Office"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "id": "lt-starter/C3/03"
+        },
+        {
+          "time": "08:40",
+          "kind": "play",
+          "text": "Seamless Launch for 1 adds 2 advancement.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30040,
+              "title": "Seamless Launch"
+            },
+            {
+              "number": 30067,
+              "title": "Offworld Office"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "id": "lt-starter/C3/04"
+        },
+        {
+          "time": "08:50",
+          "kind": "score",
+          "text": "Score Offworld for 2 points and gain 7.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30067,
+              "title": "Offworld Office"
+            }
+          ],
+          "delta": {
+            "corpCredits": 7,
+            "corpPoints": 2
+          },
+          "id": "lt-starter/C3/05"
+        }
+      ],
+      "observedEndHandSize": 2,
+      "observedEndCredits": 7
+    },
+    {
+      "id": "R3",
+      "side": "runner",
+      "round": 3,
+      "sourceStart": "09:20",
+      "sourceEnd": "10:40",
+      "events": [
+        {
+          "time": "09:30",
+          "kind": "ability-run",
+          "text": "Recorded: use Red Team on R&D again, pass Palisade with Cleaver for 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30018,
+              "title": "Red Team"
+            },
+            {
+              "number": 30006,
+              "title": "Cleaver"
+            },
+            {
+              "number": 30072,
+              "title": "Palisade"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -1
+          },
+          "issue": "lt-starter-red-team",
+          "id": "lt-starter/R3/01"
+        },
+        {
+          "time": "09:50",
+          "kind": "source-anomaly",
+          "text": "Recorded fifth Red Team payout: gain 3 and trash Red Team. This exceeds the current 12-credit load by 3.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30018,
+              "title": "Red Team"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 3
+          },
+          "counters": [
+            {
+              "instance": "red-team",
+              "counter": "credits",
+              "delta": -3
+            }
+          ],
+          "issue": "lt-starter-red-team",
+          "id": "lt-starter/R3/02"
+        },
+        {
+          "time": "10:10",
+          "kind": "access",
+          "text": "Access unseen R&D card; leave it.",
+          "clicks": 0,
+          "delta": {},
+          "hidden": {
+            "accessedCards": [
+              null
+            ]
+          },
+          "id": "lt-starter/R3/03"
+        },
+        {
+          "time": "10:30",
+          "kind": "install",
+          "text": "Install Mayfly for 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30032,
+              "title": "Mayfly"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -1
+          },
+          "id": "lt-starter/R3/04"
+        },
+        {
+          "time": "10:30",
+          "kind": "play",
+          "text": "Sure Gamble: pay 5, gain 9.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30030,
+              "title": "Sure Gamble"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 4
+          },
+          "id": "lt-starter/R3/05"
+        },
+        {
+          "time": "10:40",
+          "kind": "play",
+          "text": "Last-click Creative Commission: pay 1, gain 5.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30020,
+              "title": "Creative Commission"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 4
+          },
+          "id": "lt-starter/R3/06"
+        }
+      ],
+      "observedEndHandSize": 0,
+      "observedEndCredits": 15
+    },
+    {
+      "id": "C4",
+      "side": "corp",
+      "round": 4,
+      "sourceStart": "10:50",
+      "sourceEnd": "11:20",
+      "events": [
+        {
+          "time": "10:50",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "lt-starter/C4/01"
+        },
+        {
+          "time": "11:20",
+          "kind": "install",
+          "text": "Install outer ice on R&D for 1; identity remains concealed.",
+          "clicks": 1,
+          "delta": {
+            "corpCredits": -1
+          },
+          "hidden": {
+            "card": null,
+            "server": "R&D"
+          },
+          "id": "lt-starter/C4/02"
+        },
+        {
+          "time": "11:20",
+          "kind": "install",
+          "text": "Install outer ice on HQ for 1; identity remains concealed.",
+          "clicks": 1,
+          "delta": {
+            "corpCredits": -1
+          },
+          "hidden": {
+            "card": null,
+            "server": "HQ"
+          },
+          "id": "lt-starter/C4/03"
+        },
+        {
+          "time": "11:20",
+          "kind": "basic-credit",
+          "text": "Gain 1 credit.",
+          "clicks": 1,
+          "delta": {
+            "corpCredits": 1
+          },
+          "id": "lt-starter/C4/04"
+        }
+      ],
+      "observedEndHandSize": 1,
+      "observedEndCredits": 6
+    },
+    {
+      "id": "R4",
+      "side": "runner",
+      "round": 4,
+      "sourceStart": "11:30",
+      "sourceEnd": "12:00",
+      "events": [
+        {
+          "time": "11:50",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "lt-starter/R4/01"
+        },
+        {
+          "time": "12:00",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "lt-starter/R4/02"
+        },
+        {
+          "time": "12:00",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "lt-starter/R4/03"
+        },
+        {
+          "time": "12:00",
+          "kind": "install",
+          "text": "Install Unity for 3.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30026,
+              "title": "Unity"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -3
+          },
+          "id": "lt-starter/R4/04"
+        }
+      ],
+      "observedEndHandSize": 2,
+      "observedEndCredits": 12
+    },
+    {
+      "id": "C5",
+      "side": "corp",
+      "round": 5,
+      "sourceStart": "12:30",
+      "sourceEnd": "13:30",
+      "events": [
+        {
+          "time": "12:30",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "lt-starter/C5/01"
+        },
+        {
+          "time": "13:20",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "lt-starter/C5/02"
+        },
+        {
+          "time": "13:30",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "lt-starter/C5/03"
+        },
+        {
+          "time": "13:30",
+          "kind": "basic-credit",
+          "text": "Gain 1 credit.",
+          "clicks": 1,
+          "delta": {
+            "corpCredits": 1
+          },
+          "id": "lt-starter/C5/04"
+        }
+      ],
+      "observedEndHandSize": 4,
+      "observedEndCredits": 7
+    },
+    {
+      "id": "R5",
+      "side": "runner",
+      "round": 5,
+      "sourceStart": "13:40",
+      "sourceEnd": "15:00",
+      "events": [
+        {
+          "time": "13:50",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "lt-starter/R5/01"
+        },
+        {
+          "time": "13:50",
+          "kind": "play-run",
+          "text": "Tread Lightly for 1 runs HQ; pass both unrezzed ice.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30012,
+              "title": "Tread Lightly"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -1
+          },
+          "id": "lt-starter/R5/02"
+        },
+        {
+          "time": "14:40",
+          "kind": "access-trash",
+          "text": "Access second Nico Campaign from HQ; trash for 2.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30037,
+              "title": "Nico Campaign"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -2
+          },
+          "id": "lt-starter/R5/03"
+        },
+        {
+          "time": "15:00",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "lt-starter/R5/04"
+        },
+        {
+          "time": "15:00",
+          "kind": "install",
+          "text": "Install Smartware for 0; do not load it this turn.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30033,
+              "title": "Smartware Distributor"
+            }
+          ],
+          "delta": {},
+          "id": "lt-starter/R5/05"
+        }
+      ],
+      "observedEndHandSize": 2,
+      "observedEndCredits": 9
+    },
+    {
+      "id": "C6",
+      "side": "corp",
+      "round": 6,
+      "sourceStart": "15:10",
+      "sourceEnd": "16:20",
+      "events": [
+        {
+          "time": "15:10",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "lt-starter/C6/01"
+        },
+        {
+          "time": "15:30",
+          "kind": "install",
+          "text": "Install Manegarm Skunkworks in Server 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30042,
+              "title": "Manegarm Skunkworks"
+            }
+          ],
+          "delta": {},
+          "certainty": "retrospective identification",
+          "id": "lt-starter/C6/02"
+        },
+        {
+          "time": "15:30",
+          "kind": "install",
+          "text": "Install Urtica Cipher in Server 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30045,
+              "title": "Urtica Cipher"
+            }
+          ],
+          "delta": {},
+          "certainty": "retrospective identification",
+          "id": "lt-starter/C6/03"
+        },
+        {
+          "time": "16:10",
+          "kind": "source-correction",
+          "text": "Attempt Seamless Launch, then /undo-click and return the card to HQ. Net zero clicks/credits after undo. The newly installed target is ineligible.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30040,
+              "title": "Seamless Launch"
+            }
+          ],
+          "delta": {},
+          "issue": "lt-starter-seamless-undo",
+          "id": "lt-starter/C6/04"
+        },
+        {
+          "time": "16:20",
+          "kind": "advance",
+          "text": "Instead, spend last click and 1 credit to advance Urtica once.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30045,
+              "title": "Urtica Cipher"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "id": "lt-starter/C6/05"
+        }
+      ],
+      "observedEndHandSize": 2,
+      "observedEndCredits": 6
+    },
+    {
+      "id": "R6",
+      "side": "runner",
+      "round": 6,
+      "sourceStart": "16:30",
+      "sourceEnd": "19:10",
+      "events": [
+        {
+          "time": "16:40",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "lt-starter/R6/01"
+        },
+        {
+          "time": "16:50",
+          "kind": "play-run",
+          "text": "Play Overclock for 1, load 5 eligible run credits, run Server 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30029,
+              "title": "Overclock"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -1
+          },
+          "counters": [
+            {
+              "instance": "overclock-R6",
+              "counter": "credits",
+              "delta": 5
+            }
+          ],
+          "id": "lt-starter/R6/02"
+        },
+        {
+          "time": "17:20",
+          "kind": "rez",
+          "text": "Corp rezzes Manegarm Skunkworks for 2.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30042,
+              "title": "Manegarm Skunkworks"
+            }
+          ],
+          "delta": {
+            "corpCredits": -2
+          },
+          "id": "lt-starter/R6/03"
+        },
+        {
+          "time": "18:00",
+          "kind": "break",
+          "text": "Remote Palisade is strength 4: Cleaver boosts once for 2 and breaks for 1.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30006,
+              "title": "Cleaver"
+            },
+            {
+              "number": 30072,
+              "title": "Palisade"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -3
+          },
+          "id": "lt-starter/R6/04"
+        },
+        {
+          "time": "18:40",
+          "kind": "payment",
+          "text": "Normalized final payment: spend the 5 Overclock credits at Manegarm; leave pool at 5.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30029,
+              "title": "Overclock"
+            },
+            {
+              "number": 30042,
+              "title": "Manegarm Skunkworks"
+            }
+          ],
+          "delta": {},
+          "counters": [
+            {
+              "instance": "overclock-R6",
+              "counter": "credits",
+              "delta": -5
+            }
+          ],
+          "issue": "lt-starter-overclock-adjustment",
+          "id": "lt-starter/R6/05"
+        },
+        {
+          "time": "18:50",
+          "kind": "source-correction",
+          "text": "Recorded UI debits 5 from pool, then player manually increments pool five times, restoring 5. Combined net zero pool change; normalized payment above spends hosted credits once.",
+          "clicks": 0,
+          "delta": {},
+          "issue": "lt-starter-overclock-adjustment",
+          "id": "lt-starter/R6/06"
+        },
+        {
+          "time": "19:10",
+          "kind": "damage",
+          "text": "Access 1-advanced Urtica: 3 net damage against grip of 2 (Pennyshaver, Cleaver). Both trash; Runner flatlines.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30045,
+              "title": "Urtica Cipher"
+            },
+            {
+              "number": 30014,
+              "title": "Pennyshaver"
+            },
+            {
+              "number": 30006,
+              "title": "Cleaver"
+            }
+          ],
+          "delta": {},
+          "damage": {
+            "type": "net",
+            "amount": 3,
+            "gripBefore": 2,
+            "trashed": [
+              30014,
+              30006
+            ]
+          },
+          "id": "lt-starter/R6/07"
+        }
+      ],
+      "observedEndCredits": 5
+    }
+  ],
+  "decks": {
+    "corp": {
+      "identity": 30077,
+      "cards": {
+        "30037": 2,
+        "30039": 2,
+        "30040": 2,
+        "30042": 1,
+        "30045": 2,
+        "30046": 2,
+        "30047": 2,
+        "30064": 2,
+        "30067": 3,
+        "30069": 2,
+        "30070": 2,
+        "30071": 2,
+        "30072": 3,
+        "30073": 2,
+        "30074": 2,
+        "30075": 3
+      },
+      "size": 34
+    },
+    "runner": {
+      "identity": 30076,
+      "cards": {
+        "30006": 2,
+        "30012": 2,
+        "30013": 1,
+        "30014": 1,
+        "30015": 2,
+        "30018": 1,
+        "30020": 2,
+        "30021": 2,
+        "30026": 2,
+        "30027": 2,
+        "30028": 3,
+        "30029": 2,
+        "30030": 3,
+        "30032": 2,
+        "30033": 2,
+        "30034": 1
+      },
+      "size": 30
+    }
+  },
+  "deckSources": [
+    "https://nullsignal.games/products/system-gateway/"
+  ],
+  "players": {
+    "corp": "natopotato167",
+    "runner": "cax"
+  }
+}

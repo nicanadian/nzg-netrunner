@@ -1,0 +1,6732 @@
+{
+  "id": "neon-starter",
+  "scope": "End-to-end legal reconstruction from a booted opening; synthetic deck completion and constrained random outcomes are explicit. Not the original unique hidden shuffle.",
+  "config": {
+    "side": "corp",
+    "rulesVersion": "26.03-local-1",
+    "agendaPointTarget": 6,
+    "seed": "full-ledger-neon-starter",
+    "control": "scripted",
+    "orderedDecks": true,
+    "decks": {
+      "corp": {
+        "identity": 30077,
+        "cards": [
+          30075,
+          30074,
+          30072,
+          30072,
+          30071,
+          30039,
+          30067,
+          30067,
+          30047,
+          30046,
+          30040,
+          30037,
+          30069,
+          30072,
+          30045,
+          30045,
+          30075,
+          30070,
+          30039,
+          30067,
+          30037,
+          30064,
+          30074,
+          30069,
+          30073,
+          30064,
+          30075,
+          30047,
+          30046,
+          30040,
+          30070,
+          30042,
+          30073,
+          30071
+        ]
+      },
+      "runner": {
+        "identity": 30076,
+        "cards": [
+          30034,
+          30033,
+          30029,
+          30028,
+          30026,
+          30021,
+          30015,
+          30012,
+          30006,
+          30018,
+          30006,
+          30026,
+          30027,
+          30012,
+          30028,
+          30015,
+          30013,
+          30014,
+          30021,
+          30020,
+          30027,
+          30030,
+          30030,
+          30020,
+          30033,
+          30028,
+          30032,
+          30029,
+          30032,
+          30030
+        ]
+      }
+    }
+  },
+  "normalizations": [
+    "Choose one possible C1 installation order; the final installed trio is established.",
+    "Fill R4’s unrecorded fourth click with a synthetic, unprotected Archives run; no pool, hand or counter change.",
+    "Trash the used Mayfly at R5 run end rather than at the delayed physical reminder.",
+    "Use the explicitly announced six-point teaching target. Winning steal reaches seven anyway."
+  ],
+  "hiddenAssignments": [
+    "Choose Diviner as concealed HQ ice.",
+    "Choose a second Urtica as the never-accessed late remote card."
+  ],
+  "deckCompletion": {
+    "corp": [
+      {
+        "slot": 1,
+        "number": 30071,
+        "nonAgenda": false,
+        "reason": [
+          "opening hand",
+          "neon-starter/C1 install 30071"
+        ]
+      },
+      {
+        "slot": 2,
+        "number": 30073,
+        "nonAgenda": false,
+        "reason": [
+          "opening hand",
+          "neon-starter/C1 install 30073"
+        ]
+      },
+      {
+        "slot": 3,
+        "number": 30042,
+        "nonAgenda": false,
+        "reason": [
+          "opening hand",
+          "neon-starter/C1 install 30042"
+        ]
+      },
+      {
+        "slot": 4,
+        "number": 30070,
+        "nonAgenda": false,
+        "reason": [
+          "opening hand",
+          "neon-starter/R1 run 30028 access"
+        ]
+      },
+      {
+        "slot": 5,
+        "number": 30040,
+        "nonAgenda": false,
+        "reason": [
+          "opening hand",
+          "neon-starter/R1 run 30028 access"
+        ]
+      },
+      {
+        "slot": 6,
+        "number": 30046,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/C1 mandatory draw",
+          "neon-starter/C2 install 30046"
+        ]
+      },
+      {
+        "slot": 7,
+        "number": 30047,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/C2 mandatory draw",
+          "neon-starter/C3 install 30047"
+        ]
+      },
+      {
+        "slot": 8,
+        "number": 30075,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/C2 draw ",
+          "neon-starter/C4 play 30075"
+        ]
+      },
+      {
+        "slot": 9,
+        "number": 30064,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/C3 mandatory draw",
+          "neon-starter/C4 play 30064"
+        ]
+      },
+      {
+        "slot": 10,
+        "number": 30073,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/C3 draw ",
+          "neon-starter/C5 install 30073"
+        ]
+      },
+      {
+        "slot": 11,
+        "number": 30069,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/C4 mandatory draw",
+          "neon-starter/C5 install 30069"
+        ]
+      },
+      {
+        "slot": 12,
+        "number": 30074,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/C5 mandatory draw",
+          "neon-starter/C6 install 30074"
+        ]
+      },
+      {
+        "slot": 13,
+        "number": 30064,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/C5 draw ",
+          "neon-starter/C7 play 30064"
+        ]
+      },
+      {
+        "slot": 14,
+        "number": 30037,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/C6 mandatory draw",
+          "neon-starter/C7 install 30037"
+        ]
+      },
+      {
+        "slot": 15,
+        "number": 30067,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/C6 draw ",
+          "neon-starter/C7 install 30067"
+        ]
+      },
+      {
+        "slot": 16,
+        "number": 30039,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/C6 draw ",
+          "neon-starter/C9 install 30039"
+        ]
+      },
+      {
+        "slot": 17,
+        "number": 30070,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/C7 mandatory draw",
+          "neon-starter/C9 install 30070"
+        ]
+      },
+      {
+        "slot": 18,
+        "number": 30075,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/C8 mandatory draw",
+          "neon-starter/C10 play 30075"
+        ]
+      },
+      {
+        "slot": 19,
+        "number": 30045,
+        "nonAgenda": true,
+        "reason": [
+          "neon-starter/C9 mandatory draw",
+          "neon-starter/C11 install 30045"
+        ]
+      },
+      {
+        "slot": 20,
+        "number": 30045,
+        "nonAgenda": true,
+        "reason": [
+          "neon-starter/C10 mandatory draw",
+          "neon-starter/C12 install 30045"
+        ]
+      },
+      {
+        "slot": 21,
+        "number": 30072,
+        "nonAgenda": true,
+        "reason": [
+          "neon-starter/C10 score 30070 optional draw 2",
+          "neon-starter/C12 source discard"
+        ]
+      },
+      {
+        "slot": 22,
+        "number": 30069,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/C10 score 30070 optional draw 2",
+          "neon-starter/C13 install 30069"
+        ]
+      },
+      {
+        "slot": 23,
+        "number": 30037,
+        "nonAgenda": true,
+        "reason": [
+          "neon-starter/C11 mandatory draw",
+          "synthetic hidden-state completion"
+        ]
+      },
+      {
+        "slot": 24,
+        "number": 30040,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/C11 draw ",
+          "synthetic hidden-state completion"
+        ]
+      },
+      {
+        "slot": 25,
+        "number": 30046,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/C11 draw ",
+          "synthetic hidden-state completion"
+        ]
+      },
+      {
+        "slot": 26,
+        "number": 30047,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/C12 mandatory draw",
+          "synthetic hidden-state completion"
+        ]
+      },
+      {
+        "slot": 27,
+        "number": 30067,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/C12 draw ",
+          "synthetic hidden-state completion"
+        ]
+      },
+      {
+        "slot": 28,
+        "number": 30067,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/C12 draw ",
+          "synthetic hidden-state completion"
+        ]
+      },
+      {
+        "slot": 29,
+        "number": 30039,
+        "nonAgenda": true,
+        "reason": [
+          "neon-starter/C13 mandatory draw",
+          "synthetic hidden-state completion"
+        ]
+      },
+      {
+        "slot": 30,
+        "number": 30071,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/C13 draw ",
+          "synthetic hidden-state completion"
+        ]
+      },
+      {
+        "slot": 31,
+        "number": 30072,
+        "nonAgenda": false,
+        "reason": [
+          "synthetic hidden-state completion"
+        ]
+      },
+      {
+        "slot": 32,
+        "number": 30072,
+        "nonAgenda": false,
+        "reason": [
+          "synthetic hidden-state completion"
+        ]
+      },
+      {
+        "slot": 33,
+        "number": 30074,
+        "nonAgenda": false,
+        "reason": [
+          "synthetic hidden-state completion"
+        ]
+      },
+      {
+        "slot": 34,
+        "number": 30075,
+        "nonAgenda": false,
+        "reason": [
+          "synthetic hidden-state completion"
+        ]
+      }
+    ],
+    "runner": [
+      {
+        "slot": 1,
+        "number": 30030,
+        "nonAgenda": false,
+        "reason": [
+          "opening hand",
+          "neon-starter/R1 play 30030"
+        ]
+      },
+      {
+        "slot": 2,
+        "number": 30032,
+        "nonAgenda": false,
+        "reason": [
+          "opening hand",
+          "neon-starter/R1 install 30032"
+        ]
+      },
+      {
+        "slot": 3,
+        "number": 30029,
+        "nonAgenda": false,
+        "reason": [
+          "opening hand",
+          "neon-starter/R1 run 30029 event"
+        ]
+      },
+      {
+        "slot": 4,
+        "number": 30032,
+        "nonAgenda": false,
+        "reason": [
+          "opening hand",
+          "neon-starter/R1 run 30029 net damage"
+        ]
+      },
+      {
+        "slot": 5,
+        "number": 30028,
+        "nonAgenda": false,
+        "reason": [
+          "opening hand",
+          "neon-starter/R1 run 30028 event"
+        ]
+      },
+      {
+        "slot": 6,
+        "number": 30033,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/R1 run 30028 successful Jailbreak draw",
+          "neon-starter/R2 install 30033"
+        ]
+      },
+      {
+        "slot": 7,
+        "number": 30020,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/R2 draw ",
+          "neon-starter/R3 play 30020"
+        ]
+      },
+      {
+        "slot": 8,
+        "number": 30030,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/R2 draw ",
+          "neon-starter/R4 play 30030"
+        ]
+      },
+      {
+        "slot": 9,
+        "number": 30030,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/R3 draw ",
+          "neon-starter/R4 play 30030"
+        ]
+      },
+      {
+        "slot": 10,
+        "number": 30027,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/R3 draw ",
+          "neon-starter/R4 install 30027"
+        ]
+      },
+      {
+        "slot": 11,
+        "number": 30020,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/R3 draw ",
+          "neon-starter/R6 play 30020"
+        ]
+      },
+      {
+        "slot": 12,
+        "number": 30021,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/R5 draw ",
+          "neon-starter/R7 play 30021"
+        ]
+      },
+      {
+        "slot": 13,
+        "number": 30014,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/R5 draw ",
+          "neon-starter/R7 install 30014"
+        ]
+      },
+      {
+        "slot": 14,
+        "number": 30013,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/R6 draw ",
+          "neon-starter/R7 install 30013"
+        ]
+      },
+      {
+        "slot": 15,
+        "number": 30015,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/R6 draw ",
+          "neon-starter/R8 install 30015"
+        ]
+      },
+      {
+        "slot": 16,
+        "number": 30028,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/R7 play 30021 draw 4",
+          "neon-starter/R8 run 30028 event"
+        ]
+      },
+      {
+        "slot": 17,
+        "number": 30012,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/R7 play 30021 draw 4",
+          "neon-starter/R9 run 30012 event"
+        ]
+      },
+      {
+        "slot": 18,
+        "number": 30027,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/R7 play 30021 draw 4",
+          "neon-starter/R9 install 30027"
+        ]
+      },
+      {
+        "slot": 19,
+        "number": 30026,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/R7 play 30021 draw 4",
+          "neon-starter/R10 install 30026"
+        ]
+      },
+      {
+        "slot": 20,
+        "number": 30006,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/R8 run 30028 successful Jailbreak draw",
+          "neon-starter/R11 install 30006"
+        ]
+      },
+      {
+        "slot": 21,
+        "number": 30018,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/R10 draw ",
+          "neon-starter/R12 install 30018"
+        ]
+      },
+      {
+        "slot": 22,
+        "number": 30006,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/R10 draw ",
+          "synthetic hidden-state completion"
+        ]
+      },
+      {
+        "slot": 23,
+        "number": 30012,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/R11 draw ",
+          "synthetic hidden-state completion"
+        ]
+      },
+      {
+        "slot": 24,
+        "number": 30015,
+        "nonAgenda": false,
+        "reason": [
+          "neon-starter/R11 draw ",
+          "synthetic hidden-state completion"
+        ]
+      },
+      {
+        "slot": 25,
+        "number": 30021,
+        "nonAgenda": false,
+        "reason": [
+          "synthetic hidden-state completion"
+        ]
+      },
+      {
+        "slot": 26,
+        "number": 30026,
+        "nonAgenda": false,
+        "reason": [
+          "synthetic hidden-state completion"
+        ]
+      },
+      {
+        "slot": 27,
+        "number": 30028,
+        "nonAgenda": false,
+        "reason": [
+          "synthetic hidden-state completion"
+        ]
+      },
+      {
+        "slot": 28,
+        "number": 30029,
+        "nonAgenda": false,
+        "reason": [
+          "synthetic hidden-state completion"
+        ]
+      },
+      {
+        "slot": 29,
+        "number": 30033,
+        "nonAgenda": false,
+        "reason": [
+          "synthetic hidden-state completion"
+        ]
+      },
+      {
+        "slot": 30,
+        "number": 30034,
+        "nonAgenda": false,
+        "reason": [
+          "synthetic hidden-state completion"
+        ]
+      }
+    ]
+  },
+  "randomTape": [
+    0.25,
+    0.5,
+    0.16666666666666666,
+    0.75,
+    0.5,
+    0.8333333333333334,
+    0.75,
+    0.5,
+    0.75,
+    0.5,
+    0.24266938727333726,
+    0.4441201540527697
+  ],
+  "trace": [
+    {
+      "turn": "C1",
+      "label": "Pass Corporation's Mulligan",
+      "before": {
+        "phase": "Corp Mulligan",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 1,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C1",
+      "label": "Pass Runner's Mulligan",
+      "before": {
+        "phase": "Runner Mulligan",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 2,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C1",
+      "label": "Install 30071",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 8,
+        "command": "install",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C1",
+      "label": "Install 30073",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 10,
+        "command": "install",
+        "index": 1
+      }
+    },
+    {
+      "turn": "C1",
+      "label": "Install 30042",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 12,
+        "command": "install",
+        "index": 1
+      }
+    },
+    {
+      "turn": "C1",
+      "label": "Finish optional install trashing",
+      "before": {
+        "phase": "Corp Install",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 13,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C1",
+      "label": "Pass Corporation's Action Phase",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 14,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C1",
+      "label": "Pass Corporation's Discard Phase: Response",
+      "before": {
+        "phase": "Corp 3.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 17,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R1",
+      "label": "Pass Runner's Turn Begins",
+      "before": {
+        "phase": "Runner 1.1",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 22,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R1",
+      "label": "play",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 25,
+        "command": "play",
+        "index": 1
+      }
+    },
+    {
+      "turn": "R1",
+      "label": "Install 30032",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 28,
+        "command": "install",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R1",
+      "label": "play",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 31,
+        "command": "play",
+        "index": 1
+      }
+    },
+    {
+      "turn": "R1",
+      "label": "Choose event target Remote 0",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 32,
+        "command": "continue",
+        "index": 3
+      }
+    },
+    {
+      "turn": "R1",
+      "label": "Rez encountered ice",
+      "before": {
+        "phase": "Run 1.5",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 34,
+        "command": "rez",
+        "index": 2
+      }
+    },
+    {
+      "turn": "R1",
+      "label": "Pass Run: Initiation",
+      "before": {
+        "phase": "Run 1.5",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 35,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R1",
+      "label": "Pass Run: Approach Ice",
+      "before": {
+        "phase": "Run 2.1",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 38,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R1",
+      "label": "Pass Run: Encounter Ice",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 39,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R1",
+      "label": "Fire next unbroken subroutine",
+      "before": {
+        "phase": "Run Subroutines",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 41,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R1",
+      "label": "Fire next unbroken subroutine",
+      "before": {
+        "phase": "Run Subroutines",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 42,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R1",
+      "label": "Pass Run: Movement",
+      "before": {
+        "phase": "Run 4.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 48,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R1",
+      "label": "Rez run gate",
+      "before": {
+        "phase": "Run 4.5",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 50,
+        "command": "rez",
+        "index": 1
+      }
+    },
+    {
+      "turn": "R1",
+      "label": "Pass Run: Movement",
+      "before": {
+        "phase": "Run 4.5",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 51,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R1",
+      "label": "Resolve Manegarm Skunkworks · Whenever the Runner approaches this server",
+      "before": {
+        "phase": "Run 4.6.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 54,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R1",
+      "label": "Pay Manegarm",
+      "before": {
+        "phase": "Run 4.6.2",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 56,
+        "command": "continue",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R1",
+      "label": "Access 30071",
+      "before": {
+        "phase": "Run 5.2",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 60,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R1",
+      "label": "trash",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 61,
+        "command": "trash",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R1",
+      "label": "Access 30042",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 63,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R1",
+      "label": "trash",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 64,
+        "command": "trash",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R1",
+      "label": "play",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 69,
+        "command": "play",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R1",
+      "label": "Choose event target HQ",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 70,
+        "command": "continue",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R1",
+      "label": "Pass Run: Movement",
+      "before": {
+        "phase": "Run 4.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 73,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R1",
+      "label": "Resolve Jailbreak",
+      "before": {
+        "phase": "Run 5.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 78,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R1",
+      "label": "Access 30070",
+      "before": {
+        "phase": "Run 5.2",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 82,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R1",
+      "label": "steal",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 83,
+        "command": "steal",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R1",
+      "label": "Access 30040",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 85,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R1",
+      "label": "Leave accessed card",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 86,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C2",
+      "label": "draw",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 100,
+        "command": "draw",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C2",
+      "label": "Install 30046",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 101,
+        "command": "install",
+        "index": 2
+      }
+    },
+    {
+      "turn": "C2",
+      "label": "gain",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 103,
+        "command": "gain",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R2",
+      "label": "draw",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 115,
+        "command": "draw",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R2",
+      "label": "draw",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 117,
+        "command": "draw",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R2",
+      "label": "Install 30033",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 119,
+        "command": "install",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R2",
+      "label": "Use 30033",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 122,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C3",
+      "label": "draw",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 135,
+        "command": "draw",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C3",
+      "label": "Install 30047",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 136,
+        "command": "install",
+        "index": 3
+      }
+    },
+    {
+      "turn": "C3",
+      "label": "gain",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 138,
+        "command": "gain",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R3",
+      "label": "draw",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 150,
+        "command": "draw",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R3",
+      "label": "draw",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 152,
+        "command": "draw",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R3",
+      "label": "draw",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 154,
+        "command": "draw",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R3",
+      "label": "play",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 156,
+        "command": "play",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C4",
+      "label": "play",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 169,
+        "command": "play",
+        "index": 1
+      }
+    },
+    {
+      "turn": "C4",
+      "label": "gain",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 171,
+        "command": "gain",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C4",
+      "label": "play",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 172,
+        "command": "play",
+        "index": 1
+      }
+    },
+    {
+      "turn": "R4",
+      "label": "play",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 185,
+        "command": "play",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R4",
+      "label": "play",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 188,
+        "command": "play",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R4",
+      "label": "Install 30027",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 191,
+        "command": "install",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R4",
+      "label": "Basic run Archives",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 194,
+        "command": "run",
+        "index": 2
+      }
+    },
+    {
+      "turn": "R4",
+      "label": "Pass Run: Movement",
+      "before": {
+        "phase": "Run 4.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 197,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R4",
+      "label": "Access unspecified non-agenda",
+      "before": {
+        "phase": "Run 5.2",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 204,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R4",
+      "label": "Access unspecified non-agenda",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 206,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R4",
+      "label": "Access unspecified non-agenda",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 208,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R4",
+      "label": "Access unspecified non-agenda",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 210,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C5",
+      "label": "draw",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 225,
+        "command": "draw",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C5",
+      "label": "Install 30073",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 226,
+        "command": "install",
+        "index": 1
+      }
+    },
+    {
+      "turn": "C5",
+      "label": "Finish optional install trashing",
+      "before": {
+        "phase": "Corp Install",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 227,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C5",
+      "label": "Install 30069",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 228,
+        "command": "install",
+        "index": 1
+      }
+    },
+    {
+      "turn": "R5",
+      "label": "draw",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 241,
+        "command": "draw",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R5",
+      "label": "Basic run Remote 0",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 243,
+        "command": "run",
+        "index": 3
+      }
+    },
+    {
+      "turn": "R5",
+      "label": "Rez encountered ice",
+      "before": {
+        "phase": "Run 1.5",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 245,
+        "command": "rez",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R5",
+      "label": "Use breaker 30032",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 250,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R5",
+      "label": "Select subroutine",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 251,
+        "command": "continue",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R5",
+      "label": "Use breaker 30032",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 252,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R5",
+      "label": "Select subroutine",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 253,
+        "command": "continue",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R5",
+      "label": "Pass Run: Movement",
+      "before": {
+        "phase": "Run 4.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 261,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R5",
+      "label": "Use breaker 30032",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 266,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R5",
+      "label": "Select subroutine",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 267,
+        "command": "continue",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R5",
+      "label": "Use breaker 30032",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 268,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R5",
+      "label": "Select subroutine",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 269,
+        "command": "continue",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R5",
+      "label": "Pass Run: Movement",
+      "before": {
+        "phase": "Run 4.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 277,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R5",
+      "label": "Access 30069",
+      "before": {
+        "phase": "Run 5.2",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 284,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R5",
+      "label": "steal",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 285,
+        "command": "steal",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R5",
+      "label": "Send a Message free rez",
+      "before": {
+        "phase": "Stolen",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 287,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R5",
+      "label": "Choose free rez",
+      "before": {
+        "phase": "Stolen",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 288,
+        "command": "continue",
+        "index": 1
+      }
+    },
+    {
+      "turn": "R5",
+      "label": "Resolve Mayfly",
+      "before": {
+        "phase": "Run 6.4",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 291,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R5",
+      "label": "draw",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 296,
+        "command": "draw",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R5",
+      "label": "Use 30027",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 298,
+        "command": "trigger",
+        "index": 1
+      }
+    },
+    {
+      "turn": "C6",
+      "label": "draw",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 311,
+        "command": "draw",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C6",
+      "label": "draw",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 312,
+        "command": "draw",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C6",
+      "label": "Install 30074",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 313,
+        "command": "install",
+        "index": 1
+      }
+    },
+    {
+      "turn": "C6",
+      "label": "Finish optional install trashing",
+      "before": {
+        "phase": "Corp Install",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 314,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R6",
+      "label": "draw",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 326,
+        "command": "draw",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R6",
+      "label": "draw",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 328,
+        "command": "draw",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R6",
+      "label": "Use 30027",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 330,
+        "command": "trigger",
+        "index": 1
+      }
+    },
+    {
+      "turn": "R6",
+      "label": "play",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 333,
+        "command": "play",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C7",
+      "label": "play",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 346,
+        "command": "play",
+        "index": 1
+      }
+    },
+    {
+      "turn": "C7",
+      "label": "Install 30037",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 348,
+        "command": "install",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C7",
+      "label": "Install 30067",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 350,
+        "command": "install",
+        "index": 1
+      }
+    },
+    {
+      "turn": "C7",
+      "label": "Pass Corporation's Action Phase",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 352,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C7",
+      "label": "Pass Corporation's Discard Phase: Response",
+      "before": {
+        "phase": "Corp 3.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 355,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R7",
+      "label": "Pass Runner's Turn Begins",
+      "before": {
+        "phase": "Runner 1.1",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 360,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R7",
+      "label": "play",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 363,
+        "command": "play",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R7",
+      "label": "Install 30014",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 366,
+        "command": "install",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R7",
+      "label": "Install 30013",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 369,
+        "command": "install",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R7",
+      "label": "Pass Runner's Discard Phase",
+      "before": {
+        "phase": "Runner 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 374,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C8",
+      "label": "Rez before turn begins",
+      "before": {
+        "phase": "Corp 1.1",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 377,
+        "command": "rez",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C8",
+      "label": "Resolve Nico Campaign",
+      "before": {
+        "phase": "Corp 1.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 380,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C8",
+      "label": "advance",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 385,
+        "command": "advance",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C8",
+      "label": "advance",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 386,
+        "command": "advance",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C8",
+      "label": "play",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 387,
+        "command": "play",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C8",
+      "label": "Choose operation target",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 388,
+        "command": "continue",
+        "index": 2
+      }
+    },
+    {
+      "turn": "C8",
+      "label": "score",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 389,
+        "command": "score",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R8",
+      "label": "Basic run Remote 1",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 403,
+        "command": "run",
+        "index": 4
+      }
+    },
+    {
+      "turn": "R8",
+      "label": "Pass Run: Movement",
+      "before": {
+        "phase": "Run 4.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 406,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R8",
+      "label": "Access 30037",
+      "before": {
+        "phase": "Run 5.2",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 413,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R8",
+      "label": "trash",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 414,
+        "command": "trash",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R8",
+      "label": "Install 30015",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 419,
+        "command": "install",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R8",
+      "label": "play",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 422,
+        "command": "play",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R8",
+      "label": "Choose event target R&D",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 423,
+        "command": "continue",
+        "index": 1
+      }
+    },
+    {
+      "turn": "R8",
+      "label": "Boost breaker",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 428,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R8",
+      "label": "Use breaker 30015",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 430,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R8",
+      "label": "Select subroutine",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 431,
+        "command": "continue",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R8",
+      "label": "Use breaker 30015",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 432,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R8",
+      "label": "Select subroutine",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 433,
+        "command": "continue",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R8",
+      "label": "Pass Run: Movement",
+      "before": {
+        "phase": "Run 4.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 441,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R8",
+      "label": "Resolve Jailbreak",
+      "before": {
+        "phase": "Run 5.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 446,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R8",
+      "label": "Access unspecified non-agenda",
+      "before": {
+        "phase": "Run 5.2",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 450,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R8",
+      "label": "Leave accessed card",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 453,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R8",
+      "label": "Access unspecified non-agenda",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 454,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R8",
+      "label": "Leave accessed card",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 457,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R8",
+      "label": "Use 30033",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 461,
+        "command": "trigger",
+        "index": 1
+      }
+    },
+    {
+      "turn": "C9",
+      "label": "Install 30039",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 474,
+        "command": "install",
+        "index": 1
+      }
+    },
+    {
+      "turn": "C9",
+      "label": "Finish optional install trashing",
+      "before": {
+        "phase": "Corp Install",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 475,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C9",
+      "label": "Install 30070",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 476,
+        "command": "install",
+        "index": 1
+      }
+    },
+    {
+      "turn": "C9",
+      "label": "advance",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 478,
+        "command": "advance",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R9",
+      "label": "play",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 490,
+        "command": "play",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R9",
+      "label": "Choose event target Remote 0",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 491,
+        "command": "continue",
+        "index": 3
+      }
+    },
+    {
+      "turn": "R9",
+      "label": "Pass Run: Initiation",
+      "before": {
+        "phase": "Run 1.5",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 493,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R9",
+      "label": "Pass Run: Approach Ice",
+      "before": {
+        "phase": "Run 2.1",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 495,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R9",
+      "label": "Pass Run: Movement",
+      "before": {
+        "phase": "Run 4.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 498,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R9",
+      "label": "Rez encountered ice",
+      "before": {
+        "phase": "Run 2.1",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 502,
+        "command": "rez",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R9",
+      "label": "Fire next unbroken subroutine",
+      "before": {
+        "phase": "Run Subroutines",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 507,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R9",
+      "label": "Fire next unbroken subroutine",
+      "before": {
+        "phase": "Run Subroutines",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 508,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R9",
+      "label": "Use 30027",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 516,
+        "command": "trigger",
+        "index": 2
+      }
+    },
+    {
+      "turn": "R9",
+      "label": "Install 30027",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 519,
+        "command": "install",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R9",
+      "label": "Use 30027",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 522,
+        "command": "trigger",
+        "index": 2
+      }
+    },
+    {
+      "turn": "C10",
+      "label": "advance",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 535,
+        "command": "advance",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C10",
+      "label": "advance",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 536,
+        "command": "advance",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C10",
+      "label": "score",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 537,
+        "command": "score",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C10",
+      "label": "Resolve Superconducting Hub · You may draw 2 cards",
+      "before": {
+        "phase": "Scored",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 538,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C10",
+      "label": "Take Hub draw",
+      "before": {
+        "phase": "Scored",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 540,
+        "command": "continue",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C10",
+      "label": "play",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 543,
+        "command": "play",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R10",
+      "label": "draw",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 556,
+        "command": "draw",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R10",
+      "label": "Install 30026",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 558,
+        "command": "install",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R10",
+      "label": "Finish optional install trashing",
+      "before": {
+        "phase": "Runner Install",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 559,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R10",
+      "label": "draw",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 561,
+        "command": "draw",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R10",
+      "label": "Use 30027",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 563,
+        "command": "trigger",
+        "index": 2
+      }
+    },
+    {
+      "turn": "C11",
+      "label": "draw",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 576,
+        "command": "draw",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C11",
+      "label": "draw",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 577,
+        "command": "draw",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C11",
+      "label": "Install 30045",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 578,
+        "command": "install",
+        "index": 1
+      }
+    },
+    {
+      "turn": "C11",
+      "label": "Pass Corporation's Action Phase",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 580,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C11",
+      "label": "Pass Corporation's Discard Phase: Response",
+      "before": {
+        "phase": "Corp 3.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 583,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R11",
+      "label": "Pass Runner's Turn Begins",
+      "before": {
+        "phase": "Runner 1.1",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 588,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R11",
+      "label": "draw",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 591,
+        "command": "draw",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R11",
+      "label": "draw",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 593,
+        "command": "draw",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R11",
+      "label": "Use 30027",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 595,
+        "command": "trigger",
+        "index": 2
+      }
+    },
+    {
+      "turn": "R11",
+      "label": "Install 30006",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 598,
+        "command": "install",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R11",
+      "label": "Finish optional install trashing",
+      "before": {
+        "phase": "Runner Install",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 599,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R11",
+      "label": "Pass Runner's Discard Phase",
+      "before": {
+        "phase": "Runner 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 603,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C12",
+      "label": "Pass Corporation's Draw Phase",
+      "before": {
+        "phase": "Corp 1.1",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 606,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C12",
+      "label": "draw",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 611,
+        "command": "draw",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C12",
+      "label": "draw",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 612,
+        "command": "draw",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C12",
+      "label": "Install 30045",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 613,
+        "command": "install",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C12",
+      "label": "Pass Corporation's Action Phase",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 615,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C12",
+      "label": "Hand-limit discard",
+      "before": {
+        "phase": "Corp 3.1",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 617,
+        "command": "discard",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C12",
+      "label": "Pass Corporation's Discard Phase: Response",
+      "before": {
+        "phase": "Corp 3.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 619,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Pass Runner's Turn Begins",
+      "before": {
+        "phase": "Runner 1.1",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 624,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Install 30018",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 627,
+        "command": "install",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "trigger",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 630,
+        "command": "trigger",
+        "index": 2
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Red Team target Archives",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 631,
+        "command": "continue",
+        "index": 2
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Pass Run: Initiation",
+      "before": {
+        "phase": "Run 1.5",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 633,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Pass Run: Movement",
+      "before": {
+        "phase": "Run 4.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 634,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Pass Run: Movement",
+      "before": {
+        "phase": "Run 4.5",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 636,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Resolve Red Team",
+      "before": {
+        "phase": "Run 5.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 639,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Access unspecified non-agenda",
+      "before": {
+        "phase": "Run 5.2",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 643,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Access unspecified non-agenda",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 645,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Access unspecified non-agenda",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 647,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Access unspecified non-agenda",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 649,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Access unspecified non-agenda",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 651,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Access unspecified non-agenda",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 653,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Access unspecified non-agenda",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 655,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Access unspecified non-agenda",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 657,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Access unspecified non-agenda",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 659,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "trigger",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 664,
+        "command": "trigger",
+        "index": 2
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Red Team target R&D",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 665,
+        "command": "continue",
+        "index": 1
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Pass Run: Initiation",
+      "before": {
+        "phase": "Run 1.5",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 667,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Pass Run: Approach Ice",
+      "before": {
+        "phase": "Run 2.1",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 669,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Boost breaker",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 670,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Use breaker 30015",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 672,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Select subroutine",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 673,
+        "command": "continue",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Use breaker 30015",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 674,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Select subroutine",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 675,
+        "command": "continue",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Pass Run: Movement",
+      "before": {
+        "phase": "Run 4.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 683,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Pass Run: Movement",
+      "before": {
+        "phase": "Run 4.5",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 685,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Resolve Red Team",
+      "before": {
+        "phase": "Run 5.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 688,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Access unspecified non-agenda",
+      "before": {
+        "phase": "Run 5.2",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 692,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Leave accessed card",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 693,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Use 30033",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 697,
+        "command": "trigger",
+        "index": 1
+      }
+    },
+    {
+      "turn": "R12",
+      "label": "Pass Runner's Discard Phase",
+      "before": {
+        "phase": "Runner 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 702,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C13",
+      "label": "Pass Corporation's Draw Phase",
+      "before": {
+        "phase": "Corp 1.1",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 705,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C13",
+      "label": "draw",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 710,
+        "command": "draw",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C13",
+      "label": "Install 30069",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 711,
+        "command": "install",
+        "index": 1
+      }
+    },
+    {
+      "turn": "C13",
+      "label": "Trash replaced asset",
+      "before": {
+        "phase": "Corp Install",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 712,
+        "command": "trash",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C13",
+      "label": "advance",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 714,
+        "command": "advance",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C13",
+      "label": "Pass Corporation's Action Phase",
+      "before": {
+        "phase": "Corp 2.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 715,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C13",
+      "label": "Hand-limit discard",
+      "before": {
+        "phase": "Corp 3.1",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 717,
+        "command": "discard",
+        "index": 0
+      }
+    },
+    {
+      "turn": "C13",
+      "label": "Pass Corporation's Discard Phase: Response",
+      "before": {
+        "phase": "Corp 3.2",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 719,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Pass Runner's Turn Begins",
+      "before": {
+        "phase": "Runner 1.1",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 724,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "trigger",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 727,
+        "command": "trigger",
+        "index": 2
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Red Team target Archives",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 728,
+        "command": "continue",
+        "index": 2
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Pass Run: Initiation",
+      "before": {
+        "phase": "Run 1.5",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 730,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Pass Run: Movement",
+      "before": {
+        "phase": "Run 4.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 731,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Pass Run: Movement",
+      "before": {
+        "phase": "Run 4.5",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 733,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Resolve Red Team",
+      "before": {
+        "phase": "Run 5.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 736,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Access unspecified non-agenda",
+      "before": {
+        "phase": "Run 5.2",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 740,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Access unspecified non-agenda",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 742,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Access unspecified non-agenda",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 746,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Access unspecified non-agenda",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 748,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Access unspecified non-agenda",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 750,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Access unspecified non-agenda",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 752,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Access unspecified non-agenda",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 754,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Access unspecified non-agenda",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 756,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Access unspecified non-agenda",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 758,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Access unspecified non-agenda",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 760,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Access unspecified non-agenda",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 762,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Use 30014",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 767,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Basic run Remote 0",
+      "before": {
+        "phase": "Runner 1.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 770,
+        "command": "run",
+        "index": 3
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Rez encountered ice",
+      "before": {
+        "phase": "Run 1.5",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 772,
+        "command": "rez",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Pass Run: Initiation",
+      "before": {
+        "phase": "Run 1.5",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 773,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Pass Run: Approach Ice",
+      "before": {
+        "phase": "Run 2.1",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 776,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Boost breaker",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 777,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Boost breaker",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 779,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Boost breaker",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 781,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Use breaker 30006",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 783,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Select subroutine",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 784,
+        "command": "continue",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Select subroutine",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 785,
+        "command": "continue",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Use breaker 30006",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 786,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Select subroutine",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 787,
+        "command": "continue",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Finish break selection",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 788,
+        "command": "continue",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Pass Run: Movement",
+      "before": {
+        "phase": "Run 4.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 796,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Pass Run: Movement",
+      "before": {
+        "phase": "Run 4.5",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 798,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Pass Run: Approach Ice",
+      "before": {
+        "phase": "Run 2.1",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 800,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Use breaker 30026",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 801,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Select subroutine",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 802,
+        "command": "continue",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Use breaker 30026",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 803,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Select subroutine",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 804,
+        "command": "continue",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Pass Run: Movement",
+      "before": {
+        "phase": "Run 4.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 812,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Pass Run: Movement",
+      "before": {
+        "phase": "Run 4.5",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 814,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Pass Run: Approach Ice",
+      "before": {
+        "phase": "Run 2.1",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 816,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Use breaker 30015",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 817,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Select subroutine",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 818,
+        "command": "continue",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Use breaker 30015",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 819,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Select subroutine",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 820,
+        "command": "continue",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Pass Run: Movement",
+      "before": {
+        "phase": "Run 4.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 828,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Pass Run: Movement",
+      "before": {
+        "phase": "Run 4.5",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 830,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Pass Run: Approach Ice",
+      "before": {
+        "phase": "Run 2.1",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 832,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Use breaker 30015",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 833,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Select subroutine",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 834,
+        "command": "continue",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Use breaker 30015",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 835,
+        "command": "trigger",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Select subroutine",
+      "before": {
+        "phase": "Run 3.1",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 836,
+        "command": "continue",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Pass Run: Movement",
+      "before": {
+        "phase": "Run 4.3",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 844,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Pass Run: Movement",
+      "before": {
+        "phase": "Run 4.5",
+        "active": "corp"
+      },
+      "choice": {
+        "version": 846,
+        "command": "n",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "Access 30069",
+      "before": {
+        "phase": "Run 5.2",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 851,
+        "command": "access",
+        "index": 0
+      }
+    },
+    {
+      "turn": "R13",
+      "label": "steal",
+      "before": {
+        "phase": "Run Accessing",
+        "active": "runner"
+      },
+      "choice": {
+        "version": 852,
+        "command": "steal",
+        "index": 0
+      }
+    }
+  ],
+  "checkpoints": [
+    {
+      "turn": "C1",
+      "traceIndex": 7,
+      "credits": 5,
+      "sourceCredits": null,
+      "normalizationDelta": 0,
+      "corpPoints": 0,
+      "runnerPoints": 0,
+      "corpHand": 3,
+      "runnerHand": 5,
+      "terminal": null
+    },
+    {
+      "turn": "R1",
+      "traceIndex": 35,
+      "credits": 1,
+      "sourceCredits": null,
+      "normalizationDelta": 0,
+      "corpPoints": 0,
+      "runnerPoints": 1,
+      "corpHand": 3,
+      "runnerHand": 1,
+      "terminal": null
+    },
+    {
+      "turn": "C2",
+      "traceIndex": 38,
+      "credits": 4,
+      "sourceCredits": null,
+      "normalizationDelta": 0,
+      "corpPoints": 0,
+      "runnerPoints": 1,
+      "corpHand": 3,
+      "runnerHand": 1,
+      "terminal": null
+    },
+    {
+      "turn": "R2",
+      "traceIndex": 42,
+      "credits": 1,
+      "sourceCredits": null,
+      "normalizationDelta": 0,
+      "corpPoints": 0,
+      "runnerPoints": 1,
+      "corpHand": 4,
+      "runnerHand": 2,
+      "terminal": null
+    },
+    {
+      "turn": "C3",
+      "traceIndex": 45,
+      "credits": 5,
+      "sourceCredits": null,
+      "normalizationDelta": 0,
+      "corpPoints": 0,
+      "runnerPoints": 1,
+      "corpHand": 4,
+      "runnerHand": 2,
+      "terminal": null
+    },
+    {
+      "turn": "R3",
+      "traceIndex": 49,
+      "credits": 6,
+      "sourceCredits": null,
+      "normalizationDelta": 0,
+      "corpPoints": 0,
+      "runnerPoints": 1,
+      "corpHand": 5,
+      "runnerHand": 4,
+      "terminal": null
+    },
+    {
+      "turn": "C4",
+      "traceIndex": 52,
+      "credits": 15,
+      "sourceCredits": null,
+      "normalizationDelta": 0,
+      "corpPoints": 0,
+      "runnerPoints": 1,
+      "corpHand": 3,
+      "runnerHand": 4,
+      "terminal": null
+    },
+    {
+      "turn": "R4",
+      "traceIndex": 61,
+      "credits": 14,
+      "sourceCredits": null,
+      "normalizationDelta": 0,
+      "corpPoints": 0,
+      "runnerPoints": 1,
+      "corpHand": 4,
+      "runnerHand": 1,
+      "terminal": null
+    },
+    {
+      "turn": "C5",
+      "traceIndex": 65,
+      "credits": 14,
+      "sourceCredits": null,
+      "normalizationDelta": 0,
+      "corpPoints": 0,
+      "runnerPoints": 1,
+      "corpHand": 3,
+      "runnerHand": 1,
+      "terminal": null
+    },
+    {
+      "turn": "R5",
+      "traceIndex": 85,
+      "credits": 14,
+      "sourceCredits": null,
+      "normalizationDelta": 0,
+      "corpPoints": 0,
+      "runnerPoints": 4,
+      "corpHand": 4,
+      "runnerHand": 3,
+      "terminal": null
+    },
+    {
+      "turn": "C6",
+      "traceIndex": 89,
+      "credits": 11,
+      "sourceCredits": null,
+      "normalizationDelta": 0,
+      "corpPoints": 0,
+      "runnerPoints": 4,
+      "corpHand": 5,
+      "runnerHand": 3,
+      "terminal": null
+    },
+    {
+      "turn": "R6",
+      "traceIndex": 93,
+      "credits": 21,
+      "sourceCredits": null,
+      "normalizationDelta": 0,
+      "corpPoints": 0,
+      "runnerPoints": 4,
+      "corpHand": 6,
+      "runnerHand": 4,
+      "terminal": null
+    },
+    {
+      "turn": "C7",
+      "traceIndex": 98,
+      "credits": 16,
+      "sourceCredits": null,
+      "normalizationDelta": 0,
+      "corpPoints": 0,
+      "runnerPoints": 4,
+      "corpHand": 3,
+      "runnerHand": 4,
+      "terminal": null
+    },
+    {
+      "turn": "R7",
+      "traceIndex": 103,
+      "credits": 15,
+      "sourceCredits": null,
+      "normalizationDelta": 0,
+      "corpPoints": 0,
+      "runnerPoints": 4,
+      "corpHand": 3,
+      "runnerHand": 5,
+      "terminal": null
+    },
+    {
+      "turn": "C8",
+      "traceIndex": 110,
+      "credits": 21,
+      "sourceCredits": null,
+      "normalizationDelta": 0,
+      "corpPoints": 2,
+      "runnerPoints": 4,
+      "corpHand": 3,
+      "runnerHand": 5,
+      "terminal": null
+    },
+    {
+      "turn": "R8",
+      "traceIndex": 129,
+      "credits": 6,
+      "sourceCredits": null,
+      "normalizationDelta": 0,
+      "corpPoints": 2,
+      "runnerPoints": 4,
+      "corpHand": 4,
+      "runnerHand": 4,
+      "terminal": null
+    },
+    {
+      "turn": "C9",
+      "traceIndex": 133,
+      "credits": 17,
+      "sourceCredits": null,
+      "normalizationDelta": 0,
+      "corpPoints": 2,
+      "runnerPoints": 4,
+      "corpHand": 2,
+      "runnerHand": 4,
+      "terminal": null
+    },
+    {
+      "turn": "R9",
+      "traceIndex": 144,
+      "credits": 8,
+      "sourceCredits": null,
+      "normalizationDelta": 0,
+      "corpPoints": 2,
+      "runnerPoints": 4,
+      "corpHand": 3,
+      "runnerHand": 2,
+      "terminal": null
+    },
+    {
+      "turn": "C10",
+      "traceIndex": 150,
+      "credits": 14,
+      "sourceCredits": null,
+      "normalizationDelta": 0,
+      "corpPoints": 3,
+      "runnerPoints": 4,
+      "corpHand": 4,
+      "runnerHand": 2,
+      "terminal": null
+    },
+    {
+      "turn": "R10",
+      "traceIndex": 155,
+      "credits": 9,
+      "sourceCredits": null,
+      "normalizationDelta": 0,
+      "corpPoints": 3,
+      "runnerPoints": 4,
+      "corpHand": 5,
+      "runnerHand": 3,
+      "terminal": null
+    },
+    {
+      "turn": "C11",
+      "traceIndex": 160,
+      "credits": 14,
+      "sourceCredits": null,
+      "normalizationDelta": 0,
+      "corpPoints": 3,
+      "runnerPoints": 4,
+      "corpHand": 6,
+      "runnerHand": 3,
+      "terminal": null
+    },
+    {
+      "turn": "R11",
+      "traceIndex": 167,
+      "credits": 10,
+      "sourceCredits": null,
+      "normalizationDelta": 0,
+      "corpPoints": 3,
+      "runnerPoints": 4,
+      "corpHand": 6,
+      "runnerHand": 4,
+      "terminal": null
+    },
+    {
+      "turn": "C12",
+      "traceIndex": 174,
+      "credits": 14,
+      "sourceCredits": null,
+      "normalizationDelta": 0,
+      "corpPoints": 3,
+      "runnerPoints": 4,
+      "corpHand": 7,
+      "runnerHand": 4,
+      "terminal": null
+    },
+    {
+      "turn": "R12",
+      "traceIndex": 207,
+      "credits": 7,
+      "sourceCredits": null,
+      "normalizationDelta": 0,
+      "corpPoints": 3,
+      "runnerPoints": 4,
+      "corpHand": 7,
+      "runnerHand": 3,
+      "terminal": null
+    },
+    {
+      "turn": "C13",
+      "traceIndex": 215,
+      "credits": 13,
+      "sourceCredits": null,
+      "normalizationDelta": 0,
+      "corpPoints": 3,
+      "runnerPoints": 4,
+      "corpHand": 7,
+      "runnerHand": 3,
+      "terminal": null
+    },
+    {
+      "turn": "R13",
+      "traceIndex": 272,
+      "credits": 3,
+      "sourceCredits": null,
+      "normalizationDelta": 0,
+      "corpPoints": 3,
+      "runnerPoints": 7,
+      "corpHand": 7,
+      "runnerHand": 3,
+      "terminal": {
+        "winner": "runner",
+        "reason": "Runner reached 7 agenda points."
+      }
+    }
+  ],
+  "observations": [
+    {
+      "turn": "R1",
+      "kind": "ice-rez-permission",
+      "approached": 30073,
+      "offeredIce": [
+        30073
+      ]
+    },
+    {
+      "turn": "R1",
+      "kind": "run",
+      "server": "Remote 0",
+      "accesses": [
+        30071,
+        30042
+      ]
+    },
+    {
+      "turn": "R1",
+      "kind": "run",
+      "server": "HQ",
+      "accesses": [
+        30070,
+        30040
+      ]
+    },
+    {
+      "turn": "R4",
+      "kind": "source-normalization",
+      "reason": "Fills unobserved fourth click without changing resources/hand",
+      "clicksBefore": 1
+    },
+    {
+      "turn": "R4",
+      "kind": "run",
+      "server": "Archives",
+      "accesses": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "turn": "R5",
+      "kind": "ice-rez-permission",
+      "approached": 30073,
+      "offeredIce": [
+        30073
+      ]
+    },
+    {
+      "turn": "R5",
+      "kind": "run",
+      "server": "Remote 0",
+      "accesses": [
+        30069
+      ]
+    },
+    {
+      "turn": "R8",
+      "kind": "run",
+      "server": "Remote 1",
+      "accesses": [
+        30037
+      ]
+    },
+    {
+      "turn": "R8",
+      "kind": "run",
+      "server": "R&D",
+      "accesses": [
+        30045,
+        30045
+      ]
+    },
+    {
+      "turn": "R9",
+      "kind": "ice-rez-permission",
+      "approached": 30074,
+      "offeredIce": [
+        30074
+      ]
+    },
+    {
+      "turn": "R9",
+      "kind": "run",
+      "server": "Remote 0",
+      "accesses": []
+    },
+    {
+      "turn": "R12",
+      "kind": "run",
+      "server": "Archives",
+      "accesses": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "turn": "R12",
+      "kind": "run",
+      "server": "R&D",
+      "accesses": [
+        30039
+      ]
+    },
+    {
+      "turn": "R13",
+      "kind": "run",
+      "server": "Archives",
+      "accesses": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "turn": "R13",
+      "kind": "ice-rez-permission",
+      "approached": 30039,
+      "offeredIce": [
+        30039
+      ]
+    },
+    {
+      "turn": "R13",
+      "kind": "run",
+      "server": "Remote 0",
+      "accesses": [
+        30069
+      ]
+    }
+  ],
+  "final": {
+    "version": 852,
+    "steps": 852,
+    "turn": 26,
+    "side": "runner",
+    "seed": "full-ledger-neon-starter",
+    "rulesVersion": "26.03-local-1",
+    "agendaPointTarget": 6,
+    "active": "runner",
+    "playerTurn": "runner",
+    "phase": {
+      "title": "Stolen",
+      "identifier": "Stolen",
+      "source": null
+    },
+    "terminal": {
+      "winner": "runner",
+      "reason": "Runner reached 7 agenda points."
+    },
+    "corp": {
+      "side": "corp",
+      "identity": {
+        "id": "c1",
+        "side": "corp",
+        "hidden": false,
+        "installed": false,
+        "rezzed": false,
+        "faceUp": true,
+        "advancement": 0,
+        "hosted": [],
+        "number": 30077,
+        "title": "The Syndicate",
+        "type": "identity",
+        "subTypes": [
+          "Megacorp"
+        ],
+        "strength": null,
+        "advancementRequirement": null,
+        "canScore": false,
+        "counters": {},
+        "subroutines": []
+      },
+      "credits": 7,
+      "clicks": 0,
+      "points": 3,
+      "maxHand": 7,
+      "score": [
+        {
+          "id": "c21",
+          "side": "corp",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30067,
+          "title": "Offworld Office",
+          "type": "agenda",
+          "subTypes": [
+            "Expansion"
+          ],
+          "strength": null,
+          "advancementRequirement": 4,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c19",
+          "side": "corp",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30070,
+          "title": "Superconducting Hub",
+          "type": "agenda",
+          "subTypes": [
+            "Expansion"
+          ],
+          "strength": null,
+          "advancementRequirement": 3,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        }
+      ],
+      "hand": [
+        {
+          "id": "c12",
+          "side": "corp",
+          "hidden": true,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": []
+        },
+        {
+          "id": "c11",
+          "side": "corp",
+          "hidden": true,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": []
+        },
+        {
+          "id": "c10",
+          "side": "corp",
+          "hidden": true,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": []
+        },
+        {
+          "id": "c9",
+          "side": "corp",
+          "hidden": true,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": []
+        },
+        {
+          "id": "c8",
+          "side": "corp",
+          "hidden": true,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": []
+        },
+        {
+          "id": "c7",
+          "side": "corp",
+          "hidden": true,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": []
+        },
+        {
+          "id": "c6",
+          "side": "corp",
+          "hidden": true,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": []
+        }
+      ],
+      "deck": 4,
+      "discard": [
+        {
+          "id": "c35",
+          "side": "corp",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30071,
+          "title": "Regolith Mining License",
+          "type": "asset",
+          "subTypes": [],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c33",
+          "side": "corp",
+          "hidden": false,
+          "installed": false,
+          "rezzed": true,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30042,
+          "title": "Manegarm Skunkworks",
+          "type": "upgrade",
+          "subTypes": [],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c28",
+          "side": "corp",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30075,
+          "title": "Hedge Fund",
+          "type": "operation",
+          "subTypes": [
+            "Transaction"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c27",
+          "side": "corp",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30064,
+          "title": "Government Subsidy",
+          "type": "operation",
+          "subTypes": [
+            "Transaction"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c23",
+          "side": "corp",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30064,
+          "title": "Government Subsidy",
+          "type": "operation",
+          "subTypes": [
+            "Transaction"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c31",
+          "side": "corp",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30040,
+          "title": "Seamless Launch",
+          "type": "operation",
+          "subTypes": [],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c22",
+          "side": "corp",
+          "hidden": false,
+          "installed": false,
+          "rezzed": true,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30037,
+          "title": "Nico Campaign",
+          "type": "asset",
+          "subTypes": [
+            "Advertisement"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c18",
+          "side": "corp",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30075,
+          "title": "Hedge Fund",
+          "type": "operation",
+          "subTypes": [
+            "Transaction"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c15",
+          "side": "corp",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30072,
+          "title": "Palisade",
+          "type": "ice",
+          "subTypes": [
+            "Barrier"
+          ],
+          "strength": 2,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": [
+            {
+              "text": "End the run.",
+              "broken": false,
+              "fired": false
+            }
+          ]
+        },
+        {
+          "id": "c17",
+          "side": "corp",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30045,
+          "title": "Urtica Cipher",
+          "type": "asset",
+          "subTypes": [
+            "Ambush"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c13",
+          "side": "corp",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30037,
+          "title": "Nico Campaign",
+          "type": "asset",
+          "subTypes": [
+            "Advertisement"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        }
+      ],
+      "resolving": [],
+      "badPublicity": 0,
+      "servers": [
+        {
+          "name": "HQ",
+          "central": true,
+          "ice": [
+            {
+              "id": "c30",
+              "side": "corp",
+              "hidden": true,
+              "installed": true,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": []
+            }
+          ],
+          "root": []
+        },
+        {
+          "name": "R&D",
+          "central": true,
+          "ice": [
+            {
+              "id": "c29",
+              "side": "corp",
+              "hidden": false,
+              "installed": true,
+              "rezzed": true,
+              "faceUp": true,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30047,
+              "title": "Karunā",
+              "type": "ice",
+              "subTypes": [
+                "Sentry",
+                "AP"
+              ],
+              "strength": 3,
+              "advancementRequirement": null,
+              "canScore": false,
+              "counters": {},
+              "subroutines": [
+                {
+                  "text": "Do 2 net damage. The Runner may jack out.",
+                  "broken": false,
+                  "fired": false
+                },
+                {
+                  "text": "Do 2 net damage.",
+                  "broken": false,
+                  "fired": false
+                }
+              ]
+            }
+          ],
+          "root": []
+        },
+        {
+          "name": "Archives",
+          "central": true,
+          "ice": [],
+          "root": []
+        },
+        {
+          "name": "Remote 0",
+          "central": false,
+          "ice": [
+            {
+              "id": "c34",
+              "side": "corp",
+              "hidden": false,
+              "installed": true,
+              "rezzed": true,
+              "faceUp": true,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30073,
+              "title": "Tithe",
+              "type": "ice",
+              "subTypes": [
+                "Sentry",
+                "AP"
+              ],
+              "strength": 1,
+              "advancementRequirement": null,
+              "canScore": false,
+              "counters": {},
+              "subroutines": [
+                {
+                  "text": "Do 1 net damage.",
+                  "broken": true,
+                  "fired": false
+                },
+                {
+                  "text": "Gain 1 credit.",
+                  "broken": true,
+                  "fired": false
+                }
+              ]
+            },
+            {
+              "id": "c26",
+              "side": "corp",
+              "hidden": false,
+              "installed": true,
+              "rezzed": true,
+              "faceUp": true,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30073,
+              "title": "Tithe",
+              "type": "ice",
+              "subTypes": [
+                "Sentry",
+                "AP"
+              ],
+              "strength": 1,
+              "advancementRequirement": null,
+              "canScore": false,
+              "counters": {},
+              "subroutines": [
+                {
+                  "text": "Do 1 net damage.",
+                  "broken": true,
+                  "fired": false
+                },
+                {
+                  "text": "Gain 1 credit.",
+                  "broken": true,
+                  "fired": false
+                }
+              ]
+            },
+            {
+              "id": "c24",
+              "side": "corp",
+              "hidden": false,
+              "installed": true,
+              "rezzed": true,
+              "faceUp": true,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30074,
+              "title": "Whitespace",
+              "type": "ice",
+              "subTypes": [
+                "Code Gate"
+              ],
+              "strength": 0,
+              "advancementRequirement": null,
+              "canScore": false,
+              "counters": {},
+              "subroutines": [
+                {
+                  "text": "The Runner loses 3 credit.",
+                  "broken": true,
+                  "fired": false
+                },
+                {
+                  "text": "If the Runner has 6 credit or less, end the run.",
+                  "broken": true,
+                  "fired": false
+                }
+              ]
+            },
+            {
+              "id": "c20",
+              "side": "corp",
+              "hidden": false,
+              "installed": true,
+              "rezzed": true,
+              "faceUp": true,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30039,
+              "title": "Brân 1.0",
+              "type": "ice",
+              "subTypes": [
+                "Barrier",
+                "Bioroid"
+              ],
+              "strength": 6,
+              "advancementRequirement": null,
+              "canScore": false,
+              "counters": {},
+              "subroutines": [
+                {
+                  "text": "You may install 1 piece of ice from HQ or Archives directly inward from this ice, ignoring all costs.",
+                  "broken": true,
+                  "fired": false
+                },
+                {
+                  "text": "End the run.",
+                  "broken": true,
+                  "fired": false
+                },
+                {
+                  "text": "End the run.",
+                  "broken": true,
+                  "fired": false
+                }
+              ]
+            }
+          ],
+          "root": []
+        },
+        {
+          "name": "Remote 2",
+          "central": false,
+          "ice": [],
+          "root": [
+            {
+              "id": "c16",
+              "side": "corp",
+              "hidden": true,
+              "installed": true,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": []
+            }
+          ]
+        }
+      ]
+    },
+    "runner": {
+      "side": "runner",
+      "identity": {
+        "id": "c36",
+        "side": "runner",
+        "hidden": false,
+        "installed": false,
+        "rezzed": false,
+        "faceUp": true,
+        "advancement": 0,
+        "hosted": [],
+        "number": 30076,
+        "title": "The Catalyst",
+        "type": "identity",
+        "subTypes": [
+          "Natural"
+        ],
+        "strength": null,
+        "advancementRequirement": null,
+        "canScore": false,
+        "counters": {},
+        "subroutines": []
+      },
+      "credits": 3,
+      "clicks": 1,
+      "points": 7,
+      "maxHand": 5,
+      "score": [
+        {
+          "id": "c32",
+          "side": "corp",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30070,
+          "title": "Superconducting Hub",
+          "type": "agenda",
+          "subTypes": [
+            "Expansion"
+          ],
+          "strength": null,
+          "advancementRequirement": 3,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c25",
+          "side": "corp",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30069,
+          "title": "Send a Message",
+          "type": "agenda",
+          "subTypes": [
+            "Security"
+          ],
+          "strength": null,
+          "advancementRequirement": 5,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c14",
+          "side": "corp",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 1,
+          "hosted": [],
+          "number": 30069,
+          "title": "Send a Message",
+          "type": "agenda",
+          "subTypes": [
+            "Security"
+          ],
+          "strength": null,
+          "advancementRequirement": 5,
+          "canScore": false,
+          "counters": {
+            "advancement": 1
+          },
+          "subroutines": []
+        }
+      ],
+      "hand": [
+        {
+          "id": "c45",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30006,
+          "title": "Cleaver",
+          "type": "program",
+          "subTypes": [
+            "Icebreaker",
+            "Fracter"
+          ],
+          "strength": 3,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c44",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30012,
+          "title": "Tread Lightly",
+          "type": "event",
+          "subTypes": [
+            "Run"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c43",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30015,
+          "title": "Carmen",
+          "type": "program",
+          "subTypes": [
+            "Icebreaker",
+            "Killer"
+          ],
+          "strength": 2,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        }
+      ],
+      "deck": 6,
+      "discard": [
+        {
+          "id": "c66",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30030,
+          "title": "Sure Gamble",
+          "type": "event",
+          "subTypes": [],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c63",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30032,
+          "title": "Mayfly",
+          "type": "program",
+          "subTypes": [
+            "Icebreaker",
+            "AI"
+          ],
+          "strength": 1,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c64",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30029,
+          "title": "Overclock",
+          "type": "event",
+          "subTypes": [
+            "Run"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c62",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30028,
+          "title": "Jailbreak",
+          "type": "event",
+          "subTypes": [
+            "Run"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c60",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30020,
+          "title": "Creative Commission",
+          "type": "event",
+          "subTypes": [],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c59",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30030,
+          "title": "Sure Gamble",
+          "type": "event",
+          "subTypes": [],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c58",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30030,
+          "title": "Sure Gamble",
+          "type": "event",
+          "subTypes": [],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c65",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30032,
+          "title": "Mayfly",
+          "type": "program",
+          "subTypes": [
+            "Icebreaker",
+            "AI"
+          ],
+          "strength": 1,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c56",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30020,
+          "title": "Creative Commission",
+          "type": "event",
+          "subTypes": [],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c55",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30021,
+          "title": "VRcation",
+          "type": "event",
+          "subTypes": [],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c51",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30028,
+          "title": "Jailbreak",
+          "type": "event",
+          "subTypes": [
+            "Run"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c50",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30012,
+          "title": "Tread Lightly",
+          "type": "event",
+          "subTypes": [
+            "Run"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c57",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30027,
+          "title": "Telework Contract",
+          "type": "resource",
+          "subTypes": [
+            "Job"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        {
+          "id": "c49",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30027,
+          "title": "Telework Contract",
+          "type": "resource",
+          "subTypes": [
+            "Job"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        }
+      ],
+      "resolving": [],
+      "tags": 0,
+      "coreDamage": 0,
+      "temporaryCredits": 0,
+      "memory": 5,
+      "memoryUsed": 3,
+      "rig": {
+        "programs": [
+          {
+            "id": "c52",
+            "side": "runner",
+            "hidden": false,
+            "installed": true,
+            "rezzed": false,
+            "faceUp": true,
+            "advancement": 0,
+            "hosted": [],
+            "number": 30015,
+            "title": "Carmen",
+            "type": "program",
+            "subTypes": [
+              "Icebreaker",
+              "Killer"
+            ],
+            "strength": 2,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "subroutines": []
+          },
+          {
+            "id": "c48",
+            "side": "runner",
+            "hidden": false,
+            "installed": true,
+            "rezzed": false,
+            "faceUp": true,
+            "advancement": 0,
+            "hosted": [],
+            "number": 30026,
+            "title": "Unity",
+            "type": "program",
+            "subTypes": [
+              "Icebreaker",
+              "Decoder"
+            ],
+            "strength": 1,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "subroutines": []
+          },
+          {
+            "id": "c47",
+            "side": "runner",
+            "hidden": false,
+            "installed": true,
+            "rezzed": false,
+            "faceUp": true,
+            "advancement": 0,
+            "hosted": [],
+            "number": 30006,
+            "title": "Cleaver",
+            "type": "program",
+            "subTypes": [
+              "Icebreaker",
+              "Fracter"
+            ],
+            "strength": 3,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "subroutines": []
+          }
+        ],
+        "hardware": [
+          {
+            "id": "c54",
+            "side": "runner",
+            "hidden": false,
+            "installed": true,
+            "rezzed": false,
+            "faceUp": true,
+            "advancement": 0,
+            "hosted": [],
+            "number": 30014,
+            "title": "Pennyshaver",
+            "type": "hardware",
+            "subTypes": [
+              "Console"
+            ],
+            "strength": null,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {
+              "credits": 1
+            },
+            "subroutines": []
+          },
+          {
+            "id": "c53",
+            "side": "runner",
+            "hidden": false,
+            "installed": true,
+            "rezzed": false,
+            "faceUp": true,
+            "advancement": 0,
+            "hosted": [],
+            "number": 30013,
+            "title": "Docklands Pass",
+            "type": "hardware",
+            "subTypes": [],
+            "strength": null,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "subroutines": []
+          }
+        ],
+        "resources": [
+          {
+            "id": "c61",
+            "side": "runner",
+            "hidden": false,
+            "installed": true,
+            "rezzed": false,
+            "faceUp": true,
+            "advancement": 0,
+            "hosted": [],
+            "number": 30033,
+            "title": "Smartware Distributor",
+            "type": "resource",
+            "subTypes": [
+              "Connection"
+            ],
+            "strength": null,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {
+              "credits": 2
+            },
+            "subroutines": []
+          },
+          {
+            "id": "c46",
+            "side": "runner",
+            "hidden": false,
+            "installed": true,
+            "rezzed": false,
+            "faceUp": true,
+            "advancement": 0,
+            "hosted": [],
+            "number": 30018,
+            "title": "Red Team",
+            "type": "resource",
+            "subTypes": [
+              "Job"
+            ],
+            "strength": null,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {
+              "credits": 3
+            },
+            "subroutines": []
+          }
+        ]
+      }
+    },
+    "run": {
+      "server": "Remote 0",
+      "ice": -1,
+      "encountering": false,
+      "movement": false,
+      "tools": [],
+      "restrictions": [],
+      "card": null
+    },
+    "access": null,
+    "decision": null,
+    "quietWindow": false,
+    "assistance": null,
+    "installation": null,
+    "historyCount": 485,
+    "history": [
+      {
+        "text": "Runner spent one click",
+        "turn": 22,
+        "side": "runner"
+      },
+      {
+        "text": "Runner drew a card",
+        "turn": 22,
+        "side": "runner",
+        "draw": {
+          "kind": "action"
+        }
+      },
+      {
+        "text": "Using Telework Contract:",
+        "turn": 22,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one click",
+        "turn": 22,
+        "side": "runner"
+      },
+      {
+        "text": "3 credits taken from Telework Contract",
+        "turn": 22,
+        "side": "runner"
+      },
+      {
+        "text": "Telework Contract trashed",
+        "turn": 22,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one click",
+        "turn": 22,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent 3 credits",
+        "turn": 22,
+        "side": "runner"
+      },
+      {
+        "text": "Runner installed Cleaver",
+        "turn": 22,
+        "side": "runner"
+      },
+      {
+        "text": "Corp drew a card",
+        "turn": 23,
+        "side": "corp",
+        "draw": {
+          "kind": "mandatory"
+        }
+      },
+      {
+        "text": "Corp spent one click",
+        "turn": 23,
+        "side": "corp"
+      },
+      {
+        "text": "Corp drew a card",
+        "turn": 23,
+        "side": "corp",
+        "draw": {
+          "kind": "action"
+        }
+      },
+      {
+        "text": "Corp spent one click",
+        "turn": 23,
+        "side": "corp"
+      },
+      {
+        "text": "Corp drew a card",
+        "turn": 23,
+        "side": "corp",
+        "draw": {
+          "kind": "action"
+        }
+      },
+      {
+        "text": "Corp created a new remote server",
+        "turn": 23,
+        "side": "corp"
+      },
+      {
+        "text": "Corp spent one click",
+        "turn": 23,
+        "side": "corp"
+      },
+      {
+        "text": "Corp installed a card in root of a remote server",
+        "turn": 23,
+        "side": "corp"
+      },
+      {
+        "text": "Corp discarded \"Palisade\"",
+        "turn": 23,
+        "side": "corp"
+      },
+      {
+        "text": "Runner spent one click",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent 5 credits",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Runner installed Red Team",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "12 credits loaded onto Red Team",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Using Red Team:",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one click",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Run initiated attacking Archives",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Approaching Archives",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Run successful",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "1 credit placed on Pennyshaver",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "3 credits taken from Red Team",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Palisade accessed",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Hedge Fund accessed",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Nico Campaign accessed",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Seamless Launch accessed",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Government Subsidy accessed",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Government Subsidy accessed",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Hedge Fund accessed",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Manegarm Skunkworks accessed",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Regolith Mining License accessed",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Run ends",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Using Red Team:",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one click",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Run initiated attacking R&D",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Approaching outermost piece of ice protecting R&D",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Approaching outermost piece of ice protecting R&D",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Encountering Karunā protecting R&D at position 0",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Using Carmen:",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent 2 credits",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Carmen gets +3 strength",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Using Carmen:",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one credit",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Subroutine \"Do 2 net damage. The Runner may jack out.\" broken",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Using Carmen:",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one credit",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Subroutine \"Do 2 net damage.\" broken",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Approaching R&D",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Run successful",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "1 credit placed on Pennyshaver",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "3 credits taken from Red Team",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Brân 1.0 accessed",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Run ends",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Using Smartware Distributor:",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one click",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "3 credits placed on Smartware Distributor",
+        "turn": 24,
+        "side": "runner"
+      },
+      {
+        "text": "Corp drew a card",
+        "turn": 25,
+        "side": "corp",
+        "draw": {
+          "kind": "mandatory"
+        }
+      },
+      {
+        "text": "Corp spent one click",
+        "turn": 25,
+        "side": "corp"
+      },
+      {
+        "text": "Corp drew a card",
+        "turn": 25,
+        "side": "corp",
+        "draw": {
+          "kind": "action"
+        }
+      },
+      {
+        "text": "Urtica Cipher trashed",
+        "turn": 25,
+        "side": "corp"
+      },
+      {
+        "text": "Corp spent one click",
+        "turn": 25,
+        "side": "corp"
+      },
+      {
+        "text": "Corp installed a card in root of a remote server",
+        "turn": 25,
+        "side": "corp"
+      },
+      {
+        "text": "Corp spent one click",
+        "turn": 25,
+        "side": "corp"
+      },
+      {
+        "text": "Corp spent one credit",
+        "turn": 25,
+        "side": "corp"
+      },
+      {
+        "text": "Card advanced",
+        "turn": 25,
+        "side": "corp"
+      },
+      {
+        "text": "Corp discarded \"Nico Campaign\"",
+        "turn": 25,
+        "side": "corp"
+      },
+      {
+        "text": "1 credit taken from Smartware Distributor",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Using Red Team:",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one click",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Run initiated attacking Archives",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Approaching Archives",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Run successful",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "1 credit placed on Pennyshaver",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "3 credits taken from Red Team",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Nico Campaign accessed",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Urtica Cipher accessed",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Palisade accessed",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Hedge Fund accessed",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Nico Campaign accessed",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Seamless Launch accessed",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Government Subsidy accessed",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Government Subsidy accessed",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Hedge Fund accessed",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Manegarm Skunkworks accessed",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Regolith Mining License accessed",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Run ends",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Using Pennyshaver:",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one click",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "1 credit placed on Pennyshaver",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "6 credits taken from Pennyshaver",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one click",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Run initiated attacking Remote 0",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Approaching outermost piece of ice protecting Remote 0",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Corp spent 6 credits",
+        "turn": 26,
+        "side": "runner",
+        "actor": "corp"
+      },
+      {
+        "text": "Corp rezzed Brân 1.0 protecting Remote 0 at position 3",
+        "turn": 26,
+        "side": "runner",
+        "actor": "corp"
+      },
+      {
+        "text": "Approaching outermost piece of ice protecting Remote 0",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Encountering Brân 1.0 protecting Remote 0 at position 3",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Using Cleaver:",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent 2 credits",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Cleaver gets +1 strength",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Using Cleaver:",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent 2 credits",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Cleaver gets +1 strength",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Using Cleaver:",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent 2 credits",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Cleaver gets +1 strength",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Using Cleaver:",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one credit",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Subroutine \"You may install 1 piece of ice from HQ or Archives directly inward from this ice, ignoring all costs.\" broken",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Subroutine \"End the run.\" broken",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Using Cleaver:",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one credit",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Subroutine \"End the run.\" broken",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Approaching next piece of ice protecting Remote 0",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Encountering Whitespace protecting Remote 0 at position 2",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Using Unity:",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one credit",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Subroutine \"The Runner loses 3 credit.\" broken",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Using Unity:",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one credit",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Subroutine \"If the Runner has 6 credit or less, end the run.\" broken",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Approaching next piece of ice protecting Remote 0",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Encountering Tithe protecting Remote 0 at position 1",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Using Carmen:",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one credit",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Subroutine \"Do 1 net damage.\" broken",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Using Carmen:",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one credit",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Subroutine \"Gain 1 credit.\" broken",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Approaching next piece of ice protecting Remote 0",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Encountering Tithe protecting Remote 0 at position 0",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Using Carmen:",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one credit",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Subroutine \"Do 1 net damage.\" broken",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Using Carmen:",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Runner spent one credit",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Subroutine \"Gain 1 credit.\" broken",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Approaching Remote 0",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Run successful",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "1 credit placed on Pennyshaver",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Send a Message accessed",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Send a Message stolen",
+        "turn": 26,
+        "side": "runner"
+      },
+      {
+        "text": "Runner reached 7 agenda points.",
+        "turn": 26,
+        "side": "runner"
+      }
+    ],
+    "diagnostics": []
+  }
+}

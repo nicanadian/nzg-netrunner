@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#10191e" />
+    <title>Netrunner · Local Table</title>
+    <link rel="icon" type="image/svg+xml" href="/app/icon.svg" />
+    <link rel="stylesheet" href="/app/table.css" />
+    <link rel="stylesheet" href="/app/polish.css" />
+    <link rel="stylesheet" href="/app/helper.css" />
+    <link rel="stylesheet" href="/app/run-drawer.css" />
+  <link rel="stylesheet" href="/app/interaction.css"></head>
+  <body>
+    <header class="topbar">
+      <a class="wordmark" href="/" aria-label="Netrunner Local Table"
+        ><span class="mark">N<span>∕</span></span
+        ><span>NETRUNNER<small>LOCAL TABLE</small></span></a
+      >
+      <div class="top-center">
+        <span class="live-dot"></span
+        ><span id="session-label">SYSTEM GATEWAY</span>
+      </div>
+      <nav>
+        <button id="helper-button" class="quiet" aria-expanded="false" aria-controls="game-helper">Ask helper</button>
+        <button id="help-button" class="quiet">How to play</button
+        ><button id="log-button" class="quiet">Game log</button
+        ><button id="menu-button" class="quiet">Menu <span>☰</span></button>
+      </nav>
+    </header>
+    <aside id="game-helper" class="game-helper" aria-label="Game helper" hidden>
+      <div class="helper-header"><div><span class="eyebrow">A LITTLE HELP AT THE TABLE</span><h2>Game helper</h2></div><button id="helper-close" class="quiet" aria-label="Close game helper">×</button></div>
+      <p id="helper-connection" class="helper-connection">Checking chat connection…</p>
+      <p class="helper-intro">Ask about a card, the current decision, or something that seems wrong. Your visible position is attached to each question.</p>
+      <p id="helper-setup-note" class="helper-setup-note" hidden>Built-in help covers cards, viruses, draws and scoring. Broader conversation needs a connected AI model. <a href="/README.md" target="_blank" rel="noopener">Chat setup ↗</a></p>
+      <div class="helper-suggestions"><button data-helper-question="What can I do in this situation?">What can I do?</button><button data-helper-question="What did the Runner do last turn?">Runner's last turn</button><button data-helper-question="Explain viruses in this position.">Explain viruses</button><button data-helper-question="Is this a bug or a rules interaction?">Rules or bug?</button></div>
+      <div id="helper-card-context" class="helper-card-context" hidden><button id="helper-card-label"></button><button id="helper-clear-card" aria-label="Clear selected card">×</button></div>
+      <div id="helper-messages" class="helper-messages" role="log" aria-label="Game helper conversation" aria-live="polite"></div>
+      <p id="helper-thinking" class="helper-thinking" role="status" hidden>Reading your question and position…</p>
+      <p id="helper-error" class="helper-error" role="alert" hidden></p>
+      <form id="helper-form"><label for="helper-question">Your question</label><textarea id="helper-question" rows="2" maxlength="2000" placeholder="Why did that ice lose strength?"></textarea><div><button type="button" id="helper-copy" class="quiet">Copy visible situation</button><button id="helper-send" type="submit" class="primary">Ask →</button></div></form>
+    </aside>
+    <main id="game" hidden>
+      <div class="table-wrap">
+        <div class="table" id="table">
+          <section class="mat corp-mat" aria-label="Corporation play area">
+            <div id="corp-status" class="player-status"></div>
+            <div class="corp-field">
+              <div id="corp-identity" class="identity-slot"></div>
+              <div id="servers" class="servers"></div>
+            </div>
+            <div id="corp-other" class="other-cards"></div>
+          </section>
+          <div class="run-divider" id="run-divider"></div>
+          <section class="mat runner-mat" aria-label="Runner play area">
+            <div id="runner-status" class="player-status"></div>
+            <div class="runner-field">
+              <div id="runner-identity" class="identity-slot"></div>
+              <div id="rig" class="rig"></div>
+              <div id="runner-piles" class="runner-piles"></div>
+            </div>
+            <div id="runner-other" class="other-cards"></div>
+          </section>
+        </div>
+        <section class="hand-area" aria-label="Your hand">
+          <div class="hand-heading">
+            <span id="hand-label">YOUR HAND</span
+            ><span class="hand-hint">Hover to read · Click to inspect</span
+            ><span id="hand-count"></span>
+          </div>
+          <div id="hand" class="hand"></div>
+        </section>
+      </div>
+      <aside class="decision-rail" aria-label="Game decisions">
+        <header class="decision-header">
+          <div class="rail-top"><span class="eyebrow" id="turn-label">YOUR TURN</span><span id="turn-number"></span></div>
+          <div id="priority-status" class="priority-status" role="status" aria-live="polite"></div><div id="run-status" hidden></div>
+          <h1 id="phase-title" tabindex="-1">Connecting…</h1>
+          <div class="run-view-controls" hidden>
+            <div class="run-pane-controls" role="group" aria-label="Run panel view">
+              <button data-run-pane="actions" aria-pressed="true" aria-controls="decision-actions">Actions</button>
+              <button data-run-pane="ice" aria-pressed="false" aria-controls="decision-context" id="run-ice-tab">Ice details</button>
+            </div>
+            <button id="run-sheet-toggle" class="quiet" data-run-sheet aria-expanded="true" aria-controls="decision-body">Show board ↓</button>
+          </div>
+        </header>
+        <div id="decision-body" class="decision-body">
+          <section id="decision-context" class="decision-context" aria-label="Run threats and card details" tabindex="0">
+            <div id="run-restrictions" class="run-restrictions" role="note" hidden></div>
+            <div id="access-card"></div>
+          </section>
+          <section id="decision-actions" class="decision-actions" aria-label="Your available decisions" tabindex="0">
+            <section id="opponent-playback" class="opponent-playback" aria-label="Opponent action playback" hidden></section>
+            <label class="priority-control"><input id="hold-priority" type="checkbox"> Hold priority <small>Stop for all legal paid abilities</small></label>
+            <p id="effect-source" class="effect-source" hidden></p>
+            <p id="phase-hint" class="phase-hint"></p>
+            <div id="decisions" aria-label="Available actions"></div>
+            <section id="action-receipt" class="action-receipt" role="status" aria-live="polite" hidden></section><details id="decision-extras" class="decision-extras" open>
+              <summary>Activity &amp; last action</summary>
+              <section id="resource-feedback" class="resource-feedback" aria-label="Last resource change" hidden></section>
+              <button id="opponent-review" class="opponent-review" data-review-opponent hidden></button>
+              <button id="opponent-replay" class="quiet opponent-replay" data-replay-opponent hidden>Watch actions again ↺</button>
+              <div class="rail-bottom"><div id="recent-log"></div><span class="shortcut">Read any visible card with a click</span></div>
+            </details>
+          </section>
+        </div>
+        <footer id="run-footer" class="run-footer" aria-label="Run continuation" hidden></footer>
+      </aside>
+    </main>
+    <div id="decision-announcement" class="sr-only" role="status" aria-live="polite"></div>
+    <div id="loading" hidden role="status">Shuffling the decks…</div>
+    <div id="toast" role="status" hidden></div>
+    <section id="lobby" class="lobby">
+      <div class="lobby-copy">
+        <span class="eyebrow">A GAME OF BLUFFS, BREAK-INS & BIG IDEAS</span>
+        <h1>The future<br />is up for grabs.</h1>
+        <p>
+          A corporation with something to hide.<br />A runner with nothing to
+          lose. Your move.
+        </p>
+        <div class="role-picker" role="group" aria-label="Choose your side">
+          <button class="role active" data-side="runner" aria-pressed="true">
+            <span>RUNNER</span><strong>Break the system.</strong
+            ><small>3 characters · ready-to-play decks</small></button
+          ><button class="role" data-side="corp" aria-pressed="false">
+            <span>CORPORATION</span><strong>Build an empire.</strong
+            ><small>4 corporations · ready-to-play decks</small>
+          </button>
+        </div>
+        <div id="character-picker" class="character-picker">
+          <section><label id="your-character-label" for="your-character">Your Runner</label><select id="your-character"></select><div id="your-character-summary" class="character-summary"></div></section>
+          <section><label id="opponent-character-label" for="opponent-character">AI Corporation</label><select id="opponent-character"></select><div id="opponent-character-summary" class="character-summary"></div></section>
+        </div>
+        <div class="lobby-actions">
+          <button class="primary" id="start-button">
+            Jack in <span>→</span></button
+          ><button id="resume-button" class="secondary" hidden>
+            Resume game</button
+          ><button id="deck-button" class="quiet">View decks</button>
+        </div>
+        <p id="resume-context" class="saved-context" hidden></p>
+        <div class="lobby-foot">
+          <span class="live-dot"></span>LOCAL PLAY · AI OPPONENT · SYSTEM
+          GATEWAY
+        </div>
+      </div>
+      <div class="lobby-art" aria-hidden="true">
+        <div class="orbit one"></div>
+        <div class="orbit two"></div>
+        <div class="hero-card back">
+          <img src="/assets/cards-display/30035-600.webp" alt="" />
+        </div>
+        <div class="hero-card front">
+          <img src="/assets/cards-display/30001-600.webp" alt="" />
+        </div>
+        <div class="hero-chip">
+          <span>7</span> AGENDA POINTS<br />TO CHANGE EVERYTHING
+        </div>
+      </div>
+    </section>
+    <div id="hover-preview" class="hover-preview" hidden></div>
+    <dialog aria-label="Card details" id="inspect-dialog" class="inspect-dialog">
+      <button class="close" data-close aria-label="Close card preview">
+        ×
+      </button>
+      <div id="inspect-content"></div>
+    </dialog>
+    <dialog aria-label="Finish installation" id="install-dialog" class="panel-dialog">
+      <button class="close" data-close aria-label="Close installation">×</button>
+      <div id="install-content"></div>
+    </dialog>
+    <dialog aria-label="Game menu" id="menu-dialog" class="panel-dialog">
+      <button class="close" data-close aria-label="Close menu">×</button
+      ><span class="eyebrow">LOCAL TABLE</span>
+      <h2>Take a breather.</h2>
+      <p>Your game is saved on this browser after each decision.</p>
+      <label class="interaction-preference"><input id="skip-boost-windows" type="checkbox"> Skip pointless boost-only windows<small>Pass windows whose only alternative is an expiring boost outside an encounter. Hold priority restores every paid-ability window.</small></label>
+      <label class="interaction-preference"><input id="streamline-timing" type="checkbox"> Streamline timing and forced effects<small>Pass routine optional-ability windows, resolve effects without a choice, and reveal a sole access card. Defensive rez and decisions still stop play. Card abilities remain available by reading the card or choosing Other paid abilities.</small></label>
+      <label class="interaction-preference"><input id="teaching-pauses" type="checkbox"> Pause before unbroken subroutines<small>Stop the playback to review encounters when no legal response remains.</small></label><div class="menu-actions">
+        <button id="matchup-decks-button" class="secondary">View matchup decks</button>
+        <button id="undo-button" class="secondary">
+          Undo your last decision</button
+        ><button id="new-button" class="secondary">Return to lobby</button
+        ><button id="export-button" class="secondary">Export game replay</button
+        ><button id="import-button" class="secondary">Import game replay</button><input
+            id="import-input"
+            type="file"
+            accept="application/json,.json"
+            hidden />
+        <button id="paste-replay-button" class="secondary">Paste game replay</button>
+        <button id="concede-button" class="quiet danger">Concede game</button>
+      </div>
+      <p class="credits">
+        An independent local project. Rules & AI adapted from
+        <a
+          href="https://github.com/bobtheuberfish/chiriboga"
+          target="_blank"
+          rel="noreferrer"
+          >Chiriboga</a
+        >
+        · GPL-3.0. Cards by
+        <a href="https://nullsignal.games/" target="_blank" rel="noreferrer"
+          >Null Signal Games</a
+        >. Printed artist credits retained.
+      </p>
+    </dialog>
+    <dialog aria-label="Paste game replay" id="paste-replay-dialog" class="panel-dialog">
+      <button class="close" data-close aria-label="Close replay import">×</button>
+      <span class="eyebrow">RESTORE A SAVED GAME</span>
+      <h2>Paste a replay.</h2>
+      <p>Paste the JSON from an exported replay. Importing replaces this browser’s latest saved game.</p>
+      <label for="replay-text">Game replay JSON</label>
+      <textarea id="replay-text" rows="8" spellcheck="false" placeholder='{"engine": …, "config": …, "choices": …}'></textarea>
+      <p id="replay-error" role="alert" hidden></p>
+      <button id="paste-replay-import" class="primary">Restore replay</button>
+    </dialog>
+    <dialog aria-label="Game log" id="log-dialog" class="panel-dialog">
+      <button class="close" data-close aria-label="Close game log">×</button
+      ><span class="eyebrow">EVERY MOVE LEAVES A TRACE</span>
+      <h2>Game log</h2>
+      <div id="full-log"></div>
+    </dialog>
+    <dialog aria-label="How to play" id="help-dialog" class="panel-dialog">
+      <button class="close" data-close aria-label="Close rules">×</button
+      ><span class="eyebrow">WELCOME TO NETRUNNER</span>
+      <h2>Two sides. One score.</h2>
+      <p>
+        First to <strong>7 agenda points</strong> wins. The Corp also wins if
+        damage empties the Runner’s hand and still has cards to trash. The
+        Runner wins if the Corp must draw from an empty R&D.
+      </p>
+      <h3>As the Runner</h3>
+      <p>
+        Spend your 4 clicks each turn to gain credits, draw, install programs or
+        make runs. Your icebreakers break matching ice subroutines. Reach a
+        server to access cards and steal agendas. Some agendas have additional
+        steal costs.
+      </p>
+      <h3>As the Corporation</h3>
+      <p>
+        Draw at the start of your turn, then spend 3 clicks. Install cards
+        facedown in servers; protect them with ice. Pay to rez your defenses
+        during the Runner’s run. Advance agendas, then score them when they have
+        enough advancement counters.
+      </p>
+      <h3>At this table</h3>
+      <p>
+        Hover or focus cards to magnify them. Click to pin a readable preview
+        and see available actions. The right panel offers every legal decision,
+        including passing a paid ability window. Gold outlines mark cards you
+        can act on. You can undo your last decision from Menu.
+      </p>
+      <h3>Tokens and counters</h3>
+      <p>Bright click markers are available actions; dark, turned-over markers
+        are spent. Credit stacks on cards belong to that card, separate from
+        your credit pool. Their numbers always give the exact total.</p>
+      <p>Card markers are labeled CR (hosted credits), ADV (advancement), VIR
+        (virus), PWR (power), and AGN (agenda counters). Click a visible card to
+        read its counters and use its available abilities. The engine moves
+        counters for you. Last resource change keeps the net changes between
+        decisions visible, including automatic effects.</p>
+      <p>
+        <a
+          href="https://nullsignal.games/players/learn-to-play/"
+          target="_blank"
+          rel="noreferrer"
+          >Official learning resources ↗</a
+        >
+      </p>
+    </dialog>
+    <dialog aria-label="Deck and pile library" id="deck-dialog" class="deck-dialog">
+      <button class="close" data-close aria-label="Close deck library">×</button
+      ><span class="eyebrow" id="library-eyebrow">SYSTEM GATEWAY · DECKS</span>
+      <h2>Your loadout</h2>
+      <p>
+        Two ready-to-play, legal 40-card decks. Inspect a card to read its full
+        text.
+      </p>
+      <div id="deck-content"></div>
+    </dialog>
+    <script type="module" src="/app/table.js"></script>
+  </body>
+</html>

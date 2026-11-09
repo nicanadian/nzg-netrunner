@@ -1,0 +1,33 @@
+{
+  "engine": "chiriboga-77c80b1-local-1",
+  "config": {
+    "side": "corp",
+    "seed": "corp-target-pharos-0",
+    "deckIds": {
+      "corp": "built-to-last-v1",
+      "runner": "tao-v1"
+    }
+  },
+  "choices": [
+    {
+      "command": "n",
+      "index": 0,
+      "version": 1
+    },
+    {
+      "command": "install",
+      "index": 1,
+      "version": 8
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 10
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 11
+    }
+  ]
+}

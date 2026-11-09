@@ -1,0 +1,85 @@
+{
+  "engine": "chiriboga-77c80b1-local-1",
+  "config": {
+    "side": "runner",
+    "seed": "58e93e91-159d-43b1-8659-00c459405783"
+  },
+  "choices": [
+    {
+      "version": 2,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 31,
+      "command": "play",
+      "index": 0
+    },
+    {
+      "version": 34,
+      "command": "install",
+      "index": 0
+    },
+    {
+      "version": 37,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 40,
+      "command": "play",
+      "index": 0
+    },
+    {
+      "version": 41,
+      "command": "continue",
+      "index": 1
+    },
+    {
+      "version": 57,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 62,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 66,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 67,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 68,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 69,
+      "command": "steal",
+      "index": 0
+    },
+    {
+      "version": 106,
+      "command": "install",
+      "index": 0
+    },
+    {
+      "version": 109,
+      "command": "play",
+      "index": 0
+    },
+    {
+      "version": 112,
+      "command": "draw",
+      "index": 0
+    }
+  ],
+  "conceded": false
+}

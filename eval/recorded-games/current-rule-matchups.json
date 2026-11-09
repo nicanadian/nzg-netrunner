@@ -1,0 +1,126 @@
+{
+  "kind": "Automated native-AI smoke matches; not a balance benchmark",
+  "rulesVersion": "26.03-local-2",
+  "results": [
+    {
+      "runner": "loup-v1",
+      "corp": "precision-design-v1",
+      "seed": "gateway-matchup-loup-v1-precision-design-v1",
+      "winner": "runner",
+      "reason": "Runner reached 8 agenda points.",
+      "turn": 42,
+      "steps": 1283,
+      "ms": 12642
+    },
+    {
+      "runner": "loup-v1",
+      "corp": "restoring-humanity-v1",
+      "seed": "gateway-matchup-loup-v1-restoring-humanity-v1",
+      "winner": "runner",
+      "reason": "Runner reached 7 agenda points.",
+      "turn": 36,
+      "steps": 1326,
+      "ms": 2431
+    },
+    {
+      "runner": "loup-v1",
+      "corp": "reality-plus-v1",
+      "seed": "gateway-matchup-loup-v1-reality-plus-v1",
+      "winner": "corp",
+      "reason": "Corp reached 8 agenda points.",
+      "turn": 43,
+      "steps": 1326,
+      "ms": 2795
+    },
+    {
+      "runner": "loup-v1",
+      "corp": "built-to-last-v1",
+      "seed": "gateway-matchup-loup-v1-built-to-last-v1",
+      "winner": "runner",
+      "reason": "Runner reached 8 agenda points.",
+      "turn": 28,
+      "steps": 929,
+      "ms": 20779
+    },
+    {
+      "runner": "zahya-v1",
+      "corp": "precision-design-v1",
+      "seed": "gateway-matchup-zahya-v1-precision-design-v1",
+      "winner": "corp",
+      "reason": "Corp reached 9 agenda points.",
+      "turn": 31,
+      "steps": 1127,
+      "ms": 27076
+    },
+    {
+      "runner": "zahya-v1",
+      "corp": "restoring-humanity-v1",
+      "seed": "gateway-matchup-zahya-v1-restoring-humanity-v1",
+      "winner": "corp",
+      "reason": "Runner flatlined",
+      "turn": 13,
+      "steps": 417,
+      "ms": 237
+    },
+    {
+      "runner": "zahya-v1",
+      "corp": "reality-plus-v1",
+      "seed": "gateway-matchup-zahya-v1-reality-plus-v1",
+      "winner": "runner",
+      "reason": "Runner reached 7 agenda points.",
+      "turn": 20,
+      "steps": 633,
+      "ms": 428
+    },
+    {
+      "runner": "zahya-v1",
+      "corp": "built-to-last-v1",
+      "seed": "gateway-matchup-zahya-v1-built-to-last-v1",
+      "winner": "runner",
+      "reason": "Runner reached 7 agenda points.",
+      "turn": 26,
+      "steps": 848,
+      "ms": 794
+    },
+    {
+      "runner": "tao-v1",
+      "corp": "precision-design-v1",
+      "seed": "gateway-matchup-tao-v1-precision-design-v1",
+      "winner": "runner",
+      "reason": "Runner reached 7 agenda points.",
+      "turn": 18,
+      "steps": 726,
+      "ms": 1660
+    },
+    {
+      "runner": "tao-v1",
+      "corp": "restoring-humanity-v1",
+      "seed": "gateway-matchup-tao-v1-restoring-humanity-v1",
+      "winner": "runner",
+      "reason": "Runner reached 7 agenda points.",
+      "turn": 20,
+      "steps": 702,
+      "ms": 321
+    },
+    {
+      "runner": "tao-v1",
+      "corp": "reality-plus-v1",
+      "seed": "gateway-matchup-tao-v1-reality-plus-v1",
+      "winner": "runner",
+      "reason": "Corp attempted to draw a card from empty R&D",
+      "turn": 38,
+      "steps": 1191,
+      "ms": 1915
+    },
+    {
+      "runner": "tao-v1",
+      "corp": "built-to-last-v1",
+      "seed": "gateway-matchup-tao-v1-built-to-last-v1",
+      "winner": "corp",
+      "reason": "Runner flatlined",
+      "turn": 29,
+      "steps": 841,
+      "ms": 1082
+    }
+  ]
+}

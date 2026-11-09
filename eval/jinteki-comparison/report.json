@@ -1,0 +1,214 @@
+{
+  "checkedAt": "2026-11-07T17:39:40.431Z",
+  "pins": {
+    "jinteki": "74577d02973901d9d5ef681d781acb0620abe005",
+    "cardData": "78917d587f38744aab39a52dd5750144ec65c187",
+    "leiningen": "40227328d4a9c8945362d6d626d19c2449175df6",
+    "chiriboga": "77c80b1f0f96a2af068f5d267cc0df1a1b0c9b39",
+    "localRulesVersion": "26.03-local-2"
+  },
+  "scope": "Headless, explicitly constructed positions followed by engine actions. Comparison is limited to the recorded checkpoint fields; no browser playtest, full-game parity or exhaustive rules certification is claimed.",
+  "summary": {
+    "families": 6,
+    "variants": 11,
+    "matches": 10,
+    "differences": 1,
+    "harnessErrors": []
+  },
+  "cases": [
+    {
+      "id": "overclock-manegarm-credits",
+      "status": "match",
+      "local": {
+        "pool": 5,
+        "clicks": 3,
+        "overclock": 0,
+        "runActive": true
+      },
+      "jinteki": {
+        "pool": 5,
+        "clicks": 3,
+        "overclock": 0,
+        "runActive": true
+      }
+    },
+    {
+      "id": "overclock-manegarm-clicks",
+      "status": "match",
+      "local": {
+        "pool": 5,
+        "clicks": 1,
+        "overclock": 5,
+        "runActive": true
+      },
+      "jinteki": {
+        "pool": 5,
+        "clicks": 1,
+        "overclock": 5,
+        "runActive": true
+      }
+    },
+    {
+      "id": "overclock-manegarm-end",
+      "status": "match",
+      "local": {
+        "pool": 5,
+        "clicks": 3,
+        "overclock": 0,
+        "runActive": false
+      },
+      "jinteki": {
+        "pool": 5,
+        "clicks": 3,
+        "overclock": 0,
+        "runActive": false
+      }
+    },
+    {
+      "id": "whitespace-9",
+      "status": "match",
+      "local": {
+        "afterLoss": {
+          "pool": 6,
+          "fund": 5
+        },
+        "runActive": false,
+        "fund": 0
+      },
+      "jinteki": {
+        "afterLoss": {
+          "pool": 6,
+          "fund": 5
+        },
+        "runActive": false,
+        "fund": 0
+      }
+    },
+    {
+      "id": "whitespace-10",
+      "status": "match",
+      "local": {
+        "afterLoss": {
+          "pool": 7,
+          "fund": 5
+        },
+        "runActive": true,
+        "fund": 5
+      },
+      "jinteki": {
+        "afterLoss": {
+          "pool": 7,
+          "fund": 5
+        },
+        "runActive": true,
+        "fund": 5
+      }
+    },
+    {
+      "id": "spin-iced",
+      "status": "match",
+      "local": {
+        "drawn": 2,
+        "removed": true,
+        "shuffled": 2,
+        "runActive": false,
+        "successful": true
+      },
+      "jinteki": {
+        "drawn": 2,
+        "removed": true,
+        "shuffled": 2,
+        "runActive": false,
+        "successful": true
+      }
+    },
+    {
+      "id": "spin-empty",
+      "status": "match",
+      "local": {
+        "drawn": 2,
+        "removed": true,
+        "shuffled": 2,
+        "runActive": false,
+        "successful": false
+      },
+      "jinteki": {
+        "drawn": 2,
+        "removed": true,
+        "shuffled": 2,
+        "runActive": false,
+        "successful": false
+      }
+    },
+    {
+      "id": "leech",
+      "status": "match",
+      "local": {
+        "before": 4,
+        "during": 3,
+        "after": 4,
+        "counters": 1
+      },
+      "jinteki": {
+        "before": 4,
+        "during": 3,
+        "after": 4,
+        "counters": 1
+      }
+    },
+    {
+      "id": "luminal",
+      "status": "match",
+      "local": {
+        "bonus": 3,
+        "otherScored": false,
+        "clicks": 0,
+        "creditsGained": 3
+      },
+      "jinteki": {
+        "bonus": 3,
+        "otherScored": false,
+        "clicks": 0,
+        "creditsGained": 3
+      }
+    },
+    {
+      "id": "seamless-Palisade",
+      "status": "match",
+      "local": {
+        "newCounters": 0,
+        "targetCounters": 2
+      },
+      "jinteki": {
+        "newCounters": 0,
+        "targetCounters": 2
+      }
+    },
+    {
+      "id": "seamless-Leech",
+      "status": "difference",
+      "local": {
+        "newCounters": 0,
+        "targetCounters": 2
+      },
+      "jinteki": {
+        "newCounters": 0,
+        "targetCounters": 0
+      }
+    }
+  ],
+  "findings": [
+    {
+      "case": "seamless-Leech",
+      "observation": "Local Table places 2 advancement counters on installed Leech. Jinteki rejects Leech and leaves it at 0. Both reject newly installed Urtica and accept older non-advanceable Palisade.",
+      "cause": "Jinteki game.core.def-helpers/place-advancement-counter explicitly requires (corp? target). Our current rules profile enumerates installed cards on either side.",
+      "disposition": "Recorded implementation divergence. No game behavior changed to force agreement. The printed card text and CR 1.18.2 support separating counter placement from advancing; this run does not establish an official ruling on Runner-card targets.",
+      "sources": [
+        "https://github.com/mtgred/netrunner/blob/74577d02973901d9d5ef681d781acb0620abe005/src/clj/game/core/def_helpers.clj#L634",
+        "https://github.com/mtgred/netrunner/blob/74577d02973901d9d5ef681d781acb0620abe005/src/clj/game/cards/operations.clj#L2858",
+        "https://rules.nullsignal.games/?r=rule_placing_advancement_counter",
+        "https://nullsignal.games/players/learn-to-play/learn-to-play-corp/"
+      ]
+    }
+  ]
+}

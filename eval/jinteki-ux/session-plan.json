@@ -1,0 +1,85 @@
+{
+  "startedAt": "2026-11-07T19:56:56.356Z",
+  "model": "gpt-6.1-sol",
+  "participants": "Two AI agents controlling separate player views, not human participants",
+  "browser": "Shared T3 browser, explicitly selected by user after Chrome extension host was unavailable",
+  "jinteki": {
+    "origin": "http://localhost:1042",
+    "accounts": [
+      "GatewayInterCorp",
+      "GatewayInterRunner"
+    ],
+    "plannedGames": [
+      {
+        "agent": "runner_ux_playtest",
+        "format": "Intermediate",
+        "port": 1042,
+        "accounts": [
+          "GatewayInterCorp",
+          "GatewayInterRunner"
+        ]
+      },
+      {
+        "agent": "corp_ux_playtest",
+        "format": "Beginner",
+        "port": 1043,
+        "accounts": [
+          "GatewayInterCorp",
+          "GatewayInterRunner"
+        ]
+      }
+    ],
+    "preserveUserAccounts": [
+      "GatewayBeginCorp",
+      "GatewayBeginRunner"
+    ]
+  },
+  "localTable": {
+    "runnerOrigin": "http://localhost:5178",
+    "corpOrigin": "http://localhost:5179",
+    "scope": "Actual UI comparison sessions; report exact chosen presets and distinguish sampling from completed games"
+  },
+  "method": "No engine globals, API actions, imported checkpoints or injected game state for gameplay; native browser controls only. No app or engine edits requested.",
+  "reports": [
+    "docs/playtesting/jinteki-runner-ux.md",
+    "docs/playtesting/jinteki-corp-ux.md",
+    "docs/playtesting/jinteki-ux-comparison.md"
+  ],
+  "status": "complete",
+  "methodChange": {
+    "at": "2026-11-07T20:07:28.084Z",
+    "reason": "Reduce asynchronous handoff delays while retaining actual UI play",
+    "method": "After initial paired Corp/Runner turns, each agent drives both sides of one match. This is UX self-play, not an independent hidden-information or strength evaluation."
+  },
+  "finishedAt": "2026-11-07T21:08:30.434Z",
+  "results": {
+    "jintekiBeginner": {
+      "winner": "runner",
+      "runnerPoints": 6,
+      "corpPoints": 2,
+      "runnerTurn": 11,
+      "terminalLog": "corp-beginner-terminal-runner.txt"
+    },
+    "jintekiIntermediate": {
+      "winner": "runner",
+      "runnerPoints": 8,
+      "corpPoints": 5,
+      "runnerTurn": 17,
+      "terminalLog": "runner-intermediate-terminal.txt"
+    },
+    "localTableCorp": {
+      "winner": "runner",
+      "runnerPoints": 7,
+      "corpPoints": 0,
+      "runnerTurn": 3,
+      "humanChoices": 22,
+      "replay": "corp-local-table-replay.json"
+    },
+    "localTableRunner": {
+      "scope": "sample through two successful runs, not terminal",
+      "humanChoices": 32,
+      "replay": "runner-local-table-sample-replay.json"
+    }
+  },
+  "cleanup": "Agents closed owned test tabs; parent stopped test servers1043/5178/5179; original1042 remains running."
+}

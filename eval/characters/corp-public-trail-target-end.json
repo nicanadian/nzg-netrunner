@@ -1,0 +1,103 @@
+{
+  "engine": "chiriboga-77c80b1-local-1",
+  "config": {
+    "side": "corp",
+    "seed": "corp-target-public-trail-3",
+    "deckIds": {
+      "corp": "reality-plus-v1",
+      "runner": "zahya-v1"
+    }
+  },
+  "choices": [
+    {
+      "command": "n",
+      "index": 0,
+      "version": 1
+    },
+    {
+      "command": "play",
+      "index": 0,
+      "version": 8
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 10
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 11
+    },
+    {
+      "command": "play",
+      "index": 0,
+      "version": 75
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 78
+    },
+    {
+      "command": "continue",
+      "index": 0,
+      "version": 79
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 82
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 83
+    },
+    {
+      "command": "play",
+      "index": 0,
+      "version": 150
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 152
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 153
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 210
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 211
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 212
+    },
+    {
+      "command": "play",
+      "index": 1,
+      "version": 262
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 264
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 265
+    }
+  ]
+}

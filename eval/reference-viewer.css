@@ -1,0 +1,10 @@
+.reference-eval *, .reference-eval *::before, .reference-eval *::after { animation: none !important; transition: none !important; }
+.reference-controls { border: 1px solid #e4c27845; background: #e4c27809; border-radius: 5px; padding: 10px; margin-bottom: 20px; }
+.reference-heading { display: flex; justify-content: space-between; gap: 10px; font-size: 9px; letter-spacing: 1px; color: #e4c278; }
+.reference-heading a { color: #b9c9cd; letter-spacing: 0; }
+.reference-navigation { display: flex; align-items: center; gap: 4px; margin: 9px 0; }
+.reference-navigation button { padding: 6px; border: 1px solid #ffffff30; border-radius: 3px; }
+.reference-navigation select { min-width: 0; width: 100%; background: #15262d; color: #f3f0e6; border: 1px solid #ffffff30; border-radius: 3px; font: inherit; font-size: 12px; padding: 6px 2px; }
+.reference-links { display: flex; justify-content: space-between; align-items: center; gap: 7px; font-size: 10px; color: #bdccd1; }
+.reference-links button { font-size: inherit; padding: 0; text-decoration: underline; }
+.reference-notes p { font-size: 13px; }

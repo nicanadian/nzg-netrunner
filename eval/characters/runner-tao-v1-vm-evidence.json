@@ -1,0 +1,1651 @@
+{
+  "terminal": {
+    "winner": "runner",
+    "reason": "Corp attempted to draw a card from empty R&D"
+  },
+  "points": [
+    2,
+    4
+  ],
+  "turn": 67,
+  "choices": 185,
+  "checkpoints": [
+    {
+      "choice": 2,
+      "turn": 2,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 4,
+        "cost": {
+          "clicks": 1,
+          "credits": 4
+        },
+        "label": "Install Conduit into program row",
+        "card": {
+          "id": "c54",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30024,
+          "title": "Conduit",
+          "type": "program",
+          "subTypes": [
+            "Virus"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c54",
+        "command": "install"
+      }
+    },
+    {
+      "choice": 3,
+      "turn": 2,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1,
+          "credits": 3
+        },
+        "label": "Install Echelon into program row",
+        "card": {
+          "id": "c57",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30025,
+          "title": "Echelon",
+          "type": "program",
+          "subTypes": [
+            "Icebreaker",
+            "Killer"
+          ],
+          "strength": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c57",
+        "command": "install"
+      }
+    },
+    {
+      "choice": 5,
+      "turn": 4,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": {
+          "clicks": 1
+        },
+        "label": "Conduit · Run R&D.",
+        "card": {
+          "id": "c54",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30024,
+          "title": "Conduit",
+          "type": "program",
+          "subTypes": [
+            "Virus"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c54",
+        "detail": "Run R&D.",
+        "source": "Conduit",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 42,
+      "turn": 12,
+      "phase": {
+        "title": "Runner's Action Phase",
+        "identifier": "Runner 1.3",
+        "source": null
+      },
+      "option": {
+        "index": 3,
+        "cost": {
+          "clicks": 1,
+          "credits": 2
+        },
+        "label": "Install Pantograph into hardware row",
+        "card": {
+          "id": "c51",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30023,
+          "title": "Pantograph",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c51",
+        "command": "install"
+      }
+    },
+    {
+      "choice": 54,
+      "turn": 16,
+      "phase": {
+        "title": "Stolen",
+        "identifier": "Stolen",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": null,
+        "label": "Pantograph · Pantograph: Gain 1 credit, you may install 1 card",
+        "card": {
+          "id": "c51",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30023,
+          "title": "Pantograph",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c51",
+        "source": "Pantograph",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 55,
+      "turn": 16,
+      "phase": {
+        "title": "Pantograph",
+        "identifier": "Pantograph Install",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": null,
+        "label": "Host Botulus on Ballista protecting R&D at position 0",
+        "card": {
+          "id": "c67",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30004,
+          "title": "Botulus",
+          "type": "program",
+          "subTypes": [
+            "Virus"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c67",
+        "hostId": "c16",
+        "hostLabel": "Ballista · R&D · ice 2 from outside",
+        "command": "install"
+      }
+    },
+    {
+      "choice": 57,
+      "turn": 16,
+      "phase": {
+        "title": "Stolen",
+        "identifier": "Stolen",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": null,
+        "label": "Tāo Salonga: Telepresence Magician · Tāo Salonga: Swap 2 installed pieces of ice",
+        "card": {
+          "id": "c42",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30019,
+          "title": "Tāo Salonga: Telepresence Magician",
+          "type": "identity",
+          "subTypes": [
+            "Natural"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c42",
+        "source": "Tāo Salonga: Telepresence Magician",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 58,
+      "turn": 16,
+      "phase": {
+        "title": "Tāo Salonga: Swap 2 installed pieces of ice",
+        "identifier": "Stolen",
+        "source": "Tāo Salonga: Telepresence Magician"
+      },
+      "option": {
+        "index": 0,
+        "cost": null,
+        "label": "Ballista protecting R&D at position 0",
+        "card": {
+          "id": "c16",
+          "side": "corp",
+          "hidden": false,
+          "installed": true,
+          "rezzed": true,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [
+            {
+              "id": "c67",
+              "side": "runner",
+              "hidden": false,
+              "installed": true,
+              "rezzed": false,
+              "faceUp": true,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30004,
+              "title": "Botulus",
+              "type": "program",
+              "subTypes": [
+                "Virus"
+              ],
+              "strength": null,
+              "advancementRequirement": null,
+              "canScore": false,
+              "counters": {
+                "virus": 1
+              },
+              "subroutines": []
+            }
+          ],
+          "number": 30062,
+          "title": "Ballista",
+          "type": "ice",
+          "subTypes": [
+            "Sentry",
+            "Destroyer"
+          ],
+          "strength": 4,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": [
+            {
+              "text": "Trash 1 installed program or end the run.",
+              "broken": false,
+              "fired": true
+            }
+          ]
+        },
+        "server": null,
+        "sourceId": "c42",
+        "multi": {
+          "max": 2,
+          "optional": false,
+          "button": false
+        },
+        "command": "continue"
+      }
+    },
+    {
+      "choice": 69,
+      "turn": 18,
+      "phase": {
+        "title": "Stolen",
+        "identifier": "Stolen",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": null,
+        "label": "Pantograph · Pantograph: Gain 1 credit, you may install 1 card",
+        "card": {
+          "id": "c51",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30023,
+          "title": "Pantograph",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c51",
+        "source": "Pantograph",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 70,
+      "turn": 18,
+      "phase": {
+        "title": "Pantograph",
+        "identifier": "Pantograph Install",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": null,
+        "label": "Install Smartware Distributor into resource row",
+        "card": {
+          "id": "c78",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30033,
+          "title": "Smartware Distributor",
+          "type": "resource",
+          "subTypes": [
+            "Connection"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c78",
+        "command": "install"
+      }
+    },
+    {
+      "choice": 71,
+      "turn": 18,
+      "phase": {
+        "title": "Stolen",
+        "identifier": "Stolen",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": null,
+        "label": "Tāo Salonga: Telepresence Magician · Tāo Salonga: Swap 2 installed pieces of ice",
+        "card": {
+          "id": "c42",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30019,
+          "title": "Tāo Salonga: Telepresence Magician",
+          "type": "identity",
+          "subTypes": [
+            "Natural"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c42",
+        "source": "Tāo Salonga: Telepresence Magician",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 72,
+      "turn": 18,
+      "phase": {
+        "title": "Tāo Salonga: Swap 2 installed pieces of ice",
+        "identifier": "Stolen",
+        "source": "Tāo Salonga: Telepresence Magician"
+      },
+      "option": {
+        "index": 0,
+        "cost": null,
+        "label": "Facedown card · R&D",
+        "card": {
+          "id": "c35",
+          "side": "corp",
+          "hidden": true,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": []
+        },
+        "server": null,
+        "sourceId": "c42",
+        "multi": {
+          "max": 2,
+          "optional": false,
+          "button": false
+        },
+        "command": "continue"
+      }
+    },
+    {
+      "choice": 156,
+      "turn": 59,
+      "phase": {
+        "title": "Scored",
+        "identifier": "Scored",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": null,
+        "label": "Pantograph · Pantograph: Gain 1 credit, you may install 1 card",
+        "card": {
+          "id": "c51",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30023,
+          "title": "Pantograph",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c51",
+        "source": "Pantograph",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 157,
+      "turn": 59,
+      "phase": {
+        "title": "Pantograph",
+        "identifier": "Pantograph Install",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": null,
+        "label": "Install Cleaver into program row",
+        "card": {
+          "id": "c65",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30006,
+          "title": "Cleaver",
+          "type": "program",
+          "subTypes": [
+            "Icebreaker",
+            "Fracter"
+          ],
+          "strength": 3,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c65",
+        "command": "install"
+      }
+    },
+    {
+      "choice": 159,
+      "turn": 59,
+      "phase": {
+        "title": "Scored",
+        "identifier": "Scored",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": null,
+        "label": "Tāo Salonga: Telepresence Magician · Tāo Salonga: Swap 2 installed pieces of ice",
+        "card": {
+          "id": "c42",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30019,
+          "title": "Tāo Salonga: Telepresence Magician",
+          "type": "identity",
+          "subTypes": [
+            "Natural"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c42",
+        "source": "Tāo Salonga: Telepresence Magician",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 160,
+      "turn": 59,
+      "phase": {
+        "title": "Tāo Salonga: Swap 2 installed pieces of ice",
+        "identifier": "Scored",
+        "source": "Tāo Salonga: Telepresence Magician"
+      },
+      "option": {
+        "index": 0,
+        "cost": null,
+        "label": "Ballista protecting R&D at position 0",
+        "card": {
+          "id": "c16",
+          "side": "corp",
+          "hidden": false,
+          "installed": true,
+          "rezzed": true,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [
+            {
+              "id": "c67",
+              "side": "runner",
+              "hidden": false,
+              "installed": true,
+              "rezzed": false,
+              "faceUp": true,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30004,
+              "title": "Botulus",
+              "type": "program",
+              "subTypes": [
+                "Virus"
+              ],
+              "strength": null,
+              "advancementRequirement": null,
+              "canScore": false,
+              "counters": {
+                "virus": 5
+              },
+              "subroutines": []
+            }
+          ],
+          "number": 30062,
+          "title": "Ballista",
+          "type": "ice",
+          "subTypes": [
+            "Sentry",
+            "Destroyer"
+          ],
+          "strength": 4,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": [
+            {
+              "text": "Trash 1 installed program or end the run.",
+              "broken": false,
+              "fired": true
+            }
+          ]
+        },
+        "server": null,
+        "sourceId": "c42",
+        "multi": {
+          "max": 2,
+          "optional": false,
+          "button": false
+        },
+        "command": "continue"
+      }
+    },
+    {
+      "choice": 173,
+      "turn": 65,
+      "phase": {
+        "title": "Scored",
+        "identifier": "Scored",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": null,
+        "label": "Pantograph · Pantograph: Gain 1 credit, you may install 1 card",
+        "card": {
+          "id": "c51",
+          "side": "runner",
+          "hidden": false,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30023,
+          "title": "Pantograph",
+          "type": "hardware",
+          "subTypes": [
+            "Console"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c51",
+        "source": "Pantograph",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 174,
+      "turn": 65,
+      "phase": {
+        "title": "Pantograph",
+        "identifier": "Pantograph Install",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": null,
+        "label": "Install Verbal Plasticity into resource row",
+        "card": {
+          "id": "c82",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30034,
+          "title": "Verbal Plasticity",
+          "type": "resource",
+          "subTypes": [
+            "Genetics"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c82",
+        "command": "install"
+      }
+    },
+    {
+      "choice": 175,
+      "turn": 65,
+      "phase": {
+        "title": "Scored",
+        "identifier": "Scored",
+        "source": null
+      },
+      "option": {
+        "index": 0,
+        "cost": null,
+        "label": "Tāo Salonga: Telepresence Magician · Tāo Salonga: Swap 2 installed pieces of ice",
+        "card": {
+          "id": "c42",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30019,
+          "title": "Tāo Salonga: Telepresence Magician",
+          "type": "identity",
+          "subTypes": [
+            "Natural"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "server": null,
+        "sourceId": "c42",
+        "source": "Tāo Salonga: Telepresence Magician",
+        "command": "trigger"
+      }
+    },
+    {
+      "choice": 176,
+      "turn": 65,
+      "phase": {
+        "title": "Tāo Salonga: Swap 2 installed pieces of ice",
+        "identifier": "Scored",
+        "source": "Tāo Salonga: Telepresence Magician"
+      },
+      "option": {
+        "index": 0,
+        "cost": null,
+        "label": "Facedown card · R&D",
+        "card": {
+          "id": "c35",
+          "side": "corp",
+          "hidden": true,
+          "installed": true,
+          "rezzed": false,
+          "faceUp": false,
+          "advancement": 0,
+          "hosted": []
+        },
+        "server": null,
+        "sourceId": "c42",
+        "multi": {
+          "max": 2,
+          "optional": false,
+          "button": false
+        },
+        "command": "continue"
+      }
+    }
+  ],
+  "history": [
+    {
+      "text": "Corp spent one click",
+      "turn": 57,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent one credit",
+      "turn": 57,
+      "side": "corp"
+    },
+    {
+      "text": "Card advanced",
+      "turn": 57,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent one click",
+      "turn": 57,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent one credit",
+      "turn": 57,
+      "side": "corp"
+    },
+    {
+      "text": "Card advanced",
+      "turn": 57,
+      "side": "corp"
+    },
+    {
+      "text": "Corp discarded \"hidden card\"",
+      "turn": 57,
+      "side": "corp"
+    },
+    {
+      "text": "1 virus counter placed on Botulus",
+      "turn": 58,
+      "side": "runner"
+    },
+    {
+      "text": "1 credit taken from Smartware Distributor",
+      "turn": 58,
+      "side": "runner"
+    },
+    {
+      "text": "Using Smartware Distributor:",
+      "turn": 58,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 58,
+      "side": "runner"
+    },
+    {
+      "text": "3 credits placed on Smartware Distributor",
+      "turn": 58,
+      "side": "runner"
+    },
+    {
+      "text": "Using Smartware Distributor:",
+      "turn": 58,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 58,
+      "side": "runner"
+    },
+    {
+      "text": "3 credits placed on Smartware Distributor",
+      "turn": 58,
+      "side": "runner"
+    },
+    {
+      "text": "Using Smartware Distributor:",
+      "turn": 58,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 58,
+      "side": "runner"
+    },
+    {
+      "text": "3 credits placed on Smartware Distributor",
+      "turn": 58,
+      "side": "runner"
+    },
+    {
+      "text": "Using Smartware Distributor:",
+      "turn": 58,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 58,
+      "side": "runner"
+    },
+    {
+      "text": "3 credits placed on Smartware Distributor",
+      "turn": 58,
+      "side": "runner"
+    },
+    {
+      "text": "Corp drew a card",
+      "turn": 59,
+      "side": "corp",
+      "draw": {
+        "kind": "mandatory"
+      }
+    },
+    {
+      "text": "Corp spent one click",
+      "turn": 59,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent one credit",
+      "turn": 59,
+      "side": "corp"
+    },
+    {
+      "text": "Card advanced",
+      "turn": 59,
+      "side": "corp"
+    },
+    {
+      "text": "Offworld Office scored",
+      "turn": 59,
+      "side": "corp"
+    },
+    {
+      "text": "Corp gained 7 credits",
+      "turn": 59,
+      "side": "corp"
+    },
+    {
+      "text": "Pantograph: Gain 1 credit, you may install 1 card triggered",
+      "turn": 59,
+      "side": "corp",
+      "actor": "runner"
+    },
+    {
+      "text": "Runner gained one credit",
+      "turn": 59,
+      "side": "corp",
+      "actor": "runner"
+    },
+    {
+      "text": "Runner spent 3 credits",
+      "turn": 59,
+      "side": "corp",
+      "actor": "runner"
+    },
+    {
+      "text": "Runner installed Cleaver",
+      "turn": 59,
+      "side": "corp",
+      "actor": "runner"
+    },
+    {
+      "text": "Tāo Salonga: Swap 2 installed pieces of ice triggered",
+      "turn": 59,
+      "side": "corp",
+      "actor": "runner"
+    },
+    {
+      "text": "Ballista protecting R&D at position 1 and hidden card protecting R&D at position 0 in R&D swapped",
+      "turn": 59,
+      "side": "corp",
+      "actor": "runner"
+    },
+    {
+      "text": "Corp spent one click",
+      "turn": 59,
+      "side": "corp"
+    },
+    {
+      "text": "Corp installed a card in root of a remote server",
+      "turn": 59,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent one click",
+      "turn": 59,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent 5 credits",
+      "turn": 59,
+      "side": "corp"
+    },
+    {
+      "text": "Played \"Hedge Fund\"",
+      "turn": 59,
+      "side": "corp"
+    },
+    {
+      "text": "Corp gained 9 credits",
+      "turn": 59,
+      "side": "corp"
+    },
+    {
+      "text": "1 virus counter placed on Botulus",
+      "turn": 60,
+      "side": "runner"
+    },
+    {
+      "text": "1 credit taken from Smartware Distributor",
+      "turn": 60,
+      "side": "runner"
+    },
+    {
+      "text": "Using Smartware Distributor:",
+      "turn": 60,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 60,
+      "side": "runner"
+    },
+    {
+      "text": "3 credits placed on Smartware Distributor",
+      "turn": 60,
+      "side": "runner"
+    },
+    {
+      "text": "Using Smartware Distributor:",
+      "turn": 60,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 60,
+      "side": "runner"
+    },
+    {
+      "text": "3 credits placed on Smartware Distributor",
+      "turn": 60,
+      "side": "runner"
+    },
+    {
+      "text": "Using Smartware Distributor:",
+      "turn": 60,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 60,
+      "side": "runner"
+    },
+    {
+      "text": "3 credits placed on Smartware Distributor",
+      "turn": 60,
+      "side": "runner"
+    },
+    {
+      "text": "Using Smartware Distributor:",
+      "turn": 60,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 60,
+      "side": "runner"
+    },
+    {
+      "text": "3 credits placed on Smartware Distributor",
+      "turn": 60,
+      "side": "runner"
+    },
+    {
+      "text": "Corp drew a card",
+      "turn": 61,
+      "side": "corp",
+      "draw": {
+        "kind": "mandatory"
+      }
+    },
+    {
+      "text": "Corp spent 3 clicks",
+      "turn": 61,
+      "side": "corp"
+    },
+    {
+      "text": "Virus counters purged",
+      "turn": 61,
+      "side": "corp"
+    },
+    {
+      "text": "1 virus counter placed on Botulus",
+      "turn": 62,
+      "side": "runner"
+    },
+    {
+      "text": "1 credit taken from Smartware Distributor",
+      "turn": 62,
+      "side": "runner"
+    },
+    {
+      "text": "Using Smartware Distributor:",
+      "turn": 62,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 62,
+      "side": "runner"
+    },
+    {
+      "text": "3 credits placed on Smartware Distributor",
+      "turn": 62,
+      "side": "runner"
+    },
+    {
+      "text": "Using Smartware Distributor:",
+      "turn": 62,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 62,
+      "side": "runner"
+    },
+    {
+      "text": "3 credits placed on Smartware Distributor",
+      "turn": 62,
+      "side": "runner"
+    },
+    {
+      "text": "Using Smartware Distributor:",
+      "turn": 62,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 62,
+      "side": "runner"
+    },
+    {
+      "text": "3 credits placed on Smartware Distributor",
+      "turn": 62,
+      "side": "runner"
+    },
+    {
+      "text": "Using Smartware Distributor:",
+      "turn": 62,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 62,
+      "side": "runner"
+    },
+    {
+      "text": "3 credits placed on Smartware Distributor",
+      "turn": 62,
+      "side": "runner"
+    },
+    {
+      "text": "Corp drew a card",
+      "turn": 63,
+      "side": "corp",
+      "draw": {
+        "kind": "mandatory"
+      }
+    },
+    {
+      "text": "Corp spent one click",
+      "turn": 63,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent 4 credits",
+      "turn": 63,
+      "side": "corp"
+    },
+    {
+      "text": "Corp installed ice protecting a remote server",
+      "turn": 63,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent one click",
+      "turn": 63,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent one credit",
+      "turn": 63,
+      "side": "corp"
+    },
+    {
+      "text": "Card advanced",
+      "turn": 63,
+      "side": "corp"
+    },
+    {
+      "text": "Corp gained 2 credits",
+      "turn": 63,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent one click",
+      "turn": 63,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent one credit",
+      "turn": 63,
+      "side": "corp"
+    },
+    {
+      "text": "Card advanced",
+      "turn": 63,
+      "side": "corp"
+    },
+    {
+      "text": "1 virus counter placed on Botulus",
+      "turn": 64,
+      "side": "runner"
+    },
+    {
+      "text": "1 credit taken from Smartware Distributor",
+      "turn": 64,
+      "side": "runner"
+    },
+    {
+      "text": "Using Smartware Distributor:",
+      "turn": 64,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 64,
+      "side": "runner"
+    },
+    {
+      "text": "3 credits placed on Smartware Distributor",
+      "turn": 64,
+      "side": "runner"
+    },
+    {
+      "text": "Using Smartware Distributor:",
+      "turn": 64,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 64,
+      "side": "runner"
+    },
+    {
+      "text": "3 credits placed on Smartware Distributor",
+      "turn": 64,
+      "side": "runner"
+    },
+    {
+      "text": "Using Smartware Distributor:",
+      "turn": 64,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 64,
+      "side": "runner"
+    },
+    {
+      "text": "3 credits placed on Smartware Distributor",
+      "turn": 64,
+      "side": "runner"
+    },
+    {
+      "text": "Using Smartware Distributor:",
+      "turn": 64,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 64,
+      "side": "runner"
+    },
+    {
+      "text": "3 credits placed on Smartware Distributor",
+      "turn": 64,
+      "side": "runner"
+    },
+    {
+      "text": "Corp drew a card",
+      "turn": 65,
+      "side": "corp",
+      "draw": {
+        "kind": "mandatory"
+      }
+    },
+    {
+      "text": "R&D is empty",
+      "turn": 65,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent one click",
+      "turn": 65,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent one credit",
+      "turn": 65,
+      "side": "corp"
+    },
+    {
+      "text": "Card advanced",
+      "turn": 65,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent one click",
+      "turn": 65,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent one credit",
+      "turn": 65,
+      "side": "corp"
+    },
+    {
+      "text": "Card advanced",
+      "turn": 65,
+      "side": "corp"
+    },
+    {
+      "text": "Orbital Superiority scored",
+      "turn": 65,
+      "side": "corp"
+    },
+    {
+      "text": "Do 4 meat damage or give the Runner 1 tag triggered",
+      "turn": 65,
+      "side": "corp"
+    },
+    {
+      "text": "1 tag added",
+      "turn": 65,
+      "side": "corp"
+    },
+    {
+      "text": "Pantograph: Gain 1 credit, you may install 1 card triggered",
+      "turn": 65,
+      "side": "corp",
+      "actor": "runner"
+    },
+    {
+      "text": "Runner gained one credit",
+      "turn": 65,
+      "side": "corp",
+      "actor": "runner"
+    },
+    {
+      "text": "Runner spent 3 credits",
+      "turn": 65,
+      "side": "corp",
+      "actor": "runner"
+    },
+    {
+      "text": "Runner installed Verbal Plasticity",
+      "turn": 65,
+      "side": "corp",
+      "actor": "runner"
+    },
+    {
+      "text": "Tāo Salonga: Swap 2 installed pieces of ice triggered",
+      "turn": 65,
+      "side": "corp",
+      "actor": "runner"
+    },
+    {
+      "text": "hidden card protecting R&D at position 1 and Ballista protecting R&D at position 0 in R&D swapped",
+      "turn": 65,
+      "side": "corp",
+      "actor": "runner"
+    },
+    {
+      "text": "Corp spent one click",
+      "turn": 65,
+      "side": "corp"
+    },
+    {
+      "text": "Corp spent 2 credits",
+      "turn": 65,
+      "side": "corp"
+    },
+    {
+      "text": "Smartware Distributor trashed",
+      "turn": 65,
+      "side": "corp"
+    },
+    {
+      "text": "Corp discarded \"hidden card\"",
+      "turn": 65,
+      "side": "corp"
+    },
+    {
+      "text": "1 virus counter placed on Botulus",
+      "turn": 66,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 66,
+      "side": "runner"
+    },
+    {
+      "text": "Run initiated attacking HQ",
+      "turn": 66,
+      "side": "runner"
+    },
+    {
+      "text": "Approaching outermost piece of ice protecting HQ",
+      "turn": 66,
+      "side": "runner"
+    },
+    {
+      "text": "Corp spent 5 credits",
+      "turn": 66,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Corp rezzed Ballista protecting HQ at position 3",
+      "turn": 66,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Encountering Ballista protecting HQ at position 3",
+      "turn": 66,
+      "side": "runner"
+    },
+    {
+      "text": "Firing \"Trash 1 installed program or end the run.\" on Ballista protecting HQ at position 3:",
+      "turn": 66,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Cleaver trashed",
+      "turn": 66,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Approaching next piece of ice protecting HQ",
+      "turn": 66,
+      "side": "runner"
+    },
+    {
+      "text": "Corp spent 5 credits",
+      "turn": 66,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Corp rezzed Ballista protecting HQ at position 2",
+      "turn": 66,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Encountering Ballista protecting HQ at position 2",
+      "turn": 66,
+      "side": "runner"
+    },
+    {
+      "text": "Firing \"Trash 1 installed program or end the run.\" on Ballista protecting HQ at position 2:",
+      "turn": 66,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Cleaver trashed",
+      "turn": 66,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Approaching next piece of ice protecting HQ",
+      "turn": 66,
+      "side": "runner"
+    },
+    {
+      "text": "Corp spent 2 credits",
+      "turn": 66,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Corp rezzed Whitespace protecting HQ at position 1",
+      "turn": 66,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Encountering Whitespace protecting HQ at position 1",
+      "turn": 66,
+      "side": "runner"
+    },
+    {
+      "text": "Firing \"The Runner loses 3 credit.\" on Whitespace protecting HQ at position 1:",
+      "turn": 66,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Runner lost 3 credits",
+      "turn": 66,
+      "side": "runner"
+    },
+    {
+      "text": "Firing \"If the Runner has 6 credit or less, end the run.\" on Whitespace protecting HQ at position 1:",
+      "turn": 66,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Approaching next piece of ice protecting HQ",
+      "turn": 66,
+      "side": "runner"
+    },
+    {
+      "text": "Encountering Palisade protecting HQ at position 0",
+      "turn": 66,
+      "side": "runner"
+    },
+    {
+      "text": "Firing \"End the run.\" on Palisade protecting HQ at position 0:",
+      "turn": 66,
+      "side": "runner",
+      "actor": "corp"
+    },
+    {
+      "text": "Run ends",
+      "turn": 66,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 66,
+      "side": "runner"
+    },
+    {
+      "text": "Runner drew 2 cards",
+      "turn": 66,
+      "side": "runner",
+      "draw": {
+        "kind": "action"
+      }
+    },
+    {
+      "text": "Runner spent one click",
+      "turn": 66,
+      "side": "runner"
+    },
+    {
+      "text": "Runner spent one credit",
+      "turn": 66,
+      "side": "runner"
+    },
+    {
+      "text": "Played \"Creative Commission\"",
+      "turn": 66,
+      "side": "runner"
+    },
+    {
+      "text": "Runner gained 5 credits",
+      "turn": 66,
+      "side": "runner"
+    },
+    {
+      "text": "Runner lost 1 click",
+      "turn": 66,
+      "side": "runner"
+    },
+    {
+      "text": "Corp attempted to draw a card from empty R&D",
+      "turn": 67,
+      "side": "corp"
+    }
+  ]
+}

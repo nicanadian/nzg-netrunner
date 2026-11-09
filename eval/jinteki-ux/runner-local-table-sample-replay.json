@@ -1,0 +1,175 @@
+{
+  "engine": "chiriboga-77c80b1-local-1",
+  "config": {
+    "side": "runner",
+    "seed": "786064f8-ce12-46b0-bbc8-bcc1fca80eb0",
+    "deckIds": {
+      "runner": "loup-v1",
+      "corp": "precision-design-v2"
+    },
+    "rulesVersion": "26.03-local-2"
+  },
+  "choices": [
+    {
+      "version": 2,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 33,
+      "command": "play",
+      "index": 0
+    },
+    {
+      "version": 36,
+      "command": "install",
+      "index": 3
+    },
+    {
+      "version": 38,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 39,
+      "command": "run",
+      "index": 2
+    },
+    {
+      "version": 40,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 42,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 49,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 51,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 55,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 56,
+      "command": "install",
+      "index": 3
+    },
+    {
+      "version": 57,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 58,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 60,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 65,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 70,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 74,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 77,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 83,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 86,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 89,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 93,
+      "command": "run",
+      "index": 1
+    },
+    {
+      "version": 94,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 96,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 99,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 100,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 101,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 102,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 103,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 110,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 117,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 118,
+      "command": "n",
+      "index": 0
+    }
+  ],
+  "conceded": false
+}

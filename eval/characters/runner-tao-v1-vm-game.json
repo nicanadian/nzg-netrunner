@@ -1,0 +1,955 @@
+{
+  "engine": "chiriboga-77c80b1-local-1",
+  "config": {
+    "side": "runner",
+    "seed": "panel-legal-tao-v1-6",
+    "deckIds": {
+      "runner": "tao-v1",
+      "corp": "built-to-last-v1"
+    }
+  },
+  "choices": [
+    {
+      "version": 2,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 30,
+      "command": "play",
+      "index": 0
+    },
+    {
+      "version": 33,
+      "command": "install",
+      "index": 4
+    },
+    {
+      "version": 36,
+      "command": "install",
+      "index": 0
+    },
+    {
+      "version": 37,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 69,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 85,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 92,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 93,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 97,
+      "command": "run",
+      "index": 0
+    },
+    {
+      "version": 112,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 114,
+      "command": "play",
+      "index": 0
+    },
+    {
+      "version": 115,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 159,
+      "command": "run",
+      "index": 0
+    },
+    {
+      "version": 172,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 174,
+      "command": "play",
+      "index": 0
+    },
+    {
+      "version": 175,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 188,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 221,
+      "command": "install",
+      "index": 3
+    },
+    {
+      "version": 222,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 224,
+      "command": "run",
+      "index": 0
+    },
+    {
+      "version": 237,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 239,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 272,
+      "command": "run",
+      "index": 0
+    },
+    {
+      "version": 275,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 276,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 277,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 285,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 292,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 293,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 297,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 299,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 301,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 334,
+      "command": "run",
+      "index": 0
+    },
+    {
+      "version": 337,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 338,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 339,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 347,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 354,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 355,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 359,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 361,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 363,
+      "command": "install",
+      "index": 3
+    },
+    {
+      "version": 397,
+      "command": "run",
+      "index": 0
+    },
+    {
+      "version": 410,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 412,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 414,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 447,
+      "command": "run",
+      "index": 0
+    },
+    {
+      "version": 450,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 451,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 452,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 460,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 467,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 468,
+      "command": "steal",
+      "index": 0
+    },
+    {
+      "version": 469,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 471,
+      "command": "install",
+      "index": 0
+    },
+    {
+      "version": 472,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 473,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 474,
+      "command": "continue",
+      "index": 0,
+      "cards": [
+        "c16",
+        "c35"
+      ]
+    },
+    {
+      "version": 481,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 483,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 485,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 519,
+      "command": "run",
+      "index": 0
+    },
+    {
+      "version": 522,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 523,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 524,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 532,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 539,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 540,
+      "command": "steal",
+      "index": 0
+    },
+    {
+      "version": 541,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 543,
+      "command": "install",
+      "index": 0
+    },
+    {
+      "version": 545,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 546,
+      "command": "continue",
+      "index": 0,
+      "cards": [
+        "c35",
+        "c16"
+      ]
+    },
+    {
+      "version": 553,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 556,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 559,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 603,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 606,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 609,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 612,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 646,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 649,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 652,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 655,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 689,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 692,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 695,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 698,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 726,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 729,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 732,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 735,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 769,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 772,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 775,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 778,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 812,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 815,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 818,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 821,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 855,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 858,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 861,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 864,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 898,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 901,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 904,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 907,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 941,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 944,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 947,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 950,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 978,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 981,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 984,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 987,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1021,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1024,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1027,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1030,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1064,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1067,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1070,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1073,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1107,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1110,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1113,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1116,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1150,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1153,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1156,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1159,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1193,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1196,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1199,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1202,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1230,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1233,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1236,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1239,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1274,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1277,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1280,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1283,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1316,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1319,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1322,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1325,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1359,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1362,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1365,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1368,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1402,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1405,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1408,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1411,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1429,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1431,
+      "command": "install",
+      "index": 0
+    },
+    {
+      "version": 1432,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 1433,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1434,
+      "command": "continue",
+      "index": 0,
+      "cards": [
+        "c16",
+        "c35"
+      ]
+    },
+    {
+      "version": 1455,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1458,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1461,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1464,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1491,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1494,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1497,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1500,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1534,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1537,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1540,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1543,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1566,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1568,
+      "command": "install",
+      "index": 0
+    },
+    {
+      "version": 1570,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 1571,
+      "command": "continue",
+      "index": 0,
+      "cards": [
+        "c35",
+        "c16"
+      ]
+    },
+    {
+      "version": 1588,
+      "command": "run",
+      "index": 0
+    },
+    {
+      "version": 1593,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 1603,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 1610,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 1620,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 1636,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 1651,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 1653,
+      "command": "play",
+      "index": 1
+    }
+  ],
+  "conceded": false
+}

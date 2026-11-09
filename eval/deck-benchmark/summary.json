@@ -1,0 +1,195 @@
+{
+  "planned": 96,
+  "settled": 96,
+  "completed": 96,
+  "unresolved": [],
+  "decks": [
+    {
+      "id": "loup-v1",
+      "family": "current",
+      "side": "runner",
+      "games": 16,
+      "wins": 10,
+      "losses": 6
+    },
+    {
+      "id": "zahya-v1",
+      "family": "current",
+      "side": "runner",
+      "games": 16,
+      "wins": 10,
+      "losses": 6
+    },
+    {
+      "id": "tao-v1",
+      "family": "current",
+      "side": "runner",
+      "games": 16,
+      "wins": 10,
+      "losses": 6
+    },
+    {
+      "id": "precision-design-v1",
+      "family": "current",
+      "side": "corp",
+      "games": 12,
+      "wins": 4,
+      "losses": 8
+    },
+    {
+      "id": "restoring-humanity-v1",
+      "family": "current",
+      "side": "corp",
+      "games": 12,
+      "wins": 3,
+      "losses": 9
+    },
+    {
+      "id": "reality-plus-v1",
+      "family": "current",
+      "side": "corp",
+      "games": 12,
+      "wins": 7,
+      "losses": 5
+    },
+    {
+      "id": "built-to-last-v2",
+      "family": "current",
+      "side": "corp",
+      "games": 12,
+      "wins": 4,
+      "losses": 8
+    },
+    {
+      "id": "nsg-loup-v1",
+      "family": "reference",
+      "side": "runner",
+      "games": 16,
+      "wins": 7,
+      "losses": 9
+    },
+    {
+      "id": "nsg-zahya-v1",
+      "family": "reference",
+      "side": "runner",
+      "games": 16,
+      "wins": 14,
+      "losses": 2
+    },
+    {
+      "id": "nsg-tao-v1",
+      "family": "reference",
+      "side": "runner",
+      "games": 16,
+      "wins": 12,
+      "losses": 4
+    },
+    {
+      "id": "nsg-precision-design-v1",
+      "family": "reference",
+      "side": "corp",
+      "games": 12,
+      "wins": 4,
+      "losses": 8
+    },
+    {
+      "id": "nsg-restoring-humanity-v1",
+      "family": "reference",
+      "side": "corp",
+      "games": 12,
+      "wins": 3,
+      "losses": 9
+    },
+    {
+      "id": "nsg-reality-plus-v1",
+      "family": "reference",
+      "side": "corp",
+      "games": 12,
+      "wins": 4,
+      "losses": 8
+    },
+    {
+      "id": "nsg-built-to-last-v2",
+      "family": "reference",
+      "side": "corp",
+      "games": 12,
+      "wins": 4,
+      "losses": 8
+    }
+  ],
+  "paired": [
+    {
+      "id": "loup-v1",
+      "pairedGamesEach": 16,
+      "currentWins": 10,
+      "referenceWins": 7,
+      "onlyCurrentWins": 6,
+      "onlyReferenceWins": 3
+    },
+    {
+      "id": "zahya-v1",
+      "pairedGamesEach": 16,
+      "currentWins": 10,
+      "referenceWins": 14,
+      "onlyCurrentWins": 1,
+      "onlyReferenceWins": 5
+    },
+    {
+      "id": "tao-v1",
+      "pairedGamesEach": 16,
+      "currentWins": 10,
+      "referenceWins": 12,
+      "onlyCurrentWins": 3,
+      "onlyReferenceWins": 5
+    },
+    {
+      "id": "precision-design-v1",
+      "pairedGamesEach": 12,
+      "currentWins": 4,
+      "referenceWins": 4,
+      "onlyCurrentWins": 2,
+      "onlyReferenceWins": 2
+    },
+    {
+      "id": "restoring-humanity-v1",
+      "pairedGamesEach": 12,
+      "currentWins": 3,
+      "referenceWins": 3,
+      "onlyCurrentWins": 2,
+      "onlyReferenceWins": 2
+    },
+    {
+      "id": "reality-plus-v1",
+      "pairedGamesEach": 12,
+      "currentWins": 7,
+      "referenceWins": 4,
+      "onlyCurrentWins": 6,
+      "onlyReferenceWins": 3
+    },
+    {
+      "id": "built-to-last-v2",
+      "pairedGamesEach": 12,
+      "currentWins": 4,
+      "referenceWins": 4,
+      "onlyCurrentWins": 2,
+      "onlyReferenceWins": 2
+    }
+  ],
+  "limitations": [
+    "Native Chiriboga AI-vs-AI only; no new Chrome or human playtests in this benchmark.",
+    "Only two seeds per identity pairing and lineup combination; no claim of tournament strength or human balance.",
+    "Same seed labels do not imply identical hands because deck sizes and contents differ.",
+    "Official lists are baselines, not guaranteed optimal lists or current Standard tournament-legal decks.",
+    "Opening probabilities exclude mulligans, extra draw, accesses and card effects. Taxing/damage ice is distinct from run-stopping ice.",
+    "Static runner breaker availability excludes tutors, Botulus, click breaks, derez and other ways to access; it is not a run failure probability."
+  ],
+  "dispositions": {
+    "precision-design-v1": "High opening-consistency priority: compare a 44-card, 15-ice revision with cheap code gates, draw/selection and burst economy. Bot wins alone did not establish an overall improvement; preserve bioroid scoring identity.",
+    "restoring-humanity-v1": "High priority: more cheap ice/draw and lower agenda-card density; test official ambush/damage structure rather than simply adding generic ice.",
+    "reality-plus-v1": "High opening-consistency priority: 11 ice and no Whitespace. Test cheap defense/draw changes without automatically replacing the tag-destruction package: current NBN won more paired bot games than its reference.",
+    "built-to-last-v2": "Keep revised early-defense option for now; compare 44-card agenda suite and draw/economy with official operation-heavy archetype before another change.",
+    "loup-v1": "No low-ice analogue; compare fewer redundant breakers with Cookbook, DZMZ, Docklands and Carnivore support. Current list is not proven weak by ratios alone.",
+    "zahya-v1": "Runner revision priority: dedicated draw is thin; compare VRcation, Pennyshaver and multiaccess package while retaining tutor access. The reference also won more paired bot games.",
+    "tao-v1": "Lower priority: basic economy/draw counts already comparable; test Mayfly bridge and identity/rig support before changing."
+  }
+}

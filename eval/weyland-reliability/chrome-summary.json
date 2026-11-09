@@ -1,0 +1,30 @@
+{
+  "browser": "Chrome extension",
+  "scope": "Fresh opening test through first action of Corp turn3, not a completed game",
+  "seed": "fce89166-caa3-4fe5-b2a5-cf7117697a89",
+  "choices": 8,
+  "opening": [
+    "Palisade",
+    "Malapert Data Vault",
+    "Retribution",
+    "Orbital Superiority",
+    "Orbital Superiority"
+  ],
+  "mulliganTaken": true,
+  "turn1HandAfterMandatoryDraw": [
+    "Superconducting Hub",
+    "Pharos",
+    "Ballista",
+    "Hedge Fund",
+    "Government Subsidy",
+    "Clearinghouse"
+  ],
+  "observed": "Used Hedge Fund, installed Ballista HQ and Pharos R&D, then gained credits; Runner spent first two turns building and did not run. No agenda loss by checkpoint. Does not reproduce user exact game or show failure inevitable.",
+  "restoredPhase": {
+    "title": "Corporation's Action Phase",
+    "identifier": "Corp 2.2",
+    "source": null
+  },
+  "restoredHalfTurn": 5,
+  "replayVerified": true
+}

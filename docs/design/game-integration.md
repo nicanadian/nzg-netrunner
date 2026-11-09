@@ -1,0 +1,37 @@
+# Reviewed interaction design: game integration
+
+**Current behavior (2026-11-08):** see [click-flow resolution](../playtesting/click-flow-resolution-2026-11-08.md). It supersedes the earlier per-ability confirmation and narrow skip policy described below. Historical mockups and panel reviews are unchanged.
+
+Integrated into the playable Local Table UI on 2026-11-07. The previous mockups and their panel reviews remain separate artifacts.
+
+## Behavior
+
+- Persistent last-choice receipts include cancellation even when no resources change. Cancelling a target selection names the source operation/ability; it does not use an arbitrary unchosen option as the action. Receipt resource changes come from the engine's immediate post-choice snapshot. Local ability-review cancellation explicitly says no new payment occurred.
+- Turn ownership and current priority/resolving player are separate persistent labels. Opponent playback continues to distinguish an opponent response from an opponent turn.
+- Uncommon boosts and paid break-zero choices live in More abilities. All native choices remain available. Wrong-type, already-broken and insufficient-full-break-credit reasons are visible. Already-used Telework has a visible once-per-turn reason and card inspection.
+- Menu contains an on-by-default, browser-local Skip boost-only post-action windows preference. It only passes a narrowly approved human Runner post-action window on their own turn, in post-action, run initiation, approach and pre-approach windows with no legal actions other than known Gateway boosts that expire outside an encounter, and native pass. It does not consume the decision where it was enabled. Each pass is an ordinary versioned engine choice recorded in the replay. Full control is restored by turning it off.
+- Review full break creates a guided plan using current engine-quoted strength/break costs. It selects one currently offered native ability or target at a time. Every payable ability is confirmed separately. Native source allocation remains at its actual payment step; future costs are not prepaid or reserved. The source chooser uses selectable native amounts and confirms the actual source.
+- Multi-break abilities retain their included free second target and explicit native finish choice. Quotes for individual targets use the current target cost, including zero, rather than presenting another full ability cost.
+- Stopping clears UI intent only: it never sends a pass, changes engine priority, rolls back a payment or skips a pending payment/target. A payment already in progress remains available to finish manually. Response, target, source, mandatory-effect and terminal decisions stay engine-owned. New choices use the current version and option indices.
+- Cost-labelled manual boosts activate directly, without a redundant review/confirmation screen. Native target cancellation restores the originating card/ability. Credit-source controls retain native focus; decision transitions scroll the focused control into view. Target choosers offer card inspection even for a single legal card, plus the visible source card where available. Mobile retains the existing board/drawer controls and larger critical explanatory type.
+
+## Implementation
+
+`app/interaction.mjs` derives plan steps and secondary-ability hierarchy from public DTOs; it cannot mutate an engine phase. `app/table.js` handles local review state, actual current-version choices, source controls, receipts and focus. `app/interaction.css` provides the reviewed visual hierarchy. `engine/adapter.js` exposes visible ability kinds, payment-source amounts/balances, private owner-only availability reasons and conservative quiet-window eligibility. Native Resolve/Enumerate/payment/rules behavior is retained.
+
+## Validation
+
+- `npm test` passes, including both versioned rules profiles, all seven breakers, included/free breaks, stale-input rejection, hosted/privacy checks, reference replay, and all six full recorded-game reconstructions.
+- `node tests/interaction.cjs` is included in that suite and checks current-native-choice plans, source payment before effect, cancellation with no debit, zero credits/type explanations, waiting/terminal guards and narrowly scoped skip eligibility.
+- `node tests/interaction-browser.cjs` passes against the actual page and worker in isolated Chromium. It restores a real encounter, exercises full break/manual cancellation focus, verifies preference changes do not skip the current decision, and checks narrow-screen keyboard bounds at 390/320px. A deterministic engine setup verifies actual Overclock/pool allocation and an actual Seamless Launch target cancellation without advancement. It starts and closes an ephemeral test server and does not operate existing user tabs. Its optional dependencies are the isolated `/tmp/nt-mockup-tools/node_modules/playwright-core` and existing Chromium 1193 cache.
+- Deterministic reference and six recorded-game fixtures were regenerated for the new display fields. Deep comparison after removing only those added fields proves existing choices, versions, resources, observations and outcomes did not change.
+- Latest focused parsing, frontend recovery and interaction checks were rerun after the single-target inspector adjustment. Screenshots are in `eval/interaction-integrated-*.png`.
+
+The guided plan intentionally uses per-ability confirmation and native source selection rather than executing an atomic full-break payment. The automatic skip scope is deliberately narrower than every possible boost-only window. Screen-reader testing and a human usability study were not performed.
+
+Update: boost-only post-action skipping now starts enabled unless the player explicitly saved full control. Automated passes remain in the replay but do not replace the last meaningful choice receipt. Encounter boosts and response windows remain manual.
+
+Access-inspector correction: the run context now registers its current viewer-authorized card DTO for inspection. Accessed HQ/R&D cards need not have a visible board element, so the inspector no longer relies on the board registry alone. Hidden run cards show an unrevealed-state explanation instead of a dead Read full card button. Normal visible target Read card controls also open inspection without choosing the target. `node tests/access-inspector-browser.cjs` verifies HQ/R&D on desktop/mobile, full title/text/art, unchanged decision/version/choice count and concealed unrelated HQ cards. Frontend privacy/run-drawer checks and the complete interaction browser checks also pass.
+
+
+Click reduction: redundant manual-boost review screens were removed. Default boost-only skipping now includes run initiation/approach/pre-approach while still sending each ordinary native pass; it does not skip encounters, jack-out, funding or accessed-card decisions. Guided plans open their no-cost target chooser automatically and automatically close a paid multi-break ability only when no targets or costs remain. Stopping an unpaid chooser uses its native cancellation immediately; stopping during a response or partial payment never passes or refunds that state. Every native choice remains in the replay. Browser checks reproduce the previously click-heavy flow, including opponent rez and the first actual encounter, and confirm that auto-progress stops there before spending or firing subroutines. The full suite and updated real-worker browser checks pass.

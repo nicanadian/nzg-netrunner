@@ -1,0 +1,226 @@
+{
+  "checkedOn": "2026-11-06",
+  "source": "https://raw.githubusercontent.com/jwarwick/netrunner_stats/main/20211208_games.csv",
+  "repository": "https://github.com/jwarwick/netrunner_stats",
+  "sourceBytes": 11967949,
+  "allRecords": 111112,
+  "columns": [
+    "date",
+    "time",
+    "turn",
+    "room",
+    "format",
+    "winner",
+    "reason",
+    "corp",
+    "runner"
+  ],
+  "dateRangeAll": [
+    "20210720",
+    "20211208"
+  ],
+  "allFormats": {
+    "startup": 27634,
+    "standard": 66904,
+    "eternal": 1954,
+    "system-gateway": 3135,
+    "casual": 11285,
+    "snapshot-plus": 59,
+    "classic": 125,
+    "snapshot": 16
+  },
+  "gatewayRecords": 3135,
+  "gatewayDateRange": [
+    "20210720",
+    "20211208"
+  ],
+  "gatewayWithWinner": 2757,
+  "gatewayWithTurn": 3121,
+  "gatewayWinners": {
+    "corp": 1227,
+    "": 378,
+    "runner": 1530
+  },
+  "gatewayReasons": {
+    "Flatline": 468,
+    "": 378,
+    "Agenda": 1936,
+    "Concede": 265,
+    "Decked": 88
+  },
+  "gatewayCorpIdentities": {
+    "The Syndicate: Profit over Principle": 2080,
+    "Weyland Consortium: Built to Last": 306,
+    "Haas-Bioroid: Precision Design": 304,
+    "": 71,
+    "NBN: Reality Plus": 225,
+    "Jinteki: Restoring Humanity": 148,
+    "Earth Station: SEA Headquarters": 1
+  },
+  "gatewayRunnerIdentities": {
+    "The Catalyst: Convention Breaker": 2029,
+    "Tāo Salonga: Telepresence Magician": 336,
+    "": 105,
+    "Zahya Sadeghi: Versatile Smuggler": 451,
+    "René \"Loup\" Arcemont: Party Animal": 213,
+    "Hoshiko Shiro: Untold Protagonist": 1
+  },
+  "gatewayPairs": [
+    {
+      "corp": "The Syndicate: Profit over Principle",
+      "runner": "The Catalyst: Convention Breaker",
+      "records": 1798
+    },
+    {
+      "corp": "Haas-Bioroid: Precision Design",
+      "runner": "Zahya Sadeghi: Versatile Smuggler",
+      "records": 125
+    },
+    {
+      "corp": "Weyland Consortium: Built to Last",
+      "runner": "Zahya Sadeghi: Versatile Smuggler",
+      "records": 100
+    },
+    {
+      "corp": "Weyland Consortium: Built to Last",
+      "runner": "Tāo Salonga: Telepresence Magician",
+      "records": 94
+    },
+    {
+      "corp": "The Syndicate: Profit over Principle",
+      "runner": "",
+      "records": 94
+    },
+    {
+      "corp": "The Syndicate: Profit over Principle",
+      "runner": "Zahya Sadeghi: Versatile Smuggler",
+      "records": 88
+    },
+    {
+      "corp": "NBN: Reality Plus",
+      "runner": "Zahya Sadeghi: Versatile Smuggler",
+      "records": 85
+    },
+    {
+      "corp": "Haas-Bioroid: Precision Design",
+      "runner": "Tāo Salonga: Telepresence Magician",
+      "records": 82
+    },
+    {
+      "corp": "",
+      "runner": "The Catalyst: Convention Breaker",
+      "records": 65
+    },
+    {
+      "corp": "The Syndicate: Profit over Principle",
+      "runner": "Tāo Salonga: Telepresence Magician",
+      "records": 63
+    },
+    {
+      "corp": "Weyland Consortium: Built to Last",
+      "runner": "The Catalyst: Convention Breaker",
+      "records": 57
+    },
+    {
+      "corp": "Weyland Consortium: Built to Last",
+      "runner": "René \"Loup\" Arcemont: Party Animal",
+      "records": 53
+    },
+    {
+      "corp": "NBN: Reality Plus",
+      "runner": "Tāo Salonga: Telepresence Magician",
+      "records": 51
+    },
+    {
+      "corp": "Jinteki: Restoring Humanity",
+      "runner": "Zahya Sadeghi: Versatile Smuggler",
+      "records": 51
+    },
+    {
+      "corp": "Haas-Bioroid: Precision Design",
+      "runner": "René \"Loup\" Arcemont: Party Animal",
+      "records": 50
+    },
+    {
+      "corp": "NBN: Reality Plus",
+      "runner": "René \"Loup\" Arcemont: Party Animal",
+      "records": 45
+    },
+    {
+      "corp": "Jinteki: Restoring Humanity",
+      "runner": "Tāo Salonga: Telepresence Magician",
+      "records": 43
+    },
+    {
+      "corp": "NBN: Reality Plus",
+      "runner": "The Catalyst: Convention Breaker",
+      "records": 43
+    },
+    {
+      "corp": "Haas-Bioroid: Precision Design",
+      "runner": "The Catalyst: Convention Breaker",
+      "records": 42
+    },
+    {
+      "corp": "The Syndicate: Profit over Principle",
+      "runner": "René \"Loup\" Arcemont: Party Animal",
+      "records": 37
+    },
+    {
+      "corp": "Jinteki: Restoring Humanity",
+      "runner": "René \"Loup\" Arcemont: Party Animal",
+      "records": 28
+    },
+    {
+      "corp": "Jinteki: Restoring Humanity",
+      "runner": "The Catalyst: Convention Breaker",
+      "records": 24
+    },
+    {
+      "corp": "Haas-Bioroid: Precision Design",
+      "runner": "",
+      "records": 5
+    },
+    {
+      "corp": "",
+      "runner": "Tāo Salonga: Telepresence Magician",
+      "records": 3
+    },
+    {
+      "corp": "Jinteki: Restoring Humanity",
+      "runner": "",
+      "records": 2
+    },
+    {
+      "corp": "Weyland Consortium: Built to Last",
+      "runner": "",
+      "records": 2
+    },
+    {
+      "corp": "",
+      "runner": "Zahya Sadeghi: Versatile Smuggler",
+      "records": 2
+    },
+    {
+      "corp": "NBN: Reality Plus",
+      "runner": "",
+      "records": 1
+    },
+    {
+      "corp": "",
+      "runner": "",
+      "records": 1
+    },
+    {
+      "corp": "Earth Station: SEA Headquarters",
+      "runner": "Hoshiko Shiro: Untold Protagonist",
+      "records": 1
+    }
+  ],
+  "limitations": [
+    "Records are game summaries, not move histories or executable replays.",
+    "system-gateway is a recorded format label; deck contents and legality cannot be independently checked from these columns.",
+    "Missing winner or turn fields must not be treated as a completed game.",
+    "The CSV includes a date-bounded historical sample; counts are not a current population or unbiased balance benchmark."
+  ]
+}

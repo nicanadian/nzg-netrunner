@@ -1,0 +1,16 @@
+{
+  "id": 5,
+  "seed": "gateway-benchmark-30019-30035-1",
+  "runnerId": "tao-v1",
+  "corpId": "precision-design-v2",
+  "runnerFamily": "baseline",
+  "corpFamily": "candidate",
+  "status": "completed",
+  "winner": "corp",
+  "reason": "Corp reached 8 agenda points.",
+  "runnerPoints": 5,
+  "corpPoints": 8,
+  "turn": 37,
+  "steps": 1248,
+  "ms": 10449
+}

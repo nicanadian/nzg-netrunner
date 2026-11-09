@@ -1,0 +1,16 @@
+{
+  "id": 1,
+  "seed": "gateway-benchmark-30001-30035-1",
+  "runnerId": "loup-v1",
+  "corpId": "precision-design-v2",
+  "runnerFamily": "baseline",
+  "corpFamily": "candidate",
+  "status": "completed",
+  "winner": "runner",
+  "reason": "Runner reached 7 agenda points.",
+  "runnerPoints": 7,
+  "corpPoints": 0,
+  "turn": 20,
+  "steps": 648,
+  "ms": 2384
+}

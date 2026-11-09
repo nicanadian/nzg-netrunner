@@ -1,0 +1,509 @@
+{
+  "engine": "chiriboga-77c80b1-local-1",
+  "config": {
+    "side": "runner",
+    "seed": "panel-legal-zahya-v1-6",
+    "deckIds": {
+      "runner": "zahya-v1",
+      "corp": "reality-plus-v1"
+    }
+  },
+  "choices": [
+    {
+      "version": 2,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 30,
+      "command": "play",
+      "index": 0
+    },
+    {
+      "version": 31,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 33,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 35,
+      "command": "play",
+      "index": 1
+    },
+    {
+      "version": 36,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 50,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 55,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 59,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 60,
+      "command": "steal",
+      "index": 0
+    },
+    {
+      "version": 64,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 65,
+      "command": "steal",
+      "index": 0
+    },
+    {
+      "version": 69,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 71,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 75,
+      "command": "install",
+      "index": 2
+    },
+    {
+      "version": 78,
+      "command": "install",
+      "index": 1
+    },
+    {
+      "version": 112,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 115,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 118,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 121,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 155,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 158,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 161,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 164,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 198,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 201,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 204,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 207,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 241,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 244,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 247,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 250,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 284,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 287,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 290,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 293,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 327,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 330,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 333,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 336,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 370,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 373,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 376,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 379,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 413,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 416,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 419,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 422,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 456,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 459,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 462,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 465,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 499,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 502,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 505,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 508,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 544,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 547,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 550,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 553,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 586,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 589,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 592,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 595,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 629,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 632,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 635,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 638,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 672,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 675,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 678,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 681,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 715,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 718,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 721,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 724,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 768,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 771,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 774,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 777,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 818,
+      "command": "run",
+      "index": 0
+    },
+    {
+      "version": 826,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 835,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 841,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 857,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 864,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 865,
+      "command": "steal",
+      "index": 0
+    },
+    {
+      "version": 869,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 871,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 875,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 877,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 879,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 912,
+      "command": "run",
+      "index": 0
+    },
+    {
+      "version": 918,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 927,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 933,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 949,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 956,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 957,
+      "command": "steal",
+      "index": 0
+    }
+  ],
+  "conceded": false
+}

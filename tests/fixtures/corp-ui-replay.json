@@ -1,0 +1,185 @@
+{
+  "choices": [
+    {
+      "command": "n",
+      "index": 0,
+      "version": 1
+    },
+    {
+      "command": "play",
+      "index": 0,
+      "version": 8
+    },
+    {
+      "command": "install",
+      "index": 4,
+      "version": 10
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 12
+    },
+    {
+      "command": "install",
+      "index": 4,
+      "version": 90
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 92
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 93
+    },
+    {
+      "command": "install",
+      "index": 1,
+      "version": 147
+    },
+    {
+      "command": "install",
+      "index": 2,
+      "version": 149
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 151
+    },
+    {
+      "command": "play",
+      "index": 0,
+      "version": 184
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 186
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "version": 187
+    },
+    {
+      "command": "install",
+      "index": 4,
+      "version": 221
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 223
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 224
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 247
+    },
+    {
+      "command": "continue",
+      "index": 0,
+      "version": 248
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 272
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 273
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 274
+    },
+    {
+      "command": "rez",
+      "index": 0,
+      "version": 293
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 347
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 348
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 349
+    },
+    {
+      "command": "play",
+      "index": 0,
+      "version": 412
+    },
+    {
+      "command": "discard",
+      "index": 0,
+      "version": 413
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 416
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 417
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 483
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 484
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 485
+    },
+    {
+      "command": "install",
+      "index": 6,
+      "version": 516
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 518
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 519
+    }
+  ],
+  "conceded": false,
+  "config": {
+    "seed": "46b94c55-5a64-4cdd-a9c0-ec7b192f79b5",
+    "side": "corp"
+  },
+  "engine": "chiriboga-77c80b1-local-1"
+}

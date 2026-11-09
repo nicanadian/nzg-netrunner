@@ -1,0 +1,39 @@
+{
+  "status": "resolved_using_installed_chrome_plugin",
+  "symptom": "The browser access host is unavailable",
+  "extension": {
+    "installed": true,
+    "enabled": true,
+    "version": "1.26.1102.11740_0",
+    "profile": "Default"
+  },
+  "native_host": {
+    "running": true,
+    "manifest_correct": true
+  },
+  "failure_stage": "Browser-access authorization setup, before extension transport",
+  "required_environment": [
+    "BROWSER_USE_ACCESS_EXECUTOR_ID",
+    "BROWSER_USE_ACCESS_PIPE_PATH",
+    "BROWSER_USE_ACCESS_VERIFYING_IDENTITY"
+  ],
+  "observations": [
+    "All three variables absent in inspected T3-launched Codex process and its CUA MCP process.",
+    "All three variables nonempty in inspected desktop-app-launched Codex process; values were not printed or copied.",
+    "Bundled require-browser-access.mjs initializes missing executor ID to an empty string.",
+    "Browser service then requires a host pipe and verification identity and throws the observed error when either is missing.",
+    "The host response must be authenticated and scoped to the current executor, session and turn.",
+    "Inspected installed T3 app bundle contains none of these environment names or browser/access protocol strings. This alone does not prove all T3 versions lack support."
+  ],
+  "changes_made": "No browser authorization, plugin, native-host or app configuration changed.",
+  "new_chrome_games": 3,
+  "previous_conclusion_corrected": "The unified computer-use wrapper lacks its browser authorization host here. This does not prevent the separate installed Chrome plugin from using the extension through its trusted node_repl service.",
+  "resolution": {
+    "tool": "mcp__node_repl__js",
+    "bootstrap_module": "/Users/nicanadian/.codex/plugins/cache/openai-bundled/chrome/latest/scripts/browser-client.mjs",
+    "bootstrap": "var { setupBrowserRuntime } = await import(bootstrap_module); var agent = await setupBrowserRuntime(); await agent.browsers.list();",
+    "verification": "Browser type extension, family chrome; opened Netrunner lobby at isolated port 5176, clicked View decks and read updated DOM.",
+    "configuration_changes": "None; no authorization settings or code were disabled or altered."
+  },
+  "verified_ui_decisions": 519
+}

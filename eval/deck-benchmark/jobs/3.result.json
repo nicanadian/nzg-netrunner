@@ -1,0 +1,16 @@
+{
+  "id": 3,
+  "seed": "gateway-benchmark-30001-30035-0",
+  "runnerId": "nsg-loup-v1",
+  "corpId": "nsg-precision-design-v1",
+  "runnerFamily": "reference",
+  "corpFamily": "reference",
+  "status": "completed",
+  "winner": "corp",
+  "reason": "Corp reached 7 agenda points.",
+  "runnerPoints": 0,
+  "corpPoints": 7,
+  "turn": 19,
+  "steps": 516,
+  "ms": 666
+}

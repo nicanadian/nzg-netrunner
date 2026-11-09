@@ -1,0 +1,575 @@
+{
+  "engine": "chiriboga-77c80b1-local-1",
+  "config": {
+    "side": "runner",
+    "seed": "50650546-a6f4-46e9-aa60-afb74cce5ee0"
+  },
+  "choices": [
+    {
+      "version": 2,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 30,
+      "command": "play",
+      "index": 0
+    },
+    {
+      "version": 33,
+      "command": "install",
+      "index": 0
+    },
+    {
+      "version": 36,
+      "command": "play",
+      "index": 1
+    },
+    {
+      "version": 37,
+      "command": "continue",
+      "index": 1
+    },
+    {
+      "version": 53,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 58,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 62,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 63,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 64,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 65,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 69,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 105,
+      "command": "run",
+      "index": 4
+    },
+    {
+      "version": 106,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 113,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 114,
+      "command": "trash",
+      "index": 0
+    },
+    {
+      "version": 115,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 123,
+      "command": "install",
+      "index": 2
+    },
+    {
+      "version": 124,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 126,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 128,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 162,
+      "command": "run",
+      "index": 1
+    },
+    {
+      "version": 165,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 166,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 167,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 175,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 182,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 183,
+      "command": "steal",
+      "index": 0
+    },
+    {
+      "version": 193,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 195,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 197,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 235,
+      "command": "run",
+      "index": 1
+    },
+    {
+      "version": 238,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 239,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 240,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 248,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 255,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 256,
+      "command": "steal",
+      "index": 0
+    },
+    {
+      "version": 261,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 263,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 265,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 299,
+      "command": "run",
+      "index": 1
+    },
+    {
+      "version": 302,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 303,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 304,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 312,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 319,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 320,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 324,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 326,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 328,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 363,
+      "command": "run",
+      "index": 1
+    },
+    {
+      "version": 366,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 367,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 368,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 376,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 383,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 384,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 388,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 390,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 392,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 427,
+      "command": "run",
+      "index": 1
+    },
+    {
+      "version": 430,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 431,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 432,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 440,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 447,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 448,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 452,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 454,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 456,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 493,
+      "command": "run",
+      "index": 1
+    },
+    {
+      "version": 498,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 499,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 500,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 508,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 513,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 514,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 515,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 523,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 530,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 531,
+      "command": "steal",
+      "index": 0
+    },
+    {
+      "version": 536,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 538,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 540,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 575,
+      "command": "run",
+      "index": 1
+    },
+    {
+      "version": 580,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 592,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 594,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 596,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 635,
+      "command": "run",
+      "index": 1
+    },
+    {
+      "version": 638,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 650,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 652,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 654,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 691,
+      "command": "run",
+      "index": 1
+    },
+    {
+      "version": 694,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 695,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 696,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 697,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 698,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 699,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 707,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 712,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 713,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 714,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 722,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 727,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 728,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 729,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 737,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 744,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 745,
+      "command": "n",
+      "index": 0
+    }
+  ],
+  "conceded": false
+}

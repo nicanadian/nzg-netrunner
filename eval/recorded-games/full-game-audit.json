@@ -1,0 +1,153 @@
+{
+  "checkedOn": "2026-11-06",
+  "rulesVersion": "26.03-local-2",
+  "rulesReference": {
+    "version": "26.03",
+    "effective": "2026-03-02",
+    "url": "https://rules.nullsignal.games/",
+    "downloadedHtmlSha256": "73151743b3b7c11383769327c98badd0657cb406413c21ea65454167deed9f30",
+    "currentCardDataUrl": "https://netrunnerdb.com/api/2.0/public/cards",
+    "currentCardDataSha256": "0b232c5b1c7a191dcdc860021b0e4d3885bf6ae60c5ca9fb69f427c36abcfac0",
+    "gatewayNumericPropertyDifferences": []
+  },
+  "scope": "Three end-to-end legal reconstructions with explicit normalizations and unknown-card completions. Each independently replayed with native Shuffle and a recorded random tape. No original-shuffle recovery or exhaustive all-card-combination conformance claim.",
+  "games": [
+    {
+      "id": "neon-starter",
+      "sourceUrl": "https://www.youtube.com/watch?v=EpoV0ezJFFg",
+      "sideTurnCheckpoints": 26,
+      "legalDecisions": 273,
+      "randomValues": 12,
+      "fullNativeShuffleReplayPassed": true,
+      "sourceCreditCheckpoints": 0,
+      "exactSourceCreditMatches": 0,
+      "normalizedSourceCreditMatches": 0,
+      "observedHandCheckpoints": 0,
+      "winner": "runner",
+      "corpPoints": 3,
+      "runnerPoints": 7,
+      "finalCorpCredits": 7,
+      "finalRunnerCredits": 3,
+      "normalizations": [
+        "Choose one possible C1 installation order; the final installed trio is established.",
+        "Fill R4’s unrecorded fourth click with a synthetic, unprotected Archives run; no pool, hand or counter change.",
+        "Trash the used Mayfly at R5 run end rather than at the delayed physical reminder.",
+        "Use the explicitly announced six-point teaching target. Winning steal reaches seven anyway."
+      ],
+      "hiddenAssignments": [
+        "Choose Diviner as concealed HQ ice.",
+        "Choose a second Urtica as the never-accessed late remote card."
+      ]
+    },
+    {
+      "id": "lt-starter",
+      "sourceUrl": "https://www.youtube.com/watch?v=4Gr47iNjo0w",
+      "sideTurnCheckpoints": 12,
+      "legalDecisions": 117,
+      "randomValues": 49,
+      "fullNativeShuffleReplayPassed": true,
+      "sourceCreditCheckpoints": 12,
+      "exactSourceCreditMatches": 8,
+      "normalizedSourceCreditMatches": 4,
+      "observedHandCheckpoints": 11,
+      "winner": "corp",
+      "corpPoints": 2,
+      "runnerPoints": 5,
+      "finalCorpCredits": 4,
+      "finalRunnerCredits": 2,
+      "normalizations": [
+        "Red Team empties after R2 fourth payout. Replace the impossible R3 fifth use with a basic R&D run.",
+        "Removing the illegal extra payout lowers subsequent Runner pool checkpoints by three. Play Sure Gamble before Mayfly on R3 to keep the sequence affordable.",
+        "Omit the undone Seamless attempt as a committed action; retain its replacement basic advancement. New Urtica is ineligible, but older installed cards remain legal targets.",
+        "Use eligible Overclock funds once, with no source-UI debit/refund. Final Runner pool is two rather than the video’s five."
+      ],
+      "hiddenAssignments": [
+        "Corp-view C1 frames constrain the first six-card multiset and Nico draw; remaining order is chosen. Inner HQ ice is thereby identified as Brân.",
+        "Choose Whitespace as outer R&D ice and Tithe as outer HQ ice."
+      ]
+    },
+    {
+      "id": "lt-booster",
+      "sourceUrl": "https://www.youtube.com/watch?v=NwMp40meA1A",
+      "sideTurnCheckpoints": 33,
+      "legalDecisions": 306,
+      "randomValues": 125,
+      "fullNativeShuffleReplayPassed": true,
+      "sourceCreditCheckpoints": 33,
+      "exactSourceCreditMatches": 33,
+      "normalizedSourceCreditMatches": 0,
+      "observedHandCheckpoints": 32,
+      "winner": "corp",
+      "corpPoints": 8,
+      "runnerPoints": 1,
+      "finalCorpCredits": 11,
+      "finalRunnerCredits": 5,
+      "normalizations": [
+        "Perform only the final accepted Cleaver installation and required Mayfly memory trash; exclude source undo/manual moves.",
+        "Rez inner Diviner only when it is approached, after passing outer Palisade; the source log rezzes both before the Palisade encounter.",
+        "Stop immediately at the winning Send a Message score; omit the source’s post-win free Karunā rez."
+      ],
+      "hiddenAssignments": [
+        "Choose Karunā, Whitespace and Funhouse as unrezzed R&D ice.",
+        "Choose Manegarm as the unrezzed C15 Server 1 upgrade."
+      ]
+    }
+  ],
+  "fixedDifferences": [
+    "Breach-scoped visibility for prior HQ accesses",
+    "Seamless Launch target scope: counter placement differs from basic advance",
+    "Pre-approach initiation paid-ability window",
+    "Bad-publicity fund separation, pool-loss/threshold behavior and expiry timing",
+    "Human choice of eligible credit-source allocation before the effect resolves",
+    "All affordable Gateway breaker boosts with correct out-of-encounter expiry",
+    "Legal zero-subroutine breaks, zero-counter Fermenter, Leech after all subroutines are broken, and agenda overadvancement"
+  ],
+  "remainingGuidedChoiceRestrictions": [],
+  "newGameRulesVersion": "26.03-local-2",
+  "unversionedSaves": "Legacy profile preserved; local-1 saves also preserve their original choices; no saved game overwritten",
+  "tests": {
+    "normalRegressionSuite": "passed",
+    "allTwelveCurrentProfileFactionMatchups": "passed",
+    "targetedRuleProbes": "passed",
+    "paidChoiceRuleProbes": "passed"
+  },
+  "originalReconstructionRulesVersion": "26.03-local-1",
+  "knownCoverageLimitations": [
+    "Conditional-trigger ordering still contains upstream simplifications; this is not an exhaustive rules-engine certification."
+  ],
+  "paidChoiceReconstructions": [
+    {
+      "id": "neon-starter",
+      "rulesVersion": "26.03-local-2",
+      "sideTurnCheckpoints": 26,
+      "legalDecisions": 424,
+      "winner": "runner",
+      "corpPoints": 3,
+      "runnerPoints": 7,
+      "fullNativeShuffleReplayPassed": true,
+      "artifact": "neon-starter-paid-choices-full-replay.json"
+    },
+    {
+      "id": "lt-starter",
+      "rulesVersion": "26.03-local-2",
+      "sideTurnCheckpoints": 12,
+      "legalDecisions": 189,
+      "winner": "corp",
+      "corpPoints": 2,
+      "runnerPoints": 5,
+      "fullNativeShuffleReplayPassed": true,
+      "artifact": "lt-starter-paid-choices-full-replay.json"
+    },
+    {
+      "id": "lt-booster",
+      "rulesVersion": "26.03-local-2",
+      "sideTurnCheckpoints": 33,
+      "legalDecisions": 480,
+      "winner": "corp",
+      "corpPoints": 8,
+      "runnerPoints": 1,
+      "fullNativeShuffleReplayPassed": true,
+      "artifact": "lt-booster-paid-choices-full-replay.json"
+    }
+  ]
+}

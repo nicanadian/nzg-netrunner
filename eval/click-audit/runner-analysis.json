@@ -1,0 +1,7479 @@
+{
+  "side": "runner",
+  "total": 97,
+  "counts": {
+    "Setup / opening hand": 2,
+    "Navigation / reading": 13,
+    "Game action / choice": 43,
+    "Extra install confirmation": 3,
+    "Pass / advance": 32,
+    "Break-plan review": 2,
+    "Playback resume": 2
+  },
+  "boostOnlyPasses": [
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69
+  ],
+  "singleEffectAcknowledgements": [],
+  "turns": 14,
+  "points": [
+    0,
+    7
+  ],
+  "terminal": {
+    "winner": "runner",
+    "reason": "Runner reached 7 agenda points."
+  },
+  "sessionChoices": 108,
+  "events": [
+    {
+      "n": 1,
+      "t": 1794163420497,
+      "tag": "BUTTON",
+      "label": "Jack in →",
+      "id": "start-button",
+      "data": {},
+      "dialog": null,
+      "before": null,
+      "category": "Setup / opening hand",
+      "boostOnlyPass": false,
+      "singleEffect": false,
+      "offered": []
+    },
+    {
+      "n": 2,
+      "t": 1794163427233,
+      "tag": "BUTTON",
+      "label": "Take a mulligan →",
+      "id": "",
+      "data": {
+        "relatedCards": "",
+        "command": "m",
+        "group": ""
+      },
+      "dialog": null,
+      "before": {
+        "version": 2,
+        "turn": 1,
+        "phase": "Runner's Mulligan",
+        "phaseId": "Runner Mulligan",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 5,
+        "clicks": 0,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "m",
+          "count": 1,
+          "options": [
+            {
+              "label": "Take a mulligan"
+            }
+          ]
+        },
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        }
+      ],
+      "category": "Setup / opening hand",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 3,
+      "t": 1794163441035,
+      "tag": "BUTTON",
+      "label": "Fermenter",
+      "id": "",
+      "data": {
+        "card": "c61",
+        "number": "30007"
+      },
+      "dialog": null,
+      "before": {
+        "version": 31,
+        "turn": 2,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 5,
+        "clicks": 4,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 6,
+          "options": [
+            {
+              "label": "Install Cleaver into program row",
+              "cardId": "c58"
+            },
+            {
+              "label": "Install Fermenter into program row",
+              "cardId": "c61"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Install Cleaver into program row",
+              "cardId": "c59"
+            }
+          ]
+        },
+        {
+          "command": "play",
+          "count": 1,
+          "options": [
+            {
+              "label": "Overclock",
+              "cardId": "c73"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 4,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            }
+          ]
+        }
+      ],
+      "category": "Navigation / reading",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 4,
+      "t": 1794163445667,
+      "tag": "BUTTON",
+      "label": "Install 1 click · 1 credit →",
+      "id": "",
+      "data": {
+        "inspectCommand": "install",
+        "option": "1",
+        "relatedCards": "c61"
+      },
+      "dialog": "inspect-dialog",
+      "before": {
+        "version": 31,
+        "turn": 2,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 5,
+        "clicks": 4,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 6,
+          "options": [
+            {
+              "label": "Install Cleaver into program row",
+              "cardId": "c58"
+            },
+            {
+              "label": "Install Fermenter into program row",
+              "cardId": "c61"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Install Cleaver into program row",
+              "cardId": "c59"
+            }
+          ]
+        },
+        {
+          "command": "play",
+          "count": 1,
+          "options": [
+            {
+              "label": "Overclock",
+              "cardId": "c73"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 4,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 5,
+      "t": 1794163446902,
+      "tag": "BUTTON",
+      "label": "Cleaver",
+      "id": "",
+      "data": {
+        "card": "c58",
+        "number": "30006"
+      },
+      "dialog": null,
+      "before": {
+        "version": 34,
+        "turn": 2,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 4,
+        "clicks": 3,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 5,
+          "options": [
+            {
+              "label": "Install Cleaver into program row",
+              "cardId": "c58"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Install Cleaver into program row",
+              "cardId": "c59"
+            }
+          ]
+        },
+        {
+          "command": "play",
+          "count": 1,
+          "options": [
+            {
+              "label": "Overclock",
+              "cardId": "c73"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 4,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Fermenter · Gain 2 credit for each hosted virus counter",
+              "cardId": "c61"
+            }
+          ]
+        }
+      ],
+      "category": "Navigation / reading",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 6,
+      "t": 1794163454733,
+      "tag": "BUTTON",
+      "label": "Install 1 click · 3 credits →",
+      "id": "",
+      "data": {
+        "inspectCommand": "install",
+        "option": "0",
+        "relatedCards": "c58"
+      },
+      "dialog": "inspect-dialog",
+      "before": {
+        "version": 34,
+        "turn": 2,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 4,
+        "clicks": 3,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 5,
+          "options": [
+            {
+              "label": "Install Cleaver into program row",
+              "cardId": "c58"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Install Cleaver into program row",
+              "cardId": "c59"
+            }
+          ]
+        },
+        {
+          "command": "play",
+          "count": 1,
+          "options": [
+            {
+              "label": "Overclock",
+              "cardId": "c73"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 4,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Fermenter · Gain 2 credit for each hosted virus counter",
+              "cardId": "c61"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 7,
+      "t": 1794163480632,
+      "tag": "BUTTON",
+      "label": "Confirm installation 1 click · 3 credits →",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 35,
+        "turn": 2,
+        "phase": "Trash Before Install",
+        "phaseId": "Runner Install",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 4,
+        "clicks": 3,
+        "busy": false,
+        "pendingInstall": true,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "trash",
+          "count": 1,
+          "options": [
+            {
+              "label": "Fermenter",
+              "cardId": "c61"
+            }
+          ]
+        },
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        }
+      ],
+      "category": "Extra install confirmation",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 8,
+      "t": 1794163481666,
+      "tag": "BUTTON",
+      "label": "Play 1 click · 1 credit Overclock →",
+      "id": "",
+      "data": {
+        "relatedCards": "c73",
+        "command": "play",
+        "group": ""
+      },
+      "dialog": null,
+      "before": {
+        "version": 37,
+        "turn": 2,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 1,
+        "clicks": 2,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "play",
+          "count": 1,
+          "options": [
+            {
+              "label": "Overclock",
+              "cardId": "c73"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 4,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Fermenter · Gain 2 credit for each hosted virus counter",
+              "cardId": "c61"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 9,
+      "t": 1794163486232,
+      "tag": "BUTTON",
+      "label": "HQ",
+      "id": "",
+      "data": {
+        "relatedCards": "c73",
+        "option": "0",
+        "command": "continue"
+      },
+      "dialog": null,
+      "before": {
+        "version": 38,
+        "turn": 2,
+        "phase": "Playing Overclock",
+        "phaseId": "Runner 1.3",
+        "source": "Overclock",
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 1,
+        "clicks": 2,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "continue",
+          "count": 4,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 10,
+      "t": 1794163497134,
+      "tag": "BUTTON",
+      "label": "Continue · resolve unbroken subroutines If both players pass, unbroken subroutines resolve in order.",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 45,
+        "turn": 2,
+        "phase": "Run: Encounter Ice",
+        "phaseId": "Run 3.1",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": {
+          "server": "HQ",
+          "encountering": true,
+          "card": "Whitespace"
+        },
+        "credits": 0,
+        "clicks": 1,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 11,
+      "t": 1794163503267,
+      "tag": "BUTTON",
+      "label": "Draw a card 1 click",
+      "id": "",
+      "data": {
+        "relatedCards": "",
+        "command": "draw",
+        "group": ""
+      },
+      "dialog": null,
+      "before": {
+        "version": 56,
+        "turn": 2,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 0,
+        "clicks": 1,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 4,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Fermenter · Gain 2 credit for each hosted virus counter",
+              "cardId": "c61"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 12,
+      "t": 1794163518065,
+      "tag": "BUTTON",
+      "label": "Draw a card 1 click",
+      "id": "",
+      "data": {
+        "relatedCards": "",
+        "command": "draw",
+        "group": ""
+      },
+      "dialog": null,
+      "before": {
+        "version": 90,
+        "turn": 4,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 0,
+        "clicks": 4,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 4,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Fermenter · Gain 2 credit for each hosted virus counter",
+              "cardId": "c61"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 13,
+      "t": 1794163519065,
+      "tag": "BUTTON",
+      "label": "Draw a card 1 click",
+      "id": "",
+      "data": {
+        "relatedCards": "",
+        "command": "draw",
+        "group": ""
+      },
+      "dialog": null,
+      "before": {
+        "version": 92,
+        "turn": 4,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 0,
+        "clicks": 3,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 4,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Fermenter · Gain 2 credit for each hosted virus counter",
+              "cardId": "c61"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 14,
+      "t": 1794163526400,
+      "tag": "BUTTON",
+      "label": "Fermenter · Gain 2 credit for each hosted virus counter 1 click Trash this program →",
+      "id": "",
+      "data": {
+        "sourceId": "c61",
+        "abilityKind": "",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c61"
+      },
+      "dialog": null,
+      "before": {
+        "version": 94,
+        "turn": 4,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 0,
+        "clicks": 2,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 4,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Fermenter · Gain 2 credit for each hosted virus counter",
+              "cardId": "c61"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 15,
+      "t": 1794163527166,
+      "tag": "BUTTON",
+      "label": "Verbal Plasticity",
+      "id": "",
+      "data": {
+        "card": "c84",
+        "number": "30034"
+      },
+      "dialog": null,
+      "before": {
+        "version": 99,
+        "turn": 4,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 4,
+        "clicks": 1,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 9,
+          "options": [
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Install Cleaver into program row",
+              "cardId": "c59"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Install Verbal Plasticity into resource row",
+              "cardId": "c84"
+            },
+            {
+              "label": "Install T400 Memory Diamond into hardware row",
+              "cardId": "c79"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 4,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            }
+          ]
+        }
+      ],
+      "category": "Navigation / reading",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 16,
+      "t": 1794163533232,
+      "tag": "BUTTON",
+      "label": "Install 1 click · 3 credits →",
+      "id": "",
+      "data": {
+        "inspectCommand": "install",
+        "option": "7",
+        "relatedCards": "c84"
+      },
+      "dialog": "inspect-dialog",
+      "before": {
+        "version": 99,
+        "turn": 4,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 4,
+        "clicks": 1,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 9,
+          "options": [
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Install Cleaver into program row",
+              "cardId": "c59"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Install Verbal Plasticity into resource row",
+              "cardId": "c84"
+            },
+            {
+              "label": "Install T400 Memory Diamond into hardware row",
+              "cardId": "c79"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 4,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 17,
+      "t": 1794163541300,
+      "tag": "BUTTON",
+      "label": "Draw a card 1 click",
+      "id": "",
+      "data": {
+        "relatedCards": "",
+        "command": "draw",
+        "group": ""
+      },
+      "dialog": null,
+      "before": {
+        "version": 132,
+        "turn": 6,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 1,
+        "clicks": 4,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 4,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 18,
+      "t": 1794163549934,
+      "tag": "BUTTON",
+      "label": "Gain 1 credit 1 click",
+      "id": "",
+      "data": {
+        "relatedCards": "",
+        "command": "gain",
+        "group": ""
+      },
+      "dialog": null,
+      "before": {
+        "version": 134,
+        "turn": 6,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 1,
+        "clicks": 3,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 4,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 19,
+      "t": 1794163550965,
+      "tag": "BUTTON",
+      "label": "Gain 1 credit 1 click",
+      "id": "",
+      "data": {
+        "relatedCards": "",
+        "command": "gain",
+        "group": ""
+      },
+      "dialog": null,
+      "before": {
+        "version": 136,
+        "turn": 6,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 2,
+        "clicks": 2,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 7,
+          "options": [
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Install T400 Memory Diamond into hardware row",
+              "cardId": "c79"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 4,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 20,
+      "t": 1794163551999,
+      "tag": "BUTTON",
+      "label": "Gain 1 credit 1 click",
+      "id": "",
+      "data": {
+        "relatedCards": "",
+        "command": "gain",
+        "group": ""
+      },
+      "dialog": null,
+      "before": {
+        "version": 138,
+        "turn": 6,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 3,
+        "clicks": 1,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 9,
+          "options": [
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Install Cleaver into program row",
+              "cardId": "c59"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Install T400 Memory Diamond into hardware row",
+              "cardId": "c79"
+            },
+            {
+              "label": "Install Cleaver into program row",
+              "cardId": "c60"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 4,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 21,
+      "t": 1794163557534,
+      "tag": "BUTTON",
+      "label": "Cleaver",
+      "id": "",
+      "data": {
+        "relatedCards": "c59",
+        "option": "1",
+        "command": "discard"
+      },
+      "dialog": null,
+      "before": {
+        "version": 140,
+        "turn": 6,
+        "phase": "Runner's Discard Phase",
+        "phaseId": "Runner 2.1",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 4,
+        "clicks": 0,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "discard",
+          "count": 6,
+          "options": [
+            {
+              "label": "Botulus",
+              "cardId": "c54"
+            },
+            {
+              "label": "Cleaver",
+              "cardId": "c59"
+            },
+            {
+              "label": "Botulus",
+              "cardId": "c52"
+            },
+            {
+              "label": "T400 Memory Diamond",
+              "cardId": "c79"
+            },
+            {
+              "label": "Cleaver",
+              "cardId": "c60"
+            },
+            {
+              "label": "Sure Gamble",
+              "cardId": "c77"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 22,
+      "t": 1794163579565,
+      "tag": "BUTTON",
+      "label": "Continue · finish this window →",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 142,
+        "turn": 6,
+        "phase": "Runner's Discard Phase",
+        "phaseId": "Runner 2.2",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 4,
+        "clicks": 0,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": true,
+      "singleEffect": false
+    },
+    {
+      "n": 23,
+      "t": 1794163585733,
+      "tag": "BUTTON",
+      "label": "Continue · finish this window →",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 147,
+        "turn": 7,
+        "phase": "Corporation's Draw Phase",
+        "phaseId": "Corp 1.1",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 4,
+        "clicks": 0,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": true,
+      "singleEffect": false
+    },
+    {
+      "n": 24,
+      "t": 1794163587632,
+      "tag": "BUTTON",
+      "label": "Continue · finish this window →",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 152,
+        "turn": 7,
+        "phase": "Corporation's Action Phase",
+        "phaseId": "Corp 2.1",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 4,
+        "clicks": 0,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": true,
+      "singleEffect": false
+    },
+    {
+      "n": 25,
+      "t": 1794163588131,
+      "tag": "BUTTON",
+      "label": "Continue · allow the opponent’s next action →",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 155,
+        "turn": 7,
+        "phase": "Corporation's Action Phase",
+        "phaseId": "Corp 2.2*",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 4,
+        "clicks": 0,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": true,
+      "singleEffect": false
+    },
+    {
+      "n": 26,
+      "t": 1794163590064,
+      "tag": "BUTTON",
+      "label": "Continue · allow the opponent’s next action →",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 158,
+        "turn": 7,
+        "phase": "Corporation's Action Phase",
+        "phaseId": "Corp 2.2*",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 4,
+        "clicks": 0,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": true,
+      "singleEffect": false
+    },
+    {
+      "n": 27,
+      "t": 1794163599865,
+      "tag": "BUTTON",
+      "label": "Continue · allow the opponent’s next action →",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 161,
+        "turn": 7,
+        "phase": "Corporation's Action Phase",
+        "phaseId": "Corp 2.2*",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 4,
+        "clicks": 0,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": true,
+      "singleEffect": false
+    },
+    {
+      "n": 28,
+      "t": 1794163600331,
+      "tag": "BUTTON",
+      "label": "Continue · finish this window →",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 165,
+        "turn": 7,
+        "phase": "Corporation's Discard Phase: Response",
+        "phaseId": "Corp 3.2",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 4,
+        "clicks": 0,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": true,
+      "singleEffect": false
+    },
+    {
+      "n": 29,
+      "t": 1794163600864,
+      "tag": "BUTTON",
+      "label": "Continue · finish this window →",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 168,
+        "turn": 8,
+        "phase": "Runner's Turn Begins",
+        "phaseId": "Runner 1.1",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 4,
+        "clicks": 4,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": true,
+      "singleEffect": false
+    },
+    {
+      "n": 30,
+      "t": 1794163607366,
+      "tag": "BUTTON",
+      "label": "Gain 1 credit 1 click",
+      "id": "",
+      "data": {
+        "relatedCards": "",
+        "command": "gain",
+        "group": ""
+      },
+      "dialog": null,
+      "before": {
+        "version": 172,
+        "turn": 8,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 4,
+        "clicks": 4,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 8,
+          "options": [
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Install T400 Memory Diamond into hardware row",
+              "cardId": "c79"
+            },
+            {
+              "label": "Install Cleaver into program row",
+              "cardId": "c60"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 4,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 31,
+      "t": 1794163608333,
+      "tag": "BUTTON",
+      "label": "Play 1 click · 5 credits Sure Gamble →",
+      "id": "",
+      "data": {
+        "relatedCards": "c77",
+        "command": "play",
+        "group": ""
+      },
+      "dialog": null,
+      "before": {
+        "version": 174,
+        "turn": 8,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 5,
+        "clicks": 3,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 8,
+          "options": [
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Install T400 Memory Diamond into hardware row",
+              "cardId": "c79"
+            },
+            {
+              "label": "Install Cleaver into program row",
+              "cardId": "c60"
+            }
+          ]
+        },
+        {
+          "command": "play",
+          "count": 1,
+          "options": [
+            {
+              "label": "Sure Gamble",
+              "cardId": "c77"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 4,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 32,
+      "t": 1794163609332,
+      "tag": "BUTTON",
+      "label": "Make a run 1 click 4 choices ›",
+      "id": "",
+      "data": {
+        "relatedCards": "",
+        "command": "run",
+        "group": ""
+      },
+      "dialog": null,
+      "before": {
+        "version": 177,
+        "turn": 8,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 9,
+        "clicks": 2,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 8,
+          "options": [
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Install T400 Memory Diamond into hardware row",
+              "cardId": "c79"
+            },
+            {
+              "label": "Install Cleaver into program row",
+              "cardId": "c60"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 4,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            }
+          ]
+        }
+      ],
+      "category": "Navigation / reading",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 33,
+      "t": 1794163613665,
+      "tag": "BUTTON",
+      "label": "Remote 1 1 click",
+      "id": "",
+      "data": {
+        "relatedCards": "",
+        "option": "3",
+        "command": "run"
+      },
+      "dialog": null,
+      "before": {
+        "version": 177,
+        "turn": 8,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 9,
+        "clicks": 2,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 8,
+          "options": [
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Install T400 Memory Diamond into hardware row",
+              "cardId": "c79"
+            },
+            {
+              "label": "Install Cleaver into program row",
+              "cardId": "c60"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 4,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 34,
+      "t": 1794163620233,
+      "tag": "BUTTON",
+      "label": "Review full break · 3 credits",
+      "id": "",
+      "data": {
+        "planReview": "c58"
+      },
+      "dialog": null,
+      "before": {
+        "version": 184,
+        "turn": 8,
+        "phase": "Run: Encounter Ice",
+        "phaseId": "Run 3.1",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": {
+          "server": "Remote 0",
+          "encountering": true,
+          "card": "Palisade"
+        },
+        "credits": 9,
+        "clicks": 1,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Break-plan review",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 35,
+      "t": 1794163623866,
+      "tag": "BUTTON",
+      "label": "Confirm boost · 2 credits",
+      "id": "",
+      "data": {
+        "planStep": ""
+      },
+      "dialog": null,
+      "before": {
+        "version": 184,
+        "turn": 8,
+        "phase": "Run: Encounter Ice",
+        "phaseId": "Run 3.1",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": {
+          "server": "Remote 0",
+          "encountering": true,
+          "card": "Palisade"
+        },
+        "credits": 9,
+        "clicks": 1,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 36,
+      "t": 1794163627032,
+      "tag": "BUTTON",
+      "label": "Break subroutine · 1 credits",
+      "id": "",
+      "data": {
+        "planStep": ""
+      },
+      "dialog": null,
+      "before": {
+        "version": 187,
+        "turn": 8,
+        "phase": "Break up to 2 barrier subroutines",
+        "phaseId": "Run 3.1",
+        "source": "Cleaver",
+        "side": "runner",
+        "active": "runner",
+        "run": {
+          "server": "Remote 0",
+          "encountering": true,
+          "card": "Palisade"
+        },
+        "credits": 7,
+        "clicks": 1,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "continue",
+          "count": 2,
+          "options": [
+            {
+              "label": "Break subroutine 1: End the run."
+            },
+            {
+              "label": "Break 0 subroutines"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 37,
+      "t": 1794163631630,
+      "tag": "BUTTON",
+      "label": "Continue · all subroutines broken Pass this window. Pending responses finish before you move past this ice.",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 189,
+        "turn": 8,
+        "phase": "Run: Encounter Ice",
+        "phaseId": "Run 3.1",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": {
+          "server": "Remote 0",
+          "encountering": true,
+          "card": "Palisade"
+        },
+        "credits": 6,
+        "clicks": 1,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 2,
+          "options": [
+            {
+              "label": "Cleaver · Break up to 2 barrier subroutines",
+              "abilityKind": "break",
+              "cardId": "c58"
+            },
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 38,
+      "t": 1794163637199,
+      "tag": "BUTTON",
+      "label": "Continue the run Move to the next run window, or jack out to end the run.",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 196,
+        "turn": 8,
+        "phase": "Run: Movement",
+        "phaseId": "Run 4.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": {
+          "server": "Remote 0",
+          "encountering": false,
+          "card": "Palisade"
+        },
+        "credits": 6,
+        "clicks": 1,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        },
+        {
+          "command": "jack",
+          "count": 1,
+          "options": [
+            {
+              "label": "Jack out"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 39,
+      "t": 1794163644601,
+      "tag": "BUTTON",
+      "label": "Facedown card · Remote 1",
+      "id": "",
+      "data": {
+        "relatedCards": "c8",
+        "option": "0",
+        "command": "access"
+      },
+      "dialog": null,
+      "before": {
+        "version": 203,
+        "turn": 8,
+        "phase": "Run: Breach",
+        "phaseId": "Run 5.2",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": {
+          "server": "Remote 0",
+          "encountering": false
+        },
+        "credits": 6,
+        "clicks": 1,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "access",
+          "count": 1,
+          "options": [
+            {
+              "label": "Facedown card · Remote 0",
+              "cardId": "c8"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 40,
+      "t": 1794163654600,
+      "tag": "BUTTON",
+      "label": "Send a Message Security Read full card ↗",
+      "id": "",
+      "data": {
+        "inspectTool": "c8",
+        "relatedCards": "c8"
+      },
+      "dialog": null,
+      "before": {
+        "version": 204,
+        "turn": 8,
+        "phase": "Run: Access",
+        "phaseId": "Run Accessing",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": {
+          "server": "Remote 0",
+          "encountering": false
+        },
+        "credits": 6,
+        "clicks": 1,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "steal",
+          "count": 1,
+          "options": [
+            {
+              "label": "Steal agenda"
+            }
+          ]
+        }
+      ],
+      "category": "Navigation / reading",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 41,
+      "t": 1794163655032,
+      "tag": "BUTTON",
+      "label": "×",
+      "id": "",
+      "data": {
+        "close": ""
+      },
+      "dialog": "inspect-dialog",
+      "before": {
+        "version": 204,
+        "turn": 8,
+        "phase": "Run: Access",
+        "phaseId": "Run Accessing",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": {
+          "server": "Remote 0",
+          "encountering": false
+        },
+        "credits": 6,
+        "clicks": 1,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "steal",
+          "count": 1,
+          "options": [
+            {
+              "label": "Steal agenda"
+            }
+          ]
+        }
+      ],
+      "category": "Navigation / reading",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 42,
+      "t": 1794163655431,
+      "tag": "BUTTON",
+      "label": "Steal agenda →",
+      "id": "",
+      "data": {
+        "relatedCards": "",
+        "command": "steal",
+        "group": ""
+      },
+      "dialog": null,
+      "before": {
+        "version": 204,
+        "turn": 8,
+        "phase": "Run: Access",
+        "phaseId": "Run Accessing",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": {
+          "server": "Remote 0",
+          "encountering": false
+        },
+        "credits": 6,
+        "clicks": 1,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          0
+        ]
+      },
+      "offered": [
+        {
+          "command": "steal",
+          "count": 1,
+          "options": [
+            {
+              "label": "Steal agenda"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 43,
+      "t": 1794163661932,
+      "tag": "BUTTON",
+      "label": "Draw a card 1 click",
+      "id": "",
+      "data": {
+        "relatedCards": "",
+        "command": "draw",
+        "group": ""
+      },
+      "dialog": null,
+      "before": {
+        "version": 214,
+        "turn": 8,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 6,
+        "clicks": 1,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 8,
+          "options": [
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Palisade",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Palisade",
+              "cardId": "c52"
+            },
+            {
+              "label": "Install T400 Memory Diamond into hardware row",
+              "cardId": "c79"
+            },
+            {
+              "label": "Install Cleaver into program row",
+              "cardId": "c60"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 4,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 44,
+      "t": 1794163669166,
+      "tag": "BUTTON",
+      "label": "Cleaver",
+      "id": "",
+      "data": {
+        "relatedCards": "c60",
+        "option": "3",
+        "command": "discard"
+      },
+      "dialog": null,
+      "before": {
+        "version": 216,
+        "turn": 8,
+        "phase": "Runner's Discard Phase",
+        "phaseId": "Runner 2.1",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 6,
+        "clicks": 0,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "discard",
+          "count": 6,
+          "options": [
+            {
+              "label": "Botulus",
+              "cardId": "c54"
+            },
+            {
+              "label": "Botulus",
+              "cardId": "c52"
+            },
+            {
+              "label": "T400 Memory Diamond",
+              "cardId": "c79"
+            },
+            {
+              "label": "Cleaver",
+              "cardId": "c60"
+            },
+            {
+              "label": "Wildcat Strike",
+              "cardId": "c47"
+            },
+            {
+              "label": "Wildcat Strike",
+              "cardId": "c49"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 45,
+      "t": 1794163670165,
+      "tag": "BUTTON",
+      "label": "Continue · finish this window →",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 218,
+        "turn": 8,
+        "phase": "Runner's Discard Phase",
+        "phaseId": "Runner 2.2",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 6,
+        "clicks": 0,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": true,
+      "singleEffect": false
+    },
+    {
+      "n": 46,
+      "t": 1794163670631,
+      "tag": "BUTTON",
+      "label": "Continue · finish this window →",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 223,
+        "turn": 9,
+        "phase": "Corporation's Draw Phase",
+        "phaseId": "Corp 1.1",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 6,
+        "clicks": 0,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": true,
+      "singleEffect": false
+    },
+    {
+      "n": 47,
+      "t": 1794163672533,
+      "tag": "BUTTON",
+      "label": "Continue · finish this window →",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 228,
+        "turn": 9,
+        "phase": "Corporation's Action Phase",
+        "phaseId": "Corp 2.1",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 6,
+        "clicks": 0,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": true,
+      "singleEffect": false
+    },
+    {
+      "n": 48,
+      "t": 1794163674432,
+      "tag": "BUTTON",
+      "label": "Continue · allow the opponent’s next action →",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 232,
+        "turn": 9,
+        "phase": "Corporation's Action Phase",
+        "phaseId": "Corp 2.2*",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 6,
+        "clicks": 0,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": true,
+      "singleEffect": false
+    },
+    {
+      "n": 49,
+      "t": 1794163676332,
+      "tag": "BUTTON",
+      "label": "Continue · allow the opponent’s next action →",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 236,
+        "turn": 9,
+        "phase": "Corporation's Action Phase",
+        "phaseId": "Corp 2.2*",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 6,
+        "clicks": 0,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": true,
+      "singleEffect": false
+    },
+    {
+      "n": 50,
+      "t": 1794163678231,
+      "tag": "BUTTON",
+      "label": "Continue · allow the opponent’s next action →",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 240,
+        "turn": 9,
+        "phase": "Corporation's Action Phase",
+        "phaseId": "Corp 2.2*",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 6,
+        "clicks": 0,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": true,
+      "singleEffect": false
+    },
+    {
+      "n": 51,
+      "t": 1794163678732,
+      "tag": "BUTTON",
+      "label": "Continue · finish this window →",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 243,
+        "turn": 9,
+        "phase": "Corporation's Discard Phase: Response",
+        "phaseId": "Corp 3.2",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 6,
+        "clicks": 0,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": true,
+      "singleEffect": false
+    },
+    {
+      "n": 52,
+      "t": 1794163679198,
+      "tag": "BUTTON",
+      "label": "Continue · finish this window →",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 246,
+        "turn": 10,
+        "phase": "Runner's Turn Begins",
+        "phaseId": "Runner 1.1",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 6,
+        "clicks": 4,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": true,
+      "singleEffect": false
+    },
+    {
+      "n": 53,
+      "t": 1794163698632,
+      "tag": "BUTTON",
+      "label": "Wildcat Strike",
+      "id": "",
+      "data": {
+        "card": "c47",
+        "number": "30002"
+      },
+      "dialog": null,
+      "before": {
+        "version": 250,
+        "turn": 10,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 6,
+        "clicks": 4,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 9,
+          "options": [
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Palisade",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Palisade",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Install T400 Memory Diamond into hardware row",
+              "cardId": "c79"
+            }
+          ]
+        },
+        {
+          "command": "play",
+          "count": 2,
+          "options": [
+            {
+              "label": "Wildcat Strike",
+              "cardId": "c47"
+            },
+            {
+              "label": "Wildcat Strike",
+              "cardId": "c49"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 5,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            },
+            {
+              "label": "Remote 1"
+            }
+          ]
+        }
+      ],
+      "category": "Navigation / reading",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 54,
+      "t": 1794163703567,
+      "tag": "BUTTON",
+      "label": "Play 1 click · 2 credits →",
+      "id": "",
+      "data": {
+        "inspectCommand": "play",
+        "option": "0",
+        "relatedCards": "c47"
+      },
+      "dialog": "inspect-dialog",
+      "before": {
+        "version": 250,
+        "turn": 10,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 6,
+        "clicks": 4,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 9,
+          "options": [
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Palisade",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Palisade",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Install T400 Memory Diamond into hardware row",
+              "cardId": "c79"
+            }
+          ]
+        },
+        {
+          "command": "play",
+          "count": 2,
+          "options": [
+            {
+              "label": "Wildcat Strike",
+              "cardId": "c47"
+            },
+            {
+              "label": "Wildcat Strike",
+              "cardId": "c49"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 5,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            },
+            {
+              "label": "Remote 1"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 55,
+      "t": 1794163710433,
+      "tag": "BUTTON",
+      "label": "Smartware Distributor",
+      "id": "",
+      "data": {
+        "card": "c81",
+        "number": "30033"
+      },
+      "dialog": null,
+      "before": {
+        "version": 254,
+        "turn": 10,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 4,
+        "clicks": 3,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 13,
+          "options": [
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Palisade",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Palisade",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Install T400 Memory Diamond into hardware row",
+              "cardId": "c79"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c81"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c82"
+            },
+            {
+              "label": "Install Verbal Plasticity into resource row",
+              "cardId": "c86"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c83"
+            }
+          ]
+        },
+        {
+          "command": "play",
+          "count": 1,
+          "options": [
+            {
+              "label": "Wildcat Strike",
+              "cardId": "c49"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 5,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            },
+            {
+              "label": "Remote 1"
+            }
+          ]
+        }
+      ],
+      "category": "Navigation / reading",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 56,
+      "t": 1794163724965,
+      "tag": "BUTTON",
+      "label": "Install 1 click · 0 credits →",
+      "id": "",
+      "data": {
+        "inspectCommand": "install",
+        "option": "9",
+        "relatedCards": "c81"
+      },
+      "dialog": "inspect-dialog",
+      "before": {
+        "version": 254,
+        "turn": 10,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 4,
+        "clicks": 3,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 13,
+          "options": [
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Palisade",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Palisade",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Install T400 Memory Diamond into hardware row",
+              "cardId": "c79"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c81"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c82"
+            },
+            {
+              "label": "Install Verbal Plasticity into resource row",
+              "cardId": "c86"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c83"
+            }
+          ]
+        },
+        {
+          "command": "play",
+          "count": 1,
+          "options": [
+            {
+              "label": "Wildcat Strike",
+              "cardId": "c49"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 5,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            },
+            {
+              "label": "Remote 1"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 57,
+      "t": 1794163726033,
+      "tag": "BUTTON",
+      "label": "Smartware Distributor · Place 3 credit on this resource. 1 click →",
+      "id": "",
+      "data": {
+        "sourceId": "c81",
+        "abilityKind": "",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c81"
+      },
+      "dialog": null,
+      "before": {
+        "version": 257,
+        "turn": 10,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 4,
+        "clicks": 2,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 12,
+          "options": [
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Palisade",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Palisade",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Install T400 Memory Diamond into hardware row",
+              "cardId": "c79"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c82"
+            },
+            {
+              "label": "Install Verbal Plasticity into resource row",
+              "cardId": "c86"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c83"
+            }
+          ]
+        },
+        {
+          "command": "play",
+          "count": 1,
+          "options": [
+            {
+              "label": "Wildcat Strike",
+              "cardId": "c49"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 5,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            },
+            {
+              "label": "Remote 1"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Smartware Distributor · Place 3 credit on this resource.",
+              "cardId": "c81"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 58,
+      "t": 1794163736299,
+      "tag": "BUTTON",
+      "label": "Botulus",
+      "id": "",
+      "data": {
+        "card": "c54",
+        "number": "30004"
+      },
+      "dialog": null,
+      "before": {
+        "version": 260,
+        "turn": 10,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 4,
+        "clicks": 1,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 12,
+          "options": [
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Palisade",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Palisade",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Install T400 Memory Diamond into hardware row",
+              "cardId": "c79"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c82"
+            },
+            {
+              "label": "Install Verbal Plasticity into resource row",
+              "cardId": "c86"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c83"
+            }
+          ]
+        },
+        {
+          "command": "play",
+          "count": 1,
+          "options": [
+            {
+              "label": "Wildcat Strike",
+              "cardId": "c49"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 5,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            },
+            {
+              "label": "Remote 1"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Smartware Distributor · Place 3 credit on this resource.",
+              "cardId": "c81"
+            }
+          ]
+        }
+      ],
+      "category": "Navigation / reading",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 59,
+      "t": 1794163740333,
+      "tag": "BUTTON",
+      "label": "Install → Facedown ice · Remote 2 · ice 1 from outside 1 click · 2 credits →",
+      "id": "",
+      "data": {
+        "inspectCommand": "install",
+        "option": "3",
+        "relatedCards": "c54 c29"
+      },
+      "dialog": "inspect-dialog",
+      "before": {
+        "version": 260,
+        "turn": 10,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 4,
+        "clicks": 1,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 12,
+          "options": [
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Palisade",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c54"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Palisade",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Install T400 Memory Diamond into hardware row",
+              "cardId": "c79"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c82"
+            },
+            {
+              "label": "Install Verbal Plasticity into resource row",
+              "cardId": "c86"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c83"
+            }
+          ]
+        },
+        {
+          "command": "play",
+          "count": 1,
+          "options": [
+            {
+              "label": "Wildcat Strike",
+              "cardId": "c49"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 5,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            },
+            {
+              "label": "Remote 1"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Smartware Distributor · Place 3 credit on this resource.",
+              "cardId": "c81"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 60,
+      "t": 1794163750966,
+      "tag": "BUTTON",
+      "label": "Confirm installation 1 click · 2 credits →",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 261,
+        "turn": 10,
+        "phase": "Trash Before Install",
+        "phaseId": "Runner Install",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 4,
+        "clicks": 1,
+        "busy": false,
+        "pendingInstall": true,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "trash",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver",
+              "cardId": "c58"
+            }
+          ]
+        },
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        }
+      ],
+      "category": "Extra install confirmation",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 61,
+      "t": 1794163756832,
+      "tag": "BUTTON",
+      "label": "Verbal Plasticity",
+      "id": "",
+      "data": {
+        "relatedCards": "c86",
+        "option": "4",
+        "command": "discard"
+      },
+      "dialog": null,
+      "before": {
+        "version": 263,
+        "turn": 10,
+        "phase": "Runner's Discard Phase",
+        "phaseId": "Runner 2.1",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 2,
+        "clicks": 0,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "discard",
+          "count": 6,
+          "options": [
+            {
+              "label": "Botulus",
+              "cardId": "c52"
+            },
+            {
+              "label": "T400 Memory Diamond",
+              "cardId": "c79"
+            },
+            {
+              "label": "Wildcat Strike",
+              "cardId": "c49"
+            },
+            {
+              "label": "Smartware Distributor",
+              "cardId": "c82"
+            },
+            {
+              "label": "Verbal Plasticity",
+              "cardId": "c86"
+            },
+            {
+              "label": "Smartware Distributor",
+              "cardId": "c83"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 62,
+      "t": 1794163757831,
+      "tag": "BUTTON",
+      "label": "Continue · finish this window →",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 265,
+        "turn": 10,
+        "phase": "Runner's Discard Phase",
+        "phaseId": "Runner 2.2",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 2,
+        "clicks": 0,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": true,
+      "singleEffect": false
+    },
+    {
+      "n": 63,
+      "t": 1794163758333,
+      "tag": "BUTTON",
+      "label": "Continue · finish this window →",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 270,
+        "turn": 11,
+        "phase": "Corporation's Draw Phase",
+        "phaseId": "Corp 1.1",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 2,
+        "clicks": 0,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": true,
+      "singleEffect": false
+    },
+    {
+      "n": 64,
+      "t": 1794163767298,
+      "tag": "BUTTON",
+      "label": "Continue · finish this window →",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 284,
+        "turn": 11,
+        "phase": "Corporation's Action Phase",
+        "phaseId": "Corp 2.1",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 2,
+        "clicks": 0,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": true,
+      "singleEffect": false
+    },
+    {
+      "n": 65,
+      "t": 1794163769201,
+      "tag": "BUTTON",
+      "label": "Continue · allow the opponent’s next action →",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 287,
+        "turn": 11,
+        "phase": "Corporation's Action Phase",
+        "phaseId": "Corp 2.2*",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 2,
+        "clicks": 0,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": true,
+      "singleEffect": false
+    },
+    {
+      "n": 66,
+      "t": 1794163771098,
+      "tag": "BUTTON",
+      "label": "Continue · allow the opponent’s next action →",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 290,
+        "turn": 11,
+        "phase": "Corporation's Action Phase",
+        "phaseId": "Corp 2.2*",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 2,
+        "clicks": 0,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": true,
+      "singleEffect": false
+    },
+    {
+      "n": 67,
+      "t": 1794163772999,
+      "tag": "BUTTON",
+      "label": "Continue · allow the opponent’s next action →",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 294,
+        "turn": 11,
+        "phase": "Corporation's Action Phase",
+        "phaseId": "Corp 2.2*",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 2,
+        "clicks": 0,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": true,
+      "singleEffect": false
+    },
+    {
+      "n": 68,
+      "t": 1794163773435,
+      "tag": "BUTTON",
+      "label": "Continue · finish this window →",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 297,
+        "turn": 11,
+        "phase": "Corporation's Discard Phase: Response",
+        "phaseId": "Corp 3.2",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 2,
+        "clicks": 0,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": true,
+      "singleEffect": false
+    },
+    {
+      "n": 69,
+      "t": 1794163773898,
+      "tag": "BUTTON",
+      "label": "Continue · finish this window →",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 300,
+        "turn": 12,
+        "phase": "Runner's Turn Begins",
+        "phaseId": "Runner 1.1",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 2,
+        "clicks": 4,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": true,
+      "singleEffect": false
+    },
+    {
+      "n": 70,
+      "t": 1794163783166,
+      "tag": "BUTTON",
+      "label": "Make a run 1 click 5 choices ›",
+      "id": "",
+      "data": {
+        "relatedCards": "",
+        "command": "run",
+        "group": ""
+      },
+      "dialog": null,
+      "before": {
+        "version": 304,
+        "turn": 12,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 3,
+        "clicks": 4,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 8,
+          "options": [
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Palisade",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Install T400 Memory Diamond into hardware row",
+              "cardId": "c79"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c82"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c83"
+            }
+          ]
+        },
+        {
+          "command": "play",
+          "count": 1,
+          "options": [
+            {
+              "label": "Wildcat Strike",
+              "cardId": "c49"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 5,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            },
+            {
+              "label": "Remote 1"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Smartware Distributor · Place 3 credit on this resource.",
+              "cardId": "c81"
+            }
+          ]
+        }
+      ],
+      "category": "Navigation / reading",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 71,
+      "t": 1794163787331,
+      "tag": "BUTTON",
+      "label": "Remote 2 1 click",
+      "id": "",
+      "data": {
+        "relatedCards": "",
+        "option": "4",
+        "command": "run"
+      },
+      "dialog": null,
+      "before": {
+        "version": 304,
+        "turn": 12,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 3,
+        "clicks": 4,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 8,
+          "options": [
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Palisade",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Install T400 Memory Diamond into hardware row",
+              "cardId": "c79"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c82"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c83"
+            }
+          ]
+        },
+        {
+          "command": "play",
+          "count": 1,
+          "options": [
+            {
+              "label": "Wildcat Strike",
+              "cardId": "c49"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 5,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            },
+            {
+              "label": "Remote 1"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Smartware Distributor · Place 3 credit on this resource.",
+              "cardId": "c81"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 72,
+      "t": 1794163791832,
+      "tag": "BUTTON",
+      "label": "Continue the run Move to the next run window, or jack out to end the run.",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 311,
+        "turn": 12,
+        "phase": "Run: Movement",
+        "phaseId": "Run 4.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": {
+          "server": "Remote 1",
+          "encountering": false
+        },
+        "credits": 3,
+        "clicks": 3,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        },
+        {
+          "command": "jack",
+          "count": 1,
+          "options": [
+            {
+              "label": "Jack out"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 73,
+      "t": 1794163795598,
+      "tag": "BUTTON",
+      "label": "Continue the run Move to the next run window, or jack out to end the run.",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 318,
+        "turn": 12,
+        "phase": "Run: Movement",
+        "phaseId": "Run 4.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": {
+          "server": "Remote 1",
+          "encountering": false
+        },
+        "credits": 3,
+        "clicks": 3,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        },
+        {
+          "command": "jack",
+          "count": 1,
+          "options": [
+            {
+              "label": "Jack out"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 74,
+      "t": 1794163801965,
+      "tag": "BUTTON",
+      "label": "Facedown card · Remote 2",
+      "id": "",
+      "data": {
+        "relatedCards": "c5",
+        "option": "0",
+        "command": "access"
+      },
+      "dialog": null,
+      "before": {
+        "version": 325,
+        "turn": 12,
+        "phase": "Run: Breach",
+        "phaseId": "Run 5.2",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": {
+          "server": "Remote 1",
+          "encountering": false
+        },
+        "credits": 3,
+        "clicks": 3,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "access",
+          "count": 1,
+          "options": [
+            {
+              "label": "Facedown card · Remote 1",
+              "cardId": "c5"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 75,
+      "t": 1794163802464,
+      "tag": "BUTTON",
+      "label": "Steal agenda →",
+      "id": "",
+      "data": {
+        "relatedCards": "",
+        "command": "steal",
+        "group": ""
+      },
+      "dialog": null,
+      "before": {
+        "version": 326,
+        "turn": 12,
+        "phase": "Run: Access",
+        "phaseId": "Run Accessing",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": {
+          "server": "Remote 1",
+          "encountering": false
+        },
+        "credits": 3,
+        "clicks": 3,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          3
+        ]
+      },
+      "offered": [
+        {
+          "command": "steal",
+          "count": 1,
+          "options": [
+            {
+              "label": "Steal agenda"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 76,
+      "t": 1794163823900,
+      "tag": "BUTTON",
+      "label": "Botulus",
+      "id": "",
+      "data": {
+        "card": "c52",
+        "number": "30004"
+      },
+      "dialog": null,
+      "before": {
+        "version": 331,
+        "turn": 12,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 3,
+        "clicks": 3,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          5
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 8,
+          "options": [
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Palisade",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Install T400 Memory Diamond into hardware row",
+              "cardId": "c79"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c82"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c83"
+            }
+          ]
+        },
+        {
+          "command": "play",
+          "count": 1,
+          "options": [
+            {
+              "label": "Wildcat Strike",
+              "cardId": "c49"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 5,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            },
+            {
+              "label": "Remote 1"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Smartware Distributor · Place 3 credit on this resource.",
+              "cardId": "c81"
+            }
+          ]
+        }
+      ],
+      "category": "Navigation / reading",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 77,
+      "t": 1794163828599,
+      "tag": "BUTTON",
+      "label": "Install → Whitespace · HQ · ice 1 from outside 1 click · 2 credits →",
+      "id": "",
+      "data": {
+        "inspectCommand": "install",
+        "option": "1",
+        "relatedCards": "c52 c32"
+      },
+      "dialog": "inspect-dialog",
+      "before": {
+        "version": 331,
+        "turn": 12,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 3,
+        "clicks": 3,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          5
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 8,
+          "options": [
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Whitespace",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Palisade",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Host Botulus on Facedown ice",
+              "cardId": "c52"
+            },
+            {
+              "label": "Install T400 Memory Diamond into hardware row",
+              "cardId": "c79"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c82"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c83"
+            }
+          ]
+        },
+        {
+          "command": "play",
+          "count": 1,
+          "options": [
+            {
+              "label": "Wildcat Strike",
+              "cardId": "c49"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 5,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            },
+            {
+              "label": "Remote 1"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Smartware Distributor · Place 3 credit on this resource.",
+              "cardId": "c81"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 78,
+      "t": 1794163834398,
+      "tag": "BUTTON",
+      "label": "Confirm installation 1 click · 2 credits →",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 332,
+        "turn": 12,
+        "phase": "Trash Before Install",
+        "phaseId": "Runner Install",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 3,
+        "clicks": 3,
+        "busy": false,
+        "pendingInstall": true,
+        "points": [
+          0,
+          5
+        ]
+      },
+      "offered": [
+        {
+          "command": "trash",
+          "count": 2,
+          "options": [
+            {
+              "label": "Botulus",
+              "cardId": "c54"
+            },
+            {
+              "label": "Cleaver",
+              "cardId": "c58"
+            }
+          ]
+        },
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        }
+      ],
+      "category": "Extra install confirmation",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 79,
+      "t": 1794163835431,
+      "tag": "BUTTON",
+      "label": "Make a run 1 click 5 choices ›",
+      "id": "",
+      "data": {
+        "relatedCards": "",
+        "command": "run",
+        "group": ""
+      },
+      "dialog": null,
+      "before": {
+        "version": 334,
+        "turn": 12,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 1,
+        "clicks": 2,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          5
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 2,
+          "options": [
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c82"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c83"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 5,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            },
+            {
+              "label": "Remote 1"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Smartware Distributor · Place 3 credit on this resource.",
+              "cardId": "c81"
+            }
+          ]
+        }
+      ],
+      "category": "Navigation / reading",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 80,
+      "t": 1794163835866,
+      "tag": "BUTTON",
+      "label": "HQ 1 click",
+      "id": "",
+      "data": {
+        "relatedCards": "",
+        "option": "0",
+        "command": "run"
+      },
+      "dialog": null,
+      "before": {
+        "version": 334,
+        "turn": 12,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 1,
+        "clicks": 2,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          5
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 2,
+          "options": [
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c82"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c83"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 5,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            },
+            {
+              "label": "Remote 1"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Smartware Distributor · Place 3 credit on this resource.",
+              "cardId": "c81"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 81,
+      "t": 1794163841665,
+      "tag": "BUTTON",
+      "label": "Botulus · Break 1 subroutine on host ice 1 virus counter →",
+      "id": "",
+      "data": {
+        "sourceId": "c52",
+        "abilityKind": "",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c52"
+      },
+      "dialog": null,
+      "before": {
+        "version": 339,
+        "turn": 12,
+        "phase": "Run: Encounter Ice",
+        "phaseId": "Run 3.1",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": {
+          "server": "HQ",
+          "encountering": true,
+          "card": "Whitespace"
+        },
+        "credits": 1,
+        "clicks": 1,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          5
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Botulus · Break 1 subroutine on host ice",
+              "cardId": "c52"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 82,
+      "t": 1794163847398,
+      "tag": "BUTTON",
+      "label": "Break subroutine 2: If the Runner has 6 credit or less, end the run. 1 virus counter",
+      "id": "",
+      "data": {
+        "relatedCards": "c52 c32",
+        "targetSubroutine": "2",
+        "option": "1",
+        "command": "continue"
+      },
+      "dialog": null,
+      "before": {
+        "version": 340,
+        "turn": 12,
+        "phase": "Break 1 subroutine on host ice",
+        "phaseId": "Run 3.1",
+        "source": "Botulus",
+        "side": "runner",
+        "active": "runner",
+        "run": {
+          "server": "HQ",
+          "encountering": true,
+          "card": "Whitespace"
+        },
+        "credits": 1,
+        "clicks": 1,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          5
+        ]
+      },
+      "offered": [
+        {
+          "command": "continue",
+          "count": 2,
+          "options": [
+            {
+              "label": "Break subroutine 1: The Runner loses 3 credit."
+            },
+            {
+              "label": "Break subroutine 2: If the Runner has 6 credit or less, end the run."
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 83,
+      "t": 1794163869532,
+      "tag": "BUTTON",
+      "label": "Resume",
+      "id": "",
+      "data": {
+        "opponentPause": ""
+      },
+      "dialog": null,
+      "before": {
+        "version": 341,
+        "turn": 12,
+        "phase": "Run: Encounter Ice",
+        "phaseId": "Run 3.1",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": {
+          "server": "HQ",
+          "encountering": true,
+          "card": "Whitespace"
+        },
+        "credits": 1,
+        "clicks": 1,
+        "busy": true,
+        "pendingInstall": false,
+        "points": [
+          0,
+          5
+        ]
+      },
+      "offered": [],
+      "category": "Playback resume",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 84,
+      "t": 1794163879433,
+      "tag": "BUTTON",
+      "label": "Continue the run Move to the next run window, or jack out to end the run.",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 349,
+        "turn": 12,
+        "phase": "Run: Movement",
+        "phaseId": "Run 4.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": {
+          "server": "HQ",
+          "encountering": false,
+          "card": "Whitespace"
+        },
+        "credits": 0,
+        "clicks": 1,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          5
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "jack",
+          "count": 1,
+          "options": [
+            {
+              "label": "Jack out"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 85,
+      "t": 1794163879865,
+      "tag": "BUTTON",
+      "label": "Facedown card",
+      "id": "",
+      "data": {
+        "relatedCards": "c13",
+        "option": "0",
+        "command": "access"
+      },
+      "dialog": null,
+      "before": {
+        "version": 356,
+        "turn": 12,
+        "phase": "Run: Breach",
+        "phaseId": "Run 5.2",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": {
+          "server": "HQ",
+          "encountering": false
+        },
+        "credits": 0,
+        "clicks": 1,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          5
+        ]
+      },
+      "offered": [
+        {
+          "command": "access",
+          "count": 1,
+          "options": [
+            {
+              "label": "Facedown card",
+              "cardId": "c13"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 86,
+      "t": 1794163888733,
+      "tag": "BUTTON",
+      "label": "Finish accessing Finish resolving this card’s access.",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 357,
+        "turn": 12,
+        "phase": "Run: Access",
+        "phaseId": "Run Accessing",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": {
+          "server": "HQ",
+          "encountering": false
+        },
+        "credits": 0,
+        "clicks": 1,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          5
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 87,
+      "t": 1794163889166,
+      "tag": "BUTTON",
+      "label": "Gain 1 credit 1 click",
+      "id": "",
+      "data": {
+        "relatedCards": "",
+        "command": "gain",
+        "group": ""
+      },
+      "dialog": null,
+      "before": {
+        "version": 361,
+        "turn": 12,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 0,
+        "clicks": 1,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          5
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 2,
+          "options": [
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c82"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c83"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 5,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            },
+            {
+              "label": "Remote 1"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Smartware Distributor · Place 3 credit on this resource.",
+              "cardId": "c81"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 88,
+      "t": 1794163907399,
+      "tag": "BUTTON",
+      "label": "Gain 1 credit 1 click",
+      "id": "",
+      "data": {
+        "relatedCards": "",
+        "command": "gain",
+        "group": ""
+      },
+      "dialog": null,
+      "before": {
+        "version": 395,
+        "turn": 14,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 2,
+        "clicks": 4,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          5
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 3,
+          "options": [
+            {
+              "label": "Install T400 Memory Diamond into hardware row",
+              "cardId": "c79"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c82"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c83"
+            }
+          ]
+        },
+        {
+          "command": "play",
+          "count": 1,
+          "options": [
+            {
+              "label": "Wildcat Strike",
+              "cardId": "c49"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 5,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            },
+            {
+              "label": "Remote 1"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Smartware Distributor · Place 3 credit on this resource.",
+              "cardId": "c81"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 89,
+      "t": 1794163908366,
+      "tag": "BUTTON",
+      "label": "Make a run 1 click 5 choices ›",
+      "id": "",
+      "data": {
+        "relatedCards": "",
+        "command": "run",
+        "group": ""
+      },
+      "dialog": null,
+      "before": {
+        "version": 397,
+        "turn": 14,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 3,
+        "clicks": 3,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          5
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 3,
+          "options": [
+            {
+              "label": "Install T400 Memory Diamond into hardware row",
+              "cardId": "c79"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c82"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c83"
+            }
+          ]
+        },
+        {
+          "command": "play",
+          "count": 1,
+          "options": [
+            {
+              "label": "Wildcat Strike",
+              "cardId": "c49"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 5,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            },
+            {
+              "label": "Remote 1"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Smartware Distributor · Place 3 credit on this resource.",
+              "cardId": "c81"
+            }
+          ]
+        }
+      ],
+      "category": "Navigation / reading",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 90,
+      "t": 1794163908801,
+      "tag": "BUTTON",
+      "label": "Remote 1 1 click",
+      "id": "",
+      "data": {
+        "relatedCards": "",
+        "option": "3",
+        "command": "run"
+      },
+      "dialog": null,
+      "before": {
+        "version": 397,
+        "turn": 14,
+        "phase": "Runner's Action Phase",
+        "phaseId": "Runner 1.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": null,
+        "credits": 3,
+        "clicks": 3,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          5
+        ]
+      },
+      "offered": [
+        {
+          "command": "draw",
+          "count": 1,
+          "options": [
+            {
+              "label": "Draw a card"
+            }
+          ]
+        },
+        {
+          "command": "gain",
+          "count": 1,
+          "options": [
+            {
+              "label": "Gain 1 credit"
+            }
+          ]
+        },
+        {
+          "command": "install",
+          "count": 3,
+          "options": [
+            {
+              "label": "Install T400 Memory Diamond into hardware row",
+              "cardId": "c79"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c82"
+            },
+            {
+              "label": "Install Smartware Distributor into resource row",
+              "cardId": "c83"
+            }
+          ]
+        },
+        {
+          "command": "play",
+          "count": 1,
+          "options": [
+            {
+              "label": "Wildcat Strike",
+              "cardId": "c49"
+            }
+          ]
+        },
+        {
+          "command": "run",
+          "count": 5,
+          "options": [
+            {
+              "label": "HQ"
+            },
+            {
+              "label": "R&D"
+            },
+            {
+              "label": "Archives"
+            },
+            {
+              "label": "Remote 0"
+            },
+            {
+              "label": "Remote 1"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Smartware Distributor · Place 3 credit on this resource.",
+              "cardId": "c81"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 91,
+      "t": 1794163918332,
+      "tag": "BUTTON",
+      "label": "Review full break · 3 credits",
+      "id": "",
+      "data": {
+        "planReview": "c58"
+      },
+      "dialog": null,
+      "before": {
+        "version": 402,
+        "turn": 14,
+        "phase": "Run: Encounter Ice",
+        "phaseId": "Run 3.1",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": {
+          "server": "Remote 0",
+          "encountering": true,
+          "card": "Palisade"
+        },
+        "credits": 3,
+        "clicks": 2,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          5
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Break-plan review",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 92,
+      "t": 1794163918766,
+      "tag": "BUTTON",
+      "label": "Confirm boost · 2 credits",
+      "id": "",
+      "data": {
+        "planStep": ""
+      },
+      "dialog": null,
+      "before": {
+        "version": 402,
+        "turn": 14,
+        "phase": "Run: Encounter Ice",
+        "phaseId": "Run 3.1",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": {
+          "server": "Remote 0",
+          "encountering": true,
+          "card": "Palisade"
+        },
+        "credits": 3,
+        "clicks": 2,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          5
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "trigger",
+          "count": 1,
+          "options": [
+            {
+              "label": "Cleaver · +1 strength.",
+              "abilityKind": "boost",
+              "cardId": "c58"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 93,
+      "t": 1794163919200,
+      "tag": "BUTTON",
+      "label": "Break subroutine · 1 credits",
+      "id": "",
+      "data": {
+        "planStep": ""
+      },
+      "dialog": null,
+      "before": {
+        "version": 405,
+        "turn": 14,
+        "phase": "Break up to 2 barrier subroutines",
+        "phaseId": "Run 3.1",
+        "source": "Cleaver",
+        "side": "runner",
+        "active": "runner",
+        "run": {
+          "server": "Remote 0",
+          "encountering": true,
+          "card": "Palisade"
+        },
+        "credits": 1,
+        "clicks": 2,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          5
+        ]
+      },
+      "offered": [
+        {
+          "command": "continue",
+          "count": 2,
+          "options": [
+            {
+              "label": "Break subroutine 1: End the run."
+            },
+            {
+              "label": "Break 0 subroutines"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 94,
+      "t": 1794163929530,
+      "tag": "BUTTON",
+      "label": "Resume",
+      "id": "",
+      "data": {
+        "opponentPause": ""
+      },
+      "dialog": null,
+      "before": {
+        "version": 407,
+        "turn": 14,
+        "phase": "Run: Encounter Ice",
+        "phaseId": "Run 3.1",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": {
+          "server": "Remote 0",
+          "encountering": true,
+          "card": "Palisade"
+        },
+        "credits": 0,
+        "clicks": 2,
+        "busy": true,
+        "pendingInstall": false,
+        "points": [
+          0,
+          5
+        ]
+      },
+      "offered": [],
+      "category": "Playback resume",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 95,
+      "t": 1794163936065,
+      "tag": "BUTTON",
+      "label": "Continue the run Move to the next run window, or jack out to end the run.",
+      "id": "",
+      "data": {
+        "command": "n",
+        "option": "0"
+      },
+      "dialog": null,
+      "before": {
+        "version": 414,
+        "turn": 14,
+        "phase": "Run: Movement",
+        "phaseId": "Run 4.3",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": {
+          "server": "Remote 0",
+          "encountering": false,
+          "card": "Palisade"
+        },
+        "credits": 0,
+        "clicks": 2,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          5
+        ]
+      },
+      "offered": [
+        {
+          "command": "n",
+          "count": 1,
+          "options": [
+            {
+              "label": "Continue"
+            }
+          ]
+        },
+        {
+          "command": "jack",
+          "count": 1,
+          "options": [
+            {
+              "label": "Jack out"
+            }
+          ]
+        }
+      ],
+      "category": "Pass / advance",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 96,
+      "t": 1794163936566,
+      "tag": "BUTTON",
+      "label": "Facedown card · Remote 1",
+      "id": "",
+      "data": {
+        "relatedCards": "c4",
+        "option": "0",
+        "command": "access"
+      },
+      "dialog": null,
+      "before": {
+        "version": 421,
+        "turn": 14,
+        "phase": "Run: Breach",
+        "phaseId": "Run 5.2",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": {
+          "server": "Remote 0",
+          "encountering": false
+        },
+        "credits": 0,
+        "clicks": 2,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          5
+        ]
+      },
+      "offered": [
+        {
+          "command": "access",
+          "count": 1,
+          "options": [
+            {
+              "label": "Facedown card · Remote 0",
+              "cardId": "c4"
+            }
+          ]
+        }
+      ],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    },
+    {
+      "n": 97,
+      "t": 1794163945765,
+      "tag": "BUTTON",
+      "label": "Steal agenda →",
+      "id": "",
+      "data": {
+        "relatedCards": "",
+        "command": "steal",
+        "group": ""
+      },
+      "dialog": null,
+      "before": {
+        "version": 422,
+        "turn": 14,
+        "phase": "Run: Access",
+        "phaseId": "Run Accessing",
+        "source": null,
+        "side": "runner",
+        "active": "runner",
+        "run": {
+          "server": "Remote 0",
+          "encountering": false
+        },
+        "credits": 0,
+        "clicks": 2,
+        "busy": false,
+        "pendingInstall": false,
+        "points": [
+          0,
+          5
+        ]
+      },
+      "offered": [],
+      "category": "Game action / choice",
+      "boostOnlyPass": false,
+      "singleEffect": false
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "engine": "chiriboga-77c80b1-local-1",
+  "config": {
+    "side": "runner",
+    "seed": "58a69a99-4abd-4047-9819-7ffd33641b5b",
+    "deckIds": {
+      "runner": "tao-v1",
+      "corp": "restoring-humanity-v1"
+    }
+  },
+  "choices": [
+    {
+      "version": 2,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 31,
+      "command": "play",
+      "index": 1
+    },
+    {
+      "version": 34,
+      "command": "install",
+      "index": 6
+    },
+    {
+      "version": 37,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 40,
+      "command": "discard",
+      "index": 1
+    },
+    {
+      "version": 41,
+      "command": "discard",
+      "index": 5
+    },
+    {
+      "version": 72,
+      "command": "install",
+      "index": 2
+    },
+    {
+      "version": 75,
+      "command": "install",
+      "index": 0
+    },
+    {
+      "version": 76,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 78,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 81,
+      "command": "run",
+      "index": 3
+    },
+    {
+      "version": 95,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 102,
+      "command": "access",
+      "index": 0
+    }
+  ],
+  "conceded": false
+}

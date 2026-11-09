@@ -1,0 +1,26 @@
+{
+  "name": "netrunner-local-table",
+  "version": "0.1.0",
+  "private": true,
+  "license": "GPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicanadian/nzg-netrunner.git"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "jinteki:local": "node scripts/jinteki-local/start.cjs",
+    "jinteki:stop": "node scripts/jinteki-local/start.cjs --stop",
+    "test:jinteki": "node scripts/jinteki-comparison/run.cjs",
+    "dev": "node server.cjs",
+    "test": "node tests/engine-smoke.cjs && node tests/replay-smoke.cjs && npm run test:rules && node tests/hosted-privacy.cjs && node tests/chrome-playthroughs.cjs && node tests/install-cost.cjs && node tests/counters.cjs && node tests/polish.cjs && node tests/decks.cjs && node tests/character-feedback.cjs && node tests/encounter-ui.cjs && node tests/interaction.cjs && node tests/click-flow.cjs && node tests/rez-visibility.cjs && node tests/run-drawer.cjs && node tests/activity-turns.cjs && node tests/opponent-playback.cjs && node tests/luminal-clicks.cjs && node tests/spin-doctor-feedback.cjs && node tests/frontend-audit.cjs && node tests/helper-virus.cjs && node tests/helper-codex.cjs && npm run test:reference && npm run test:recorded-games",
+    "test:rules": "node tests/rules-playtest.cjs",
+    "eval:build": "node scripts/build-reference-eval.cjs",
+    "test:reference": "node tests/reference-eval.cjs && node tests/reference-presentation.cjs",
+    "test:matchups": "node tests/deck-matchups.cjs",
+    "test:recorded-games": "node scripts/check-recorded-game-ledgers.cjs && node tests/recorded-game-scenarios.cjs && node scripts/run-recorded-full-games.cjs --check && node tests/recorded-rules-audit.cjs && node tests/rules-paid-choices.cjs && node scripts/run-recorded-full-games.cjs --full-paid-choices --check",
+    "test:interaction-browser": "node tests/interaction-browser.cjs"
+  }
+}

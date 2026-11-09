@@ -1,0 +1,2566 @@
+{
+  "schemaVersion": 1,
+  "id": "neon-starter",
+  "title": "Neon Static — System Gateway starter demonstration",
+  "source": {
+    "url": "https://www.youtube.com/watch?v=EpoV0ezJFFg",
+    "videoId": "EpoV0ezJFFg",
+    "reviewedOn": "2026-11-06",
+    "evidence": [
+      "English captions",
+      "720p source video",
+      "sampled board frames"
+    ],
+    "timestampPrecision": "Approximate navigation anchors; Jinteki log observations sampled every 10 seconds. They are not wall-clock action times."
+  },
+  "format": "34/30-card starter decks; players explicitly announce a 6-point target",
+  "identities": {
+    "corp": 30077,
+    "runner": 30076
+  },
+  "initialState": {
+    "corpCredits": 5,
+    "runnerCredits": 5,
+    "corpPoints": 0,
+    "runnerPoints": 0
+  },
+  "result": {
+    "winner": "runner",
+    "corpPoints": 3,
+    "runnerPoints": 7,
+    "completedCorpTurns": 13,
+    "completedRunnerTurns": 12,
+    "terminalRunnerTurn": 13
+  },
+  "reproduction": {
+    "level": "verified normalized full-game reconstruction with annotated source ledger",
+    "executableFullGame": true,
+    "originalShuffleRecovered": false,
+    "unknownPolicy": "null or an explicit gap; never silently fill hidden cards, randomness or omitted actions",
+    "coverage": "Opening through recorded game ending. Public action order and credit/point effects are annotated; this is not a native engine decision replay.",
+    "verifiedNormalizedFullGame": true,
+    "normalizedFullGameArtifact": "neon-starter-full-replay.json",
+    "fullGameQualification": "Legal reconstruction with explicit source corrections, synthetic hidden-state completion and controlled random outcomes. Not a literal original-shuffle reproduction.",
+    "exactSourceGameExecutable": false
+  },
+  "issues": [
+    {
+      "id": "neon-opening-install-order",
+      "severity": "uncertainty",
+      "text": "All three installed cards are identified by the first run. Their exact installation order is uncertain from the caption placement references; listed per-click identities are a possible ordering only. The resulting Remote 1 contains Tithe, Regolith and Manegarm.",
+      "turns": [
+        "C1"
+      ]
+    },
+    {
+      "id": "neon-R4-click",
+      "severity": "gap",
+      "text": "Only two Sure Gambles and a Telework install are narrated, then the turn ends. A missing click or physical click-accounting error remains. The next spoken 15-credit checkpoint agrees with no extra credit action.",
+      "turns": [
+        "R4"
+      ]
+    },
+    {
+      "id": "neon-mayfly-reminder",
+      "severity": "source correction",
+      "text": "Mayfly is used during R5 and belongs in the heap at that run end. The physical reminder occurs early C6; it is not another game action.",
+      "turns": [
+        "R5",
+        "C6"
+      ]
+    },
+    {
+      "id": "neon-hidden-order",
+      "severity": "reproduction blocker",
+      "text": "No original deck shuffle or complete Corp hand/draw history. Some R&D accesses, two discards, the HQ ice and an unaccessed late remote remain unidentified. Their identities must remain unknown or become labelled synthetic completions in an engine fixture.",
+      "turns": [
+        "C1",
+        "C2",
+        "C3",
+        "R7",
+        "R8",
+        "C12",
+        "R12",
+        "C13"
+      ]
+    }
+  ],
+  "turns": [
+    {
+      "id": "C1",
+      "side": "corp",
+      "round": 1,
+      "sourceStart": "01:19",
+      "sourceEnd": "02:10",
+      "events": [
+        {
+          "time": "01:19",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "neon-starter/C1/01"
+        },
+        {
+          "time": "01:37",
+          "kind": "install",
+          "text": "Install a root card in new Remote 1; later access establishes Regolith Mining License.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30071,
+              "title": "Regolith Mining License"
+            }
+          ],
+          "delta": {},
+          "certainty": "possible ordering; final installed trio known",
+          "id": "neon-starter/C1/02",
+          "issue": "neon-opening-install-order"
+        },
+        {
+          "time": "01:42",
+          "kind": "install",
+          "text": "Install Tithe protecting Remote 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30073,
+              "title": "Tithe"
+            }
+          ],
+          "delta": {},
+          "certainty": "possible ordering; final installed trio known",
+          "id": "neon-starter/C1/03",
+          "issue": "neon-opening-install-order"
+        },
+        {
+          "time": "01:49",
+          "kind": "install",
+          "text": "Install a second root card in Remote 1; later rez establishes Manegarm Skunkworks.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30042,
+              "title": "Manegarm Skunkworks"
+            }
+          ],
+          "delta": {},
+          "certainty": "possible ordering; final installed trio known",
+          "id": "neon-starter/C1/04",
+          "issue": "neon-opening-install-order"
+        }
+      ]
+    },
+    {
+      "id": "R1",
+      "side": "runner",
+      "round": 1,
+      "sourceStart": "02:17",
+      "sourceEnd": "06:40",
+      "events": [
+        {
+          "time": "02:17",
+          "kind": "play",
+          "text": "Play Sure Gamble: pay 5, gain 9.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30030,
+              "title": "Sure Gamble"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 4
+          },
+          "id": "neon-starter/R1/01"
+        },
+        {
+          "time": "02:35",
+          "kind": "install",
+          "text": "Install Mayfly for 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30032,
+              "title": "Mayfly"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -1
+          },
+          "id": "neon-starter/R1/02"
+        },
+        {
+          "time": "02:48",
+          "kind": "play-run",
+          "text": "Play Overclock for 1; load 5 temporary credits and run Remote 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30029,
+              "title": "Overclock"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -1
+          },
+          "counters": [
+            {
+              "instance": "overclock-R1",
+              "counter": "credits",
+              "delta": 5
+            }
+          ],
+          "id": "neon-starter/R1/03"
+        },
+        {
+          "time": "03:06",
+          "kind": "rez",
+          "text": "Corp rezzes Tithe for 1.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30073,
+              "title": "Tithe"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "id": "neon-starter/R1/04"
+        },
+        {
+          "time": "03:40",
+          "kind": "damage",
+          "text": "Allow Tithe: 1 net damage randomly trashes the other Mayfly from grip; installed Mayfly is unused.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30073,
+              "title": "Tithe"
+            },
+            {
+              "number": 30032,
+              "title": "Mayfly"
+            }
+          ],
+          "delta": {},
+          "damage": {
+            "type": "net",
+            "amount": 1,
+            "trashed": [
+              30032
+            ]
+          },
+          "id": "neon-starter/R1/05"
+        },
+        {
+          "time": "03:45",
+          "kind": "subroutine",
+          "text": "Allow Tithe: Corp gains 1.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30073,
+              "title": "Tithe"
+            }
+          ],
+          "delta": {
+            "corpCredits": 1
+          },
+          "id": "neon-starter/R1/06"
+        },
+        {
+          "time": "03:58",
+          "kind": "rez",
+          "text": "Corp rezzes Manegarm Skunkworks for 2 before server approach.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30042,
+              "title": "Manegarm Skunkworks"
+            }
+          ],
+          "delta": {
+            "corpCredits": -2
+          },
+          "id": "neon-starter/R1/07"
+        },
+        {
+          "time": "04:11",
+          "kind": "payment",
+          "text": "Pay Manegarm with all 5 Overclock credits; pool stays 7.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30042,
+              "title": "Manegarm Skunkworks"
+            },
+            {
+              "number": 30029,
+              "title": "Overclock"
+            }
+          ],
+          "delta": {},
+          "counters": [
+            {
+              "instance": "overclock-R1",
+              "counter": "credits",
+              "delta": -5
+            }
+          ],
+          "id": "neon-starter/R1/08"
+        },
+        {
+          "time": "05:18",
+          "kind": "access-trash",
+          "text": "Access and trash Regolith Mining License for 3 and Manegarm for 3; runner pool becomes 1.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30071,
+              "title": "Regolith Mining License"
+            },
+            {
+              "number": 30042,
+              "title": "Manegarm Skunkworks"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -6
+          },
+          "id": "neon-starter/R1/09"
+        },
+        {
+          "time": "05:40",
+          "kind": "play-run",
+          "text": "Play Jailbreak on HQ; draw 1, access 2. Accessed identities are Superconducting Hub and Seamless Launch.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30028,
+              "title": "Jailbreak"
+            },
+            {
+              "number": 30070,
+              "title": "Superconducting Hub"
+            },
+            {
+              "number": 30040,
+              "title": "Seamless Launch"
+            }
+          ],
+          "delta": {},
+          "id": "neon-starter/R1/10"
+        },
+        {
+          "time": "06:20",
+          "kind": "steal",
+          "text": "Steal Superconducting Hub for 1 point; leave Seamless Launch.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30070,
+              "title": "Superconducting Hub"
+            }
+          ],
+          "delta": {
+            "runnerPoints": 1
+          },
+          "id": "neon-starter/R1/11"
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "side": "corp",
+      "round": 2,
+      "sourceStart": "06:44",
+      "sourceEnd": "07:05",
+      "events": [
+        {
+          "time": "06:44",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "neon-starter/C2/01"
+        },
+        {
+          "time": "06:49",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "neon-starter/C2/02"
+        },
+        {
+          "time": "06:57",
+          "kind": "install",
+          "text": "Install ice protecting one central (HQ/R&D); exact identity and central assignment unresolved.",
+          "clicks": 1,
+          "delta": {},
+          "hidden": {
+            "card": null,
+            "server": null
+          },
+          "id": "neon-starter/C2/03"
+        },
+        {
+          "time": "07:00",
+          "kind": "basic-credit",
+          "text": "Gain 1 credit.",
+          "clicks": 1,
+          "delta": {
+            "corpCredits": 1
+          },
+          "id": "neon-starter/C2/04"
+        }
+      ]
+    },
+    {
+      "id": "R2",
+      "side": "runner",
+      "round": 2,
+      "sourceStart": "07:12",
+      "sourceEnd": "07:34",
+      "events": [
+        {
+          "time": "07:12",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "neon-starter/R2/01"
+        },
+        {
+          "time": "07:16",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "neon-starter/R2/02"
+        },
+        {
+          "time": "07:19",
+          "kind": "install",
+          "text": "Install Smartware Distributor for 0.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30033,
+              "title": "Smartware Distributor"
+            }
+          ],
+          "delta": {},
+          "id": "neon-starter/R2/03"
+        },
+        {
+          "time": "07:29",
+          "kind": "ability",
+          "text": "Spend a click to load 3 onto Smartware.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30033,
+              "title": "Smartware Distributor"
+            }
+          ],
+          "delta": {},
+          "counters": [
+            {
+              "instance": "smartware",
+              "counter": "credits",
+              "delta": 3
+            }
+          ],
+          "id": "neon-starter/R2/04"
+        }
+      ]
+    },
+    {
+      "id": "C3",
+      "side": "corp",
+      "round": 3,
+      "sourceStart": "07:36",
+      "sourceEnd": "08:00",
+      "events": [
+        {
+          "time": "07:36",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "neon-starter/C3/01"
+        },
+        {
+          "time": "07:38",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "neon-starter/C3/02"
+        },
+        {
+          "time": "07:44",
+          "kind": "install",
+          "text": "Install ice on the other central. Later free rez identifies R&D ice as Karunā; HQ ice remains concealed.",
+          "clicks": 1,
+          "delta": {},
+          "hidden": {
+            "card": null,
+            "server": null
+          },
+          "id": "neon-starter/C3/03"
+        },
+        {
+          "time": "07:48",
+          "kind": "basic-credit",
+          "text": "Gain 1 credit.",
+          "clicks": 1,
+          "delta": {
+            "corpCredits": 1
+          },
+          "id": "neon-starter/C3/04"
+        }
+      ]
+    },
+    {
+      "id": "R3",
+      "side": "runner",
+      "round": 3,
+      "sourceStart": "08:04",
+      "sourceEnd": "08:46",
+      "events": [
+        {
+          "time": "08:04",
+          "kind": "automatic-income",
+          "text": "Smartware pays 1 at turn start.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30033,
+              "title": "Smartware Distributor"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 1
+          },
+          "counters": [
+            {
+              "instance": "smartware",
+              "counter": "credits",
+              "delta": -1
+            }
+          ],
+          "id": "neon-starter/R3/01"
+        },
+        {
+          "time": "08:10",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "neon-starter/R3/02"
+        },
+        {
+          "time": "08:10",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "neon-starter/R3/03"
+        },
+        {
+          "time": "08:10",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "neon-starter/R3/04"
+        },
+        {
+          "time": "08:26",
+          "kind": "play",
+          "text": "Play Creative Commission on last click: pay 1, gain 5; no remaining click to lose.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30020,
+              "title": "Creative Commission"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 4
+          },
+          "id": "neon-starter/R3/05"
+        }
+      ]
+    },
+    {
+      "id": "C4",
+      "side": "corp",
+      "round": 4,
+      "sourceStart": "08:48",
+      "sourceEnd": "09:22",
+      "events": [
+        {
+          "time": "08:48",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "neon-starter/C4/01"
+        },
+        {
+          "time": "08:51",
+          "kind": "play",
+          "text": "Play Hedge Fund: pay 5, gain 9.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30075,
+              "title": "Hedge Fund"
+            }
+          ],
+          "delta": {
+            "corpCredits": 4
+          },
+          "id": "neon-starter/C4/02"
+        },
+        {
+          "time": "09:09",
+          "kind": "basic-credit",
+          "text": "Gain 1 credit.",
+          "clicks": 1,
+          "delta": {
+            "corpCredits": 1
+          },
+          "id": "neon-starter/C4/03"
+        },
+        {
+          "time": "09:13",
+          "kind": "play",
+          "text": "Play Government Subsidy: pay 10, gain 15.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30064,
+              "title": "Government Subsidy"
+            }
+          ],
+          "delta": {
+            "corpCredits": 5
+          },
+          "id": "neon-starter/C4/04"
+        }
+      ]
+    },
+    {
+      "id": "R4",
+      "side": "runner",
+      "round": 4,
+      "sourceStart": "09:26",
+      "sourceEnd": "10:44",
+      "events": [
+        {
+          "time": "09:26",
+          "kind": "automatic-income",
+          "text": "Smartware pays 1.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30033,
+              "title": "Smartware Distributor"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 1
+          },
+          "counters": [
+            {
+              "instance": "smartware",
+              "counter": "credits",
+              "delta": -1
+            }
+          ],
+          "id": "neon-starter/R4/01"
+        },
+        {
+          "time": "09:54",
+          "kind": "play",
+          "text": "Play Sure Gamble: pay 5, gain 9.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30030,
+              "title": "Sure Gamble"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 4
+          },
+          "id": "neon-starter/R4/02"
+        },
+        {
+          "time": "10:11",
+          "kind": "play",
+          "text": "Play second Sure Gamble: pay 5, gain 9.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30030,
+              "title": "Sure Gamble"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 4
+          },
+          "id": "neon-starter/R4/03"
+        },
+        {
+          "time": "10:29",
+          "kind": "install",
+          "text": "Install Telework Contract for 1 and load 9.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30027,
+              "title": "Telework Contract"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -1
+          },
+          "counters": [
+            {
+              "instance": "telework-1",
+              "counter": "credits",
+              "delta": 9
+            }
+          ],
+          "id": "neon-starter/R4/04"
+        },
+        {
+          "time": "10:44",
+          "kind": "gap",
+          "text": "Turn ends after three narrated actions. Fourth click is not established; do not insert a draw, credit, or Telework activation.",
+          "clicks": 1,
+          "delta": {},
+          "issue": "neon-R4-click",
+          "certainty": "unresolved",
+          "id": "neon-starter/R4/05"
+        }
+      ]
+    },
+    {
+      "id": "C5",
+      "side": "corp",
+      "round": 5,
+      "sourceStart": "10:47",
+      "sourceEnd": "11:53",
+      "events": [
+        {
+          "time": "10:47",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "neon-starter/C5/01"
+        },
+        {
+          "time": "10:55",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "neon-starter/C5/02"
+        },
+        {
+          "time": "11:03",
+          "kind": "install",
+          "text": "Install a second Tithe outside Remote 1 ice, paying 1 install credit.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30073,
+              "title": "Tithe"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "certainty": "retrospective identification",
+          "id": "neon-starter/C5/03"
+        },
+        {
+          "time": "11:24",
+          "kind": "install",
+          "text": "Install Send a Message in Remote 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30069,
+              "title": "Send a Message"
+            }
+          ],
+          "delta": {},
+          "certainty": "retrospective identification",
+          "id": "neon-starter/C5/04"
+        }
+      ]
+    },
+    {
+      "id": "R5",
+      "side": "runner",
+      "round": 5,
+      "sourceStart": "11:54",
+      "sourceEnd": "13:57",
+      "events": [
+        {
+          "time": "11:54",
+          "kind": "automatic-income",
+          "text": "Smartware pays last credit.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30033,
+              "title": "Smartware Distributor"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 1
+          },
+          "counters": [
+            {
+              "instance": "smartware",
+              "counter": "credits",
+              "delta": -1
+            }
+          ],
+          "id": "neon-starter/R5/01"
+        },
+        {
+          "time": "12:05",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "neon-starter/R5/02"
+        },
+        {
+          "time": "12:10",
+          "kind": "run",
+          "text": "Run Remote 1.",
+          "clicks": 1,
+          "delta": {},
+          "id": "neon-starter/R5/03"
+        },
+        {
+          "time": "12:17",
+          "kind": "rez",
+          "text": "Corp rezzes outer Tithe for 1.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30073,
+              "title": "Tithe"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "id": "neon-starter/R5/04"
+        },
+        {
+          "time": "12:44",
+          "kind": "break",
+          "text": "Use Mayfly to break both subroutines on outer Tithe for 2.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30032,
+              "title": "Mayfly"
+            },
+            {
+              "number": 30073,
+              "title": "Tithe"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -2
+          },
+          "id": "neon-starter/R5/05"
+        },
+        {
+          "time": "12:58",
+          "kind": "break",
+          "text": "Use Mayfly to break both subroutines on inner Tithe for 2.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30032,
+              "title": "Mayfly"
+            },
+            {
+              "number": 30073,
+              "title": "Tithe"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -2
+          },
+          "id": "neon-starter/R5/06"
+        },
+        {
+          "time": "13:06",
+          "kind": "steal",
+          "text": "Steal Send a Message: +3 points, total 4.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30069,
+              "title": "Send a Message"
+            }
+          ],
+          "delta": {
+            "runnerPoints": 3
+          },
+          "id": "neon-starter/R5/07"
+        },
+        {
+          "time": "13:23",
+          "kind": "rez",
+          "text": "Send a Message lets Corp rez Karunā protecting R&D at no cost.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30069,
+              "title": "Send a Message"
+            },
+            {
+              "number": 30047,
+              "title": "Karunā"
+            }
+          ],
+          "delta": {},
+          "id": "neon-starter/R5/08"
+        },
+        {
+          "time": "13:30",
+          "kind": "delayed-cleanup",
+          "text": "Used Mayfly should trash at run end; players physically remember this at 14:12.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30032,
+              "title": "Mayfly"
+            }
+          ],
+          "delta": {},
+          "issue": "neon-mayfly-reminder",
+          "id": "neon-starter/R5/09"
+        },
+        {
+          "time": "13:41",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "neon-starter/R5/10"
+        },
+        {
+          "time": "13:49",
+          "kind": "ability",
+          "text": "Take 3 from first Telework Contract.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30027,
+              "title": "Telework Contract"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 3
+          },
+          "counters": [
+            {
+              "instance": "telework-1",
+              "counter": "credits",
+              "delta": -3
+            }
+          ],
+          "id": "neon-starter/R5/11"
+        }
+      ]
+    },
+    {
+      "id": "C6",
+      "side": "corp",
+      "round": 6,
+      "sourceStart": "14:02",
+      "sourceEnd": "14:35",
+      "events": [
+        {
+          "time": "14:02",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "neon-starter/C6/01"
+        },
+        {
+          "time": "14:06",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "neon-starter/C6/02"
+        },
+        {
+          "time": "14:06",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "neon-starter/C6/03"
+        },
+        {
+          "time": "14:18",
+          "kind": "install",
+          "text": "Install third ice on Remote 1 for 2; later rez identifies Whitespace.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30074,
+              "title": "Whitespace"
+            }
+          ],
+          "delta": {
+            "corpCredits": -2
+          },
+          "certainty": "retrospective identification",
+          "id": "neon-starter/C6/04"
+        }
+      ]
+    },
+    {
+      "id": "R6",
+      "side": "runner",
+      "round": 6,
+      "sourceStart": "14:36",
+      "sourceEnd": "15:14",
+      "events": [
+        {
+          "time": "14:48",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "neon-starter/R6/01"
+        },
+        {
+          "time": "14:58",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "neon-starter/R6/02"
+        },
+        {
+          "time": "15:03",
+          "kind": "ability",
+          "text": "Take 3 from Telework.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30027,
+              "title": "Telework Contract"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 3
+          },
+          "counters": [
+            {
+              "instance": "telework-1",
+              "counter": "credits",
+              "delta": -3
+            }
+          ],
+          "id": "neon-starter/R6/03"
+        },
+        {
+          "time": "15:10",
+          "kind": "play",
+          "text": "Last-click Creative Commission: net +4.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30020,
+              "title": "Creative Commission"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 4
+          },
+          "id": "neon-starter/R6/04"
+        }
+      ]
+    },
+    {
+      "id": "C7",
+      "side": "corp",
+      "round": 7,
+      "sourceStart": "15:16",
+      "sourceEnd": "15:58",
+      "events": [
+        {
+          "time": "15:16",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "neon-starter/C7/01"
+        },
+        {
+          "time": "15:24",
+          "kind": "play",
+          "text": "Government Subsidy: pay 10, gain 15.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30064,
+              "title": "Government Subsidy"
+            }
+          ],
+          "delta": {
+            "corpCredits": 5
+          },
+          "id": "neon-starter/C7/02"
+        },
+        {
+          "time": "15:33",
+          "kind": "install",
+          "text": "Install Nico Campaign in new, unprotected Remote 2.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30037,
+              "title": "Nico Campaign"
+            }
+          ],
+          "delta": {},
+          "id": "neon-starter/C7/03"
+        },
+        {
+          "time": "15:40",
+          "kind": "install",
+          "text": "Install Offworld Office in Remote 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30067,
+              "title": "Offworld Office"
+            }
+          ],
+          "delta": {},
+          "certainty": "retrospective identification",
+          "id": "neon-starter/C7/04"
+        }
+      ]
+    },
+    {
+      "id": "R7",
+      "side": "runner",
+      "round": 7,
+      "sourceStart": "15:59",
+      "sourceEnd": "16:55",
+      "events": [
+        {
+          "time": "15:59",
+          "kind": "play",
+          "text": "Play VRcation: pay 1, draw 4, lose one remaining click.",
+          "clicks": 2,
+          "cards": [
+            {
+              "number": 30021,
+              "title": "VRcation"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -1
+          },
+          "id": "neon-starter/R7/01"
+        },
+        {
+          "time": "16:24",
+          "kind": "install",
+          "text": "Install Pennyshaver for 3.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30014,
+              "title": "Pennyshaver"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -3
+          },
+          "counters": [
+            {
+              "instance": "pennyshaver",
+              "counter": "credits",
+              "delta": 0
+            }
+          ],
+          "id": "neon-starter/R7/02"
+        },
+        {
+          "time": "16:34",
+          "kind": "install",
+          "text": "Install Docklands Pass for 2.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30013,
+              "title": "Docklands Pass"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -2
+          },
+          "id": "neon-starter/R7/03"
+        },
+        {
+          "time": "16:48",
+          "kind": "discard",
+          "text": "Discard 1 unidentified card to hand limit.",
+          "clicks": 0,
+          "delta": {},
+          "hidden": {
+            "card": null
+          },
+          "id": "neon-starter/R7/04"
+        }
+      ]
+    },
+    {
+      "id": "C8",
+      "side": "corp",
+      "round": 8,
+      "sourceStart": "16:56",
+      "sourceEnd": "18:40",
+      "events": [
+        {
+          "time": "16:56",
+          "kind": "rez",
+          "text": "Rez Nico before Corp turn for 2; load 9.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30037,
+              "title": "Nico Campaign"
+            }
+          ],
+          "delta": {
+            "corpCredits": -2
+          },
+          "counters": [
+            {
+              "instance": "nico",
+              "counter": "credits",
+              "delta": 9
+            }
+          ],
+          "id": "neon-starter/C8/01"
+        },
+        {
+          "time": "17:30",
+          "kind": "automatic-income",
+          "text": "Take 3 from Nico at turn start.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30037,
+              "title": "Nico Campaign"
+            }
+          ],
+          "delta": {
+            "corpCredits": 3
+          },
+          "counters": [
+            {
+              "instance": "nico",
+              "counter": "credits",
+              "delta": -3
+            }
+          ],
+          "id": "neon-starter/C8/02"
+        },
+        {
+          "time": "17:40",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "neon-starter/C8/03"
+        },
+        {
+          "time": "17:43",
+          "kind": "advance",
+          "text": "Advance Offworld Office for 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30067,
+              "title": "Offworld Office"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "id": "neon-starter/C8/04"
+        },
+        {
+          "time": "17:46",
+          "kind": "advance",
+          "text": "Advance Offworld Office for 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30067,
+              "title": "Offworld Office"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "id": "neon-starter/C8/05"
+        },
+        {
+          "time": "17:51",
+          "kind": "play",
+          "text": "Seamless Launch costs 1, adds 2 advancement to previously installed Offworld.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30040,
+              "title": "Seamless Launch"
+            },
+            {
+              "number": 30067,
+              "title": "Offworld Office"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "id": "neon-starter/C8/06"
+        },
+        {
+          "time": "18:10",
+          "kind": "score",
+          "text": "Score Offworld Office for 2 points; gain 7.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30067,
+              "title": "Offworld Office"
+            }
+          ],
+          "delta": {
+            "corpCredits": 7,
+            "corpPoints": 2
+          },
+          "id": "neon-starter/C8/07"
+        }
+      ]
+    },
+    {
+      "id": "R8",
+      "side": "runner",
+      "round": 8,
+      "sourceStart": "18:42",
+      "sourceEnd": "21:04",
+      "events": [
+        {
+          "time": "18:42",
+          "kind": "run",
+          "text": "Run unprotected Remote 2; successful: Pennyshaver +1.",
+          "clicks": 1,
+          "delta": {},
+          "counters": [
+            {
+              "instance": "pennyshaver",
+              "counter": "credits",
+              "delta": 1
+            }
+          ],
+          "id": "neon-starter/R8/01"
+        },
+        {
+          "time": "18:57",
+          "kind": "access-trash",
+          "text": "Access and trash Nico for 2; its 6 remaining hosted credits are lost.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30037,
+              "title": "Nico Campaign"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -2
+          },
+          "counters": [
+            {
+              "instance": "nico",
+              "counter": "credits",
+              "delta": -6
+            }
+          ],
+          "id": "neon-starter/R8/02"
+        },
+        {
+          "time": "19:11",
+          "kind": "install",
+          "text": "Install Carmen for 3 using successful-run discount.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30015,
+              "title": "Carmen"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -3
+          },
+          "id": "neon-starter/R8/03"
+        },
+        {
+          "time": "19:51",
+          "kind": "play-run",
+          "text": "Play Jailbreak on R&D; draw 1 and access 2 if successful.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30028,
+              "title": "Jailbreak"
+            }
+          ],
+          "delta": {},
+          "id": "neon-starter/R8/04"
+        },
+        {
+          "time": "20:06",
+          "kind": "break",
+          "text": "Karunā: boost Carmen once for 2 and break both subroutines for 2.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30015,
+              "title": "Carmen"
+            },
+            {
+              "number": 30047,
+              "title": "Karunā"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -4
+          },
+          "id": "neon-starter/R8/05"
+        },
+        {
+          "time": "20:35",
+          "kind": "access",
+          "text": "Successful R&D run: Pennyshaver +1. Access two unidentified non-agendas; leave both.",
+          "clicks": 0,
+          "delta": {},
+          "counters": [
+            {
+              "instance": "pennyshaver",
+              "counter": "credits",
+              "delta": 1
+            }
+          ],
+          "hidden": {
+            "accessedCards": [
+              null,
+              null
+            ]
+          },
+          "id": "neon-starter/R8/06"
+        },
+        {
+          "time": "20:59",
+          "kind": "ability",
+          "text": "Load 3 onto Smartware.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30033,
+              "title": "Smartware Distributor"
+            }
+          ],
+          "delta": {},
+          "counters": [
+            {
+              "instance": "smartware",
+              "counter": "credits",
+              "delta": 3
+            }
+          ],
+          "id": "neon-starter/R8/07"
+        }
+      ]
+    },
+    {
+      "id": "C9",
+      "side": "corp",
+      "round": 9,
+      "sourceStart": "21:06",
+      "sourceEnd": "21:38",
+      "events": [
+        {
+          "time": "21:06",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "neon-starter/C9/01"
+        },
+        {
+          "time": "21:10",
+          "kind": "install",
+          "text": "Install fourth ice protecting Remote 1 for 3; later revealed as Brân 1.0.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30039,
+              "title": "Brân 1.0"
+            }
+          ],
+          "delta": {
+            "corpCredits": -3
+          },
+          "certainty": "retrospective identification",
+          "id": "neon-starter/C9/02"
+        },
+        {
+          "time": "21:21",
+          "kind": "install",
+          "text": "Install Superconducting Hub in Remote 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30070,
+              "title": "Superconducting Hub"
+            }
+          ],
+          "delta": {},
+          "certainty": "retrospective identification",
+          "id": "neon-starter/C9/03"
+        },
+        {
+          "time": "21:23",
+          "kind": "advance",
+          "text": "Advance Hub once for 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30070,
+              "title": "Superconducting Hub"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "id": "neon-starter/C9/04"
+        }
+      ]
+    },
+    {
+      "id": "R9",
+      "side": "runner",
+      "round": 9,
+      "sourceStart": "21:40",
+      "sourceEnd": "22:59",
+      "events": [
+        {
+          "time": "21:40",
+          "kind": "automatic-income",
+          "text": "Smartware pays 1.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30033,
+              "title": "Smartware Distributor"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 1
+          },
+          "counters": [
+            {
+              "instance": "smartware",
+              "counter": "credits",
+              "delta": -1
+            }
+          ],
+          "id": "neon-starter/R9/01"
+        },
+        {
+          "time": "21:43",
+          "kind": "play-run",
+          "text": "Tread Lightly for 1 runs Remote 1; Corp leaves outer Brân unrezzed.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30012,
+              "title": "Tread Lightly"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -1
+          },
+          "id": "neon-starter/R9/02"
+        },
+        {
+          "time": "21:55",
+          "kind": "rez",
+          "text": "Rez Whitespace at +3 Tread Lightly tax: 2 + 3 = 5.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30074,
+              "title": "Whitespace"
+            },
+            {
+              "number": 30012,
+              "title": "Tread Lightly"
+            }
+          ],
+          "delta": {
+            "corpCredits": -5
+          },
+          "id": "neon-starter/R9/03"
+        },
+        {
+          "time": "22:05",
+          "kind": "subroutine",
+          "text": "Whitespace makes Runner lose 3; remaining pool 3 is ≤6, so next subroutine ends run.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30074,
+              "title": "Whitespace"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -3
+          },
+          "id": "neon-starter/R9/04"
+        },
+        {
+          "time": "22:22",
+          "kind": "ability",
+          "text": "Take final 3 from first Telework; trash empty contract.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30027,
+              "title": "Telework Contract"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 3
+          },
+          "counters": [
+            {
+              "instance": "telework-1",
+              "counter": "credits",
+              "delta": -3
+            }
+          ],
+          "id": "neon-starter/R9/05"
+        },
+        {
+          "time": "22:36",
+          "kind": "install",
+          "text": "Install second Telework for 1; load 9.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30027,
+              "title": "Telework Contract"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -1
+          },
+          "counters": [
+            {
+              "instance": "telework-2",
+              "counter": "credits",
+              "delta": 9
+            }
+          ],
+          "id": "neon-starter/R9/06"
+        },
+        {
+          "time": "22:55",
+          "kind": "ability",
+          "text": "Take 3 from second Telework.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30027,
+              "title": "Telework Contract"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 3
+          },
+          "counters": [
+            {
+              "instance": "telework-2",
+              "counter": "credits",
+              "delta": -3
+            }
+          ],
+          "id": "neon-starter/R9/07"
+        }
+      ]
+    },
+    {
+      "id": "C10",
+      "side": "corp",
+      "round": 10,
+      "sourceStart": "23:01",
+      "sourceEnd": "23:40",
+      "events": [
+        {
+          "time": "23:01",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "neon-starter/C10/01"
+        },
+        {
+          "time": "23:07",
+          "kind": "advance",
+          "text": "Advance Hub for 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30070,
+              "title": "Superconducting Hub"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "id": "neon-starter/C10/02"
+        },
+        {
+          "time": "23:10",
+          "kind": "advance",
+          "text": "Advance Hub for 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30070,
+              "title": "Superconducting Hub"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "id": "neon-starter/C10/03"
+        },
+        {
+          "time": "23:15",
+          "kind": "score",
+          "text": "Score Hub for 1 point; draw 2 and increase Corp maximum hand size by 2.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30070,
+              "title": "Superconducting Hub"
+            }
+          ],
+          "delta": {
+            "corpPoints": 1
+          },
+          "id": "neon-starter/C10/04"
+        },
+        {
+          "time": "23:29",
+          "kind": "play",
+          "text": "Hedge Fund: net +4.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30075,
+              "title": "Hedge Fund"
+            }
+          ],
+          "delta": {
+            "corpCredits": 4
+          },
+          "id": "neon-starter/C10/05"
+        }
+      ]
+    },
+    {
+      "id": "R10",
+      "side": "runner",
+      "round": 10,
+      "sourceStart": "23:41",
+      "sourceEnd": "24:34",
+      "events": [
+        {
+          "time": "23:41",
+          "kind": "automatic-income",
+          "text": "Smartware pays 1.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30033,
+              "title": "Smartware Distributor"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 1
+          },
+          "counters": [
+            {
+              "instance": "smartware",
+              "counter": "credits",
+              "delta": -1
+            }
+          ],
+          "id": "neon-starter/R10/01"
+        },
+        {
+          "time": "23:48",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "neon-starter/R10/02"
+        },
+        {
+          "time": "23:55",
+          "kind": "install",
+          "text": "Install Unity for 3.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30026,
+              "title": "Unity"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -3
+          },
+          "id": "neon-starter/R10/03"
+        },
+        {
+          "time": "24:26",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "neon-starter/R10/04"
+        },
+        {
+          "time": "24:29",
+          "kind": "ability",
+          "text": "Take 3 from second Telework.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30027,
+              "title": "Telework Contract"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 3
+          },
+          "counters": [
+            {
+              "instance": "telework-2",
+              "counter": "credits",
+              "delta": -3
+            }
+          ],
+          "id": "neon-starter/R10/05"
+        }
+      ]
+    },
+    {
+      "id": "C11",
+      "side": "corp",
+      "round": 11,
+      "sourceStart": "24:36",
+      "sourceEnd": "24:57",
+      "events": [
+        {
+          "time": "24:36",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "neon-starter/C11/01"
+        },
+        {
+          "time": "24:38",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "neon-starter/C11/02"
+        },
+        {
+          "time": "24:38",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "neon-starter/C11/03"
+        },
+        {
+          "time": "24:43",
+          "kind": "install",
+          "text": "Install Urtica Cipher in Remote 1; identity established later when overwritten.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30045,
+              "title": "Urtica Cipher"
+            }
+          ],
+          "delta": {},
+          "certainty": "retrospective identification",
+          "id": "neon-starter/C11/04"
+        }
+      ]
+    },
+    {
+      "id": "R11",
+      "side": "runner",
+      "round": 11,
+      "sourceStart": "24:59",
+      "sourceEnd": "25:39",
+      "events": [
+        {
+          "time": "24:59",
+          "kind": "automatic-income",
+          "text": "Smartware pays final credit.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30033,
+              "title": "Smartware Distributor"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 1
+          },
+          "counters": [
+            {
+              "instance": "smartware",
+              "counter": "credits",
+              "delta": -1
+            }
+          ],
+          "id": "neon-starter/R11/01"
+        },
+        {
+          "time": "25:07",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "neon-starter/R11/02"
+        },
+        {
+          "time": "25:19",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "neon-starter/R11/03"
+        },
+        {
+          "time": "25:23",
+          "kind": "ability",
+          "text": "Take final 3 from second Telework; trash it.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30027,
+              "title": "Telework Contract"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 3
+          },
+          "counters": [
+            {
+              "instance": "telework-2",
+              "counter": "credits",
+              "delta": -3
+            }
+          ],
+          "id": "neon-starter/R11/04"
+        },
+        {
+          "time": "25:32",
+          "kind": "install",
+          "text": "Install Cleaver for 3.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30006,
+              "title": "Cleaver"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -3
+          },
+          "id": "neon-starter/R11/05"
+        }
+      ]
+    },
+    {
+      "id": "C12",
+      "side": "corp",
+      "round": 12,
+      "sourceStart": "25:41",
+      "sourceEnd": "26:30",
+      "events": [
+        {
+          "time": "25:41",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "neon-starter/C12/01"
+        },
+        {
+          "time": "25:43",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "neon-starter/C12/02"
+        },
+        {
+          "time": "25:43",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "neon-starter/C12/03"
+        },
+        {
+          "time": "25:52",
+          "kind": "install",
+          "text": "Install a concealed card in a new unprotected remote; it is never accessed/revealed.",
+          "clicks": 1,
+          "delta": {},
+          "hidden": {
+            "card": null,
+            "server": "Remote 3"
+          },
+          "id": "neon-starter/C12/04"
+        },
+        {
+          "time": "26:00",
+          "kind": "discard",
+          "text": "Discard Palisade to Archives for hand limit 7.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30072,
+              "title": "Palisade"
+            }
+          ],
+          "delta": {},
+          "id": "neon-starter/C12/05"
+        }
+      ]
+    },
+    {
+      "id": "R12",
+      "side": "runner",
+      "round": 12,
+      "sourceStart": "26:33",
+      "sourceEnd": "27:56",
+      "events": [
+        {
+          "time": "26:33",
+          "kind": "install",
+          "text": "Install Red Team for 5; load 12.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30018,
+              "title": "Red Team"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -5
+          },
+          "counters": [
+            {
+              "instance": "red-team",
+              "counter": "credits",
+              "delta": 12
+            }
+          ],
+          "id": "neon-starter/R12/01"
+        },
+        {
+          "time": "26:40",
+          "kind": "ability-run",
+          "text": "Red Team run Archives: take 3; Pennyshaver +1. Access Archives, including discarded Palisade.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30018,
+              "title": "Red Team"
+            },
+            {
+              "number": 30072,
+              "title": "Palisade"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 3
+          },
+          "counters": [
+            {
+              "instance": "red-team",
+              "counter": "credits",
+              "delta": -3
+            },
+            {
+              "instance": "pennyshaver",
+              "counter": "credits",
+              "delta": 1
+            }
+          ],
+          "id": "neon-starter/R12/02"
+        },
+        {
+          "time": "27:02",
+          "kind": "ability-run",
+          "text": "Red Team run R&D; use Carmen for 4 to pass Karunā, take 3 from Red Team; Pennyshaver +1. Leave unseen non-agenda.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30018,
+              "title": "Red Team"
+            },
+            {
+              "number": 30015,
+              "title": "Carmen"
+            },
+            {
+              "number": 30047,
+              "title": "Karunā"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -1
+          },
+          "counters": [
+            {
+              "instance": "red-team",
+              "counter": "credits",
+              "delta": -3
+            },
+            {
+              "instance": "pennyshaver",
+              "counter": "credits",
+              "delta": 1
+            }
+          ],
+          "hidden": {
+            "accessedCards": [
+              null
+            ]
+          },
+          "id": "neon-starter/R12/03"
+        },
+        {
+          "time": "27:46",
+          "kind": "ability",
+          "text": "Reload Smartware with 3.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30033,
+              "title": "Smartware Distributor"
+            }
+          ],
+          "delta": {},
+          "counters": [
+            {
+              "instance": "smartware",
+              "counter": "credits",
+              "delta": 3
+            }
+          ],
+          "id": "neon-starter/R12/04"
+        }
+      ]
+    },
+    {
+      "id": "C13",
+      "side": "corp",
+      "round": 13,
+      "sourceStart": "28:15",
+      "sourceEnd": "29:18",
+      "events": [
+        {
+          "time": "28:15",
+          "kind": "mandatory-draw",
+          "text": "Corp mandatory draw; no click spent.",
+          "clicks": 0,
+          "delta": {},
+          "id": "neon-starter/C13/01"
+        },
+        {
+          "time": "29:00",
+          "kind": "basic-draw",
+          "text": "Draw 1 card; identity not established here.",
+          "clicks": 1,
+          "delta": {},
+          "id": "neon-starter/C13/02"
+        },
+        {
+          "time": "29:05",
+          "kind": "install",
+          "text": "Install Send a Message in Remote 1, trashing the existing Urtica Cipher.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30069,
+              "title": "Send a Message"
+            },
+            {
+              "number": 30045,
+              "title": "Urtica Cipher"
+            }
+          ],
+          "delta": {},
+          "id": "neon-starter/C13/03"
+        },
+        {
+          "time": "29:11",
+          "kind": "advance",
+          "text": "Advance Send a Message once for 1.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30069,
+              "title": "Send a Message"
+            }
+          ],
+          "delta": {
+            "corpCredits": -1
+          },
+          "id": "neon-starter/C13/04"
+        },
+        {
+          "time": "29:16",
+          "kind": "discard",
+          "text": "Discard one unidentified card to maximum hand size 7.",
+          "clicks": 0,
+          "delta": {},
+          "hidden": {
+            "card": null
+          },
+          "id": "neon-starter/C13/05"
+        }
+      ]
+    },
+    {
+      "id": "R13",
+      "side": "runner",
+      "round": 13,
+      "sourceStart": "29:19",
+      "sourceEnd": "31:50",
+      "events": [
+        {
+          "time": "29:19",
+          "kind": "automatic-income",
+          "text": "Smartware pays 1.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30033,
+              "title": "Smartware Distributor"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 1
+          },
+          "counters": [
+            {
+              "instance": "smartware",
+              "counter": "credits",
+              "delta": -1
+            }
+          ],
+          "id": "neon-starter/R13/01"
+        },
+        {
+          "time": "30:00",
+          "kind": "ability-run",
+          "text": "Red Team run Archives: take 3; Pennyshaver +1. Observe Urtica and Palisade in Archives.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30018,
+              "title": "Red Team"
+            },
+            {
+              "number": 30045,
+              "title": "Urtica Cipher"
+            },
+            {
+              "number": 30072,
+              "title": "Palisade"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 3
+          },
+          "counters": [
+            {
+              "instance": "red-team",
+              "counter": "credits",
+              "delta": -3
+            },
+            {
+              "instance": "pennyshaver",
+              "counter": "credits",
+              "delta": 1
+            }
+          ],
+          "id": "neon-starter/R13/02"
+        },
+        {
+          "time": "30:41",
+          "kind": "ability",
+          "text": "Click Pennyshaver: add 1, then take all 6 hosted credits.",
+          "clicks": 1,
+          "cards": [
+            {
+              "number": 30014,
+              "title": "Pennyshaver"
+            }
+          ],
+          "delta": {
+            "runnerCredits": 6
+          },
+          "counters": [
+            {
+              "instance": "pennyshaver",
+              "counter": "credits",
+              "delta": 1
+            },
+            {
+              "instance": "pennyshaver",
+              "counter": "credits",
+              "delta": -6
+            }
+          ],
+          "id": "neon-starter/R13/03"
+        },
+        {
+          "time": "30:58",
+          "kind": "run",
+          "text": "Run Remote 1 with 17 credits.",
+          "clicks": 1,
+          "delta": {},
+          "id": "neon-starter/R13/04"
+        },
+        {
+          "time": "31:03",
+          "kind": "rez",
+          "text": "Corp rezzes Brân 1.0 for 6.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30039,
+              "title": "Brân 1.0"
+            }
+          ],
+          "delta": {
+            "corpCredits": -6
+          },
+          "id": "neon-starter/R13/05"
+        },
+        {
+          "time": "31:11",
+          "kind": "break",
+          "text": "Boost Cleaver three times (6 total), then pay 2 to break all three Brân subroutines.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30006,
+              "title": "Cleaver"
+            },
+            {
+              "number": 30039,
+              "title": "Brân 1.0"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -8
+          },
+          "id": "neon-starter/R13/06"
+        },
+        {
+          "time": "31:28",
+          "kind": "break",
+          "text": "Use Unity to break both Whitespace subroutines for 2; no strength boost required.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30026,
+              "title": "Unity"
+            },
+            {
+              "number": 30074,
+              "title": "Whitespace"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -2
+          },
+          "id": "neon-starter/R13/07"
+        },
+        {
+          "time": "31:35",
+          "kind": "break",
+          "text": "Use Carmen to break both subroutines on each of two Tithes, total 4.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30015,
+              "title": "Carmen"
+            },
+            {
+              "number": 30073,
+              "title": "Tithe"
+            }
+          ],
+          "delta": {
+            "runnerCredits": -4
+          },
+          "id": "neon-starter/R13/08"
+        },
+        {
+          "time": "31:42",
+          "kind": "successful-run",
+          "text": "Successful remote run adds 1 to Pennyshaver.",
+          "clicks": 0,
+          "delta": {},
+          "counters": [
+            {
+              "instance": "pennyshaver",
+              "counter": "credits",
+              "delta": 1
+            }
+          ],
+          "id": "neon-starter/R13/09"
+        },
+        {
+          "time": "31:47",
+          "kind": "steal",
+          "text": "Access and steal Send a Message for 3, reaching 7; Runner wins with 3 pool credits and one click unused.",
+          "clicks": 0,
+          "cards": [
+            {
+              "number": 30069,
+              "title": "Send a Message"
+            }
+          ],
+          "delta": {
+            "runnerPoints": 3
+          },
+          "id": "neon-starter/R13/10"
+        }
+      ]
+    }
+  ],
+  "decks": {
+    "corp": {
+      "identity": 30077,
+      "cards": {
+        "30037": 2,
+        "30039": 2,
+        "30040": 2,
+        "30042": 1,
+        "30045": 2,
+        "30046": 2,
+        "30047": 2,
+        "30064": 2,
+        "30067": 3,
+        "30069": 2,
+        "30070": 2,
+        "30071": 2,
+        "30072": 3,
+        "30073": 2,
+        "30074": 2,
+        "30075": 3
+      },
+      "size": 34
+    },
+    "runner": {
+      "identity": 30076,
+      "cards": {
+        "30006": 2,
+        "30012": 2,
+        "30013": 1,
+        "30014": 1,
+        "30015": 2,
+        "30018": 1,
+        "30020": 2,
+        "30021": 2,
+        "30026": 2,
+        "30027": 2,
+        "30028": 3,
+        "30029": 2,
+        "30030": 3,
+        "30032": 2,
+        "30033": 2,
+        "30034": 1
+      },
+      "size": 30
+    }
+  },
+  "deckSources": [
+    "https://nullsignal.games/products/system-gateway/",
+    "https://netrunnerdb.com/en/decklist/0665c5c7-f7f1-4674-86b5-ca4e371888f2/system-gateway-starter-corp-34-cards-",
+    "https://netrunnerdb.com/en/decklist/d71397b7-af7b-475c-8984-18360a64f6ee/system-gateway-starter-runner-30-cards-"
+  ],
+  "openingKnownRunnerCards": [
+    30030,
+    30032,
+    30029,
+    30032,
+    30028
+  ],
+  "openingKnownRunnerCardsNote": "Reconstructed from all four first-turn actions and the explicitly identified random damage card, not a view of the whole opening hand."
+}

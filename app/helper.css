@@ -1,0 +1,37 @@
+.game-helper { position:fixed;z-index:75;left:0;top:56px;bottom:0;width:min(340px,100vw);display:flex;flex-direction:column;padding:20px 18px 14px;background:#14232bea;border-right:1px solid #b6cbd34d;box-shadow:12px 0 35px #0007;backdrop-filter:blur(16px);color:#dbe6e8; }
+.helper-header { display:flex;justify-content:space-between;gap:12px;align-items:flex-start; }
+.helper-header .eyebrow { font-size:8px;letter-spacing:1px; }
+.helper-header h2 { font-weight:550;font-size:25px;letter-spacing:-.5px;margin:8px 0 5px; }
+#helper-close { font-size:25px;line-height:1;padding:0 2px; }
+.helper-connection { font-size:10px;color:#e0c991;margin:4px 0 12px; }
+.helper-intro { font-size:12px;line-height:1.6;margin:0 0 10px;color:#b6cbd4; }
+.helper-setup-note { font-size:10px;line-height:1.55;color:#adc1cb;margin:0 0 12px; }
+.helper-setup-note a { color:#e0c991; }
+.helper-suggestions { display:flex;flex-wrap:wrap;gap:5px;margin-bottom:12px; }
+.helper-suggestions button { border:1px solid #b7ccd437;border-radius:4px;padding:6px 8px;background:#c1d6df08;color:#d2e0e4;font:inherit;font-size:10px;cursor:pointer; }
+.helper-card-context { display:flex;align-items:center;justify-content:space-between;gap:6px;padding:7px 9px;border:1px solid #b7ccd437;border-radius:4px;margin-bottom:10px; }
+.helper-card-context button { border:0;background:none;color:#ead29e;font:inherit;font-size:11px;cursor:pointer;text-align:left;padding:0; }
+.helper-messages { flex:1;overflow:auto;min-height:60px;scrollbar-width:thin;padding-right:5px; }
+.helper-message { padding:12px 10px;border:1px solid #d3e6e816;border-radius:5px;margin:0 0 10px;background:#091a2466; }
+.helper-message.user { background:#b5d0d40c;border-color:#b5d0d426; }
+.helper-message small { display:block;color:#b9aa85;font-size:8px;letter-spacing:.5px;margin-bottom:8px; }
+.helper-message > div { white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px;line-height:1.7;color:#dfebed; }
+.helper-message footer { display:flex;flex-direction:column;gap:5px;margin-top:12px; }
+.helper-message footer a { color:#dfca98;font-size:10px;text-decoration:none; }
+.helper-thinking,.helper-error { font-size:11px;line-height:1.5;margin:7px 0;color:#dfca98; }
+.helper-error { color:#f1c0b1; }
+#helper-form { border-top:1px solid #b7ccd437;padding-top:11px;margin-top:10px; }
+#helper-form label { display:block;font-size:10px;color:#b8cbd3;margin-bottom:7px; }
+#helper-question { display:block;width:100%;resize:vertical;min-height:60px;max-height:150px;padding:10px;color:#eef2ec;background:#0c1c25;border:1px solid #b7ccd455;border-radius:4px;font:inherit;font-size:12px;line-height:1.5; }
+#helper-form > div { display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:9px; }
+#helper-copy { font-size:10px;text-align:left;padding:5px 0;color:#b8cbd3; }
+#helper-send { font-size:12px;padding:9px 14px; }
+.ask-about-card { margin-top:14px;font-size:12px;color:#e3cd96; }
+@media(min-width:1440px) { body.helper-open #game { margin-left:340px; } }
+@media(max-width:760px) {
+  .game-helper { top:56px;width:min(370px,100vw);padding:16px 14px 12px; }
+  .helper-intro { font-size:11px; }
+  .helper-header h2 { font-size:22px; }
+  .topbar nav { gap:3px; }
+  .topbar nav .quiet { padding:4px;font-size:9px; }
+}

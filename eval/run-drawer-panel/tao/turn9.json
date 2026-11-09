@@ -1,0 +1,915 @@
+{
+  "engine": "chiriboga-77c80b1-local-1",
+  "config": {
+    "side": "runner",
+    "seed": "355fd498-00a1-4bd6-8e99-68cefb2d8086",
+    "deckIds": {
+      "runner": "tao-v1",
+      "corp": "precision-design-v1"
+    },
+    "rulesVersion": "26.03-local-2"
+  },
+  "choices": [
+    {
+      "version": 2,
+      "command": "m",
+      "index": 0
+    },
+    {
+      "version": 31,
+      "command": "install",
+      "index": 1
+    },
+    {
+      "version": 34,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 37,
+      "command": "run",
+      "index": 0
+    },
+    {
+      "version": 40,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 47,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 48,
+      "command": "steal",
+      "index": 0
+    },
+    {
+      "version": 55,
+      "command": "install",
+      "index": 1
+    },
+    {
+      "version": 57,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 59,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 64,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 69,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 73,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 77,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 80,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 83,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 86,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 90,
+      "command": "run",
+      "index": 3
+    },
+    {
+      "version": 91,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 93,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 100,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 101,
+      "command": "trash",
+      "index": 0
+    },
+    {
+      "version": 105,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 106,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 108,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 109,
+      "command": "run",
+      "index": 1
+    },
+    {
+      "version": 110,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 112,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 115,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 116,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 125,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 126,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 127,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 129,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 132,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 136,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 143,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 146,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 149,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 153,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 156,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 159,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 163,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 164,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 165,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 166,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 167,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 168,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 169,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 170,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 171,
+      "command": "discard",
+      "index": 2
+    },
+    {
+      "version": 173,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 178,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 185,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 189,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 192,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 195,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 198,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 201,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 205,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 206,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 207,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 208,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 209,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 210,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 211,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 212,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 213,
+      "command": "discard",
+      "index": 1
+    },
+    {
+      "version": 214,
+      "command": "discard",
+      "index": 1
+    },
+    {
+      "version": 215,
+      "command": "discard",
+      "index": 4
+    },
+    {
+      "version": 216,
+      "command": "discard",
+      "index": 0
+    },
+    {
+      "version": 218,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 223,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 230,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 233,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 237,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 240,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 243,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 246,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 250,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 251,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 252,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 253,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 254,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 255,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 256,
+      "command": "install",
+      "index": 0
+    },
+    {
+      "version": 258,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 259,
+      "command": "discard",
+      "index": 3
+    },
+    {
+      "version": 260,
+      "command": "discard",
+      "index": 0
+    },
+    {
+      "version": 262,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 267,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 272,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 276,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 280,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 283,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 286,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 289,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 293,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 294,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 295,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 296,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 297,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 298,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 299,
+      "command": "install",
+      "index": 3
+    },
+    {
+      "version": 300,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 301,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 302,
+      "command": "discard",
+      "index": 5
+    },
+    {
+      "version": 303,
+      "command": "discard",
+      "index": 5
+    },
+    {
+      "version": 305,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 310,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 315,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 319,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 322,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 325,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 328,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 331,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 335,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 336,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 337,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 338,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 339,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 340,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 341,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 342,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 343,
+      "command": "discard",
+      "index": 0
+    },
+    {
+      "version": 344,
+      "command": "discard",
+      "index": 1
+    },
+    {
+      "version": 345,
+      "command": "discard",
+      "index": 1
+    },
+    {
+      "version": 346,
+      "command": "discard",
+      "index": 2
+    },
+    {
+      "version": 348,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 353,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 358,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 361,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 364,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 373,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 375,
+      "command": "install",
+      "index": 0
+    },
+    {
+      "version": 376,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 377,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 378,
+      "command": "continue",
+      "index": 0,
+      "cards": [
+        "c31",
+        "c15"
+      ]
+    },
+    {
+      "version": 392,
+      "command": "trigger",
+      "index": 0
+    },
+    {
+      "version": 394,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 395,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 396,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 397,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 398,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 399,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 400,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 402,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 407,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 412,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 416,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 420,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 424,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 427,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 430,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 434,
+      "command": "run",
+      "index": 1
+    },
+    {
+      "version": 435,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 437,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 440,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 441,
+      "command": "trigger",
+      "index": 3
+    },
+    {
+      "version": 442,
+      "command": "continue",
+      "index": 0,
+      "cancel": true
+    },
+    {
+      "version": 443,
+      "command": "trigger",
+      "index": 3
+    },
+    {
+      "version": 444,
+      "command": "continue",
+      "index": 1
+    },
+    {
+      "version": 445,
+      "command": "trigger",
+      "index": 3
+    },
+    {
+      "version": 446,
+      "command": "continue",
+      "index": 1
+    },
+    {
+      "version": 447,
+      "command": "trigger",
+      "index": 3
+    },
+    {
+      "version": 448,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 449,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 456,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 459,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 461,
+      "command": "trigger",
+      "index": 1
+    },
+    {
+      "version": 463,
+      "command": "trigger",
+      "index": 1
+    },
+    {
+      "version": 464,
+      "command": "continue",
+      "index": 2
+    },
+    {
+      "version": 465,
+      "command": "trigger",
+      "index": 1
+    },
+    {
+      "version": 466,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 467,
+      "command": "trigger",
+      "index": 1
+    },
+    {
+      "version": 468,
+      "command": "continue",
+      "index": 0
+    },
+    {
+      "version": 476,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 483,
+      "command": "access",
+      "index": 0
+    },
+    {
+      "version": 484,
+      "command": "n",
+      "index": 0
+    }
+  ],
+  "conceded": false
+}

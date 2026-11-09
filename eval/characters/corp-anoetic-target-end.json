@@ -1,0 +1,253 @@
+{
+  "engine": "chiriboga-77c80b1-local-1",
+  "config": {
+    "side": "corp",
+    "seed": "corp-target-anoetic-3",
+    "deckIds": {
+      "corp": "restoring-humanity-v1",
+      "runner": "zahya-v1"
+    }
+  },
+  "choices": [
+    {
+      "command": "n",
+      "index": 0,
+      "version": 1
+    },
+    {
+      "command": "install",
+      "index": 1,
+      "version": 8
+    },
+    {
+      "command": "rez",
+      "index": 0,
+      "version": 10
+    },
+    {
+      "command": "play",
+      "index": 0,
+      "version": 11
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 13
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 30
+    },
+    {
+      "command": "continue",
+      "index": 0,
+      "version": 32
+    },
+    {
+      "command": "discard",
+      "index": 0,
+      "version": 33
+    },
+    {
+      "command": "discard",
+      "index": 0,
+      "version": 34
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 45
+    },
+    {
+      "command": "continue",
+      "index": 0,
+      "version": 47
+    },
+    {
+      "command": "discard",
+      "index": 0,
+      "version": 48
+    },
+    {
+      "command": "discard",
+      "index": 0,
+      "version": 49
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "version": 95
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "version": 96
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "version": 97
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 103
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 154
+    },
+    {
+      "command": "continue",
+      "index": 0,
+      "version": 156
+    },
+    {
+      "command": "discard",
+      "index": 0,
+      "version": 157
+    },
+    {
+      "command": "discard",
+      "index": 0,
+      "version": 158
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 169
+    },
+    {
+      "command": "continue",
+      "index": 0,
+      "version": 171
+    },
+    {
+      "command": "discard",
+      "index": 0,
+      "version": 172
+    },
+    {
+      "command": "discard",
+      "index": 0,
+      "version": 173
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "version": 189
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "version": 190
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "version": 191
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 197
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 240
+    },
+    {
+      "command": "continue",
+      "index": 0,
+      "version": 242
+    },
+    {
+      "command": "discard",
+      "index": 0,
+      "version": 243
+    },
+    {
+      "command": "discard",
+      "index": 0,
+      "version": 244
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "version": 295
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 296
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 297
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 346
+    },
+    {
+      "command": "continue",
+      "index": 0,
+      "version": 348
+    },
+    {
+      "command": "discard",
+      "index": 1,
+      "version": 349
+    },
+    {
+      "command": "discard",
+      "index": 1,
+      "version": 350
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 361
+    },
+    {
+      "command": "continue",
+      "index": 0,
+      "version": 363
+    },
+    {
+      "command": "discard",
+      "index": 1,
+      "version": 364
+    },
+    {
+      "command": "discard",
+      "index": 0,
+      "version": 365
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "version": 381
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "version": 382
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "version": 383
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 389
+    }
+  ]
+}

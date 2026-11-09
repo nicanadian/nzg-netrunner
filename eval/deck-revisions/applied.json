@@ -1,0 +1,469 @@
+{
+  "date": "2026-11-07",
+  "applied": true,
+  "newGameDefaults": {
+    "runner": "loup-v1",
+    "corp": "precision-design-v2"
+  },
+  "unversionedReplayDefault": "precision-design-v1",
+  "kept": [
+    "loup-v1",
+    "tao-v1",
+    "built-to-last-v2"
+  ],
+  "changes": [
+    {
+      "id": "precision-design-v2",
+      "previousId": "precision-design-v1",
+      "name": "Haas-Bioroid: Precision Design",
+      "cards": [
+        [
+          30036,
+          1
+        ],
+        [
+          30067,
+          3
+        ],
+        [
+          30069,
+          3
+        ],
+        [
+          30070,
+          1
+        ],
+        [
+          30037,
+          3
+        ],
+        [
+          30038,
+          3
+        ],
+        [
+          30039,
+          3
+        ],
+        [
+          30040,
+          3
+        ],
+        [
+          30042,
+          2
+        ],
+        [
+          30071,
+          1
+        ],
+        [
+          30072,
+          3
+        ],
+        [
+          30073,
+          3
+        ],
+        [
+          30074,
+          3
+        ],
+        [
+          30075,
+          3
+        ],
+        [
+          30053,
+          2
+        ],
+        [
+          30048,
+          2
+        ],
+        [
+          30056,
+          3
+        ],
+        [
+          30041,
+          2
+        ]
+      ],
+      "changes": [
+        {
+          "card": "Send a Message",
+          "before": 1,
+          "after": 3
+        },
+        {
+          "card": "Superconducting Hub",
+          "before": 3,
+          "after": 1
+        },
+        {
+          "card": "Regolith Mining License",
+          "before": 3,
+          "after": 1
+        },
+        {
+          "card": "Whitespace",
+          "before": 0,
+          "after": 3
+        },
+        {
+          "card": "Predictive Planogram",
+          "before": 0,
+          "after": 3
+        },
+        {
+          "card": "Sprint",
+          "before": 0,
+          "after": 2
+        },
+        {
+          "card": "Orbital Superiority",
+          "before": 2,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "restoring-humanity-v2",
+      "previousId": "restoring-humanity-v1",
+      "name": "Jinteki: Restoring Humanity",
+      "cards": [
+        [
+          30044,
+          1
+        ],
+        [
+          30067,
+          3
+        ],
+        [
+          30068,
+          2
+        ],
+        [
+          30069,
+          2
+        ],
+        [
+          30045,
+          3
+        ],
+        [
+          30046,
+          3
+        ],
+        [
+          30047,
+          3
+        ],
+        [
+          30048,
+          3
+        ],
+        [
+          30049,
+          2
+        ],
+        [
+          30050,
+          2
+        ],
+        [
+          30071,
+          3
+        ],
+        [
+          30072,
+          3
+        ],
+        [
+          30073,
+          3
+        ],
+        [
+          30074,
+          3
+        ],
+        [
+          30075,
+          3
+        ],
+        [
+          30053,
+          3
+        ],
+        [
+          30061,
+          2
+        ]
+      ],
+      "changes": [
+        {
+          "card": "Send a Message",
+          "before": 1,
+          "after": 2
+        },
+        {
+          "card": "Tithe",
+          "before": 2,
+          "after": 3
+        },
+        {
+          "card": "Whitespace",
+          "before": 1,
+          "after": 3
+        },
+        {
+          "card": "Spin Doctor",
+          "before": 2,
+          "after": 3
+        },
+        {
+          "card": "Clearinghouse",
+          "before": 0,
+          "after": 2
+        },
+        {
+          "card": "Superconducting Hub",
+          "before": 3,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "reality-plus-v2",
+      "previousId": "reality-plus-v1",
+      "name": "NBN: Reality Plus",
+      "cards": [
+        [
+          30052,
+          1
+        ],
+        [
+          30067,
+          3
+        ],
+        [
+          30068,
+          2
+        ],
+        [
+          30069,
+          2
+        ],
+        [
+          30053,
+          3
+        ],
+        [
+          30054,
+          3
+        ],
+        [
+          30055,
+          3
+        ],
+        [
+          30056,
+          3
+        ],
+        [
+          30057,
+          2
+        ],
+        [
+          30058,
+          2
+        ],
+        [
+          30071,
+          3
+        ],
+        [
+          30072,
+          3
+        ],
+        [
+          30073,
+          3
+        ],
+        [
+          30074,
+          3
+        ],
+        [
+          30075,
+          3
+        ],
+        [
+          30065,
+          3
+        ],
+        [
+          30048,
+          2
+        ]
+      ],
+      "changes": [
+        {
+          "card": "Send a Message",
+          "before": 1,
+          "after": 2
+        },
+        {
+          "card": "Tithe",
+          "before": 2,
+          "after": 3
+        },
+        {
+          "card": "Whitespace",
+          "before": 0,
+          "after": 3
+        },
+        {
+          "card": "Hansei Review",
+          "before": 0,
+          "after": 2
+        },
+        {
+          "card": "Superconducting Hub",
+          "before": 3,
+          "after": 0
+        }
+      ]
+    },
+    {
+      "id": "zahya-v2",
+      "previousId": "zahya-v1",
+      "name": "Zahya Sadeghi",
+      "cards": [
+        [
+          30011,
+          3
+        ],
+        [
+          30012,
+          3
+        ],
+        [
+          30013,
+          2
+        ],
+        [
+          30014,
+          3
+        ],
+        [
+          30015,
+          2
+        ],
+        [
+          30016,
+          2
+        ],
+        [
+          30017,
+          2
+        ],
+        [
+          30018,
+          3
+        ],
+        [
+          30005,
+          2
+        ],
+        [
+          30004,
+          1
+        ],
+        [
+          30027,
+          2
+        ],
+        [
+          30033,
+          1
+        ],
+        [
+          30028,
+          3
+        ],
+        [
+          30029,
+          3
+        ],
+        [
+          30030,
+          3
+        ],
+        [
+          30034,
+          2
+        ],
+        [
+          30021,
+          3
+        ]
+      ],
+      "changes": [
+        {
+          "card": "Pennyshaver",
+          "before": 2,
+          "after": 3
+        },
+        {
+          "card": "Carmen",
+          "before": 3,
+          "after": 2
+        },
+        {
+          "card": "Marjanah",
+          "before": 3,
+          "after": 2
+        },
+        {
+          "card": "Buzzsaw",
+          "before": 3,
+          "after": 2
+        },
+        {
+          "card": "Botulus",
+          "before": 2,
+          "after": 1
+        },
+        {
+          "card": "Telework Contract",
+          "before": 3,
+          "after": 2
+        },
+        {
+          "card": "Smartware Distributor",
+          "before": 0,
+          "after": 1
+        },
+        {
+          "card": "VRcation",
+          "before": 0,
+          "after": 3
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "legalDecks": true,
+    "regressions": "npm test passed",
+    "pairedCandidateGames": 26,
+    "allCandidateGamesCompleted": true,
+    "chrome": "All four new lists verified in deck viewer; revised Zahya/NBN matchup reached opening hand.",
+    "legacy": "Original seven deck snapshots match; old unversioned defaults preserved; three complete Chrome replays (519 decisions) retain terminal outcomes.",
+    "revisedLineupGames": 3,
+    "totalNativeAIGames": 29
+  },
+  "limits": "Opening consistency and functional compatibility improved; small native-AI sample is not proof of human balance."
+}

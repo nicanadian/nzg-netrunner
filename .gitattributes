@@ -1,0 +1,10 @@
+* text=auto
+
+# Preserve the exact pinned upstream sources, including original line endings.
+/vendor/chiriboga/** -text
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.pdf binary

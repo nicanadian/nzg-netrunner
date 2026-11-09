@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Netrunner — Table study</title>
+  <link rel="stylesheet" href="table.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./"><span class="brand-mark">N↗</span> NETRUNNER <small>LOCAL / 001</small></a>
+    <div class="turn"><i></i> RUNNER TURN <span>03</span></div>
+    <div class="views" aria-label="Camera view"><button id="angled" aria-pressed="true">Table</button><button id="overhead" aria-pressed="false">Overhead</button></div>
+  </header>
+  <main>
+    <section class="arena" aria-label="Netrunner tabletop visual prototype">
+      <div class="arena-heading"><span>01 / SYSTEM GATEWAY</span><span class="study-label">INTERACTIVE VISUAL STUDY</span></div>
+      <div class="player-info corp-info"><span class="avatar">HB</span><div><strong>Precision Design</strong><small>HAAS-BIOROID · CPU</small></div><div class="resources"><b>12<span>CREDITS</span></b><b>2<span>AGENDA</span></b></div></div>
+      <div class="world">
+        <div class="table" id="table">
+          <div class="mat corp-mat"><div class="mat-word">PRECISION<br>BY DESIGN.</div><div class="mat-corner">HB / CORPORATION</div></div>
+          <div class="mat runner-mat"><div class="mat-word">ALWAYS<br>BE RUNNING.</div><div class="mat-corner">CRIMINAL / RUNNER</div></div>
+          <div class="mat-seam"></div>
+          <div class="server" style="--x:18%" data-server="Archives"><span class="zone-label">01 / ARCHIVES</span><button class="card archive-card" data-card="30071" aria-label="Inspect Regolith Mining License"><img src="assets/30071.jpg" alt="Regolith Mining License"></button><span class="server-base">ARCHIVES</span></div>
+          <div class="server selected" style="--x:40%" data-server="R&D"><span class="zone-label">02 / RESEARCH & DEVELOPMENT</span><button class="card ice" data-card="30038" aria-label="Inspect Ansel 1.0"><img src="assets/30038.jpg" alt="Ansel 1.0"></button><button class="card card-back deck" aria-label="Select R&D as run target"><span class="back-glyph">◇</span><span>RESEARCH DIVISION</span></button><span class="server-base">R&D <i></i></span></div>
+          <div class="server" style="--x:62%" data-server="HQ"><span class="zone-label">03 / HEADQUARTERS</span><button class="card card-back deck" aria-label="Select HQ as run target"><span class="back-glyph">◇</span><span>RESEARCH DIVISION</span></button><span class="server-base">HQ</span></div>
+          <div class="server" style="--x:84%" data-server="Remote"><span class="zone-label">04 / REMOTE SERVER</span><button class="card card-back deck remote" aria-label="Select Remote as run target"><span class="back-glyph">◇</span><span>CLASSIFIED</span></button><span class="advance-token">2</span><span class="server-base">REMOTE 01</span></div>
+          <div class="identity corp-identity"><button class="card" data-card="30035" aria-label="Inspect Precision Design"><img src="assets/30035.jpg" alt="Haas-Bioroid: Precision Design"></button></div>
+          <div class="run-path" id="run-path"><span></span><i></i></div>
+          <div class="rig"><span class="zone-label">RIG / PROGRAMS</span><button class="card rig-card" data-card="30005" aria-label="Inspect Buzzsaw"><img src="assets/30005.jpg" alt="Buzzsaw"></button><div class="rig-slot">+<span>2 MU AVAILABLE</span></div></div>
+          <div class="identity runner-identity"><button class="card" data-card="30010" aria-label="Inspect Zahya Sadeghi"><img src="assets/30010.jpg" alt="Zahya Sadeghi"></button></div>
+          <div class="token-pile" aria-label="8 credits"><span>1</span><span>1</span><span>5</span><span>1</span></div>
+          <div class="click-tokens" aria-label="3 clicks remaining"><span>↻</span><span>↻</span><span>↻</span><span class="spent">↻</span></div>
+          <div class="hand"><button class="card hand-card" data-card="30002" aria-label="Inspect Wildcat Strike"><img src="assets/30002.jpg" alt="Wildcat Strike"></button><button class="card hand-card" data-card="30030" aria-label="Inspect Sure Gamble"><img src="assets/30030.jpg" alt="Sure Gamble"></button><button class="card hand-card" data-card="30004" aria-label="Inspect Botulus"><img src="assets/30004.jpg" alt="Botulus"></button></div>
+        </div>
+      </div>
+      <div class="table-hint"><span>↖ SELECT A CARD TO INSPECT</span><span>SELECT A SERVER TO TARGET ↗</span></div>
+      <div class="player-info runner-info"><span class="avatar">ZS</span><div><strong>Zahya Sadeghi</strong><small>VERSATILE SMUGGLER · YOU</small></div><div class="resources"><b>8<span>CREDITS</span></b><b>3<span>CLICKS</span></b><b>0<span>AGENDA</span></b></div></div>
+    </section>
+    <aside class="sidebar">
+      <div class="connection"><i></i> LOCAL CONNECTION ESTABLISHED</div>
+      <div class="mission"><span class="eyebrow">YOUR NEXT MOVE</span><h1>Find a way in.</h1><p>Every server holds a possibility.<br>Every piece of ice asks a question.</p></div>
+      <div class="target-panel"><div class="panel-heading"><span>RUN TARGET</span><span>↗</span></div><div class="targets" aria-label="Choose a server"><button data-target="Archives">Archives</button><button data-target="R&D" class="active">R&D</button><button data-target="HQ">HQ</button><button data-target="Remote">Remote</button></div><div class="target-summary"><strong id="target-name">R&D</strong><span id="target-description">1 piece of ice · central server</span></div></div>
+      <div class="run-track" aria-label="Run progress"><span class="active">01 APPROACH</span><span>02 ENCOUNTER</span><span>03 BREACH</span></div>
+      <div class="callout" aria-live="polite"><div class="callout-icon">↗</div><div><strong id="callout-title">Make a run</strong><p id="callout-text">Spend a click to approach a server. The Corp can rez ice to protect its secrets.</p></div></div>
+      <button class="run-button" id="run-button">JACK IN <span>↗</span></button>
+      <p class="action-note" id="action-note">SCRIPTED RUN PREVIEW · NO CLICK SPENT</p>
+      <div class="activity"><div class="panel-heading"><span>TABLE ACTIVITY</span><span>LIVE</span></div><ol id="activity-log"><li><span>03.01</span> Your turn begins.</li><li><span>02.04</span> Corp installs ice protecting R&D.</li><li><span>02.03</span> Corp gains 1 credit.</li></ol></div>
+      <div class="prototype-note">A study in perspective, motion & readability.<br>Card images © their respective owners.<br><a href="../docs/chiriboga-assessment.md">Research & asset sources ↗</a></div>
+    </aside>
+  </main>
+  <dialog id="inspector"><button class="close" aria-label="Close card inspector">×</button><img id="inspect-image" src="assets/30038.jpg" alt=""><div><span class="eyebrow">CARD INSPECTOR</span><h2 id="inspect-title"></h2><p id="inspect-type"></p><p id="inspect-copy"></p><small>System Gateway · Null Signal Games<br>Public card-face reference from NetrunnerDB</small></div></dialog>
+  <script src="table.js"></script>
+</body>
+</html>

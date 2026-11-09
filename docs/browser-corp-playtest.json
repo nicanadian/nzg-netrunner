@@ -1,0 +1,28 @@
+{
+  "testedAt": "2026-11-04T04:56:05.059Z",
+  "url": "http://localhost:5173/",
+  "browser": "T3 collaborative preview",
+  "tab": "tab_4",
+  "side": "corp",
+  "seed": "46b94c55-5a64-4cdd-a9c0-ec7b192f79b5",
+  "method": "All gameplay through rendered command/option button DOM clicks; window.localTable read-only observations. No engine calls or state changes.",
+  "terminal": {
+    "reason": "Runner reached 7 agenda points.",
+    "winner": "runner"
+  },
+  "turn": 20,
+  "engineActions": 540,
+  "humanDecisions": 35,
+  "diagnostics": [],
+  "consoleEntries": [],
+  "brokenImages": [],
+  "reloadReplay": {
+    "equal": true,
+    "steps": 484,
+    "choices": 31,
+    "side": "corp"
+  },
+  "screenshot": "/Users/nicanadian/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mw1n8vaf-957d52f8.png",
+  "replay": "tests/fixtures/corp-ui-replay.json",
+  "note": "Same-origin storage raced another concurrent test tab; restored the preserved Corp save and clicked Resume synchronously. Reloaded state matched the original full DTO exactly."
+}

@@ -1,0 +1,2590 @@
+{
+  "note": "Ordinary seeded AI games, restored by legal decisions; no state injection.",
+  "scenarios": [
+    {
+      "id": "corp-advance",
+      "title": "Corp: place advancement counters",
+      "replay": "/eval/counters/corp-advance-replay.json",
+      "decisions": 4,
+      "state": {
+        "version": 75,
+        "steps": 74,
+        "turn": 3,
+        "side": "corp",
+        "seed": "4b8b775b-60c2-40be-8a90-264649a3139c",
+        "active": "corp",
+        "playerTurn": "corp",
+        "phase": {
+          "title": "Corporation's Action Phase",
+          "identifier": "Corp 2.2"
+        },
+        "terminal": null,
+        "corp": {
+          "side": "corp",
+          "identity": {
+            "id": "c1",
+            "side": "corp",
+            "hidden": false,
+            "installed": false,
+            "rezzed": false,
+            "faceUp": true,
+            "advancement": 0,
+            "hosted": [],
+            "number": 30035,
+            "title": "Haas-Bioroid: Precision Design",
+            "type": "identity",
+            "subTypes": [
+              "Megacorp"
+            ],
+            "strength": null,
+            "counters": {},
+            "subroutines": []
+          },
+          "credits": 5,
+          "clicks": 3,
+          "points": 0,
+          "maxHand": 6,
+          "score": [],
+          "hand": [
+            {
+              "id": "c22",
+              "side": "corp",
+              "hidden": false,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30040,
+              "title": "Seamless Launch",
+              "type": "operation",
+              "subTypes": [],
+              "strength": null,
+              "counters": {},
+              "subroutines": []
+            },
+            {
+              "id": "c18",
+              "side": "corp",
+              "hidden": false,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30039,
+              "title": "Brân 1.0",
+              "type": "ice",
+              "subTypes": [
+                "Barrier",
+                "Bioroid"
+              ],
+              "strength": 6,
+              "counters": {},
+              "subroutines": [
+                {
+                  "text": "You may install 1 piece of ice from HQ or Archives directly inward from this ice, ignoring all costs.",
+                  "broken": false
+                },
+                {
+                  "text": "End the run.",
+                  "broken": false
+                },
+                {
+                  "text": "End the run.",
+                  "broken": false
+                }
+              ]
+            },
+            {
+              "id": "c5",
+              "side": "corp",
+              "hidden": false,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30067,
+              "title": "Offworld Office",
+              "type": "agenda",
+              "subTypes": [
+                "Expansion"
+              ],
+              "strength": null,
+              "counters": {},
+              "subroutines": []
+            },
+            {
+              "id": "c41",
+              "side": "corp",
+              "hidden": false,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30048,
+              "title": "Hansei Review",
+              "type": "operation",
+              "subTypes": [
+                "Transaction"
+              ],
+              "strength": null,
+              "counters": {},
+              "subroutines": []
+            }
+          ],
+          "deck": 31,
+          "discard": [
+            {
+              "id": "c39",
+              "side": "corp",
+              "hidden": false,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": true,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30053,
+              "title": "Spin Doctor",
+              "type": "asset",
+              "subTypes": [
+                "Character"
+              ],
+              "strength": null,
+              "counters": {},
+              "subroutines": []
+            },
+            {
+              "id": "c25",
+              "side": "corp",
+              "hidden": false,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": true,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30042,
+              "title": "Manegarm Skunkworks",
+              "type": "upgrade",
+              "subTypes": [],
+              "strength": null,
+              "counters": {},
+              "subroutines": []
+            }
+          ],
+          "resolving": [],
+          "badPublicity": 0,
+          "servers": [
+            {
+              "name": "HQ",
+              "central": true,
+              "ice": [
+                {
+                  "id": "c33",
+                  "side": "corp",
+                  "hidden": false,
+                  "installed": true,
+                  "rezzed": false,
+                  "faceUp": false,
+                  "advancement": 0,
+                  "hosted": [],
+                  "number": 30073,
+                  "title": "Tithe",
+                  "type": "ice",
+                  "subTypes": [
+                    "Sentry",
+                    "AP"
+                  ],
+                  "strength": 1,
+                  "counters": {},
+                  "subroutines": [
+                    {
+                      "text": "Do 1 net damage.",
+                      "broken": false
+                    },
+                    {
+                      "text": "Gain 1 credit.",
+                      "broken": false
+                    }
+                  ]
+                }
+              ],
+              "root": []
+            },
+            {
+              "name": "R&D",
+              "central": true,
+              "ice": [],
+              "root": []
+            },
+            {
+              "name": "Archives",
+              "central": true,
+              "ice": [],
+              "root": []
+            },
+            {
+              "name": "Remote 0",
+              "central": false,
+              "ice": [
+                {
+                  "id": "c30",
+                  "side": "corp",
+                  "hidden": false,
+                  "installed": true,
+                  "rezzed": false,
+                  "faceUp": false,
+                  "advancement": 0,
+                  "hosted": [],
+                  "number": 30072,
+                  "title": "Palisade",
+                  "type": "ice",
+                  "subTypes": [
+                    "Barrier"
+                  ],
+                  "strength": 2,
+                  "counters": {},
+                  "subroutines": [
+                    {
+                      "text": "End the run.",
+                      "broken": false
+                    }
+                  ]
+                }
+              ],
+              "root": [
+                {
+                  "id": "c11",
+                  "side": "corp",
+                  "hidden": false,
+                  "installed": true,
+                  "rezzed": false,
+                  "faceUp": false,
+                  "advancement": 0,
+                  "hosted": [],
+                  "number": 30070,
+                  "title": "Superconducting Hub",
+                  "type": "agenda",
+                  "subTypes": [
+                    "Expansion"
+                  ],
+                  "strength": null,
+                  "counters": {},
+                  "subroutines": []
+                }
+              ]
+            }
+          ]
+        },
+        "runner": {
+          "side": "runner",
+          "identity": {
+            "id": "c42",
+            "side": "runner",
+            "hidden": false,
+            "installed": false,
+            "rezzed": false,
+            "faceUp": true,
+            "advancement": 0,
+            "hosted": [],
+            "number": 30001,
+            "title": "René \"Loup\" Arcemont: Party Animal",
+            "type": "identity",
+            "subTypes": [],
+            "strength": null,
+            "counters": {},
+            "subroutines": []
+          },
+          "credits": 1,
+          "clicks": 0,
+          "points": 0,
+          "maxHand": 5,
+          "score": [],
+          "hand": [
+            {
+              "id": "c58",
+              "side": "runner",
+              "hidden": true,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": []
+            },
+            {
+              "id": "c50",
+              "side": "runner",
+              "hidden": true,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": []
+            },
+            {
+              "id": "c61",
+              "side": "runner",
+              "hidden": true,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": []
+            },
+            {
+              "id": "c43",
+              "side": "runner",
+              "hidden": true,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": []
+            },
+            {
+              "id": "c71",
+              "side": "runner",
+              "hidden": true,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": []
+            }
+          ],
+          "deck": 34,
+          "discard": [],
+          "resolving": [],
+          "tags": 0,
+          "coreDamage": 0,
+          "temporaryCredits": 0,
+          "memory": 4,
+          "memoryUsed": 0,
+          "rig": {
+            "programs": [],
+            "hardware": [],
+            "resources": [
+              {
+                "id": "c77",
+                "side": "runner",
+                "hidden": false,
+                "installed": true,
+                "rezzed": false,
+                "faceUp": true,
+                "advancement": 0,
+                "hosted": [],
+                "number": 30033,
+                "title": "Smartware Distributor",
+                "type": "resource",
+                "subTypes": [
+                  "Connection"
+                ],
+                "strength": null,
+                "counters": {
+                  "credits": 3
+                },
+                "subroutines": []
+              }
+            ]
+          }
+        },
+        "run": null,
+        "access": null,
+        "decision": {
+          "version": 75,
+          "commands": [
+            {
+              "command": "draw",
+              "label": "Draw a card",
+              "cost": {
+                "clicks": 1
+              },
+              "instruction": "Click: Draw a card",
+              "cancel": false,
+              "options": [
+                {
+                  "index": 0,
+                  "cost": {
+                    "clicks": 1
+                  },
+                  "label": "Draw a card",
+                  "card": null,
+                  "server": null
+                }
+              ]
+            },
+            {
+              "command": "gain",
+              "label": "Gain 1 credit",
+              "cost": {
+                "clicks": 1
+              },
+              "instruction": "Click: Gain one credit",
+              "cancel": false,
+              "options": [
+                {
+                  "index": 0,
+                  "cost": {
+                    "clicks": 1
+                  },
+                  "label": "Gain 1 credit",
+                  "card": null,
+                  "server": null
+                }
+              ]
+            },
+            {
+              "command": "install",
+              "label": "Install",
+              "cost": {
+                "clicks": 1
+              },
+              "instruction": "Click: Install an agenda, asset, upgrade or ice",
+              "cancel": false,
+              "options": [
+                {
+                  "index": 0,
+                  "cost": {
+                    "clicks": 1,
+                    "note": "+ server install cost"
+                  },
+                  "label": "Brân 1.0 → new server",
+                  "card": {
+                    "id": "c18",
+                    "side": "corp",
+                    "hidden": false,
+                    "installed": false,
+                    "rezzed": false,
+                    "faceUp": false,
+                    "advancement": 0,
+                    "hosted": [],
+                    "number": 30039,
+                    "title": "Brân 1.0",
+                    "type": "ice",
+                    "subTypes": [
+                      "Barrier",
+                      "Bioroid"
+                    ],
+                    "strength": 6,
+                    "counters": {},
+                    "subroutines": [
+                      {
+                        "text": "You may install 1 piece of ice from HQ or Archives directly inward from this ice, ignoring all costs.",
+                        "broken": false
+                      },
+                      {
+                        "text": "End the run.",
+                        "broken": false
+                      },
+                      {
+                        "text": "End the run.",
+                        "broken": false
+                      }
+                    ]
+                  },
+                  "server": "New remote"
+                },
+                {
+                  "index": 1,
+                  "cost": {
+                    "clicks": 1,
+                    "note": "+ server install cost"
+                  },
+                  "label": "Brân 1.0 → Remote 0",
+                  "card": {
+                    "id": "c18",
+                    "side": "corp",
+                    "hidden": false,
+                    "installed": false,
+                    "rezzed": false,
+                    "faceUp": false,
+                    "advancement": 0,
+                    "hosted": [],
+                    "number": 30039,
+                    "title": "Brân 1.0",
+                    "type": "ice",
+                    "subTypes": [
+                      "Barrier",
+                      "Bioroid"
+                    ],
+                    "strength": 6,
+                    "counters": {},
+                    "subroutines": [
+                      {
+                        "text": "You may install 1 piece of ice from HQ or Archives directly inward from this ice, ignoring all costs.",
+                        "broken": false
+                      },
+                      {
+                        "text": "End the run.",
+                        "broken": false
+                      },
+                      {
+                        "text": "End the run.",
+                        "broken": false
+                      }
+                    ]
+                  },
+                  "server": "Remote 0"
+                },
+                {
+                  "index": 2,
+                  "cost": {
+                    "clicks": 1,
+                    "note": "+ server install cost"
+                  },
+                  "label": "Brân 1.0 → HQ",
+                  "card": {
+                    "id": "c18",
+                    "side": "corp",
+                    "hidden": false,
+                    "installed": false,
+                    "rezzed": false,
+                    "faceUp": false,
+                    "advancement": 0,
+                    "hosted": [],
+                    "number": 30039,
+                    "title": "Brân 1.0",
+                    "type": "ice",
+                    "subTypes": [
+                      "Barrier",
+                      "Bioroid"
+                    ],
+                    "strength": 6,
+                    "counters": {},
+                    "subroutines": [
+                      {
+                        "text": "You may install 1 piece of ice from HQ or Archives directly inward from this ice, ignoring all costs.",
+                        "broken": false
+                      },
+                      {
+                        "text": "End the run.",
+                        "broken": false
+                      },
+                      {
+                        "text": "End the run.",
+                        "broken": false
+                      }
+                    ]
+                  },
+                  "server": "HQ"
+                },
+                {
+                  "index": 3,
+                  "cost": {
+                    "clicks": 1,
+                    "note": "+ server install cost"
+                  },
+                  "label": "Brân 1.0 → R&D",
+                  "card": {
+                    "id": "c18",
+                    "side": "corp",
+                    "hidden": false,
+                    "installed": false,
+                    "rezzed": false,
+                    "faceUp": false,
+                    "advancement": 0,
+                    "hosted": [],
+                    "number": 30039,
+                    "title": "Brân 1.0",
+                    "type": "ice",
+                    "subTypes": [
+                      "Barrier",
+                      "Bioroid"
+                    ],
+                    "strength": 6,
+                    "counters": {},
+                    "subroutines": [
+                      {
+                        "text": "You may install 1 piece of ice from HQ or Archives directly inward from this ice, ignoring all costs.",
+                        "broken": false
+                      },
+                      {
+                        "text": "End the run.",
+                        "broken": false
+                      },
+                      {
+                        "text": "End the run.",
+                        "broken": false
+                      }
+                    ]
+                  },
+                  "server": "R&D"
+                },
+                {
+                  "index": 4,
+                  "cost": {
+                    "clicks": 1,
+                    "note": "+ server install cost"
+                  },
+                  "label": "Brân 1.0 → Archives",
+                  "card": {
+                    "id": "c18",
+                    "side": "corp",
+                    "hidden": false,
+                    "installed": false,
+                    "rezzed": false,
+                    "faceUp": false,
+                    "advancement": 0,
+                    "hosted": [],
+                    "number": 30039,
+                    "title": "Brân 1.0",
+                    "type": "ice",
+                    "subTypes": [
+                      "Barrier",
+                      "Bioroid"
+                    ],
+                    "strength": 6,
+                    "counters": {},
+                    "subroutines": [
+                      {
+                        "text": "You may install 1 piece of ice from HQ or Archives directly inward from this ice, ignoring all costs.",
+                        "broken": false
+                      },
+                      {
+                        "text": "End the run.",
+                        "broken": false
+                      },
+                      {
+                        "text": "End the run.",
+                        "broken": false
+                      }
+                    ]
+                  },
+                  "server": "Archives"
+                },
+                {
+                  "index": 5,
+                  "cost": {
+                    "clicks": 1,
+                    "note": "Install facedown"
+                  },
+                  "label": "Offworld Office → new server",
+                  "card": {
+                    "id": "c5",
+                    "side": "corp",
+                    "hidden": false,
+                    "installed": false,
+                    "rezzed": false,
+                    "faceUp": false,
+                    "advancement": 0,
+                    "hosted": [],
+                    "number": 30067,
+                    "title": "Offworld Office",
+                    "type": "agenda",
+                    "subTypes": [
+                      "Expansion"
+                    ],
+                    "strength": null,
+                    "counters": {},
+                    "subroutines": []
+                  },
+                  "server": "New remote"
+                },
+                {
+                  "index": 6,
+                  "cost": {
+                    "clicks": 1,
+                    "note": "Install facedown"
+                  },
+                  "label": "Offworld Office → Remote 0",
+                  "card": {
+                    "id": "c5",
+                    "side": "corp",
+                    "hidden": false,
+                    "installed": false,
+                    "rezzed": false,
+                    "faceUp": false,
+                    "advancement": 0,
+                    "hosted": [],
+                    "number": 30067,
+                    "title": "Offworld Office",
+                    "type": "agenda",
+                    "subTypes": [
+                      "Expansion"
+                    ],
+                    "strength": null,
+                    "counters": {},
+                    "subroutines": []
+                  },
+                  "server": "Remote 0"
+                }
+              ]
+            },
+            {
+              "command": "play",
+              "label": "Play",
+              "cost": {
+                "clicks": 1
+              },
+              "instruction": "Click: Play an operation",
+              "cancel": false,
+              "options": [
+                {
+                  "index": 0,
+                  "cost": {
+                    "clicks": 1,
+                    "credits": 1
+                  },
+                  "label": "Seamless Launch",
+                  "card": {
+                    "id": "c22",
+                    "side": "corp",
+                    "hidden": false,
+                    "installed": false,
+                    "rezzed": false,
+                    "faceUp": false,
+                    "advancement": 0,
+                    "hosted": [],
+                    "number": 30040,
+                    "title": "Seamless Launch",
+                    "type": "operation",
+                    "subTypes": [],
+                    "strength": null,
+                    "counters": {},
+                    "subroutines": []
+                  },
+                  "server": null
+                },
+                {
+                  "index": 1,
+                  "cost": {
+                    "clicks": 1,
+                    "credits": 5
+                  },
+                  "label": "Hansei Review",
+                  "card": {
+                    "id": "c41",
+                    "side": "corp",
+                    "hidden": false,
+                    "installed": false,
+                    "rezzed": false,
+                    "faceUp": false,
+                    "advancement": 0,
+                    "hosted": [],
+                    "number": 30048,
+                    "title": "Hansei Review",
+                    "type": "operation",
+                    "subTypes": [
+                      "Transaction"
+                    ],
+                    "strength": null,
+                    "counters": {},
+                    "subroutines": []
+                  },
+                  "server": null
+                }
+              ]
+            },
+            {
+              "command": "advance",
+              "label": "Advance",
+              "cost": {
+                "clicks": 1,
+                "credits": 1
+              },
+              "instruction": "Click, 1 credit: Advance a card",
+              "cancel": false,
+              "options": [
+                {
+                  "index": 0,
+                  "cost": {
+                    "clicks": 1,
+                    "credits": 1
+                  },
+                  "label": "Superconducting Hub",
+                  "card": {
+                    "id": "c11",
+                    "side": "corp",
+                    "hidden": false,
+                    "installed": true,
+                    "rezzed": false,
+                    "faceUp": false,
+                    "advancement": 0,
+                    "hosted": [],
+                    "number": 30070,
+                    "title": "Superconducting Hub",
+                    "type": "agenda",
+                    "subTypes": [
+                      "Expansion"
+                    ],
+                    "strength": null,
+                    "counters": {},
+                    "subroutines": []
+                  },
+                  "server": null
+                }
+              ]
+            },
+            {
+              "command": "purge",
+              "label": "Purge virus counters",
+              "cost": {
+                "clicks": 3
+              },
+              "instruction": "Click,Click,Click: Purge virus counters",
+              "cancel": false,
+              "options": [
+                {
+                  "index": 0,
+                  "cost": {
+                    "clicks": 3
+                  },
+                  "label": "Purge virus counters",
+                  "card": null,
+                  "server": null
+                }
+              ]
+            }
+          ]
+        },
+        "historyCount": 37,
+        "history": [
+          {
+            "text": "Game begins. First to 7 agenda points.",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp chose to keep",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Runner took a mulligan",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Shuffled 5 cards into stack",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Runner drew 5 cards",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp drew a card",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp spent one click",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp installed ice protecting HQ",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp created a new remote server",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp spent one click",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp installed ice protecting a remote server",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp spent one click",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp installed a card in root of a remote server",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Runner spent one click",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Run initiated attacking R&D",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Approaching R&D",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Run successful",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "hidden card accessed",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner spent 2 credits",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Spin Doctor trashed",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner gained one credit",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner drew a card",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Run ends",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner spent one click",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner installed Smartware Distributor",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Using Smartware Distributor:",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner spent one click",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "3 credits placed on Smartware Distributor",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner spent one click",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Run initiated attacking R&D",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Approaching R&D",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Run successful",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "hidden card accessed",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner spent 3 credits",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Manegarm Skunkworks trashed",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Run ends",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Corp drew a card",
+            "turn": 3,
+            "side": "corp"
+          }
+        ],
+        "diagnostics": []
+      }
+    },
+    {
+      "id": "corp-income",
+      "title": "Corp: collect income from Nico Campaign",
+      "replay": "/eval/counters/corp-income-replay.json",
+      "decisions": 5,
+      "state": {
+        "version": 84,
+        "steps": 83,
+        "turn": 3,
+        "side": "corp",
+        "seed": "counter-income-3",
+        "active": "corp",
+        "playerTurn": "corp",
+        "phase": {
+          "title": "Corporation's Turn Begins",
+          "identifier": "Corp 1.2"
+        },
+        "terminal": null,
+        "corp": {
+          "side": "corp",
+          "identity": {
+            "id": "c1",
+            "side": "corp",
+            "hidden": false,
+            "installed": false,
+            "rezzed": false,
+            "faceUp": true,
+            "advancement": 0,
+            "hosted": [],
+            "number": 30035,
+            "title": "Haas-Bioroid: Precision Design",
+            "type": "identity",
+            "subTypes": [
+              "Megacorp"
+            ],
+            "strength": null,
+            "counters": {},
+            "subroutines": []
+          },
+          "credits": 5,
+          "clicks": 3,
+          "points": 0,
+          "maxHand": 6,
+          "score": [],
+          "hand": [
+            {
+              "id": "c3",
+              "side": "corp",
+              "hidden": false,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30067,
+              "title": "Offworld Office",
+              "type": "agenda",
+              "subTypes": [
+                "Expansion"
+              ],
+              "strength": null,
+              "counters": {},
+              "subroutines": []
+            },
+            {
+              "id": "c22",
+              "side": "corp",
+              "hidden": false,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30040,
+              "title": "Seamless Launch",
+              "type": "operation",
+              "subTypes": [],
+              "strength": null,
+              "counters": {},
+              "subroutines": []
+            },
+            {
+              "id": "c36",
+              "side": "corp",
+              "hidden": false,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30075,
+              "title": "Hedge Fund",
+              "type": "operation",
+              "subTypes": [
+                "Transaction"
+              ],
+              "strength": null,
+              "counters": {},
+              "subroutines": []
+            },
+            {
+              "id": "c24",
+              "side": "corp",
+              "hidden": false,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30042,
+              "title": "Manegarm Skunkworks",
+              "type": "upgrade",
+              "subTypes": [],
+              "strength": null,
+              "counters": {},
+              "subroutines": []
+            },
+            {
+              "id": "c8",
+              "side": "corp",
+              "hidden": false,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30069,
+              "title": "Send a Message",
+              "type": "agenda",
+              "subTypes": [
+                "Security"
+              ],
+              "strength": null,
+              "counters": {},
+              "subroutines": []
+            }
+          ],
+          "deck": 32,
+          "discard": [
+            {
+              "id": "c39",
+              "side": "corp",
+              "hidden": false,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": true,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30053,
+              "title": "Spin Doctor",
+              "type": "asset",
+              "subTypes": [
+                "Character"
+              ],
+              "strength": null,
+              "counters": {},
+              "subroutines": []
+            }
+          ],
+          "resolving": [],
+          "badPublicity": 0,
+          "servers": [
+            {
+              "name": "HQ",
+              "central": true,
+              "ice": [],
+              "root": []
+            },
+            {
+              "name": "R&D",
+              "central": true,
+              "ice": [],
+              "root": []
+            },
+            {
+              "name": "Archives",
+              "central": true,
+              "ice": [],
+              "root": []
+            },
+            {
+              "name": "Remote 0",
+              "central": false,
+              "ice": [],
+              "root": [
+                {
+                  "id": "c14",
+                  "side": "corp",
+                  "hidden": false,
+                  "installed": true,
+                  "rezzed": true,
+                  "faceUp": true,
+                  "advancement": 0,
+                  "hosted": [],
+                  "number": 30037,
+                  "title": "Nico Campaign",
+                  "type": "asset",
+                  "subTypes": [
+                    "Advertisement"
+                  ],
+                  "strength": null,
+                  "counters": {
+                    "credits": 9
+                  },
+                  "subroutines": []
+                }
+              ]
+            }
+          ]
+        },
+        "runner": {
+          "side": "runner",
+          "identity": {
+            "id": "c42",
+            "side": "runner",
+            "hidden": false,
+            "installed": false,
+            "rezzed": false,
+            "faceUp": true,
+            "advancement": 0,
+            "hosted": [],
+            "number": 30001,
+            "title": "René \"Loup\" Arcemont: Party Animal",
+            "type": "identity",
+            "subTypes": [],
+            "strength": null,
+            "counters": {},
+            "subroutines": []
+          },
+          "credits": 3,
+          "clicks": 0,
+          "points": 2,
+          "maxHand": 5,
+          "score": [
+            {
+              "id": "c7",
+              "side": "corp",
+              "hidden": false,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": true,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30068,
+              "title": "Orbital Superiority",
+              "type": "agenda",
+              "subTypes": [
+                "Security"
+              ],
+              "strength": null,
+              "counters": {},
+              "subroutines": []
+            }
+          ],
+          "hand": [
+            {
+              "id": "c54",
+              "side": "runner",
+              "hidden": true,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": []
+            },
+            {
+              "id": "c56",
+              "side": "runner",
+              "hidden": true,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": []
+            },
+            {
+              "id": "c44",
+              "side": "runner",
+              "hidden": true,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": []
+            },
+            {
+              "id": "c60",
+              "side": "runner",
+              "hidden": true,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": []
+            },
+            {
+              "id": "c81",
+              "side": "runner",
+              "hidden": true,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": []
+            }
+          ],
+          "deck": 33,
+          "discard": [
+            {
+              "id": "c66",
+              "side": "runner",
+              "hidden": false,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": true,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30028,
+              "title": "Jailbreak",
+              "type": "event",
+              "subTypes": [
+                "Run"
+              ],
+              "strength": null,
+              "counters": {},
+              "subroutines": []
+            }
+          ],
+          "resolving": [],
+          "tags": 0,
+          "coreDamage": 0,
+          "temporaryCredits": 0,
+          "memory": 4,
+          "memoryUsed": 1,
+          "rig": {
+            "programs": [
+              {
+                "id": "c57",
+                "side": "runner",
+                "hidden": false,
+                "installed": true,
+                "rezzed": false,
+                "faceUp": true,
+                "advancement": 0,
+                "hosted": [],
+                "number": 30007,
+                "title": "Fermenter",
+                "type": "program",
+                "subTypes": [
+                  "Virus"
+                ],
+                "strength": null,
+                "counters": {
+                  "virus": 1
+                },
+                "subroutines": []
+              }
+            ],
+            "hardware": [],
+            "resources": []
+          }
+        },
+        "run": null,
+        "access": null,
+        "decision": {
+          "version": 84,
+          "commands": [
+            {
+              "command": "trigger",
+              "label": "Use ability",
+              "cost": null,
+              "instruction": "",
+              "cancel": false,
+              "options": [
+                {
+                  "index": 0,
+                  "cost": null,
+                  "label": "Nico Campaign",
+                  "card": {
+                    "id": "c14",
+                    "side": "corp",
+                    "hidden": false,
+                    "installed": true,
+                    "rezzed": true,
+                    "faceUp": true,
+                    "advancement": 0,
+                    "hosted": [],
+                    "number": 30037,
+                    "title": "Nico Campaign",
+                    "type": "asset",
+                    "subTypes": [
+                      "Advertisement"
+                    ],
+                    "strength": null,
+                    "counters": {
+                      "credits": 9
+                    },
+                    "subroutines": []
+                  },
+                  "server": null
+                }
+              ]
+            }
+          ]
+        },
+        "historyCount": 44,
+        "history": [
+          {
+            "text": "Game begins. First to 7 agenda points.",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp chose to keep",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Runner chose to keep",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp drew a card",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp created a new remote server",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp spent one click",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp installed a card in root of a remote server",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp spent 2 credits",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp rezzed Nico Campaign",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "9 credits loaded onto Nico Campaign",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp spent one click",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp gained one credit",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp spent one click",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp gained one credit",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Runner spent one click",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Played \"Jailbreak\"",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Run initiated attacking R&D",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Approaching R&D",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Run successful",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner drew a card",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "hidden card accessed",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Orbital Superiority stolen",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "hidden card accessed",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner spent 2 credits",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Spin Doctor trashed",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner gained one credit",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner drew a card",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Run ends",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner spent one click",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner spent one credit",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner installed Fermenter",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "1 virus counter placed on Fermenter",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner spent one click",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Run initiated attacking HQ",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Approaching HQ",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Run successful",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Seamless Launch accessed",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Run ends",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner spent one click",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Run initiated attacking R&D",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Approaching R&D",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Run successful",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "hidden card accessed",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Run ends",
+            "turn": 2,
+            "side": "runner"
+          }
+        ],
+        "diagnostics": []
+      }
+    },
+    {
+      "id": "runner-virus",
+      "title": "Runner: spend Botulus virus counters",
+      "replay": "/eval/counters/runner-virus-replay.json",
+      "decisions": 19,
+      "state": {
+        "version": 118,
+        "steps": 117,
+        "turn": 4,
+        "side": "runner",
+        "seed": "4e2bd374-fa72-4ff3-98a0-cc68f2e499a8",
+        "active": "runner",
+        "playerTurn": "runner",
+        "phase": {
+          "title": "Run: Encounter Ice",
+          "identifier": "Run 3.1"
+        },
+        "terminal": null,
+        "corp": {
+          "side": "corp",
+          "identity": {
+            "id": "c1",
+            "side": "corp",
+            "hidden": false,
+            "installed": false,
+            "rezzed": false,
+            "faceUp": true,
+            "advancement": 0,
+            "hosted": [],
+            "number": 30035,
+            "title": "Haas-Bioroid: Precision Design",
+            "type": "identity",
+            "subTypes": [
+              "Megacorp"
+            ],
+            "strength": null,
+            "counters": {},
+            "subroutines": []
+          },
+          "credits": 2,
+          "clicks": 0,
+          "points": 0,
+          "maxHand": 6,
+          "score": [],
+          "hand": [
+            {
+              "id": "c8",
+              "side": "corp",
+              "hidden": true,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": []
+            },
+            {
+              "id": "c3",
+              "side": "corp",
+              "hidden": true,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": []
+            },
+            {
+              "id": "c7",
+              "side": "corp",
+              "hidden": true,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": []
+            }
+          ],
+          "deck": 32,
+          "discard": [
+            {
+              "id": "c39",
+              "side": "corp",
+              "hidden": false,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": true,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30053,
+              "title": "Spin Doctor",
+              "type": "asset",
+              "subTypes": [
+                "Character"
+              ],
+              "strength": null,
+              "counters": {},
+              "subroutines": []
+            },
+            {
+              "id": "c25",
+              "side": "corp",
+              "hidden": false,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": true,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30042,
+              "title": "Manegarm Skunkworks",
+              "type": "upgrade",
+              "subTypes": [],
+              "strength": null,
+              "counters": {},
+              "subroutines": []
+            }
+          ],
+          "resolving": [],
+          "badPublicity": 0,
+          "servers": [
+            {
+              "name": "HQ",
+              "central": true,
+              "ice": [
+                {
+                  "id": "c19",
+                  "side": "corp",
+                  "hidden": false,
+                  "installed": true,
+                  "rezzed": true,
+                  "faceUp": true,
+                  "advancement": 0,
+                  "hosted": [
+                    {
+                      "id": "c50",
+                      "side": "runner",
+                      "hidden": false,
+                      "installed": true,
+                      "rezzed": false,
+                      "faceUp": true,
+                      "advancement": 0,
+                      "hosted": [],
+                      "number": 30004,
+                      "title": "Botulus",
+                      "type": "program",
+                      "subTypes": [
+                        "Virus"
+                      ],
+                      "strength": null,
+                      "counters": {
+                        "virus": 1
+                      },
+                      "subroutines": []
+                    }
+                  ],
+                  "number": 30039,
+                  "title": "Brân 1.0",
+                  "type": "ice",
+                  "subTypes": [
+                    "Barrier",
+                    "Bioroid"
+                  ],
+                  "strength": 6,
+                  "counters": {},
+                  "subroutines": [
+                    {
+                      "text": "You may install 1 piece of ice from HQ or Archives directly inward from this ice, ignoring all costs.",
+                      "broken": false
+                    },
+                    {
+                      "text": "End the run.",
+                      "broken": false
+                    },
+                    {
+                      "text": "End the run.",
+                      "broken": false
+                    }
+                  ]
+                }
+              ],
+              "root": []
+            },
+            {
+              "name": "R&D",
+              "central": true,
+              "ice": [],
+              "root": [
+                {
+                  "id": "c24",
+                  "side": "corp",
+                  "hidden": true,
+                  "installed": true,
+                  "rezzed": false,
+                  "faceUp": false,
+                  "advancement": 0,
+                  "hosted": []
+                }
+              ]
+            },
+            {
+              "name": "Archives",
+              "central": true,
+              "ice": [],
+              "root": []
+            },
+            {
+              "name": "Remote 0",
+              "central": false,
+              "ice": [],
+              "root": [
+                {
+                  "id": "c12",
+                  "side": "corp",
+                  "hidden": false,
+                  "installed": true,
+                  "rezzed": true,
+                  "faceUp": true,
+                  "advancement": 0,
+                  "hosted": [],
+                  "number": 30037,
+                  "title": "Nico Campaign",
+                  "type": "asset",
+                  "subTypes": [
+                    "Advertisement"
+                  ],
+                  "strength": null,
+                  "counters": {
+                    "credits": 6
+                  },
+                  "subroutines": []
+                }
+              ]
+            }
+          ]
+        },
+        "runner": {
+          "side": "runner",
+          "identity": {
+            "id": "c42",
+            "side": "runner",
+            "hidden": false,
+            "installed": false,
+            "rezzed": false,
+            "faceUp": true,
+            "advancement": 0,
+            "hosted": [],
+            "number": 30001,
+            "title": "René \"Loup\" Arcemont: Party Animal",
+            "type": "identity",
+            "subTypes": [],
+            "strength": null,
+            "counters": {},
+            "subroutines": []
+          },
+          "credits": 2,
+          "clicks": 2,
+          "points": 0,
+          "maxHand": 5,
+          "score": [],
+          "hand": [
+            {
+              "id": "c79",
+              "side": "runner",
+              "hidden": false,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30033,
+              "title": "Smartware Distributor",
+              "type": "resource",
+              "subTypes": [
+                "Connection"
+              ],
+              "strength": null,
+              "counters": {},
+              "subroutines": []
+            },
+            {
+              "id": "c59",
+              "side": "runner",
+              "hidden": false,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30007,
+              "title": "Fermenter",
+              "type": "program",
+              "subTypes": [
+                "Virus"
+              ],
+              "strength": null,
+              "counters": {},
+              "subroutines": []
+            },
+            {
+              "id": "c47",
+              "side": "runner",
+              "hidden": false,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": false,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30003,
+              "title": "Carnivore",
+              "type": "hardware",
+              "subTypes": [
+                "Console"
+              ],
+              "strength": null,
+              "counters": {},
+              "subroutines": []
+            }
+          ],
+          "deck": 33,
+          "discard": [
+            {
+              "id": "c73",
+              "side": "runner",
+              "hidden": false,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": true,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30030,
+              "title": "Sure Gamble",
+              "type": "event",
+              "subTypes": [],
+              "strength": null,
+              "counters": {},
+              "subroutines": []
+            },
+            {
+              "id": "c67",
+              "side": "runner",
+              "hidden": false,
+              "installed": false,
+              "rezzed": false,
+              "faceUp": true,
+              "advancement": 0,
+              "hosted": [],
+              "number": 30028,
+              "title": "Jailbreak",
+              "type": "event",
+              "subTypes": [
+                "Run"
+              ],
+              "strength": null,
+              "counters": {},
+              "subroutines": []
+            }
+          ],
+          "resolving": [],
+          "tags": 0,
+          "coreDamage": 0,
+          "temporaryCredits": 0,
+          "memory": 4,
+          "memoryUsed": 2,
+          "rig": {
+            "programs": [
+              {
+                "id": "c61",
+                "side": "runner",
+                "hidden": false,
+                "installed": true,
+                "rezzed": false,
+                "faceUp": true,
+                "advancement": 0,
+                "hosted": [],
+                "number": 30008,
+                "title": "Leech",
+                "type": "program",
+                "subTypes": [
+                  "Virus"
+                ],
+                "strength": null,
+                "counters": {
+                  "virus": 2
+                },
+                "subroutines": []
+              }
+            ],
+            "hardware": [],
+            "resources": []
+          }
+        },
+        "run": {
+          "server": "HQ",
+          "ice": 0,
+          "encountering": true,
+          "movement": false,
+          "card": {
+            "id": "c19",
+            "side": "corp",
+            "hidden": false,
+            "installed": true,
+            "rezzed": true,
+            "faceUp": true,
+            "advancement": 0,
+            "hosted": [
+              {
+                "id": "c50",
+                "side": "runner",
+                "hidden": false,
+                "installed": true,
+                "rezzed": false,
+                "faceUp": true,
+                "advancement": 0,
+                "hosted": [],
+                "number": 30004,
+                "title": "Botulus",
+                "type": "program",
+                "subTypes": [
+                  "Virus"
+                ],
+                "strength": null,
+                "counters": {
+                  "virus": 1
+                },
+                "subroutines": []
+              }
+            ],
+            "number": 30039,
+            "title": "Brân 1.0",
+            "type": "ice",
+            "subTypes": [
+              "Barrier",
+              "Bioroid"
+            ],
+            "strength": 6,
+            "counters": {},
+            "subroutines": [
+              {
+                "text": "You may install 1 piece of ice from HQ or Archives directly inward from this ice, ignoring all costs.",
+                "broken": false
+              },
+              {
+                "text": "End the run.",
+                "broken": false
+              },
+              {
+                "text": "End the run.",
+                "broken": false
+              }
+            ]
+          }
+        },
+        "access": null,
+        "decision": {
+          "version": 118,
+          "commands": [
+            {
+              "command": "n",
+              "label": "Resolve unbroken subroutines",
+              "cost": null,
+              "instruction": "",
+              "cancel": false,
+              "options": [
+                {
+                  "index": 0,
+                  "cost": null,
+                  "label": "Continue",
+                  "card": null,
+                  "server": null
+                }
+              ]
+            },
+            {
+              "command": "trigger",
+              "label": "Use ability",
+              "cost": null,
+              "instruction": "",
+              "cancel": false,
+              "options": [
+                {
+                  "index": 0,
+                  "cost": null,
+                  "label": "(Botulus) Break 1 subroutine on host ice",
+                  "card": {
+                    "id": "c50",
+                    "side": "runner",
+                    "hidden": false,
+                    "installed": true,
+                    "rezzed": false,
+                    "faceUp": true,
+                    "advancement": 0,
+                    "hosted": [],
+                    "number": 30004,
+                    "title": "Botulus",
+                    "type": "program",
+                    "subTypes": [
+                      "Virus"
+                    ],
+                    "strength": null,
+                    "counters": {
+                      "virus": 1
+                    },
+                    "subroutines": []
+                  },
+                  "server": null,
+                  "detail": "Break 1 subroutine on host ice"
+                },
+                {
+                  "index": 1,
+                  "cost": null,
+                  "label": "(Leech) Hosted virus counter: The ice you are encountering gets -1 strength for the remainder of this encounter.",
+                  "card": {
+                    "id": "c61",
+                    "side": "runner",
+                    "hidden": false,
+                    "installed": true,
+                    "rezzed": false,
+                    "faceUp": true,
+                    "advancement": 0,
+                    "hosted": [],
+                    "number": 30008,
+                    "title": "Leech",
+                    "type": "program",
+                    "subTypes": [
+                      "Virus"
+                    ],
+                    "strength": null,
+                    "counters": {
+                      "virus": 2
+                    },
+                    "subroutines": []
+                  },
+                  "server": null,
+                  "detail": "Hosted virus counter: The ice you are encountering gets -1 strength for the remainder of this encounter."
+                },
+                {
+                  "index": 2,
+                  "cost": null,
+                  "label": "(Brân 1.0 protecting HQ at position 0) Break 1 subroutine on this ice",
+                  "card": {
+                    "id": "c19",
+                    "side": "corp",
+                    "hidden": false,
+                    "installed": true,
+                    "rezzed": true,
+                    "faceUp": true,
+                    "advancement": 0,
+                    "hosted": [
+                      {
+                        "id": "c50",
+                        "side": "runner",
+                        "hidden": false,
+                        "installed": true,
+                        "rezzed": false,
+                        "faceUp": true,
+                        "advancement": 0,
+                        "hosted": [],
+                        "number": 30004,
+                        "title": "Botulus",
+                        "type": "program",
+                        "subTypes": [
+                          "Virus"
+                        ],
+                        "strength": null,
+                        "counters": {
+                          "virus": 1
+                        },
+                        "subroutines": []
+                      }
+                    ],
+                    "number": 30039,
+                    "title": "Brân 1.0",
+                    "type": "ice",
+                    "subTypes": [
+                      "Barrier",
+                      "Bioroid"
+                    ],
+                    "strength": 6,
+                    "counters": {},
+                    "subroutines": [
+                      {
+                        "text": "You may install 1 piece of ice from HQ or Archives directly inward from this ice, ignoring all costs.",
+                        "broken": false
+                      },
+                      {
+                        "text": "End the run.",
+                        "broken": false
+                      },
+                      {
+                        "text": "End the run.",
+                        "broken": false
+                      }
+                    ]
+                  },
+                  "server": null,
+                  "detail": "Break 1 subroutine on this ice"
+                }
+              ]
+            }
+          ]
+        },
+        "historyCount": 64,
+        "history": [
+          {
+            "text": "Game begins. First to 7 agenda points.",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp took a mulligan",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Shuffled 5 cards into R&D",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp drew 5 cards",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Runner chose to keep",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp drew a card",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp spent one click",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp installed a card in root of R&D",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp created a new remote server",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp spent one click",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp installed a card in root of a remote server",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp spent one click",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Corp gained one credit",
+            "turn": 1,
+            "side": "corp"
+          },
+          {
+            "text": "Runner spent one click",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner spent 5 credits",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Played \"Sure Gamble\"",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner gained 9 credits",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner spent one click",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner spent one credit",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner installed Leech",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner spent one click",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Run initiated attacking HQ",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Approaching HQ",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Run successful",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "1 virus counter placed on Leech",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Spin Doctor accessed",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner spent 2 credits",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Spin Doctor trashed",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner gained one credit",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner drew a card",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Run ends",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner spent one click",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Played \"Jailbreak\"",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Run initiated attacking HQ",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Approaching HQ",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Run successful",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "1 virus counter placed on Leech",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner drew a card",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Manegarm Skunkworks accessed",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Runner spent 3 credits",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Manegarm Skunkworks trashed",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Brân 1.0 accessed",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Run ends",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Corp spent 2 credits",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "Corp rezzed Nico Campaign",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "9 credits loaded onto Nico Campaign",
+            "turn": 2,
+            "side": "runner"
+          },
+          {
+            "text": "3 credits taken from Nico Campaign",
+            "turn": 3,
+            "side": "corp"
+          },
+          {
+            "text": "Corp drew a card",
+            "turn": 3,
+            "side": "corp"
+          },
+          {
+            "text": "Corp spent one click",
+            "turn": 3,
+            "side": "corp"
+          },
+          {
+            "text": "Corp installed ice protecting HQ",
+            "turn": 3,
+            "side": "corp"
+          },
+          {
+            "text": "Corp spent one click",
+            "turn": 3,
+            "side": "corp"
+          },
+          {
+            "text": "Corp drew a card",
+            "turn": 3,
+            "side": "corp"
+          },
+          {
+            "text": "Corp spent one click",
+            "turn": 3,
+            "side": "corp"
+          },
+          {
+            "text": "Corp gained one credit",
+            "turn": 3,
+            "side": "corp"
+          },
+          {
+            "text": "Runner spent one click",
+            "turn": 4,
+            "side": "runner"
+          },
+          {
+            "text": "Runner spent 2 credits",
+            "turn": 4,
+            "side": "runner"
+          },
+          {
+            "text": "Runner installed Botulus",
+            "turn": 4,
+            "side": "runner"
+          },
+          {
+            "text": "1 virus counter placed on Botulus",
+            "turn": 4,
+            "side": "runner"
+          },
+          {
+            "text": "Runner spent one click",
+            "turn": 4,
+            "side": "runner"
+          },
+          {
+            "text": "Run initiated attacking HQ",
+            "turn": 4,
+            "side": "runner"
+          },
+          {
+            "text": "Approaching outermost piece of ice protecting HQ",
+            "turn": 4,
+            "side": "runner"
+          },
+          {
+            "text": "Corp spent 6 credits",
+            "turn": 4,
+            "side": "runner"
+          },
+          {
+            "text": "Corp rezzed Brân 1.0 protecting HQ at position 0",
+            "turn": 4,
+            "side": "runner"
+          },
+          {
+            "text": "Encountering Brân 1.0 protecting HQ at position 0",
+            "turn": 4,
+            "side": "runner"
+          }
+        ],
+        "diagnostics": []
+      }
+    }
+  ]
+}

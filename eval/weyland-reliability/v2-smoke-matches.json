@@ -1,0 +1,74 @@
+{
+  "scope": "Native AI compatibility smoke tests, not a balance study",
+  "results": [
+    {
+      "config": {
+        "side": "corp",
+        "faceoff": true,
+        "seed": "weyland-v2-compat-loup-v1",
+        "rulesVersion": "26.03-local-2",
+        "deckIds": {
+          "corp": "built-to-last-v2",
+          "runner": "loup-v1"
+        }
+      },
+      "terminal": {
+        "winner": "corp",
+        "reason": "Runner flatlined",
+        "damage": {
+          "amount": 8,
+          "type": "meat",
+          "gripBefore": 5
+        }
+      },
+      "turn": 19,
+      "steps": 599
+    },
+    {
+      "config": {
+        "side": "corp",
+        "faceoff": true,
+        "seed": "weyland-v2-compat-zahya-v1",
+        "rulesVersion": "26.03-local-2",
+        "deckIds": {
+          "corp": "built-to-last-v2",
+          "runner": "zahya-v1"
+        }
+      },
+      "terminal": {
+        "winner": "corp",
+        "reason": "Runner flatlined",
+        "damage": {
+          "amount": 6,
+          "type": "meat",
+          "gripBefore": 5,
+          "card": {
+            "id": "c12",
+            "number": 30061,
+            "title": "Clearinghouse"
+          }
+        }
+      },
+      "turn": 25,
+      "steps": 918
+    },
+    {
+      "config": {
+        "side": "corp",
+        "faceoff": true,
+        "seed": "weyland-v2-compat-tao-v1",
+        "rulesVersion": "26.03-local-2",
+        "deckIds": {
+          "corp": "built-to-last-v2",
+          "runner": "tao-v1"
+        }
+      },
+      "terminal": {
+        "winner": "runner",
+        "reason": "Runner reached 9 agenda points."
+      },
+      "turn": 24,
+      "steps": 1035
+    }
+  ]
+}

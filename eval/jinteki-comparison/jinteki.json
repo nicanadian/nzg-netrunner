@@ -1,0 +1,80 @@
+{
+  "engine" : "jinteki",
+  "summary" : {
+    "test" : 6,
+    "pass" : 248,
+    "fail" : 0,
+    "error" : 0,
+    "type" : "summary"
+  },
+  "scenarios" : {
+    "overclock-manegarm-credits" : {
+      "pool" : 5,
+      "clicks" : 3,
+      "overclock" : 0,
+      "runActive" : true
+    },
+    "overclock-manegarm-clicks" : {
+      "pool" : 5,
+      "clicks" : 1,
+      "overclock" : 5,
+      "runActive" : true
+    },
+    "seamless-Leech" : {
+      "newCounters" : 0,
+      "targetCounters" : 0
+    },
+    "whitespace-9" : {
+      "afterLoss" : {
+        "pool" : 6,
+        "fund" : 5
+      },
+      "runActive" : false,
+      "fund" : 0
+    },
+    "whitespace-10" : {
+      "afterLoss" : {
+        "pool" : 7,
+        "fund" : 5
+      },
+      "runActive" : true,
+      "fund" : 5
+    },
+    "overclock-manegarm-end" : {
+      "pool" : 5,
+      "clicks" : 3,
+      "overclock" : 0,
+      "runActive" : false
+    },
+    "seamless-Palisade" : {
+      "newCounters" : 0,
+      "targetCounters" : 2
+    },
+    "leech" : {
+      "before" : 4,
+      "during" : 3,
+      "after" : 4,
+      "counters" : 1
+    },
+    "spin-empty" : {
+      "drawn" : 2,
+      "removed" : true,
+      "shuffled" : 2,
+      "runActive" : false,
+      "successful" : false
+    },
+    "luminal" : {
+      "bonus" : 3,
+      "otherScored" : false,
+      "clicks" : 0,
+      "creditsGained" : 3
+    },
+    "spin-iced" : {
+      "drawn" : 2,
+      "removed" : true,
+      "shuffled" : 2,
+      "runActive" : false,
+      "successful" : true
+    }
+  }
+}

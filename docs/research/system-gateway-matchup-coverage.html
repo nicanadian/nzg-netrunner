@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+:root{font-family:var(--font-sans);color:var(--foreground)}
+body{margin:0}figure{margin:0;display:grid;gap:14px}
+figcaption{font-weight:500}.sub,.note{font-size:12px;color:var(--muted-foreground);line-height:1.5}
+table{width:100%;border-collapse:separate;border-spacing:5px;font-size:14px;table-layout:fixed}
+th{font-weight:400;text-align:left;padding:8px 3px;overflow-wrap:anywhere}
+th:first-child{width:37%}thead th:not(:first-child){text-align:center}
+td{height:50px;text-align:center;font-variant-numeric:tabular-nums;position:relative}
+td::before{content:"";position:absolute;inset:0;background:var(--chart-1);opacity:var(--intensity)}
+td span{position:relative;color:var(--foreground);font-weight:500}
+.legend{display:flex;align-items:center;justify-content:flex-end;gap:8px;font-size:12px;color:var(--muted-foreground)}
+.ramp{width:100px;height:10px;background:linear-gradient(to right,color-mix(in srgb,var(--chart-1) 12%,transparent),color-mix(in srgb,var(--chart-1) 62%,transparent))}
+a{color:var(--primary)}p{margin:0}
+</style></head><body><figure aria-label="Historical System Gateway record counts for all twelve pairings among our seven main identities">
+<figcaption>All 12 character pairings appear in the historical data</figcaption>
+<p class="sub">807 records · July 20–December 8, 2021 · subset of 3,135 Gateway-labelled records</p>
+<table aria-label="Records by Corp and Runner identity"><thead><tr><th scope="col">Corp / Runner</th><th scope="col">Loup</th><th scope="col">Zahya</th><th scope="col">Tāo</th></tr></thead><tbody>
+<tr><th scope="row">Precision Design</th><td style="--intensity:.32"><span>50</span></td><td style="--intensity:.62"><span>125</span></td><td style="--intensity:.45"><span>82</span></td></tr>
+<tr><th scope="row">Restoring Humanity</th><td style="--intensity:.23"><span>28</span></td><td style="--intensity:.32"><span>51</span></td><td style="--intensity:.29"><span>43</span></td></tr>
+<tr><th scope="row">Reality Plus</th><td style="--intensity:.30"><span>45</span></td><td style="--intensity:.46"><span>85</span></td><td style="--intensity:.32"><span>51</span></td></tr>
+<tr><th scope="row">Built to Last</th><td style="--intensity:.33"><span>53</span></td><td style="--intensity:.52"><span>100</span></td><td style="--intensity:.50"><span>94</span></td></tr>
+</tbody></table><div class="legend"><span>Fewer records</span><span class="ramp" aria-hidden="true"></span><span>More</span></div>
+<p class="note">Counts show coverage, including records without a winner. No decklists or individual moves are present. <a href="https://github.com/jwarwick/netrunner_stats/blob/main/20211208_games.csv" target="_blank" rel="noopener noreferrer">Source: Jinteki statistics CSV</a></p>
+</figure></body></html>
