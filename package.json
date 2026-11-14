@@ -1,6 +1,6 @@
 {
   "name": "netrunner-local-table",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "license": "GPL-3.0-only",
   "repository": {
@@ -15,7 +15,7 @@
     "jinteki:stop": "node scripts/jinteki-local/start.cjs --stop",
     "test:jinteki": "node scripts/jinteki-comparison/run.cjs",
     "dev": "node server.cjs",
-    "test": "node tests/engine-smoke.cjs && node tests/replay-smoke.cjs && npm run test:rules && node tests/hosted-privacy.cjs && node tests/chrome-playthroughs.cjs && node tests/install-cost.cjs && node tests/counters.cjs && node tests/polish.cjs && node tests/decks.cjs && node tests/character-feedback.cjs && node tests/encounter-ui.cjs && node tests/interaction.cjs && node tests/click-flow.cjs && node tests/rez-visibility.cjs && node tests/run-drawer.cjs && node tests/activity-turns.cjs && node tests/opponent-playback.cjs && node tests/luminal-clicks.cjs && node tests/spin-doctor-feedback.cjs && node tests/frontend-audit.cjs && node tests/helper-virus.cjs && node tests/helper-codex.cjs && npm run test:reference && npm run test:recorded-games",
+    "test": "node tests/engine-smoke.cjs && node tests/replay-smoke.cjs && node tests/replay-live-checkpoint.cjs && npm run test:rules && node tests/hosted-privacy.cjs && node tests/chrome-playthroughs.cjs && node tests/install-cost.cjs && node tests/counters.cjs && node tests/polish.cjs && node tests/decks.cjs && node tests/character-feedback.cjs && node tests/encounter-ui.cjs && node tests/interaction.cjs && node tests/click-flow.cjs && node tests/rez-visibility.cjs && node tests/run-drawer.cjs && node tests/activity-turns.cjs && node tests/opponent-playback.cjs && node tests/playback-required-review.cjs && node tests/luminal-clicks.cjs && node tests/spin-doctor-feedback.cjs && node tests/frontend-audit.cjs && node tests/palisade-ansel-install.cjs && node tests/palisade-repeat-run.cjs && node tests/nico-rez.cjs && node tests/helper-virus.cjs && node tests/helper-codex.cjs && npm run test:reference && npm run test:recorded-games",
     "test:rules": "node tests/rules-playtest.cjs",
     "eval:build": "node scripts/build-reference-eval.cjs",
     "test:reference": "node tests/reference-eval.cjs && node tests/reference-presentation.cjs",
@@ -24,9 +24,21 @@
     "test:interaction-browser": "node tests/interaction-browser.cjs",
     "desktop": "node desktop/main.cjs",
     "build:release": "node scripts/build-release.cjs",
-    "test:desktop": "node tests/desktop-launcher.cjs"
+    "test:desktop": "node tests/desktop-launcher.cjs",
+    "test:core-foundation": "node tests/core-foundation.cjs && node tests/core-timing.cjs && node tests/core-humanoid-resources.cjs && node tests/core-rising-tide.cjs && node tests/core-mercia-install.cjs && node tests/core-streamlining.cjs && node tests/core-presentation.cjs && node tests/core-hosted-uninstalled.cjs && node tests/core-nbn-local.cjs && node tests/core-detente.cjs && node tests/elevation-printed.cjs && node tests/core-install-sequences.cjs && node tests/core-identity-faces.cjs && node tests/core-economy.cjs && node tests/core-events.cjs && node tests/core-private.cjs && node tests/core-runner-contracts.cjs && node tests/core-runner-advanced.cjs && node tests/core-corp-contracts.cjs && node tests/core-rez-costs.cjs && node tests/core-operations.cjs",
+    "test:core-browser": "node tests/core-worker-browser.cjs && node tests/core-ui-browser.cjs",
+    "test:core-replays": "node tests/core-chrome-replays.cjs",
+    "engine": "node scripts/netrunner.cjs",
+    "test:decks": "node tests/deck-documents.cjs && node tests/deck-import.cjs && node tests/net-decks.cjs && node tests/deck-loadouts.cjs",
+    "test:simulation": "node tests/simulation.cjs && node tests/matrix.cjs && npm run test:search",
+    "coverage:elevation": "node scripts/elevation-coverage.cjs",
+    "build:engine": "node scripts/build-engine-package.cjs",
+    "check:dev": "npm test && npm run test:decks && npm run test:core-foundation && npm run test:core-replays && npm run test:simulation && npm run coverage:elevation && npm run test:offline-package",
+    "test:offline-package": "node tests/offline-package.cjs",
+    "test:search": "node tests/search-optimizations.cjs && node tests/simulation-search-parity.cjs"
   },
   "devDependencies": {
-    "esbuild": "0.28.2"
+    "esbuild": "0.28.2",
+    "playwright-core": "1.65.0"
   }
 }

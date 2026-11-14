@@ -1,0 +1,55 @@
+{
+  "baselineHash": "230f78220f2ff76f4f5c4308669770a6b71c9bdfd82fa839e5facdb402ce9f2d",
+  "optimizedHash": "c8c52ccc31737fc9422b50e395a7400e0be4a08b2dffddedda3e275d88c8925f",
+  "gamesPerMode": 100,
+  "workers": 4,
+  "seed": "benchmark-1",
+  "limits": {
+    "wallMs": 120000,
+    "decisions": 100000
+  },
+  "baselineWallMs": 138727,
+  "optimizedWallMs": 73727,
+  "speedup": 1.881630881495246,
+  "matchingDecisions": 83830,
+  "completeTraceParity": true,
+  "baselineSummary": {
+    "jobs": 100,
+    "statuses": {
+      "completed": 100
+    },
+    "wins": {
+      "corp": 52,
+      "runner": 48
+    },
+    "runnerWinRate": 0.48,
+    "runnerWilson95": [
+      0.38464384320080547,
+      0.5768359490982345
+    ],
+    "p50Ms": 3652,
+    "p95Ms": 18402,
+    "policyNotice": "Legacy native policies; hidden-information behavior and Elevation AI coverage are not certified. Results describe these policies.",
+    "experimentHash": "38f0ab59e699c2429f5a0802c9f3c7cf421489506615f29b0d4cc09606c01fc1"
+  },
+  "optimizedSummary": {
+    "jobs": 100,
+    "statuses": {
+      "completed": 100
+    },
+    "wins": {
+      "corp": 52,
+      "runner": 48
+    },
+    "runnerWinRate": 0.48,
+    "runnerWilson95": [
+      0.38464384320080547,
+      0.5768359490982345
+    ],
+    "p50Ms": 1983,
+    "p95Ms": 9388,
+    "policyNotice": "Legacy native policies; hidden-information behavior and Elevation AI coverage are not certified. Results describe these policies.",
+    "experimentHash": "497c21c6538118e18fa86032f9b0ca948d39227b904d323deada3e7d42507914"
+  },
+  "notice": "One sequential batch per mode on the same Mac; optimized batch ran first. Startup and result writes included. Small-corpus ablation separately rotates mode order."
+}

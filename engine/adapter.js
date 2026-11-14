@@ -1,14 +1,26 @@
 /* Local Table adapter and versioned rules corrections; upstream stays pinned. */
 (function () {
   const CURRENT_RULES = '26.03-local-2';
-  const SUPPORTED_RULES = ['26.03-local-1', CURRENT_RULES];
+  const CORE_RULES = '26.03-core-1', FULL_CORE_RULES='26.03-core-2';
+  const coreRules=version=>[CORE_RULES,FULL_CORE_RULES].includes(version);
+  const SUPPORTED_RULES = ['26.03-local-1', CURRENT_RULES, CORE_RULES, FULL_CORE_RULES];
   const currentRules = () => SUPPORTED_RULES.includes(config?.rulesVersion);
-  const fullPaidChoices = () => config?.rulesVersion === CURRENT_RULES;
+  const fullPaidChoices = () => [CURRENT_RULES,CORE_RULES,FULL_CORE_RULES].includes(config?.rulesVersion);
   const rulesAdvanceChoices = phases.corpActionMain.Enumerate.advance;
   phases.corpActionMain.Enumerate.advance = function () {
     if (!fullPaidChoices() || corp.AI) return rulesAdvanceChoices.call(this);
     if (!CheckActionClicks(corp, 1)) return [];
     return ChoicesInstalledCards(corp, CheckAdvance).filter(({card}) => CheckCredits(corp, 1, 'advancing', card));
+  };
+  // The native trigger scanner reconstructs every zone even for callback names
+  // absent from the entire game. A presence guard has no cached game state:
+  // dynamically added callbacks and lingering effects are checked on every call.
+  const instances=[],instanceCard=InstanceCard,activeTriggers=ChoicesActiveTriggers;
+  InstanceCard=function(...args){const card=instanceCard.apply(this,args);instances.push(card);return card;};
+  ChoicesActiveTriggers=function(callbackName,player=null){
+    if(config?.simulationFast && !instances.some(card=>typeof card[callbackName]!=='undefined') &&
+       !lingeringEffects.some(effect=>typeof effect[callbackName]!=='undefined'))return [];
+    return activeTriggers(callbackName,player);
   };
   const noop = () => {};
   Render =
@@ -231,7 +243,7 @@
   const rulesMakeRun = MakeRun;
   MakeRun = function (...args) {
     const result = rulesMakeRun.apply(this, args);
-    if (currentRules()) {
+    if (currentRules() && config.rulesVersion!==FULL_CORE_RULES) {
       const next = currentPhase;
       const initiation = CreatePhaseFromTemplate(phaseTemplates.standardResponse, runner,
         'Run: Initiation', 'Run 1.5', next);
@@ -260,8 +272,12 @@
   // effects must not resolve while a player is still paying their cost.
   const rulesSpendCredits = SpendCredits;
   SpendCredits = function (player, num, doing = '', card = null, afterSpend, context) {
+    if(config?.cardPool==='core-v1' && doing==='installing' && typeof NRCoreInstallPaid==='function'){
+      const next=afterSpend,amount=num;
+      afterSpend=function(){NRCoreInstallPaid(card,amount);if(next)next.call(context);};
+    }
     if (!fullPaidChoices() || num <= 0)
-      return rulesSpendCredits.apply(this, arguments);
+      return rulesSpendCredits.call(this,player,num,doing,card,afterSpend,context);
     const sources = [];
     const add = (object, key, label, sourceCard = null) => {
       if (object[key] > 0) sources.push({object, key, label, card:sourceCard});
@@ -274,6 +290,7 @@
     const spend = (source, amount) => {
       source.object[source.key] -= amount;
       Log(`${PlayerName(player)} spent ${amount} credit${amount === 1 ? '' : 's'} from ${source.label}`);
+      if(config.rulesVersion===FULL_CORE_RULES&&source.card&&typeof source.card.onCreditsSpent==='function')source.card.onCreditsSpent(amount);
       UpdateCounters();
     };
     if (sources.reduce((sum, source) => sum + source.object[source.key], 0) < num)
@@ -406,6 +423,7 @@
         this.zoomed = !this.zoomed;
       },
       Destroy: noop,
+      SetTextureToFront: noop,
     };
     if (zone) {
       zone.push(c);
@@ -416,12 +434,28 @@
   function boot(options = {}) {
     if (config) throw Error("Create a fresh engine for a new game.");
     config = { side: "runner", seed: "local-table", ...options };
+    globalThis.NRCoreRulesVersion=config.rulesVersion;
     if (config.rulesVersion !== undefined && !SUPPORTED_RULES.includes(config.rulesVersion))
       throw Error('Unsupported rules version: ' + config.rulesVersion);
     // Six points is an explicit teaching/evaluation variant. Normal local
     // games always use the standard seven-point target.
     globalProperties.agendaPointsToWin = config.control === 'scripted' && config.agendaPointTarget === 6 ? 6 : 7;
-    const selectedDecks = NRDecks.resolve(config.deckIds);
+    const selectedDecks = NRDecks.resolve(config.deckIds || (config.deckDocuments && config.cardPool==='core-v1' ? NRCoreDecks.defaults : undefined));
+    let validatedDecks=null;
+    if(config.deckDocuments){
+      validatedDecks={};
+      for(const s of ['corp','runner']){
+        const doc=config.deckDocuments[s];
+        if(!doc||doc.side!==s)throw Error(`Provide a ${s} deck document.`);
+        if(doc.pool!==(config.cardPool||'gateway-v1'))throw Error('Deck document pool must match the game profile.');
+        validatedDecks[s]=NRDeckDocument.expand(doc);
+      }
+    }
+    if(config.cardPool!==undefined && config.cardPool!=='core-v1')throw Error('Unsupported card pool.');
+    if(config.cardPool==='core-v1' && !coreRules(config.rulesVersion))throw Error('Core Sets requires the Elevation rules profile.');
+    const core=Object.values(selectedDecks).some(d=>d.pool==='core-v1');
+    if(core && (!coreRules(config.rulesVersion) || config.cardPool!=='core-v1'))throw Error('Core Sets decks require the Elevation engine profile.');
+    if(coreRules(config.rulesVersion) && !Object.values(selectedDecks).every(d=>d.pool==='core-v1'))throw Error('Choose both decks from the Core Sets card pool.');
     installContext = null;
     Math.seedrandom(String(config.seed));
     Object.assign(corp, {
@@ -464,7 +498,7 @@
       config.faceoff || viewingPlayer !== runner ? new RunnerAI() : null;
     for (const s of ["corp", "runner"]) {
       const p = s === "corp" ? corp : runner,
-        deck = config.decks?.[s] || NRDecks.expand(selectedDecks[s]);
+        deck = validatedDecks?.[s] || config.decks?.[s] || NRDecks.expand(selectedDecks[s]);
       p.identityCard = make(deck.identity);
       p.identityCard.faceUp = true;
       const zone = s === "corp" ? corp.RnD.cards : runner.stack;
@@ -583,6 +617,8 @@
     // Preserve ResolveChoice's receiver: handlers may call siblings via this.n().
     try { currentPhase.Resolve[cmd](choice); }
     finally { effectSource = previousSource; }
+    if(config.cardPool==='core-v1' && typeof NRCoreFlushHosted==='function')NRCoreFlushHosted();
+    if(config.cardPool==='core-v1' && typeof NRCoreFlushTags==='function')NRCoreFlushTags();
     winCheck();
   }
   function forcedPass(commands) {
@@ -594,7 +630,7 @@
     const commands=enumerate();
     return !terminal && (!!activePlayer.AI || forcedPass(commands));
   }
-  async function advance(limit = 300, observe = null) {
+  async function advance(limit = 300, observe = null, summaryOnly = false, onDecision = null) {
     for (let i = 0; i < limit && !terminal; i++) {
       const commands = enumerate();
       if (terminal) break;
@@ -612,12 +648,13 @@
       const index = ai ? await ai.SelectChoice(validOptions) : 0;
       if (!Number.isInteger(index) || !validOptions[index])
         throw Error("AI returned an invalid option");
+      if(onDecision)onDecision({version,command:cmd,index,side:side(activePlayer)});
       const before = observe ? snapshot() : null;
       resolve(cmd, index);
       if (observe) observe(before, snapshot());
     }
     if (!terminal) enumerate();
-    return snapshot();
+    return summaryOnly ? summary() : snapshot();
   }
   function choose(input) {
     enumerate();
@@ -664,6 +701,12 @@
           fired: !!firedSubroutines.get(c)?.has(i),
         })),
       });
+      if(c.cardType==='identity' && typeof c.flipped==='boolean'){out.identityFace=c.flipped?'back':'front';if(c.flipped)out.artNumber=String(c.setNumber)+'-0';}
+      if(c.player===corp && viewingPlayer===corp && CheckInstalled(c) && !c.rezzed && ['asset','upgrade'].includes(c.cardType)) {
+        out.rezStatus={cost:RezCost(c),available:AvailableCredits(corp,'rezzing',c),
+          offered:activePlayer===corp && !!phaseOptions.rez?.some(o=>o.card===c),
+          window:activePlayer===corp && isPriorityWindow()};
+      }
       if (c.cardType === "ice" && CheckEncounter() && c === GetApproachEncounterIce()) {
         const effects = ChoicesActiveTriggers("modifyStrength")
           .filter(({card}) => card.setNumber === 30008 && card.strengthReduce < 0 && PlayerCanLook(viewingPlayer, card))
@@ -723,6 +766,7 @@
       30025: ['Sentry', 1, 1, 3, 2],
       30026: ['Code Gate', 1, 1, 1, InstalledCards(runner).filter(c => CheckSubType(c, 'Icebreaker')).length],
       30032: ['Any', 1, 1, 1, 1],
+      35009: ['Barrier', 1, 1, 1, 1],
     };
     const p = profiles[card.setNumber];
     return p ? {type:p[0], breakCost:p[1], breakCount:p[2], boostCost:p[3], boostAmount:p[4]} : null;
@@ -733,6 +777,9 @@
     const index = card.abilities?.indexOf(ability);
     if (profile && index >= 0) return {credits:index === 0 ? profile.breakCost : profile.boostCost,
       ...(card.setNumber === 30032 && index === 0 ? {note:'Trash Mayfly when this run ends'} : {})};
+    if (card.setNumber===35081 && index===0)return {clicks:1,credits:PlayCost(card),note:'Returns 1 click; remove this operation from the game after resolving'};
+    if ([35058,35060].includes(card.setNumber) && index===0)return {clicks:1,note:card.setNumber===35058?'Remove 1 tag as a cost':'Spend 1 agenda counter'};
+    if ([35011,35039].includes(card.setNumber) && index===0)return {clicks:3,note:'Trash this card as a cost'};
     if ([30004,30008].includes(card.setNumber) && index === 0) return {virus:1};
     if ([30014,30018,30024].includes(card.setNumber) && index === 0) return {clicks:1};
     return null;
@@ -784,8 +831,16 @@
         if (card.player === corp) cost.note = ['asset','upgrade'].includes(card.cardType) ? 'Rez cost paid later' : card.cardType === 'agenda' ? 'Install facedown' : 'Keep existing ice';
       }
     }
+    if(config?.cardPool==='core-v1' && cmd==='continue' && currentPhase.title?.startsWith('Playing ') && currentPhase.context?.isCard){
+      const played=currentPhase.context;
+      cost.credits=Number.isFinite(option?.playCost)?option.playCost:PlayCost(played);
+      cost.clicks=currentPhase.corePlayActionClicks ?? (CheckSubType(played,'Double')?2:1);
+      if(played.setNumber===35066 && Number.isFinite(option?.playCost))cost.note=`Remove ${option.playCost} tags as an additional cost`;
+    }
     if (cmd === "rez" && card && PlayerCanLook(viewingPlayer, card)) cost.credits = RezCost(card);
-    if (cmd === "trash" && currentPhase.identifier === "Run Accessing" && accessingCard && PlayerCanLook(viewingPlayer, accessingCard)) {
+    if(config.rulesVersion===FULL_CORE_RULES&&cmd==='rez'&&card?.additionalRezCostForfeitOrTrashThree)cost.note='Also forfeit 1 agenda or reveal and trash 3 chosen HQ cards';
+    if(config.rulesVersion===FULL_CORE_RULES&&cmd==='rez'&&card?.optionalForfeitRezReduction)cost.note=`May forfeit 1 agenda to pay for ${card.optionalForfeitRezReduction} credits of this rez cost`;
+    if (cmd === "trash" && ["Run Accessing","Core Access"].includes(currentPhase.identifier) && accessingCard && PlayerCanLook(viewingPlayer, accessingCard)) {
       cost.credits = TrashCost(accessingCard);
       const pool = runner.creditPool;
       const available = AvailableCredits(runner, "paying trash costs", accessingCard);
@@ -837,10 +892,19 @@
     if (notes.length) cost.note=[cost.note,...notes].filter(Boolean).join(' · ');
     return Object.keys(cost).length ? cost : null;
   }
+  function groupCostDTO(cmd) {
+    const options=phaseOptions[cmd];
+    const base=costDTO(cmd,options.length===1?options[0].card:null,options.length===1?options[0]:null);
+    if(config.cardPool!=='core-v1' || cmd!=='play' || options.length<2)return base;
+    const costs=options.map(o=>costDTO(cmd,o.card,o));
+    if(costs.every(c=>JSON.stringify(c)===JSON.stringify(costs[0])))return costs[0];
+    return {...(costs.every(c=>c.clicks===costs[0].clicks)?{clicks:costs[0].clicks}:{}),note:'Cost shown when choosing a card'};
+  }
   function optionDTO(o, index, cmd) {
     const context=phaseSourceCard();
     const searchChoice=o.card && viewingPlayer===activePlayer && o.card.player===viewingPlayer &&
-      ((context?.setNumber===30066 && viewingPlayer===corp && o.card.cardLocation===corp.RnD.cards && o.card.cardType!=='agenda') ||
+      ((currentPhase.corePrivateView?.player===viewingPlayer && currentPhase.corePrivateView.cards.includes(o.card)) ||
+       (context?.setNumber===30066 && viewingPlayer===corp && o.card.cardLocation===corp.RnD.cards && o.card.cardType!=='agenda') ||
        (context?.setNumber===30011 && viewingPlayer===runner && o.card.cardLocation===runner.stack && CheckSubType(o.card,'Icebreaker')));
     const visible=!!o.card && (searchChoice || PlayerCanLook(viewingPlayer,o.card));
     let text = plain(o.button || o.label || "");
@@ -912,6 +976,11 @@
       if (out.label !== o.card.title) out.label = `${o.card.title} · ${out.label}`;
       if (currentPhase.identifier === "Rez" && o.card.setNumber === 30053)
         out.label = "Spin Doctor · Draw 2 cards on rez";
+      if (currentPhase.identifier === 'Rez' && o.card.setNumber === 35079)
+        out.label = 'Flyswatter · Purge virus counters on rez';
+    }
+    if(cmd==='install' && visible && o.card?.cardType==='ice' && attackedServer && o.server===attackedServer && phaseSourceCard()?.setNumber===30038) {
+      out.detail=`Installs outside ${phaseSourceCard().title}, behind the Runner's current position. This ice will not be approached during this run; it can defend a later run against ${attackedServer.serverName}.`;
     }
     if (o.subroutine && attackedServer && approachIce >= 0) {
       const ice = attackedServer.ice[approachIce];
@@ -939,19 +1008,23 @@
       if (!profile && ![30004,30008].includes(card.setNumber)) return [];
       const tool = {card:cardDTO(card),enabled:CheckHasAbilities(card)};
       if (profile) {
-        const matches = profile.type === 'Any' ? !ice.cannotBreakUsingAIPrograms : CheckSubType(ice,profile.type);
+        const matches = config.rulesVersion===FULL_CORE_RULES ? BreakerMatchesIce(card,ice) : profile.type === 'Any' ? !ice.cannotBreakUsingAIPrograms : CheckSubType(ice,profile.type);
         const gap = Math.max(0,Strength(ice)-Strength(card));
         const boostTotal = Math.ceil(gap / Math.max(1,profile.boostAmount)) * profile.boostCost;
         const breakTotal = Math.ceil(unbroken / profile.breakCount) * profile.breakCost;
         Object.assign(tool,{kind:'breaker',...profile,matches,gap,boostTotal,breakTotal,
           availableCredits:AvailableCredits(runner,'using',card),unbroken});
       } else Object.assign(tool,{kind:card.setNumber === 30004 ? 'hosted-virus' : 'strength-virus',
-        counters:Counters(card,'virus'),matches:card.setNumber !== 30004 || card.host === ice,
+        counters:Counters(card,'virus'),matches:card.setNumber !== 30004 || card.host === ice && !(config.rulesVersion===FULL_CORE_RULES&&ice.setNumber===35054),
         canLower:!ice.strengthCannotBeLowered});
+      if(config.rulesVersion===FULL_CORE_RULES&&ice.setNumber===35054&&card.setNumber!==30008&&!CheckSubType(card,'Fracter'))tool.restriction='Only a fracter can break this ice’s printed subroutine.';
       return [tool];
     });
   }
   function isPriorityWindow() {
+    // Corp's movement response is a paid-ability window too. Recognize it
+    // only for Core Corp priority; Runner's jack-out decision stays explicit.
+    if (config.cardPool==='core-v1' && currentPhase.identifier==='Run 4.3' && activePlayer===corp)return true;
     return ['Corp 1.1','Corp 2.1','Corp 2.2','Corp 2.2*','Corp 3.2',
       'Runner 1.1','Runner 1.3','Runner 1.3*','Runner 2.2','Run 1.5','Run 2.1','Run 3.1','Run 4.5'].includes(currentPhase.identifier) && !abilityPhases.has(currentPhase);
   }
@@ -976,14 +1049,20 @@
       return {kind:'single-access',command:'access',index:0};
     if (commands.length===1 && commands[0]==='trigger' && phaseOptions.trigger.length===1) {
       const o=phaseOptions.trigger[0], callback=o.callbackName || currentPhase.triggerCallbackName;
-      const known={30037:'responseOnCorpTurnBegins',30053:'responseOnRez',30055:'responseOnRez',30042:'responseOnApproachServer',30036:'responseOnScored'};
+      const known={35079:'responseOnRez',35004:'responseOnInstall',30037:'responseOnCorpTurnBegins',30053:'responseOnRez',30055:'responseOnRez',30042:'responseOnApproachServer',30036:'responseOnScored'};
       const forcedEffect=o.card && known[o.card.setNumber] && known[o.card.setNumber]===callback;
+      if(config.rulesVersion===FULL_CORE_RULES&&o.card?.setNumber===35002&&callback==='responseOnInstall')return {kind:'forced-effect',command:'trigger',index:0};
+      if(config.rulesVersion===FULL_CORE_RULES&&(o.card?.setNumber===35080&&['responseOnScored','responseOnStolen'].includes(callback)||o.card?.setNumber===35068&&callback==='responseOnAccess'))return {kind:'forced-effect',command:'trigger',index:0};
       const forcedSub=currentPhase.identifier==='Run Subroutines' && (!o.choice || !Object.keys(o.choice).length);
       if (forcedEffect || forcedSub) return {kind:'forced-effect',command:'trigger',index:0};
       if (o.card?.setNumber===30035 && callback==='responseOnScored' ||
         o.card?.setNumber===30069 && ['responseOnScored','responseOnStolen'].includes(callback))
         return {kind:'effect-targets',command:'trigger',index:0};
     }
+    if (commands.length===1 && currentPhase.context?.setNumber===35015 && commands[0]==='continue' && phaseOptions.continue.length===1 && phaseOptions.continue[0].id===0)
+      return {kind:'forced-effect',command:'continue',index:0};
+    if (commands.length===1 && currentPhase.identifier==='Scrounge Add to Stack' && commands[0]==='add' && phaseOptions.add.length===1 && phaseOptions.add[0].card===null)
+      return {kind:'forced-effect',command:'add',index:0};
     const plainPass=phaseOptions.n?.length===1 && Object.keys(phaseOptions.n[0]).every(k=>k==='command');
     if (!plainPass || currentPhase.requireHumanInput || !isPriorityWindow()) return null;
     if (viewingPlayer===runner && CheckEncounter() && attackedServer.ice[approachIce]?.subroutines.every(s=>s.broken) &&
@@ -1078,6 +1157,7 @@
           }
         : null,
       access: accessingCard ? cardDTO(accessingCard) : null,
+      ...(currentPhase.corePrivateView?.player===viewingPlayer ? {privateView:{label:currentPhase.corePrivateView.label,cards:currentPhase.corePrivateView.cards.map(card=>cardDTO(card,true))}} : {}),
       ...(viewedPhases.has(currentPhase) && PlayerCanLook(viewingPlayer,viewedPhases.get(currentPhase).card)
         ? {viewed:{kind:viewedPhases.get(currentPhase).kind,card:cardDTO(viewedPhases.get(currentPhase).card)}} : {}),
       decision:
@@ -1088,7 +1168,7 @@
               commands: commands.map((cmd) => ({
                 command: cmd,
                 label: commandLabel(cmd),
-                cost: costDTO(cmd, phaseOptions[cmd].length === 1 ? phaseOptions[cmd][0].card : null, phaseOptions[cmd].length === 1 ? phaseOptions[cmd][0] : null),
+                cost: groupCostDTO(cmd),
                 instruction: abilityPhases.has(currentPhase) ? abilityText(abilityPhases.get(currentPhase).card,abilityPhases.get(currentPhase).ability) : plain(currentPhase.text?.[cmd]),
                 cancel: !!currentPhase.Cancel?.[cmd],
                 options: phaseOptions[cmd].map((o, i) => optionDTO(o, i, cmd)),
@@ -1107,12 +1187,14 @@
       diagnostics: diagnostics.slice(-5),
     };
   }
+  function summary(){return {terminal:terminal?{...terminal}:null,turn,steps,version,corp:{points:AgendaPoints(corp)},runner:{points:AgendaPoints(runner)},diagnostics:diagnostics.slice()};}
   globalThis.NR = {
     boot,
     advance,
     needsAdvance,
     choose,
     snapshot,
+    summary,
     presets,
     metrics: () => ({ steps, version, diagnostics }),
   };

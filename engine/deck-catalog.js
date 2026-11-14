@@ -48,7 +48,7 @@
     if (ids !== undefined && (!ids || typeof ids !== 'object' || Array.isArray(ids))) throw Error('Invalid character selection.');
     return Object.fromEntries(['runner','corp'].map(side=>{
       const key = ids?.[side] ?? legacyDefaults[side];
-      const deck = catalog.find(d=>d.id === key && d.side === side) || archived.find(d=>d.id === key && d.side === side);
+      const deck = catalog.find(d=>d.id === key && d.side === side) || archived.find(d=>d.id === key && d.side === side) || globalThis.NRCoreDecks?.catalog.find(d=>d.id === key && d.side === side);
       if (!deck) throw Error(`Unknown ${side === 'runner' ? 'Runner' : 'Corp'} deck: ${String(key).slice(0,80)}`);
       return [side,deck];
     }));

@@ -14,60 +14,8 @@ const TIMEOUT_MS = Number(process.env.NR_TEST_TIMEOUT_MS || 120000);
 const SEEDS = (process.env.NR_TEST_SEEDS || '1,2,3').split(',').map(Number);
 const quiet = process.env.NR_TEST_VERBOSE !== '1';
 
-function makeGame() {
-  const timers = new Set();
-  const errors = [];
-  const sandbox = {
-    console: {
-      log: (...args) => { if (!quiet) console.log(...args); },
-      warn: (...args) => { if (!quiet) console.warn(...args); },
-      error: (...args) => { errors.push(args.map(String).join(' ')); },
-    },
-    performance,
-    URL,
-    URLSearchParams,
-    TextEncoder,
-    TextDecoder,
-    structuredClone,
-    location: { search: '', hostname: 'localhost', href: 'http://localhost/' },
-    navigator: {},
-    setTimeout(callback, delay, ...args) {
-      const timer = setTimeout(() => { timers.delete(timer); callback(...args); }, Math.min(delay || 0, 1));
-      timers.add(timer);
-      return timer;
-    },
-    clearTimeout(timer) { clearTimeout(timer); timers.delete(timer); },
-    setInterval() { return 0; },
-    clearInterval() {},
-    requestAnimationFrame(callback) { return sandbox.setTimeout(() => callback(performance.now()), 0); },
-    cancelAnimationFrame(timer) { sandbox.clearTimeout(timer); },
-    postMessage() {},
-    addEventListener() {},
-  };
-  sandbox.window = sandbox;
-  sandbox.self = sandbox;
-  const context = vm.createContext(sandbox);
-  function load(relativePaths) {
-    const candidates = Array.isArray(relativePaths) ? relativePaths : [relativePaths];
-    const file = candidates.map(p => path.join(ROOT, p)).find(p => fs.existsSync(p));
-    assert.ok(file, `Missing engine script: ${candidates.join(' or ')}`);
-    vm.runInContext(fs.readFileSync(file, 'utf8'), context, { filename: file, timeout: 10000 });
-  }
-  load('engine/shims.js');
-  load('vendor/chiriboga/seedrandom.min.js');
-  for (const file of ['init', 'phase', 'command', 'checks', 'mechanics', 'utility']) load(`vendor/chiriboga/${file}.js`);
-  load(['vendor/chiriboga/sets/systemgateway.js', 'vendor/chiriboga/systemgateway.js']);
-  for (const file of ['decks', 'runcalculator', 'ai_corp', 'ai_runner']) load(`vendor/chiriboga/${file}.js`);
-  load('engine/deck-catalog.js');
-  load('engine/adapter.js');
-  assert.ok(context.NR, 'Adapter must expose globalThis.NR');
-  return {
-    context,
-    api: context.NR,
-    errors,
-    close() { for (const timer of timers) clearTimeout(timer); },
-  };
-}
+const {createGame}=require('../engine/runtime.cjs');
+function makeGame(options={}){return createGame({...options,verbose:!quiet});}
 
 async function within(promise, label) {
   let timer;
@@ -79,42 +27,7 @@ async function within(promise, label) {
   } finally { clearTimeout(timer); }
 }
 
-function checkState(game) {
-  const { corp, runner } = game.context;
-  for (const [name, player] of [['corp', corp], ['runner', runner]]) {
-    for (const key of ['creditPool', 'clickTracker', 'maxHandSize']) {
-      assert.ok(Number.isFinite(player[key]), `${name}.${key} must be finite, got ${player[key]}`);
-    }
-    assert.ok(player.creditPool >= 0, `${name} has negative credits`);
-    assert.ok(player.clickTracker >= 0, `${name} has negative clicks`);
-  }
-  assert.ok(Number.isFinite(runner.temporaryCredits), 'Temporary credits must be finite');
-  assert.ok(Number.isFinite(runner.tags) && runner.tags >= 0, 'Tags must be finite and nonnegative');
-  const containers = [
-    corp.HQ.cards, corp.RnD.cards, corp.archives.cards, corp.scoreArea,
-    corp.resolvingCards, corp.installingCards, runner.grip, runner.stack, runner.heap,
-    runner.scoreArea, runner.resolvingCards, runner.installingCards,
-    runner.rig.programs, runner.rig.hardware, runner.rig.resources, game.context.removedFromGame,
-  ];
-  for (const server of [corp.HQ, corp.RnD, corp.archives, ...corp.remoteServers]) containers.push(server.root, server.ice);
-  const seen = new Set();
-  for (let i = 0; i < containers.length; i++) {
-    const zone = containers[i];
-    assert.ok(Array.isArray(zone), `Zone ${i} must exist`);
-    for (const card of zone) {
-      assert.ok(card && card.isCard, `Zone ${i} has an invalid card`);
-      assert.ok(!seen.has(card), `Card ${card.title} appears in multiple zones`);
-      seen.add(card);
-      // Removed-from-game cards may intentionally have a null location.
-      if (zone !== game.context.removedFromGame) assert.equal(card.cardLocation, zone, `${card.title} has a stale location`);
-      if (card.hostedCards) containers.push(card.hostedCards);
-      for (const key of ['advancement', 'credits', 'virus', 'power', 'agenda']) {
-        if (card[key] !== undefined) assert.ok(Number.isFinite(card[key]) && card[key] >= 0, `${card.title}.${key} invalid`);
-      }
-    }
-  }
-  return seen.size;
-}
+const {validateState:checkState}=require('../engine/state-check.cjs');
 
 function checkSnapshot(game, snapshot) {
   assert.equal(snapshot.diagnostics?.length || 0, 0, (snapshot.diagnostics || []).join('\n'));

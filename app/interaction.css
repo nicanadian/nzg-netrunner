@@ -22,3 +22,18 @@
 #install-content {display:grid;gap:14px;}
 #install-content h2 {padding-right:24px;}
 .install-replacements summary {padding:12px 0;cursor:pointer;}
+
+/* A decline of ice rez must look consequential, rather than like a routine continue. */
+.ice-rez-warning { border: 2px solid #f6b85b; border-left: 6px solid #f6b85b; border-radius: 8px; background: #3b2319; color: #fff1d9; padding: 16px; margin-block: 12px; }
+.ice-rez-warning strong { color: #ffd17d; font-size: 1rem; letter-spacing: .04em; }
+.ice-rez-warning p { color: #fff1d9; line-height: 1.5; margin: 10px 0 0; }
+#rez-warning-dialog { width: min(560px, calc(100vw - 32px)); max-height: calc(100dvh - 32px); overflow-y: auto; box-sizing: border-box; }
+#rez-warning-dialog::backdrop { background: #000b; }
+.rez-warning-actions { display: grid; gap: 12px; }
+.rez-warning-actions button { white-space: normal; }
+.rez-warning-actions .run-pass-risk { border: 2px solid #f09979; background: #592b24; color: #fff0e8; }
+.optional-rez-exit { display: grid; gap: 10px; margin-top: 18px; border-top: 1px solid #668d8b; padding-top: 12px; }
+.optional-rez-exit p { margin: 0; color: #d0dfda; line-height: 1.5; }
+.optional-rez-exit button { white-space: normal; }
+.core-preview-notice { margin: 14px 0; padding: 10px 12px; border: 1px solid #668d8b; border-radius: 6px; color: #d0dfda; font-size: 13px; line-height: 1.45; }
+.private-look-cards{display:flex;gap:10px;overflow:auto;padding:6px 0 14px}.private-look>p{color:var(--muted,#a8bcc6);font-size:.85rem}.private-look-cards .card{flex-shrink:0}

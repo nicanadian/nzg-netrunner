@@ -1,0 +1,369 @@
+{
+  "scope": "One native AI game per new Elevation identity, using official Core lists. This does not certify all card abilities, hidden-information policy, UI or deck balance.",
+  "identities": [
+    {
+      "identity": 35001,
+      "name": "[NSG Core] Dashing Mad",
+      "summary": {
+        "runner": "[NSG Core] Dashing Mad",
+        "corp": " [NSG Core] Brutal Efficiency",
+        "directory": "matchup-0-0",
+        "jobs": 1,
+        "statuses": {
+          "completed": 1
+        },
+        "wins": {
+          "corp": 1,
+          "runner": 0
+        },
+        "runnerWinRate": 0,
+        "runnerWilson95": [
+          0,
+          0.7934567085261071
+        ],
+        "p50Ms": 818,
+        "p95Ms": 818,
+        "policyNotice": "Legacy native policies; hidden-information behavior and Elevation AI coverage are not certified. Results describe these policies.",
+        "experimentHash": "30b8aeea0823fd8e8e2fce35af315be85417bef4d4a34f1007659b5282ea36a1"
+      }
+    },
+    {
+      "identity": 35002,
+      "name": "[NSG Core] Prick Thyself",
+      "summary": {
+        "runner": "[NSG Core] Prick Thyself",
+        "corp": " [NSG Core] Brutal Efficiency",
+        "directory": "matchup-0-0",
+        "jobs": 1,
+        "statuses": {
+          "completed": 1
+        },
+        "wins": {
+          "corp": 1,
+          "runner": 0
+        },
+        "runnerWinRate": 0,
+        "runnerWilson95": [
+          0,
+          0.7934567085261071
+        ],
+        "p50Ms": 3937,
+        "p95Ms": 3937,
+        "policyNotice": "Legacy native policies; hidden-information behavior and Elevation AI coverage are not certified. Results describe these policies.",
+        "experimentHash": "d1deda356580b35517e345dc1e117233912c2b1cf3b962d545c687e7047d9b34"
+      }
+    },
+    {
+      "identity": 35013,
+      "name": " [NSG Core] Shootin' 'n' Lootin'",
+      "summary": {
+        "runner": " [NSG Core] Shootin' 'n' Lootin'",
+        "corp": " [NSG Core] Brutal Efficiency",
+        "directory": "matchup-0-0",
+        "jobs": 1,
+        "statuses": {
+          "completed": 1
+        },
+        "wins": {
+          "corp": 0,
+          "runner": 1
+        },
+        "runnerWinRate": 1,
+        "runnerWilson95": [
+          0.20654329147389294,
+          1
+        ],
+        "p50Ms": 265,
+        "p95Ms": 265,
+        "policyNotice": "Legacy native policies; hidden-information behavior and Elevation AI coverage are not certified. Results describe these policies.",
+        "experimentHash": "311d5be7786a3e3a62ee1798f889dfaf1b91d2d750de8c764abaff3e0da617de"
+      }
+    },
+    {
+      "identity": 35012,
+      "name": "[NSG Core] Professional Opportunities",
+      "summary": {
+        "runner": "[NSG Core] Professional Opportunities",
+        "corp": " [NSG Core] Brutal Efficiency",
+        "directory": "matchup-0-0",
+        "jobs": 1,
+        "statuses": {
+          "completed": 1
+        },
+        "wins": {
+          "corp": 1,
+          "runner": 0
+        },
+        "runnerWinRate": 0,
+        "runnerWilson95": [
+          0,
+          0.7934567085261071
+        ],
+        "p50Ms": 4444,
+        "p95Ms": 4444,
+        "policyNotice": "Legacy native policies; hidden-information behavior and Elevation AI coverage are not certified. Results describe these policies.",
+        "experimentHash": "fe770017108b46ea46c6ab0ba00cb1d8260ae5af4e82802533a21bba1709d573"
+      }
+    },
+    {
+      "identity": 35023,
+      "name": " [NSG Core] Enthusiasm",
+      "summary": {
+        "runner": " [NSG Core] Enthusiasm",
+        "corp": " [NSG Core] Brutal Efficiency",
+        "directory": "matchup-0-0",
+        "jobs": 1,
+        "statuses": {
+          "completed": 1
+        },
+        "wins": {
+          "corp": 0,
+          "runner": 1
+        },
+        "runnerWinRate": 1,
+        "runnerWilson95": [
+          0.20654329147389294,
+          1
+        ],
+        "p50Ms": 2193,
+        "p95Ms": 2193,
+        "policyNotice": "Legacy native policies; hidden-information behavior and Elevation AI coverage are not certified. Results describe these policies.",
+        "experimentHash": "7cc5b38a554376d19bba0e1e7a2fdb2d4c4d93da4c49e72ca098597303e8ab3e"
+      }
+    },
+    {
+      "identity": 35024,
+      "name": " [NSG Core] Sabbatical",
+      "summary": {
+        "runner": " [NSG Core] Sabbatical",
+        "corp": " [NSG Core] Brutal Efficiency",
+        "directory": "matchup-0-0",
+        "jobs": 1,
+        "statuses": {
+          "completed": 1
+        },
+        "wins": {
+          "corp": 0,
+          "runner": 1
+        },
+        "runnerWinRate": 1,
+        "runnerWilson95": [
+          0.20654329147389294,
+          1
+        ],
+        "p50Ms": 186,
+        "p95Ms": 186,
+        "policyNotice": "Legacy native policies; hidden-information behavior and Elevation AI coverage are not certified. Results describe these policies.",
+        "experimentHash": "d96300c637a5133837319a20823bc29ee17f6f94d1ea85e3d3876b2587e50929"
+      }
+    },
+    {
+      "identity": 35035,
+      "name": "[NSG Core] Agency",
+      "summary": {
+        "runner": "[NSG Core] Dashing Mad",
+        "corp": "[NSG Core] Agency",
+        "directory": "matchup-0-0",
+        "jobs": 1,
+        "statuses": {
+          "completed": 1
+        },
+        "wins": {
+          "corp": 1,
+          "runner": 0
+        },
+        "runnerWinRate": 0,
+        "runnerWilson95": [
+          0,
+          0.7934567085261071
+        ],
+        "p50Ms": 630,
+        "p95Ms": 630,
+        "policyNotice": "Legacy native policies; hidden-information behavior and Elevation AI coverage are not certified. Results describe these policies.",
+        "experimentHash": "6a2bc4e55fdfebc6571984c9a37bdff9c89ad53b8c495b11f9722d638ed9cf9a"
+      }
+    },
+    {
+      "identity": 35036,
+      "name": "[NSG Core] Fashion Lab",
+      "summary": {
+        "runner": "[NSG Core] Dashing Mad",
+        "corp": "[NSG Core] Fashion Lab",
+        "directory": "matchup-0-0",
+        "jobs": 1,
+        "statuses": {
+          "completed": 1
+        },
+        "wins": {
+          "corp": 0,
+          "runner": 1
+        },
+        "runnerWinRate": 1,
+        "runnerWilson95": [
+          0.20654329147389294,
+          1
+        ],
+        "p50Ms": 753,
+        "p95Ms": 753,
+        "policyNotice": "Legacy native policies; hidden-information behavior and Elevation AI coverage are not certified. Results describe these policies.",
+        "experimentHash": "10b9d30517684fc60081f33b8c19bc4308c0d3f5e4e48285871644759f0cd05c"
+      }
+    },
+    {
+      "identity": 35047,
+      "name": "[NSG Core] Peculiarity",
+      "summary": {
+        "runner": "[NSG Core] Dashing Mad",
+        "corp": "[NSG Core] Peculiarity",
+        "directory": "matchup-0-0",
+        "jobs": 1,
+        "statuses": {
+          "completed": 1
+        },
+        "wins": {
+          "corp": 1,
+          "runner": 0
+        },
+        "runnerWinRate": 0,
+        "runnerWilson95": [
+          0,
+          0.7934567085261071
+        ],
+        "p50Ms": 600,
+        "p95Ms": 600,
+        "policyNotice": "Legacy native policies; hidden-information behavior and Elevation AI coverage are not certified. Results describe these policies.",
+        "experimentHash": "0cf55b71b55c41a1cb56f8cf4fabd51f97982c6323522602b010d4aa7fa8b375"
+      }
+    },
+    {
+      "identity": 35046,
+      "name": "[NSG Core] Glyph of Warding",
+      "summary": {
+        "runner": "[NSG Core] Dashing Mad",
+        "corp": "[NSG Core] Glyph of Warding",
+        "directory": "matchup-0-0",
+        "jobs": 1,
+        "statuses": {
+          "completed": 1
+        },
+        "wins": {
+          "corp": 1,
+          "runner": 0
+        },
+        "runnerWinRate": 0,
+        "runnerWilson95": [
+          0,
+          0.7934567085261071
+        ],
+        "p50Ms": 77,
+        "p95Ms": 77,
+        "policyNotice": "Legacy native policies; hidden-information behavior and Elevation AI coverage are not certified. Results describe these policies.",
+        "experimentHash": "d2bc2ce76a64187c2dc02d1bb2630c96cbea87ee0e4211b1ff039f1f3a8666c2"
+      }
+    },
+    {
+      "identity": 35057,
+      "name": "[NSG Core] Not so subtle",
+      "summary": {
+        "runner": "[NSG Core] Dashing Mad",
+        "corp": "[NSG Core] Not so subtle",
+        "directory": "matchup-0-0",
+        "jobs": 1,
+        "statuses": {
+          "completed": 1
+        },
+        "wins": {
+          "corp": 1,
+          "runner": 0
+        },
+        "runnerWinRate": 0,
+        "runnerWilson95": [
+          0,
+          0.7934567085261071
+        ],
+        "p50Ms": 476,
+        "p95Ms": 476,
+        "policyNotice": "Legacy native policies; hidden-information behavior and Elevation AI coverage are not certified. Results describe these policies.",
+        "experimentHash": "8a4062fb9ce69268b1630c18ae86ba2024adc772fca704d232e68d9377a1e39a"
+      }
+    },
+    {
+      "identity": 35058,
+      "name": "[NSG Core] Gimbatul",
+      "summary": {
+        "runner": "[NSG Core] Dashing Mad",
+        "corp": "[NSG Core] Gimbatul",
+        "directory": "matchup-0-0",
+        "jobs": 1,
+        "statuses": {
+          "completed": 1
+        },
+        "wins": {
+          "corp": 0,
+          "runner": 1
+        },
+        "runnerWinRate": 1,
+        "runnerWilson95": [
+          0.20654329147389294,
+          1
+        ],
+        "p50Ms": 3716,
+        "p95Ms": 3716,
+        "policyNotice": "Legacy native policies; hidden-information behavior and Elevation AI coverage are not certified. Results describe these policies.",
+        "experimentHash": "12d131a6d78e86c9ec1399280aea743a24403f370f90922d41e0921eb7aaa964"
+      }
+    },
+    {
+      "identity": 35068,
+      "name": "[NSG Core] Pork Chops",
+      "summary": {
+        "runner": "[NSG Core] Dashing Mad",
+        "corp": "[NSG Core] Pork Chops",
+        "directory": "matchup-0-0",
+        "jobs": 1,
+        "statuses": {
+          "completed": 1
+        },
+        "wins": {
+          "corp": 1,
+          "runner": 0
+        },
+        "runnerWinRate": 0,
+        "runnerWilson95": [
+          0,
+          0.7934567085261071
+        ],
+        "p50Ms": 655,
+        "p95Ms": 655,
+        "policyNotice": "Legacy native policies; hidden-information behavior and Elevation AI coverage are not certified. Results describe these policies.",
+        "experimentHash": "59269c8dc515e463c234c60d8f35d1f96e523a5bcd75f319335448fb7dab88fd"
+      }
+    },
+    {
+      "identity": 35069,
+      "name": "[NSG Core] Quick Returns",
+      "summary": {
+        "runner": "[NSG Core] Dashing Mad",
+        "corp": "[NSG Core] Quick Returns",
+        "directory": "matchup-0-0",
+        "jobs": 1,
+        "statuses": {
+          "completed": 1
+        },
+        "wins": {
+          "corp": 0,
+          "runner": 1
+        },
+        "runnerWinRate": 1,
+        "runnerWilson95": [
+          0.20654329147389294,
+          1
+        ],
+        "p50Ms": 2484,
+        "p95Ms": 2484,
+        "policyNotice": "Legacy native policies; hidden-information behavior and Elevation AI coverage are not certified. Results describe these policies.",
+        "experimentHash": "7257bba26df868b912ea96eae49b57342aaa2cedf81466c6a02abece6b6b9c8f"
+      }
+    }
+  ]
+}

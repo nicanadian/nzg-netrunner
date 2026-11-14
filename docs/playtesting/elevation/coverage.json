@@ -1,0 +1,1294 @@
+{
+  "schemaVersion": 1,
+  "scope": "Elevation 35001–35082",
+  "notice": "Definitions and partial fixtures are not full rules, AI or UI certification.",
+  "cards": [
+    {
+      "id": "35001",
+      "title": "Ryō “Phoenix” Ōno: Out of the Ashes",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "partial-evidence; full protocol audit required",
+      "ai": "audit-required",
+      "evidence": [
+        "tests/core-timing.cjs",
+        "docs/playtesting/elevation/chrome-full-playthroughs.md"
+      ],
+      "remainingScenarios": [
+        "Resolved versus merely unbroken subroutine",
+        "first qualifying success each player turn",
+        "aborted run and empty HQ"
+      ]
+    },
+    {
+      "id": "35002",
+      "title": "Topan: Ormas Leader",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Two-credit discount floors at zero",
+        "install finishes before meat damage",
+        "once-per-turn, cancellation and flatline"
+      ]
+    },
+    {
+      "id": "35003",
+      "title": "Charm Offensive",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Accessed Archives card matches rezzed copy by title",
+        "unrezzed/nonmatching copies excluded",
+        "optional trash after run end"
+      ]
+    },
+    {
+      "id": "35004",
+      "title": "Scrounge",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "partial-evidence; full protocol audit required",
+      "ai": "audit-required",
+      "evidence": [
+        "tests/core-streamlining.cjs",
+        "docs/playtesting/elevation/chrome-full-playthroughs.md"
+      ],
+      "remainingScenarios": [
+        "Additional click plus normal install payment",
+        "program-only heap target",
+        "optional bottom-stack return and no eligible return"
+      ]
+    },
+    {
+      "id": "35005",
+      "title": "Shred",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "partial-evidence; full protocol audit required",
+      "ai": "audit-required",
+      "evidence": [
+        "docs/playtesting/elevation/chrome-full-playthroughs.md"
+      ],
+      "remainingScenarios": [
+        "First Corp-caused end only",
+        "dynamic root count and random revealed HQ trash",
+        "insufficient HQ, jack-out and multiple end attempts"
+      ]
+    },
+    {
+      "id": "35006",
+      "title": "Bling",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Zero-credit installs versus ignored or reduced costs",
+        "hosted cards playable but not installed",
+        "cleanup and console replacement"
+      ]
+    },
+    {
+      "id": "35007",
+      "title": "Gourmand",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Access timing and non-agenda restriction",
+        "trash-as-cost versus prevention",
+        "draw only when the accessed card is trashed"
+      ]
+    },
+    {
+      "id": "35008",
+      "title": "Hantu",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Two counters on install",
+        "counter-funded strength and expiry",
+        "sentry-only interface and purge"
+      ]
+    },
+    {
+      "id": "35009",
+      "title": "Rising Tide",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "partial-evidence; full protocol audit required",
+      "ai": "audit-required",
+      "evidence": [
+        "tests/core-rising-tide.cjs",
+        "docs/playtesting/elevation/chrome-full-playthroughs.md"
+      ],
+      "remainingScenarios": [
+        "Heap fracter count changes dynamically",
+        "strength threshold and exact payment",
+        "subtype changes and encounter expiry"
+      ]
+    },
+    {
+      "id": "35010",
+      "title": "Cacophony",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "First steal/trash each Runner or Corp turn",
+        "two-counter end-action sabotage",
+        "HQ/R&D distribution and short deck"
+      ]
+    },
+    {
+      "id": "35011",
+      "title": "Rent Rioters",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "partial-evidence; full protocol audit required",
+      "ai": "audit-required",
+      "evidence": [
+        "docs/playtesting/elevation/chrome-full-playthroughs.md"
+      ],
+      "remainingScenarios": [
+        "Three-click affordability and trash cost",
+        "exactly nine credits",
+        "no double activation or insufficient-click payment"
+      ]
+    },
+    {
+      "id": "35012",
+      "title": "Barry “Baz” Wong: Tri-Maf Veteran",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Corp rez qualifies, install/reveal does not",
+        "optional paid resource/hardware install",
+        "multiple rezzes and interrupted encounter timing"
+      ]
+    },
+    {
+      "id": "35013",
+      "title": "MuslihaT: Multifarious Marketeer",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Private top-card look",
+        "eligible breaker/run-event reveal",
+        "decline, wrong type and empty stack"
+      ]
+    },
+    {
+      "id": "35014",
+      "title": "Clean Getaway",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Six-credit reward once for this successful run",
+        "unsuccessful run and jack-out",
+        "redirected server and reward ordering"
+      ]
+    },
+    {
+      "id": "35015",
+      "title": "Lie Low",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "partial-evidence; full protocol audit required",
+      "ai": "audit-required",
+      "evidence": [
+        "tests/core-streamlining.cjs",
+        "docs/playtesting/elevation/chrome-full-playthroughs.md"
+      ],
+      "remainingScenarios": [
+        "Additional click",
+        "draw-four versus zero/one/two tags",
+        "real alternatives retained, draw exhaustion and no-choice streamlining"
+      ]
+    },
+    {
+      "id": "35016",
+      "title": "Maintenance Access",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Archives approach redirects to HQ after its ice",
+        "no second HQ ice traversal",
+        "encounter/run flags and jack-out"
+      ]
+    },
+    {
+      "id": "35017",
+      "title": "Transfer of Wealth",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Success gives tag and drains only credits actually available",
+        "reward equals twice loss",
+        "prevention and HQ redirection"
+      ]
+    },
+    {
+      "id": "35018",
+      "title": "Detente",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "partial-evidence; full protocol audit required",
+      "ai": "audit-required",
+      "evidence": [
+        "tests/core-hosted-uninstalled.cjs"
+      ],
+      "remainingScenarios": [
+        "First HQ success each turn",
+        "random hosted card stays uninstalled and publicly visible",
+        "either player's two-card return/access ability"
+      ]
+    },
+    {
+      "id": "35019",
+      "title": "Maglectric Rapid (748 Mod)",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Successful HQ run then self-trash",
+        "legal installed derez target",
+        "optional decline and already inactive target"
+      ]
+    },
+    {
+      "id": "35020",
+      "title": "Sang Kancil",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Run-event-active boost discount and floor",
+        "code-gate-only break",
+        "strength expiry and ordinary runs"
+      ]
+    },
+    {
+      "id": "35021",
+      "title": "Fransofia Ward",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Rez tax applied before affordability",
+        "Corp 14/15-credit boundary at encounter",
+        "bypass skips remaining encounter effects and subroutines"
+      ]
+    },
+    {
+      "id": "35022",
+      "title": "Open Market",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Load/refill versus take",
+        "Connection/Job-only install funding",
+        "mixed sources, empty auto-trash and unrelated costs denied"
+      ]
+    },
+    {
+      "id": "35023",
+      "title": "Dewi Subrotoputri: Pedagogical Dhalang",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Both identity faces",
+        "exact used/free MU at successful run",
+        "flip reward and repeated successes without stale memory state"
+      ]
+    },
+    {
+      "id": "35024",
+      "title": "Magdalene Keino-Chemutai: Cryptarchitect",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Only hand-limit discards qualify",
+        "choose from that discard batch",
+        "install costs, MU, console limit, decline and multiple discarded cards"
+      ]
+    },
+    {
+      "id": "35025",
+      "title": "Illumination",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Successful R&D requirement",
+        "zero/one/two/three sequential installs",
+        "per-install discount, changing grip/MU and decline"
+      ]
+    },
+    {
+      "id": "35026",
+      "title": "Ritual",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Remaining clicks measured after play payment",
+        "zero/one/multiple draw",
+        "no accidental extra click and deck exhaustion"
+      ]
+    },
+    {
+      "id": "35027",
+      "title": "GAMEDRAGON™ Pro",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Host only installed non-AI breaker",
+        "rehost removes prior bonus",
+        "strength abilities persist through encounters then expire at run end"
+      ]
+    },
+    {
+      "id": "35028",
+      "title": "Madani",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Click hosts zero or many grip programs uninstalled",
+        "paid once-per-turn install",
+        "console trash, memory and turn resets"
+      ]
+    },
+    {
+      "id": "35029",
+      "title": "Azimat",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Recurring-credit refill and restricted trash funding",
+        "no install/break spending",
+        "split payment and spent credit bookkeeping"
+      ]
+    },
+    {
+      "id": "35030",
+      "title": "Chromatophores",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Ice gains all three subtypes",
+        "each breaker becomes legal",
+        "unhosting restores subtype counts and host-trash cleanup"
+      ]
+    },
+    {
+      "id": "35031",
+      "title": "Devadatta Drone",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Two install counters",
+        "each R&D breach offers one extra access",
+        "redirected runs, no counters and access-order privacy"
+      ]
+    },
+    {
+      "id": "35032",
+      "title": "Principia",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Discount counts other breakers after installation trash choices",
+        "cost floor",
+        "barrier break and strength payment/expiry"
+      ]
+    },
+    {
+      "id": "35033",
+      "title": "“Knickknack” O’Brian",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "First run each turn",
+        "trash another installed card as cost",
+        "printed cost versus paid cost, zero/X cost and failed trash"
+      ]
+    },
+    {
+      "id": "35034",
+      "title": "Side Hustle",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "partial-evidence; full protocol audit required",
+      "ai": "audit-required",
+      "evidence": [
+        "docs/playtesting/elevation/chrome-full-playthroughs.md"
+      ],
+      "remainingScenarios": [
+        "Install/run-initiation counters",
+        "exact six-credit payout followed by trash/draw",
+        "multiple copies and successive runs"
+      ]
+    },
+    {
+      "id": "35035",
+      "title": "LEO Construction: Labor Solutions",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Only rezzed bioroid on attacked server may pay cost",
+        "once each turn",
+        "root/ice choices, changed server and source trashed during run"
+      ]
+    },
+    {
+      "id": "35036",
+      "title": "Poétrï Luxury Brands: All the Rage",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Score looks at up to three top cards",
+        "non-agenda install only",
+        "stolen trigger installs from HQ, costs and ordering"
+      ]
+    },
+    {
+      "id": "35037",
+      "title": "Aggressive Trendsetting",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Only first installed-card trash on each Runner turn",
+        "Runner click payment or next Corp click allocation",
+        "no repeat and zero Runner clicks"
+      ]
+    },
+    {
+      "id": "35038",
+      "title": "Project Ingatan",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "partial-evidence; full protocol audit required",
+      "ai": "audit-required",
+      "evidence": [
+        "docs/playtesting/elevation/chrome-full-playthroughs.md"
+      ],
+      "remainingScenarios": [
+        "Excess advancements give counters only on scoring",
+        "discard-end optional Archives install ignores all costs",
+        "counter use and full transaction"
+      ]
+    },
+    {
+      "id": "35039",
+      "title": "Humanoid Resources",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "partial-evidence; full protocol audit required",
+      "ai": "audit-required",
+      "evidence": [
+        "tests/core-humanoid-resources.cjs"
+      ],
+      "remainingScenarios": [
+        "Three clicks and self-trash paid first",
+        "gain/draw before zero-to-two sequential installs",
+        "optional operation and additional play costs"
+      ]
+    },
+    {
+      "id": "35040",
+      "title": "Otto Campaign",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Rez loads six",
+        "three two-credit start payouts",
+        "empty trash grants exactly two clicks, with click allocation ordered correctly"
+      ]
+    },
+    {
+      "id": "35041",
+      "title": "Bumi 1.0",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "partial-evidence; full protocol audit required",
+      "ai": "audit-required",
+      "evidence": [
+        "docs/playtesting/elevation/chrome-full-playthroughs.md"
+      ],
+      "remainingScenarios": [
+        "Rez during own server run offers installed Trojan trash",
+        "Runner-only click break",
+        "program trash/core damage and choice ordering"
+      ]
+    },
+    {
+      "id": "35042",
+      "title": "Scatter Field",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Only-ice strength bonus updates on install/move/trash",
+        "optional HQ install completes before continuation",
+        "end-run and moving run position"
+      ]
+    },
+    {
+      "id": "35043",
+      "title": "Nanomanagement",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "One operation action click then gain two clicks",
+        "operation recursion and once-per-turn references",
+        "action-phase continuation"
+      ]
+    },
+    {
+      "id": "35044",
+      "title": "Top-Down Solutions",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Draw two then zero/one/two sequential HQ installs",
+        "native install costs/replacements",
+        "changing legal targets and cancellation"
+      ]
+    },
+    {
+      "id": "35045",
+      "title": "Mercia B4LL4RD",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "partial-evidence; full protocol audit required",
+      "ai": "audit-required",
+      "evidence": [
+        "tests/core-mercia-install.cjs",
+        "tests/core-timing.cjs",
+        "docs/playtesting/elevation/chrome-full-playthroughs.md"
+      ],
+      "remainingScenarios": [
+        "End-action trigger before discard",
+        "discounted zero/nonzero ice payment",
+        "optional decline, relocation, cancel and discount cleanup"
+      ]
+    },
+    {
+      "id": "35046",
+      "title": "AU Co.: The Gold Standard in Clones",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Damage event versus each damaged card",
+        "one counter for HQ trash batch",
+        "two-counter private top-three selection, short deck and decline"
+      ]
+    },
+    {
+      "id": "35047",
+      "title": "PT Untaian: Life's Building Blocks",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "HQ size three/four boundary at discard end",
+        "unrezzed advanceable target and one-credit payment",
+        "no same-turn score and decline"
+      ]
+    },
+    {
+      "id": "35048",
+      "title": "Proprionegation",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Counter on scoring",
+        "ability only in a run",
+        "redirect to outermost Archives, restart approach, reset encounter and preserve run flags"
+      ]
+    },
+    {
+      "id": "35049",
+      "title": "Sericulture Expansion",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Excess counters on scoring",
+        "end-discard payment then two counters on installed target",
+        "no same-turn score, eligibility and decline"
+      ]
+    },
+    {
+      "id": "35050",
+      "title": "Byte!",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "R&D access reveal",
+        "no Archives ambush",
+        "optional four-credit tag then damage, prevention and flatline"
+      ]
+    },
+    {
+      "id": "35051",
+      "title": "Phật Gioan Baotixita",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Counter at own discard end",
+        "first score/steal each turn",
+        "zero/one/two removals and damage even when removing zero"
+      ]
+    },
+    {
+      "id": "35052",
+      "title": "Empiricist",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Draw then optional HQ top-deck",
+        "separate damage/tag order",
+        "short deck, grip exhaustion and flatline interrupts later effects"
+      ]
+    },
+    {
+      "id": "35053",
+      "title": "Mycoweb",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Free Archives ice install, discounted rez, remote subroutine resolution",
+        "recursive chains terminate or hit diagnostics",
+        "legal rezzed sentry/other code gate"
+      ]
+    },
+    {
+      "id": "35054",
+      "title": "Semak-samun",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Printed subroutine may be broken only via fracter",
+        "nonprinted versus printed restrictions",
+        "end-run alternative damage, prevention and flatline"
+      ]
+    },
+    {
+      "id": "35055",
+      "title": "Peer Review",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Reveal all but one HQ card with privacy restored",
+        "gain seven before optional remote-root install",
+        "zero/one HQ and illegal target"
+      ]
+    },
+    {
+      "id": "35056",
+      "title": "Mitra Aman",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Approach timing before encounter",
+        "self-trash/gain then swap target from HQ/Archives",
+        "preserve ice position and encounter replacement correctly"
+      ]
+    },
+    {
+      "id": "35057",
+      "title": "Nebula Talent Management: Making Stars",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "partial-evidence; full protocol audit required",
+      "ai": "audit-required",
+      "evidence": [
+        "tests/core-nbn-local.cjs"
+      ],
+      "remainingScenarios": [
+        "Both faces and operation tracking",
+        "end-action gain/flip versus first-operation click",
+        "successful HQ/R&D flip and simultaneous effects"
+      ]
+    },
+    {
+      "id": "35058",
+      "title": "Synapse Global: Faster than Thought",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "partial-evidence; full protocol audit required",
+      "ai": "audit-required",
+      "evidence": [
+        "tests/core-nbn-local.cjs"
+      ],
+      "remainingScenarios": [
+        "First removed tag each turn versus batch count",
+        "optional revealed free install",
+        "click/tag cost ordering and resets across both turns"
+      ]
+    },
+    {
+      "id": "35059",
+      "title": "Embedded Reporting",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "partial-evidence; full protocol audit required",
+      "ai": "audit-required",
+      "evidence": [
+        "tests/core-nbn-local.cjs"
+      ],
+      "remainingScenarios": [
+        "Dividends two per excess advancement",
+        "end-discard counter/search/reveal/shuffle/top-deck ordering",
+        "no operation, decline and hidden deck order"
+      ]
+    },
+    {
+      "id": "35060",
+      "title": "Next Big Thing",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "partial-evidence; full protocol audit required",
+      "ai": "audit-required",
+      "evidence": [
+        "tests/core-nbn-local.cjs"
+      ],
+      "remainingScenarios": [
+        "Counter on scored and stolen agenda",
+        "Corp activation from either score area",
+        "click/counter payment, draw four, optional HQ shuffle and ownership"
+      ]
+    },
+    {
+      "id": "35061",
+      "title": "Idiosyncresis",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Advancement-dependent gain/loss after optional self-trash",
+        "zero counters and insufficient Runner credits",
+        "start-turn ordering and decline"
+      ]
+    },
+    {
+      "id": "35062",
+      "title": "Public Access Plaza",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Start-turn income",
+        "rezzed-trash tag only at Threat two or above",
+        "unrez, zero/two threat boundary and trash source"
+      ]
+    },
+    {
+      "id": "35063",
+      "title": "Doomscroll",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Separate tag/net-damage subroutines",
+        "third conditional damage reads current tags",
+        "broken subroutines and flatline order"
+      ]
+    },
+    {
+      "id": "35064",
+      "title": "N-Pot",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Runner-only paid break independent of icebreaker",
+        "Threat one/two/three/four boundaries",
+        "multiple subroutine payments and insufficient credits"
+      ]
+    },
+    {
+      "id": "35065",
+      "title": "Bigger Picture",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "partial-evidence; full protocol audit required",
+      "ai": "audit-required",
+      "evidence": [
+        "tests/core-nbn-local.cjs"
+      ],
+      "remainingScenarios": [
+        "Tagged play restriction",
+        "choose add-tag or any removals",
+        "drain actual credits, gain matching loss and zero tags after payment"
+      ]
+    },
+    {
+      "id": "35066",
+      "title": "IP Enforcement",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "partial-evidence; full protocol audit required",
+      "ai": "audit-required",
+      "evidence": [
+        "tests/core-nbn-local.cjs"
+      ],
+      "remainingScenarios": [
+        "X-credit and additional X-tag payment",
+        "printed agenda points determine target",
+        "stolen agenda ownership/score totals, leftover-tag advancement and terminal timing"
+      ]
+    },
+    {
+      "id": "35067",
+      "title": "Touch-ups",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Extra click and valid advanceable target",
+        "advance before reveal/type selection",
+        "zero-to-two matching grip cards shuffled, privacy and empty grip"
+      ]
+    },
+    {
+      "id": "35068",
+      "title": "BANGUN: When Disaster Strikes",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Optional faceup agenda install stays inactive",
+        "access triggers damage/tag only for faceup installed agenda",
+        "HQ/R&D access and flatline ordering"
+      ]
+    },
+    {
+      "id": "35069",
+      "title": "The Zwicky Group: Invisible Hands",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "First qualifying agenda/operation credit gain each turn",
+        "no basic income/asset trigger",
+        "optional draw, batches and opponent-turn reset"
+      ]
+    },
+    {
+      "id": "35070",
+      "title": "Greenmail",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Score gain two versus forfeit gain four",
+        "credit event ordering with Zwicky",
+        "forfeited source and agenda-point recalculation"
+      ]
+    },
+    {
+      "id": "35071",
+      "title": "Off the Books",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Excess counters",
+        "end-discard search/reveal/shuffle",
+        "optional free legal install or add to HQ, operation/agenda target and decline"
+      ]
+    },
+    {
+      "id": "35072",
+      "title": "Anthill Excavation Contract",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Rez load eight",
+        "two take-four/draw-one start payouts",
+        "empty trash ordering and R&D exhaustion"
+      ]
+    },
+    {
+      "id": "35073",
+      "title": "Plutus",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Rez additional forfeit versus reveal/trash three HQ cards",
+        "optional Archives Transaction play pays costs",
+        "remove after full resolution and recursive source safety"
+      ]
+    },
+    {
+      "id": "35074",
+      "title": "Biawak",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Optional forfeit pays ten toward rez, surplus not banked",
+        "program/resource trash-or-end branches",
+        "missing targets and changing agenda totals"
+      ]
+    },
+    {
+      "id": "35075",
+      "title": "Kessleroid",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "partial-evidence; full protocol audit required",
+      "ai": "audit-required",
+      "evidence": [
+        "docs/playtesting/elevation/chrome-full-playthroughs.md"
+      ],
+      "remainingScenarios": [
+        "Runner trash prohibition while rezzed",
+        "Corp trash allowed and unrezzed case",
+        "both ETR subroutines and generic trash effects"
+      ]
+    },
+    {
+      "id": "35076",
+      "title": "Syailendra",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Encounter threshold two/three advancement",
+        "optional eligible-target advancement",
+        "sequential advancement/drain/damage subroutines"
+      ]
+    },
+    {
+      "id": "35077",
+      "title": "Key Performance Indicators",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Two distinct modes, either order",
+        "each completes before next",
+        "draw/shuffle, free ice install, advance and credits with changing targets"
+      ]
+    },
+    {
+      "id": "35078",
+      "title": "Measured Response",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Threat three/four and last Runner-turn success history",
+        "pay-eight versus four meat damage",
+        "partial funds, prevention and flatline"
+      ]
+    },
+    {
+      "id": "35079",
+      "title": "Flyswatter",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "partial-evidence; full protocol audit required",
+      "ai": "audit-required",
+      "evidence": [
+        "tests/core-streamlining.cjs",
+        "docs/playtesting/elevation/chrome-full-playthroughs.md"
+      ],
+      "remainingScenarios": [
+        "Only rez during attacked-server run purges",
+        "mandatory effect streamlining and counters cleared",
+        "other server/outside-run rez and ETR"
+      ]
+    },
+    {
+      "id": "35080",
+      "title": "Lamplighter",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Score/steal from same server trashes source ice",
+        "other servers unaffected",
+        "conditional tag/payment then read current tag for ETR"
+      ]
+    },
+    {
+      "id": "35081",
+      "title": "Petty Cash",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "audit-required",
+      "ai": "audit-required",
+      "evidence": [],
+      "remainingScenarios": [
+        "Only before any completed action this turn",
+        "HQ versus Archives play click reward",
+        "additional action cost, removed-from-game and repeated-play prevention"
+      ]
+    },
+    {
+      "id": "35082",
+      "title": "Mahkota Langit Grid",
+      "definition": true,
+      "metadata": true,
+      "art": true,
+      "rules": "partial-evidence; full protocol audit required",
+      "ai": "audit-required",
+      "evidence": [
+        "docs/playtesting/elevation/chrome-full-playthroughs.md"
+      ],
+      "remainingScenarios": [
+        "Recurring refill/eligible same-server rez only",
+        "no cross-server pool leakage",
+        "persistent asset trash-cost modifier while unrezzed, regions and movement"
+      ]
+    }
+  ],
+  "totals": {
+    "cards": 82,
+    "definitions": 82,
+    "metadata": 82,
+    "art": 82,
+    "withPartialEvidence": 21,
+    "fullyCertified": 0
+  }
+}

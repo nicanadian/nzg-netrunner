@@ -8,7 +8,7 @@ export function encounterTool(tool) {
   if (tool.kind === 'breaker') {
     const against = tool.type === 'Any' ? 'any ice type' : tool.type.toLowerCase();
     const payment = `${credits(tool.breakCost)}: break ${tool.breakCount === 1 ? '1' : 'up to ' + tool.breakCount} subroutine${tool.breakCount === 1 ? '' : 's'}`;
-    if (!tool.matches) return {status:'Cannot break this ice',tone:'unavailable',detail:`Breaks ${against} · STR ${card.strength}. ${tool.type === 'Any' ? 'This ice prevents AI breakers.' : 'The ice type does not match.'}`};
+    if (!tool.matches) return {status:'Cannot break this ice',tone:'unavailable',detail:tool.restriction||`Breaks ${against} · STR ${card.strength}. ${tool.type === 'Any' ? 'This ice prevents AI breakers.' : 'The ice type does not match.'}`};
     if (!tool.unbroken) return {status:'All subroutines broken',tone:'complete',detail:`STR ${card.strength} · ${payment}.`};
     const total = tool.boostTotal + tool.breakTotal;
     return {
@@ -18,12 +18,21 @@ export function encounterTool(tool) {
     };
   }
   const count = `${tool.counters} virus counter${tool.counters === 1 ? '' : 's'}`;
-  if (tool.kind === 'hosted-virus') return {status:!tool.matches ? 'Hosted on different ice' : !tool.counters ? 'No virus counters to spend' : 'Breaks without matching type or strength',tone:tool.matches && tool.counters ? 'ready' : 'unavailable',detail:`${count} · Spend 1 to break 1 subroutine on its host ice.`};
+  if (tool.kind === 'hosted-virus') return {status:tool.restriction?'Cannot break this ice':!tool.matches ? 'Hosted on different ice' : !tool.counters ? 'No virus counters to spend' : 'Breaks without matching type or strength',tone:tool.matches && tool.counters ? 'ready' : 'unavailable',detail:tool.restriction||`${count} · Spend 1 to break 1 subroutine on its host ice.`};
   if (tool.canLower === false) return {status:'This ice cannot lose strength',tone:'unavailable',detail:`${count} · The ice prevents strength reduction.`};
   return {status:tool.counters ? 'Can lower ice strength' : 'No virus counters to spend',tone:tool.counters ? 'ready' : 'unavailable',detail:`${count} · Spend 1 for −1 ice strength this encounter. This does not break a subroutine.`};
 }
 export function relatedCards(option) {
   return [...new Set([option.card?.id,option.sourceId,option.hostId,option.targetId].filter(Boolean))];
+}
+
+export function corpAssetRezHint(card,state) {
+  if(state?.side!=='corp' || card.hidden || card.side!=='corp' || card.rezzed || !card.installed || !['asset','upgrade'].includes(card.type))return '';
+  const rez=card.rezStatus;
+  if(!rez || rez.offered)return '';
+  if(!rez.window)return 'Rez is available when you have priority in a paid-ability window. Finish the current decision first.';
+  if(rez.available<rez.cost)return `Cannot rez ${card.title}: ${rez.cost} credits required; ${rez.available} eligible credit${rez.available===1?'':'s'} available. Gain ${rez.cost-rez.available} more credit${rez.cost-rez.available===1?'':'s'} to cover the rez cost.`;
+  return 'Rez is not currently available. Resolve any outstanding effects or additional requirements first.';
 }
 
 export function corpIceRezHint(card,state) {
@@ -33,7 +42,7 @@ export function corpIceRezHint(card,state) {
   if(state.run?.server===server?.name){
     const index=server.ice.findIndex(c=>c.id===card.id);
     if(index>state.run.ice || index===state.run.ice && /^Run 4\./.test(state.phase.identifier))
-      return `The Runner has already passed ${card.title} during this run. Ice can only be rezzed when it is approached.`;
+      return `The Runner has already passed ${card.title}'s position during this run. Ice installed outside the Runner's current position will not be approached this run. Ice can only be rezzed when it is approached.`;
     const rez=state.run.rezStatus;
     if(rez?.cardId===card.id && rez.available<rez.cost)
       return `Cannot rez ${card.title}: ${rez.cost} credits required; ${rez.available} eligible credit${rez.available===1?'':'s'} available.`;

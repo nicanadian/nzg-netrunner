@@ -1,0 +1,3763 @@
+{
+  "history": [
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 14
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 14
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 15
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 15
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 15
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 15
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 15
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 15
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 15
+    },
+    {
+      "side": "corp",
+      "text": "Above the Law scored",
+      "turn": 15
+    },
+    {
+      "side": "corp",
+      "text": "Trash 1 installed resource triggered",
+      "turn": 15
+    },
+    {
+      "side": "corp",
+      "text": "Telework Contract trashed",
+      "turn": 15
+    },
+    {
+      "actor": "runner",
+      "side": "corp",
+      "text": "Tāo Salonga: Swap 2 installed pieces of ice triggered",
+      "turn": 15
+    },
+    {
+      "actor": "runner",
+      "effect": {
+        "card": {
+          "id": "c42",
+          "number": 30019,
+          "title": "Tāo Salonga: Telepresence Magician"
+        },
+        "kind": "swap",
+        "targets": [
+          {
+            "id": "c30",
+            "location": "R&D · ice 1 from outside"
+          },
+          {
+            "id": "c31",
+            "location": "HQ · ice 1 from outside"
+          }
+        ]
+      },
+      "side": "corp",
+      "text": "Tāo Salonga swaps R&D · ice 1 from outside ↔ HQ · ice 1 from outside",
+      "turn": 15
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 15
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 15
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed ice protecting R&D",
+      "turn": 15
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 16
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Corp spent 3 credits from credit pool",
+      "turn": 16
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Corp rezzed Palisade protecting R&D at position 1",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Palisade protecting R&D at position 1",
+      "turn": 16
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"End the run.\" on Palisade protecting R&D at position 1:",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Palisade protecting R&D at position 1",
+      "turn": 16
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"End the run.\" on Palisade protecting R&D at position 1:",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Palisade protecting R&D at position 1",
+      "turn": 16
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"End the run.\" on Palisade protecting R&D at position 1:",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 16
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed a card in root of a remote server",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained one credit",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained one credit",
+      "turn": 17
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Palisade protecting R&D at position 1",
+      "turn": 18
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"End the run.\" on Palisade protecting R&D at position 1:",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Palisade protecting R&D at position 1",
+      "turn": 18
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"End the run.\" on Palisade protecting R&D at position 1:",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Palisade protecting R&D at position 1",
+      "turn": 18
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"End the run.\" on Palisade protecting R&D at position 1:",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 18
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 2 credits from credit pool",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Corp rezzed Regolith Mining License",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "15 credits loaded onto Regolith Mining License",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Using Regolith Mining License:",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "3 credits taken from Regolith Mining License",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Using Regolith Mining License:",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "3 credits taken from Regolith Mining License",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Using Regolith Mining License:",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "3 credits taken from Regolith Mining License",
+      "turn": 19
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Palisade protecting R&D at position 1",
+      "turn": 20
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"End the run.\" on Palisade protecting R&D at position 1:",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Palisade protecting R&D at position 1",
+      "turn": 20
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"End the run.\" on Palisade protecting R&D at position 1:",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Palisade protecting R&D at position 1",
+      "turn": 20
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"End the run.\" on Palisade protecting R&D at position 1:",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 20
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 21
+    },
+    {
+      "side": "corp",
+      "text": "Corp created a new remote server",
+      "turn": 21
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 21
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed ice protecting a remote server",
+      "turn": 21
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 21
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed a card in root of a remote server",
+      "turn": 21
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 21
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 21
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 21
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained 2 credits",
+      "turn": 21
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 22
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 22
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 22
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 22
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Palisade protecting R&D at position 1",
+      "turn": 22
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"End the run.\" on Palisade protecting R&D at position 1:",
+      "turn": 22
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 22
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 22
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 22
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 22
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 22
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Palisade protecting R&D at position 1",
+      "turn": 22
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"End the run.\" on Palisade protecting R&D at position 1:",
+      "turn": 22
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 22
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 22
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 22
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 22
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 22
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Palisade protecting R&D at position 1",
+      "turn": 22
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"End the run.\" on Palisade protecting R&D at position 1:",
+      "turn": 22
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 22
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 22
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 22
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 23
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 23
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 23
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 23
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 23
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 23
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 23
+    },
+    {
+      "side": "corp",
+      "text": "Superconducting Hub scored",
+      "turn": 23
+    },
+    {
+      "side": "corp",
+      "text": "Corp reached 7 agenda points.",
+      "turn": 23
+    }
+  ],
+  "session": {
+    "choices": [
+      {
+        "command": "n",
+        "index": 0,
+        "version": 2
+      },
+      {
+        "command": "install",
+        "index": 1,
+        "version": 31
+      },
+      {
+        "command": "install",
+        "index": 1,
+        "version": 34
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 36
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 37
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 38
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 39
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 40
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 42
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 47
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 53
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 57
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 61
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 65
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 68
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 71
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 75
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 76
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 77
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 78
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 79
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 80
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 82
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 85
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 86
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 95
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 96
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 97
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 99
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 104
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 109
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 114
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 117
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 121
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 124
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 127
+      },
+      {
+        "command": "install",
+        "index": 1,
+        "version": 131
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 133
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 134
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 135
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 136
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 137
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 139
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 141
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 150
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 151
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 152
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 154
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 159
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 164
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 168
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 171
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 174
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 177
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 180
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 184
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 185
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 187
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 189
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 198
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 199
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 200
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 202
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 204
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 213
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 214
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 215
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 217
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 219
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 228
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 229
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 230
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 232
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 237
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 242
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 245
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 248
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 255
+      },
+      {
+        "cards": [
+          "c30",
+          "c31"
+        ],
+        "command": "continue",
+        "index": 0,
+        "version": 256
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 259
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 262
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 265
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 269
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 270
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 272
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 274
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 283
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 284
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 285
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 287
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 289
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 298
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 299
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 300
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 302
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 304
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 313
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 314
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 315
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 317
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 322
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 327
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 331
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 334
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 337
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 340
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 343
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 347
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 348
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 350
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 352
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 361
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 362
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 363
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 365
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 367
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 376
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 377
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 378
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 380
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 382
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 391
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 392
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 393
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 395
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 400
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 405
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 412
+      },
+      {
+        "cards": [
+          "c31",
+          "c30"
+        ],
+        "command": "continue",
+        "index": 0,
+        "version": 413
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 416
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 420
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 423
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 426
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 429
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 433
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 434
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 436
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 438
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 447
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 448
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 449
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 451
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 453
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 462
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 463
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 464
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 466
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 468
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 477
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 478
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 479
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 481
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 486
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 491
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 494
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 501
+      },
+      {
+        "cards": [
+          "c30",
+          "c31"
+        ],
+        "command": "continue",
+        "index": 0,
+        "version": 502
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 505
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 509
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 512
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 515
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 519
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 520
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 522
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 525
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 526
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 535
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 536
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 537
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 539
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 541
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 550
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 551
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 552
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 554
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 556
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 565
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 566
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 567
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 569
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 574
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 579
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 583
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 586
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 589
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 592
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 595
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 599
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 600
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 602
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 604
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 613
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 614
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 615
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 617
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 619
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 628
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 629
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 630
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 632
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 634
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 643
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 644
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 645
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 647
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 652
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 658
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 662
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 666
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 670
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 673
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 676
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 680
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 681
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 683
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 685
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 694
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 695
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 696
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 698
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 700
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 709
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 710
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 711
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 713
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 715
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 724
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 725
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 726
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 728
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 733
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 738
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 742
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 746
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 749
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 752
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 755
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 759
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 760
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 762
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 764
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 773
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 774
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 775
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 777
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 779
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 788
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 789
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 790
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 792
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 794
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 803
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 804
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 805
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 807
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 812
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 817
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 820
+      }
+    ],
+    "conceded": false,
+    "config": {
+      "deckDocuments": {
+        "corp": {
+          "cards": [
+            {
+              "count": 3,
+              "id": "30053"
+            },
+            {
+              "count": 3,
+              "id": "30055"
+            },
+            {
+              "count": 1,
+              "id": "30060"
+            },
+            {
+              "count": 2,
+              "id": "30061"
+            },
+            {
+              "count": 2,
+              "id": "30062"
+            },
+            {
+              "count": 2,
+              "id": "30063"
+            },
+            {
+              "count": 1,
+              "id": "30064"
+            },
+            {
+              "count": 1,
+              "id": "30065"
+            },
+            {
+              "count": 1,
+              "id": "30066"
+            },
+            {
+              "count": 3,
+              "id": "30067"
+            },
+            {
+              "count": 2,
+              "id": "30068"
+            },
+            {
+              "count": 1,
+              "id": "30069"
+            },
+            {
+              "count": 3,
+              "id": "30070"
+            },
+            {
+              "count": 3,
+              "id": "30071"
+            },
+            {
+              "count": 3,
+              "id": "30072"
+            },
+            {
+              "count": 3,
+              "id": "30073"
+            },
+            {
+              "count": 3,
+              "id": "30074"
+            },
+            {
+              "count": 3,
+              "id": "30075"
+            }
+          ],
+          "identity": "30059",
+          "name": "Weyland Consortium: Built to Last",
+          "pool": "gateway-v1",
+          "schemaVersion": 1,
+          "side": "corp"
+        },
+        "runner": {
+          "cards": [
+            {
+              "count": 2,
+              "id": "30004"
+            },
+            {
+              "count": 3,
+              "id": "30006"
+            },
+            {
+              "count": 3,
+              "id": "30020"
+            },
+            {
+              "count": 3,
+              "id": "30021"
+            },
+            {
+              "count": 2,
+              "id": "30022"
+            },
+            {
+              "count": 2,
+              "id": "30023"
+            },
+            {
+              "count": 2,
+              "id": "30024"
+            },
+            {
+              "count": 3,
+              "id": "30025"
+            },
+            {
+              "count": 3,
+              "id": "30026"
+            },
+            {
+              "count": 1,
+              "id": "30027"
+            },
+            {
+              "count": 3,
+              "id": "30028"
+            },
+            {
+              "count": 3,
+              "id": "30029"
+            },
+            {
+              "count": 3,
+              "id": "30030"
+            },
+            {
+              "count": 2,
+              "id": "30032"
+            },
+            {
+              "count": 3,
+              "id": "30033"
+            },
+            {
+              "count": 2,
+              "id": "30034"
+            }
+          ],
+          "identity": "30019",
+          "name": "UI test · Mayfly custom",
+          "pool": "gateway-v1",
+          "schemaVersion": 1,
+          "side": "runner"
+        }
+      },
+      "rulesVersion": "26.03-local-2",
+      "seed": "9ffb60b4-10b9-4e71-9db1-d7861a4a28d2",
+      "side": "runner"
+    },
+    "engine": "chiriboga-77c80b1-local-1"
+  },
+  "terminal": {
+    "reason": "Corp reached 7 agenda points.",
+    "winner": "corp"
+  },
+  "uiTest": {
+    "clicks": [
+      {
+        "phase": "Runner 1.3",
+        "text": "Telework Contract",
+        "turn": 6,
+        "why": "inspect useful rig card"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Install\n1 click · 1 credit\n→",
+        "turn": 6,
+        "why": "inspected card action"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Gain 1 credit\n1 click",
+        "turn": 6,
+        "why": "build credits"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Make a run\n1 click\n4 choices ›",
+        "turn": 6,
+        "why": "test another run"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "R&D\n1 click",
+        "turn": 6,
+        "why": "choose run target"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order.",
+        "turn": 6,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "phase": "Run EncounterEnd",
+        "text": "Skip to decision",
+        "turn": 6,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Draw a card\n1 click",
+        "turn": 6,
+        "why": "draw options"
+      },
+      {
+        "phase": "Corp 2.1",
+        "text": "Skip to decision",
+        "turn": 7,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Corp 2.2*",
+        "text": "Skip to decision",
+        "turn": 7,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Corp 2.2*",
+        "text": "Skip to decision",
+        "turn": 7,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Make a run\n1 click\n4 choices ›",
+        "turn": 8,
+        "why": "test another run"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "R&D\n1 click",
+        "turn": 8,
+        "why": "choose run target"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order.",
+        "turn": 8,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "phase": "Run EncounterEnd",
+        "text": "Skip to decision",
+        "turn": 8,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Make a run\n1 click\n4 choices ›",
+        "turn": 8,
+        "why": "test another run"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "R&D\n1 click",
+        "turn": 8,
+        "why": "choose run target"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order.",
+        "turn": 8,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "phase": "Run EncounterEnd",
+        "text": "Skip to decision",
+        "turn": 8,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Make a run\n1 click\n4 choices ›",
+        "turn": 8,
+        "why": "test another run"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "R&D\n1 click",
+        "turn": 8,
+        "why": "choose run target"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order.",
+        "turn": 8,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "phase": "Run EncounterEnd",
+        "text": "Skip to decision",
+        "turn": 8,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Draw a card\n1 click",
+        "turn": 8,
+        "why": "draw options"
+      },
+      {
+        "phase": "Corp 2.1",
+        "text": "Skip to decision",
+        "turn": 9,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Scored",
+        "text": "Skip to decision",
+        "turn": 9,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Scored",
+        "text": "Tāo Salonga: Telepresence Magician · Tāo Salonga: Swap 2 installed pieces of ice\n→",
+        "turn": 9,
+        "why": "first remaining rendered choice"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n✓",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "resolve offered effect"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · HQ · ice 1 from outside\n＋",
+        "turn": 9,
+        "why": "choose another distinct card"
+      },
+      {
+        "phase": "Scored",
+        "text": "Confirm selection",
+        "turn": 9,
+        "why": "confirm selected cards"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Make a run\n1 click\n4 choices ›",
+        "turn": 10,
+        "why": "test another run"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "R&D\n1 click",
+        "turn": 10,
+        "why": "choose run target"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order.",
+        "turn": 10,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "phase": "Run EncounterEnd",
+        "text": "Skip to decision",
+        "turn": 10,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Make a run\n1 click\n4 choices ›",
+        "turn": 10,
+        "why": "test another run"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "R&D\n1 click",
+        "turn": 10,
+        "why": "choose run target"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order.",
+        "turn": 10,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "phase": "Run EncounterEnd",
+        "text": "Skip to decision",
+        "turn": 10,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Make a run\n1 click\n4 choices ›",
+        "turn": 10,
+        "why": "test another run"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "R&D\n1 click",
+        "turn": 10,
+        "why": "choose run target"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order.",
+        "turn": 10,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "phase": "Run EncounterEnd",
+        "text": "Skip to decision",
+        "turn": 10,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Gain 1 credit\n1 click",
+        "turn": 10,
+        "why": "basic economy"
+      },
+      {
+        "phase": "Corp 2.1",
+        "text": "Skip to decision",
+        "turn": 11,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Corp 2.2*",
+        "text": "Skip to decision",
+        "turn": 11,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Corp 2.2*",
+        "text": "Skip to decision",
+        "turn": 11,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Make a run\n1 click\n4 choices ›",
+        "turn": 12,
+        "why": "test another run"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "R&D\n1 click",
+        "turn": 12,
+        "why": "choose run target"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order.",
+        "turn": 12,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "phase": "Run EncounterEnd",
+        "text": "Skip to decision",
+        "turn": 12,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Make a run\n1 click\n4 choices ›",
+        "turn": 12,
+        "why": "test another run"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "R&D\n1 click",
+        "turn": 12,
+        "why": "choose run target"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order.",
+        "turn": 12,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "phase": "Run EncounterEnd",
+        "text": "Skip to decision",
+        "turn": 12,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Make a run\n1 click\n4 choices ›",
+        "turn": 12,
+        "why": "test another run"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "R&D\n1 click",
+        "turn": 12,
+        "why": "choose run target"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order.",
+        "turn": 12,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "phase": "Run EncounterEnd",
+        "text": "Skip to decision",
+        "turn": 12,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Gain 1 credit\n1 click",
+        "turn": 12,
+        "why": "basic economy"
+      },
+      {
+        "phase": "Corp 2.1",
+        "text": "Skip to decision",
+        "turn": 13,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Scored",
+        "text": "Skip to decision",
+        "turn": 13,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Scored",
+        "text": "Tāo Salonga: Telepresence Magician · Tāo Salonga: Swap 2 installed pieces of ice\n→",
+        "turn": 13,
+        "why": "first remaining rendered choice"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 13,
+        "why": "choose another distinct card"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · HQ · ice 1 from outside\n＋",
+        "turn": 13,
+        "why": "choose another distinct card"
+      },
+      {
+        "phase": "Scored",
+        "text": "Confirm selection",
+        "turn": 13,
+        "why": "confirm selected cards"
+      },
+      {
+        "phase": "Corp 2.2*",
+        "text": "Skip to decision",
+        "turn": 13,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Corp 2.2*",
+        "text": "Skip to decision",
+        "turn": 13,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Make a run\n1 click\n4 choices ›",
+        "turn": 14,
+        "why": "test another run"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "R&D\n1 click",
+        "turn": 14,
+        "why": "choose run target"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order.",
+        "turn": 14,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "phase": "Run EncounterEnd",
+        "text": "Skip to decision",
+        "turn": 14,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Make a run\n1 click\n4 choices ›",
+        "turn": 14,
+        "why": "test another run"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "R&D\n1 click",
+        "turn": 14,
+        "why": "choose run target"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order.",
+        "turn": 14,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "phase": "Run EncounterEnd",
+        "text": "Skip to decision",
+        "turn": 14,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Make a run\n1 click\n4 choices ›",
+        "turn": 14,
+        "why": "test another run"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "R&D\n1 click",
+        "turn": 14,
+        "why": "choose run target"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order.",
+        "turn": 14,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "phase": "Run EncounterEnd",
+        "text": "Skip to decision",
+        "turn": 14,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Gain 1 credit\n1 click",
+        "turn": 14,
+        "why": "basic economy"
+      },
+      {
+        "phase": "Corp 1.1",
+        "text": "Continue · finish this window\n→",
+        "turn": 15,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "phase": "Corp 2.1",
+        "text": "Skip to decision",
+        "turn": 15,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Scored",
+        "text": "Skip to decision",
+        "turn": 15,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Scored",
+        "text": "Tāo Salonga: Telepresence Magician · Tāo Salonga: Swap 2 installed pieces of ice\n→",
+        "turn": 15,
+        "why": "first remaining rendered choice"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · R&D · ice 1 from outside\n＋",
+        "turn": 15,
+        "why": "choose another distinct card"
+      },
+      {
+        "phase": "Scored",
+        "text": "Palisade · HQ · ice 1 from outside\n＋",
+        "turn": 15,
+        "why": "choose another distinct card"
+      },
+      {
+        "phase": "Scored",
+        "text": "Confirm selection",
+        "turn": 15,
+        "why": "confirm selected cards"
+      },
+      {
+        "phase": "Corp 2.2*",
+        "text": "Skip to decision",
+        "turn": 15,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Make a run\n1 click\n4 choices ›",
+        "turn": 16,
+        "why": "test another run"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "R&D\n1 click",
+        "turn": 16,
+        "why": "choose run target"
+      },
+      {
+        "phase": "Run 2.1",
+        "text": "Skip to decision",
+        "turn": 16,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order.",
+        "turn": 16,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "phase": "Run EncounterEnd",
+        "text": "Skip to decision",
+        "turn": 16,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Make a run\n1 click\n4 choices ›",
+        "turn": 16,
+        "why": "test another run"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "R&D\n1 click",
+        "turn": 16,
+        "why": "choose run target"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order.",
+        "turn": 16,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "phase": "Run EncounterEnd",
+        "text": "Skip to decision",
+        "turn": 16,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Make a run\n1 click\n4 choices ›",
+        "turn": 16,
+        "why": "test another run"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "R&D\n1 click",
+        "turn": 16,
+        "why": "choose run target"
+      },
+      {
+        "phase": "Run 2.1",
+        "text": "Continue · allow responses\nAllow responses. The run advances when both players pass.",
+        "turn": 16,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order.",
+        "turn": 16,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "phase": "Run EncounterEnd",
+        "text": "Skip to decision",
+        "turn": 16,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Gain 1 credit\n1 click",
+        "turn": 16,
+        "why": "basic economy"
+      },
+      {
+        "phase": "Corp 2.1",
+        "text": "Skip to decision",
+        "turn": 17,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Corp 2.2*",
+        "text": "Skip to decision",
+        "turn": 17,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Corp 2.2*",
+        "text": "Skip to decision",
+        "turn": 17,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Corp 2.2*",
+        "text": "Skip to decision",
+        "turn": 17,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Make a run\n1 click\n4 choices ›",
+        "turn": 18,
+        "why": "test another run"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "R&D\n1 click",
+        "turn": 18,
+        "why": "choose run target"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order.",
+        "turn": 18,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "phase": "Run EncounterEnd",
+        "text": "Skip to decision",
+        "turn": 18,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Make a run\n1 click\n4 choices ›",
+        "turn": 18,
+        "why": "test another run"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "R&D\n1 click",
+        "turn": 18,
+        "why": "choose run target"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order.",
+        "turn": 18,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "phase": "Run EncounterEnd",
+        "text": "Skip to decision",
+        "turn": 18,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Make a run\n1 click\n4 choices ›",
+        "turn": 18,
+        "why": "test another run"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "R&D\n1 click",
+        "turn": 18,
+        "why": "choose run target"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order.",
+        "turn": 18,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "phase": "Run EncounterEnd",
+        "text": "Skip to decision",
+        "turn": 18,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Gain 1 credit\n1 click",
+        "turn": 18,
+        "why": "basic economy"
+      },
+      {
+        "phase": "Corp 2.1",
+        "text": "Skip to decision",
+        "turn": 19,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Corp 2.2*",
+        "text": "Skip to decision",
+        "turn": 19,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Corp 2.2*",
+        "text": "Skip to decision",
+        "turn": 19,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Corp 2.2*",
+        "text": "Skip to decision",
+        "turn": 19,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Make a run\n1 click\n4 choices ›",
+        "turn": 20,
+        "why": "test another run"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "R&D\n1 click",
+        "turn": 20,
+        "why": "choose run target"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order.",
+        "turn": 20,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "phase": "Run EncounterEnd",
+        "text": "Skip to decision",
+        "turn": 20,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Make a run\n1 click\n4 choices ›",
+        "turn": 20,
+        "why": "test another run"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "R&D\n1 click",
+        "turn": 20,
+        "why": "choose run target"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order.",
+        "turn": 20,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "phase": "Run EncounterEnd",
+        "text": "Skip to decision",
+        "turn": 20,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Make a run\n1 click\n4 choices ›",
+        "turn": 20,
+        "why": "test another run"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "R&D\n1 click",
+        "turn": 20,
+        "why": "choose run target"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order.",
+        "turn": 20,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "phase": "Run EncounterEnd",
+        "text": "Skip to decision",
+        "turn": 20,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Gain 1 credit\n1 click",
+        "turn": 20,
+        "why": "basic economy"
+      },
+      {
+        "phase": "Corp 2.1",
+        "text": "Skip to decision",
+        "turn": 21,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Corp 2.2*",
+        "text": "Skip to decision",
+        "turn": 21,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Corp 2.2*",
+        "text": "Skip to decision",
+        "turn": 21,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Corp 2.2*",
+        "text": "Skip to decision",
+        "turn": 21,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Make a run\n1 click\n5 choices ›",
+        "turn": 22,
+        "why": "test another run"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "R&D\n1 click",
+        "turn": 22,
+        "why": "choose run target"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order.",
+        "turn": 22,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "phase": "Run EncounterEnd",
+        "text": "Skip to decision",
+        "turn": 22,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Make a run\n1 click\n5 choices ›",
+        "turn": 22,
+        "why": "test another run"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "R&D\n1 click",
+        "turn": 22,
+        "why": "choose run target"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order.",
+        "turn": 22,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "phase": "Run EncounterEnd",
+        "text": "Skip to decision",
+        "turn": 22,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Make a run\n1 click\n5 choices ›",
+        "turn": 22,
+        "why": "test another run"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "R&D\n1 click",
+        "turn": 22,
+        "why": "choose run target"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order.",
+        "turn": 22,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "phase": "Run EncounterEnd",
+        "text": "Skip to decision",
+        "turn": 22,
+        "why": "skip recorded animation"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Gain 1 credit\n1 click",
+        "turn": 22,
+        "why": "basic economy"
+      },
+      {
+        "phase": "Corp 2.1",
+        "text": "Skip to decision",
+        "turn": 23,
+        "why": "skip recorded animation"
+      }
+    ],
+    "errors": []
+  }
+}

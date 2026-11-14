@@ -1,3 +1,4 @@
+import {iceRezWarning} from './rez-warning.mjs';
 // Plans only select currently offered native choices. They never advance a
 // window, pre-pay a future ability, or use a cached option/version.
 export function breakerPlan(state, cardId) {
@@ -34,6 +35,7 @@ export function secondaryAbility(option, state) {
 }
 export function assistedChoice(state, {skipBoostWindows=true, streamline=true, hold=false}={}) {
   if (!state?.decision || state.terminal || state.active!==state.side) return null;
+  if (iceRezWarning(state)) return null;
   if (skipBoostWindows && !hold && state.quietWindow) return quietPass(state);
   const choice=state.assistance;
   if (!streamline || !choice || hold && ['optional-window','cleared-encounter'].includes(choice.kind)) return null;
@@ -51,6 +53,7 @@ export function cancellationLabel(state) {
   return `Cancelled · ${state.phase.source || 'selection'}`;
 }
 export function quietPass(state) {
+  if (iceRezWarning(state)) return null;
   if (!state?.quietWindow || state.terminal || state.active!==state.side) return null;
   const group=state.decision?.commands.find(c=>c.command==='n');
   return group?.options.length===1 ? {command:group.command,index:group.options[0].index} : null;

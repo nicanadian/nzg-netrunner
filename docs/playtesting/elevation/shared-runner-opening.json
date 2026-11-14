@@ -1,0 +1,679 @@
+{
+  "busy": false,
+  "session": {
+    "choices": [
+      {
+        "command": "n",
+        "index": 0,
+        "version": 2
+      }
+    ],
+    "conceded": false,
+    "config": {
+      "cardPool": "core-v1",
+      "deckIds": {
+        "corp": "precision-design-core-v1",
+        "runner": "phoenix-core-v1"
+      },
+      "rulesVersion": "26.03-core-1",
+      "seed": "622b190d-8f30-4c01-b267-3e72ede99d68",
+      "side": "runner"
+    },
+    "engine": "chiriboga-core-c863f5a-local-1"
+  },
+  "state": {
+    "access": null,
+    "active": "runner",
+    "agendaPointTarget": 7,
+    "assistance": null,
+    "corp": {
+      "badPublicity": 0,
+      "clicks": 0,
+      "credits": 9,
+      "deck": 38,
+      "discard": [
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c18",
+          "installed": false,
+          "number": 30075,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Transaction"
+          ],
+          "subroutines": [],
+          "title": "Hedge Fund",
+          "type": "operation"
+        }
+      ],
+      "hand": [
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c10",
+          "installed": false,
+          "rezzed": false,
+          "side": "corp"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c32",
+          "installed": false,
+          "rezzed": false,
+          "side": "corp"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c31",
+          "installed": false,
+          "rezzed": false,
+          "side": "corp"
+        }
+      ],
+      "identity": {
+        "advancement": 0,
+        "advancementRequirement": null,
+        "canScore": false,
+        "counters": {},
+        "faceUp": true,
+        "hidden": false,
+        "hosted": [],
+        "id": "c1",
+        "installed": false,
+        "number": 30035,
+        "rezzed": false,
+        "side": "corp",
+        "strength": null,
+        "subTypes": [
+          "Megacorp"
+        ],
+        "subroutines": [],
+        "title": "Haas-Bioroid: Precision Design",
+        "type": "identity"
+      },
+      "maxHand": 6,
+      "points": 0,
+      "resolving": [],
+      "score": [],
+      "servers": [
+        {
+          "central": true,
+          "ice": [],
+          "name": "HQ",
+          "root": []
+        },
+        {
+          "central": true,
+          "ice": [
+            {
+              "advancement": 0,
+              "faceUp": false,
+              "hidden": true,
+              "hosted": [],
+              "id": "c44",
+              "installed": true,
+              "rezzed": false,
+              "side": "corp"
+            }
+          ],
+          "name": "R&D",
+          "root": []
+        },
+        {
+          "central": true,
+          "ice": [],
+          "name": "Archives",
+          "root": []
+        },
+        {
+          "central": false,
+          "ice": [
+            {
+              "advancement": 0,
+              "faceUp": false,
+              "hidden": true,
+              "hosted": [],
+              "id": "c39",
+              "installed": true,
+              "rezzed": false,
+              "side": "corp"
+            }
+          ],
+          "name": "Remote 0",
+          "root": []
+        }
+      ],
+      "side": "corp"
+    },
+    "decision": {
+      "commands": [
+        {
+          "cancel": false,
+          "command": "draw",
+          "cost": {
+            "clicks": 1
+          },
+          "instruction": "Click: Draw a card",
+          "label": "Draw a card",
+          "options": [
+            {
+              "card": null,
+              "cost": {
+                "clicks": 1
+              },
+              "index": 0,
+              "label": "Draw a card",
+              "server": null
+            }
+          ]
+        },
+        {
+          "cancel": false,
+          "command": "gain",
+          "cost": {
+            "clicks": 1
+          },
+          "instruction": "Click: Gain one credit",
+          "label": "Gain 1 credit",
+          "options": [
+            {
+              "card": null,
+              "cost": {
+                "clicks": 1
+              },
+              "index": 0,
+              "label": "Gain 1 credit",
+              "server": null
+            }
+          ]
+        },
+        {
+          "cancel": false,
+          "command": "install",
+          "cost": {
+            "clicks": 1
+          },
+          "instruction": "Click: Install a program, resource, or hardware",
+          "label": "Install",
+          "options": [
+            {
+              "card": {
+                "advancement": 0,
+                "advancementRequirement": null,
+                "canScore": false,
+                "counters": {},
+                "faceUp": false,
+                "hidden": false,
+                "hosted": [],
+                "id": "c79",
+                "installed": false,
+                "number": 35009,
+                "rezzed": false,
+                "side": "runner",
+                "strength": 1,
+                "subTypes": [
+                  "Icebreaker",
+                  "Fracter"
+                ],
+                "subroutines": [],
+                "title": "Rising Tide",
+                "type": "program"
+              },
+              "cost": {
+                "clicks": 1,
+                "credits": 1
+              },
+              "index": 0,
+              "installQuote": true,
+              "label": "Install Rising Tide into program row",
+              "server": null,
+              "sourceId": "c79"
+            },
+            {
+              "card": {
+                "advancement": 0,
+                "advancementRequirement": null,
+                "canScore": false,
+                "counters": {},
+                "faceUp": false,
+                "hidden": false,
+                "hosted": [],
+                "id": "c81",
+                "installed": false,
+                "number": 35009,
+                "rezzed": false,
+                "side": "runner",
+                "strength": 1,
+                "subTypes": [
+                  "Icebreaker",
+                  "Fracter"
+                ],
+                "subroutines": [],
+                "title": "Rising Tide",
+                "type": "program"
+              },
+              "cost": {
+                "clicks": 1,
+                "credits": 1
+              },
+              "index": 1,
+              "installQuote": true,
+              "label": "Install Rising Tide into program row",
+              "server": null,
+              "sourceId": "c81"
+            }
+          ]
+        },
+        {
+          "cancel": false,
+          "command": "play",
+          "cost": {
+            "clicks": 1
+          },
+          "instruction": "Click: Play an event",
+          "label": "Play",
+          "options": [
+            {
+              "card": {
+                "advancement": 0,
+                "advancementRequirement": null,
+                "canScore": false,
+                "counters": {},
+                "faceUp": false,
+                "hidden": false,
+                "hosted": [],
+                "id": "c54",
+                "installed": false,
+                "number": 35015,
+                "rezzed": false,
+                "side": "runner",
+                "strength": null,
+                "subTypes": [
+                  "Double"
+                ],
+                "subroutines": [],
+                "title": "Lie Low",
+                "type": "event"
+              },
+              "cost": {
+                "clicks": 2,
+                "credits": 1
+              },
+              "index": 0,
+              "label": "Lie Low",
+              "server": null,
+              "sourceId": "c54"
+            },
+            {
+              "card": {
+                "advancement": 0,
+                "advancementRequirement": null,
+                "canScore": false,
+                "counters": {},
+                "faceUp": false,
+                "hidden": false,
+                "hosted": [],
+                "id": "c52",
+                "installed": false,
+                "number": 35015,
+                "rezzed": false,
+                "side": "runner",
+                "strength": null,
+                "subTypes": [
+                  "Double"
+                ],
+                "subroutines": [],
+                "title": "Lie Low",
+                "type": "event"
+              },
+              "cost": {
+                "clicks": 2,
+                "credits": 1
+              },
+              "index": 1,
+              "label": "Lie Low",
+              "server": null,
+              "sourceId": "c52"
+            },
+            {
+              "card": {
+                "advancement": 0,
+                "advancementRequirement": null,
+                "canScore": false,
+                "counters": {},
+                "faceUp": false,
+                "hidden": false,
+                "hosted": [],
+                "id": "c49",
+                "installed": false,
+                "number": 30028,
+                "rezzed": false,
+                "side": "runner",
+                "strength": null,
+                "subTypes": [
+                  "Run"
+                ],
+                "subroutines": [],
+                "title": "Jailbreak",
+                "type": "event"
+              },
+              "cost": {
+                "clicks": 1,
+                "credits": 0
+              },
+              "index": 2,
+              "label": "Jailbreak",
+              "server": null,
+              "sourceId": "c49"
+            }
+          ]
+        },
+        {
+          "cancel": true,
+          "command": "run",
+          "cost": {
+            "clicks": 1
+          },
+          "instruction": "Click: Make a run",
+          "label": "Make a run",
+          "options": [
+            {
+              "card": null,
+              "cost": {
+                "clicks": 1
+              },
+              "index": 0,
+              "label": "HQ",
+              "server": "HQ"
+            },
+            {
+              "card": null,
+              "cost": {
+                "clicks": 1
+              },
+              "index": 1,
+              "label": "R&D",
+              "server": "R&D"
+            },
+            {
+              "card": null,
+              "cost": {
+                "clicks": 1
+              },
+              "index": 2,
+              "label": "Archives",
+              "server": "Archives"
+            },
+            {
+              "card": null,
+              "cost": {
+                "clicks": 1
+              },
+              "index": 3,
+              "label": "Remote 0",
+              "server": "Remote 0"
+            }
+          ]
+        }
+      ],
+      "version": 37
+    },
+    "diagnostics": [],
+    "history": [
+      {
+        "side": "corp",
+        "text": "Game begins. First to 7 agenda points.",
+        "turn": 1
+      },
+      {
+        "side": "corp",
+        "text": "Corp chose to keep",
+        "turn": 1
+      },
+      {
+        "actor": "runner",
+        "side": "corp",
+        "text": "Runner chose to keep",
+        "turn": 1
+      },
+      {
+        "draw": {
+          "kind": "mandatory"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 1
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 1
+      },
+      {
+        "side": "corp",
+        "text": "Corp installed ice protecting R&D",
+        "turn": 1
+      },
+      {
+        "side": "corp",
+        "text": "Corp created a new remote server",
+        "turn": 1
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 1
+      },
+      {
+        "side": "corp",
+        "text": "Corp installed ice protecting a remote server",
+        "turn": 1
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 1
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 5 credits from credit pool",
+        "turn": 1
+      },
+      {
+        "side": "corp",
+        "text": "Played \"Hedge Fund\"",
+        "turn": 1
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained 9 credits",
+        "turn": 1
+      }
+    ],
+    "historyCount": 13,
+    "installation": null,
+    "phase": {
+      "identifier": "Runner 1.3",
+      "source": null,
+      "title": "Runner's Action Phase"
+    },
+    "playerTurn": "runner",
+    "quietWindow": false,
+    "rulesVersion": "26.03-core-1",
+    "run": null,
+    "runner": {
+      "clicks": 4,
+      "coreDamage": 0,
+      "credits": 5,
+      "deck": 40,
+      "discard": [],
+      "hand": [
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c54",
+          "installed": false,
+          "number": 35015,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [
+            "Double"
+          ],
+          "subroutines": [],
+          "title": "Lie Low",
+          "type": "event"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c79",
+          "installed": false,
+          "number": 35009,
+          "rezzed": false,
+          "side": "runner",
+          "strength": 1,
+          "subTypes": [
+            "Icebreaker",
+            "Fracter"
+          ],
+          "subroutines": [],
+          "title": "Rising Tide",
+          "type": "program"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c81",
+          "installed": false,
+          "number": 35009,
+          "rezzed": false,
+          "side": "runner",
+          "strength": 1,
+          "subTypes": [
+            "Icebreaker",
+            "Fracter"
+          ],
+          "subroutines": [],
+          "title": "Rising Tide",
+          "type": "program"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c52",
+          "installed": false,
+          "number": 35015,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [
+            "Double"
+          ],
+          "subroutines": [],
+          "title": "Lie Low",
+          "type": "event"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c49",
+          "installed": false,
+          "number": 30028,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [
+            "Run"
+          ],
+          "subroutines": [],
+          "title": "Jailbreak",
+          "type": "event"
+        }
+      ],
+      "identity": {
+        "advancement": 0,
+        "advancementRequirement": null,
+        "canScore": false,
+        "counters": {},
+        "faceUp": true,
+        "hidden": false,
+        "hosted": [],
+        "id": "c46",
+        "installed": false,
+        "number": 35001,
+        "rezzed": false,
+        "side": "runner",
+        "strength": null,
+        "subTypes": [
+          "G-mod"
+        ],
+        "subroutines": [],
+        "title": "Ryō \"Phoenix\" Ōno: Out of the Ashes",
+        "type": "identity"
+      },
+      "maxHand": 5,
+      "memory": 4,
+      "memoryUsed": 0,
+      "points": 0,
+      "resolving": [],
+      "rig": {
+        "hardware": [],
+        "programs": [],
+        "resources": []
+      },
+      "score": [],
+      "side": "runner",
+      "tags": 0,
+      "temporaryCredits": 0
+    },
+    "seed": "622b190d-8f30-4c01-b267-3e72ede99d68",
+    "side": "runner",
+    "steps": 36,
+    "terminal": null,
+    "turn": 2,
+    "version": 37
+  },
+  "ui": "Draw a card\n1 click\nGain 1 credit\n1 click\nInstall\n1 click\n2 choices ›\nPlay\n1 click\n3 choices ›\nMake a run\n1 click\n4 choices ›"
+}

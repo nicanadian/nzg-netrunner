@@ -1,0 +1,197 @@
+[
+  {
+    "family": "precision-design",
+    "originalSize": 40,
+    "revisedSize": 44,
+    "originalIce": {
+      "count": 12,
+      "meanPrintedRezCost": 4
+    },
+    "revisedIce": {
+      "count": 15,
+      "meanPrintedRezCost": 3.6
+    },
+    "changes": [
+      {
+        "id": "30068",
+        "title": "Orbital Superiority",
+        "delta": -2
+      },
+      {
+        "id": "30069",
+        "title": "Send a Message",
+        "delta": 2
+      },
+      {
+        "id": "30070",
+        "title": "Superconducting Hub",
+        "delta": -2
+      },
+      {
+        "id": "30071",
+        "title": "Regolith Mining License",
+        "delta": -2
+      },
+      {
+        "id": "30041",
+        "title": "Sprint",
+        "delta": 2
+      },
+      {
+        "id": "30056",
+        "title": "Predictive Planogram",
+        "delta": 3
+      },
+      {
+        "id": "30074",
+        "title": "Whitespace",
+        "delta": 3
+      }
+    ]
+  },
+  {
+    "family": "restoring-humanity",
+    "originalSize": 40,
+    "revisedSize": 44,
+    "originalIce": {
+      "count": 12,
+      "meanPrintedRezCost": 2.5833333333333335
+    },
+    "revisedIce": {
+      "count": 15,
+      "meanPrintedRezCost": 2.4
+    },
+    "changes": [
+      {
+        "id": "30053",
+        "title": "Spin Doctor",
+        "delta": 1
+      },
+      {
+        "id": "30069",
+        "title": "Send a Message",
+        "delta": 1
+      },
+      {
+        "id": "30070",
+        "title": "Superconducting Hub",
+        "delta": -3
+      },
+      {
+        "id": "30073",
+        "title": "Tithe",
+        "delta": 1
+      },
+      {
+        "id": "30074",
+        "title": "Whitespace",
+        "delta": 2
+      },
+      {
+        "id": "30061",
+        "title": "Clearinghouse",
+        "delta": 2
+      }
+    ]
+  },
+  {
+    "family": "reality-plus",
+    "originalSize": 40,
+    "revisedSize": 44,
+    "originalIce": {
+      "count": 11,
+      "meanPrintedRezCost": 2.909090909090909
+    },
+    "revisedIce": {
+      "count": 15,
+      "meanPrintedRezCost": 2.6
+    },
+    "changes": [
+      {
+        "id": "30069",
+        "title": "Send a Message",
+        "delta": 1
+      },
+      {
+        "id": "30070",
+        "title": "Superconducting Hub",
+        "delta": -3
+      },
+      {
+        "id": "30073",
+        "title": "Tithe",
+        "delta": 1
+      },
+      {
+        "id": "30048",
+        "title": "Hansei Review",
+        "delta": 2
+      },
+      {
+        "id": "30074",
+        "title": "Whitespace",
+        "delta": 3
+      }
+    ]
+  },
+  {
+    "family": "built-to-last",
+    "originalSize": 40,
+    "revisedSize": 40,
+    "originalIce": {
+      "count": 12,
+      "meanPrintedRezCost": 4.25
+    },
+    "revisedIce": {
+      "count": 16,
+      "meanPrintedRezCost": 3
+    },
+    "changes": [
+      {
+        "id": "30053",
+        "title": "Spin Doctor",
+        "delta": 1
+      },
+      {
+        "id": "30061",
+        "title": "Clearinghouse",
+        "delta": -1
+      },
+      {
+        "id": "30062",
+        "title": "Ballista",
+        "delta": -1
+      },
+      {
+        "id": "30063",
+        "title": "Pharos",
+        "delta": -1
+      },
+      {
+        "id": "30064",
+        "title": "Government Subsidy",
+        "delta": -2
+      },
+      {
+        "id": "30065",
+        "title": "Retribution",
+        "delta": -1
+      },
+      {
+        "id": "30066",
+        "title": "Malapert Data Vault",
+        "delta": -1
+      },
+      {
+        "id": "30055",
+        "title": "Ping",
+        "delta": 3
+      },
+      {
+        "id": "30073",
+        "title": "Tithe",
+        "delta": 3
+      }
+    ]
+  }
+]

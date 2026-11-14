@@ -8632,7 +8632,13 @@
               "advancementRequirement": null,
               "canScore": false,
               "counters": {},
-              "subroutines": []
+              "subroutines": [],
+              "rezStatus": {
+                "cost": 2,
+                "available": 11,
+                "offered": true,
+                "window": false
+              }
             }
           ]
         },
@@ -8694,7 +8700,13 @@
               "advancementRequirement": null,
               "canScore": false,
               "counters": {},
-              "subroutines": []
+              "subroutines": [],
+              "rezStatus": {
+                "cost": 0,
+                "available": 11,
+                "offered": true,
+                "window": false
+              }
             }
           ]
         }

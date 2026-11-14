@@ -4,7 +4,7 @@ const path = require('node:path');
 const {spawn} = require('node:child_process');
 const {once} = require('node:events');
 const {setTimeout: delay} = require('node:timers/promises');
-async function smoke(executable, args = [], expectedBuild = 'alpha-build-1') {
+async function smoke(executable, args = [], expectedBuild = require('../package.json').version) {
   const child = spawn(executable,[...args,'--no-browser','--port','0','--json'],{cwd:require('node:os').tmpdir(),env:{...process.env,HELPER_PROVIDER:'reference'},stdio:['ignore','pipe','pipe']});
   let output='', errors=''; let result;
   child.stdout.on('data',x=>{output+=x;});child.stderr.on('data',x=>{errors+=x;});
@@ -21,7 +21,7 @@ async function smoke(executable, args = [], expectedBuild = 'alpha-build-1') {
     const health=await (await fetch(`${origin}/_local-table/health`)).json();assert.equal(health.appId,'nzg-netrunner-local-table');
     const launch=await (await fetch(result.url)).text();assert.match(launch,/Quit game/);
     const token=launch.match(/'X-Local-Table-Token':"([a-f0-9]+)"/)?.[1];assert(token);
-    for(const file of ['/','/app/table.js','/app/table.css','/engine/worker.js','/vendor/chiriboga/mechanics.js','/assets/cards-display/30001-743.webp','/assets/cards-hires/30001.png','/assets/playmat.png','/assets/card-data.json','/README.md']) {
+    for(const file of ['/','/app/table.js','/app/ready-made-decks.mjs','/app/deck-builder.mjs','/app/table.css','/engine/worker.js','/vendor/chiriboga/mechanics.js','/assets/cards-display/30001-743.webp','/assets/cards-hires/30001.png','/assets/cards-display/35023-743.webp','/assets/cards-display/35057-0-743.webp','/assets/playmat.png','/assets/card-data.json','/README.md']) {
       const response=await fetch(origin+file);assert.equal(response.status,200,file);assert((await response.arrayBuffer()).byteLength>0,file);
     }
     const status=await(await fetch(origin+'/api/helper')).json();assert.equal(status.configured,false);
@@ -43,5 +43,5 @@ async function smoke(executable, args = [], expectedBuild = 'alpha-build-1') {
 module.exports={smoke};
 if(require.main===module){
   if(!process.argv[2])throw Error('Usage: node scripts/smoke-release.cjs /path/to/LocalTable[.exe]');
-  smoke(path.resolve(process.argv[2])).catch(error=>{console.error(error);process.exitCode=1;});
+  smoke(path.resolve(process.argv[2]),[],process.argv[3]||require('../package.json').version).catch(error=>{console.error(error);process.exitCode=1;});
 }

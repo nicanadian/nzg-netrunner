@@ -20,7 +20,7 @@ export function opponentBeat(before, after) {
       after.phase.identifier!=='Run 2.1' && passedIce && !passedIce.hidden && !passedIce.rezzed &&
       after.historyCount>before.historyCount && after.history.slice(-(after.historyCount-before.historyCount)).some(e=>e.text==='Corp did not rez ice')) {
     const unavailable=rezQuote && rezQuote.available<rezQuote.cost;
-    return {kind:'unrezzed-ice',caption:`Runner passes ${passedIce.title} unrezzed`,
+    return {kind:'unrezzed-ice',requiresRezReview:!before.decision?.commands.some(c=>c.command==='rez' && c.options.some(o=>o.card?.id===passedIce.id)),caption:`Runner passes ${passedIce.title} unrezzed`,
       detail:unavailable?`Could not rez ${passedIce.title}: ${rezQuote.cost} credits required; ${rezQuote.available} eligible credit${rezQuote.available===1?'':'s'} available.`:'No rez was made. The Runner passes this ice without encountering it.',
       card:passedIce,opponent,turn:after.turn,state:after,
       targets:{cards:[passedIce.id],server:before.run.server,zones:['corp-status']}};

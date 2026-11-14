@@ -1,0 +1,594 @@
+{
+  "selection": "First six held-out seed indices, all three versions",
+  "versions": [
+    {
+      "label": "Stored income (original)",
+      "games": [
+        {
+          "index": 0,
+          "seed": "deck-economy-holdout-1:0",
+          "winner": "corp",
+          "traceHash": "809a84fab15e335fc56e008e849b50fdf950bb61954c75e7be162284148c9380",
+          "decisions": 582,
+          "traceMatches": true,
+          "packageLog": [
+            {
+              "turn": 12,
+              "text": "Runner installed Telework Contract"
+            },
+            {
+              "turn": 12,
+              "text": "9 credits loaded onto Telework Contract"
+            },
+            {
+              "turn": 12,
+              "text": "Using Telework Contract:"
+            },
+            {
+              "turn": 12,
+              "text": "3 credits taken from Telework Contract"
+            },
+            {
+              "turn": 14,
+              "text": "Using Telework Contract:"
+            },
+            {
+              "turn": 14,
+              "text": "3 credits taken from Telework Contract"
+            },
+            {
+              "turn": 18,
+              "text": "Using Telework Contract:"
+            },
+            {
+              "turn": 18,
+              "text": "3 credits taken from Telework Contract"
+            },
+            {
+              "turn": 18,
+              "text": "Telework Contract trashed"
+            },
+            {
+              "turn": 18,
+              "text": "Runner installed Telework Contract"
+            },
+            {
+              "turn": 18,
+              "text": "9 credits loaded onto Telework Contract"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "seed": "deck-economy-holdout-1:1",
+          "winner": "runner",
+          "traceHash": "401960cbb97fc8458898bc2e91721918d33db0f426092142d29abfb3d6a43d8d",
+          "decisions": 804,
+          "traceMatches": true,
+          "packageLog": [
+            {
+              "turn": 18,
+              "text": "Runner installed Telework Contract"
+            },
+            {
+              "turn": 18,
+              "text": "9 credits loaded onto Telework Contract"
+            },
+            {
+              "turn": 18,
+              "text": "Using Telework Contract:"
+            },
+            {
+              "turn": 18,
+              "text": "3 credits taken from Telework Contract"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "seed": "deck-economy-holdout-1:2",
+          "winner": "runner",
+          "traceHash": "aa5e860f238ade9bec39d21ba2ff093feaf9fb46cb56f0134c2abe2d89ed4287",
+          "decisions": 576,
+          "traceMatches": true,
+          "packageLog": [
+            {
+              "turn": 4,
+              "text": "Runner installed Telework Contract"
+            },
+            {
+              "turn": 4,
+              "text": "9 credits loaded onto Telework Contract"
+            },
+            {
+              "turn": 4,
+              "text": "Using Telework Contract:"
+            },
+            {
+              "turn": 4,
+              "text": "3 credits taken from Telework Contract"
+            },
+            {
+              "turn": 8,
+              "text": "Using Telework Contract:"
+            },
+            {
+              "turn": 8,
+              "text": "3 credits taken from Telework Contract"
+            },
+            {
+              "turn": 10,
+              "text": "Using Telework Contract:"
+            },
+            {
+              "turn": 10,
+              "text": "3 credits taken from Telework Contract"
+            },
+            {
+              "turn": 10,
+              "text": "Telework Contract trashed"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "seed": "deck-economy-holdout-1:3",
+          "winner": "runner",
+          "traceHash": "2d3cc3d31b6020acdb0a639f986ac0a3dfa566c2a73976f49ae24253b7222b5e",
+          "decisions": 582,
+          "traceMatches": true,
+          "packageLog": [
+            {
+              "turn": 6,
+              "text": "Runner installed Telework Contract"
+            },
+            {
+              "turn": 6,
+              "text": "9 credits loaded onto Telework Contract"
+            },
+            {
+              "turn": 6,
+              "text": "Using Telework Contract:"
+            },
+            {
+              "turn": 6,
+              "text": "3 credits taken from Telework Contract"
+            },
+            {
+              "turn": 8,
+              "text": "Using Telework Contract:"
+            },
+            {
+              "turn": 8,
+              "text": "3 credits taken from Telework Contract"
+            },
+            {
+              "turn": 12,
+              "text": "Using Telework Contract:"
+            },
+            {
+              "turn": 12,
+              "text": "3 credits taken from Telework Contract"
+            },
+            {
+              "turn": 12,
+              "text": "Telework Contract trashed"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "seed": "deck-economy-holdout-1:4",
+          "winner": "runner",
+          "traceHash": "3a3b779155f272f026b943f063b5d467f59dd75a7ef33693ffb36a66013a5aa1",
+          "decisions": 1311,
+          "traceMatches": true,
+          "packageLog": [
+            {
+              "turn": 10,
+              "text": "Runner installed Telework Contract"
+            },
+            {
+              "turn": 10,
+              "text": "9 credits loaded onto Telework Contract"
+            },
+            {
+              "turn": 10,
+              "text": "Using Telework Contract:"
+            },
+            {
+              "turn": 10,
+              "text": "3 credits taken from Telework Contract"
+            },
+            {
+              "turn": 12,
+              "text": "Using Telework Contract:"
+            },
+            {
+              "turn": 12,
+              "text": "3 credits taken from Telework Contract"
+            },
+            {
+              "turn": 14,
+              "text": "Using Telework Contract:"
+            },
+            {
+              "turn": 14,
+              "text": "3 credits taken from Telework Contract"
+            },
+            {
+              "turn": 14,
+              "text": "Telework Contract trashed"
+            },
+            {
+              "turn": 22,
+              "text": "Runner installed Telework Contract"
+            },
+            {
+              "turn": 22,
+              "text": "9 credits loaded onto Telework Contract"
+            },
+            {
+              "turn": 24,
+              "text": "Using Telework Contract:"
+            },
+            {
+              "turn": 24,
+              "text": "3 credits taken from Telework Contract"
+            },
+            {
+              "turn": 28,
+              "text": "Using Telework Contract:"
+            },
+            {
+              "turn": 28,
+              "text": "3 credits taken from Telework Contract"
+            },
+            {
+              "turn": 34,
+              "text": "Using Telework Contract:"
+            },
+            {
+              "turn": 34,
+              "text": "3 credits taken from Telework Contract"
+            },
+            {
+              "turn": 34,
+              "text": "Telework Contract trashed"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "seed": "deck-economy-holdout-1:5",
+          "winner": "corp",
+          "traceHash": "2be8b42a66c8c6a773b77055c1b32d102fbc08960ffedc8b055fcee78f1dd471",
+          "decisions": 639,
+          "traceMatches": true,
+          "packageLog": []
+        }
+      ]
+    },
+    {
+      "label": "Burst income",
+      "games": [
+        {
+          "index": 0,
+          "seed": "deck-economy-holdout-1:0",
+          "winner": "corp",
+          "traceHash": "579bcbfcada243c08b89e66eb12dcaaa3712234f5c7af567acd928321b5a330c",
+          "decisions": 911,
+          "traceMatches": true,
+          "packageLog": [
+            {
+              "turn": 14,
+              "text": "Runner installed Telework Contract"
+            },
+            {
+              "turn": 14,
+              "text": "9 credits loaded onto Telework Contract"
+            },
+            {
+              "turn": 16,
+              "text": "Using Telework Contract:"
+            },
+            {
+              "turn": 16,
+              "text": "3 credits taken from Telework Contract"
+            },
+            {
+              "turn": 22,
+              "text": "Using Telework Contract:"
+            },
+            {
+              "turn": 22,
+              "text": "3 credits taken from Telework Contract"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "seed": "deck-economy-holdout-1:1",
+          "winner": "corp",
+          "traceHash": "02e6a7b94b4bee2cbf32faa4da9edbd662589b8c91a7cd68bc72c743f263deb0",
+          "decisions": 1173,
+          "traceMatches": true,
+          "packageLog": [
+            {
+              "turn": 2,
+              "text": "Played \"Wildcat Strike\""
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "seed": "deck-economy-holdout-1:2",
+          "winner": "runner",
+          "traceHash": "48e5a193fe41f84600756bbe9e891546dae4d641b168802fba36bc0225949707",
+          "decisions": 1147,
+          "traceMatches": true,
+          "packageLog": [
+            {
+              "turn": 2,
+              "text": "Played \"Wildcat Strike\""
+            },
+            {
+              "turn": 20,
+              "text": "Played \"Wildcat Strike\""
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "seed": "deck-economy-holdout-1:3",
+          "winner": "runner",
+          "traceHash": "6ce10371a7ee6c8227b648ec5bcc69a4a84a8191784e5d4a68e29244b8c3420b",
+          "decisions": 495,
+          "traceMatches": true,
+          "packageLog": [
+            {
+              "turn": 14,
+              "text": "Played \"Wildcat Strike\""
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "seed": "deck-economy-holdout-1:4",
+          "winner": "corp",
+          "traceHash": "fd794431f5a16a02a0339f9bae44c9db0cb1297e4be4fee3993b4b0648d7515b",
+          "decisions": 1497,
+          "traceMatches": true,
+          "packageLog": [
+            {
+              "turn": 2,
+              "text": "Played \"Wildcat Strike\""
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "seed": "deck-economy-holdout-1:5",
+          "winner": "corp",
+          "traceHash": "e90c1ec9feb904a596bc54b942cd404345a21285cb62f4cc7351dae17b773fc9",
+          "decisions": 1062,
+          "traceMatches": true,
+          "packageLog": [
+            {
+              "turn": 26,
+              "text": "Wildcat Strike trashed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Two Mayflies",
+      "games": [
+        {
+          "index": 0,
+          "seed": "deck-economy-holdout-1:0",
+          "winner": "runner",
+          "traceHash": "031dcbd4b20e23526b2ad7993e225d0fb4d5064b7120d6195e43f0a91866efa7",
+          "decisions": 847,
+          "traceMatches": true,
+          "packageLog": [
+            {
+              "turn": 4,
+              "text": "Runner installed Mayfly"
+            },
+            {
+              "turn": 6,
+              "text": "Using Mayfly:"
+            },
+            {
+              "turn": 6,
+              "text": "Mayfly trashed"
+            },
+            {
+              "turn": 12,
+              "text": "Runner installed Telework Contract"
+            },
+            {
+              "turn": 12,
+              "text": "9 credits loaded onto Telework Contract"
+            },
+            {
+              "turn": 14,
+              "text": "Using Telework Contract:"
+            },
+            {
+              "turn": 14,
+              "text": "3 credits taken from Telework Contract"
+            },
+            {
+              "turn": 16,
+              "text": "Using Telework Contract:"
+            },
+            {
+              "turn": 16,
+              "text": "3 credits taken from Telework Contract"
+            },
+            {
+              "turn": 20,
+              "text": "Using Telework Contract:"
+            },
+            {
+              "turn": 20,
+              "text": "3 credits taken from Telework Contract"
+            },
+            {
+              "turn": 20,
+              "text": "Telework Contract trashed"
+            },
+            {
+              "turn": 22,
+              "text": "Runner installed Mayfly"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "seed": "deck-economy-holdout-1:1",
+          "winner": "corp",
+          "traceHash": "7af79b00f358d93a11c324c5da03bab72baa4e0b6bee6152e4c6321216fdca33",
+          "decisions": 898,
+          "traceMatches": true,
+          "packageLog": [
+            {
+              "turn": 6,
+              "text": "Runner installed Mayfly"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "seed": "deck-economy-holdout-1:2",
+          "winner": "corp",
+          "traceHash": "ffbbc7d79d0fe62c331fff9496174d6f68cac69005c6afdf5e2f9e43eaf8fe85",
+          "decisions": 847,
+          "traceMatches": true,
+          "packageLog": [
+            {
+              "turn": 10,
+              "text": "Runner discarded \"Mayfly\""
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "seed": "deck-economy-holdout-1:3",
+          "winner": "corp",
+          "traceHash": "ca033a81a6ba8d723cc5817c8e0d4a479cd68c540c91f44b9ef209bde4660675",
+          "decisions": 931,
+          "traceMatches": true,
+          "packageLog": [
+            {
+              "turn": 6,
+              "text": "Runner installed Telework Contract"
+            },
+            {
+              "turn": 6,
+              "text": "9 credits loaded onto Telework Contract"
+            },
+            {
+              "turn": 6,
+              "text": "Using Telework Contract:"
+            },
+            {
+              "turn": 6,
+              "text": "3 credits taken from Telework Contract"
+            },
+            {
+              "turn": 8,
+              "text": "Using Telework Contract:"
+            },
+            {
+              "turn": 8,
+              "text": "3 credits taken from Telework Contract"
+            },
+            {
+              "turn": 10,
+              "text": "Using Telework Contract:"
+            },
+            {
+              "turn": 10,
+              "text": "3 credits taken from Telework Contract"
+            },
+            {
+              "turn": 10,
+              "text": "Telework Contract trashed"
+            },
+            {
+              "turn": 16,
+              "text": "Runner discarded \"Mayfly\""
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "seed": "deck-economy-holdout-1:4",
+          "winner": "runner",
+          "traceHash": "751e6690f650f5cd82191db11bef07da6ca29b3b1684f1e0a883dc24a0761a84",
+          "decisions": 2102,
+          "traceMatches": true,
+          "packageLog": [
+            {
+              "turn": 8,
+              "text": "Runner installed Telework Contract"
+            },
+            {
+              "turn": 8,
+              "text": "9 credits loaded onto Telework Contract"
+            },
+            {
+              "turn": 8,
+              "text": "Using Telework Contract:"
+            },
+            {
+              "turn": 8,
+              "text": "3 credits taken from Telework Contract"
+            },
+            {
+              "turn": 10,
+              "text": "Using Telework Contract:"
+            },
+            {
+              "turn": 10,
+              "text": "3 credits taken from Telework Contract"
+            },
+            {
+              "turn": 12,
+              "text": "Using Telework Contract:"
+            },
+            {
+              "turn": 12,
+              "text": "3 credits taken from Telework Contract"
+            },
+            {
+              "turn": 12,
+              "text": "Telework Contract trashed"
+            },
+            {
+              "turn": 34,
+              "text": "Runner discarded \"Mayfly\""
+            },
+            {
+              "turn": 36,
+              "text": "Mayfly trashed"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "seed": "deck-economy-holdout-1:5",
+          "winner": "corp",
+          "traceHash": "67d54488e3a910a301f52c81dfc4ac463922f33e2d4c7cf7240794e31fe53b83",
+          "decisions": 639,
+          "traceMatches": true,
+          "packageLog": []
+        }
+      ]
+    }
+  ]
+}

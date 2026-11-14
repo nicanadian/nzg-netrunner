@@ -1,0 +1,2319 @@
+{
+  "schemaVersion": 1,
+  "kind": "Implementation audit in progress; evidence is partial and does not certify all required protocols",
+  "cards": [
+    {
+      "id": "35001",
+      "title": "Ryō “Phoenix” Ōno: Out of the Ashes",
+      "type": "identity",
+      "wave": 1,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35001",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Resolved versus merely unbroken subroutine",
+        "first qualifying success each player turn",
+        "aborted run and empty HQ"
+      ],
+      "evidence": [
+        "tests/core-timing.cjs",
+        "docs/playtesting/elevation/chrome-full-playthroughs.md"
+      ]
+    },
+    {
+      "id": "35002",
+      "title": "Topan: Ormas Leader",
+      "type": "identity",
+      "wave": 3,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35002",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Two-credit discount floors at zero",
+        "install finishes before meat damage",
+        "once-per-turn, cancellation and flatline"
+      ],
+      "evidence": [
+        "tests/core-events.cjs",
+        "tests/core-runner-advanced.cjs"
+      ]
+    },
+    {
+      "id": "35003",
+      "title": "Charm Offensive",
+      "type": "event",
+      "wave": 1,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35003",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Accessed Archives card matches rezzed copy by title",
+        "unrezzed/nonmatching copies excluded",
+        "optional trash after run end"
+      ],
+      "evidence": [
+        "tests/core-runner-advanced.cjs"
+      ]
+    },
+    {
+      "id": "35004",
+      "title": "Scrounge",
+      "type": "event",
+      "wave": 1,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35004",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Additional click plus normal install payment",
+        "program-only heap target",
+        "optional bottom-stack return and no eligible return"
+      ],
+      "evidence": [
+        "tests/core-streamlining.cjs",
+        "docs/playtesting/elevation/chrome-full-playthroughs.md"
+      ]
+    },
+    {
+      "id": "35005",
+      "title": "Shred",
+      "type": "event",
+      "wave": 1,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35005",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "First Corp-caused end only",
+        "dynamic root count and random revealed HQ trash",
+        "insufficient HQ, jack-out and multiple end attempts"
+      ],
+      "evidence": [
+        "docs/playtesting/elevation/chrome-full-playthroughs.md",
+        "tests/core-events.cjs"
+      ]
+    },
+    {
+      "id": "35006",
+      "title": "Bling",
+      "type": "hardware",
+      "wave": 3,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35006",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Zero-credit installs versus ignored or reduced costs",
+        "hosted cards playable but not installed",
+        "cleanup and console replacement"
+      ],
+      "evidence": [
+        "tests/core-install-sequences.cjs"
+      ]
+    },
+    {
+      "id": "35007",
+      "title": "Gourmand",
+      "type": "program",
+      "wave": 3,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35007",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Access timing and non-agenda restriction",
+        "trash-as-cost versus prevention",
+        "draw only when the accessed card is trashed"
+      ],
+      "evidence": [
+        "tests/core-runner-advanced.cjs"
+      ]
+    },
+    {
+      "id": "35008",
+      "title": "Hantu",
+      "type": "program",
+      "wave": 3,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35008",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Two counters on install",
+        "counter-funded strength and expiry",
+        "sentry-only interface and purge"
+      ],
+      "evidence": [
+        "tests/core-runner-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35009",
+      "title": "Rising Tide",
+      "type": "program",
+      "wave": 1,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35009",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Heap fracter count changes dynamically",
+        "strength threshold and exact payment",
+        "subtype changes and encounter expiry"
+      ],
+      "evidence": [
+        "tests/core-rising-tide.cjs",
+        "docs/playtesting/elevation/chrome-full-playthroughs.md"
+      ]
+    },
+    {
+      "id": "35010",
+      "title": "Cacophony",
+      "type": "resource",
+      "wave": 3,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35010",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "First steal/trash each Runner or Corp turn",
+        "two-counter end-action sabotage",
+        "HQ/R&D distribution and short deck"
+      ],
+      "evidence": [
+        "tests/core-events.cjs"
+      ]
+    },
+    {
+      "id": "35011",
+      "title": "Rent Rioters",
+      "type": "resource",
+      "wave": 1,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35011",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Three-click affordability and trash cost",
+        "exactly nine credits",
+        "no double activation or insufficient-click payment"
+      ],
+      "evidence": [
+        "docs/playtesting/elevation/chrome-full-playthroughs.md",
+        "tests/core-runner-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35012",
+      "title": "Barry “Baz” Wong: Tri-Maf Veteran",
+      "type": "identity",
+      "wave": 3,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35012",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Corp rez qualifies, install/reveal does not",
+        "optional paid resource/hardware install",
+        "multiple rezzes and interrupted encounter timing"
+      ],
+      "evidence": [
+        "tests/core-runner-advanced.cjs"
+      ]
+    },
+    {
+      "id": "35013",
+      "title": "MuslihaT: Multifarious Marketeer",
+      "type": "identity",
+      "wave": 3,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35013",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Private top-card look",
+        "eligible breaker/run-event reveal",
+        "decline, wrong type and empty stack"
+      ],
+      "evidence": [
+        "tests/core-private.cjs"
+      ]
+    },
+    {
+      "id": "35014",
+      "title": "Clean Getaway",
+      "type": "event",
+      "wave": 3,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35014",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Six-credit reward once for this successful run",
+        "unsuccessful run and jack-out",
+        "redirected server and reward ordering"
+      ],
+      "evidence": [
+        "tests/core-runner-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35015",
+      "title": "Lie Low",
+      "type": "event",
+      "wave": 1,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35015",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Additional click",
+        "draw-four versus zero/one/two tags",
+        "real alternatives retained, draw exhaustion and no-choice streamlining"
+      ],
+      "evidence": [
+        "tests/core-streamlining.cjs",
+        "docs/playtesting/elevation/chrome-full-playthroughs.md"
+      ]
+    },
+    {
+      "id": "35016",
+      "title": "Maintenance Access",
+      "type": "event",
+      "wave": 3,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35016",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Archives approach redirects to HQ after its ice",
+        "no second HQ ice traversal",
+        "encounter/run flags and jack-out"
+      ],
+      "evidence": [
+        "tests/core-events.cjs"
+      ]
+    },
+    {
+      "id": "35017",
+      "title": "Transfer of Wealth",
+      "type": "event",
+      "wave": 3,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35017",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Success gives tag and drains only credits actually available",
+        "reward equals twice loss",
+        "prevention and HQ redirection"
+      ],
+      "evidence": [
+        "tests/core-runner-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35018",
+      "title": "Detente",
+      "type": "hardware",
+      "wave": 1,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35018",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "First HQ success each turn",
+        "random hosted card stays uninstalled and publicly visible",
+        "either player's two-card return/access ability"
+      ],
+      "evidence": [
+        "tests/core-hosted-uninstalled.cjs",
+        "tests/core-detente.cjs"
+      ]
+    },
+    {
+      "id": "35019",
+      "title": "Maglectric Rapid (748 Mod)",
+      "type": "hardware",
+      "wave": 3,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35019",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Successful HQ run then self-trash",
+        "legal installed derez target",
+        "optional decline and already inactive target"
+      ],
+      "evidence": [
+        "tests/core-runner-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35020",
+      "title": "Sang Kancil",
+      "type": "program",
+      "wave": 3,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35020",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Run-event-active boost discount and floor",
+        "code-gate-only break",
+        "strength expiry and ordinary runs"
+      ],
+      "evidence": [
+        "tests/core-runner-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35021",
+      "title": "Fransofia Ward",
+      "type": "resource",
+      "wave": 3,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35021",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Rez tax applied before affordability",
+        "Corp 14/15-credit boundary at encounter",
+        "bypass skips remaining encounter effects and subroutines"
+      ],
+      "evidence": [
+        "tests/core-runner-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35022",
+      "title": "Open Market",
+      "type": "resource",
+      "wave": 3,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35022",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Load/refill versus take",
+        "Connection/Job-only install funding",
+        "mixed sources, empty auto-trash and unrelated costs denied"
+      ],
+      "evidence": [
+        "tests/core-runner-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35023",
+      "title": "Dewi Subrotoputri: Pedagogical Dhalang",
+      "type": "identity",
+      "wave": 3,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35023",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Both identity faces",
+        "exact used/free MU at successful run",
+        "flip reward and repeated successes without stale memory state"
+      ],
+      "evidence": [
+        "tests/core-identity-faces.cjs"
+      ]
+    },
+    {
+      "id": "35024",
+      "title": "Magdalene Keino-Chemutai: Cryptarchitect",
+      "type": "identity",
+      "wave": 3,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35024",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Only hand-limit discards qualify",
+        "choose from that discard batch",
+        "install costs, MU, console limit, decline and multiple discarded cards"
+      ],
+      "evidence": [
+        "tests/core-events.cjs"
+      ]
+    },
+    {
+      "id": "35025",
+      "title": "Illumination",
+      "type": "event",
+      "wave": 3,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35025",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Successful R&D requirement",
+        "zero/one/two/three sequential installs",
+        "per-install discount, changing grip/MU and decline"
+      ],
+      "evidence": [
+        "tests/core-install-sequences.cjs"
+      ]
+    },
+    {
+      "id": "35026",
+      "title": "Ritual",
+      "type": "event",
+      "wave": 3,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35026",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Remaining clicks measured after play payment",
+        "zero/one/multiple draw",
+        "no accidental extra click and deck exhaustion"
+      ],
+      "evidence": [
+        "tests/core-runner-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35027",
+      "title": "GAMEDRAGON™ Pro",
+      "type": "hardware",
+      "wave": 3,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35027",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Host only installed non-AI breaker",
+        "rehost removes prior bonus",
+        "strength abilities persist through encounters then expire at run end"
+      ],
+      "evidence": [
+        "tests/core-runner-advanced.cjs"
+      ]
+    },
+    {
+      "id": "35028",
+      "title": "Madani",
+      "type": "hardware",
+      "wave": 3,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35028",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Click hosts zero or many grip programs uninstalled",
+        "paid once-per-turn install",
+        "console trash, memory and turn resets"
+      ],
+      "evidence": [
+        "tests/core-runner-advanced.cjs"
+      ]
+    },
+    {
+      "id": "35029",
+      "title": "Azimat",
+      "type": "program",
+      "wave": 3,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35029",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Recurring-credit refill and restricted trash funding",
+        "no install/break spending",
+        "split payment and spent credit bookkeeping"
+      ],
+      "evidence": [
+        "tests/core-runner-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35030",
+      "title": "Chromatophores",
+      "type": "program",
+      "wave": 3,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35030",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Ice gains all three subtypes",
+        "each breaker becomes legal",
+        "unhosting restores subtype counts and host-trash cleanup"
+      ],
+      "evidence": [
+        "tests/core-runner-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35031",
+      "title": "Devadatta Drone",
+      "type": "program",
+      "wave": 3,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35031",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Two install counters",
+        "each R&D breach offers one extra access",
+        "redirected runs, no counters and access-order privacy"
+      ],
+      "evidence": [
+        "tests/core-events.cjs"
+      ]
+    },
+    {
+      "id": "35032",
+      "title": "Principia",
+      "type": "program",
+      "wave": 3,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35032",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Discount counts other breakers after installation trash choices",
+        "cost floor",
+        "barrier break and strength payment/expiry"
+      ],
+      "evidence": [
+        "tests/core-runner-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35033",
+      "title": "“Knickknack” O’Brian",
+      "type": "resource",
+      "wave": 3,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35033",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "First run each turn",
+        "trash another installed card as cost",
+        "printed cost versus paid cost, zero/X cost and failed trash"
+      ],
+      "evidence": [
+        "tests/core-events.cjs"
+      ]
+    },
+    {
+      "id": "35034",
+      "title": "Side Hustle",
+      "type": "resource",
+      "wave": 1,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35034",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Install/run-initiation counters",
+        "exact six-credit payout followed by trash/draw",
+        "multiple copies and successive runs"
+      ],
+      "evidence": [
+        "docs/playtesting/elevation/chrome-full-playthroughs.md",
+        "tests/core-runner-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35035",
+      "title": "LEO Construction: Labor Solutions",
+      "type": "identity",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35035",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Only rezzed bioroid on attacked server may pay cost",
+        "once each turn",
+        "root/ice choices, changed server and source trashed during run"
+      ],
+      "evidence": [
+        "tests/core-corp-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35036",
+      "title": "Poétrï Luxury Brands: All the Rage",
+      "type": "identity",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35036",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Score looks at up to three top cards",
+        "non-agenda install only",
+        "stolen trigger installs from HQ, costs and ordering"
+      ],
+      "evidence": [
+        "tests/core-private.cjs"
+      ]
+    },
+    {
+      "id": "35037",
+      "title": "Aggressive Trendsetting",
+      "type": "agenda",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35037",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Only first installed-card trash on each Runner turn",
+        "Runner click payment or next Corp click allocation",
+        "no repeat and zero Runner clicks"
+      ],
+      "evidence": [
+        "tests/core-operations.cjs"
+      ]
+    },
+    {
+      "id": "35038",
+      "title": "Project Ingatan",
+      "type": "agenda",
+      "wave": 1,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35038",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Excess advancements give counters only on scoring",
+        "discard-end optional Archives install ignores all costs",
+        "counter use and full transaction"
+      ],
+      "evidence": [
+        "docs/playtesting/elevation/chrome-full-playthroughs.md",
+        "tests/core-corp-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35039",
+      "title": "Humanoid Resources",
+      "type": "asset",
+      "wave": 1,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35039",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Three clicks and self-trash paid first",
+        "gain/draw before zero-to-two sequential installs",
+        "optional operation and additional play costs"
+      ],
+      "evidence": [
+        "tests/core-humanoid-resources.cjs"
+      ]
+    },
+    {
+      "id": "35040",
+      "title": "Otto Campaign",
+      "type": "asset",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35040",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Rez loads six",
+        "three two-credit start payouts",
+        "empty trash grants exactly two clicks, with click allocation ordered correctly"
+      ],
+      "evidence": [
+        "tests/core-economy.cjs"
+      ]
+    },
+    {
+      "id": "35041",
+      "title": "Bumi 1.0",
+      "type": "ice",
+      "wave": 1,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35041",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Rez during own server run offers installed Trojan trash",
+        "Runner-only click break",
+        "program trash/core damage and choice ordering"
+      ],
+      "evidence": [
+        "docs/playtesting/elevation/chrome-full-playthroughs.md"
+      ]
+    },
+    {
+      "id": "35042",
+      "title": "Scatter Field",
+      "type": "ice",
+      "wave": 1,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35042",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Only-ice strength bonus updates on install/move/trash",
+        "optional HQ install completes before continuation",
+        "end-run and moving run position"
+      ],
+      "evidence": [
+        "tests/core-corp-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35043",
+      "title": "Nanomanagement",
+      "type": "operation",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35043",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "One operation action click then gain two clicks",
+        "operation recursion and once-per-turn references",
+        "action-phase continuation"
+      ],
+      "evidence": [
+        "tests/core-economy.cjs"
+      ]
+    },
+    {
+      "id": "35044",
+      "title": "Top-Down Solutions",
+      "type": "operation",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35044",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Draw two then zero/one/two sequential HQ installs",
+        "native install costs/replacements",
+        "changing legal targets and cancellation"
+      ],
+      "evidence": [
+        "tests/core-operations.cjs"
+      ]
+    },
+    {
+      "id": "35045",
+      "title": "Mercia B4LL4RD",
+      "type": "upgrade",
+      "wave": 1,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35045",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "End-action trigger before discard",
+        "discounted zero/nonzero ice payment",
+        "optional decline, relocation, cancel and discount cleanup"
+      ],
+      "evidence": [
+        "tests/core-mercia-install.cjs",
+        "tests/core-timing.cjs",
+        "docs/playtesting/elevation/chrome-full-playthroughs.md"
+      ]
+    },
+    {
+      "id": "35046",
+      "title": "AU Co.: The Gold Standard in Clones",
+      "type": "identity",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35046",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Damage event versus each damaged card",
+        "one counter for HQ trash batch",
+        "two-counter private top-three selection, short deck and decline"
+      ],
+      "evidence": [
+        "tests/core-private.cjs"
+      ]
+    },
+    {
+      "id": "35047",
+      "title": "PT Untaian: Life's Building Blocks",
+      "type": "identity",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35047",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "HQ size three/four boundary at discard end",
+        "unrezzed advanceable target and one-credit payment",
+        "no same-turn score and decline"
+      ],
+      "evidence": [
+        "tests/core-corp-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35048",
+      "title": "Proprionegation",
+      "type": "agenda",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35048",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Counter on scoring",
+        "ability only in a run",
+        "redirect to outermost Archives, restart approach, reset encounter and preserve run flags"
+      ],
+      "evidence": [
+        "tests/core-corp-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35049",
+      "title": "Sericulture Expansion",
+      "type": "agenda",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35049",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Excess counters on scoring",
+        "end-discard payment then two counters on installed target",
+        "no same-turn score, eligibility and decline"
+      ],
+      "evidence": [
+        "tests/core-events.cjs",
+        "tests/core-corp-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35050",
+      "title": "Byte!",
+      "type": "asset",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35050",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "R&D access reveal",
+        "no Archives ambush",
+        "optional four-credit tag then damage, prevention and flatline"
+      ],
+      "evidence": [
+        "tests/core-corp-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35051",
+      "title": "Phật Gioan Baotixita",
+      "type": "asset",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35051",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Counter at own discard end",
+        "first score/steal each turn",
+        "zero/one/two removals and damage even when removing zero"
+      ],
+      "evidence": [
+        "tests/core-corp-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35052",
+      "title": "Empiricist",
+      "type": "ice",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35052",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Draw then optional HQ top-deck",
+        "separate damage/tag order",
+        "short deck, grip exhaustion and flatline interrupts later effects"
+      ],
+      "evidence": [
+        "tests/core-corp-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35053",
+      "title": "Mycoweb",
+      "type": "ice",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35053",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Free Archives ice install, discounted rez, remote subroutine resolution",
+        "recursive chains terminate or hit diagnostics",
+        "legal rezzed sentry/other code gate"
+      ],
+      "evidence": [
+        "tests/core-operations.cjs"
+      ]
+    },
+    {
+      "id": "35054",
+      "title": "Semak-samun",
+      "type": "ice",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35054",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Printed subroutine may be broken only via fracter",
+        "nonprinted versus printed restrictions",
+        "end-run alternative damage, prevention and flatline"
+      ],
+      "evidence": [
+        "tests/core-rez-costs.cjs"
+      ]
+    },
+    {
+      "id": "35055",
+      "title": "Peer Review",
+      "type": "operation",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35055",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Reveal all but one HQ card with privacy restored",
+        "gain seven before optional remote-root install",
+        "zero/one HQ and illegal target"
+      ],
+      "evidence": [
+        "tests/core-operations.cjs"
+      ]
+    },
+    {
+      "id": "35056",
+      "title": "Mitra Aman",
+      "type": "upgrade",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35056",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Approach timing before encounter",
+        "self-trash/gain then swap target from HQ/Archives",
+        "preserve ice position and encounter replacement correctly"
+      ],
+      "evidence": [
+        "tests/core-events.cjs"
+      ]
+    },
+    {
+      "id": "35057",
+      "title": "Nebula Talent Management: Making Stars",
+      "type": "identity",
+      "wave": 2,
+      "definition": "local-port",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35057",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Both faces and operation tracking",
+        "end-action gain/flip versus first-operation click",
+        "successful HQ/R&D flip and simultaneous effects"
+      ],
+      "evidence": [
+        "tests/core-nbn-local.cjs"
+      ]
+    },
+    {
+      "id": "35058",
+      "title": "Synapse Global: Faster than Thought",
+      "type": "identity",
+      "wave": 2,
+      "definition": "local-port",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35058",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "First removed tag each turn versus batch count",
+        "optional revealed free install",
+        "click/tag cost ordering and resets across both turns"
+      ],
+      "evidence": [
+        "tests/core-nbn-local.cjs"
+      ]
+    },
+    {
+      "id": "35059",
+      "title": "Embedded Reporting",
+      "type": "agenda",
+      "wave": 2,
+      "definition": "local-port",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35059",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Dividends two per excess advancement",
+        "end-discard counter/search/reveal/shuffle/top-deck ordering",
+        "no operation, decline and hidden deck order"
+      ],
+      "evidence": [
+        "tests/core-nbn-local.cjs",
+        "tests/core-private.cjs"
+      ]
+    },
+    {
+      "id": "35060",
+      "title": "Next Big Thing",
+      "type": "agenda",
+      "wave": 2,
+      "definition": "local-port",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35060",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Counter on scored and stolen agenda",
+        "Corp activation from either score area",
+        "click/counter payment, draw four, optional HQ shuffle and ownership"
+      ],
+      "evidence": [
+        "tests/core-nbn-local.cjs"
+      ]
+    },
+    {
+      "id": "35061",
+      "title": "Idiosyncresis",
+      "type": "asset",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35061",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Advancement-dependent gain/loss after optional self-trash",
+        "zero counters and insufficient Runner credits",
+        "start-turn ordering and decline"
+      ],
+      "evidence": [
+        "tests/core-corp-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35062",
+      "title": "Public Access Plaza",
+      "type": "asset",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35062",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Start-turn income",
+        "rezzed-trash tag only at Threat two or above",
+        "unrez, zero/two threat boundary and trash source"
+      ],
+      "evidence": [
+        "tests/core-economy.cjs"
+      ]
+    },
+    {
+      "id": "35063",
+      "title": "Doomscroll",
+      "type": "ice",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35063",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Separate tag/net-damage subroutines",
+        "third conditional damage reads current tags",
+        "broken subroutines and flatline order"
+      ],
+      "evidence": [
+        "tests/core-corp-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35064",
+      "title": "N-Pot",
+      "type": "ice",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35064",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Runner-only paid break independent of icebreaker",
+        "Threat one/two/three/four boundaries",
+        "multiple subroutine payments and insufficient credits"
+      ],
+      "evidence": [
+        "tests/core-corp-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35065",
+      "title": "Bigger Picture",
+      "type": "operation",
+      "wave": 2,
+      "definition": "local-port",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35065",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Tagged play restriction",
+        "choose add-tag or any removals",
+        "drain actual credits, gain matching loss and zero tags after payment"
+      ],
+      "evidence": [
+        "tests/core-nbn-local.cjs"
+      ]
+    },
+    {
+      "id": "35066",
+      "title": "IP Enforcement",
+      "type": "operation",
+      "wave": 2,
+      "definition": "local-port",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35066",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "X-credit and additional X-tag payment",
+        "printed agenda points determine target",
+        "stolen agenda ownership/score totals, leftover-tag advancement and terminal timing"
+      ],
+      "evidence": [
+        "tests/core-nbn-local.cjs"
+      ]
+    },
+    {
+      "id": "35067",
+      "title": "Touch-ups",
+      "type": "operation",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35067",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Extra click and valid advanceable target",
+        "advance before reveal/type selection",
+        "zero-to-two matching grip cards shuffled, privacy and empty grip"
+      ],
+      "evidence": [
+        "tests/core-operations.cjs"
+      ]
+    },
+    {
+      "id": "35068",
+      "title": "BANGUN: When Disaster Strikes",
+      "type": "identity",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35068",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Optional faceup agenda install stays inactive",
+        "access triggers damage/tag only for faceup installed agenda",
+        "HQ/R&D access and flatline ordering"
+      ],
+      "evidence": [
+        "tests/core-corp-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35069",
+      "title": "The Zwicky Group: Invisible Hands",
+      "type": "identity",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35069",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "First qualifying agenda/operation credit gain each turn",
+        "no basic income/asset trigger",
+        "optional draw, batches and opponent-turn reset"
+      ],
+      "evidence": [
+        "tests/core-events.cjs"
+      ]
+    },
+    {
+      "id": "35070",
+      "title": "Greenmail",
+      "type": "agenda",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35070",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Score gain two versus forfeit gain four",
+        "credit event ordering with Zwicky",
+        "forfeited source and agenda-point recalculation"
+      ],
+      "evidence": [
+        "tests/core-events.cjs"
+      ]
+    },
+    {
+      "id": "35071",
+      "title": "Off the Books",
+      "type": "agenda",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35071",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Excess counters",
+        "end-discard search/reveal/shuffle",
+        "optional free legal install or add to HQ, operation/agenda target and decline"
+      ],
+      "evidence": [
+        "tests/core-private.cjs",
+        "tests/core-corp-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35072",
+      "title": "Anthill Excavation Contract",
+      "type": "asset",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35072",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Rez load eight",
+        "two take-four/draw-one start payouts",
+        "empty trash ordering and R&D exhaustion"
+      ],
+      "evidence": [
+        "tests/core-economy.cjs"
+      ]
+    },
+    {
+      "id": "35073",
+      "title": "Plutus",
+      "type": "asset",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35073",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Rez additional forfeit versus reveal/trash three HQ cards",
+        "optional Archives Transaction play pays costs",
+        "remove after full resolution and recursive source safety"
+      ],
+      "evidence": [
+        "tests/core-rez-costs.cjs",
+        "tests/core-operations.cjs"
+      ]
+    },
+    {
+      "id": "35074",
+      "title": "Biawak",
+      "type": "ice",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35074",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Optional forfeit pays ten toward rez, surplus not banked",
+        "program/resource trash-or-end branches",
+        "missing targets and changing agenda totals"
+      ],
+      "evidence": [
+        "tests/core-rez-costs.cjs"
+      ]
+    },
+    {
+      "id": "35075",
+      "title": "Kessleroid",
+      "type": "ice",
+      "wave": 1,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35075",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Runner trash prohibition while rezzed",
+        "Corp trash allowed and unrezzed case",
+        "both ETR subroutines and generic trash effects"
+      ],
+      "evidence": [
+        "docs/playtesting/elevation/chrome-full-playthroughs.md"
+      ]
+    },
+    {
+      "id": "35076",
+      "title": "Syailendra",
+      "type": "ice",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35076",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Encounter threshold two/three advancement",
+        "optional eligible-target advancement",
+        "sequential advancement/drain/damage subroutines"
+      ],
+      "evidence": [
+        "tests/core-corp-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35077",
+      "title": "Key Performance Indicators",
+      "type": "operation",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35077",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Two distinct modes, either order",
+        "each completes before next",
+        "draw/shuffle, free ice install, advance and credits with changing targets"
+      ],
+      "evidence": [
+        "tests/core-operations.cjs"
+      ]
+    },
+    {
+      "id": "35078",
+      "title": "Measured Response",
+      "type": "operation",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35078",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Threat three/four and last Runner-turn success history",
+        "pay-eight versus four meat damage",
+        "partial funds, prevention and flatline"
+      ],
+      "evidence": [
+        "tests/core-corp-contracts.cjs"
+      ]
+    },
+    {
+      "id": "35079",
+      "title": "Flyswatter",
+      "type": "ice",
+      "wave": 1,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35079",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Only rez during attacked-server run purges",
+        "mandatory effect streamlining and counters cleared",
+        "other server/outside-run rez and ETR"
+      ],
+      "evidence": [
+        "tests/core-streamlining.cjs",
+        "docs/playtesting/elevation/chrome-full-playthroughs.md"
+      ]
+    },
+    {
+      "id": "35080",
+      "title": "Lamplighter",
+      "type": "ice",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35080",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Score/steal from same server trashes source ice",
+        "other servers unaffected",
+        "conditional tag/payment then read current tag for ETR"
+      ],
+      "evidence": [
+        "tests/core-operations.cjs"
+      ]
+    },
+    {
+      "id": "35081",
+      "title": "Petty Cash",
+      "type": "operation",
+      "wave": 4,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35081",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Only before any completed action this turn",
+        "HQ versus Archives play click reward",
+        "additional action cost, removed-from-game and repeated-play prevention"
+      ],
+      "evidence": [
+        "tests/core-economy.cjs"
+      ]
+    },
+    {
+      "id": "35082",
+      "title": "Mahkota Langit Grid",
+      "type": "upgrade",
+      "wave": 1,
+      "definition": "audit-existing",
+      "rulesStatus": "partial-evidence; full protocol audit required",
+      "aiStatus": "audit-required",
+      "cardReference": "https://netrunnerdb.com/en/card/35082",
+      "requiredProtocols": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H"
+      ],
+      "scenarioFocus": [
+        "Recurring refill/eligible same-server rez only",
+        "no cross-server pool leakage",
+        "persistent asset trash-cost modifier while unrezzed, regions and movement"
+      ],
+      "evidence": [
+        "docs/playtesting/elevation/chrome-full-playthroughs.md"
+      ]
+    }
+  ]
+}

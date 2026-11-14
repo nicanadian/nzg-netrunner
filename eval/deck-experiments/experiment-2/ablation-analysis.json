@@ -1,0 +1,175 @@
+{
+  "phase": "ablation",
+  "engineHash": "c8c52ccc31737fc9422b50e395a7400e0be4a08b2dffddedda3e275d88c8925f",
+  "seed": "corp-revisions-confirm-2",
+  "finishedAt": "2026-11-14T05:04:20.101Z",
+  "comparison": "Revised Jinteki confirmation games vs the same list replacing 2 Clearinghouse with 2 Predictive Planogram. A specific two-slot trade, not a card-isolation experiment with identical alternatives.",
+  "delta": -0.11499999999999995,
+  "completedSeedClusters": 200,
+  "scheduledSeedClusters": 200,
+  "bootstrap": {
+    "level": 0.975,
+    "replicates": 20000,
+    "seed": 19238,
+    "interval": [
+      -0.16666666666666655,
+      -0.06333333333333332
+    ]
+  },
+  "allScheduledDeltaBounds": [
+    -0.11499999999999995,
+    -0.11499999999999995
+  ],
+  "runnerDeltas": [
+    {
+      "runner": "loup-v1",
+      "baselineCorpWins": 85,
+      "alternativeCorpWins": 61,
+      "games": 200
+    },
+    {
+      "runner": "zahya-v2",
+      "baselineCorpWins": 74,
+      "alternativeCorpWins": 57,
+      "games": 200
+    },
+    {
+      "runner": "tao-v1",
+      "baselineCorpWins": 95,
+      "alternativeCorpWins": 67,
+      "games": 200
+    }
+  ],
+  "cells": [
+    {
+      "r": 0,
+      "c": 0,
+      "directory": "matchup-0-0",
+      "runner": "loup-v1",
+      "corp": "restoring-humanity-v2 / Planogram instead of Clearinghouse",
+      "scheduled": 200,
+      "completed": 200,
+      "statuses": {
+        "completed": 200
+      },
+      "runnerWins": 139,
+      "corpWins": 61,
+      "runnerWinRate": 0.695,
+      "wilson95": [
+        0.6280144790202163,
+        0.7546358436926496
+      ],
+      "allScheduledWinBounds": [
+        0.695,
+        0.695
+      ],
+      "medianRoundReached": 14,
+      "medianNativeDecisions": 998.5,
+      "p50Ms": 752.5,
+      "p95Ms": 7997.4999999999945,
+      "reasons": {
+        "agenda points": 195,
+        "flatline": 5
+      },
+      "creditClicks": {
+        "runner": 1789,
+        "corp": 1251
+      },
+      "drawClicks": {
+        "runner": 2742,
+        "corp": 701
+      },
+      "runnerTurns": 2848,
+      "corpTurns": 2907,
+      "basicRunnerCreditClicksPerTurn": 0.6281601123595506,
+      "basicCorpCreditClicksPerTurn": 0.43034055727554177
+    },
+    {
+      "r": 1,
+      "c": 0,
+      "directory": "matchup-1-0",
+      "runner": "zahya-v2",
+      "corp": "restoring-humanity-v2 / Planogram instead of Clearinghouse",
+      "scheduled": 200,
+      "completed": 200,
+      "statuses": {
+        "completed": 200
+      },
+      "runnerWins": 143,
+      "corpWins": 57,
+      "runnerWinRate": 0.715,
+      "wilson95": [
+        0.6488465397039482,
+        0.7730499699538271
+      ],
+      "allScheduledWinBounds": [
+        0.715,
+        0.715
+      ],
+      "medianRoundReached": 13.5,
+      "medianNativeDecisions": 1021,
+      "p50Ms": 517,
+      "p95Ms": 1893.949999999999,
+      "reasons": {
+        "agenda points": 191,
+        "flatline": 9
+      },
+      "creditClicks": {
+        "runner": 724,
+        "corp": 1383
+      },
+      "drawClicks": {
+        "runner": 2857,
+        "corp": 781
+      },
+      "runnerTurns": 2727,
+      "corpTurns": 2784,
+      "basicRunnerCreditClicksPerTurn": 0.2654932159882655,
+      "basicCorpCreditClicksPerTurn": 0.49676724137931033
+    },
+    {
+      "r": 2,
+      "c": 0,
+      "directory": "matchup-2-0",
+      "runner": "tao-v1",
+      "corp": "restoring-humanity-v2 / Planogram instead of Clearinghouse",
+      "scheduled": 200,
+      "completed": 200,
+      "statuses": {
+        "completed": 200
+      },
+      "runnerWins": 133,
+      "corpWins": 67,
+      "runnerWinRate": 0.665,
+      "wilson95": [
+        0.5970219120796653,
+        0.7267591302158368
+      ],
+      "allScheduledWinBounds": [
+        0.665,
+        0.665
+      ],
+      "medianRoundReached": 14,
+      "medianNativeDecisions": 985.5,
+      "p50Ms": 536.5,
+      "p95Ms": 2387.9499999999994,
+      "reasons": {
+        "agenda points": 189,
+        "flatline": 9,
+        "deck exhaustion": 2
+      },
+      "creditClicks": {
+        "runner": 1177,
+        "corp": 1373
+      },
+      "drawClicks": {
+        "runner": 3046,
+        "corp": 684
+      },
+      "runnerTurns": 2819,
+      "corpTurns": 2886,
+      "basicRunnerCreditClicksPerTurn": 0.4175239446612274,
+      "basicCorpCreditClicksPerTurn": 0.47574497574497576
+    }
+  ]
+}

@@ -1,0 +1,1285 @@
+{
+  "history": [
+    {
+      "side": "corp",
+      "text": "Game begins. First to 7 agenda points.",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp chose to keep",
+      "turn": 1
+    },
+    {
+      "actor": "runner",
+      "side": "corp",
+      "text": "Runner chose to keep",
+      "turn": 1
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed ice protecting R&D",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed ice protecting HQ",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Played \"Predictive Planogram\"",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained 3 credits",
+      "turn": 1
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 2 credits from credit pool",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Runner installed DZMZ Optimizer",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 2
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Corp spent 3 credits from credit pool",
+      "turn": 2
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Corp rezzed Palisade protecting R&D at position 0",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Palisade protecting R&D at position 0",
+      "turn": 2
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"End the run.\" on Palisade protecting R&D at position 0:",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 1 credit from credit pool",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Runner installed Botulus",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "1 virus counter placed on Botulus",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Palisade protecting R&D at position 0",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Using Botulus:",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "1 virus counter removed from Botulus",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Subroutine \"End the run.\" broken",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Approaching R&D",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Urtica Cipher accessed",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 2
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 3
+    },
+    {
+      "draw": {
+        "kind": "action"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained one credit",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed ice protecting R&D",
+      "turn": 3
+    },
+    {
+      "side": "runner",
+      "text": "1 virus counter placed on Botulus",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 5 credits from credit pool",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Played \"Sure Gamble\"",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained 9 credits",
+      "turn": 4
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained one credit",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained one credit",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained one credit",
+      "turn": 5
+    },
+    {
+      "side": "runner",
+      "text": "1 virus counter placed on Botulus",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 6
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 6
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Corp rezzed Tithe protecting R&D at position 1",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Tithe protecting R&D at position 1",
+      "turn": 6
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"Do 1 net damage.\" on Tithe protecting R&D at position 1:",
+      "turn": 6
+    },
+    {
+      "damage": {
+        "amount": 1,
+        "card": {
+          "id": "c39",
+          "number": 30073,
+          "title": "Tithe"
+        },
+        "gripBefore": 2,
+        "type": "net"
+      },
+      "side": "runner",
+      "text": "Runner takes 1 net damage",
+      "turn": 6
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Smartware Distributor trashed",
+      "turn": 6
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"Gain 1 credit.\" on Tithe protecting R&D at position 1:",
+      "turn": 6
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Corp gained one credit",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Approaching next piece of ice protecting R&D",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Palisade protecting R&D at position 0",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Using Botulus:",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "1 virus counter removed from Botulus",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Subroutine \"End the run.\" broken",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Approaching R&D",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Hansei Review accessed",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Tithe protecting R&D at position 1",
+      "turn": 6
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"Do 1 net damage.\" on Tithe protecting R&D at position 1:",
+      "turn": 6
+    },
+    {
+      "damage": {
+        "amount": 1,
+        "card": {
+          "id": "c39",
+          "number": 30073,
+          "title": "Tithe"
+        },
+        "gripBefore": 1,
+        "type": "net"
+      },
+      "side": "runner",
+      "text": "Runner takes 1 net damage",
+      "turn": 6
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "VRcation trashed",
+      "turn": 6
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"Gain 1 credit.\" on Tithe protecting R&D at position 1:",
+      "turn": 6
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Corp gained one credit",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Approaching next piece of ice protecting R&D",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Palisade protecting R&D at position 0",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Using Botulus:",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "1 virus counter removed from Botulus",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Subroutine \"End the run.\" broken",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Approaching R&D",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Hansei Review accessed",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Tithe protecting R&D at position 1",
+      "turn": 6
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"Do 1 net damage.\" on Tithe protecting R&D at position 1:",
+      "turn": 6
+    },
+    {
+      "damage": {
+        "amount": 1,
+        "card": {
+          "id": "c39",
+          "number": 30073,
+          "title": "Tithe"
+        },
+        "gripBefore": 0,
+        "type": "net"
+      },
+      "side": "runner",
+      "text": "Runner takes 1 net damage",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Runner flatlined",
+      "turn": 6
+    }
+  ],
+  "session": {
+    "choices": [
+      {
+        "command": "n",
+        "index": 0,
+        "version": 2
+      },
+      {
+        "command": "install",
+        "index": 0,
+        "version": 31
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 34
+      },
+      {
+        "command": "install",
+        "index": 0,
+        "version": 51
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 54
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 59
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 60
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 68
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 75
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 78
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 113
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 115
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 117
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 119
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 152
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 168
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 173
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 174
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 182
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 189
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 190
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 194
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 208
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 213
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 214
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 222
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 229
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 230
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 234
+      }
+    ],
+    "conceded": false,
+    "config": {
+      "deckDocuments": {
+        "corp": {
+          "cards": [
+            {
+              "count": 1,
+              "id": "30044"
+            },
+            {
+              "count": 3,
+              "id": "30045"
+            },
+            {
+              "count": 3,
+              "id": "30046"
+            },
+            {
+              "count": 3,
+              "id": "30047"
+            },
+            {
+              "count": 3,
+              "id": "30048"
+            },
+            {
+              "count": 2,
+              "id": "30049"
+            },
+            {
+              "count": 2,
+              "id": "30050"
+            },
+            {
+              "count": 3,
+              "id": "30053"
+            },
+            {
+              "count": 2,
+              "id": "30056"
+            },
+            {
+              "count": 3,
+              "id": "30067"
+            },
+            {
+              "count": 2,
+              "id": "30068"
+            },
+            {
+              "count": 2,
+              "id": "30069"
+            },
+            {
+              "count": 3,
+              "id": "30071"
+            },
+            {
+              "count": 3,
+              "id": "30072"
+            },
+            {
+              "count": 3,
+              "id": "30073"
+            },
+            {
+              "count": 3,
+              "id": "30074"
+            },
+            {
+              "count": 3,
+              "id": "30075"
+            }
+          ],
+          "identity": "30043",
+          "name": "restoring-humanity-v2 / Planogram instead of Clearinghouse",
+          "pool": "gateway-v1",
+          "schemaVersion": 1,
+          "side": "corp"
+        },
+        "runner": {
+          "cards": [
+            {
+              "count": 2,
+              "id": "30002"
+            },
+            {
+              "count": 2,
+              "id": "30004"
+            },
+            {
+              "count": 3,
+              "id": "30006"
+            },
+            {
+              "count": 3,
+              "id": "30020"
+            },
+            {
+              "count": 3,
+              "id": "30021"
+            },
+            {
+              "count": 2,
+              "id": "30022"
+            },
+            {
+              "count": 2,
+              "id": "30023"
+            },
+            {
+              "count": 2,
+              "id": "30024"
+            },
+            {
+              "count": 3,
+              "id": "30025"
+            },
+            {
+              "count": 3,
+              "id": "30026"
+            },
+            {
+              "count": 1,
+              "id": "30027"
+            },
+            {
+              "count": 3,
+              "id": "30028"
+            },
+            {
+              "count": 3,
+              "id": "30029"
+            },
+            {
+              "count": 3,
+              "id": "30030"
+            },
+            {
+              "count": 3,
+              "id": "30033"
+            },
+            {
+              "count": 2,
+              "id": "30034"
+            }
+          ],
+          "identity": "30019",
+          "name": "Tāo Salonga — burst income",
+          "pool": "gateway-v1",
+          "schemaVersion": 1,
+          "side": "runner"
+        }
+      },
+      "rulesVersion": "26.03-local-2",
+      "seed": "056f83ab-b1d8-45c8-9af5-fb0ad3c0c383",
+      "side": "runner"
+    },
+    "engine": "chiriboga-77c80b1-local-1"
+  },
+  "terminal": {
+    "damage": {
+      "amount": 1,
+      "card": {
+        "id": "c39",
+        "number": 30073,
+        "title": "Tithe"
+      },
+      "gripBefore": 0,
+      "type": "net"
+    },
+    "reason": "Runner flatlined",
+    "winner": "corp"
+  },
+  "uiTest": {
+    "clicks": [
+      {
+        "at": 1794685736832,
+        "text": "DZMZ Optimizer"
+      },
+      {
+        "at": 1794685742691,
+        "text": "Install1 click · 2 credits→"
+      },
+      {
+        "at": 1794685758390,
+        "text": "Make a run1 click3 choices ›"
+      },
+      {
+        "at": 1794685763991,
+        "text": "R&D1 click"
+      },
+      {
+        "at": 1794685794430,
+        "text": "Botulus"
+      },
+      {
+        "at": 1794685800295,
+        "text": "Install → Palisade · R&D · ice 1 from outside1 click · 1 creditDZMZ Optimizer: first-program install discount applied→"
+      },
+      {
+        "at": 1794685801328,
+        "text": "Make a run1 click3 choices ›"
+      },
+      {
+        "at": 1794685801726,
+        "text": "R&D1 click"
+      },
+      {
+        "at": 1794685812892,
+        "text": "Botulus · Break 1 subroutine on host ice1 virus counter→"
+      },
+      {
+        "at": 1794685825525,
+        "text": "Break subroutine 1: End the run.1 virus counter"
+      },
+      {
+        "at": 1794685854525,
+        "text": "Continue the runMove to the next run window, or jack out to end the run."
+      },
+      {
+        "at": 1794685889526,
+        "text": "Urtica Cipher\nAmbush\nRead full card ↗"
+      },
+      {
+        "at": 1794685889924,
+        "text": "\n        ×\n      "
+      },
+      {
+        "at": 1794685890290,
+        "text": "Finish accessingFinish resolving this card’s access."
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Gain 1 credit\n1 click",
+        "turn": 4,
+        "why": "build credits"
+      },
+      {
+        "at": 1794685951110,
+        "text": "Gain 1 credit1 click→"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Gain 1 credit\n1 click",
+        "turn": 4,
+        "why": "build credits"
+      },
+      {
+        "at": 1794685951664,
+        "text": "Gain 1 credit1 click→"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Gain 1 credit\n1 click",
+        "turn": 4,
+        "why": "build credits"
+      },
+      {
+        "at": 1794685952219,
+        "text": "Gain 1 credit1 click→"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Sure Gamble",
+        "turn": 4,
+        "why": "inspect economy card"
+      },
+      {
+        "at": 1794685952777,
+        "text": "Sure Gamble"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Play\n1 click · 5 credits\n→",
+        "turn": 4,
+        "why": "inspected card action"
+      },
+      {
+        "at": 1794685953131,
+        "text": "Play1 click · 5 credits→"
+      },
+      {
+        "phase": "Corp 2.1",
+        "text": "Skip to decision",
+        "turn": 5,
+        "why": "skip recorded animation"
+      },
+      {
+        "at": 1794685953690,
+        "text": "Skip to decision"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Make a run\n1 click\n3 choices ›",
+        "turn": 6,
+        "why": "test another run"
+      },
+      {
+        "at": 1794685954043,
+        "text": "Make a run1 click3 choices ›"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "R&D\n1 click",
+        "turn": 6,
+        "why": "choose run target"
+      },
+      {
+        "at": 1794685954395,
+        "text": "R&D1 click"
+      },
+      {
+        "phase": "Run 2.1",
+        "text": "Skip to decision",
+        "turn": 6,
+        "why": "skip recorded animation"
+      },
+      {
+        "at": 1794685954957,
+        "text": "Skip to decision"
+      },
+      {
+        "phase": "Run 4.3",
+        "text": "Continue the run\nMove to the next run window, or jack out to end the run.",
+        "turn": 6,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "at": 1794685955311,
+        "text": "Continue the runMove to the next run window, or jack out to end the run."
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Botulus · Break 1 subroutine on host ice\n1 virus counter\n→",
+        "turn": 6,
+        "why": "use visible card ability"
+      },
+      {
+        "at": 1794685955664,
+        "text": "Botulus · Break 1 subroutine on host ice1 virus counter→"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Break subroutine 1: End the run.\n1 virus counter",
+        "turn": 6,
+        "why": "break selected subroutine"
+      },
+      {
+        "at": 1794685956017,
+        "text": "Break subroutine 1: End the run.1 virus counter"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Skip to decision",
+        "turn": 6,
+        "why": "skip recorded animation"
+      },
+      {
+        "at": 1794685956573,
+        "text": "Skip to decision"
+      },
+      {
+        "phase": "Run 4.3",
+        "text": "Continue the run\nMove to the next run window, or jack out to end the run.",
+        "turn": 6,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "at": 1794685956927,
+        "text": "Continue the runMove to the next run window, or jack out to end the run."
+      },
+      {
+        "phase": "Run Accessing",
+        "text": "Finish accessing\nFinish resolving this card’s access.",
+        "turn": 6,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "at": 1794685957280,
+        "text": "Finish accessingFinish resolving this card’s access."
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Make a run\n1 click\n3 choices ›",
+        "turn": 6,
+        "why": "test another run"
+      },
+      {
+        "at": 1794685957632,
+        "text": "Make a run1 click3 choices ›"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "R&D\n1 click",
+        "turn": 6,
+        "why": "choose run target"
+      },
+      {
+        "at": 1794685957985,
+        "text": "R&D1 click"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Skip to decision",
+        "turn": 6,
+        "why": "skip recorded animation"
+      },
+      {
+        "at": 1794685958546,
+        "text": "Skip to decision"
+      },
+      {
+        "phase": "Run 4.3",
+        "text": "Continue the run\nMove to the next run window, or jack out to end the run.",
+        "turn": 6,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "at": 1794685958898,
+        "text": "Continue the runMove to the next run window, or jack out to end the run."
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Botulus · Break 1 subroutine on host ice\n1 virus counter\n→",
+        "turn": 6,
+        "why": "use visible card ability"
+      },
+      {
+        "at": 1794685959252,
+        "text": "Botulus · Break 1 subroutine on host ice1 virus counter→"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Break subroutine 1: End the run.\n1 virus counter",
+        "turn": 6,
+        "why": "break selected subroutine"
+      },
+      {
+        "at": 1794685959603,
+        "text": "Break subroutine 1: End the run.1 virus counter"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Skip to decision",
+        "turn": 6,
+        "why": "skip recorded animation"
+      },
+      {
+        "at": 1794685960170,
+        "text": "Skip to decision"
+      },
+      {
+        "phase": "Run 4.3",
+        "text": "Continue the run\nMove to the next run window, or jack out to end the run.",
+        "turn": 6,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "at": 1794685960524,
+        "text": "Continue the runMove to the next run window, or jack out to end the run."
+      },
+      {
+        "phase": "Run Accessing",
+        "text": "Finish accessing\nFinish resolving this card’s access.",
+        "turn": 6,
+        "why": "continue timing or finish card access"
+      },
+      {
+        "at": 1794685960876,
+        "text": "Finish accessingFinish resolving this card’s access."
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "Make a run\n1 click\n3 choices ›",
+        "turn": 6,
+        "why": "test another run"
+      },
+      {
+        "at": 1794685961229,
+        "text": "Make a run1 click3 choices ›"
+      },
+      {
+        "phase": "Runner 1.3",
+        "text": "R&D\n1 click",
+        "turn": 6,
+        "why": "choose run target"
+      },
+      {
+        "at": 1794685961581,
+        "text": "R&D1 click"
+      },
+      {
+        "phase": "Run 3.1",
+        "text": "Skip to decision",
+        "turn": 6,
+        "why": "skip recorded animation"
+      },
+      {
+        "at": 1794685962143,
+        "text": "Skip to decision"
+      }
+    ],
+    "errors": []
+  },
+  "visible": "CORP WINS\nAnother run awaits.\n\nRunner flatlined\n\nTithe: 1 net damage · 0 cards in the Runner’s grip before damage · damage exceeds grip: flatline\n\nPlay again →"
+}

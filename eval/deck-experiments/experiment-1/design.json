@@ -1,0 +1,1427 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-14T04:23:11.232Z",
+  "engineHash": "c8c52ccc31737fc9422b50e395a7400e0be4a08b2dffddedda3e275d88c8925f",
+  "pool": "gateway-v1",
+  "policy": "chiriboga-native-unaudited-v1",
+  "machine": {
+    "cpu": "Apple M4",
+    "node": "v25.2.1",
+    "platform": "darwin"
+  },
+  "panel": {
+    "schemaVersion": 1,
+    "runners": [
+      "loup-v1",
+      "zahya-v2",
+      "tao-v1"
+    ],
+    "corps": [
+      "precision-design-v2",
+      "restoring-humanity-v2",
+      "built-to-last-v2"
+    ],
+    "gamesPerMatchup": 50,
+    "seed": "deck-panel-1",
+    "workers": 4,
+    "wallMs": 120000,
+    "decisions": 100000,
+    "traceEvery": 1,
+    "mode": "fast"
+  },
+  "selection": {
+    "minimumCompleted": 45,
+    "maximumErrors": 0,
+    "criterion": "Closest completed-game Runner win rate to 50%; break ties by fewer unfinished games, then fixed row/column order.",
+    "missingness": "Display all status counts and worst-case win-rate bounds over all scheduled games."
+  },
+  "followup": {
+    "gamesPerVersion": 200,
+    "seed": "deck-economy-holdout-1",
+    "versions": [
+      "Stored income (original)",
+      "Burst income",
+      "Two Mayflies"
+    ],
+    "workers": 4,
+    "wallMs": 120000,
+    "decisions": 100000,
+    "traceEvery": 1,
+    "mode": "fast",
+    "selectionIndependentSeeds": true
+  },
+  "analysis": {
+    "wilsonLevel": 0.95,
+    "pairedBootstrapLevel": 0.975,
+    "bootstrapReplicates": 10000,
+    "contrasts": 2,
+    "notice": "Exploratory list/package results under one fixed AI policy. Two 97.5% paired intervals provide a Bonferroni family-wise 95% interval target; missing-game bounds reported separately. Shared seeds do not imply identical starting hands or later random events."
+  },
+  "decks": [
+    {
+      "id": "loup-v1",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "René “Loup” Arcemont",
+        "side": "runner",
+        "identity": "30001",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30002",
+            "count": 3
+          },
+          {
+            "id": "30003",
+            "count": 2
+          },
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30005",
+            "count": 3
+          },
+          {
+            "id": "30006",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 3
+          },
+          {
+            "id": "30015",
+            "count": 3
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30031",
+            "count": 2
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 3
+          }
+        ]
+      },
+      "validation": {
+        "size": 40,
+        "influence": 6,
+        "influenceLimit": 15,
+        "minimumSize": 40,
+        "agenda": 0,
+        "agendaMin": 18,
+        "agendaMax": 19
+      }
+    },
+    {
+      "id": "zahya-v2",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "Zahya Sadeghi",
+        "side": "runner",
+        "identity": "30010",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 1
+          },
+          {
+            "id": "30005",
+            "count": 2
+          },
+          {
+            "id": "30011",
+            "count": 3
+          },
+          {
+            "id": "30012",
+            "count": 3
+          },
+          {
+            "id": "30013",
+            "count": 2
+          },
+          {
+            "id": "30014",
+            "count": 3
+          },
+          {
+            "id": "30015",
+            "count": 2
+          },
+          {
+            "id": "30016",
+            "count": 2
+          },
+          {
+            "id": "30017",
+            "count": 2
+          },
+          {
+            "id": "30018",
+            "count": 3
+          },
+          {
+            "id": "30021",
+            "count": 3
+          },
+          {
+            "id": "30027",
+            "count": 2
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 1
+          },
+          {
+            "id": "30034",
+            "count": 2
+          }
+        ]
+      },
+      "validation": {
+        "size": 40,
+        "influence": 15,
+        "influenceLimit": 15,
+        "minimumSize": 40,
+        "agenda": 0,
+        "agendaMin": 18,
+        "agendaMax": 19
+      }
+    },
+    {
+      "id": "tao-v1",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "Tāo Salonga",
+        "side": "runner",
+        "identity": "30019",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 2
+          },
+          {
+            "id": "30006",
+            "count": 3
+          },
+          {
+            "id": "30020",
+            "count": 3
+          },
+          {
+            "id": "30021",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 2
+          },
+          {
+            "id": "30023",
+            "count": 2
+          },
+          {
+            "id": "30024",
+            "count": 2
+          },
+          {
+            "id": "30025",
+            "count": 3
+          },
+          {
+            "id": "30026",
+            "count": 3
+          },
+          {
+            "id": "30027",
+            "count": 3
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 2
+          }
+        ]
+      },
+      "validation": {
+        "size": 40,
+        "influence": 12,
+        "influenceLimit": 15,
+        "minimumSize": 40,
+        "agenda": 0,
+        "agendaMin": 18,
+        "agendaMax": 19
+      }
+    },
+    {
+      "id": "precision-design-v2",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "Haas-Bioroid: Precision Design",
+        "side": "corp",
+        "identity": "30035",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30037",
+            "count": 3
+          },
+          {
+            "id": "30038",
+            "count": 3
+          },
+          {
+            "id": "30039",
+            "count": 3
+          },
+          {
+            "id": "30040",
+            "count": 3
+          },
+          {
+            "id": "30041",
+            "count": 2
+          },
+          {
+            "id": "30042",
+            "count": 2
+          },
+          {
+            "id": "30048",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 2
+          },
+          {
+            "id": "30056",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 3
+          },
+          {
+            "id": "30070",
+            "count": 1
+          },
+          {
+            "id": "30071",
+            "count": 1
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30074",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          }
+        ]
+      },
+      "validation": {
+        "size": 44,
+        "influence": 7,
+        "influenceLimit": 15,
+        "minimumSize": 40,
+        "agenda": 18,
+        "agendaMin": 18,
+        "agendaMax": 19
+      }
+    },
+    {
+      "id": "restoring-humanity-v2",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "Jinteki: Restoring Humanity",
+        "side": "corp",
+        "identity": "30043",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30044",
+            "count": 1
+          },
+          {
+            "id": "30045",
+            "count": 3
+          },
+          {
+            "id": "30046",
+            "count": 3
+          },
+          {
+            "id": "30047",
+            "count": 3
+          },
+          {
+            "id": "30048",
+            "count": 3
+          },
+          {
+            "id": "30049",
+            "count": 2
+          },
+          {
+            "id": "30050",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30061",
+            "count": 2
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30068",
+            "count": 2
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30074",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          }
+        ]
+      },
+      "validation": {
+        "size": 44,
+        "influence": 9,
+        "influenceLimit": 15,
+        "minimumSize": 40,
+        "agenda": 18,
+        "agendaMin": 18,
+        "agendaMax": 19
+      }
+    },
+    {
+      "id": "built-to-last-v2",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "Weyland Consortium: Built to Last",
+        "side": "corp",
+        "identity": "30059",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30055",
+            "count": 3
+          },
+          {
+            "id": "30060",
+            "count": 1
+          },
+          {
+            "id": "30061",
+            "count": 2
+          },
+          {
+            "id": "30062",
+            "count": 2
+          },
+          {
+            "id": "30063",
+            "count": 2
+          },
+          {
+            "id": "30064",
+            "count": 1
+          },
+          {
+            "id": "30065",
+            "count": 1
+          },
+          {
+            "id": "30066",
+            "count": 1
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30068",
+            "count": 2
+          },
+          {
+            "id": "30069",
+            "count": 1
+          },
+          {
+            "id": "30070",
+            "count": 3
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30074",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          }
+        ]
+      },
+      "validation": {
+        "size": 40,
+        "influence": 9,
+        "influenceLimit": 15,
+        "minimumSize": 40,
+        "agenda": 18,
+        "agendaMin": 18,
+        "agendaMax": 19
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "id": "loup-v1",
+      "versions": [
+        {
+          "label": "Stored income (original)",
+          "deck": {
+            "schemaVersion": 1,
+            "name": "René “Loup” Arcemont",
+            "side": "runner",
+            "identity": "30001",
+            "pool": "gateway-v1",
+            "cards": [
+              {
+                "id": "30002",
+                "count": 3
+              },
+              {
+                "id": "30003",
+                "count": 2
+              },
+              {
+                "id": "30004",
+                "count": 3
+              },
+              {
+                "id": "30005",
+                "count": 3
+              },
+              {
+                "id": "30006",
+                "count": 3
+              },
+              {
+                "id": "30007",
+                "count": 3
+              },
+              {
+                "id": "30008",
+                "count": 3
+              },
+              {
+                "id": "30015",
+                "count": 3
+              },
+              {
+                "id": "30028",
+                "count": 3
+              },
+              {
+                "id": "30029",
+                "count": 3
+              },
+              {
+                "id": "30030",
+                "count": 3
+              },
+              {
+                "id": "30031",
+                "count": 2
+              },
+              {
+                "id": "30033",
+                "count": 3
+              },
+              {
+                "id": "30034",
+                "count": 3
+              }
+            ]
+          },
+          "changes": [],
+          "validation": {
+            "size": 40,
+            "influence": 6,
+            "influenceLimit": 15,
+            "minimumSize": 40,
+            "agenda": 0,
+            "agendaMin": 18,
+            "agendaMax": 19
+          }
+        },
+        {
+          "label": "Burst income",
+          "deck": {
+            "schemaVersion": 1,
+            "name": "René “Loup” Arcemont — burst income",
+            "side": "runner",
+            "identity": "30001",
+            "pool": "gateway-v1",
+            "cards": [
+              {
+                "id": "30002",
+                "count": 3
+              },
+              {
+                "id": "30003",
+                "count": 2
+              },
+              {
+                "id": "30004",
+                "count": 3
+              },
+              {
+                "id": "30005",
+                "count": 3
+              },
+              {
+                "id": "30006",
+                "count": 3
+              },
+              {
+                "id": "30007",
+                "count": 3
+              },
+              {
+                "id": "30008",
+                "count": 3
+              },
+              {
+                "id": "30015",
+                "count": 3
+              },
+              {
+                "id": "30020",
+                "count": 2
+              },
+              {
+                "id": "30028",
+                "count": 3
+              },
+              {
+                "id": "30029",
+                "count": 3
+              },
+              {
+                "id": "30030",
+                "count": 3
+              },
+              {
+                "id": "30031",
+                "count": 2
+              },
+              {
+                "id": "30033",
+                "count": 1
+              },
+              {
+                "id": "30034",
+                "count": 3
+              }
+            ]
+          },
+          "changes": [
+            {
+              "id": "30033",
+              "delta": -2
+            },
+            {
+              "id": "30020",
+              "delta": 2
+            }
+          ],
+          "validation": {
+            "size": 40,
+            "influence": 10,
+            "influenceLimit": 15,
+            "minimumSize": 40,
+            "agenda": 0,
+            "agendaMin": 18,
+            "agendaMax": 19
+          }
+        },
+        {
+          "label": "Two Mayflies",
+          "deck": {
+            "schemaVersion": 1,
+            "name": "René “Loup” Arcemont — two Mayflies",
+            "side": "runner",
+            "identity": "30001",
+            "pool": "gateway-v1",
+            "cards": [
+              {
+                "id": "30002",
+                "count": 3
+              },
+              {
+                "id": "30003",
+                "count": 2
+              },
+              {
+                "id": "30004",
+                "count": 3
+              },
+              {
+                "id": "30005",
+                "count": 3
+              },
+              {
+                "id": "30006",
+                "count": 3
+              },
+              {
+                "id": "30007",
+                "count": 3
+              },
+              {
+                "id": "30008",
+                "count": 3
+              },
+              {
+                "id": "30015",
+                "count": 3
+              },
+              {
+                "id": "30028",
+                "count": 3
+              },
+              {
+                "id": "30029",
+                "count": 3
+              },
+              {
+                "id": "30030",
+                "count": 3
+              },
+              {
+                "id": "30031",
+                "count": 2
+              },
+              {
+                "id": "30032",
+                "count": 2
+              },
+              {
+                "id": "30033",
+                "count": 1
+              },
+              {
+                "id": "30034",
+                "count": 3
+              }
+            ]
+          },
+          "changes": [
+            {
+              "id": "30033",
+              "delta": -2
+            },
+            {
+              "id": "30032",
+              "delta": 2
+            }
+          ],
+          "validation": {
+            "size": 40,
+            "influence": 6,
+            "influenceLimit": 15,
+            "minimumSize": 40,
+            "agenda": 0,
+            "agendaMin": 18,
+            "agendaMax": 19
+          }
+        }
+      ]
+    },
+    {
+      "id": "zahya-v2",
+      "versions": [
+        {
+          "label": "Stored income (original)",
+          "deck": {
+            "schemaVersion": 1,
+            "name": "Zahya Sadeghi",
+            "side": "runner",
+            "identity": "30010",
+            "pool": "gateway-v1",
+            "cards": [
+              {
+                "id": "30004",
+                "count": 1
+              },
+              {
+                "id": "30005",
+                "count": 2
+              },
+              {
+                "id": "30011",
+                "count": 3
+              },
+              {
+                "id": "30012",
+                "count": 3
+              },
+              {
+                "id": "30013",
+                "count": 2
+              },
+              {
+                "id": "30014",
+                "count": 3
+              },
+              {
+                "id": "30015",
+                "count": 2
+              },
+              {
+                "id": "30016",
+                "count": 2
+              },
+              {
+                "id": "30017",
+                "count": 2
+              },
+              {
+                "id": "30018",
+                "count": 3
+              },
+              {
+                "id": "30021",
+                "count": 3
+              },
+              {
+                "id": "30027",
+                "count": 2
+              },
+              {
+                "id": "30028",
+                "count": 3
+              },
+              {
+                "id": "30029",
+                "count": 3
+              },
+              {
+                "id": "30030",
+                "count": 3
+              },
+              {
+                "id": "30033",
+                "count": 1
+              },
+              {
+                "id": "30034",
+                "count": 2
+              }
+            ]
+          },
+          "changes": [],
+          "validation": {
+            "size": 40,
+            "influence": 15,
+            "influenceLimit": 15,
+            "minimumSize": 40,
+            "agenda": 0,
+            "agendaMin": 18,
+            "agendaMax": 19
+          }
+        },
+        {
+          "label": "Burst income",
+          "deck": {
+            "schemaVersion": 1,
+            "name": "Zahya Sadeghi — burst income",
+            "side": "runner",
+            "identity": "30010",
+            "pool": "gateway-v1",
+            "cards": [
+              {
+                "id": "30004",
+                "count": 1
+              },
+              {
+                "id": "30005",
+                "count": 2
+              },
+              {
+                "id": "30011",
+                "count": 3
+              },
+              {
+                "id": "30012",
+                "count": 3
+              },
+              {
+                "id": "30013",
+                "count": 2
+              },
+              {
+                "id": "30014",
+                "count": 3
+              },
+              {
+                "id": "30015",
+                "count": 2
+              },
+              {
+                "id": "30016",
+                "count": 2
+              },
+              {
+                "id": "30017",
+                "count": 2
+              },
+              {
+                "id": "30018",
+                "count": 3
+              },
+              {
+                "id": "30020",
+                "count": 2
+              },
+              {
+                "id": "30021",
+                "count": 3
+              },
+              {
+                "id": "30028",
+                "count": 3
+              },
+              {
+                "id": "30029",
+                "count": 3
+              },
+              {
+                "id": "30030",
+                "count": 3
+              },
+              {
+                "id": "30033",
+                "count": 1
+              },
+              {
+                "id": "30034",
+                "count": 2
+              }
+            ]
+          },
+          "changes": [
+            {
+              "id": "30027",
+              "delta": -2
+            },
+            {
+              "id": "30020",
+              "delta": 2
+            }
+          ],
+          "validation": {
+            "size": 40,
+            "influence": 15,
+            "influenceLimit": 15,
+            "minimumSize": 40,
+            "agenda": 0,
+            "agendaMin": 18,
+            "agendaMax": 19
+          }
+        },
+        {
+          "label": "Two Mayflies",
+          "deck": {
+            "schemaVersion": 1,
+            "name": "Zahya Sadeghi — two Mayflies",
+            "side": "runner",
+            "identity": "30010",
+            "pool": "gateway-v1",
+            "cards": [
+              {
+                "id": "30004",
+                "count": 1
+              },
+              {
+                "id": "30005",
+                "count": 2
+              },
+              {
+                "id": "30011",
+                "count": 3
+              },
+              {
+                "id": "30012",
+                "count": 3
+              },
+              {
+                "id": "30013",
+                "count": 2
+              },
+              {
+                "id": "30014",
+                "count": 3
+              },
+              {
+                "id": "30015",
+                "count": 2
+              },
+              {
+                "id": "30016",
+                "count": 2
+              },
+              {
+                "id": "30017",
+                "count": 2
+              },
+              {
+                "id": "30018",
+                "count": 3
+              },
+              {
+                "id": "30021",
+                "count": 3
+              },
+              {
+                "id": "30028",
+                "count": 3
+              },
+              {
+                "id": "30029",
+                "count": 3
+              },
+              {
+                "id": "30030",
+                "count": 3
+              },
+              {
+                "id": "30032",
+                "count": 2
+              },
+              {
+                "id": "30033",
+                "count": 1
+              },
+              {
+                "id": "30034",
+                "count": 2
+              }
+            ]
+          },
+          "changes": [
+            {
+              "id": "30027",
+              "delta": -2
+            },
+            {
+              "id": "30032",
+              "delta": 2
+            }
+          ],
+          "validation": {
+            "size": 40,
+            "influence": 11,
+            "influenceLimit": 15,
+            "minimumSize": 40,
+            "agenda": 0,
+            "agendaMin": 18,
+            "agendaMax": 19
+          }
+        }
+      ]
+    },
+    {
+      "id": "tao-v1",
+      "versions": [
+        {
+          "label": "Stored income (original)",
+          "deck": {
+            "schemaVersion": 1,
+            "name": "Tāo Salonga",
+            "side": "runner",
+            "identity": "30019",
+            "pool": "gateway-v1",
+            "cards": [
+              {
+                "id": "30004",
+                "count": 2
+              },
+              {
+                "id": "30006",
+                "count": 3
+              },
+              {
+                "id": "30020",
+                "count": 3
+              },
+              {
+                "id": "30021",
+                "count": 3
+              },
+              {
+                "id": "30022",
+                "count": 2
+              },
+              {
+                "id": "30023",
+                "count": 2
+              },
+              {
+                "id": "30024",
+                "count": 2
+              },
+              {
+                "id": "30025",
+                "count": 3
+              },
+              {
+                "id": "30026",
+                "count": 3
+              },
+              {
+                "id": "30027",
+                "count": 3
+              },
+              {
+                "id": "30028",
+                "count": 3
+              },
+              {
+                "id": "30029",
+                "count": 3
+              },
+              {
+                "id": "30030",
+                "count": 3
+              },
+              {
+                "id": "30033",
+                "count": 3
+              },
+              {
+                "id": "30034",
+                "count": 2
+              }
+            ]
+          },
+          "changes": [],
+          "validation": {
+            "size": 40,
+            "influence": 12,
+            "influenceLimit": 15,
+            "minimumSize": 40,
+            "agenda": 0,
+            "agendaMin": 18,
+            "agendaMax": 19
+          }
+        },
+        {
+          "label": "Burst income",
+          "deck": {
+            "schemaVersion": 1,
+            "name": "Tāo Salonga — burst income",
+            "side": "runner",
+            "identity": "30019",
+            "pool": "gateway-v1",
+            "cards": [
+              {
+                "id": "30002",
+                "count": 2
+              },
+              {
+                "id": "30004",
+                "count": 2
+              },
+              {
+                "id": "30006",
+                "count": 3
+              },
+              {
+                "id": "30020",
+                "count": 3
+              },
+              {
+                "id": "30021",
+                "count": 3
+              },
+              {
+                "id": "30022",
+                "count": 2
+              },
+              {
+                "id": "30023",
+                "count": 2
+              },
+              {
+                "id": "30024",
+                "count": 2
+              },
+              {
+                "id": "30025",
+                "count": 3
+              },
+              {
+                "id": "30026",
+                "count": 3
+              },
+              {
+                "id": "30027",
+                "count": 1
+              },
+              {
+                "id": "30028",
+                "count": 3
+              },
+              {
+                "id": "30029",
+                "count": 3
+              },
+              {
+                "id": "30030",
+                "count": 3
+              },
+              {
+                "id": "30033",
+                "count": 3
+              },
+              {
+                "id": "30034",
+                "count": 2
+              }
+            ]
+          },
+          "changes": [
+            {
+              "id": "30027",
+              "delta": -2
+            },
+            {
+              "id": "30002",
+              "delta": 2
+            }
+          ],
+          "validation": {
+            "size": 40,
+            "influence": 14,
+            "influenceLimit": 15,
+            "minimumSize": 40,
+            "agenda": 0,
+            "agendaMin": 18,
+            "agendaMax": 19
+          }
+        },
+        {
+          "label": "Two Mayflies",
+          "deck": {
+            "schemaVersion": 1,
+            "name": "Tāo Salonga — two Mayflies",
+            "side": "runner",
+            "identity": "30019",
+            "pool": "gateway-v1",
+            "cards": [
+              {
+                "id": "30004",
+                "count": 2
+              },
+              {
+                "id": "30006",
+                "count": 3
+              },
+              {
+                "id": "30020",
+                "count": 3
+              },
+              {
+                "id": "30021",
+                "count": 3
+              },
+              {
+                "id": "30022",
+                "count": 2
+              },
+              {
+                "id": "30023",
+                "count": 2
+              },
+              {
+                "id": "30024",
+                "count": 2
+              },
+              {
+                "id": "30025",
+                "count": 3
+              },
+              {
+                "id": "30026",
+                "count": 3
+              },
+              {
+                "id": "30027",
+                "count": 1
+              },
+              {
+                "id": "30028",
+                "count": 3
+              },
+              {
+                "id": "30029",
+                "count": 3
+              },
+              {
+                "id": "30030",
+                "count": 3
+              },
+              {
+                "id": "30032",
+                "count": 2
+              },
+              {
+                "id": "30033",
+                "count": 3
+              },
+              {
+                "id": "30034",
+                "count": 2
+              }
+            ]
+          },
+          "changes": [
+            {
+              "id": "30027",
+              "delta": -2
+            },
+            {
+              "id": "30032",
+              "delta": 2
+            }
+          ],
+          "validation": {
+            "size": 40,
+            "influence": 12,
+            "influenceLimit": 15,
+            "minimumSize": 40,
+            "agenda": 0,
+            "agendaMin": 18,
+            "agendaMax": 19
+          }
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Gateway selected for its mature rules/AI regression coverage.",
+    "Different lists, sizes and identities are compared; identity effects are not isolated.",
+    "Variant two-card replacements are predeclared for every possible selected Runner.",
+    "No engine or policy edits during an experiment. Preserve initial failures; diagnostic retries are separate."
+  ]
+}

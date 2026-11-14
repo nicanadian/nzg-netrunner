@@ -1,3 +1,4 @@
+import {iceRezWarning} from './rez-warning.mjs';
 import {displayText} from './presentation.mjs';
 
 // Presentation only: retain the engine's command and option indices. Never
@@ -24,6 +25,8 @@ export function runDrawerModel(state, busy = false) {
         ? (remaining ? 'If both players pass, unbroken subroutines resolve in order.' : 'Pass this window. Pending responses finish before you move past this ice.')
         : 'Allow responses. The run advances when both players pass.';
     } else if (phase.identifier === 'Run 4.3') {label='Continue the run';detail='Move to the next run window, or jack out to end the run.';}
+    const warning=iceRezWarning(state);
+    if(c.command==='n' && warning){label=warning.label;detail='Review the warning before allowing the Runner past this inactive ice.';}
     return {command:c.command,index:c.options[0].index,label,detail,cost:c.cost};
   });
   const cancels = commands.filter(c => c.cancel).map(c => ({command:c.command,label:'Cancel selection'}));

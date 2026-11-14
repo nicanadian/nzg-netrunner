@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-14T00:48:03.451Z",
+  "engineHash": "230f78220f2ff76f4f5c4308669770a6b71c9bdfd82fa839e5facdb402ce9f2d",
+  "checks": [
+    {
+      "command": "NR_TEST_SEEDS=1 npm run check:dev",
+      "result": "passed"
+    },
+    {
+      "command": "npm run test:core-foundation",
+      "result": "passed after final focused changes"
+    },
+    {
+      "command": "npm run test:simulation",
+      "result": "passed after final focused changes"
+    },
+    {
+      "command": "node tests/core-chrome-replays.cjs",
+      "result": "three complete games and three focused actual-Chrome exports reconstruct"
+    },
+    {
+      "command": "npm run test:offline-package",
+      "result": "passed with networking denied on macOS"
+    }
+  ],
+  "elevation": {
+    "definitions": 82,
+    "withPartialAbilityEvidence": 82,
+    "fullyCertified": 0
+  },
+  "nativeIdentities": {
+    "completed": 14,
+    "total": 14,
+    "engineHash": "230f78220f2ff76f4f5c4308669770a6b71c9bdfd82fa839e5facdb402ce9f2d"
+  },
+  "gatewaySoak": {
+    "completed": 999,
+    "timeout": 1,
+    "total": 1000,
+    "note": "Separate retained experiment with frozen runtime; not a deck-balance finding"
+  },
+  "platforms": {
+    "macOSNetworkDenied": "passed",
+    "windowsCleanMachine": "pending",
+    "linuxCleanMachine": "pending"
+  },
+  "releaseStatus": "experimental development build; no new public release"
+}

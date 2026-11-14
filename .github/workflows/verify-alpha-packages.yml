@@ -1,11 +1,15 @@
-name: Verify Alpha packages
+name: Verify release packages
 on:
   workflow_dispatch:
     inputs:
       tag:
         description: Release tag to download and verify
-        default: alpha-build-1
+        default: v0.2.0
         required: true
+      source_ref:
+        description: Optional source commit or branch for verifying an unpublished draft
+        required: false
+        default: ''
 permissions:
   contents: read
 jobs:
@@ -27,7 +31,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ inputs.tag }}
+          ref: ${{ inputs.source_ref || inputs.tag }}
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
@@ -64,7 +68,9 @@ jobs:
           node <<'JS'
           const path=require('path');
           const {smoke}=require('./scripts/smoke-release.cjs');
-          const base=path.resolve('release-test',`nzg-netrunner-alpha-build-1-${process.env.TARGET}`);
+          const manifest=require('./release-test/manifest.json');
+          const item=manifest.packages.find(p=>p.target===process.env.TARGET);
+          const base=path.resolve('release-test',item.file.replace(/\.zip$/,''));
           const binary=process.platform==='win32'?'LocalTable.exe':process.platform==='darwin'?'Local Table.app/Contents/MacOS/LocalTable':'LocalTable';
-          smoke(path.join(base,binary)).catch(error=>{console.error(error);process.exitCode=1;});
+          smoke(path.join(base,binary),[],item.build).catch(error=>{console.error(error);process.exitCode=1;});
           JS

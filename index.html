@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="/app/polish.css" />
     <link rel="stylesheet" href="/app/helper.css" />
     <link rel="stylesheet" href="/app/run-drawer.css" />
-  <link rel="stylesheet" href="/app/interaction.css"></head>
+  <link rel="stylesheet" href="/app/interaction.css"><link rel="stylesheet" href="/app/deck-builder.css">
+  </head>
   <body>
     <header class="topbar">
       <a class="wordmark" href="/" aria-label="Netrunner Local Table"
@@ -118,6 +119,7 @@
           A corporation with something to hide.<br />A runner with nothing to
           lose. Your move.
         </p>
+        <div class="pool-picker"><label for="card-pool">Card pool</label><select id="card-pool" aria-describedby="pool-help"><option value="gateway-v1">System Gateway · 10 ready-made decks</option><option value="core-v1">Gateway + Elevation · 21 decks · experimental</option></select><p id="pool-help">Choose a character, then choose their deck. You can also build or import your own.</p></div>
         <div class="role-picker" role="group" aria-label="Choose your side">
           <button class="role active" data-side="runner" aria-pressed="true">
             <span>RUNNER</span><strong>Break the system.</strong
@@ -128,15 +130,15 @@
           </button>
         </div>
         <div id="character-picker" class="character-picker">
-          <section><label id="your-character-label" for="your-character">Your Runner</label><select id="your-character"></select><div id="your-character-summary" class="character-summary"></div></section>
-          <section><label id="opponent-character-label" for="opponent-character">AI Corporation</label><select id="opponent-character"></select><div id="opponent-character-summary" class="character-summary"></div></section>
+          <section><label id="your-character-label" for="your-character">Your Runner</label><select id="your-character"></select><label for="your-deck">Your deck</label><select id="your-deck" aria-describedby="your-deck-count"></select><p id="your-deck-count" class="deck-count"></p><div id="your-character-summary" class="character-summary"></div></section>
+          <section><label id="opponent-character-label" for="opponent-character">AI Corporation</label><select id="opponent-character"></select><label for="opponent-deck">AI deck</label><select id="opponent-deck" aria-describedby="opponent-deck-count"></select><p id="opponent-deck-count" class="deck-count"></p><div id="opponent-character-summary" class="character-summary"></div></section>
         </div>
         <div class="lobby-actions">
           <button class="primary" id="start-button">
             Jack in <span>→</span></button
           ><button id="resume-button" class="secondary" hidden>
             Resume game</button
-          ><button id="deck-button" class="quiet">View decks</button>
+          ><button id="deck-button" class="quiet">View decks</button><button id="build-deck-button" class="secondary">Deck library &amp; builder</button>
         </div>
         <p id="resume-context" class="saved-context" hidden></p>
         <div class="lobby-foot">
@@ -164,6 +166,10 @@
         ×
       </button>
       <div id="inspect-content"></div>
+    </dialog>
+    <dialog id="rez-warning-dialog" class="panel-dialog" aria-labelledby="rez-warning-title" aria-describedby="rez-warning-detail rez-warning-availability">
+      <section class="ice-rez-warning"><strong>WARNING · INACTIVE ICE DOES NOT STOP A RUN</strong><h2 id="rez-warning-title"></h2><p id="rez-warning-detail"></p><p id="rez-warning-availability"></p></section>
+      <div class="rez-warning-actions"><button id="rez-warning-back" class="action-button" data-close autofocus>Go back · review defenses</button><button id="rez-warning-rez" class="action-button primary-action"></button><button id="rez-warning-confirm" class="action-button run-pass-risk"></button></div>
     </dialog>
     <dialog aria-label="Finish installation" id="install-dialog" class="panel-dialog">
       <button class="close" data-close aria-label="Close installation">×</button>

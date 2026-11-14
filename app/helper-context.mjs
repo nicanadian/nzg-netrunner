@@ -31,6 +31,7 @@ export function helperContext(state, {selectedCard = null, watching = false, rep
   }
   for (const [zone, group] of Object.entries(state.runner.rig)) group.forEach(c => cardView(c, `Runner ${zone}`));
   if (state.access) cardView(state.access, 'Currently accessed');
+  for(const card of state.privateView?.cards||[])cardView(card,'Private look: '+state.privateView.label);
   if (state.viewed?.card) cardView(state.viewed.card,state.viewed.kind==='expose' ? 'Currently exposed' : 'Currently revealed');
   if (selectedCard && !selectedCard.hidden && !cards.some(c => c.id === selectedCard.id)) cardView(selectedCard, 'Selected card reference');
   for(const event of state.history.slice(-32)){

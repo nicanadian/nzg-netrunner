@@ -2916,7 +2916,13 @@
               "counters": {
                 "advancement": 1
               },
-              "subroutines": []
+              "subroutines": [],
+              "rezStatus": {
+                "cost": 0,
+                "available": 4,
+                "offered": false,
+                "window": false
+              }
             }
           ]
         }
@@ -3292,7 +3298,13 @@
       "counters": {
         "advancement": 1
       },
-      "subroutines": []
+      "subroutines": [],
+      "rezStatus": {
+        "cost": 0,
+        "available": 4,
+        "offered": false,
+        "window": false
+      }
     },
     "decision": null,
     "quietWindow": false,

@@ -1,0 +1,316 @@
+{
+  "phase": "confirmation",
+  "engineHash": "c8c52ccc31737fc9422b50e395a7400e0be4a08b2dffddedda3e275d88c8925f",
+  "seed": "corp-revisions-confirm-2",
+  "finishedAt": "2026-11-14T05:04:19.708Z",
+  "cells": [
+    {
+      "r": 0,
+      "c": 0,
+      "directory": "matchup-0-0",
+      "runner": "loup-v1",
+      "corp": "restoring-humanity-v1",
+      "scheduled": 200,
+      "completed": 200,
+      "statuses": {
+        "completed": 200
+      },
+      "runnerWins": 154,
+      "corpWins": 46,
+      "runnerWinRate": 0.77,
+      "wilson95": [
+        0.7069169563469642,
+        0.8229065674093119
+      ],
+      "allScheduledWinBounds": [
+        0.77,
+        0.77
+      ],
+      "medianRoundReached": 15,
+      "medianNativeDecisions": 984.5,
+      "p50Ms": 504.5,
+      "p95Ms": 4777.649999999994,
+      "reasons": {
+        "agenda points": 191,
+        "flatline": 6,
+        "deck exhaustion": 3
+      },
+      "creditClicks": {
+        "runner": 1802,
+        "corp": 1524
+      },
+      "drawClicks": {
+        "runner": 2735,
+        "corp": 709
+      },
+      "runnerTurns": 2788,
+      "corpTurns": 2837,
+      "basicRunnerCreditClicksPerTurn": 0.6463414634146342,
+      "basicCorpCreditClicksPerTurn": 0.5371871695452943
+    },
+    {
+      "r": 0,
+      "c": 1,
+      "directory": "matchup-0-1",
+      "runner": "loup-v1",
+      "corp": "restoring-humanity-v2",
+      "scheduled": 200,
+      "completed": 200,
+      "statuses": {
+        "completed": 200
+      },
+      "runnerWins": 115,
+      "corpWins": 85,
+      "runnerWinRate": 0.575,
+      "wilson95": [
+        0.5057093264785485,
+        0.6414638745648614
+      ],
+      "allScheduledWinBounds": [
+        0.575,
+        0.575
+      ],
+      "medianRoundReached": 14,
+      "medianNativeDecisions": 924.5,
+      "p50Ms": 652,
+      "p95Ms": 10092.749999999996,
+      "reasons": {
+        "agenda points": 151,
+        "flatline": 49
+      },
+      "creditClicks": {
+        "runner": 1755,
+        "corp": 1505
+      },
+      "drawClicks": {
+        "runner": 2618,
+        "corp": 695
+      },
+      "runnerTurns": 2717,
+      "corpTurns": 2800,
+      "basicRunnerCreditClicksPerTurn": 0.645933014354067,
+      "basicCorpCreditClicksPerTurn": 0.5375
+    },
+    {
+      "r": 1,
+      "c": 0,
+      "directory": "matchup-1-0",
+      "runner": "zahya-v2",
+      "corp": "restoring-humanity-v1",
+      "scheduled": 200,
+      "completed": 200,
+      "statuses": {
+        "completed": 200
+      },
+      "runnerWins": 167,
+      "corpWins": 33,
+      "runnerWinRate": 0.835,
+      "wilson95": [
+        0.7773421846094045,
+        0.8800314467178268
+      ],
+      "allScheduledWinBounds": [
+        0.835,
+        0.835
+      ],
+      "medianRoundReached": 13,
+      "medianNativeDecisions": 940.5,
+      "p50Ms": 469,
+      "p95Ms": 1274.1499999999996,
+      "reasons": {
+        "agenda points": 194,
+        "flatline": 4,
+        "deck exhaustion": 2
+      },
+      "creditClicks": {
+        "runner": 612,
+        "corp": 1481
+      },
+      "drawClicks": {
+        "runner": 2745,
+        "corp": 820
+      },
+      "runnerTurns": 2546,
+      "corpTurns": 2579,
+      "basicRunnerCreditClicksPerTurn": 0.2403770620581304,
+      "basicCorpCreditClicksPerTurn": 0.5742535866614967
+    },
+    {
+      "r": 1,
+      "c": 1,
+      "directory": "matchup-1-1",
+      "runner": "zahya-v2",
+      "corp": "restoring-humanity-v2",
+      "scheduled": 200,
+      "completed": 200,
+      "statuses": {
+        "completed": 200
+      },
+      "runnerWins": 126,
+      "corpWins": 74,
+      "runnerWinRate": 0.63,
+      "wilson95": [
+        0.5612262992405018,
+        0.6938739159014088
+      ],
+      "allScheduledWinBounds": [
+        0.63,
+        0.63
+      ],
+      "medianRoundReached": 12,
+      "medianNativeDecisions": 909.5,
+      "p50Ms": 446,
+      "p95Ms": 1770.4999999999995,
+      "reasons": {
+        "agenda points": 154,
+        "flatline": 46
+      },
+      "creditClicks": {
+        "runner": 667,
+        "corp": 1518
+      },
+      "drawClicks": {
+        "runner": 2644,
+        "corp": 736
+      },
+      "runnerTurns": 2556,
+      "corpTurns": 2630,
+      "basicRunnerCreditClicksPerTurn": 0.2609546165884194,
+      "basicCorpCreditClicksPerTurn": 0.5771863117870722
+    },
+    {
+      "r": 2,
+      "c": 0,
+      "directory": "matchup-2-0",
+      "runner": "tao-v1",
+      "corp": "restoring-humanity-v1",
+      "scheduled": 200,
+      "completed": 200,
+      "statuses": {
+        "completed": 200
+      },
+      "runnerWins": 158,
+      "corpWins": 42,
+      "runnerWinRate": 0.79,
+      "wilson95": [
+        0.7283538314009754,
+        0.8407158793002101
+      ],
+      "allScheduledWinBounds": [
+        0.79,
+        0.79
+      ],
+      "medianRoundReached": 14,
+      "medianNativeDecisions": 969.5,
+      "p50Ms": 422,
+      "p95Ms": 1126.0999999999985,
+      "reasons": {
+        "agenda points": 193,
+        "flatline": 4,
+        "deck exhaustion": 3
+      },
+      "creditClicks": {
+        "runner": 964,
+        "corp": 1596
+      },
+      "drawClicks": {
+        "runner": 2910,
+        "corp": 745
+      },
+      "runnerTurns": 2675,
+      "corpTurns": 2717,
+      "basicRunnerCreditClicksPerTurn": 0.3603738317757009,
+      "basicCorpCreditClicksPerTurn": 0.5874125874125874
+    },
+    {
+      "r": 2,
+      "c": 1,
+      "directory": "matchup-2-1",
+      "runner": "tao-v1",
+      "corp": "restoring-humanity-v2",
+      "scheduled": 200,
+      "completed": 200,
+      "statuses": {
+        "completed": 200
+      },
+      "runnerWins": 105,
+      "corpWins": 95,
+      "runnerWinRate": 0.525,
+      "wilson95": [
+        0.4559739601468475,
+        0.5930837735342891
+      ],
+      "allScheduledWinBounds": [
+        0.525,
+        0.525
+      ],
+      "medianRoundReached": 14,
+      "medianNativeDecisions": 963,
+      "p50Ms": 347,
+      "p95Ms": 1378.6499999999994,
+      "reasons": {
+        "agenda points": 149,
+        "flatline": 49,
+        "deck exhaustion": 2
+      },
+      "creditClicks": {
+        "runner": 1180,
+        "corp": 1591
+      },
+      "drawClicks": {
+        "runner": 2929,
+        "corp": 643
+      },
+      "runnerTurns": 2715,
+      "corpTurns": 2811,
+      "basicRunnerCreditClicksPerTurn": 0.43462246777163904,
+      "basicCorpCreditClicksPerTurn": 0.5659907506225542
+    }
+  ],
+  "contrasts": [
+    {
+      "family": "restoring-humanity",
+      "completedSeedClusters": 200,
+      "scheduledSeedClusters": 200,
+      "pairedGames": 600,
+      "delta": 0.2216666666666668,
+      "bootstrap": {
+        "level": 0.975,
+        "replicates": 20000,
+        "seed": 18231,
+        "interval": [
+          0.15833333333333327,
+          0.2849999999999998
+        ]
+      },
+      "allScheduledDeltaBounds": [
+        0.2216666666666668,
+        0.2216666666666668
+      ],
+      "reliable": true,
+      "runnerDeltas": [
+        {
+          "runner": "loup-v1",
+          "originalCorpWins": 46,
+          "revisedCorpWins": 85,
+          "games": 200,
+          "delta": 0.195
+        },
+        {
+          "runner": "zahya-v2",
+          "originalCorpWins": 33,
+          "revisedCorpWins": 74,
+          "games": 200,
+          "delta": 0.205
+        },
+        {
+          "runner": "tao-v1",
+          "originalCorpWins": 42,
+          "revisedCorpWins": 95,
+          "games": 200,
+          "delta": 0.265
+        }
+      ]
+    }
+  ]
+}

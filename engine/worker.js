@@ -13,6 +13,8 @@ importScripts(
   "../vendor/chiriboga/ai_corp.js",
   "../vendor/chiriboga/ai_runner.js",
   "deck-catalog.js",
+  "card-catalog.js",
+  "deck-document.js",
   "adapter.js",
 );
 let busy = false;
@@ -45,6 +47,7 @@ onmessage = async ({ data }) => {
         postMessage({type: "opponent-step", before, state: after});
     } : null;
     if (data.type === "start") {
+      if(data.config?.cardPool==='core-v1')importScripts('../vendor/chiriboga-elevation/sets/elevation.js','core-decks.js','elevation-compat.js','elevation-transactions.js','elevation-local.js','elevation-hosting.js','elevation-economy.js','core-events.js','core-private.js','core-operations.js','core-rez.js');
       NR.boot(data.config);
       await advanceToDecision();
       for (const choice of data.replay || []) {

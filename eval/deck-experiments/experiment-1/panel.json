@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "runners": [
+    "loup-v1",
+    "zahya-v2",
+    "tao-v1"
+  ],
+  "corps": [
+    "precision-design-v2",
+    "restoring-humanity-v2",
+    "built-to-last-v2"
+  ],
+  "gamesPerMatchup": 50,
+  "seed": "deck-panel-1",
+  "workers": 4,
+  "wallMs": 120000,
+  "decisions": 100000,
+  "traceEvery": 1,
+  "mode": "fast"
+}

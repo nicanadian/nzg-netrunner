@@ -1,4 +1,6 @@
-# Alpha Build 1
+# 0.1.0
+
+Alpha release, previously named **Alpha Build 1**. Existing ZIPs, checksums and the historical `alpha-build-1` tag are unchanged; the executables still report that original build identifier.
 
 A portable local Netrunner game with an AI opponent. No Node.js, Docker, account, or installation is needed. A modern browser is required. Gameplay and the built-in guide work offline; optional AI chat needs a separately configured provider.
 

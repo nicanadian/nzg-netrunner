@@ -1,3 +1,4 @@
+import {iceRezWarning} from './rez-warning.mjs';
 // Public-state copy and hierarchy shared by the table and focused regressions.
 export const plural = (count, noun) => `${count} ${noun}${count === 1 ? '' : 's'}`;
 export function displayText(text) {
@@ -7,6 +8,7 @@ export function displayText(text) {
 export function phaseHeading(state) {
   const phase=state.phase;
   if (state.terminal) return state.terminal.winner === state.side ? 'You win.' : 'Game over.';
+  if (iceRezWarning(state)) return `Rez ${state.run.card.title} or let the Runner pass`;
   if (state.viewed) return state.viewed.kind==='expose' ? 'Exposed card' : 'Revealed card';
   if (phase.guide?.kind==='anoetic-trash') return `Trash ${phase.guide.remaining===2?'first':'second'} HQ card`;
   if (phase.identifier.includes('Mulligan')) return 'Your opening hand';
@@ -14,8 +16,10 @@ export function phaseHeading(state) {
   if (state.decision?.commands.some(c=>c.options.some(o=>o.subroutine))) return 'Choose a subroutine';
   if (state.access) return 'Access a card';
   if (phase.identifier === 'Scored') return 'Resolve score effects';
+  if (/Action Phase Ends/.test(phase.title)) return 'Resolve end-of-action effects';
   if (/Action Phase/.test(phase.title)) return 'Choose an action';
   if (/Turn Begins/.test(phase.title)) return 'Turn begins';
+  if (/Discard Phase Ends/.test(phase.title)) return 'Resolve end-of-turn effects';
   if (/Discard Phase/.test(phase.title)) return 'Discard to hand limit';
   return displayText(phase.title.replace(/^Run:\s*/,''));
 }
@@ -36,7 +40,7 @@ export function receiptLabel(group, option, state) {
   if (option?.subroutine) return `Break subroutine ${option.subroutine}${state.phase.source ? ' · ' + state.phase.source : ''}`;
   if (state.phase.identifier.includes('Mulligan')) return group?.label || 'Opening hand';
   const values=[group?.label, option?.label].filter((value,i,list)=>value&&value!=='Continue'&&list.indexOf(value)===i);
-  return displayText(values.join(' · ') || 'Resource changes');
+  return values.join(' · ') || 'Resource changes';
 }
 export function orderedCommands(commands, state) {
   const primary = state.run?.encountering && commands.some(c=>c.command==='trigger') ? 'trigger'
@@ -60,14 +64,25 @@ export function continuationModel(state) {
     !c.options[0].card&&!c.options[0].multi&&!c.options[0].subroutine);
   if(!group)return null;
   const base={command:group.command,index:group.options[0].index,cost:group.options[0].cost || group.cost};
+  if(state.phase.identifier.includes('Mulligan'))return {...base,kind:'opening-hand',label:'Keep this hand',
+    detail:'Keep these five cards, or choose Mulligan to shuffle them back and draw a new opening hand.'};
   if(state.phase.title==='Trash Before Install')return {...base,kind:'install',label:'Confirm installation',
     detail:'Finish installing and pay the cost shown below. Trashing existing cards first is optional.'};
   if(state.phase.guide?.kind==='pantograph-install')return {...base,kind:'pass',label:'Continue without installing',detail:'Keep the gained credit and skip the optional install.'};
   if(state.viewed)return {...base,kind:'continue',label:'Done reading · continue',detail:'Close this viewing step and resume the game.'};
   if(state.phase.identifier==='Run Accessing')return {...base,kind:'continue',label:'Finish accessing this card',detail:'Resolve the next access or finish the breach.'};
-  if(group.command==='continue'&&state.phase.source)return {...base,kind:'continue',label:`Finish ${state.phase.source} ability`,detail:'Complete this ability’s remaining step; any earlier payments stay spent.'};
+  if(group.command==='continue'&&state.phase.source){
+    const nativeLabel=group.options[0].label;
+    if(nativeLabel && !['Continue','continue'].includes(nativeLabel))return {...base,kind:'continue',label:displayText(nativeLabel),detail:'Resolve this card effect. Any earlier payments stay spent.'};
+    return {...base,kind:'continue',label:`Finish ${state.phase.source} ability`,detail:'Complete this ability’s remaining step; any earlier payments stay spent.'};
+  }
   if(/\*$/.test(state.phase.identifier))return {...base,kind:'pass',label:state.playerTurn===state.side?(state[state.side]?.clicks>0?'Continue to next action':'Continue · finish action phase'):'Continue · allow the opponent’s next action',detail:'Use an optional ability first, or pass this response window. The next action starts after responses finish.'};
-  if(['Corp 2.2','Runner 1.3'].includes(state.phase.identifier)&&/Action Phase/.test(state.phase.title))return {...base,kind:'continue',label:'End action phase',detail:'Finish taking actions and proceed to the remaining turn steps.'};
+  if(['Corp 2.2','Runner 1.3'].includes(state.phase.identifier)&&/Action Phase/.test(state.phase.title))return {...base,kind:'continue',label:'End action phase',
+    detail:state.side==='corp' && commands.some(c=>c.command==='rez')
+      ? 'Rezzing cards is optional. End your action phase without rezzing them, or use an optional ability first.'
+      : 'Finish taking actions and proceed to the remaining turn steps.'};
+  if(state.side==='corp' && ['Corp 3.2','Runner 1.1'].includes(state.phase.identifier) && commands.some(c=>c.command==='rez'))return {...base,kind:'pass',
+    label:'Continue without rezzing',detail:'Leave your cards unrezzed and finish this response window. No rez cost is paid.'};
   if(state.run)return null; // The run footer supplies its context-specific step.
   return {...base,kind:'pass',label:group.label==='Continue'?'Continue · finish this window':group.label,
     detail:'Use any optional ability first, or continue. The game is waiting for your choice.'};

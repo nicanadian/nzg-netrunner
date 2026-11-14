@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "workers": 4,
+  "wallMs": 120000,
+  "decisions": 100000,
+  "traceEvery": 1,
+  "mode": "fast",
+  "runners": [
+    {
+      "label": "loup-v1",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "loup-v1",
+        "side": "runner",
+        "identity": "30001",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30002",
+            "count": 3
+          },
+          {
+            "id": "30003",
+            "count": 2
+          },
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30005",
+            "count": 3
+          },
+          {
+            "id": "30006",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 3
+          },
+          {
+            "id": "30015",
+            "count": 3
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30031",
+            "count": 2
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 3
+          }
+        ]
+      },
+      "validation": {
+        "size": 40,
+        "influence": 6,
+        "influenceLimit": 15,
+        "minimumSize": 40,
+        "agenda": 0,
+        "agendaMin": 18,
+        "agendaMax": 19
+      }
+    },
+    {
+      "label": "zahya-v2",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "zahya-v2",
+        "side": "runner",
+        "identity": "30010",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 1
+          },
+          {
+            "id": "30005",
+            "count": 2
+          },
+          {
+            "id": "30011",
+            "count": 3
+          },
+          {
+            "id": "30012",
+            "count": 3
+          },
+          {
+            "id": "30013",
+            "count": 2
+          },
+          {
+            "id": "30014",
+            "count": 3
+          },
+          {
+            "id": "30015",
+            "count": 2
+          },
+          {
+            "id": "30016",
+            "count": 2
+          },
+          {
+            "id": "30017",
+            "count": 2
+          },
+          {
+            "id": "30018",
+            "count": 3
+          },
+          {
+            "id": "30021",
+            "count": 3
+          },
+          {
+            "id": "30027",
+            "count": 2
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 1
+          },
+          {
+            "id": "30034",
+            "count": 2
+          }
+        ]
+      },
+      "validation": {
+        "size": 40,
+        "influence": 15,
+        "influenceLimit": 15,
+        "minimumSize": 40,
+        "agenda": 0,
+        "agendaMin": 18,
+        "agendaMax": 19
+      }
+    },
+    {
+      "label": "tao-v1",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "tao-v1",
+        "side": "runner",
+        "identity": "30019",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 2
+          },
+          {
+            "id": "30006",
+            "count": 3
+          },
+          {
+            "id": "30020",
+            "count": 3
+          },
+          {
+            "id": "30021",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 2
+          },
+          {
+            "id": "30023",
+            "count": 2
+          },
+          {
+            "id": "30024",
+            "count": 2
+          },
+          {
+            "id": "30025",
+            "count": 3
+          },
+          {
+            "id": "30026",
+            "count": 3
+          },
+          {
+            "id": "30027",
+            "count": 3
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 2
+          }
+        ]
+      },
+      "validation": {
+        "size": 40,
+        "influence": 12,
+        "influenceLimit": 15,
+        "minimumSize": 40,
+        "agenda": 0,
+        "agendaMin": 18,
+        "agendaMax": 19
+      }
+    }
+  ],
+  "corps": [
+    {
+      "label": "restoring-humanity-v2 / Planogram instead of Clearinghouse",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "restoring-humanity-v2 / Planogram instead of Clearinghouse",
+        "side": "corp",
+        "identity": "30043",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30044",
+            "count": 1
+          },
+          {
+            "id": "30045",
+            "count": 3
+          },
+          {
+            "id": "30046",
+            "count": 3
+          },
+          {
+            "id": "30047",
+            "count": 3
+          },
+          {
+            "id": "30048",
+            "count": 3
+          },
+          {
+            "id": "30049",
+            "count": 2
+          },
+          {
+            "id": "30050",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 2
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30068",
+            "count": 2
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30074",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          }
+        ]
+      }
+    }
+  ],
+  "gamesPerMatchup": 200,
+  "seed": "corp-revisions-confirm-2"
+}

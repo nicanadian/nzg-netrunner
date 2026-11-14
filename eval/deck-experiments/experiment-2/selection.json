@@ -1,0 +1,224 @@
+{
+  "selectedAt": "2026-11-14T04:58:45.709Z",
+  "family": "restoring-humanity",
+  "completedSeedClusters": 40,
+  "scheduledSeedClusters": 40,
+  "pairedGames": 120,
+  "delta": 0.24166666666666664,
+  "bootstrap": {
+    "level": 0.95,
+    "replicates": 20000,
+    "seed": 18232,
+    "interval": [
+      0.11666666666666665,
+      0.3583333333333334
+    ]
+  },
+  "allScheduledDeltaBounds": [
+    0.24166666666666664,
+    0.24166666666666664
+  ],
+  "reliable": true,
+  "runnerDeltas": [
+    {
+      "runner": "loup-v1",
+      "originalCorpWins": 9,
+      "revisedCorpWins": 18,
+      "games": 40,
+      "delta": 0.225
+    },
+    {
+      "runner": "zahya-v2",
+      "originalCorpWins": 7,
+      "revisedCorpWins": 15,
+      "games": 40,
+      "delta": 0.2
+    },
+    {
+      "runner": "tao-v1",
+      "originalCorpWins": 5,
+      "revisedCorpWins": 17,
+      "games": 40,
+      "delta": 0.3
+    }
+  ],
+  "ranked": [
+    {
+      "family": "restoring-humanity",
+      "completedSeedClusters": 40,
+      "scheduledSeedClusters": 40,
+      "pairedGames": 120,
+      "delta": 0.24166666666666664,
+      "bootstrap": {
+        "level": 0.95,
+        "replicates": 20000,
+        "seed": 18232,
+        "interval": [
+          0.11666666666666665,
+          0.3583333333333334
+        ]
+      },
+      "allScheduledDeltaBounds": [
+        0.24166666666666664,
+        0.24166666666666664
+      ],
+      "reliable": true,
+      "runnerDeltas": [
+        {
+          "runner": "loup-v1",
+          "originalCorpWins": 9,
+          "revisedCorpWins": 18,
+          "games": 40,
+          "delta": 0.225
+        },
+        {
+          "runner": "zahya-v2",
+          "originalCorpWins": 7,
+          "revisedCorpWins": 15,
+          "games": 40,
+          "delta": 0.2
+        },
+        {
+          "runner": "tao-v1",
+          "originalCorpWins": 5,
+          "revisedCorpWins": 17,
+          "games": 40,
+          "delta": 0.3
+        }
+      ]
+    },
+    {
+      "family": "reality-plus",
+      "completedSeedClusters": 40,
+      "scheduledSeedClusters": 40,
+      "pairedGames": 120,
+      "delta": 0.11666666666666667,
+      "bootstrap": {
+        "level": 0.95,
+        "replicates": 20000,
+        "seed": 18233,
+        "interval": [
+          -0.024999999999999994,
+          0.25833333333333336
+        ]
+      },
+      "allScheduledDeltaBounds": [
+        0.11666666666666667,
+        0.11666666666666667
+      ],
+      "reliable": true,
+      "runnerDeltas": [
+        {
+          "runner": "loup-v1",
+          "originalCorpWins": 15,
+          "revisedCorpWins": 16,
+          "games": 40,
+          "delta": 0.025
+        },
+        {
+          "runner": "zahya-v2",
+          "originalCorpWins": 9,
+          "revisedCorpWins": 17,
+          "games": 40,
+          "delta": 0.2
+        },
+        {
+          "runner": "tao-v1",
+          "originalCorpWins": 12,
+          "revisedCorpWins": 17,
+          "games": 40,
+          "delta": 0.125
+        }
+      ]
+    },
+    {
+      "family": "built-to-last",
+      "completedSeedClusters": 40,
+      "scheduledSeedClusters": 40,
+      "pairedGames": 120,
+      "delta": -0.0666666666666667,
+      "bootstrap": {
+        "level": 0.95,
+        "replicates": 20000,
+        "seed": 18234,
+        "interval": [
+          -0.19999999999999998,
+          0.06666666666666667
+        ]
+      },
+      "allScheduledDeltaBounds": [
+        -0.0666666666666667,
+        -0.0666666666666667
+      ],
+      "reliable": true,
+      "runnerDeltas": [
+        {
+          "runner": "loup-v1",
+          "originalCorpWins": 24,
+          "revisedCorpWins": 14,
+          "games": 40,
+          "delta": -0.25
+        },
+        {
+          "runner": "zahya-v2",
+          "originalCorpWins": 13,
+          "revisedCorpWins": 14,
+          "games": 40,
+          "delta": 0.025
+        },
+        {
+          "runner": "tao-v1",
+          "originalCorpWins": 14,
+          "revisedCorpWins": 15,
+          "games": 40,
+          "delta": 0.025
+        }
+      ]
+    },
+    {
+      "family": "precision-design",
+      "completedSeedClusters": 40,
+      "scheduledSeedClusters": 40,
+      "pairedGames": 120,
+      "delta": 1.2490009027033011e-17,
+      "bootstrap": {
+        "level": 0.95,
+        "replicates": 20000,
+        "seed": 18231,
+        "interval": [
+          -0.14999999999999997,
+          0.14999999999999997
+        ]
+      },
+      "allScheduledDeltaBounds": [
+        1.2490009027033011e-17,
+        1.2490009027033011e-17
+      ],
+      "reliable": true,
+      "runnerDeltas": [
+        {
+          "runner": "loup-v1",
+          "originalCorpWins": 23,
+          "revisedCorpWins": 16,
+          "games": 40,
+          "delta": -0.175
+        },
+        {
+          "runner": "zahya-v2",
+          "originalCorpWins": 17,
+          "revisedCorpWins": 18,
+          "games": 40,
+          "delta": 0.025
+        },
+        {
+          "runner": "tao-v1",
+          "originalCorpWins": 13,
+          "revisedCorpWins": 19,
+          "games": 40,
+          "delta": 0.15
+        }
+      ]
+    }
+  ],
+  "rule": "Largest absolute equal-weight Corp win-rate change v2 minus v1 across three Runner decks, at least 90% completed and no errors in all six cells; fixed family order breaks ties. Select one primary family using screen results only."
+}

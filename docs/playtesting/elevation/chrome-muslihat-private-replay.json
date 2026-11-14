@@ -1,0 +1,655 @@
+{
+  "engine": "chiriboga-core-c863f5a-local-2",
+  "config": {
+    "side": "runner",
+    "seed": "e681dfbb-69d1-4384-9b61-b6ec9936bdfc",
+    "deckDocuments": {
+      "runner": {
+        "schemaVersion": 1,
+        "name": " [NSG Core] Shootin' 'n' Lootin'",
+        "side": "runner",
+        "identity": "35013",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30008",
+            "count": 2
+          },
+          {
+            "id": "30011",
+            "count": 1
+          },
+          {
+            "id": "30012",
+            "count": 2
+          },
+          {
+            "id": "30013",
+            "count": 1
+          },
+          {
+            "id": "30014",
+            "count": 2
+          },
+          {
+            "id": "30016",
+            "count": 3
+          },
+          {
+            "id": "30025",
+            "count": 2
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "35005",
+            "count": 2
+          },
+          {
+            "id": "35009",
+            "count": 1
+          },
+          {
+            "id": "35014",
+            "count": 3
+          },
+          {
+            "id": "35016",
+            "count": 2
+          },
+          {
+            "id": "35017",
+            "count": 3
+          },
+          {
+            "id": "35020",
+            "count": 2
+          },
+          {
+            "id": "35022",
+            "count": 3
+          },
+          {
+            "id": "35026",
+            "count": 3
+          },
+          {
+            "id": "35029",
+            "count": 1
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/a9c9e074-d20a-40ca-8030-f5d0d1ce677f",
+          "externalId": "a9c9e074-d20a-40ca-8030-f5d0d1ce677f",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:14:18+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.235Z",
+          "originalTitle": " [NSG Core] Shootin' 'n' Lootin'"
+        }
+      },
+      "corp": {
+        "schemaVersion": 1,
+        "name": "Brutal Efficiency",
+        "side": "corp",
+        "identity": "30035",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30038",
+            "count": 1
+          },
+          {
+            "id": "30039",
+            "count": 2
+          },
+          {
+            "id": "30040",
+            "count": 3
+          },
+          {
+            "id": "30042",
+            "count": 3
+          },
+          {
+            "id": "30050",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 1
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30071",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35038",
+            "count": 2
+          },
+          {
+            "id": "35039",
+            "count": 2
+          },
+          {
+            "id": "35041",
+            "count": 3
+          },
+          {
+            "id": "35042",
+            "count": 2
+          },
+          {
+            "id": "35045",
+            "count": 2
+          },
+          {
+            "id": "35075",
+            "count": 3
+          },
+          {
+            "id": "35079",
+            "count": 2
+          },
+          {
+            "id": "35082",
+            "count": 2
+          }
+        ],
+        "source": {
+          "url": "https://netrunnerdb.com/en/decklist/b441510e-00e7-42b7-a559-a7eba52b31a4/-nsg-core-brutal-efficiency"
+        }
+      }
+    },
+    "rulesVersion": "26.03-core-2",
+    "cardPool": "core-v1"
+  },
+  "choices": [
+    {
+      "version": 2,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 31,
+      "command": "trigger",
+      "index": 0
+    }
+  ],
+  "conceded": false,
+  "liveCheckpoint": {
+    "format": 1,
+    "capturedAt": "2026-11-14T00:41:24.569Z",
+    "displayMode": "live-decision",
+    "pendingChoice": false,
+    "state": {
+      "version": 33,
+      "steps": 32,
+      "turn": 2,
+      "side": "runner",
+      "seed": "e681dfbb-69d1-4384-9b61-b6ec9936bdfc",
+      "rulesVersion": "26.03-core-2",
+      "agendaPointTarget": 7,
+      "active": "runner",
+      "playerTurn": "runner",
+      "phase": {
+        "title": "MuslihaT: Multifarious Marketeer",
+        "identifier": "Runner 1.2",
+        "source": "MuslihaT: Multifarious Marketeer"
+      },
+      "terminal": null,
+      "corp": {
+        "side": "corp",
+        "identity": {
+          "id": "c1",
+          "side": "corp",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30035,
+          "title": "Haas-Bioroid: Precision Design",
+          "type": "identity",
+          "subTypes": [
+            "Megacorp"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "credits": 9,
+        "clicks": 0,
+        "points": 0,
+        "maxHand": 6,
+        "score": [],
+        "hand": [
+          {
+            "id": "c19",
+            "side": "corp",
+            "hidden": true,
+            "installed": false,
+            "rezzed": false,
+            "faceUp": false,
+            "advancement": 0,
+            "hosted": []
+          },
+          {
+            "id": "c15",
+            "side": "corp",
+            "hidden": true,
+            "installed": false,
+            "rezzed": false,
+            "faceUp": false,
+            "advancement": 0,
+            "hosted": []
+          },
+          {
+            "id": "c18",
+            "side": "corp",
+            "hidden": true,
+            "installed": false,
+            "rezzed": false,
+            "faceUp": false,
+            "advancement": 0,
+            "hosted": []
+          }
+        ],
+        "deck": 38,
+        "discard": [
+          {
+            "id": "c25",
+            "side": "corp",
+            "hidden": false,
+            "installed": false,
+            "rezzed": false,
+            "faceUp": true,
+            "advancement": 0,
+            "hosted": [],
+            "number": 30075,
+            "title": "Hedge Fund",
+            "type": "operation",
+            "subTypes": [
+              "Transaction"
+            ],
+            "strength": null,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "subroutines": []
+          }
+        ],
+        "resolving": [],
+        "badPublicity": 0,
+        "servers": [
+          {
+            "name": "HQ",
+            "central": true,
+            "ice": [
+              {
+                "id": "c34",
+                "side": "corp",
+                "hidden": true,
+                "installed": true,
+                "rezzed": false,
+                "faceUp": false,
+                "advancement": 0,
+                "hosted": []
+              }
+            ],
+            "root": []
+          },
+          {
+            "name": "R&D",
+            "central": true,
+            "ice": [],
+            "root": [
+              {
+                "id": "c11",
+                "side": "corp",
+                "hidden": true,
+                "installed": true,
+                "rezzed": false,
+                "faceUp": false,
+                "advancement": 0,
+                "hosted": []
+              }
+            ]
+          },
+          {
+            "name": "Archives",
+            "central": true,
+            "ice": [],
+            "root": []
+          }
+        ]
+      },
+      "runner": {
+        "side": "runner",
+        "identity": {
+          "id": "c46",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 35013,
+          "title": "MuslihaT: Multifarious Marketeer",
+          "type": "identity",
+          "subTypes": [
+            "Natural"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "credits": 5,
+        "clicks": 4,
+        "points": 0,
+        "maxHand": 5,
+        "score": [],
+        "hand": [
+          {
+            "id": "c84",
+            "side": "runner",
+            "hidden": false,
+            "installed": false,
+            "rezzed": false,
+            "faceUp": false,
+            "advancement": 0,
+            "hosted": [],
+            "number": 35022,
+            "title": "Open Market",
+            "type": "resource",
+            "subTypes": [
+              "Job",
+              "Location"
+            ],
+            "strength": null,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "subroutines": []
+          },
+          {
+            "id": "c91",
+            "side": "runner",
+            "hidden": false,
+            "installed": false,
+            "rezzed": false,
+            "faceUp": false,
+            "advancement": 0,
+            "hosted": [],
+            "number": 35034,
+            "title": "Side Hustle",
+            "type": "resource",
+            "subTypes": [
+              "Job"
+            ],
+            "strength": null,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "subroutines": []
+          },
+          {
+            "id": "c57",
+            "side": "runner",
+            "hidden": false,
+            "installed": false,
+            "rezzed": false,
+            "faceUp": false,
+            "advancement": 0,
+            "hosted": [],
+            "number": 30016,
+            "title": "Marjanah",
+            "type": "program",
+            "subTypes": [
+              "Icebreaker",
+              "Fracter"
+            ],
+            "strength": 1,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "subroutines": []
+          },
+          {
+            "id": "c51",
+            "side": "runner",
+            "hidden": false,
+            "installed": false,
+            "rezzed": false,
+            "faceUp": false,
+            "advancement": 0,
+            "hosted": [],
+            "number": 30012,
+            "title": "Tread Lightly",
+            "type": "event",
+            "subTypes": [
+              "Run"
+            ],
+            "strength": null,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "subroutines": []
+          },
+          {
+            "id": "c77",
+            "side": "runner",
+            "hidden": false,
+            "installed": false,
+            "rezzed": false,
+            "faceUp": false,
+            "advancement": 0,
+            "hosted": [],
+            "number": 35017,
+            "title": "Transfer of Wealth",
+            "type": "event",
+            "subTypes": [
+              "Run"
+            ],
+            "strength": null,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "subroutines": []
+          }
+        ],
+        "deck": 40,
+        "discard": [],
+        "resolving": [],
+        "tags": 0,
+        "coreDamage": 0,
+        "temporaryCredits": 0,
+        "memory": 4,
+        "memoryUsed": 0,
+        "rig": {
+          "programs": [],
+          "hardware": [],
+          "resources": []
+        }
+      },
+      "run": null,
+      "access": null,
+      "privateView": {
+        "label": "Top card of your stack",
+        "cards": [
+          {
+            "id": "c67",
+            "side": "runner",
+            "hidden": false,
+            "installed": false,
+            "rezzed": false,
+            "faceUp": false,
+            "advancement": 0,
+            "hosted": [],
+            "number": 30030,
+            "title": "Sure Gamble",
+            "type": "event",
+            "subTypes": [],
+            "strength": null,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "subroutines": []
+          }
+        ]
+      },
+      "decision": {
+        "version": 33,
+        "commands": [
+          {
+            "command": "continue",
+            "label": "Continue",
+            "cost": null,
+            "instruction": "Look at the top card of your stack",
+            "cancel": false,
+            "options": [
+              {
+                "index": 0,
+                "cost": null,
+                "label": "Leave on top",
+                "card": null,
+                "server": null,
+                "sourceId": "c46"
+              }
+            ]
+          }
+        ]
+      },
+      "quietWindow": false,
+      "assistance": null,
+      "installation": null,
+      "historyCount": 15,
+      "history": [
+        {
+          "text": "Game begins. First to 7 agenda points.",
+          "turn": 1,
+          "side": "corp"
+        },
+        {
+          "text": "Corp took a mulligan",
+          "turn": 1,
+          "side": "corp"
+        },
+        {
+          "text": "Shuffled 5 cards into R&D",
+          "turn": 1,
+          "side": "corp"
+        },
+        {
+          "text": "Corp drew 5 cards",
+          "turn": 1,
+          "side": "corp",
+          "draw": {
+            "kind": "effect",
+            "source": null
+          }
+        },
+        {
+          "text": "Runner chose to keep",
+          "turn": 1,
+          "side": "corp",
+          "actor": "runner"
+        },
+        {
+          "text": "Corp drew a card",
+          "turn": 1,
+          "side": "corp",
+          "draw": {
+            "kind": "mandatory"
+          }
+        },
+        {
+          "text": "Corp spent one click",
+          "turn": 1,
+          "side": "corp"
+        },
+        {
+          "text": "Corp installed ice protecting HQ",
+          "turn": 1,
+          "side": "corp"
+        },
+        {
+          "text": "Corp spent one click",
+          "turn": 1,
+          "side": "corp"
+        },
+        {
+          "text": "Corp spent 5 credits from credit pool",
+          "turn": 1,
+          "side": "corp"
+        },
+        {
+          "text": "Played \"Hedge Fund\"",
+          "turn": 1,
+          "side": "corp"
+        },
+        {
+          "text": "Corp gained 9 credits",
+          "turn": 1,
+          "side": "corp"
+        },
+        {
+          "text": "Corp spent one click",
+          "turn": 1,
+          "side": "corp"
+        },
+        {
+          "text": "Corp installed a card in root of R&D",
+          "turn": 1,
+          "side": "corp"
+        },
+        {
+          "text": "Look at top of stack; reveal if icebreaker or run event triggered",
+          "turn": 2,
+          "side": "runner"
+        }
+      ],
+      "diagnostics": []
+    }
+  }
+}

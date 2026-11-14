@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "engineHash": "8c7134a95528a0ad722cb08c81e388980503b8ffa71ac414f0d8d5e01ca04b0a",
+  "policy": "chiriboga-native-unaudited-v1",
+  "runner": {
+    "schemaVersion": 1,
+    "name": "René “Loup” Arcemont",
+    "side": "runner",
+    "identity": "30001",
+    "pool": "gateway-v1",
+    "cards": [
+      {
+        "id": "30002",
+        "count": 3
+      },
+      {
+        "id": "30003",
+        "count": 2
+      },
+      {
+        "id": "30004",
+        "count": 3
+      },
+      {
+        "id": "30005",
+        "count": 3
+      },
+      {
+        "id": "30006",
+        "count": 3
+      },
+      {
+        "id": "30007",
+        "count": 3
+      },
+      {
+        "id": "30008",
+        "count": 3
+      },
+      {
+        "id": "30015",
+        "count": 3
+      },
+      {
+        "id": "30028",
+        "count": 3
+      },
+      {
+        "id": "30029",
+        "count": 3
+      },
+      {
+        "id": "30030",
+        "count": 3
+      },
+      {
+        "id": "30031",
+        "count": 2
+      },
+      {
+        "id": "30033",
+        "count": 3
+      },
+      {
+        "id": "30034",
+        "count": 3
+      }
+    ]
+  },
+  "corp": {
+    "schemaVersion": 1,
+    "name": "Haas-Bioroid: Precision Design",
+    "side": "corp",
+    "identity": "30035",
+    "pool": "gateway-v1",
+    "cards": [
+      {
+        "id": "30036",
+        "count": 1
+      },
+      {
+        "id": "30037",
+        "count": 3
+      },
+      {
+        "id": "30038",
+        "count": 3
+      },
+      {
+        "id": "30039",
+        "count": 3
+      },
+      {
+        "id": "30040",
+        "count": 3
+      },
+      {
+        "id": "30041",
+        "count": 2
+      },
+      {
+        "id": "30042",
+        "count": 2
+      },
+      {
+        "id": "30048",
+        "count": 2
+      },
+      {
+        "id": "30053",
+        "count": 2
+      },
+      {
+        "id": "30056",
+        "count": 3
+      },
+      {
+        "id": "30067",
+        "count": 3
+      },
+      {
+        "id": "30069",
+        "count": 3
+      },
+      {
+        "id": "30070",
+        "count": 1
+      },
+      {
+        "id": "30071",
+        "count": 1
+      },
+      {
+        "id": "30072",
+        "count": 3
+      },
+      {
+        "id": "30073",
+        "count": 3
+      },
+      {
+        "id": "30074",
+        "count": 3
+      },
+      {
+        "id": "30075",
+        "count": 3
+      }
+    ]
+  },
+  "runnerHash": "a84a09d6eb7cf5b2ac776bf9c596af4831d575a6e5ca2622a40ea832339c3aeb",
+  "corpHash": "4b7ddf2c5f2416980e570b2ab91929beb9d4eb99cc3b1ab0889c24cd5b2e1365",
+  "games": 1000,
+  "seed": "gateway-soak-1",
+  "limits": {
+    "wallMs": 120000,
+    "decisions": 100000
+  },
+  "mode": "fast",
+  "traceEvery": 100,
+  "experimentHash": "679e1378f1193dabdf696fec04206682d3f691ddc2d569e3e7d21379f12e8fcc",
+  "createdAt": "2026-11-13T23:07:38.747Z",
+  "machine": {
+    "platform": "darwin",
+    "arch": "arm64",
+    "node": "v25.2.1",
+    "cpu": "Apple M4"
+  },
+  "workers": 4
+}

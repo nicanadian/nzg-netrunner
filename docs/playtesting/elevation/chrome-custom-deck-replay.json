@@ -1,0 +1,1180 @@
+{
+  "engine": "chiriboga-core-c863f5a-local-1",
+  "config": {
+    "side": "corp",
+    "seed": "0b6f7ee5-234a-4dbb-9891-a23e16e3e0ca",
+    "deckDocuments": {
+      "runner": {
+        "schemaVersion": 1,
+        "name": "Ryō “Phoenix” Ōno: Out of the Ashes",
+        "side": "runner",
+        "identity": "35001",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 2
+          },
+          {
+            "id": "30015",
+            "count": 2
+          },
+          {
+            "id": "30026",
+            "count": 2
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 2
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 2
+          },
+          {
+            "id": "30034",
+            "count": 2
+          },
+          {
+            "id": "35003",
+            "count": 2
+          },
+          {
+            "id": "35004",
+            "count": 2
+          },
+          {
+            "id": "35005",
+            "count": 3
+          },
+          {
+            "id": "35009",
+            "count": 3
+          },
+          {
+            "id": "35011",
+            "count": 3
+          },
+          {
+            "id": "35015",
+            "count": 3
+          },
+          {
+            "id": "35018",
+            "count": 2
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "url": "https://netrunnerdb.com/en/decklist/074c32b0-6429-49ec-91c1-46dcddba9e4b/-nsg-core-dashing-mad"
+        }
+      },
+      "corp": {
+        "schemaVersion": 1,
+        "name": "Dev loop Corporation",
+        "side": "corp",
+        "identity": "30035",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30038",
+            "count": 1
+          },
+          {
+            "id": "30039",
+            "count": 2
+          },
+          {
+            "id": "30040",
+            "count": 3
+          },
+          {
+            "id": "30042",
+            "count": 3
+          },
+          {
+            "id": "30050",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 1
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30071",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35038",
+            "count": 2
+          },
+          {
+            "id": "35039",
+            "count": 2
+          },
+          {
+            "id": "35041",
+            "count": 3
+          },
+          {
+            "id": "35042",
+            "count": 2
+          },
+          {
+            "id": "35045",
+            "count": 2
+          },
+          {
+            "id": "35075",
+            "count": 3
+          },
+          {
+            "id": "35079",
+            "count": 2
+          },
+          {
+            "id": "35082",
+            "count": 2
+          }
+        ],
+        "source": {
+          "url": "https://netrunnerdb.com/en/decklist/b441510e-00e7-42b7-a559-a7eba52b31a4/-nsg-core-brutal-efficiency"
+        }
+      }
+    },
+    "rulesVersion": "26.03-core-1",
+    "cardPool": "core-v1"
+  },
+  "choices": [
+    {
+      "version": 1,
+      "command": "n",
+      "index": 0
+    }
+  ],
+  "conceded": false,
+  "liveCheckpoint": {
+    "format": 1,
+    "capturedAt": "2026-11-13T22:57:22.350Z",
+    "displayMode": "live-decision",
+    "pendingChoice": false,
+    "state": {
+      "version": 8,
+      "steps": 7,
+      "turn": 1,
+      "side": "corp",
+      "seed": "0b6f7ee5-234a-4dbb-9891-a23e16e3e0ca",
+      "rulesVersion": "26.03-core-1",
+      "agendaPointTarget": 7,
+      "active": "corp",
+      "playerTurn": "corp",
+      "phase": {
+        "title": "Corporation's Action Phase",
+        "identifier": "Corp 2.2",
+        "source": null
+      },
+      "terminal": null,
+      "corp": {
+        "side": "corp",
+        "identity": {
+          "id": "c1",
+          "side": "corp",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 30035,
+          "title": "Haas-Bioroid: Precision Design",
+          "type": "identity",
+          "subTypes": [
+            "Megacorp"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "credits": 5,
+        "clicks": 3,
+        "points": 0,
+        "maxHand": 6,
+        "score": [],
+        "hand": [
+          {
+            "id": "c39",
+            "side": "corp",
+            "hidden": false,
+            "installed": false,
+            "rezzed": false,
+            "faceUp": false,
+            "advancement": 0,
+            "hosted": [],
+            "number": 35075,
+            "title": "Kessleroid",
+            "type": "ice",
+            "subTypes": [
+              "Barrier"
+            ],
+            "strength": 1,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "subroutines": [
+              {
+                "text": "End the run.",
+                "broken": false,
+                "fired": false
+              },
+              {
+                "text": "End the run.",
+                "broken": false,
+                "fired": false
+              }
+            ]
+          },
+          {
+            "id": "c17",
+            "side": "corp",
+            "hidden": false,
+            "installed": false,
+            "rezzed": false,
+            "faceUp": false,
+            "advancement": 0,
+            "hosted": [],
+            "number": 30056,
+            "title": "Predictive Planogram",
+            "type": "operation",
+            "subTypes": [
+              "Transaction"
+            ],
+            "strength": null,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "subroutines": []
+          },
+          {
+            "id": "c21",
+            "side": "corp",
+            "hidden": false,
+            "installed": false,
+            "rezzed": false,
+            "faceUp": false,
+            "advancement": 0,
+            "hosted": [],
+            "number": 30069,
+            "title": "Send a Message",
+            "type": "agenda",
+            "subTypes": [
+              "Security"
+            ],
+            "strength": null,
+            "advancementRequirement": 5,
+            "canScore": false,
+            "counters": {},
+            "subroutines": []
+          },
+          {
+            "id": "c43",
+            "side": "corp",
+            "hidden": false,
+            "installed": false,
+            "rezzed": false,
+            "faceUp": false,
+            "advancement": 0,
+            "hosted": [],
+            "number": 35079,
+            "title": "Flyswatter",
+            "type": "ice",
+            "subTypes": [
+              "Code Gate"
+            ],
+            "strength": 0,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "subroutines": [
+              {
+                "text": "End the run.",
+                "broken": false,
+                "fired": false
+              }
+            ]
+          },
+          {
+            "id": "c13",
+            "side": "corp",
+            "hidden": false,
+            "installed": false,
+            "rezzed": false,
+            "faceUp": false,
+            "advancement": 0,
+            "hosted": [],
+            "number": 30050,
+            "title": "Anoetic Void",
+            "type": "upgrade",
+            "subTypes": [],
+            "strength": null,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "subroutines": []
+          },
+          {
+            "id": "c25",
+            "side": "corp",
+            "hidden": false,
+            "installed": false,
+            "rezzed": false,
+            "faceUp": false,
+            "advancement": 0,
+            "hosted": [],
+            "number": 30075,
+            "title": "Hedge Fund",
+            "type": "operation",
+            "subTypes": [
+              "Transaction"
+            ],
+            "strength": null,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "subroutines": []
+          }
+        ],
+        "deck": 38,
+        "discard": [],
+        "resolving": [],
+        "badPublicity": 0,
+        "servers": [
+          {
+            "name": "HQ",
+            "central": true,
+            "ice": [],
+            "root": []
+          },
+          {
+            "name": "R&D",
+            "central": true,
+            "ice": [],
+            "root": []
+          },
+          {
+            "name": "Archives",
+            "central": true,
+            "ice": [],
+            "root": []
+          }
+        ]
+      },
+      "runner": {
+        "side": "runner",
+        "identity": {
+          "id": "c46",
+          "side": "runner",
+          "hidden": false,
+          "installed": false,
+          "rezzed": false,
+          "faceUp": true,
+          "advancement": 0,
+          "hosted": [],
+          "number": 35001,
+          "title": "Ryō \"Phoenix\" Ōno: Out of the Ashes",
+          "type": "identity",
+          "subTypes": [
+            "G-mod"
+          ],
+          "strength": null,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "subroutines": []
+        },
+        "credits": 5,
+        "clicks": 0,
+        "points": 0,
+        "maxHand": 5,
+        "score": [],
+        "hand": [
+          {
+            "id": "c60",
+            "side": "runner",
+            "hidden": true,
+            "installed": false,
+            "rezzed": false,
+            "faceUp": false,
+            "advancement": 0,
+            "hosted": []
+          },
+          {
+            "id": "c83",
+            "side": "runner",
+            "hidden": true,
+            "installed": false,
+            "rezzed": false,
+            "faceUp": false,
+            "advancement": 0,
+            "hosted": []
+          },
+          {
+            "id": "c84",
+            "side": "runner",
+            "hidden": true,
+            "installed": false,
+            "rezzed": false,
+            "faceUp": false,
+            "advancement": 0,
+            "hosted": []
+          },
+          {
+            "id": "c55",
+            "side": "runner",
+            "hidden": true,
+            "installed": false,
+            "rezzed": false,
+            "faceUp": false,
+            "advancement": 0,
+            "hosted": []
+          },
+          {
+            "id": "c48",
+            "side": "runner",
+            "hidden": true,
+            "installed": false,
+            "rezzed": false,
+            "faceUp": false,
+            "advancement": 0,
+            "hosted": []
+          }
+        ],
+        "deck": 40,
+        "discard": [],
+        "resolving": [],
+        "tags": 0,
+        "coreDamage": 0,
+        "temporaryCredits": 0,
+        "memory": 4,
+        "memoryUsed": 0,
+        "rig": {
+          "programs": [],
+          "hardware": [],
+          "resources": []
+        }
+      },
+      "run": null,
+      "access": null,
+      "decision": {
+        "version": 8,
+        "commands": [
+          {
+            "command": "draw",
+            "label": "Draw a card",
+            "cost": {
+              "clicks": 1
+            },
+            "instruction": "Click: Draw a card",
+            "cancel": false,
+            "options": [
+              {
+                "index": 0,
+                "cost": {
+                  "clicks": 1
+                },
+                "label": "Draw a card",
+                "card": null,
+                "server": null
+              }
+            ]
+          },
+          {
+            "command": "gain",
+            "label": "Gain 1 credit",
+            "cost": {
+              "clicks": 1
+            },
+            "instruction": "Click: Gain one credit",
+            "cancel": false,
+            "options": [
+              {
+                "index": 0,
+                "cost": {
+                  "clicks": 1
+                },
+                "label": "Gain 1 credit",
+                "card": null,
+                "server": null
+              }
+            ]
+          },
+          {
+            "command": "install",
+            "label": "Install",
+            "cost": {
+              "clicks": 1
+            },
+            "instruction": "Click: Install an agenda, asset, upgrade or ice",
+            "cancel": false,
+            "options": [
+              {
+                "index": 0,
+                "cost": {
+                  "clicks": 1,
+                  "credits": 0,
+                  "note": "Keep existing ice"
+                },
+                "label": "Kessleroid → new server",
+                "card": {
+                  "id": "c39",
+                  "side": "corp",
+                  "hidden": false,
+                  "installed": false,
+                  "rezzed": false,
+                  "faceUp": false,
+                  "advancement": 0,
+                  "hosted": [],
+                  "number": 35075,
+                  "title": "Kessleroid",
+                  "type": "ice",
+                  "subTypes": [
+                    "Barrier"
+                  ],
+                  "strength": 1,
+                  "advancementRequirement": null,
+                  "canScore": false,
+                  "counters": {},
+                  "subroutines": [
+                    {
+                      "text": "End the run.",
+                      "broken": false,
+                      "fired": false
+                    },
+                    {
+                      "text": "End the run.",
+                      "broken": false,
+                      "fired": false
+                    }
+                  ]
+                },
+                "server": "New remote",
+                "sourceId": "c39",
+                "installQuote": true
+              },
+              {
+                "index": 1,
+                "cost": {
+                  "clicks": 1,
+                  "credits": 0,
+                  "note": "Keep existing ice"
+                },
+                "label": "Kessleroid → HQ",
+                "card": {
+                  "id": "c39",
+                  "side": "corp",
+                  "hidden": false,
+                  "installed": false,
+                  "rezzed": false,
+                  "faceUp": false,
+                  "advancement": 0,
+                  "hosted": [],
+                  "number": 35075,
+                  "title": "Kessleroid",
+                  "type": "ice",
+                  "subTypes": [
+                    "Barrier"
+                  ],
+                  "strength": 1,
+                  "advancementRequirement": null,
+                  "canScore": false,
+                  "counters": {},
+                  "subroutines": [
+                    {
+                      "text": "End the run.",
+                      "broken": false,
+                      "fired": false
+                    },
+                    {
+                      "text": "End the run.",
+                      "broken": false,
+                      "fired": false
+                    }
+                  ]
+                },
+                "server": "HQ",
+                "sourceId": "c39",
+                "installQuote": true
+              },
+              {
+                "index": 2,
+                "cost": {
+                  "clicks": 1,
+                  "credits": 0,
+                  "note": "Keep existing ice"
+                },
+                "label": "Kessleroid → R&D",
+                "card": {
+                  "id": "c39",
+                  "side": "corp",
+                  "hidden": false,
+                  "installed": false,
+                  "rezzed": false,
+                  "faceUp": false,
+                  "advancement": 0,
+                  "hosted": [],
+                  "number": 35075,
+                  "title": "Kessleroid",
+                  "type": "ice",
+                  "subTypes": [
+                    "Barrier"
+                  ],
+                  "strength": 1,
+                  "advancementRequirement": null,
+                  "canScore": false,
+                  "counters": {},
+                  "subroutines": [
+                    {
+                      "text": "End the run.",
+                      "broken": false,
+                      "fired": false
+                    },
+                    {
+                      "text": "End the run.",
+                      "broken": false,
+                      "fired": false
+                    }
+                  ]
+                },
+                "server": "R&D",
+                "sourceId": "c39",
+                "installQuote": true
+              },
+              {
+                "index": 3,
+                "cost": {
+                  "clicks": 1,
+                  "credits": 0,
+                  "note": "Keep existing ice"
+                },
+                "label": "Kessleroid → Archives",
+                "card": {
+                  "id": "c39",
+                  "side": "corp",
+                  "hidden": false,
+                  "installed": false,
+                  "rezzed": false,
+                  "faceUp": false,
+                  "advancement": 0,
+                  "hosted": [],
+                  "number": 35075,
+                  "title": "Kessleroid",
+                  "type": "ice",
+                  "subTypes": [
+                    "Barrier"
+                  ],
+                  "strength": 1,
+                  "advancementRequirement": null,
+                  "canScore": false,
+                  "counters": {},
+                  "subroutines": [
+                    {
+                      "text": "End the run.",
+                      "broken": false,
+                      "fired": false
+                    },
+                    {
+                      "text": "End the run.",
+                      "broken": false,
+                      "fired": false
+                    }
+                  ]
+                },
+                "server": "Archives",
+                "sourceId": "c39",
+                "installQuote": true
+              },
+              {
+                "index": 4,
+                "cost": {
+                  "clicks": 1,
+                  "credits": 0,
+                  "note": "Install facedown"
+                },
+                "label": "Send a Message → new server",
+                "card": {
+                  "id": "c21",
+                  "side": "corp",
+                  "hidden": false,
+                  "installed": false,
+                  "rezzed": false,
+                  "faceUp": false,
+                  "advancement": 0,
+                  "hosted": [],
+                  "number": 30069,
+                  "title": "Send a Message",
+                  "type": "agenda",
+                  "subTypes": [
+                    "Security"
+                  ],
+                  "strength": null,
+                  "advancementRequirement": 5,
+                  "canScore": false,
+                  "counters": {},
+                  "subroutines": []
+                },
+                "server": "New remote",
+                "sourceId": "c21",
+                "installQuote": true
+              },
+              {
+                "index": 5,
+                "cost": {
+                  "clicks": 1,
+                  "credits": 0,
+                  "note": "Keep existing ice"
+                },
+                "label": "Flyswatter → new server",
+                "card": {
+                  "id": "c43",
+                  "side": "corp",
+                  "hidden": false,
+                  "installed": false,
+                  "rezzed": false,
+                  "faceUp": false,
+                  "advancement": 0,
+                  "hosted": [],
+                  "number": 35079,
+                  "title": "Flyswatter",
+                  "type": "ice",
+                  "subTypes": [
+                    "Code Gate"
+                  ],
+                  "strength": 0,
+                  "advancementRequirement": null,
+                  "canScore": false,
+                  "counters": {},
+                  "subroutines": [
+                    {
+                      "text": "End the run.",
+                      "broken": false,
+                      "fired": false
+                    }
+                  ]
+                },
+                "server": "New remote",
+                "sourceId": "c43",
+                "installQuote": true
+              },
+              {
+                "index": 6,
+                "cost": {
+                  "clicks": 1,
+                  "credits": 0,
+                  "note": "Keep existing ice"
+                },
+                "label": "Flyswatter → HQ",
+                "card": {
+                  "id": "c43",
+                  "side": "corp",
+                  "hidden": false,
+                  "installed": false,
+                  "rezzed": false,
+                  "faceUp": false,
+                  "advancement": 0,
+                  "hosted": [],
+                  "number": 35079,
+                  "title": "Flyswatter",
+                  "type": "ice",
+                  "subTypes": [
+                    "Code Gate"
+                  ],
+                  "strength": 0,
+                  "advancementRequirement": null,
+                  "canScore": false,
+                  "counters": {},
+                  "subroutines": [
+                    {
+                      "text": "End the run.",
+                      "broken": false,
+                      "fired": false
+                    }
+                  ]
+                },
+                "server": "HQ",
+                "sourceId": "c43",
+                "installQuote": true
+              },
+              {
+                "index": 7,
+                "cost": {
+                  "clicks": 1,
+                  "credits": 0,
+                  "note": "Keep existing ice"
+                },
+                "label": "Flyswatter → R&D",
+                "card": {
+                  "id": "c43",
+                  "side": "corp",
+                  "hidden": false,
+                  "installed": false,
+                  "rezzed": false,
+                  "faceUp": false,
+                  "advancement": 0,
+                  "hosted": [],
+                  "number": 35079,
+                  "title": "Flyswatter",
+                  "type": "ice",
+                  "subTypes": [
+                    "Code Gate"
+                  ],
+                  "strength": 0,
+                  "advancementRequirement": null,
+                  "canScore": false,
+                  "counters": {},
+                  "subroutines": [
+                    {
+                      "text": "End the run.",
+                      "broken": false,
+                      "fired": false
+                    }
+                  ]
+                },
+                "server": "R&D",
+                "sourceId": "c43",
+                "installQuote": true
+              },
+              {
+                "index": 8,
+                "cost": {
+                  "clicks": 1,
+                  "credits": 0,
+                  "note": "Keep existing ice"
+                },
+                "label": "Flyswatter → Archives",
+                "card": {
+                  "id": "c43",
+                  "side": "corp",
+                  "hidden": false,
+                  "installed": false,
+                  "rezzed": false,
+                  "faceUp": false,
+                  "advancement": 0,
+                  "hosted": [],
+                  "number": 35079,
+                  "title": "Flyswatter",
+                  "type": "ice",
+                  "subTypes": [
+                    "Code Gate"
+                  ],
+                  "strength": 0,
+                  "advancementRequirement": null,
+                  "canScore": false,
+                  "counters": {},
+                  "subroutines": [
+                    {
+                      "text": "End the run.",
+                      "broken": false,
+                      "fired": false
+                    }
+                  ]
+                },
+                "server": "Archives",
+                "sourceId": "c43",
+                "installQuote": true
+              },
+              {
+                "index": 9,
+                "cost": {
+                  "clicks": 1,
+                  "credits": 0,
+                  "note": "Rez cost paid later"
+                },
+                "label": "Anoetic Void → new server",
+                "card": {
+                  "id": "c13",
+                  "side": "corp",
+                  "hidden": false,
+                  "installed": false,
+                  "rezzed": false,
+                  "faceUp": false,
+                  "advancement": 0,
+                  "hosted": [],
+                  "number": 30050,
+                  "title": "Anoetic Void",
+                  "type": "upgrade",
+                  "subTypes": [],
+                  "strength": null,
+                  "advancementRequirement": null,
+                  "canScore": false,
+                  "counters": {},
+                  "subroutines": []
+                },
+                "server": "New remote",
+                "sourceId": "c13",
+                "installQuote": true
+              },
+              {
+                "index": 10,
+                "cost": {
+                  "clicks": 1,
+                  "credits": 0,
+                  "note": "Rez cost paid later"
+                },
+                "label": "Anoetic Void → HQ",
+                "card": {
+                  "id": "c13",
+                  "side": "corp",
+                  "hidden": false,
+                  "installed": false,
+                  "rezzed": false,
+                  "faceUp": false,
+                  "advancement": 0,
+                  "hosted": [],
+                  "number": 30050,
+                  "title": "Anoetic Void",
+                  "type": "upgrade",
+                  "subTypes": [],
+                  "strength": null,
+                  "advancementRequirement": null,
+                  "canScore": false,
+                  "counters": {},
+                  "subroutines": []
+                },
+                "server": "HQ",
+                "sourceId": "c13",
+                "installQuote": true
+              },
+              {
+                "index": 11,
+                "cost": {
+                  "clicks": 1,
+                  "credits": 0,
+                  "note": "Rez cost paid later"
+                },
+                "label": "Anoetic Void → R&D",
+                "card": {
+                  "id": "c13",
+                  "side": "corp",
+                  "hidden": false,
+                  "installed": false,
+                  "rezzed": false,
+                  "faceUp": false,
+                  "advancement": 0,
+                  "hosted": [],
+                  "number": 30050,
+                  "title": "Anoetic Void",
+                  "type": "upgrade",
+                  "subTypes": [],
+                  "strength": null,
+                  "advancementRequirement": null,
+                  "canScore": false,
+                  "counters": {},
+                  "subroutines": []
+                },
+                "server": "R&D",
+                "sourceId": "c13",
+                "installQuote": true
+              },
+              {
+                "index": 12,
+                "cost": {
+                  "clicks": 1,
+                  "credits": 0,
+                  "note": "Rez cost paid later"
+                },
+                "label": "Anoetic Void → Archives",
+                "card": {
+                  "id": "c13",
+                  "side": "corp",
+                  "hidden": false,
+                  "installed": false,
+                  "rezzed": false,
+                  "faceUp": false,
+                  "advancement": 0,
+                  "hosted": [],
+                  "number": 30050,
+                  "title": "Anoetic Void",
+                  "type": "upgrade",
+                  "subTypes": [],
+                  "strength": null,
+                  "advancementRequirement": null,
+                  "canScore": false,
+                  "counters": {},
+                  "subroutines": []
+                },
+                "server": "Archives",
+                "sourceId": "c13",
+                "installQuote": true
+              }
+            ]
+          },
+          {
+            "command": "play",
+            "label": "Play",
+            "cost": {
+              "clicks": 1,
+              "note": "Cost shown when choosing a card"
+            },
+            "instruction": "Click: Play an operation",
+            "cancel": false,
+            "options": [
+              {
+                "index": 0,
+                "cost": {
+                  "clicks": 1,
+                  "credits": 0
+                },
+                "label": "Predictive Planogram",
+                "card": {
+                  "id": "c17",
+                  "side": "corp",
+                  "hidden": false,
+                  "installed": false,
+                  "rezzed": false,
+                  "faceUp": false,
+                  "advancement": 0,
+                  "hosted": [],
+                  "number": 30056,
+                  "title": "Predictive Planogram",
+                  "type": "operation",
+                  "subTypes": [
+                    "Transaction"
+                  ],
+                  "strength": null,
+                  "advancementRequirement": null,
+                  "canScore": false,
+                  "counters": {},
+                  "subroutines": []
+                },
+                "server": null,
+                "sourceId": "c17"
+              },
+              {
+                "index": 1,
+                "cost": {
+                  "clicks": 1,
+                  "credits": 5
+                },
+                "label": "Hedge Fund",
+                "card": {
+                  "id": "c25",
+                  "side": "corp",
+                  "hidden": false,
+                  "installed": false,
+                  "rezzed": false,
+                  "faceUp": false,
+                  "advancement": 0,
+                  "hosted": [],
+                  "number": 30075,
+                  "title": "Hedge Fund",
+                  "type": "operation",
+                  "subTypes": [
+                    "Transaction"
+                  ],
+                  "strength": null,
+                  "advancementRequirement": null,
+                  "canScore": false,
+                  "counters": {},
+                  "subroutines": []
+                },
+                "server": null,
+                "sourceId": "c25"
+              }
+            ]
+          },
+          {
+            "command": "purge",
+            "label": "Purge virus counters",
+            "cost": {
+              "clicks": 3
+            },
+            "instruction": "Click,Click,Click: Purge virus counters",
+            "cancel": false,
+            "options": [
+              {
+                "index": 0,
+                "cost": {
+                  "clicks": 3
+                },
+                "label": "Purge virus counters",
+                "card": null,
+                "server": null
+              }
+            ]
+          }
+        ]
+      },
+      "quietWindow": false,
+      "assistance": null,
+      "installation": null,
+      "historyCount": 4,
+      "history": [
+        {
+          "text": "Game begins. First to 7 agenda points.",
+          "turn": 1,
+          "side": "corp"
+        },
+        {
+          "text": "Corp chose to keep",
+          "turn": 1,
+          "side": "corp"
+        },
+        {
+          "text": "Runner chose to keep",
+          "turn": 1,
+          "side": "corp",
+          "actor": "runner"
+        },
+        {
+          "text": "Corp drew a card",
+          "turn": 1,
+          "side": "corp",
+          "draw": {
+            "kind": "mandatory"
+          }
+        }
+      ],
+      "diagnostics": []
+    }
+  }
+}

@@ -78,7 +78,7 @@ async function workerRestoration(){
 }
 function frontendAcknowledgements(){
  const source=fs.readFileSync('app/table.js','utf8'),elements=new Map(),saved=[],exports=[],listeners={};let context;
- const element=()=>({hidden:false,disabled:false,innerHTML:'',textContent:'',scrollTop:0,classList:{add(){},remove(){},toggle(){}},focus(){}});
+ const element=()=>({hidden:false,disabled:false,innerHTML:'',textContent:'',scrollTop:0,addEventListener(){},classList:{add(){},remove(){},toggle(){}},focus(){}});
  const $=selector=>{if(!elements.has(selector))elements.set(selector,element());return elements.get(selector);};
  const sandbox={$,structuredClone,URLSearchParams,location:{search:''},console:{error(){}},
   document:{activeElement:null,addEventListener:(name,fn)=>{listeners[name]=fn;}},
@@ -90,6 +90,7 @@ function frontendAcknowledgements(){
   selectedCommand:null,multiSelected:[],opponentCurrent:null,opponentQueue:[],opponentTimer:null,opponentFinal:null,opponentSkipped:false,
   ENGINE:'audit',replayRecovery:null,
   renderActionReceipt(){},stopOpponentPlayback(){},hideHover(){},render(){},renderDecisions(){},renderPlayback(){},watch(){},toast(){},closeDialogs(){},rememberActionFocus(){},
+  iceRezWarning:()=>null,
   receiptLabel:()=> 'Gain 1 credit',resourceChanges:()=>[],save:()=>saved.push(plain(context.session))};
  context=vm.createContext(sandbox);
  const functions=source.slice(source.indexOf('function start('),source.indexOf('function actionRefs('));

@@ -9,3 +9,6 @@ coverage/
 /builds/*/*.zip
 /builds/*/SHA256SUMS
 /builds/*/manifest.json
+
+/builds/engine-dev/
+/builds/engine-dev.zip

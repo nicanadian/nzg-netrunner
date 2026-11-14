@@ -1,0 +1,33 @@
+{
+  "createdAt": "2026-11-14T04:59:43.233Z",
+  "rationale": "Screen-only finding: revised Jinteki had 32 flatline wins vs 2 original, while agenda wins were 18 vs 19. Test the two imported Clearinghouse slots directly, holding the other 42 cards, deck size, identity, ice and agendas fixed.",
+  "comparison": "Revised Jinteki confirmation games vs the same list replacing 2 Clearinghouse with 2 Predictive Planogram. A specific two-slot trade, not a card-isolation experiment with identical alternatives.",
+  "changes": [
+    {
+      "id": "30061",
+      "title": "Clearinghouse",
+      "delta": -2
+    },
+    {
+      "id": "30056",
+      "title": "Predictive Planogram",
+      "delta": 2
+    }
+  ],
+  "validation": {
+    "size": 44,
+    "influence": 5,
+    "influenceLimit": 15,
+    "minimumSize": 40,
+    "agenda": 18,
+    "agendaMin": 18,
+    "agendaMax": 19
+  },
+  "registeredBeforeReadingConfirmationOutcomes": true,
+  "seed": "corp-revisions-confirm-2",
+  "gamesPerMatchup": 200,
+  "bootstrapLevel": 0.975,
+  "bootstrapReplicates": 20000,
+  "multiplicity": "Primary confirmation and this mechanism contrast each use 97.5% intervals, a Bonferroni family-wise 95% target for two planned held-out comparisons. Both resample whole shared-seed clusters.",
+  "criterion": "Mechanism contrast is confirmed if its 97.5% seed-cluster interval excludes zero. Report win-reason changes separately as descriptive."
+}

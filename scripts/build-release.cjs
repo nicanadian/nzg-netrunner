@@ -6,7 +6,8 @@ const crypto = require('node:crypto');
 const {execFileSync} = require('node:child_process');
 const esbuild = require('esbuild');
 const ROOT = path.resolve(__dirname, '..');
-const VERSION = 'alpha-build-1';
+const VERSION = require('../package.json').version;
+if(!/^\d+\.\d+\.\d+$/.test(VERSION))throw Error('Release version must be MAJOR.MINOR.PATCH.');
 const NODE = 'v26.13.0';
 const OUTPUT = path.join(ROOT, 'builds', VERSION);
 const WORK = path.join(OUTPUT, '.work');
@@ -44,13 +45,16 @@ async function runtime(target, checksums) {
 }
 async function copyGame(destination) {
   await fs.mkdir(destination,{recursive:true});
-  const files = ['index.html','app','engine','vendor/chiriboga','assets','README.md','LICENSE','NOTICE.md'];
+  const files = ['index.html','app','engine','vendor/chiriboga','vendor/chiriboga-elevation','assets','README.md','LICENSE','NOTICE.md'];
   for(const file of files) await fs.cp(path.join(ROOT,file),path.join(destination,file), {
     recursive:true, filter: source => !path.basename(source).startsWith('.')
   });
 }
 async function main() {
   if(process.platform!=='darwin') throw Error('Build all targets on macOS so both Mac apps receive ad hoc signatures.');
+  const sourceCommit = execFileSync('git',['rev-parse','HEAD'],{cwd:ROOT,encoding:'utf8'}).trim();
+  const dirty = !!execFileSync('git',['status','--porcelain','--untracked-files=normal'],{cwd:ROOT,encoding:'utf8'}).trim();
+  if (dirty && !process.argv.includes('--allow-dirty')) throw Error('Commit source changes before building a release (or use --allow-dirty for local experiments).');
   await fs.mkdir(CACHE,{recursive:true}); await fs.mkdir(WORK,{recursive:true});
   const checksums = await (await fetch(`https://nodejs.org/dist/${NODE}/SHASUMS256.txt`)).text();
   const runtimes = {};
@@ -61,9 +65,6 @@ async function main() {
   await esbuild.build({entryPoints:[path.join(ROOT,'desktop/main.cjs')],bundle:true,platform:'node',format:'cjs',target:'node26',outfile:entry,define:{LOCAL_TABLE_BUILD:JSON.stringify(VERSION)}});
   const selected = process.argv.includes('--target') ? process.argv[process.argv.indexOf('--target')+1] : null;
   if(selected && !targets.some(t=>t.id===selected)) throw Error(`Unknown target: ${selected}`);
-  const sourceCommit = execFileSync('git',['rev-parse','HEAD'],{cwd:ROOT,encoding:'utf8'}).trim();
-  const dirty = !!execFileSync('git',['status','--porcelain','--untracked-files=normal'],{cwd:ROOT,encoding:'utf8'}).trim();
-  if (dirty && !process.argv.includes('--allow-dirty')) throw Error('Commit source changes before building a release (or use --allow-dirty for local experiments).');
   const manifest = {build:VERSION,node:NODE,sourceCommit,dirty,createdAt:new Date().toISOString(),packages:[]};
   for(const target of targets.filter(t=>!selected || selected===t.id)) {
     console.log(`Building ${target.id}`);
@@ -80,7 +81,7 @@ async function main() {
     run(hostNode,['--build-sea',config]);
     await fs.chmod(executable,0o755);
     if(mac) {
-      await fs.writeFile(path.join(app,'Info.plist'),`<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>CFBundleName</key><string>Local Table</string><key>CFBundleDisplayName</key><string>Netrunner Local Table</string><key>CFBundleIdentifier</key><string>com.github.nicanadian.nzg-netrunner</string><key>CFBundleExecutable</key><string>LocalTable</string><key>CFBundlePackageType</key><string>APPL</string><key>CFBundleShortVersionString</key><string>0.1.0</string><key>CFBundleVersion</key><string>1</string><key>LSMinimumSystemVersion</key><string>13.5</string><key>LSUIElement</key><true/></dict></plist>`);
+      await fs.writeFile(path.join(app,'Info.plist'),`<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"><plist version="1.0"><dict><key>CFBundleName</key><string>Local Table</string><key>CFBundleDisplayName</key><string>Netrunner Local Table</string><key>CFBundleIdentifier</key><string>com.github.nicanadian.nzg-netrunner</string><key>CFBundleExecutable</key><string>LocalTable</string><key>CFBundlePackageType</key><string>APPL</string><key>CFBundleShortVersionString</key><string>${VERSION}</string><key>CFBundleVersion</key><string>${VERSION}</string><key>LSMinimumSystemVersion</key><string>13.5</string><key>LSUIElement</key><true/></dict></plist>`);
       run('codesign',['--force','--sign','-',path.join(staging,'Local Table.app')]);
       run('codesign',['--verify','--deep','--strict',path.join(staging,'Local Table.app')]);
     }

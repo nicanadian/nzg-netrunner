@@ -1,3 +1,7 @@
+import {mountDeckBuilder} from './deck-builder.mjs';
+import {gatewayVariants} from './ready-made-decks.mjs';
+import {replayExport} from './replay-export.mjs';
+import {iceRezWarning} from './rez-warning.mjs';
 import { counterEntries, counterMarkup, counterLabel, clickMarkup, resourceChanges } from './counters.mjs';
 import { plural, displayText, phaseHeading, priorityLabel, receiptLabel, orderedCommands, restrictionText, continuationModel } from './presentation.mjs';
 import { activityModel, activityExplanation, damageExplanation } from './activity.mjs';
@@ -5,13 +9,15 @@ import { opponentBeat } from './opponent.mjs';
 import { virusStatus, virusMarkup } from './virus.mjs';
 import { helperContext } from './helper-context.mjs';
 import { mountHelper } from './helper.mjs';
-import { encounterTool, relatedCards, corpIceRezHint } from './encounter.mjs';
+import { encounterTool, relatedCards, corpIceRezHint, corpAssetRezHint } from './encounter.mjs';
 import {breakerPlan,secondaryAbility,cancellationLabel,assistedChoice,quotedInstallFinish,paidAbilityFinish} from './interaction.mjs';
 import {responseLabel} from './presentation.mjs';
 import { runDrawerModel } from './run-drawer.mjs';
 import '../engine/deck-catalog.js';
+import '../engine/core-decks.js';
+globalThis.NR_CORE_PREVIEW=new URLSearchParams(location.search).get('core-preview')==='1';
 const DECKS = globalThis.NRDecks;
-const selectedDeckIds = {...DECKS.defaults};
+const selectedDeckIds = {...(globalThis.NR_CORE_PREVIEW?globalThis.NRCoreDecks.defaults:DECKS.defaults)};
 const INSPECTION_PIXELS = 743;
 let pixelRatioQuery;
 function updateRasterLimit() {
@@ -33,7 +39,22 @@ const esc = (s) =>
       ],
   );
 const DATA = await fetch("/assets/card-data.json").then((r) => r.json());
-const SAVE = "netrunner-local-table-v1",
+// The builder includes full rules text even while remaining art is being imported.
+for(const [id,card] of Object.entries(globalThis.NRCardCatalog.cards))if(!DATA[id])DATA[id]={...card,printingId:id,artist:'See source card',image:''};
+const activePool=globalThis.NR_CORE_PREVIEW?'core-v1':'gateway-v1';
+const deckBuilder=mountDeckBuilder({pool:activePool,bundled:globalThis.NR_CORE_PREVIEW?globalThis.NRCoreDecks.catalog:[...DECKS.catalog,...gatewayVariants],onSelect(deck){selectedDeckIds[deck.side]=deck.id;renderCharacterPicker();}});
+function resolveDecks(ids,documents=null){
+ if(ids!==undefined&&(!ids||typeof ids!=='object'||Array.isArray(ids)))throw Error('Invalid character selection.');
+ if(ids===undefined&&!documents&&!globalThis.NR_CORE_PREVIEW)return DECKS.resolve();
+ const fallback=globalThis.NR_CORE_PREVIEW?globalThis.NRCoreDecks.defaults:DECKS.defaults;
+ return Object.fromEntries(['runner','corp'].map(side=>{
+  if(documents?.[side]){const d=documents[side];return [side,{...d,identity:Number(d.identity),cards:d.cards.map(c=>[Number(c.id),c.count]),name:d.name,faction:DATA[d.identity]?.faction_code,description:'Deck snapshot saved with this game'}];}
+  const key=ids?.[side]||fallback[side],local=deckBuilder.resolve(key);
+  if(local)return [side,local];
+  return [side,DECKS.resolve({...fallback,[side]:key})[side]];
+ }));
+}
+const SAVE = globalThis.NR_CORE_PREVIEW ? "netrunner-local-table-core-v1" : "netrunner-local-table-v1",
   ENGINE = "chiriboga-77c80b1-local-1";
 let worker,
   state,
@@ -75,6 +96,20 @@ function stopOpponentPlayback(clearArchive = false) {
   $('#game').classList.remove('watching-opponent');
   document.querySelectorAll('.opponent-target').forEach(el => el.classList.remove('opponent-target'));
 }
+function skipOpponentPlayback() {
+  // Skipping animation must never discard a required shortage review that the
+  // worker has already queued behind an ordinary action beat.
+  if (!opponentReplaying && opponentCurrent?.requiresRezReview) return;
+  if (!opponentReplaying && opponentQueue.some(beat=>beat.requiresRezReview)) {
+    opponentQueue = opponentQueue.filter(beat=>beat.requiresRezReview);
+    opponentSkipped = true;
+    opponentPaused = false;
+    nextOpponentBeat();
+    return;
+  }
+  if (opponentFinal) finishOpponentPlayback();
+  else { stopOpponentPlayback(); opponentSkipped = true; render(); }
+}
 function finishOpponentPlayback() {
   const finish = opponentFinal;
   stopOpponentPlayback();
@@ -90,7 +125,7 @@ function nextOpponentBeat() {
     return;
   }
   opponentCurrent = beat;
-  if (gameHelper?.isOpen() || teachingPauses && beat.pauseForReview) opponentPaused = true;
+  if (gameHelper?.isOpen() || beat.requiresRezReview || teachingPauses && beat.pauseForReview) opponentPaused = true;
   previousState = state; state = beat.state; busy = true;
   actionResourceChange = null; actionPresentedAt = 0;
   pendingActionLabel = beat.caption;
@@ -104,7 +139,8 @@ function queueOpponentBeat(before, after) {
   if (activePlan) {activePlan.paused=true;activePlan.reason='The Corp responded. Review the current quote before continuing.';}
   if (opponentArchive.at(-1)?.turn !== beat.turn) opponentArchive = [];
   opponentArchive.push(beat);
-  if (opponentSkipped) return;
+  if (opponentSkipped && !beat.requiresRezReview) return;
+  if(beat.requiresRezReview)opponentSkipped=false;
   opponentQueue.push(beat);
   if (!opponentCurrent && !opponentTimer) {
     const hold = actionPresentedAt ? Math.max(0, 520 - (performance.now() - actionPresentedAt)) : 0;
@@ -118,7 +154,11 @@ function renderPlayback() {
   document.querySelectorAll('.opponent-target').forEach(el => el.classList.remove('opponent-target'));
   if (!opponentCurrent) return;
   const beat = opponentCurrent;
+  panel.classList.toggle('ice-rez-warning',beat.kind==='unrezzed-ice');
   panel.innerHTML = `<small>${opponentReplaying ? 'REPLAY · ' : ''}${beat.opponent.toUpperCase()} ${beat.state.playerTurn===beat.opponent ? 'TURN' : 'RESPONSE · YOUR TURN'} ${Math.ceil(beat.turn / 2)}${opponentPaused ? ' · PAUSED' : ''}</small><h2 role="status" aria-live="polite">${esc(displayText(beat.caption))}</h2>${beat.detail ? `<p>${esc(displayText(beat.detail))}</p>` : ''}${beat.card ? `<button class="playback-card" data-playback-card aria-label="Read ${esc(beat.card.title)}"><img src="/assets/cards-display/${beat.card.number}-300.webp" alt=""><span>Read card ›</span></button>` : ''}<div class="playback-controls"><button data-opponent-pause>${opponentPaused ? 'Resume' : 'Pause'}</button><button data-opponent-next ${!opponentQueue.length && !opponentFinal ? 'disabled' : ''}>Next →</button><button data-opponent-skip>${opponentReplaying ? 'Close replay' : 'Skip to decision'}</button></div><p class="playback-note">${opponentReplaying ? 'Recorded board positions. Your game is unchanged.' : 'Watching the opponent. Your next decision will appear here.'}</p>`;
+  if(beat.requiresRezReview && !opponentReplaying) {
+    panel.querySelector('.playback-controls').innerHTML='<button data-rez-review-continue>Understood · continue the run</button>';
+  }
   const targets = beat.targets;
   document.querySelectorAll('#table [data-card]').forEach(el => {
     if (targets.cards.includes(el.dataset.card)) el.classList.add('opponent-target');
@@ -145,7 +185,7 @@ function readSave() {
 function resumeSummary(saved) {
   if (!saved) return '';
   try {
-    const decks=DECKS.resolve(saved.config?.deckIds),mine=saved.config?.side === 'corp' ? 'corp' : 'runner';
+    const decks=resolveDecks(saved.config?.deckIds,saved.config?.deckDocuments),mine=saved.config?.side === 'corp' ? 'corp' : 'runner';
     return `Saved locally · ${decks[mine].name} vs ${decks[mine === 'corp' ? 'runner' : 'corp'].name}`;
   } catch { return 'Saved game · import or resume to check compatibility'; }
 }
@@ -159,8 +199,9 @@ function save() {
   }
 }
 function validateReplay(data) {
+  const engines=[ENGINE,...Object.values(globalThis.NRCoreDecks?.engines||{})].filter(Boolean);
   if (
-    data?.engine !== ENGINE ||
+    !engines.includes(data?.engine) ||
     !["runner", "corp"].includes(data.config?.side) ||
     typeof data.config.seed !== "string" ||
     data.config.seed.length > 200 ||
@@ -170,6 +211,8 @@ function validateReplay(data) {
     throw Error(
       "This replay is not compatible with this version of Local Table.",
     );
+  const expectedEngine=data.config.cardPool==='core-v1'?globalThis.NRCoreDecks?.engines[data.config.rulesVersion]:ENGINE;
+  if(data.engine!==expectedEngine)throw Error('Replay engine and card pool do not match.');
   for (const c of data.choices)
     if (
       !c ||
@@ -181,7 +224,7 @@ function validateReplay(data) {
     )
       throw Error("Invalid replay decision.");
   return {
-    engine: ENGINE,
+    engine: data.config.cardPool==='core-v1'?globalThis.NRCoreDecks.engines[data.config.rulesVersion]:ENGINE,
     config: replayConfig(data.config),
     choices: data.choices,
     conceded: !!data.conceded,
@@ -189,13 +232,31 @@ function validateReplay(data) {
 }
 function replayConfig(config) {
   const result={side:config.side,seed:config.seed};
+  if(config.cardPool!==undefined){
+    if(config.cardPool!=='core-v1')throw Error('Unsupported card pool.');
+    if(!globalThis.NR_CORE_PREVIEW)throw Error('Open the Core Sets development preview to use this in-development matchup.');
+    if(!globalThis.NRCoreDecks.supportedRules.includes(config.rulesVersion))throw Error('Unsupported Core Sets rules version.');
+    result.cardPool=config.cardPool;
+  }
+
   if (config.rulesVersion !== undefined) {
-    if (!['26.03-local-1','26.03-local-2'].includes(config.rulesVersion)) throw Error('Unsupported replay rules version.');
+    if (!['26.03-local-1','26.03-local-2',...(result.cardPool?globalThis.NRCoreDecks.supportedRules:[])].includes(config.rulesVersion)) throw Error('Unsupported replay rules version.');
     result.rulesVersion = config.rulesVersion;
   }
   if (config.deckIds !== undefined) {
-    const decks=DECKS.resolve(config.deckIds);
-    result.deckIds=Object.fromEntries(Object.entries(decks).map(([side,deck])=>[side,deck.id]));
+    const decks=resolveDecks(config.deckIds,config.deckDocuments);
+    if(Object.values(decks).some(d=>d.pool==='core-v1') && result.cardPool!=='core-v1')throw Error('Core Sets decks require the Core Sets preview.');
+    if(result.cardPool && !Object.values(decks).every(d=>d.pool==='core-v1'))throw Error('Choose both decks from Core Sets.');
+    if(!config.deckDocuments)result.deckIds=Object.fromEntries(Object.entries(decks).map(([side,deck])=>[side,deck.id]));
+  }
+  if(config.deckDocuments){
+    result.deckDocuments={};
+    for(const side of ['runner','corp']){
+      const doc=globalThis.NRDeckDocument.normalize(config.deckDocuments[side]);
+      if(doc.side!==side||doc.pool!==(result.cardPool||'gateway-v1'))throw Error('Replay deck profile mismatch.');
+      const v=globalThis.NRDeckDocument.validate(doc);if(!v.valid)throw Error([...v.errors,...v.support].map(e=>e.message).join(' '));
+      result.deckDocuments[side]=doc;
+    }
   }
   return result;
 }
@@ -241,7 +302,7 @@ function start(config, replay = [], conceded = false) {
   clearTimeout(presentationTimer);
   hideHover();
   session = {
-    engine: ENGINE,
+    engine: config.cardPool==='core-v1'?globalThis.NRCoreDecks.engines[config.rulesVersion]:ENGINE,
     config,
     choices: structuredClone(replay),
     conceded,
@@ -398,9 +459,40 @@ function watch() {
     $("#loading").hidden = true;
   }, 60000);
 }
-function choose(command, index, cards, cancel = false, automatic = false) {
+let pendingRezPass = null;
+function showRezPassWarning(warning) {
+  closeDialogs();
+  pendingRezPass = warning;
+  $('#rez-warning-title').textContent = `Let the Runner pass ${warning.card.title}?`;
+  $('#rez-warning-detail').textContent = warning.detail;
+  $('#rez-warning-availability').textContent = warning.availability;
+  $('#rez-warning-confirm').textContent = `Do not rez · let the Runner pass ${warning.card.title}`;
+  const rezButton=$('#rez-warning-rez');
+  rezButton.hidden=!warning.rez;
+  rezButton.textContent=`Rez ${warning.card.title}${warning.rez?.cost!==undefined?' · '+plural(warning.rez.cost,'credit'):''}`;
+  $('#rez-warning-dialog').showModal();
+  $('#rez-warning-back').focus();
+}
+$('#rez-warning-confirm').onclick = () => {
+  const approval=pendingRezPass;
+  $('#rez-warning-dialog').close();
+  if(approval && approval.version===state?.version && !busy)choose(approval.command,approval.index,undefined,false,false,approval);
+};
+$('#rez-warning-rez').onclick = () => {
+  const approval=pendingRezPass;
+  $('#rez-warning-dialog').close();
+  if(approval?.rez && approval.version===state?.version && !busy)choose(approval.rez.command,approval.rez.index);
+};
+$('#rez-warning-dialog').addEventListener('close',()=>{pendingRezPass=null;});
+function choose(command, index, cards, cancel = false, automatic = false, rezApproval = null) {
   if (new URLSearchParams(location.search).get("reference") === "example") { toast("Recorded position. Use the example controls, or Play live to start a game."); return; }
   if (busy || !state?.decision) return;
+  const warning=iceRezWarning(state);
+  if(!cancel && warning && command===warning.command && index===warning.index &&
+      !(rezApproval && rezApproval.version===state.version && rezApproval.card.id===warning.card.id)) {
+    if(!automatic)showRezPassWarning(warning);
+    return;
+  }
   opponentSkipped = false;
   const choice = {
     version: state.version,
@@ -452,9 +544,9 @@ function cardHTML(card, extra = "") {
   cardsById.set(card.id, card);
   const legal = actionRefs(card.id).length > 0;
   const counters = counterEntries(card);
-  const title = card.hidden ? "Facedown " + card.side + " card" : card.title;
+  const title = card.hidden ? "Facedown " + card.side + " card" : card.title+(card.identityFace==='back'?' (back face)':'');
   const virus = virusStatus(card);
-  return `<button class="card ${card.hidden ? "hidden-card" : ""} ${card.side} ${legal ? "legal" : ""} ${counterChanges.some(c=>c.cardId===card.id && c.key==='moved') ? 'card-moved' : ''} ${virus.hosts.length ? 'virus-host' : ''} ${virus.effects.length ? 'virus-affected' : ''} ${multiSelected.includes(card.id) ? "selected" : ""} ${extra} ${previousCards.size && (!previousCards.has(card.id) || previousCards.get(card.id).installed !== card.installed) ? "card-arrived" : ""} ${state?.run?.card?.id === card.id ? "encounter-target" : ""}" data-card="${esc(card.id)}" aria-label="${esc(title)}${legal ? " — action available" : ""}${counters.map(([k,v]) => `, ${counterLabel(k, v)}`).join("")}${virus.description ? ', '+esc(virus.description) : ''}"${state?.decision?.commands.some(g => g.options.some(o => o.multi && o.card?.id === card.id)) ? ` aria-pressed="${multiSelected.includes(card.id)}"` : ""}${card.hidden ? "" : ` data-number="${card.number}"`}>${card.hidden ? "" : `<img src="/assets/cards-display/${card.number}-600.webp" srcset="/assets/cards-display/${card.number}-300.webp 300w, /assets/cards-display/${card.number}-600.webp 600w" sizes="(min-width: 1060px) and (min-height: 880px) 132px, 120px" alt="" draggable="false">`}${counterMarkup(card, counterChanges)}${virusMarkup(card)}${!card.hidden && card.installed && card.type === "agenda" && card.advancementRequirement !== null && card.advancementRequirement !== undefined ? `<span class="agenda-progress ${card.canScore ? "ready" : ""}" title="${card.advancement || 0} of ${card.advancementRequirement} advancement${card.canScore ? "; ready to score" : ""}">${card.canScore ? "✓ READY" : `${card.advancement || 0} / ${card.advancementRequirement} ADV`}</span>` : ""}${card.installed && ["ice", "asset", "upgrade"].includes(card.type) && card.side === "corp" && !card.hidden && !card.faceUp ? '<span class="unrezzed-badge">UNREZZED</span>' : ""}${card.installed && card.strength !== null && card.strength !== undefined && !card.hidden ? `<span class="strength-token" title="Current strength ${card.strength}"><span class="strength-label" aria-hidden="true">STR</span><b>${card.strength}</b></span>` : ""}${!card.hidden && card.type !== "identity" ? `<span class="card-name" aria-hidden="true">${esc(card.title)}</span>` : ""}${card.hosted?.length && !virus.hosts.length ? `<span class="card-hosted">+${card.hosted.length} hosted</span>` : ""}</button>`;
+  return `<button class="card ${card.hidden ? "hidden-card" : ""} ${card.side} ${legal ? "legal" : ""} ${counterChanges.some(c=>c.cardId===card.id && c.key==='moved') ? 'card-moved' : ''} ${virus.hosts.length ? 'virus-host' : ''} ${virus.effects.length ? 'virus-affected' : ''} ${multiSelected.includes(card.id) ? "selected" : ""} ${extra} ${previousCards.size && (!previousCards.has(card.id) || previousCards.get(card.id).installed !== card.installed) ? "card-arrived" : ""} ${state?.run?.card?.id === card.id ? "encounter-target" : ""}" data-card="${esc(card.id)}" aria-label="${esc(title)}${legal ? " — action available" : ""}${counters.map(([k,v]) => `, ${counterLabel(k, v)}`).join("")}${virus.description ? ', '+esc(virus.description) : ''}"${state?.decision?.commands.some(g => g.options.some(o => o.multi && o.card?.id === card.id)) ? ` aria-pressed="${multiSelected.includes(card.id)}"` : ""}${card.hidden ? "" : ` data-number="${card.number}"`}>${card.hidden ? "" : `<img src="/assets/cards-display/${card.artNumber||card.number}-600.webp" srcset="/assets/cards-display/${card.artNumber||card.number}-300.webp 300w, /assets/cards-display/${card.artNumber||card.number}-600.webp 600w" sizes="(min-width: 1060px) and (min-height: 880px) 132px, 120px" alt="" draggable="false">`}${counterMarkup(card, counterChanges)}${virusMarkup(card)}${!card.hidden && card.installed && card.type === "agenda" && card.advancementRequirement !== null && card.advancementRequirement !== undefined ? `<span class="agenda-progress ${card.canScore ? "ready" : ""}" title="${card.advancement || 0} of ${card.advancementRequirement} advancement${card.canScore ? "; ready to score" : ""}">${card.canScore ? "✓ READY" : `${card.advancement || 0} / ${card.advancementRequirement} ADV`}</span>` : ""}${card.installed && ["ice", "asset", "upgrade"].includes(card.type) && card.side === "corp" && !card.hidden && !card.faceUp ? '<span class="unrezzed-badge">UNREZZED</span>' : ""}${card.installed && card.strength !== null && card.strength !== undefined && !card.hidden ? `<span class="strength-token" title="Current strength ${card.strength}"><span class="strength-label" aria-hidden="true">STR</span><b>${card.strength}</b></span>` : ""}${!card.hidden && card.type !== "identity" ? `<span class="card-name" aria-hidden="true">${esc(card.title)}</span>` : ""}${card.hosted?.length && !virus.hosts.length ? `<span class="card-hosted">+${card.hosted.length} hosted</span>` : ""}</button>`;
 }
 const deckBack = (side, count) =>
   `<div class="deck-back ${side}" aria-label="${count} cards in deck"><span><b>N</b></span></div><div class="pile-count">${count} cards</div>`;
@@ -465,7 +557,7 @@ function statusHTML(p) {
 }
 function renderActionReceipt(){
  const panel=$('#action-receipt');panel.hidden=!lastReceipt;if(!lastReceipt)return;
- panel.innerHTML=`<span class="receipt-kind">${lastReceipt.cancel?'CANCELLED':'LAST CONFIRMED CHOICE'}</span><strong>${esc(lastReceipt.label)}</strong><p>${esc(lastReceipt.detail)}</p>${lastReceipt.changes.length?`<ul>${lastReceipt.changes.map(c=>`<li>${esc(c.label)} · ${esc(c.detail || (c.delta>0?'+':'')+c.delta+' · '+c.value+' left')}</li>`).join('')}</ul>`:''}`;
+ panel.innerHTML=`<span class="receipt-kind">${lastReceipt.cancel?'CANCELLED':'LAST CONFIRMED CHOICE'}</span><strong>${esc(displayText(lastReceipt.label))}</strong><p>${esc(lastReceipt.detail)}</p>${lastReceipt.changes.length?`<ul>${lastReceipt.changes.map(c=>`<li>${esc(c.label)} · ${esc(c.detail || (c.delta>0?'+':'')+c.delta+' · '+c.value+' left')}</li>`).join('')}</ul>`:''}`;
 }
 function renderResourceFeedback() {
   const fresh = resourceChanges(previousState, state);
@@ -504,6 +596,7 @@ function hostedHTML(side) {
 function singleActionLabel(command) {
   const step=continuationModel(state);if(step?.command===command.command)return step.label;
   const option = command.options.length === 1 ? command.options[0] : null;
+  if(option && !option.card && option.label==='Done')return state.phase.identifier==='Scrounge Add to Stack'?'Skip optional program return':'Done';
   return command.label === "Continue" && option?.label &&
     !["Continue", command.command].includes(option.label)
     ? option.label : command.label;
@@ -515,7 +608,7 @@ function render() {
   cardsById = new Map();
   hideHover();
   $("#session-label").textContent =
-    "SYSTEM GATEWAY · " + (state.side === "runner" ? "RUNNER" : "CORPORATION");
+    (session?.config.cardPool==='core-v1'?"CORE SETS PREVIEW · ":"SYSTEM GATEWAY · ") + (state.side === "runner" ? "RUNNER" : "CORPORATION");
   for (const side of ["corp", "runner"]) {
     const p = state[side];
     $("#" + side + "-status").innerHTML = statusHTML(p);
@@ -606,6 +699,8 @@ function renderActivity() {
 function hint() {
   if (state.terminal) return "Every run tells a story.";
   if (busy) return "Your opponent is considering the position.";
+  const rezWarning=iceRezWarning(state);
+  if(rezWarning)return rezWarning.detail;
   if (state.phase.guide?.kind==='credit-payment') return `Pay ${state.phase.guide.remaining} more of ${state.phase.guide.total} credits. Choose how much to spend from your pool, bad publicity, or eligible cards. The effect resolves when payment is complete.`;
   if (state.phase.guide?.kind==='anoetic-trash') return `Anoetic Void: 2 credits have been paid. Trash the ${state.phase.guide.remaining===2?'first':'second'} of 2 HQ cards. The run ends after both cards are trashed.`;
   if (state.phase.guide?.kind==='pantograph-install') return 'Pantograph already gained you 1 credit. You may install one card without spending a click; normal install credits and memory still apply. Or continue without installing.';
@@ -678,7 +773,7 @@ function renderDecisions(resetScroll = false) {
   const focus = drawer?.card || state.viewed?.card || state.access || ((state.run?.encountering || state.run?.movement) && state.run.card);
   const brokenCount = focus?.subroutines?.filter(s => s.broken).length || 0;
   const firedCount = focus?.subroutines?.filter(s => s.fired).length || 0;
-  $("#access-card").innerHTML = drawer ? runContextHTML(drawer) : focus
+  $("#access-card").innerHTML = drawer ? runContextHTML(drawer) : state.privateView ? `<section class="private-look"><p>${esc(state.privateView.label)} · visible only to you</p><div class="private-look-cards">${state.privateView.cards.map(card=>cardHTML(card)).join('')}</div></section>` : focus
     ? `${state.viewed ? `<p class="encounter-result">${state.viewed.kind==='expose' ? 'EXPOSED' : 'REVEALED'} CARD</p>` : !state.access && state.run?.movement ? `<p class="encounter-result">ICE PASSED <span>${brokenCount} broken${firedCount ? ` · ${firedCount} fired` : ''}</span></p>` : ""}${!focus.hidden && !state.access && state.run?.encountering ? `<p class="encounter-type">${esc(focus.subTypes?.join(" · "))} · STR ${focus.strength}</p>` : ""}<div class="access-inline">${cardHTML(focus)}</div>${!state.viewed && !state.access && focus.subroutines?.length ? `<ol class="subroutines" aria-label="Ice subroutines">${focus.subroutines.map((s,i) => `<li data-subroutine-number="${i+1}" class="${s.broken ? "broken" : s.fired ? "fired" : ""}"><span class="subroutine-number">${i + 1}</span><span class="subroutine-copy">${esc(s.text)}<small>${s.broken ? '✓ Broken' : s.fired ? 'Fired' : 'Unbroken'}</small></span></li>`).join("")}</ol>` : ""}`
     : "";
   if (state.terminal) {
@@ -726,7 +821,7 @@ function renderDecisions(resetScroll = false) {
         const location = o.hostLabel || o.location;
         const locationDetail = location && !o.label.includes(location) ? location : null;
         const button=`<button class="action-button ${multiSelected.includes(o.card?.id) ? "selected" : ""}" data-related-cards="${esc(relatedCards(o).join(' '))}" ${multi && o.multi ? `aria-pressed="${multiSelected.includes(o.card?.id)}"` : ""} ${o.subroutine ? `data-target-subroutine="${o.subroutine}"` : ""} data-option="${o.index}" data-command="${esc(group.command)}"><span class="action-option">${o.card && !o.card.hidden ? `<img class="option-thumb" src="/assets/cards-display/${o.card.number}-300.webp" alt="">` : ""}<span>${esc((group.command==='rez'?'Rez ':'')+displayText(o.label))}${locationDetail ? `<span class="option-detail">${esc(displayText(locationDetail))}</span>` : ""}${costHTML(o.cost)}${o.detail && !o.label.replace(/[.\s]+$/, "").includes(o.detail.replace(/[.\s]+$/, "")) ? `<span class="option-detail">${esc(displayText(o.detail))}</span>` : ""}</span></span>${multi && o.multi ? "<small>" + (multiSelected.includes(o.card?.id) ? "✓" : "＋") + "</small>" : ""}</button>`;
-        return (o.searchChoice || o.card && !o.card.hidden) ? `<div class="search-choice">${button}<button class="quiet" data-read-option="${o.index}" data-read-command="${esc(group.command)}" aria-label="Read ${esc(o.label)} before choosing">Read card</button>${o.installQuote?`<button class="quiet" data-install-options="${o.index}">Install options · replace / trash…</button>`:''}</div>` : button;
+        return (o.searchChoice || o.card && !o.card.hidden) ? `<div class="search-choice">${button}<button class="quiet" data-read-option="${o.index}" data-read-command="${esc(group.command)}" aria-label="Read ${esc(displayText(o.label))} before choosing">Read card</button>${o.installQuote?`<button class="quiet" data-install-options="${o.index}">Install options · replace / trash…</button>`:''}</div>` : button;
       })
       .join("");
     $("#decisions").innerHTML =
@@ -800,6 +895,11 @@ function renderRunDrawer() {
   const hosted = state.side === 'runner' ? (state.runner.resolving || []).filter(c => !c.hidden && c.counters?.credits).reduce((sum,c) => sum+c.counters.credits,0) : 0;
   $('#run-status').innerHTML = `<div class="run-destination"><strong>${esc(model.server)}</strong><span>${esc(model.stage)}</span></div><p class="run-budget">${payer.credits} pool${runFunds}${hosted ? ` · ${hosted} hosted` : ''} · ${plural(payer.clicks,'click')}<span>${esc(model.cardLabel)}</span></p>${(state.run.restrictions || []).map(r=>`<p class="run-status-restriction">${esc(restrictionText(r))}</p>`).join('')}`;
   $('#run-footer').innerHTML = `<div class="run-footer-controls">${model.controls.map(c => `<button class="action-button ${c.command==='jack'?'run-jack':model.stage==='Encounter'&&model.remaining>0?'run-pass-risk':'primary-action'}" data-command="${esc(c.command)}" data-option="${c.index}"><span>${esc(c.label)}${costHTML(c.cost)}<small>${esc(c.detail)}</small></span></button>`).join('')}${model.cancels.map(c=>`<button class="quiet" data-cancel="${esc(c.command)}">${esc(c.label)}</button>`).join('')}</div>${model.waiting ? `<p class="run-footer-note">${esc(model.waiting)}</p>` : ''}`;
+  const warning=iceRezWarning(state);
+  if(warning && !busy){
+    $('#run-status').insertAdjacentHTML('beforeend',`<section class="ice-rez-warning" role="alert"><strong>REZ ${esc(warning.card.title.toUpperCase())} TO ACTIVATE IT</strong><p>${esc(warning.detail)}</p><p>${esc(warning.availability)}</p></section>`);
+    $('#run-footer').querySelectorAll('[data-command="n"]').forEach(button=>{button.classList.remove('primary-action');button.classList.add('run-pass-risk');});
+  }
   return model;
 }
 function runContextHTML(model) {
@@ -885,7 +985,7 @@ function inspect(card) {
     )
     .join("");
   $("#inspect-content").innerHTML =
-    `<div class="inspect-layout"><img class="inspect-image" src="/assets/cards-display/${card.number}-743.webp" data-fallback="${card.number}" alt="${esc(d.title)} card"><div class="inspect-copy">${state?.installation || installTransaction && state?.phase.guide?.kind==='credit-payment'?`<aside class="pending-install-notice"><p>Finish installing ${esc(state.installation?.card.title || installTransaction.title)} before playing another card.</p><button class="action-button primary-action" data-finish-install>Return to installation →</button></aside>`:''}<span class="eyebrow">${esc(d.faction_code.replaceAll("-", " ")).toUpperCase()}</span><h2>${esc(d.title)}</h2><p class="inspect-type">${esc(d.type_code.toUpperCase())}${d.keywords ? " · " + esc(d.keywords) : ""}${d.uniqueness ? " · UNIQUE" : ""}</p>${stats ? `<div class="inspect-stats">${stats}</div>` : ""}${
+    `<div class="inspect-layout"><img class="inspect-image" src="/assets/cards-display/${card.artNumber||card.number}-743.webp" data-fallback="${card.number}" alt="${esc(d.title)} card"><div class="inspect-copy">${state?.installation || installTransaction && state?.phase.guide?.kind==='credit-payment'?`<aside class="pending-install-notice"><p>Finish installing ${esc(state.installation?.card.title || installTransaction.title)} before playing another card.</p><button class="action-button primary-action" data-finish-install>Return to installation →</button></aside>`:''}<span class="eyebrow">${esc(d.faction_code.replaceAll("-", " ")).toUpperCase()}</span><h2>${esc(d.title)}</h2>${card.identityFace?`<p>Current face: ${card.identityFace}</p>`:''}<p class="inspect-type">${esc(d.type_code.toUpperCase())}${d.keywords ? " · " + esc(d.keywords) : ""}${d.uniqueness ? " · UNIQUE" : ""}</p>${stats ? `<div class="inspect-stats">${stats}</div>` : ""}${
       counterEntries(card).length
         ? `<div class="inspect-counters">${counterMarkup(card)}<p class="inspect-type">${counterEntries(card)
             .map(([k, v]) => counterLabel(k, v))
@@ -896,18 +996,22 @@ function inspect(card) {
       .replaceAll(
         "[click]",
         "⏱",
-      )}</p>${d.flavor ? `<p class="card-flavor">${esc(d.flavor.replace(/<[^>]*>/g, ""))}</p>` : ""}<p class="artist">Art by ${esc(d.artist || d.illustrator)} · System Gateway #${d.position}</p>${card.hosted?.length ? `<h3>Hosted cards</h3><div>${card.hosted.map((c) => cardHTML(c)).join("")}</div>` : ""}<div class="inspect-actions">${actions.map((a) => `<button class="action-button primary-action" data-inspect-command="${esc(a.command)}" data-option="${a.index}"><span class="inspect-action-copy"><strong>${esc(a.group.label)}${a.option.server ? ` → ${esc(displayText(a.option.server))}` : a.option.hostLabel ? ` → ${esc(displayText(a.option.hostLabel))}` : ""}</strong>${costHTML(a.option.cost || a.group.cost)}${a.option.detail ? `<span class="option-detail">${esc(a.option.detail)}</span>` : ""}</span><span aria-hidden="true">→</span></button>`).join("")}</div></div></div>`;
+      )}</p>${d.flavor ? `<p class="card-flavor">${esc(d.flavor.replace(/<[^>]*>/g, ""))}</p>` : ""}<p class="artist">Art by ${esc(d.artist || d.illustrator)} · ${esc(d.pack_code === 'elev' ? 'Elevation' : 'System Gateway')} #${d.position}</p>${card.hosted?.length ? `<h3>Hosted cards</h3><div>${card.hosted.map((c) => cardHTML(c)).join("")}</div>` : ""}<div class="inspect-actions">${actions.map((a) => `<button class="action-button primary-action" data-inspect-command="${esc(a.command)}" data-option="${a.index}"><span class="inspect-action-copy"><strong>${esc(a.group.label)}${a.option.server ? ` → ${esc(displayText(a.option.server))}` : a.option.hostLabel ? ` → ${esc(displayText(a.option.hostLabel))}` : ""}</strong>${costHTML(a.option.cost || a.group.cost)}${a.option.detail ? `<span class="option-detail">${esc(a.option.detail)}</span>` : ""}</span><span aria-hidden="true">→</span></button>`).join("")}</div></div></div>`;
   const virus = virusStatus(card);
   const rezHint=corpIceRezHint(card,state);
   if(rezHint){
     const note=document.createElement('p');note.className='target-instruction rez-availability';note.textContent=rezHint;
     $('#inspect-content .inspect-actions').before(note);
   }
+  const assetRezHint=corpAssetRezHint(card,state);
+  if(assetRezHint && !busy){
+    $('#inspect-content .inspect-actions').insertAdjacentHTML('beforeend',`<div class="rez-unavailable"><p id="asset-rez-reason" class="target-instruction">${esc(assetRezHint)}</p><button class="action-button" disabled aria-describedby="asset-rez-reason">Rez ${esc(card.title)} · ${plural(card.rezStatus.cost,'credit')}</button></div>`);
+  }
   if (actions.length) {
     const note=document.createElement('p'); note.className='action-link-hint';
     note.textContent='These are the same actions available in the action panel.';
     $('#inspect-content .inspect-actions').before(note);
-    [...$('#inspect-content .inspect-actions').children].forEach((button,i)=>{
+    [...$('#inspect-content .inspect-actions').querySelectorAll('[data-inspect-command]')].forEach((button,i)=>{
       button.dataset.relatedCards=relatedCards(actions[i].option).join(' ');
       if (actions[i].command === 'trigger' || actions[i].option.subroutine || actions[i].option.searchChoice)
         button.querySelector('strong').textContent=(actions[i].option.searchChoice ? 'Choose ' : '')+displayText(actions[i].option.label);
@@ -915,6 +1019,11 @@ function inspect(card) {
         button.querySelector('.option-detail')?.remove();
       if(actions[i].option.installQuote)button.insertAdjacentHTML('afterend',`<button class="quiet" data-install-options="${actions[i].index}">Install options${actions[i].option.server?' · '+esc(displayText(actions[i].option.server)):''} · replace or trash cards…</button>`);
     });
+  }
+  if(state.side==='corp' && card.side==='corp' && card.installed && !card.rezzed && ['asset','upgrade'].includes(card.type)){
+    const step=continuationModel(state);
+    const end=!busy && step && state.phase.identifier==='Corp 2.2' && state.corp.clicks===0;
+    $('#inspect-content .inspect-copy').insertAdjacentHTML('beforeend',`<section class="optional-rez-exit"><p>Rezzing this card is optional. Closing this view spends nothing.</p>${end?`<button class="action-button primary-action" data-command="${esc(step.command)}" data-option="${step.index}">End action phase · leave ${esc(card.title)} unrezzed</button>`:''}<button class="action-button" data-close>Leave ${esc(card.title)} unrezzed · close card</button></section>`);
   }
   if (virus.description || card.installed && card.subTypes?.includes('Virus')) {
     const note=document.createElement('p'); note.className='virus-explanation';
@@ -991,7 +1100,7 @@ function showHover(el) {
   preview.style.width = width + "px";
   preview.style.left = Math.max(10, x) + "px";
   preview.style.top = y + "px";
-  preview.innerHTML = `<img src="/assets/cards-display/${card.number}-743.webp" data-fallback="${card.number}" alt="${esc(card.title)}"><div class="preview-caption"><b>${esc(card.title)}</b>${card.installed && card.strength !== null && card.strength !== undefined ? "Current strength " + card.strength + " · " : ""}Click to pin & read</div>`;
+  preview.innerHTML = `<img src="/assets/cards-display/${card.artNumber||card.number}-743.webp" data-fallback="${card.number}" alt="${esc(card.title)}"><div class="preview-caption"><b>${esc(card.title)}</b>${card.installed && card.strength !== null && card.strength !== undefined ? "Current strength " + card.strength + " · " : ""}Click to pin & read</div>`;
   preview.hidden = false;
 }
 function hideHover() {
@@ -1013,7 +1122,7 @@ function lobby() {
   const saved = readSave();
   $('#resume-context').hidden = !saved;
   $('#resume-context').textContent = resumeSummary(saved);
-  $("#session-label").textContent = "SYSTEM GATEWAY";
+  $("#session-label").textContent = globalThis.NR_CORE_PREVIEW?"GATEWAY + ELEVATION · DEVELOPMENT PREVIEW":"SYSTEM GATEWAY";
 }
 function showZone(zone) {
   const [side, type] = zone.split('-');
@@ -1041,28 +1150,45 @@ function deckStats(deck) {
     stats.points+=(card.agenda_points || 0)*count;return stats;
   },{size:0,influence:0,points:0});
 }
+function availableLoadouts(side) {
+  return deckBuilder.list().filter(d=>d.side===side&&globalThis.NRDeckDocument.validate(deckBuilder.document(d)).valid);
+}
+function chooseCharacter(side, identity) {
+  const available=availableLoadouts(side).filter(d=>String(d.identity)===String(identity));
+  if(available.length&&!available.some(d=>d.id===selectedDeckIds[side]))selectedDeckIds[side]=available[0].id;
+  renderCharacterPicker();
+}
+function loadoutTitle(deck) { return deck.local ? deck.name : deck.loadoutName || deck.title || deck.style || deck.name; }
 function renderCharacterPicker() {
   const opposite=role === 'runner' ? 'corp' : 'runner';
   $('#your-character-label').textContent=role === 'runner' ? 'Your Runner' : 'Your Corporation';
   $('#opponent-character-label').textContent=opposite === 'runner' ? 'AI Runner' : 'AI Corporation';
   for (const [prefix,side] of [['your',role],['opponent',opposite]]) {
-    const select=$(`#${prefix}-character`);
-    select.innerHTML=DECKS.catalog.filter(d=>d.side === side).map(d=>`<option value="${esc(d.id)}">${esc(d.name)}</option>`).join('');
-    select.value=selectedDeckIds[side];
-    const deck=DECKS.resolve(selectedDeckIds)[side],stats=deckStats(deck);
-    $(`#${prefix}-character-summary`).innerHTML=`<button class="character-portrait" data-library="${deck.identity}" aria-label="Read ${esc(deck.name)} identity"><img src="/assets/cards-display/${deck.identity}-300.webp" alt=""></button><div><span class="character-faction">${esc(deck.faction)} · ${stats.size} cards</span><h2>${esc(deck.style)}</h2><p>${esc(deck.description)}</p><button class="quiet character-ability" data-library="${deck.identity}">Read identity ability →</button></div>`;
+    const select=$(`#${prefix}-character`),deckSelect=$(`#${prefix}-deck`);
+    const available=availableLoadouts(side);
+    if(!available.some(d=>d.id===selectedDeckIds[side]))selectedDeckIds[side]=available[0]?.id;
+    const deck=resolveDecks(selectedDeckIds)[side],stats=deckStats(deck);
+    const identities=[...new Set(available.map(d=>String(d.identity)))];
+    select.innerHTML=identities.map(id=>`<option value="${esc(id)}">${esc(DATA[id].title)}</option>`).join('');
+    select.value=String(deck.identity);
+    const loadouts=available.filter(d=>String(d.identity)===String(deck.identity));
+    deckSelect.innerHTML=loadouts.map(d=>`<option value="${esc(d.id)}">${esc(loadoutTitle(d))}</option>`).join('');
+    deckSelect.value=deck.id;
+    $(`#${prefix}-deck-count`).textContent=`${loadouts.length} ${loadouts.length===1?'deck':'decks'} available for this character`;
+    $(`#${prefix}-character-summary`).innerHTML=`<button class="character-portrait" data-library="${deck.identity}" aria-label="Read ${esc(DATA[deck.identity].title)} identity"><img src="/assets/cards-display/${deck.identity}-300.webp" alt=""></button><div><span class="character-faction">${esc(deck.faction)} · ${stats.size} cards · ${stats.influence} / ${DATA[deck.identity].influence_limit} influence</span><h2>${esc(loadoutTitle(deck))}</h2><p>${esc(deck.description)}</p><button class="quiet character-ability" data-library="${deck.identity}">Read identity ability →</button></div>`;
   }
-  $('.hero-card.front img').src=`/assets/cards-display/${DECKS.resolve(selectedDeckIds).runner.identity}-600.webp`;
-  $('.hero-card.back img').src=`/assets/cards-display/${DECKS.resolve(selectedDeckIds).corp.identity}-600.webp`;
+  $('.hero-card.front img').src=`/assets/cards-display/${resolveDecks(selectedDeckIds).runner.identity}-600.webp`;
+  $('.hero-card.back img').src=`/assets/cards-display/${resolveDecks(selectedDeckIds).corp.identity}-600.webp`;
 }
+
 function viewDecks() {
   closeDialogs();
   if (opponentCurrent) {
     opponentPaused=true;clearTimeout(opponentTimer);opponentTimer=null;renderPlayback();
   }
-  const decks=DECKS.resolve($('#game').hidden ? selectedDeckIds : session?.config.deckIds);
+  const decks=resolveDecks($('#game').hidden ? selectedDeckIds : session?.config.deckIds,$('#game').hidden?null:session?.config.deckDocuments);
   $('#deck-dialog').classList.remove('pile-view');
-  $('#library-eyebrow').textContent = 'SYSTEM GATEWAY · SELECTED MATCHUP';
+  $('#library-eyebrow').textContent = `${session?.config.cardPool === 'core-v1' || globalThis.NR_CORE_PREVIEW ? 'GATEWAY + ELEVATION' : 'SYSTEM GATEWAY'} · SELECTED MATCHUP`;
   $('#deck-dialog>p').textContent = 'Ready-to-play decks for this matchup. Inspect any card to read its full text.';
   $('#deck-dialog h2').textContent = 'Your loadout';
   $('#deck-dialog>p').hidden = false;
@@ -1110,6 +1236,7 @@ document.addEventListener("click", (e) => {
     start(config,prefix);
     return;
   }
+  if(el.hasAttribute('data-rez-review-continue')){opponentPaused=false;nextOpponentBeat();return;}
   if (el.hasAttribute('data-ask-inspected')) { closeDialogs(); gameHelper.open(inspectedCard); return; }
   if (el.hasAttribute('data-playback-card')) {
     if (!opponentCurrent?.card) return;
@@ -1122,11 +1249,7 @@ document.addEventListener("click", (e) => {
     renderPlayback(); return;
   }
   if (el.hasAttribute('data-opponent-next')) { nextOpponentBeat(); return; }
-  if (el.hasAttribute('data-opponent-skip')) {
-    if (opponentFinal) finishOpponentPlayback();
-    else { stopOpponentPlayback(); opponentSkipped = true; render(); }
-    return;
-  }
+  if (el.hasAttribute('data-opponent-skip')) { skipOpponentPlayback(); return; }
   if (el.hasAttribute('data-replay-opponent')) {
     if (busy || !opponentArchive.length) return;
     const current = state, receipt = lastResourceChange;
@@ -1347,10 +1470,17 @@ document.querySelectorAll("[data-side]").forEach((btn) =>
       .forEach((b) => { b.classList.toggle("active", b === btn); b.setAttribute("aria-pressed", b === btn); });
   }),
 );
-$("#start-button").onclick = () =>
-  start({ side: role, seed: crypto.randomUUID(), deckIds:{...selectedDeckIds}, rulesVersion:'26.03-local-2' });
-$('#your-character').onchange = e => {selectedDeckIds[role]=e.target.value;renderCharacterPicker();};
-$('#opponent-character').onchange = e => {selectedDeckIds[role === 'runner' ? 'corp' : 'runner']=e.target.value;renderCharacterPicker();};
+$("#start-button").onclick = () => {
+  const decks=resolveDecks(selectedDeckIds),custom=Object.values(decks).some(d=>d.document);
+  start({side:role,seed:crypto.randomUUID(),...(custom?{deckDocuments:Object.fromEntries(Object.entries(decks).map(([side,d])=>[side,deckBuilder.document(d)]))}:{deckIds:{...selectedDeckIds}}),...(globalThis.NR_CORE_PREVIEW?{rulesVersion:globalThis.NRCoreDecks.rulesVersion,cardPool:globalThis.NRCoreDecks.cardPool}:{rulesVersion:'26.03-local-2'})});
+};
+$('#build-deck-button').onclick=()=>deckBuilder.open();
+$('#your-character').onchange = e => chooseCharacter(role,e.target.value);
+$('#your-deck').onchange = e => {selectedDeckIds[role]=e.target.value;renderCharacterPicker();};
+$('#opponent-character').onchange = e => chooseCharacter(role==='runner'?'corp':'runner',e.target.value);
+$('#opponent-deck').onchange = e => {selectedDeckIds[role==='runner'?'corp':'runner']=e.target.value;renderCharacterPicker();};
+$('#card-pool').value=activePool;
+$('#card-pool').onchange=e=>{const url=new URL(location.href);if(e.target.value==='core-v1')url.searchParams.set('core-preview','1');else url.searchParams.delete('core-preview');location.assign(url.href);};
 renderCharacterPicker();
 $("#resume-button").onclick = () => {
   try {
@@ -1406,7 +1536,7 @@ $("#concede-button").onclick = () => {
 $("#export-button").onclick = () => {
   if (!session) return;
   const url = URL.createObjectURL(
-      new Blob([JSON.stringify(session, null, 2)], {
+      new Blob([JSON.stringify(replayExport(session,{state,busy,playback:!!opponentCurrent,pending}), null, 2)], {
         type: "application/json",
       }),
     ),
@@ -1527,3 +1657,10 @@ $('#teaching-pauses').addEventListener('change',e=>{teachingPauses=e.target.chec
 for(const dialog of document.querySelectorAll('dialog'))dialog.addEventListener('close',()=>{
   if(deferredAutomatic)setTimeout(()=>deferredAutomatic?.(),0);
 });
+
+if(globalThis.NR_CORE_PREVIEW){
+ $('#session-label').textContent='GATEWAY + ELEVATION · DEVELOPMENT PREVIEW';
+ $('#lobby .lobby-copy h1').insertAdjacentHTML('afterend','<aside class="core-preview-notice">Development preview: 21 official Core Sets decklists. Card rules and AI audit in progress.</aside>');
+ $('#lobby .lobby-foot').textContent='LOCAL PLAY · AI OPPONENT · GATEWAY + ELEVATION';
+ document.querySelectorAll('.role small').forEach(el=>{el.textContent='Core Sets · official sample decks';});
+}

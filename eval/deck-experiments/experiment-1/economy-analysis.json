@@ -1,0 +1,381 @@
+{
+  "engineHash": "c8c52ccc31737fc9422b50e395a7400e0be4a08b2dffddedda3e275d88c8925f",
+  "seed": "deck-economy-holdout-1",
+  "variants": [
+    {
+      "label": "Stored income (original)",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "Tāo Salonga",
+        "side": "runner",
+        "identity": "30019",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 2
+          },
+          {
+            "id": "30006",
+            "count": 3
+          },
+          {
+            "id": "30020",
+            "count": 3
+          },
+          {
+            "id": "30021",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 2
+          },
+          {
+            "id": "30023",
+            "count": 2
+          },
+          {
+            "id": "30024",
+            "count": 2
+          },
+          {
+            "id": "30025",
+            "count": 3
+          },
+          {
+            "id": "30026",
+            "count": 3
+          },
+          {
+            "id": "30027",
+            "count": 3
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 2
+          }
+        ]
+      },
+      "directory": "matchup-0-0",
+      "scheduled": 200,
+      "completed": 200,
+      "statuses": {
+        "completed": 200
+      },
+      "runnerWins": 89,
+      "corpWins": 111,
+      "runnerWinRate": 0.445,
+      "wilson95": [
+        0.3778060100295335,
+        0.5142669758719658
+      ],
+      "allScheduledWinBounds": [
+        0.445,
+        0.445
+      ],
+      "medianRoundReached": 12,
+      "medianNativeDecisions": 840.5,
+      "p50Ms": 707.5,
+      "p95Ms": 4626.2,
+      "reasons": {
+        "agenda points": 198,
+        "deck exhaustion": 2
+      },
+      "creditClicks": {
+        "runner": 755,
+        "corp": 861
+      },
+      "drawClicks": {
+        "runner": 2046,
+        "corp": 573
+      },
+      "runnerTurns": 2456,
+      "corpTurns": 2569,
+      "basicRunnerCreditClicksPerTurn": 0.30741042345276876,
+      "basicCorpCreditClicksPerTurn": 0.335149863760218
+    },
+    {
+      "label": "Burst income",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "Tāo Salonga — burst income",
+        "side": "runner",
+        "identity": "30019",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30002",
+            "count": 2
+          },
+          {
+            "id": "30004",
+            "count": 2
+          },
+          {
+            "id": "30006",
+            "count": 3
+          },
+          {
+            "id": "30020",
+            "count": 3
+          },
+          {
+            "id": "30021",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 2
+          },
+          {
+            "id": "30023",
+            "count": 2
+          },
+          {
+            "id": "30024",
+            "count": 2
+          },
+          {
+            "id": "30025",
+            "count": 3
+          },
+          {
+            "id": "30026",
+            "count": 3
+          },
+          {
+            "id": "30027",
+            "count": 1
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 2
+          }
+        ]
+      },
+      "directory": "matchup-1-0",
+      "scheduled": 200,
+      "completed": 200,
+      "statuses": {
+        "completed": 200
+      },
+      "runnerWins": 94,
+      "corpWins": 106,
+      "runnerWinRate": 0.47,
+      "wilson95": [
+        0.40204754873265425,
+        0.5390831708499817
+      ],
+      "allScheduledWinBounds": [
+        0.47,
+        0.47
+      ],
+      "medianRoundReached": 13,
+      "medianNativeDecisions": 862,
+      "p50Ms": 736,
+      "p95Ms": 3865.499999999985,
+      "reasons": {
+        "agenda points": 198,
+        "deck exhaustion": 2
+      },
+      "creditClicks": {
+        "runner": 1125,
+        "corp": 894
+      },
+      "drawClicks": {
+        "runner": 1947,
+        "corp": 614
+      },
+      "runnerTurns": 2551,
+      "corpTurns": 2659,
+      "basicRunnerCreditClicksPerTurn": 0.44100352802822423,
+      "basicCorpCreditClicksPerTurn": 0.3362166227905228
+    },
+    {
+      "label": "Two Mayflies",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "Tāo Salonga — two Mayflies",
+        "side": "runner",
+        "identity": "30019",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 2
+          },
+          {
+            "id": "30006",
+            "count": 3
+          },
+          {
+            "id": "30020",
+            "count": 3
+          },
+          {
+            "id": "30021",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 2
+          },
+          {
+            "id": "30023",
+            "count": 2
+          },
+          {
+            "id": "30024",
+            "count": 2
+          },
+          {
+            "id": "30025",
+            "count": 3
+          },
+          {
+            "id": "30026",
+            "count": 3
+          },
+          {
+            "id": "30027",
+            "count": 1
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30032",
+            "count": 2
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 2
+          }
+        ]
+      },
+      "directory": "matchup-2-0",
+      "scheduled": 200,
+      "completed": 200,
+      "statuses": {
+        "completed": 200
+      },
+      "runnerWins": 86,
+      "corpWins": 114,
+      "runnerWinRate": 0.43,
+      "wilson95": [
+        0.36334322333434416,
+        0.4992951223584731
+      ],
+      "allScheduledWinBounds": [
+        0.43,
+        0.43
+      ],
+      "medianRoundReached": 13,
+      "medianNativeDecisions": 834,
+      "p50Ms": 969,
+      "p95Ms": 5676.94999999999,
+      "reasons": {
+        "agenda points": 198,
+        "deck exhaustion": 2
+      },
+      "creditClicks": {
+        "runner": 1290,
+        "corp": 997
+      },
+      "drawClicks": {
+        "runner": 2043,
+        "corp": 579
+      },
+      "runnerTurns": 2541,
+      "corpTurns": 2657,
+      "basicRunnerCreditClicksPerTurn": 0.5076741440377804,
+      "basicCorpCreditClicksPerTurn": 0.375235227700414
+    }
+  ],
+  "contrasts": [
+    {
+      "label": "Burst income",
+      "pairedComplete": 200,
+      "alternativeOnlyWins": 45,
+      "originalOnlyWins": 40,
+      "ties": 115,
+      "delta": 0.025,
+      "bootstrapLevel": 0.975,
+      "bootstrapInterval": [
+        -0.08,
+        0.125
+      ],
+      "allScheduledDeltaBounds": [
+        0.025,
+        0.025
+      ],
+      "mcnemarExactP": 0.6646454904132143,
+      "holmAdjustedP": 1
+    },
+    {
+      "label": "Two Mayflies",
+      "pairedComplete": 200,
+      "alternativeOnlyWins": 40,
+      "originalOnlyWins": 43,
+      "ties": 117,
+      "delta": -0.015,
+      "bootstrapLevel": 0.975,
+      "bootstrapInterval": [
+        -0.12,
+        0.085
+      ],
+      "allScheduledDeltaBounds": [
+        -0.015,
+        -0.015
+      ],
+      "mcnemarExactP": 0.8264047244491934,
+      "holmAdjustedP": 1
+    }
+  ]
+}

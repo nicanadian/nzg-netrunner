@@ -1,10 +1,12 @@
 # Netrunner · Local Table
 
-**Alpha Build 1 — download, extract, and play (no Node.js needed):**
+**0.1.0 · Alpha — download, extract, and play (no Node.js needed):**
 
 [Windows x64](https://github.com/nicanadian/nzg-netrunner/releases/download/alpha-build-1/nzg-netrunner-alpha-build-1-windows-x64.zip) · [macOS Apple Silicon](https://github.com/nicanadian/nzg-netrunner/releases/download/alpha-build-1/nzg-netrunner-alpha-build-1-macos-arm64.zip) · [macOS Intel](https://github.com/nicanadian/nzg-netrunner/releases/download/alpha-build-1/nzg-netrunner-alpha-build-1-macos-x64.zip) · [Linux x64](https://github.com/nicanadian/nzg-netrunner/releases/download/alpha-build-1/nzg-netrunner-alpha-build-1-linux-x64.zip)
 
 Launch **LocalTable.exe**, **Local Table.app**, or **./LocalTable** after extracting the whole ZIP. The game opens in your browser; **Quit game** stops its local server. [Launch instructions, system requirements, and build recipe](builds/alpha-build-1/README.md). This is an unsigned alpha; Windows/macOS may show a publisher warning. [Release notes and checksums](https://github.com/nicanadian/nzg-netrunner/releases/tag/alpha-build-1).
+
+The previous release is now named **0.1.0**. Its historical `alpha-build-1` tag and download filenames remain unchanged so existing links keep working. **0.2.0 is in release preparation**; the downloads above still contain 0.1.0.
 
 A playable, offline-first System Gateway game: choose Runner or Corporation and play against Chiriboga's AI. The interface is a new tabletop presentation with illustrated blue/red mats, legal actions, magnified cards, and local replay saves.
 
@@ -50,7 +52,7 @@ For an independently installed Ollama model, set `HELPER_PROVIDER=ollama`, `HELP
 
 The tutor separates printed rules, observed browser behavior and possible implementation issues. Its reference guide is limited, and connected-model answers still require judgment. **Menu → Export game replay** is the evidence needed to investigate a suspected engine bug. Reference sources: [NSG rules](https://rules.nullsignal.games/), the bundled printed card text, [OpenAI Responses API](https://developers.openai.com/api/docs/guides/migrate-to-responses), and [Ollama chat API](https://docs.ollama.com/api/chat).
 
-Seven curated, legal 40-card decks are included:
+Seven curated Gateway decks are included (40-card Runner decks; 40–44-card Corp decks):
 
 | Side | Character | Playstyle | Influence |
 |---|---|---|---|
@@ -62,13 +64,24 @@ Seven curated, legal 40-card decks are included:
 | Corp | NBN: Reality Plus | Tags, extra income/cards and Retribution | 3 / 15 |
 | Corp | Weyland Consortium: Built to Last | Advancement rewards, towering ice and meat damage | 2 / 15 |
 
-Every Corp deck has 18 agenda points. The seven lists use 72 distinct Gateway cards, including their identities. The engine retains all 77 definitions; Cookbook, Mayfly, Sprint and the two starter-only identities aren't in these presets. Deck building and other expansions remain outside the current UI.
+Every Corp deck has the agenda points required for its deck size. The seven lists use 72 distinct Gateway cards, including their identities. The engine retains all 77 definitions; Cookbook, Mayfly, Sprint and the two starter-only identities aren't in these presets. The development version also includes the local deck library and builder described below.
 
 The shared catalog is `engine/deck-catalog.js`. Saves retain versioned deck IDs for both sides. Keep published lists immutable under those IDs; future list revisions should use new IDs. Old saves without IDs retain the exact original Loup/Precision Design lists and shuffled order. Unknown or wrong-side deck IDs fail visibly instead of silently substituting a character.
+
+## Development: Elevation, deck building and offline experiments
+
+The current checkout adds **Deck library & builder** to the lobby: clone ready-made lists, build/save custom decks, import public NetrunnerDB URLs or text/JSON, and export a library backup. Invalid lists remain saved drafts with actionable construction errors. Games embed exact custom deck snapshots so later edits/deletion cannot alter their replays.
+
+Open **[Core Sets development preview](http://localhost:5173/?core-preview=1)** for Gateway + all 82 Elevation cards and 21 attributed official NSG sample lists. Definitions, printed fields, art and initial per-card ability fixtures are present. **The full rules/UI/AI audit is still open; this is an experimental preview.** New Core games use revision 2; retained revision 1 games still reconstruct.
+
+The game setup separates **character** from **deck**, for both you and the AI. System Gateway has 10 ready-made lists: the seven baseline decks, two Tāo alternatives (Burst economy and Mayfly backup), and Jinteki’s Planogram economy alternative. Use **Deck library & builder** to clone, import or create more. The **Card pool** selector opens the experimental Gateway + Elevation profile with 21 official sample lists; its rules and AI audit is still incomplete. Games using variants or custom decks save their exact deck documents for replay.
+
+A separate offline Node CLI validates decks, runs seeded matches, compares deck variants in worker-pool matchup matrices, resumes experiments and replays saved decisions using frozen source bundles. No browser, server, Docker, art or network is required for matches. See [CLI usage and measured limits](docs/offline-engine.md), [implementation roadmap](docs/plans/elevation-full-support.md), and [development-loop evidence](docs/playtesting/elevation/development-loop.md). [Search optimizations](docs/offline-engine-performance.md) reduced a matched 100-game batch from 139 to 74 seconds, preserving every decision. Build the portable code package with `npm run build:engine`; this does not replace the Alpha Build 1 downloads above.
 
 ## Verify
 
 ```sh
+NR_TEST_SEEDS=1 npm run check:dev  # includes deck builder/engine/Core/simulation checks
 npm test
 NR_TEST_SEEDS=1 npm test               # one AI faceoff plus regressions
 npm run test:rules                    # payment/privacy and Chrome replay

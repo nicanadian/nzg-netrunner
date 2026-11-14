@@ -1,0 +1,658 @@
+[
+  {
+    "id": "35001",
+    "title": "Ryō “Phoenix” Ōno: Out of the Ashes",
+    "type": "identity",
+    "upstreamDefinition": true,
+    "initialMatchup": true,
+    "verification": "Native subroutine-fired tracking and run/turn resets tested; reward/ordering fixtures pending."
+  },
+  {
+    "id": "35002",
+    "title": "Topan: Ormas Leader",
+    "type": "identity",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35003",
+    "title": "Charm Offensive",
+    "type": "event",
+    "upstreamDefinition": true,
+    "initialMatchup": true,
+    "verification": "Targeted fixtures pending."
+  },
+  {
+    "id": "35004",
+    "title": "Scrounge",
+    "type": "event",
+    "upstreamDefinition": true,
+    "initialMatchup": true,
+    "verification": "Targeted fixtures pending."
+  },
+  {
+    "id": "35005",
+    "title": "Shred",
+    "type": "event",
+    "upstreamDefinition": true,
+    "initialMatchup": true,
+    "verification": "Targeted fixtures pending."
+  },
+  {
+    "id": "35006",
+    "title": "Bling",
+    "type": "hardware",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35007",
+    "title": "Gourmand",
+    "type": "program",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35008",
+    "title": "Hantu",
+    "type": "program",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35009",
+    "title": "Rising Tide",
+    "type": "program",
+    "upstreamDefinition": true,
+    "initialMatchup": true,
+    "verification": "Native heap-fracter strength, encounter quote and one-credit break tested; full lifecycle/AI fixtures pending."
+  },
+  {
+    "id": "35010",
+    "title": "Cacophony",
+    "type": "resource",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35011",
+    "title": "Rent Rioters",
+    "type": "resource",
+    "upstreamDefinition": true,
+    "initialMatchup": true,
+    "verification": "Targeted fixtures pending."
+  },
+  {
+    "id": "35012",
+    "title": "Barry “Baz” Wong: Tri-Maf Veteran",
+    "type": "identity",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35013",
+    "title": "MuslihaT: Multifarious Marketeer",
+    "type": "identity",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35014",
+    "title": "Clean Getaway",
+    "type": "event",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35015",
+    "title": "Lie Low",
+    "type": "event",
+    "upstreamDefinition": true,
+    "initialMatchup": true,
+    "verification": "Targeted fixtures pending."
+  },
+  {
+    "id": "35016",
+    "title": "Maintenance Access",
+    "type": "event",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35017",
+    "title": "Transfer of Wealth",
+    "type": "event",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35018",
+    "title": "Detente",
+    "type": "hardware",
+    "upstreamDefinition": true,
+    "initialMatchup": true,
+    "verification": "Targeted fixtures pending."
+  },
+  {
+    "id": "35019",
+    "title": "Maglectric Rapid (748 Mod)",
+    "type": "hardware",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35020",
+    "title": "Sang Kancil",
+    "type": "program",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35021",
+    "title": "Fransofia Ward",
+    "type": "resource",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35022",
+    "title": "Open Market",
+    "type": "resource",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35023",
+    "title": "Dewi Subrotoputri: Pedagogical Dhalang",
+    "type": "identity",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35024",
+    "title": "Magdalene Keino-Chemutai: Cryptarchitect",
+    "type": "identity",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35025",
+    "title": "Illumination",
+    "type": "event",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35026",
+    "title": "Ritual",
+    "type": "event",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35027",
+    "title": "GAMEDRAGON™ Pro",
+    "type": "hardware",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35028",
+    "title": "Madani",
+    "type": "hardware",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35029",
+    "title": "Azimat",
+    "type": "program",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35030",
+    "title": "Chromatophores",
+    "type": "program",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35031",
+    "title": "Devadatta Drone",
+    "type": "program",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35032",
+    "title": "Principia",
+    "type": "program",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35033",
+    "title": "“Knickknack” O’Brian",
+    "type": "resource",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35034",
+    "title": "Side Hustle",
+    "type": "resource",
+    "upstreamDefinition": true,
+    "initialMatchup": true,
+    "verification": "Targeted fixtures pending."
+  },
+  {
+    "id": "35035",
+    "title": "LEO Construction: Labor Solutions",
+    "type": "identity",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35036",
+    "title": "Poétrï Luxury Brands: All the Rage",
+    "type": "identity",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35037",
+    "title": "Aggressive Trendsetting",
+    "type": "agenda",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35038",
+    "title": "Project Ingatan",
+    "type": "agenda",
+    "upstreamDefinition": true,
+    "initialMatchup": true,
+    "verification": "Targeted fixtures pending."
+  },
+  {
+    "id": "35039",
+    "title": "Humanoid Resources",
+    "type": "asset",
+    "upstreamDefinition": true,
+    "initialMatchup": true,
+    "verification": "Native cost, gain/draw, 0/1/2 sequential installs and operation decline tested; play-operation and AI strategy fixtures pending."
+  },
+  {
+    "id": "35040",
+    "title": "Otto Campaign",
+    "type": "asset",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35041",
+    "title": "Bumi 1.0",
+    "type": "ice",
+    "upstreamDefinition": true,
+    "initialMatchup": true,
+    "verification": "Targeted fixtures pending."
+  },
+  {
+    "id": "35042",
+    "title": "Scatter Field",
+    "type": "ice",
+    "upstreamDefinition": true,
+    "initialMatchup": true,
+    "verification": "Targeted fixtures pending."
+  },
+  {
+    "id": "35043",
+    "title": "Nanomanagement",
+    "type": "operation",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35044",
+    "title": "Top-Down Solutions",
+    "type": "operation",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35045",
+    "title": "Mercia B4LL4RD",
+    "type": "upgrade",
+    "upstreamDefinition": true,
+    "initialMatchup": true,
+    "verification": "Native action-phase-end offer and decline tested; discounted install and movement fixtures pending."
+  },
+  {
+    "id": "35046",
+    "title": "AU Co.: The Gold Standard in Clones",
+    "type": "identity",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35047",
+    "title": "PT Untaian: Life's Building Blocks",
+    "type": "identity",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35048",
+    "title": "Proprionegation",
+    "type": "agenda",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35049",
+    "title": "Sericulture Expansion",
+    "type": "agenda",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35050",
+    "title": "Byte!",
+    "type": "asset",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35051",
+    "title": "Phật Gioan Baotixita",
+    "type": "asset",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35052",
+    "title": "Empiricist",
+    "type": "ice",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35053",
+    "title": "Mycoweb",
+    "type": "ice",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35054",
+    "title": "Semak-samun",
+    "type": "ice",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35055",
+    "title": "Peer Review",
+    "type": "operation",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35056",
+    "title": "Mitra Aman",
+    "type": "upgrade",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35057",
+    "title": "Nebula Talent Management: Making Stars",
+    "type": "identity",
+    "upstreamDefinition": false,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35058",
+    "title": "Synapse Global: Faster than Thought",
+    "type": "identity",
+    "upstreamDefinition": false,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35059",
+    "title": "Embedded Reporting",
+    "type": "agenda",
+    "upstreamDefinition": false,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35060",
+    "title": "Next Big Thing",
+    "type": "agenda",
+    "upstreamDefinition": false,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35061",
+    "title": "Idiosyncresis",
+    "type": "asset",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35062",
+    "title": "Public Access Plaza",
+    "type": "asset",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35063",
+    "title": "Doomscroll",
+    "type": "ice",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35064",
+    "title": "N-Pot",
+    "type": "ice",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35065",
+    "title": "Bigger Picture",
+    "type": "operation",
+    "upstreamDefinition": false,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35066",
+    "title": "IP Enforcement",
+    "type": "operation",
+    "upstreamDefinition": false,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35067",
+    "title": "Touch-ups",
+    "type": "operation",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35068",
+    "title": "BANGUN: When Disaster Strikes",
+    "type": "identity",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35069",
+    "title": "The Zwicky Group: Invisible Hands",
+    "type": "identity",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35070",
+    "title": "Greenmail",
+    "type": "agenda",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35071",
+    "title": "Off the Books",
+    "type": "agenda",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35072",
+    "title": "Anthill Excavation Contract",
+    "type": "asset",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35073",
+    "title": "Plutus",
+    "type": "asset",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35074",
+    "title": "Biawak",
+    "type": "ice",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35075",
+    "title": "Kessleroid",
+    "type": "ice",
+    "upstreamDefinition": true,
+    "initialMatchup": true,
+    "verification": "Targeted fixtures pending."
+  },
+  {
+    "id": "35076",
+    "title": "Syailendra",
+    "type": "ice",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35077",
+    "title": "Key Performance Indicators",
+    "type": "operation",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35078",
+    "title": "Measured Response",
+    "type": "operation",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35079",
+    "title": "Flyswatter",
+    "type": "ice",
+    "upstreamDefinition": true,
+    "initialMatchup": true,
+    "verification": "Targeted fixtures pending."
+  },
+  {
+    "id": "35080",
+    "title": "Lamplighter",
+    "type": "ice",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35081",
+    "title": "Petty Cash",
+    "type": "operation",
+    "upstreamDefinition": true,
+    "initialMatchup": false,
+    "verification": "Outside the initial matchup."
+  },
+  {
+    "id": "35082",
+    "title": "Mahkota Langit Grid",
+    "type": "upgrade",
+    "upstreamDefinition": true,
+    "initialMatchup": true,
+    "verification": "Targeted fixtures pending."
+  }
+]

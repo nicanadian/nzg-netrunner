@@ -1,0 +1,70 @@
+{
+  "selection": "First six held-out seed indices in each of nine cells",
+  "observedActivations": 3,
+  "activations": [
+    {
+      "runner": "loup-v1",
+      "corp": "restoring-humanity-v2",
+      "seed": "corp-revisions-confirm-2:3",
+      "turn": 27,
+      "advancement": 9,
+      "damage": 9,
+      "gripBefore": 5,
+      "terminal": {
+        "winner": "corp",
+        "reason": "Runner flatlined",
+        "damage": {
+          "amount": 9,
+          "type": "meat",
+          "gripBefore": 5
+        }
+      }
+    },
+    {
+      "runner": "zahya-v2",
+      "corp": "restoring-humanity-v2",
+      "seed": "corp-revisions-confirm-2:3",
+      "turn": 23,
+      "advancement": 3,
+      "damage": 3,
+      "gripBefore": 2,
+      "terminal": {
+        "winner": "corp",
+        "reason": "Runner flatlined",
+        "damage": {
+          "amount": 3,
+          "type": "meat",
+          "gripBefore": 2,
+          "card": {
+            "id": "c22",
+            "number": 30061,
+            "title": "Clearinghouse"
+          }
+        }
+      }
+    },
+    {
+      "runner": "tao-v1",
+      "corp": "restoring-humanity-v2",
+      "seed": "corp-revisions-confirm-2:5",
+      "turn": 19,
+      "advancement": 6,
+      "damage": 6,
+      "gripBefore": 5,
+      "terminal": {
+        "winner": "corp",
+        "reason": "Runner flatlined",
+        "damage": {
+          "amount": 6,
+          "type": "meat",
+          "gripBefore": 5,
+          "card": {
+            "id": "c22",
+            "number": 30061,
+            "title": "Clearinghouse"
+          }
+        }
+      }
+    }
+  ]
+}

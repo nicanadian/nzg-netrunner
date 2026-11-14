@@ -1,0 +1,322 @@
+{
+  "schemaVersion": 1,
+  "runners": [
+    {
+      "label": "Stored income (original)",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "Tāo Salonga",
+        "side": "runner",
+        "identity": "30019",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 2
+          },
+          {
+            "id": "30006",
+            "count": 3
+          },
+          {
+            "id": "30020",
+            "count": 3
+          },
+          {
+            "id": "30021",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 2
+          },
+          {
+            "id": "30023",
+            "count": 2
+          },
+          {
+            "id": "30024",
+            "count": 2
+          },
+          {
+            "id": "30025",
+            "count": 3
+          },
+          {
+            "id": "30026",
+            "count": 3
+          },
+          {
+            "id": "30027",
+            "count": 3
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 2
+          }
+        ]
+      }
+    },
+    {
+      "label": "Burst income",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "Tāo Salonga — burst income",
+        "side": "runner",
+        "identity": "30019",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30002",
+            "count": 2
+          },
+          {
+            "id": "30004",
+            "count": 2
+          },
+          {
+            "id": "30006",
+            "count": 3
+          },
+          {
+            "id": "30020",
+            "count": 3
+          },
+          {
+            "id": "30021",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 2
+          },
+          {
+            "id": "30023",
+            "count": 2
+          },
+          {
+            "id": "30024",
+            "count": 2
+          },
+          {
+            "id": "30025",
+            "count": 3
+          },
+          {
+            "id": "30026",
+            "count": 3
+          },
+          {
+            "id": "30027",
+            "count": 1
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 2
+          }
+        ]
+      }
+    },
+    {
+      "label": "Two Mayflies",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "Tāo Salonga — two Mayflies",
+        "side": "runner",
+        "identity": "30019",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 2
+          },
+          {
+            "id": "30006",
+            "count": 3
+          },
+          {
+            "id": "30020",
+            "count": 3
+          },
+          {
+            "id": "30021",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 2
+          },
+          {
+            "id": "30023",
+            "count": 2
+          },
+          {
+            "id": "30024",
+            "count": 2
+          },
+          {
+            "id": "30025",
+            "count": 3
+          },
+          {
+            "id": "30026",
+            "count": 3
+          },
+          {
+            "id": "30027",
+            "count": 1
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30032",
+            "count": 2
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 2
+          }
+        ]
+      }
+    }
+  ],
+  "corps": [
+    {
+      "label": "Haas-Bioroid: Precision Design",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "Haas-Bioroid: Precision Design",
+        "side": "corp",
+        "identity": "30035",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30037",
+            "count": 3
+          },
+          {
+            "id": "30038",
+            "count": 3
+          },
+          {
+            "id": "30039",
+            "count": 3
+          },
+          {
+            "id": "30040",
+            "count": 3
+          },
+          {
+            "id": "30041",
+            "count": 2
+          },
+          {
+            "id": "30042",
+            "count": 2
+          },
+          {
+            "id": "30048",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 2
+          },
+          {
+            "id": "30056",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 3
+          },
+          {
+            "id": "30070",
+            "count": 1
+          },
+          {
+            "id": "30071",
+            "count": 1
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30074",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          }
+        ]
+      }
+    }
+  ],
+  "gamesPerMatchup": 200,
+  "seed": "deck-economy-holdout-1",
+  "workers": 4,
+  "wallMs": 120000,
+  "decisions": 100000,
+  "traceEvery": 1,
+  "mode": "fast"
+}

@@ -1,0 +1,1218 @@
+{
+  "phase": "screen",
+  "engineHash": "c8c52ccc31737fc9422b50e395a7400e0be4a08b2dffddedda3e275d88c8925f",
+  "seed": "corp-revisions-screen-2",
+  "finishedAt": "2026-11-14T04:58:45.707Z",
+  "cells": [
+    {
+      "r": 0,
+      "c": 0,
+      "directory": "matchup-0-0",
+      "runner": "loup-v1",
+      "corp": "precision-design-v1",
+      "scheduled": 40,
+      "completed": 40,
+      "statuses": {
+        "completed": 40
+      },
+      "runnerWins": 17,
+      "corpWins": 23,
+      "runnerWinRate": 0.425,
+      "wilson95": [
+        0.28509392559950375,
+        0.5780493145800892
+      ],
+      "allScheduledWinBounds": [
+        0.425,
+        0.425
+      ],
+      "medianRoundReached": 15,
+      "medianNativeDecisions": 996.5,
+      "p50Ms": 2252,
+      "p95Ms": 14076.699999999997,
+      "reasons": {
+        "agenda points": 39,
+        "deck exhaustion": 1
+      },
+      "creditClicks": {
+        "runner": 279,
+        "corp": 225
+      },
+      "drawClicks": {
+        "runner": 475,
+        "corp": 145
+      },
+      "runnerTurns": 562,
+      "corpTurns": 586,
+      "basicRunnerCreditClicksPerTurn": 0.49644128113879005,
+      "basicCorpCreditClicksPerTurn": 0.3839590443686007
+    },
+    {
+      "r": 0,
+      "c": 1,
+      "directory": "matchup-0-1",
+      "runner": "loup-v1",
+      "corp": "precision-design-v2",
+      "scheduled": 40,
+      "completed": 40,
+      "statuses": {
+        "completed": 40
+      },
+      "runnerWins": 24,
+      "corpWins": 16,
+      "runnerWinRate": 0.6,
+      "wilson95": [
+        0.44595893660346186,
+        0.7365167431570808
+      ],
+      "allScheduledWinBounds": [
+        0.6,
+        0.6
+      ],
+      "medianRoundReached": 14.5,
+      "medianNativeDecisions": 937.5,
+      "p50Ms": 2225.5,
+      "p95Ms": 21336.899999999987,
+      "reasons": {
+        "agenda points": 39,
+        "deck exhaustion": 1
+      },
+      "creditClicks": {
+        "runner": 287,
+        "corp": 229
+      },
+      "drawClicks": {
+        "runner": 443,
+        "corp": 129
+      },
+      "runnerTurns": 547,
+      "corpTurns": 564,
+      "basicRunnerCreditClicksPerTurn": 0.5246800731261426,
+      "basicCorpCreditClicksPerTurn": 0.40602836879432624
+    },
+    {
+      "r": 0,
+      "c": 2,
+      "directory": "matchup-0-2",
+      "runner": "loup-v1",
+      "corp": "restoring-humanity-v1",
+      "scheduled": 40,
+      "completed": 40,
+      "statuses": {
+        "completed": 40
+      },
+      "runnerWins": 31,
+      "corpWins": 9,
+      "runnerWinRate": 0.775,
+      "wilson95": [
+        0.6249690325768998,
+        0.8768390867645927
+      ],
+      "allScheduledWinBounds": [
+        0.775,
+        0.775
+      ],
+      "medianRoundReached": 13.5,
+      "medianNativeDecisions": 902,
+      "p50Ms": 400.5,
+      "p95Ms": 3886.7,
+      "reasons": {
+        "agenda points": 38,
+        "flatline": 1,
+        "deck exhaustion": 1
+      },
+      "creditClicks": {
+        "runner": 336,
+        "corp": 445
+      },
+      "drawClicks": {
+        "runner": 526,
+        "corp": 139
+      },
+      "runnerTurns": 546,
+      "corpTurns": 556,
+      "basicRunnerCreditClicksPerTurn": 0.6153846153846154,
+      "basicCorpCreditClicksPerTurn": 0.8003597122302158
+    },
+    {
+      "r": 0,
+      "c": 3,
+      "directory": "matchup-0-3",
+      "runner": "loup-v1",
+      "corp": "restoring-humanity-v2",
+      "scheduled": 40,
+      "completed": 40,
+      "statuses": {
+        "completed": 40
+      },
+      "runnerWins": 22,
+      "corpWins": 18,
+      "runnerWinRate": 0.55,
+      "wilson95": [
+        0.39829091798932054,
+        0.6929469218909508
+      ],
+      "allScheduledWinBounds": [
+        0.55,
+        0.55
+      ],
+      "medianRoundReached": 13,
+      "medianNativeDecisions": 851,
+      "p50Ms": 436,
+      "p95Ms": 2419.149999999997,
+      "reasons": {
+        "agenda points": 27,
+        "flatline": 13
+      },
+      "creditClicks": {
+        "runner": 275,
+        "corp": 300
+      },
+      "drawClicks": {
+        "runner": 472,
+        "corp": 123
+      },
+      "runnerTurns": 472,
+      "corpTurns": 490,
+      "basicRunnerCreditClicksPerTurn": 0.5826271186440678,
+      "basicCorpCreditClicksPerTurn": 0.6122448979591837
+    },
+    {
+      "r": 0,
+      "c": 4,
+      "directory": "matchup-0-4",
+      "runner": "loup-v1",
+      "corp": "reality-plus-v1",
+      "scheduled": 40,
+      "completed": 40,
+      "statuses": {
+        "completed": 40
+      },
+      "runnerWins": 25,
+      "corpWins": 15,
+      "runnerWinRate": 0.625,
+      "wilson95": [
+        0.47032439137301096,
+        0.7577702083276673
+      ],
+      "allScheduledWinBounds": [
+        0.625,
+        0.625
+      ],
+      "medianRoundReached": 16.5,
+      "medianNativeDecisions": 1093,
+      "p50Ms": 459,
+      "p95Ms": 3454.0499999999897,
+      "reasons": {
+        "agenda points": 35,
+        "deck exhaustion": 5
+      },
+      "creditClicks": {
+        "runner": 563,
+        "corp": 635
+      },
+      "drawClicks": {
+        "runner": 567,
+        "corp": 72
+      },
+      "runnerTurns": 674,
+      "corpTurns": 694,
+      "basicRunnerCreditClicksPerTurn": 0.8353115727002968,
+      "basicCorpCreditClicksPerTurn": 0.9149855907780979
+    },
+    {
+      "r": 0,
+      "c": 5,
+      "directory": "matchup-0-5",
+      "runner": "loup-v1",
+      "corp": "reality-plus-v2",
+      "scheduled": 40,
+      "completed": 40,
+      "statuses": {
+        "completed": 40
+      },
+      "runnerWins": 24,
+      "corpWins": 16,
+      "runnerWinRate": 0.6,
+      "wilson95": [
+        0.44595893660346186,
+        0.7365167431570808
+      ],
+      "allScheduledWinBounds": [
+        0.6,
+        0.6
+      ],
+      "medianRoundReached": 16,
+      "medianNativeDecisions": 977.5,
+      "p50Ms": 436,
+      "p95Ms": 7486.05,
+      "reasons": {
+        "agenda points": 36,
+        "deck exhaustion": 3,
+        "flatline": 1
+      },
+      "creditClicks": {
+        "runner": 524,
+        "corp": 361
+      },
+      "drawClicks": {
+        "runner": 523,
+        "corp": 84
+      },
+      "runnerTurns": 632,
+      "corpTurns": 651,
+      "basicRunnerCreditClicksPerTurn": 0.8291139240506329,
+      "basicCorpCreditClicksPerTurn": 0.554531490015361
+    },
+    {
+      "r": 0,
+      "c": 6,
+      "directory": "matchup-0-6",
+      "runner": "loup-v1",
+      "corp": "built-to-last-v1",
+      "scheduled": 40,
+      "completed": 40,
+      "statuses": {
+        "completed": 40
+      },
+      "runnerWins": 16,
+      "corpWins": 24,
+      "runnerWinRate": 0.4,
+      "wilson95": [
+        0.2634832568429192,
+        0.5540410633965381
+      ],
+      "allScheduledWinBounds": [
+        0.4,
+        0.4
+      ],
+      "medianRoundReached": 15.5,
+      "medianNativeDecisions": 941,
+      "p50Ms": 430,
+      "p95Ms": 4290.149999999995,
+      "reasons": {
+        "deck exhaustion": 1,
+        "flatline": 13,
+        "agenda points": 26
+      },
+      "creditClicks": {
+        "runner": 421,
+        "corp": 455
+      },
+      "drawClicks": {
+        "runner": 477,
+        "corp": 82
+      },
+      "runnerTurns": 558,
+      "corpTurns": 583,
+      "basicRunnerCreditClicksPerTurn": 0.7544802867383512,
+      "basicCorpCreditClicksPerTurn": 0.7804459691252144
+    },
+    {
+      "r": 0,
+      "c": 7,
+      "directory": "matchup-0-7",
+      "runner": "loup-v1",
+      "corp": "built-to-last-v2",
+      "scheduled": 40,
+      "completed": 40,
+      "statuses": {
+        "completed": 40
+      },
+      "runnerWins": 26,
+      "corpWins": 14,
+      "runnerWinRate": 0.65,
+      "wilson95": [
+        0.49505880837257693,
+        0.7786547112682372
+      ],
+      "allScheduledWinBounds": [
+        0.65,
+        0.65
+      ],
+      "medianRoundReached": 16,
+      "medianNativeDecisions": 1015,
+      "p50Ms": 1427,
+      "p95Ms": 9988.699999999999,
+      "reasons": {
+        "agenda points": 34,
+        "deck exhaustion": 1,
+        "flatline": 5
+      },
+      "creditClicks": {
+        "runner": 411,
+        "corp": 288
+      },
+      "drawClicks": {
+        "runner": 560,
+        "corp": 92
+      },
+      "runnerTurns": 616,
+      "corpTurns": 631,
+      "basicRunnerCreditClicksPerTurn": 0.6672077922077922,
+      "basicCorpCreditClicksPerTurn": 0.45641838351822506
+    },
+    {
+      "r": 1,
+      "c": 0,
+      "directory": "matchup-1-0",
+      "runner": "zahya-v2",
+      "corp": "precision-design-v1",
+      "scheduled": 40,
+      "completed": 40,
+      "statuses": {
+        "completed": 40
+      },
+      "runnerWins": 23,
+      "corpWins": 17,
+      "runnerWinRate": 0.575,
+      "wilson95": [
+        0.42195068541991065,
+        0.7149060744004962
+      ],
+      "allScheduledWinBounds": [
+        0.575,
+        0.575
+      ],
+      "medianRoundReached": 13.5,
+      "medianNativeDecisions": 937,
+      "p50Ms": 1144.5,
+      "p95Ms": 7712.499999999998,
+      "reasons": {
+        "agenda points": 40
+      },
+      "creditClicks": {
+        "runner": 107,
+        "corp": 199
+      },
+      "drawClicks": {
+        "runner": 375,
+        "corp": 164
+      },
+      "runnerTurns": 501,
+      "corpTurns": 518,
+      "basicRunnerCreditClicksPerTurn": 0.21357285429141717,
+      "basicCorpCreditClicksPerTurn": 0.3841698841698842
+    },
+    {
+      "r": 1,
+      "c": 1,
+      "directory": "matchup-1-1",
+      "runner": "zahya-v2",
+      "corp": "precision-design-v2",
+      "scheduled": 40,
+      "completed": 40,
+      "statuses": {
+        "completed": 40
+      },
+      "runnerWins": 22,
+      "corpWins": 18,
+      "runnerWinRate": 0.55,
+      "wilson95": [
+        0.39829091798932054,
+        0.6929469218909508
+      ],
+      "allScheduledWinBounds": [
+        0.55,
+        0.55
+      ],
+      "medianRoundReached": 11,
+      "medianNativeDecisions": 796.5,
+      "p50Ms": 1143,
+      "p95Ms": 7479.799999999999,
+      "reasons": {
+        "agenda points": 40
+      },
+      "creditClicks": {
+        "runner": 113,
+        "corp": 170
+      },
+      "drawClicks": {
+        "runner": 389,
+        "corp": 141
+      },
+      "runnerTurns": 483,
+      "corpTurns": 501,
+      "basicRunnerCreditClicksPerTurn": 0.23395445134575568,
+      "basicCorpCreditClicksPerTurn": 0.3393213572854291
+    },
+    {
+      "r": 1,
+      "c": 2,
+      "directory": "matchup-1-2",
+      "runner": "zahya-v2",
+      "corp": "restoring-humanity-v1",
+      "scheduled": 40,
+      "completed": 40,
+      "statuses": {
+        "completed": 40
+      },
+      "runnerWins": 33,
+      "corpWins": 7,
+      "runnerWinRate": 0.825,
+      "wilson95": [
+        0.6805000966821229,
+        0.9125458625396408
+      ],
+      "allScheduledWinBounds": [
+        0.825,
+        0.825
+      ],
+      "medianRoundReached": 12,
+      "medianNativeDecisions": 987,
+      "p50Ms": 284.5,
+      "p95Ms": 508.39999999999907,
+      "reasons": {
+        "agenda points": 39,
+        "deck exhaustion": 1
+      },
+      "creditClicks": {
+        "runner": 117,
+        "corp": 353
+      },
+      "drawClicks": {
+        "runner": 511,
+        "corp": 155
+      },
+      "runnerTurns": 478,
+      "corpTurns": 486,
+      "basicRunnerCreditClicksPerTurn": 0.24476987447698745,
+      "basicCorpCreditClicksPerTurn": 0.7263374485596708
+    },
+    {
+      "r": 1,
+      "c": 3,
+      "directory": "matchup-1-3",
+      "runner": "zahya-v2",
+      "corp": "restoring-humanity-v2",
+      "scheduled": 40,
+      "completed": 40,
+      "statuses": {
+        "completed": 40
+      },
+      "runnerWins": 25,
+      "corpWins": 15,
+      "runnerWinRate": 0.625,
+      "wilson95": [
+        0.47032439137301096,
+        0.7577702083276673
+      ],
+      "allScheduledWinBounds": [
+        0.625,
+        0.625
+      ],
+      "medianRoundReached": 12,
+      "medianNativeDecisions": 828.5,
+      "p50Ms": 244.5,
+      "p95Ms": 837.0999999999996,
+      "reasons": {
+        "agenda points": 30,
+        "flatline": 10
+      },
+      "creditClicks": {
+        "runner": 93,
+        "corp": 293
+      },
+      "drawClicks": {
+        "runner": 514,
+        "corp": 139
+      },
+      "runnerTurns": 478,
+      "corpTurns": 493,
+      "basicRunnerCreditClicksPerTurn": 0.19456066945606695,
+      "basicCorpCreditClicksPerTurn": 0.5943204868154158
+    },
+    {
+      "r": 1,
+      "c": 4,
+      "directory": "matchup-1-4",
+      "runner": "zahya-v2",
+      "corp": "reality-plus-v1",
+      "scheduled": 40,
+      "completed": 40,
+      "statuses": {
+        "completed": 40
+      },
+      "runnerWins": 31,
+      "corpWins": 9,
+      "runnerWinRate": 0.775,
+      "wilson95": [
+        0.6249690325768998,
+        0.8768390867645927
+      ],
+      "allScheduledWinBounds": [
+        0.775,
+        0.775
+      ],
+      "medianRoundReached": 15,
+      "medianNativeDecisions": 1082.5,
+      "p50Ms": 293.5,
+      "p95Ms": 547.7999999999997,
+      "reasons": {
+        "agenda points": 39,
+        "deck exhaustion": 1
+      },
+      "creditClicks": {
+        "runner": 250,
+        "corp": 529
+      },
+      "drawClicks": {
+        "runner": 531,
+        "corp": 86
+      },
+      "runnerTurns": 610,
+      "corpTurns": 619,
+      "basicRunnerCreditClicksPerTurn": 0.4098360655737705,
+      "basicCorpCreditClicksPerTurn": 0.8546042003231018
+    },
+    {
+      "r": 1,
+      "c": 5,
+      "directory": "matchup-1-5",
+      "runner": "zahya-v2",
+      "corp": "reality-plus-v2",
+      "scheduled": 40,
+      "completed": 40,
+      "statuses": {
+        "completed": 40
+      },
+      "runnerWins": 23,
+      "corpWins": 17,
+      "runnerWinRate": 0.575,
+      "wilson95": [
+        0.42195068541991065,
+        0.7149060744004962
+      ],
+      "allScheduledWinBounds": [
+        0.575,
+        0.575
+      ],
+      "medianRoundReached": 15,
+      "medianNativeDecisions": 1027,
+      "p50Ms": 309.5,
+      "p95Ms": 674.8999999999997,
+      "reasons": {
+        "agenda points": 40
+      },
+      "creditClicks": {
+        "runner": 279,
+        "corp": 310
+      },
+      "drawClicks": {
+        "runner": 509,
+        "corp": 90
+      },
+      "runnerTurns": 582,
+      "corpTurns": 599,
+      "basicRunnerCreditClicksPerTurn": 0.4793814432989691,
+      "basicCorpCreditClicksPerTurn": 0.5175292153589316
+    },
+    {
+      "r": 1,
+      "c": 6,
+      "directory": "matchup-1-6",
+      "runner": "zahya-v2",
+      "corp": "built-to-last-v1",
+      "scheduled": 40,
+      "completed": 40,
+      "statuses": {
+        "completed": 40
+      },
+      "runnerWins": 27,
+      "corpWins": 13,
+      "runnerWinRate": 0.675,
+      "wilson95": [
+        0.5201774618987768,
+        0.799154977682173
+      ],
+      "allScheduledWinBounds": [
+        0.675,
+        0.675
+      ],
+      "medianRoundReached": 13,
+      "medianNativeDecisions": 884.5,
+      "p50Ms": 279.5,
+      "p95Ms": 953.9499999999997,
+      "reasons": {
+        "agenda points": 35,
+        "flatline": 5
+      },
+      "creditClicks": {
+        "runner": 169,
+        "corp": 422
+      },
+      "drawClicks": {
+        "runner": 414,
+        "corp": 80
+      },
+      "runnerTurns": 505,
+      "corpTurns": 518,
+      "basicRunnerCreditClicksPerTurn": 0.3346534653465347,
+      "basicCorpCreditClicksPerTurn": 0.8146718146718147
+    },
+    {
+      "r": 1,
+      "c": 7,
+      "directory": "matchup-1-7",
+      "runner": "zahya-v2",
+      "corp": "built-to-last-v2",
+      "scheduled": 40,
+      "completed": 40,
+      "statuses": {
+        "completed": 40
+      },
+      "runnerWins": 26,
+      "corpWins": 14,
+      "runnerWinRate": 0.65,
+      "wilson95": [
+        0.49505880837257693,
+        0.7786547112682372
+      ],
+      "allScheduledWinBounds": [
+        0.65,
+        0.65
+      ],
+      "medianRoundReached": 13,
+      "medianNativeDecisions": 884.5,
+      "p50Ms": 330.5,
+      "p95Ms": 1342.6499999999996,
+      "reasons": {
+        "agenda points": 34,
+        "flatline": 6
+      },
+      "creditClicks": {
+        "runner": 168,
+        "corp": 355
+      },
+      "drawClicks": {
+        "runner": 469,
+        "corp": 90
+      },
+      "runnerTurns": 521,
+      "corpTurns": 535,
+      "basicRunnerCreditClicksPerTurn": 0.32245681381957775,
+      "basicCorpCreditClicksPerTurn": 0.6635514018691588
+    },
+    {
+      "r": 2,
+      "c": 0,
+      "directory": "matchup-2-0",
+      "runner": "tao-v1",
+      "corp": "precision-design-v1",
+      "scheduled": 40,
+      "completed": 40,
+      "statuses": {
+        "completed": 40
+      },
+      "runnerWins": 27,
+      "corpWins": 13,
+      "runnerWinRate": 0.675,
+      "wilson95": [
+        0.5201774618987768,
+        0.799154977682173
+      ],
+      "allScheduledWinBounds": [
+        0.675,
+        0.675
+      ],
+      "medianRoundReached": 14,
+      "medianNativeDecisions": 990.5,
+      "p50Ms": 725,
+      "p95Ms": 6902.399999999997,
+      "reasons": {
+        "agenda points": 38,
+        "deck exhaustion": 2
+      },
+      "creditClicks": {
+        "runner": 119,
+        "corp": 241
+      },
+      "drawClicks": {
+        "runner": 409,
+        "corp": 154
+      },
+      "runnerTurns": 537,
+      "corpTurns": 552,
+      "basicRunnerCreditClicksPerTurn": 0.22160148975791433,
+      "basicCorpCreditClicksPerTurn": 0.4365942028985507
+    },
+    {
+      "r": 2,
+      "c": 1,
+      "directory": "matchup-2-1",
+      "runner": "tao-v1",
+      "corp": "precision-design-v2",
+      "scheduled": 40,
+      "completed": 40,
+      "statuses": {
+        "completed": 40
+      },
+      "runnerWins": 21,
+      "corpWins": 19,
+      "runnerWinRate": 0.525,
+      "wilson95": [
+        0.3749736210669248,
+        0.670645298873211
+      ],
+      "allScheduledWinBounds": [
+        0.525,
+        0.525
+      ],
+      "medianRoundReached": 13,
+      "medianNativeDecisions": 871.5,
+      "p50Ms": 685,
+      "p95Ms": 5895.199999999991,
+      "reasons": {
+        "agenda points": 40
+      },
+      "creditClicks": {
+        "runner": 157,
+        "corp": 184
+      },
+      "drawClicks": {
+        "runner": 426,
+        "corp": 148
+      },
+      "runnerTurns": 515,
+      "corpTurns": 534,
+      "basicRunnerCreditClicksPerTurn": 0.3048543689320388,
+      "basicCorpCreditClicksPerTurn": 0.3445692883895131
+    },
+    {
+      "r": 2,
+      "c": 2,
+      "directory": "matchup-2-2",
+      "runner": "tao-v1",
+      "corp": "restoring-humanity-v1",
+      "scheduled": 40,
+      "completed": 40,
+      "statuses": {
+        "completed": 40
+      },
+      "runnerWins": 35,
+      "corpWins": 5,
+      "runnerWinRate": 0.875,
+      "wilson95": [
+        0.738878801611489,
+        0.945404997490546
+      ],
+      "allScheduledWinBounds": [
+        0.875,
+        0.875
+      ],
+      "medianRoundReached": 12,
+      "medianNativeDecisions": 774.5,
+      "p50Ms": 243.5,
+      "p95Ms": 642,
+      "reasons": {
+        "agenda points": 39,
+        "flatline": 1
+      },
+      "creditClicks": {
+        "runner": 175,
+        "corp": 402
+      },
+      "drawClicks": {
+        "runner": 522,
+        "corp": 117
+      },
+      "runnerTurns": 496,
+      "corpTurns": 500,
+      "basicRunnerCreditClicksPerTurn": 0.3528225806451613,
+      "basicCorpCreditClicksPerTurn": 0.804
+    },
+    {
+      "r": 2,
+      "c": 3,
+      "directory": "matchup-2-3",
+      "runner": "tao-v1",
+      "corp": "restoring-humanity-v2",
+      "scheduled": 40,
+      "completed": 40,
+      "statuses": {
+        "completed": 40
+      },
+      "runnerWins": 23,
+      "corpWins": 17,
+      "runnerWinRate": 0.575,
+      "wilson95": [
+        0.42195068541991065,
+        0.7149060744004962
+      ],
+      "allScheduledWinBounds": [
+        0.575,
+        0.575
+      ],
+      "medianRoundReached": 13,
+      "medianNativeDecisions": 873,
+      "p50Ms": 303.5,
+      "p95Ms": 1377.7499999999986,
+      "reasons": {
+        "agenda points": 31,
+        "flatline": 9
+      },
+      "creditClicks": {
+        "runner": 194,
+        "corp": 323
+      },
+      "drawClicks": {
+        "runner": 596,
+        "corp": 148
+      },
+      "runnerTurns": 530,
+      "corpTurns": 547,
+      "basicRunnerCreditClicksPerTurn": 0.3660377358490566,
+      "basicCorpCreditClicksPerTurn": 0.5904936014625228
+    },
+    {
+      "r": 2,
+      "c": 4,
+      "directory": "matchup-2-4",
+      "runner": "tao-v1",
+      "corp": "reality-plus-v1",
+      "scheduled": 40,
+      "completed": 40,
+      "statuses": {
+        "completed": 40
+      },
+      "runnerWins": 28,
+      "corpWins": 12,
+      "runnerWinRate": 0.7,
+      "wilson95": [
+        0.5456998118185507,
+        0.8192515477025347
+      ],
+      "allScheduledWinBounds": [
+        0.7,
+        0.7
+      ],
+      "medianRoundReached": 16.5,
+      "medianNativeDecisions": 1110.5,
+      "p50Ms": 297.5,
+      "p95Ms": 644.9,
+      "reasons": {
+        "agenda points": 37,
+        "deck exhaustion": 3
+      },
+      "creditClicks": {
+        "runner": 325,
+        "corp": 584
+      },
+      "drawClicks": {
+        "runner": 536,
+        "corp": 76
+      },
+      "runnerTurns": 623,
+      "corpTurns": 638,
+      "basicRunnerCreditClicksPerTurn": 0.521669341894061,
+      "basicCorpCreditClicksPerTurn": 0.9153605015673981
+    },
+    {
+      "r": 2,
+      "c": 5,
+      "directory": "matchup-2-5",
+      "runner": "tao-v1",
+      "corp": "reality-plus-v2",
+      "scheduled": 40,
+      "completed": 40,
+      "statuses": {
+        "completed": 40
+      },
+      "runnerWins": 23,
+      "corpWins": 17,
+      "runnerWinRate": 0.575,
+      "wilson95": [
+        0.42195068541991065,
+        0.7149060744004962
+      ],
+      "allScheduledWinBounds": [
+        0.575,
+        0.575
+      ],
+      "medianRoundReached": 16,
+      "medianNativeDecisions": 1039.5,
+      "p50Ms": 347,
+      "p95Ms": 951.5999999999993,
+      "reasons": {
+        "agenda points": 37,
+        "deck exhaustion": 3
+      },
+      "creditClicks": {
+        "runner": 368,
+        "corp": 403
+      },
+      "drawClicks": {
+        "runner": 588,
+        "corp": 90
+      },
+      "runnerTurns": 653,
+      "corpTurns": 673,
+      "basicRunnerCreditClicksPerTurn": 0.5635528330781011,
+      "basicCorpCreditClicksPerTurn": 0.5988112927191679
+    },
+    {
+      "r": 2,
+      "c": 6,
+      "directory": "matchup-2-6",
+      "runner": "tao-v1",
+      "corp": "built-to-last-v1",
+      "scheduled": 40,
+      "completed": 40,
+      "statuses": {
+        "completed": 40
+      },
+      "runnerWins": 26,
+      "corpWins": 14,
+      "runnerWinRate": 0.65,
+      "wilson95": [
+        0.49505880837257693,
+        0.7786547112682372
+      ],
+      "allScheduledWinBounds": [
+        0.65,
+        0.65
+      ],
+      "medianRoundReached": 13,
+      "medianNativeDecisions": 814.5,
+      "p50Ms": 248.5,
+      "p95Ms": 765.0499999999996,
+      "reasons": {
+        "agenda points": 33,
+        "flatline": 7
+      },
+      "creditClicks": {
+        "runner": 214,
+        "corp": 425
+      },
+      "drawClicks": {
+        "runner": 459,
+        "corp": 73
+      },
+      "runnerTurns": 526,
+      "corpTurns": 540,
+      "basicRunnerCreditClicksPerTurn": 0.4068441064638783,
+      "basicCorpCreditClicksPerTurn": 0.7870370370370371
+    },
+    {
+      "r": 2,
+      "c": 7,
+      "directory": "matchup-2-7",
+      "runner": "tao-v1",
+      "corp": "built-to-last-v2",
+      "scheduled": 40,
+      "completed": 40,
+      "statuses": {
+        "completed": 40
+      },
+      "runnerWins": 25,
+      "corpWins": 15,
+      "runnerWinRate": 0.625,
+      "wilson95": [
+        0.47032439137301096,
+        0.7577702083276673
+      ],
+      "allScheduledWinBounds": [
+        0.625,
+        0.625
+      ],
+      "medianRoundReached": 14.5,
+      "medianNativeDecisions": 978,
+      "p50Ms": 316,
+      "p95Ms": 1277.3499999999995,
+      "reasons": {
+        "flatline": 7,
+        "agenda points": 33
+      },
+      "creditClicks": {
+        "runner": 250,
+        "corp": 373
+      },
+      "drawClicks": {
+        "runner": 541,
+        "corp": 93
+      },
+      "runnerTurns": 568,
+      "corpTurns": 583,
+      "basicRunnerCreditClicksPerTurn": 0.44014084507042256,
+      "basicCorpCreditClicksPerTurn": 0.6397941680960549
+    }
+  ],
+  "contrasts": [
+    {
+      "family": "precision-design",
+      "completedSeedClusters": 40,
+      "scheduledSeedClusters": 40,
+      "pairedGames": 120,
+      "delta": 1.2490009027033011e-17,
+      "bootstrap": {
+        "level": 0.95,
+        "replicates": 20000,
+        "seed": 18231,
+        "interval": [
+          -0.14999999999999997,
+          0.14999999999999997
+        ]
+      },
+      "allScheduledDeltaBounds": [
+        1.2490009027033011e-17,
+        1.2490009027033011e-17
+      ],
+      "reliable": true,
+      "runnerDeltas": [
+        {
+          "runner": "loup-v1",
+          "originalCorpWins": 23,
+          "revisedCorpWins": 16,
+          "games": 40,
+          "delta": -0.175
+        },
+        {
+          "runner": "zahya-v2",
+          "originalCorpWins": 17,
+          "revisedCorpWins": 18,
+          "games": 40,
+          "delta": 0.025
+        },
+        {
+          "runner": "tao-v1",
+          "originalCorpWins": 13,
+          "revisedCorpWins": 19,
+          "games": 40,
+          "delta": 0.15
+        }
+      ]
+    },
+    {
+      "family": "restoring-humanity",
+      "completedSeedClusters": 40,
+      "scheduledSeedClusters": 40,
+      "pairedGames": 120,
+      "delta": 0.24166666666666664,
+      "bootstrap": {
+        "level": 0.95,
+        "replicates": 20000,
+        "seed": 18232,
+        "interval": [
+          0.11666666666666665,
+          0.3583333333333334
+        ]
+      },
+      "allScheduledDeltaBounds": [
+        0.24166666666666664,
+        0.24166666666666664
+      ],
+      "reliable": true,
+      "runnerDeltas": [
+        {
+          "runner": "loup-v1",
+          "originalCorpWins": 9,
+          "revisedCorpWins": 18,
+          "games": 40,
+          "delta": 0.225
+        },
+        {
+          "runner": "zahya-v2",
+          "originalCorpWins": 7,
+          "revisedCorpWins": 15,
+          "games": 40,
+          "delta": 0.2
+        },
+        {
+          "runner": "tao-v1",
+          "originalCorpWins": 5,
+          "revisedCorpWins": 17,
+          "games": 40,
+          "delta": 0.3
+        }
+      ]
+    },
+    {
+      "family": "reality-plus",
+      "completedSeedClusters": 40,
+      "scheduledSeedClusters": 40,
+      "pairedGames": 120,
+      "delta": 0.11666666666666667,
+      "bootstrap": {
+        "level": 0.95,
+        "replicates": 20000,
+        "seed": 18233,
+        "interval": [
+          -0.024999999999999994,
+          0.25833333333333336
+        ]
+      },
+      "allScheduledDeltaBounds": [
+        0.11666666666666667,
+        0.11666666666666667
+      ],
+      "reliable": true,
+      "runnerDeltas": [
+        {
+          "runner": "loup-v1",
+          "originalCorpWins": 15,
+          "revisedCorpWins": 16,
+          "games": 40,
+          "delta": 0.025
+        },
+        {
+          "runner": "zahya-v2",
+          "originalCorpWins": 9,
+          "revisedCorpWins": 17,
+          "games": 40,
+          "delta": 0.2
+        },
+        {
+          "runner": "tao-v1",
+          "originalCorpWins": 12,
+          "revisedCorpWins": 17,
+          "games": 40,
+          "delta": 0.125
+        }
+      ]
+    },
+    {
+      "family": "built-to-last",
+      "completedSeedClusters": 40,
+      "scheduledSeedClusters": 40,
+      "pairedGames": 120,
+      "delta": -0.0666666666666667,
+      "bootstrap": {
+        "level": 0.95,
+        "replicates": 20000,
+        "seed": 18234,
+        "interval": [
+          -0.19999999999999998,
+          0.06666666666666667
+        ]
+      },
+      "allScheduledDeltaBounds": [
+        -0.0666666666666667,
+        -0.0666666666666667
+      ],
+      "reliable": true,
+      "runnerDeltas": [
+        {
+          "runner": "loup-v1",
+          "originalCorpWins": 24,
+          "revisedCorpWins": 14,
+          "games": 40,
+          "delta": -0.25
+        },
+        {
+          "runner": "zahya-v2",
+          "originalCorpWins": 13,
+          "revisedCorpWins": 14,
+          "games": 40,
+          "delta": 0.025
+        },
+        {
+          "runner": "tao-v1",
+          "originalCorpWins": 14,
+          "revisedCorpWins": 15,
+          "games": 40,
+          "delta": 0.025
+        }
+      ]
+    }
+  ]
+}

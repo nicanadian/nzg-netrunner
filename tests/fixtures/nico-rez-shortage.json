@@ -1,0 +1,135 @@
+{
+  "engine": "chiriboga-77c80b1-local-1",
+  "config": {
+    "side": "corp",
+    "seed": "f16a6bae-54e3-4742-877d-5d21530ecd13",
+    "deckIds": {
+      "runner": "loup-v1",
+      "corp": "precision-design-v2"
+    },
+    "rulesVersion": "26.03-local-2"
+  },
+  "choices": [
+    {
+      "version": 1,
+      "command": "m",
+      "index": 0
+    },
+    {
+      "version": 8,
+      "command": "install",
+      "index": 5
+    },
+    {
+      "version": 10,
+      "command": "install",
+      "index": 2
+    },
+    {
+      "version": 12,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 43,
+      "command": "install",
+      "index": 9
+    },
+    {
+      "version": 44,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 45,
+      "command": "install",
+      "index": 1
+    },
+    {
+      "version": 47,
+      "command": "install",
+      "index": 5
+    },
+    {
+      "version": 79,
+      "command": "install",
+      "index": 5
+    },
+    {
+      "version": 80,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 81,
+      "command": "draw",
+      "index": 0
+    },
+    {
+      "version": 82,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 83,
+      "command": "rez",
+      "index": 0
+    },
+    {
+      "version": 114,
+      "command": "play",
+      "index": 0
+    },
+    {
+      "version": 116,
+      "command": "continue",
+      "index": 1
+    },
+    {
+      "version": 117,
+      "command": "continue",
+      "index": 2
+    },
+    {
+      "version": 118,
+      "command": "install",
+      "index": 7
+    },
+    {
+      "version": 119,
+      "command": "n",
+      "index": 0
+    },
+    {
+      "version": 120,
+      "command": "advance",
+      "index": 0
+    },
+    {
+      "version": 151,
+      "command": "install",
+      "index": 4
+    },
+    {
+      "version": 153,
+      "command": "install",
+      "index": 8
+    },
+    {
+      "version": 155,
+      "command": "advance",
+      "index": 0
+    },
+    {
+      "version": 221,
+      "command": "gain",
+      "index": 0
+    },
+    {
+      "version": 222,
+      "command": "advance",
+      "index": 0
+    }
+  ],
+  "conceded": false
+}

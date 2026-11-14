@@ -1,0 +1,3501 @@
+{
+  "schemaVersion": 1,
+  "baselineEngineHash": "230f78220f2ff76f4f5c4308669770a6b71c9bdfd82fa839e5facdb402ce9f2d",
+  "notice": "Complete native-decision trace hashes from the frozen pre-optimization runtime; no partial-prefix acceptance.",
+  "cases": [
+    {
+      "label": "Elevation identity 35001",
+      "runner": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Dashing Mad",
+        "side": "runner",
+        "identity": "35001",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 2
+          },
+          {
+            "id": "30015",
+            "count": 2
+          },
+          {
+            "id": "30026",
+            "count": 2
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 2
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 2
+          },
+          {
+            "id": "30034",
+            "count": 2
+          },
+          {
+            "id": "35003",
+            "count": 2
+          },
+          {
+            "id": "35004",
+            "count": 2
+          },
+          {
+            "id": "35005",
+            "count": 3
+          },
+          {
+            "id": "35009",
+            "count": 3
+          },
+          {
+            "id": "35011",
+            "count": 3
+          },
+          {
+            "id": "35015",
+            "count": 3
+          },
+          {
+            "id": "35018",
+            "count": 2
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/074c32b0-6429-49ec-91c1-46dcddba9e4b",
+          "externalId": "074c32b0-6429-49ec-91c1-46dcddba9e4b",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:13:48+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.007Z",
+          "originalTitle": "[NSG Core] Dashing Mad"
+        }
+      },
+      "corp": {
+        "schemaVersion": 1,
+        "name": " [NSG Core] Brutal Efficiency",
+        "side": "corp",
+        "identity": "30035",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30038",
+            "count": 1
+          },
+          {
+            "id": "30039",
+            "count": 2
+          },
+          {
+            "id": "30040",
+            "count": 3
+          },
+          {
+            "id": "30042",
+            "count": 3
+          },
+          {
+            "id": "30050",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 1
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30071",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35038",
+            "count": 2
+          },
+          {
+            "id": "35039",
+            "count": 2
+          },
+          {
+            "id": "35041",
+            "count": 3
+          },
+          {
+            "id": "35042",
+            "count": 2
+          },
+          {
+            "id": "35045",
+            "count": 2
+          },
+          {
+            "id": "35075",
+            "count": 3
+          },
+          {
+            "id": "35079",
+            "count": 2
+          },
+          {
+            "id": "35082",
+            "count": 2
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/b441510e-00e7-42b7-a559-a7eba52b31a4",
+          "externalId": "b441510e-00e7-42b7-a559-a7eba52b31a4",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:15:06+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.480Z",
+          "originalTitle": " [NSG Core] Brutal Efficiency"
+        }
+      },
+      "seed": "identity-qualification:0",
+      "expected": {
+        "status": "completed",
+        "terminal": {
+          "winner": "corp",
+          "reason": "Corp reached 7 agenda points."
+        },
+        "points": {
+          "corp": 7,
+          "runner": 6
+        },
+        "turn": 27,
+        "decisions": 1027,
+        "traceHash": "06d656bf70cd4188f7ae053e6edb1635dc6679ef83e30cb778213d5c734eb15b"
+      }
+    },
+    {
+      "label": "Elevation identity 35002",
+      "runner": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Prick Thyself",
+        "side": "runner",
+        "identity": "35002",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 2
+          },
+          {
+            "id": "30012",
+            "count": 1
+          },
+          {
+            "id": "30021",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 1
+          },
+          {
+            "id": "30025",
+            "count": 1
+          },
+          {
+            "id": "30026",
+            "count": 1
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 3
+          },
+          {
+            "id": "35003",
+            "count": 1
+          },
+          {
+            "id": "35004",
+            "count": 3
+          },
+          {
+            "id": "35005",
+            "count": 2
+          },
+          {
+            "id": "35006",
+            "count": 3
+          },
+          {
+            "id": "35007",
+            "count": 2
+          },
+          {
+            "id": "35009",
+            "count": 3
+          },
+          {
+            "id": "35011",
+            "count": 3
+          },
+          {
+            "id": "35025",
+            "count": 1
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/bbcf997a-3ec6-4728-9813-82df335db2f3",
+          "externalId": "bbcf997a-3ec6-4728-9813-82df335db2f3",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:13:58+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.021Z",
+          "originalTitle": "[NSG Core] Prick Thyself"
+        }
+      },
+      "corp": {
+        "schemaVersion": 1,
+        "name": " [NSG Core] Brutal Efficiency",
+        "side": "corp",
+        "identity": "30035",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30038",
+            "count": 1
+          },
+          {
+            "id": "30039",
+            "count": 2
+          },
+          {
+            "id": "30040",
+            "count": 3
+          },
+          {
+            "id": "30042",
+            "count": 3
+          },
+          {
+            "id": "30050",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 1
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30071",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35038",
+            "count": 2
+          },
+          {
+            "id": "35039",
+            "count": 2
+          },
+          {
+            "id": "35041",
+            "count": 3
+          },
+          {
+            "id": "35042",
+            "count": 2
+          },
+          {
+            "id": "35045",
+            "count": 2
+          },
+          {
+            "id": "35075",
+            "count": 3
+          },
+          {
+            "id": "35079",
+            "count": 2
+          },
+          {
+            "id": "35082",
+            "count": 2
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/b441510e-00e7-42b7-a559-a7eba52b31a4",
+          "externalId": "b441510e-00e7-42b7-a559-a7eba52b31a4",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:15:06+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.480Z",
+          "originalTitle": " [NSG Core] Brutal Efficiency"
+        }
+      },
+      "seed": "identity-qualification:0",
+      "expected": {
+        "status": "completed",
+        "terminal": {
+          "winner": "corp",
+          "reason": "Corp reached 7 agenda points."
+        },
+        "points": {
+          "corp": 7,
+          "runner": 3
+        },
+        "turn": 25,
+        "decisions": 891,
+        "traceHash": "be731ff564b153b96fd81255ec3b306b2de00aa6cf60839f06b7e8540472e596"
+      }
+    },
+    {
+      "label": "Elevation identity 35012",
+      "runner": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Professional Opportunities",
+        "side": "runner",
+        "identity": "35012",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30008",
+            "count": 1
+          },
+          {
+            "id": "30011",
+            "count": 2
+          },
+          {
+            "id": "30013",
+            "count": 1
+          },
+          {
+            "id": "30015",
+            "count": 2
+          },
+          {
+            "id": "30016",
+            "count": 3
+          },
+          {
+            "id": "30017",
+            "count": 2
+          },
+          {
+            "id": "30018",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 1
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "35009",
+            "count": 1
+          },
+          {
+            "id": "35014",
+            "count": 3
+          },
+          {
+            "id": "35015",
+            "count": 3
+          },
+          {
+            "id": "35019",
+            "count": 3
+          },
+          {
+            "id": "35020",
+            "count": 2
+          },
+          {
+            "id": "35021",
+            "count": 2
+          },
+          {
+            "id": "35022",
+            "count": 3
+          },
+          {
+            "id": "35028",
+            "count": 2
+          },
+          {
+            "id": "35030",
+            "count": 2
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/aca8a765-6c5b-4f3a-81c8-16c4dde32fdd",
+          "externalId": "aca8a765-6c5b-4f3a-81c8-16c4dde32fdd",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:14:36+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.235Z",
+          "originalTitle": "[NSG Core] Professional Opportunities"
+        }
+      },
+      "corp": {
+        "schemaVersion": 1,
+        "name": " [NSG Core] Brutal Efficiency",
+        "side": "corp",
+        "identity": "30035",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30038",
+            "count": 1
+          },
+          {
+            "id": "30039",
+            "count": 2
+          },
+          {
+            "id": "30040",
+            "count": 3
+          },
+          {
+            "id": "30042",
+            "count": 3
+          },
+          {
+            "id": "30050",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 1
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30071",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35038",
+            "count": 2
+          },
+          {
+            "id": "35039",
+            "count": 2
+          },
+          {
+            "id": "35041",
+            "count": 3
+          },
+          {
+            "id": "35042",
+            "count": 2
+          },
+          {
+            "id": "35045",
+            "count": 2
+          },
+          {
+            "id": "35075",
+            "count": 3
+          },
+          {
+            "id": "35079",
+            "count": 2
+          },
+          {
+            "id": "35082",
+            "count": 2
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/b441510e-00e7-42b7-a559-a7eba52b31a4",
+          "externalId": "b441510e-00e7-42b7-a559-a7eba52b31a4",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:15:06+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.480Z",
+          "originalTitle": " [NSG Core] Brutal Efficiency"
+        }
+      },
+      "seed": "identity-qualification:0",
+      "expected": {
+        "status": "completed",
+        "terminal": {
+          "winner": "corp",
+          "reason": "Corp reached 7 agenda points."
+        },
+        "points": {
+          "corp": 7,
+          "runner": 2
+        },
+        "turn": 25,
+        "decisions": 784,
+        "traceHash": "3902f1eaad11ecd0b27cddd8235c40095e3d9c7096f2181601fcfc1c1464de62"
+      }
+    },
+    {
+      "label": "Elevation identity 35013",
+      "runner": {
+        "schemaVersion": 1,
+        "name": " [NSG Core] Shootin' 'n' Lootin'",
+        "side": "runner",
+        "identity": "35013",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30008",
+            "count": 2
+          },
+          {
+            "id": "30011",
+            "count": 1
+          },
+          {
+            "id": "30012",
+            "count": 2
+          },
+          {
+            "id": "30013",
+            "count": 1
+          },
+          {
+            "id": "30014",
+            "count": 2
+          },
+          {
+            "id": "30016",
+            "count": 3
+          },
+          {
+            "id": "30025",
+            "count": 2
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "35005",
+            "count": 2
+          },
+          {
+            "id": "35009",
+            "count": 1
+          },
+          {
+            "id": "35014",
+            "count": 3
+          },
+          {
+            "id": "35016",
+            "count": 2
+          },
+          {
+            "id": "35017",
+            "count": 3
+          },
+          {
+            "id": "35020",
+            "count": 2
+          },
+          {
+            "id": "35022",
+            "count": 3
+          },
+          {
+            "id": "35026",
+            "count": 3
+          },
+          {
+            "id": "35029",
+            "count": 1
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/a9c9e074-d20a-40ca-8030-f5d0d1ce677f",
+          "externalId": "a9c9e074-d20a-40ca-8030-f5d0d1ce677f",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:14:18+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.235Z",
+          "originalTitle": " [NSG Core] Shootin' 'n' Lootin'"
+        }
+      },
+      "corp": {
+        "schemaVersion": 1,
+        "name": " [NSG Core] Brutal Efficiency",
+        "side": "corp",
+        "identity": "30035",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30038",
+            "count": 1
+          },
+          {
+            "id": "30039",
+            "count": 2
+          },
+          {
+            "id": "30040",
+            "count": 3
+          },
+          {
+            "id": "30042",
+            "count": 3
+          },
+          {
+            "id": "30050",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 1
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30071",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35038",
+            "count": 2
+          },
+          {
+            "id": "35039",
+            "count": 2
+          },
+          {
+            "id": "35041",
+            "count": 3
+          },
+          {
+            "id": "35042",
+            "count": 2
+          },
+          {
+            "id": "35045",
+            "count": 2
+          },
+          {
+            "id": "35075",
+            "count": 3
+          },
+          {
+            "id": "35079",
+            "count": 2
+          },
+          {
+            "id": "35082",
+            "count": 2
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/b441510e-00e7-42b7-a559-a7eba52b31a4",
+          "externalId": "b441510e-00e7-42b7-a559-a7eba52b31a4",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:15:06+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.480Z",
+          "originalTitle": " [NSG Core] Brutal Efficiency"
+        }
+      },
+      "seed": "identity-qualification:0",
+      "expected": {
+        "status": "completed",
+        "terminal": {
+          "winner": "runner",
+          "reason": "Runner reached 7 agenda points."
+        },
+        "points": {
+          "corp": 4,
+          "runner": 7
+        },
+        "turn": 22,
+        "decisions": 918,
+        "traceHash": "b28a2f337024113acb3b983682a99a2b8333f92535fc8f68128ad68920544ca0"
+      }
+    },
+    {
+      "label": "Elevation identity 35023",
+      "runner": {
+        "schemaVersion": 1,
+        "name": " [NSG Core] Enthusiasm",
+        "side": "runner",
+        "identity": "35023",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30018",
+            "count": 2
+          },
+          {
+            "id": "30020",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 2
+          },
+          {
+            "id": "30025",
+            "count": 1
+          },
+          {
+            "id": "30026",
+            "count": 1
+          },
+          {
+            "id": "30027",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30032",
+            "count": 3
+          },
+          {
+            "id": "35004",
+            "count": 1
+          },
+          {
+            "id": "35022",
+            "count": 2
+          },
+          {
+            "id": "35025",
+            "count": 2
+          },
+          {
+            "id": "35026",
+            "count": 3
+          },
+          {
+            "id": "35027",
+            "count": 1
+          },
+          {
+            "id": "35028",
+            "count": 2
+          },
+          {
+            "id": "35029",
+            "count": 1
+          },
+          {
+            "id": "35030",
+            "count": 2
+          },
+          {
+            "id": "35031",
+            "count": 3
+          },
+          {
+            "id": "35032",
+            "count": 1
+          },
+          {
+            "id": "35033",
+            "count": 3
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/14966eb5-a65c-4578-83bb-345e566df203",
+          "externalId": "14966eb5-a65c-4578-83bb-345e566df203",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:14:52+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.269Z",
+          "originalTitle": " [NSG Core] Enthusiasm"
+        }
+      },
+      "corp": {
+        "schemaVersion": 1,
+        "name": " [NSG Core] Brutal Efficiency",
+        "side": "corp",
+        "identity": "30035",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30038",
+            "count": 1
+          },
+          {
+            "id": "30039",
+            "count": 2
+          },
+          {
+            "id": "30040",
+            "count": 3
+          },
+          {
+            "id": "30042",
+            "count": 3
+          },
+          {
+            "id": "30050",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 1
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30071",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35038",
+            "count": 2
+          },
+          {
+            "id": "35039",
+            "count": 2
+          },
+          {
+            "id": "35041",
+            "count": 3
+          },
+          {
+            "id": "35042",
+            "count": 2
+          },
+          {
+            "id": "35045",
+            "count": 2
+          },
+          {
+            "id": "35075",
+            "count": 3
+          },
+          {
+            "id": "35079",
+            "count": 2
+          },
+          {
+            "id": "35082",
+            "count": 2
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/b441510e-00e7-42b7-a559-a7eba52b31a4",
+          "externalId": "b441510e-00e7-42b7-a559-a7eba52b31a4",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:15:06+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.480Z",
+          "originalTitle": " [NSG Core] Brutal Efficiency"
+        }
+      },
+      "seed": "identity-qualification:0",
+      "expected": {
+        "status": "completed",
+        "terminal": {
+          "winner": "runner",
+          "reason": "Runner reached 9 agenda points."
+        },
+        "points": {
+          "corp": 0,
+          "runner": 9
+        },
+        "turn": 18,
+        "decisions": 701,
+        "traceHash": "d73cf13a5322c8dd629103e5dc05b9834e4f56a0f2036309a5a4576fa0a255d3"
+      }
+    },
+    {
+      "label": "Elevation identity 35024",
+      "runner": {
+        "schemaVersion": 1,
+        "name": " [NSG Core] Sabbatical",
+        "side": "runner",
+        "identity": "35024",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 2
+          },
+          {
+            "id": "30007",
+            "count": 2
+          },
+          {
+            "id": "30012",
+            "count": 3
+          },
+          {
+            "id": "30020",
+            "count": 3
+          },
+          {
+            "id": "30021",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 2
+          },
+          {
+            "id": "30023",
+            "count": 2
+          },
+          {
+            "id": "30025",
+            "count": 2
+          },
+          {
+            "id": "30026",
+            "count": 2
+          },
+          {
+            "id": "30027",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 1
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 2
+          },
+          {
+            "id": "35004",
+            "count": 2
+          },
+          {
+            "id": "35026",
+            "count": 3
+          },
+          {
+            "id": "35027",
+            "count": 1
+          },
+          {
+            "id": "35029",
+            "count": 1
+          },
+          {
+            "id": "35031",
+            "count": 3
+          },
+          {
+            "id": "35032",
+            "count": 2
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/9727f883-4edd-4f1a-aabc-e1f94fd63834",
+          "externalId": "9727f883-4edd-4f1a-aabc-e1f94fd63834",
+          "author": "Girometics",
+          "updatedAt": "2026-11-06T20:03:51+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.475Z",
+          "originalTitle": " [NSG Core] Sabbatical"
+        }
+      },
+      "corp": {
+        "schemaVersion": 1,
+        "name": " [NSG Core] Brutal Efficiency",
+        "side": "corp",
+        "identity": "30035",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30038",
+            "count": 1
+          },
+          {
+            "id": "30039",
+            "count": 2
+          },
+          {
+            "id": "30040",
+            "count": 3
+          },
+          {
+            "id": "30042",
+            "count": 3
+          },
+          {
+            "id": "30050",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 1
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30071",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35038",
+            "count": 2
+          },
+          {
+            "id": "35039",
+            "count": 2
+          },
+          {
+            "id": "35041",
+            "count": 3
+          },
+          {
+            "id": "35042",
+            "count": 2
+          },
+          {
+            "id": "35045",
+            "count": 2
+          },
+          {
+            "id": "35075",
+            "count": 3
+          },
+          {
+            "id": "35079",
+            "count": 2
+          },
+          {
+            "id": "35082",
+            "count": 2
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/b441510e-00e7-42b7-a559-a7eba52b31a4",
+          "externalId": "b441510e-00e7-42b7-a559-a7eba52b31a4",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:15:06+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.480Z",
+          "originalTitle": " [NSG Core] Brutal Efficiency"
+        }
+      },
+      "seed": "identity-qualification:0",
+      "expected": {
+        "status": "completed",
+        "terminal": {
+          "winner": "runner",
+          "reason": "Runner reached 8 agenda points."
+        },
+        "points": {
+          "corp": 0,
+          "runner": 8
+        },
+        "turn": 14,
+        "decisions": 455,
+        "traceHash": "924b16802a9433c68cf9dfa5f648a76a1d8c2b3a4390e1694fc4683acd5e4c3a"
+      }
+    },
+    {
+      "label": "Elevation identity 35035",
+      "runner": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Dashing Mad",
+        "side": "runner",
+        "identity": "35001",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 2
+          },
+          {
+            "id": "30015",
+            "count": 2
+          },
+          {
+            "id": "30026",
+            "count": 2
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 2
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 2
+          },
+          {
+            "id": "30034",
+            "count": 2
+          },
+          {
+            "id": "35003",
+            "count": 2
+          },
+          {
+            "id": "35004",
+            "count": 2
+          },
+          {
+            "id": "35005",
+            "count": 3
+          },
+          {
+            "id": "35009",
+            "count": 3
+          },
+          {
+            "id": "35011",
+            "count": 3
+          },
+          {
+            "id": "35015",
+            "count": 3
+          },
+          {
+            "id": "35018",
+            "count": 2
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/074c32b0-6429-49ec-91c1-46dcddba9e4b",
+          "externalId": "074c32b0-6429-49ec-91c1-46dcddba9e4b",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:13:48+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.007Z",
+          "originalTitle": "[NSG Core] Dashing Mad"
+        }
+      },
+      "corp": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Agency",
+        "side": "corp",
+        "identity": "35035",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30038",
+            "count": 2
+          },
+          {
+            "id": "30039",
+            "count": 3
+          },
+          {
+            "id": "30040",
+            "count": 1
+          },
+          {
+            "id": "30041",
+            "count": 1
+          },
+          {
+            "id": "30042",
+            "count": 3
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30071",
+            "count": 1
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35038",
+            "count": 3
+          },
+          {
+            "id": "35040",
+            "count": 3
+          },
+          {
+            "id": "35041",
+            "count": 3
+          },
+          {
+            "id": "35042",
+            "count": 1
+          },
+          {
+            "id": "35043",
+            "count": 1
+          },
+          {
+            "id": "35045",
+            "count": 3
+          },
+          {
+            "id": "35054",
+            "count": 3
+          },
+          {
+            "id": "35076",
+            "count": 3
+          },
+          {
+            "id": "35079",
+            "count": 1
+          },
+          {
+            "id": "35081",
+            "count": 3
+          },
+          {
+            "id": "35082",
+            "count": 2
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/8b2c2754-48c2-4375-a124-e1eebba9a95e",
+          "externalId": "8b2c2754-48c2-4375-a124-e1eebba9a95e",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:15:14+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.457Z",
+          "originalTitle": "[NSG Core] Agency"
+        }
+      },
+      "seed": "identity-qualification:0",
+      "expected": {
+        "status": "completed",
+        "terminal": {
+          "winner": "corp",
+          "reason": "Corp reached 7 agenda points."
+        },
+        "points": {
+          "corp": 7,
+          "runner": 2
+        },
+        "turn": 35,
+        "decisions": 1053,
+        "traceHash": "6ab0cd7b344b3c5f8aa38c37f9f03e5a5c1bd39d0c345577f8bbedeea071a730"
+      }
+    },
+    {
+      "label": "Elevation identity 35036",
+      "runner": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Dashing Mad",
+        "side": "runner",
+        "identity": "35001",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 2
+          },
+          {
+            "id": "30015",
+            "count": 2
+          },
+          {
+            "id": "30026",
+            "count": 2
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 2
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 2
+          },
+          {
+            "id": "30034",
+            "count": 2
+          },
+          {
+            "id": "35003",
+            "count": 2
+          },
+          {
+            "id": "35004",
+            "count": 2
+          },
+          {
+            "id": "35005",
+            "count": 3
+          },
+          {
+            "id": "35009",
+            "count": 3
+          },
+          {
+            "id": "35011",
+            "count": 3
+          },
+          {
+            "id": "35015",
+            "count": 3
+          },
+          {
+            "id": "35018",
+            "count": 2
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/074c32b0-6429-49ec-91c1-46dcddba9e4b",
+          "externalId": "074c32b0-6429-49ec-91c1-46dcddba9e4b",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:13:48+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.007Z",
+          "originalTitle": "[NSG Core] Dashing Mad"
+        }
+      },
+      "corp": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Fashion Lab",
+        "side": "corp",
+        "identity": "35036",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30037",
+            "count": 3
+          },
+          {
+            "id": "30038",
+            "count": 1
+          },
+          {
+            "id": "30039",
+            "count": 1
+          },
+          {
+            "id": "30040",
+            "count": 1
+          },
+          {
+            "id": "30042",
+            "count": 1
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 1
+          },
+          {
+            "id": "30069",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 2
+          },
+          {
+            "id": "35037",
+            "count": 3
+          },
+          {
+            "id": "35038",
+            "count": 3
+          },
+          {
+            "id": "35039",
+            "count": 3
+          },
+          {
+            "id": "35040",
+            "count": 3
+          },
+          {
+            "id": "35041",
+            "count": 3
+          },
+          {
+            "id": "35042",
+            "count": 3
+          },
+          {
+            "id": "35043",
+            "count": 2
+          },
+          {
+            "id": "35044",
+            "count": 1
+          },
+          {
+            "id": "35045",
+            "count": 2
+          },
+          {
+            "id": "35053",
+            "count": 1
+          },
+          {
+            "id": "35072",
+            "count": 3
+          },
+          {
+            "id": "35075",
+            "count": 3
+          },
+          {
+            "id": "35082",
+            "count": 2
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/8d182470-77e1-4d5e-b55e-19f08dc44470",
+          "externalId": "8d182470-77e1-4d5e-b55e-19f08dc44470",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:15:21+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.507Z",
+          "originalTitle": "[NSG Core] Fashion Lab"
+        }
+      },
+      "seed": "identity-qualification:0",
+      "expected": {
+        "status": "completed",
+        "terminal": {
+          "winner": "runner",
+          "reason": "Runner reached 7 agenda points."
+        },
+        "points": {
+          "corp": 0,
+          "runner": 7
+        },
+        "turn": 22,
+        "decisions": 943,
+        "traceHash": "3999bcc2e2176300aafcae3a661d6d5fcefb530b047929f70b7209e71f38538a"
+      }
+    },
+    {
+      "label": "Elevation identity 35046",
+      "runner": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Dashing Mad",
+        "side": "runner",
+        "identity": "35001",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 2
+          },
+          {
+            "id": "30015",
+            "count": 2
+          },
+          {
+            "id": "30026",
+            "count": 2
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 2
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 2
+          },
+          {
+            "id": "30034",
+            "count": 2
+          },
+          {
+            "id": "35003",
+            "count": 2
+          },
+          {
+            "id": "35004",
+            "count": 2
+          },
+          {
+            "id": "35005",
+            "count": 3
+          },
+          {
+            "id": "35009",
+            "count": 3
+          },
+          {
+            "id": "35011",
+            "count": 3
+          },
+          {
+            "id": "35015",
+            "count": 3
+          },
+          {
+            "id": "35018",
+            "count": 2
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/074c32b0-6429-49ec-91c1-46dcddba9e4b",
+          "externalId": "074c32b0-6429-49ec-91c1-46dcddba9e4b",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:13:48+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.007Z",
+          "originalTitle": "[NSG Core] Dashing Mad"
+        }
+      },
+      "corp": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Glyph of Warding",
+        "side": "corp",
+        "identity": "35046",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30044",
+            "count": 1
+          },
+          {
+            "id": "30048",
+            "count": 3
+          },
+          {
+            "id": "30050",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30068",
+            "count": 3
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30074",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35049",
+            "count": 3
+          },
+          {
+            "id": "35050",
+            "count": 2
+          },
+          {
+            "id": "35051",
+            "count": 3
+          },
+          {
+            "id": "35052",
+            "count": 2
+          },
+          {
+            "id": "35054",
+            "count": 3
+          },
+          {
+            "id": "35078",
+            "count": 3
+          },
+          {
+            "id": "35079",
+            "count": 1
+          },
+          {
+            "id": "35080",
+            "count": 3
+          },
+          {
+            "id": "35081",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/da28fae5-8c7c-4354-8ed3-6ce6e5769cec",
+          "externalId": "da28fae5-8c7c-4354-8ed3-6ce6e5769cec",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:15:45+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.717Z",
+          "originalTitle": "[NSG Core] Glyph of Warding"
+        }
+      },
+      "seed": "identity-qualification:0",
+      "expected": {
+        "status": "completed",
+        "terminal": {
+          "winner": "corp",
+          "reason": "Runner flatlined",
+          "damage": {
+            "amount": 2,
+            "type": "net",
+            "gripBefore": 1,
+            "card": {
+              "id": "c36",
+              "number": 35052,
+              "title": "Empiricist"
+            }
+          }
+        },
+        "points": {
+          "corp": 0,
+          "runner": 2
+        },
+        "turn": 10,
+        "decisions": 295,
+        "traceHash": "4987ffbaa9fdcd31c6965af14490cf8f0866259c80125362ec3724b06316e16f"
+      }
+    },
+    {
+      "label": "Elevation identity 35047",
+      "runner": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Dashing Mad",
+        "side": "runner",
+        "identity": "35001",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 2
+          },
+          {
+            "id": "30015",
+            "count": 2
+          },
+          {
+            "id": "30026",
+            "count": 2
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 2
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 2
+          },
+          {
+            "id": "30034",
+            "count": 2
+          },
+          {
+            "id": "35003",
+            "count": 2
+          },
+          {
+            "id": "35004",
+            "count": 2
+          },
+          {
+            "id": "35005",
+            "count": 3
+          },
+          {
+            "id": "35009",
+            "count": 3
+          },
+          {
+            "id": "35011",
+            "count": 3
+          },
+          {
+            "id": "35015",
+            "count": 3
+          },
+          {
+            "id": "35018",
+            "count": 2
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/074c32b0-6429-49ec-91c1-46dcddba9e4b",
+          "externalId": "074c32b0-6429-49ec-91c1-46dcddba9e4b",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:13:48+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.007Z",
+          "originalTitle": "[NSG Core] Dashing Mad"
+        }
+      },
+      "corp": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Peculiarity",
+        "side": "corp",
+        "identity": "35047",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30042",
+            "count": 1
+          },
+          {
+            "id": "30044",
+            "count": 1
+          },
+          {
+            "id": "30045",
+            "count": 2
+          },
+          {
+            "id": "30047",
+            "count": 3
+          },
+          {
+            "id": "30048",
+            "count": 3
+          },
+          {
+            "id": "30050",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30061",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30072",
+            "count": 2
+          },
+          {
+            "id": "30074",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 2
+          },
+          {
+            "id": "35048",
+            "count": 3
+          },
+          {
+            "id": "35049",
+            "count": 3
+          },
+          {
+            "id": "35052",
+            "count": 2
+          },
+          {
+            "id": "35053",
+            "count": 2
+          },
+          {
+            "id": "35054",
+            "count": 3
+          },
+          {
+            "id": "35055",
+            "count": 3
+          },
+          {
+            "id": "35056",
+            "count": 2
+          },
+          {
+            "id": "35079",
+            "count": 1
+          },
+          {
+            "id": "35081",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/568d1eb8-340c-4bb1-bf77-54c21b514833",
+          "externalId": "568d1eb8-340c-4bb1-bf77-54c21b514833",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:15:38+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.671Z",
+          "originalTitle": "[NSG Core] Peculiarity"
+        }
+      },
+      "seed": "identity-qualification:0",
+      "expected": {
+        "status": "completed",
+        "terminal": {
+          "winner": "corp",
+          "reason": "Runner flatlined",
+          "damage": {
+            "amount": 2,
+            "type": "net",
+            "gripBefore": 1,
+            "card": {
+              "id": "c35",
+              "number": 35052,
+              "title": "Empiricist"
+            }
+          }
+        },
+        "points": {
+          "corp": 0,
+          "runner": 2
+        },
+        "turn": 32,
+        "decisions": 999,
+        "traceHash": "a7247050662d7cde9c3bbfb03c8660c8f61e530e9d1be7e03a22a814384579ea"
+      }
+    },
+    {
+      "label": "Elevation identity 35057",
+      "runner": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Dashing Mad",
+        "side": "runner",
+        "identity": "35001",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 2
+          },
+          {
+            "id": "30015",
+            "count": 2
+          },
+          {
+            "id": "30026",
+            "count": 2
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 2
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 2
+          },
+          {
+            "id": "30034",
+            "count": 2
+          },
+          {
+            "id": "35003",
+            "count": 2
+          },
+          {
+            "id": "35004",
+            "count": 2
+          },
+          {
+            "id": "35005",
+            "count": 3
+          },
+          {
+            "id": "35009",
+            "count": 3
+          },
+          {
+            "id": "35011",
+            "count": 3
+          },
+          {
+            "id": "35015",
+            "count": 3
+          },
+          {
+            "id": "35018",
+            "count": 2
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/074c32b0-6429-49ec-91c1-46dcddba9e4b",
+          "externalId": "074c32b0-6429-49ec-91c1-46dcddba9e4b",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:13:48+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.007Z",
+          "originalTitle": "[NSG Core] Dashing Mad"
+        }
+      },
+      "corp": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Not so subtle",
+        "side": "corp",
+        "identity": "35057",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30052",
+            "count": 1
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30055",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30071",
+            "count": 1
+          },
+          {
+            "id": "30073",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35054",
+            "count": 3
+          },
+          {
+            "id": "35055",
+            "count": 3
+          },
+          {
+            "id": "35059",
+            "count": 3
+          },
+          {
+            "id": "35060",
+            "count": 2
+          },
+          {
+            "id": "35063",
+            "count": 3
+          },
+          {
+            "id": "35064",
+            "count": 3
+          },
+          {
+            "id": "35065",
+            "count": 1
+          },
+          {
+            "id": "35067",
+            "count": 2
+          },
+          {
+            "id": "35073",
+            "count": 2
+          },
+          {
+            "id": "35079",
+            "count": 1
+          },
+          {
+            "id": "35080",
+            "count": 2
+          },
+          {
+            "id": "35081",
+            "count": 3
+          },
+          {
+            "id": "35082",
+            "count": 2
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/170f1c2f-e063-415a-ab06-7ef49763da04",
+          "externalId": "170f1c2f-e063-415a-ab06-7ef49763da04",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:15:59+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.950Z",
+          "originalTitle": "[NSG Core] Not so subtle"
+        }
+      },
+      "seed": "identity-qualification:0",
+      "expected": {
+        "status": "completed",
+        "terminal": {
+          "winner": "corp",
+          "reason": "Corp reached 9 agenda points."
+        },
+        "points": {
+          "corp": 9,
+          "runner": 4
+        },
+        "turn": 35,
+        "decisions": 1426,
+        "traceHash": "713f829df5b343b4f9ba003e6f8e60186deb07d9c0cc061c3ef24e6b098b13fc"
+      }
+    },
+    {
+      "label": "Elevation identity 35058",
+      "runner": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Dashing Mad",
+        "side": "runner",
+        "identity": "35001",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 2
+          },
+          {
+            "id": "30015",
+            "count": 2
+          },
+          {
+            "id": "30026",
+            "count": 2
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 2
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 2
+          },
+          {
+            "id": "30034",
+            "count": 2
+          },
+          {
+            "id": "35003",
+            "count": 2
+          },
+          {
+            "id": "35004",
+            "count": 2
+          },
+          {
+            "id": "35005",
+            "count": 3
+          },
+          {
+            "id": "35009",
+            "count": 3
+          },
+          {
+            "id": "35011",
+            "count": 3
+          },
+          {
+            "id": "35015",
+            "count": 3
+          },
+          {
+            "id": "35018",
+            "count": 2
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/074c32b0-6429-49ec-91c1-46dcddba9e4b",
+          "externalId": "074c32b0-6429-49ec-91c1-46dcddba9e4b",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:13:48+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.007Z",
+          "originalTitle": "[NSG Core] Dashing Mad"
+        }
+      },
+      "corp": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Gimbatul",
+        "side": "corp",
+        "identity": "35058",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30042",
+            "count": 2
+          },
+          {
+            "id": "30049",
+            "count": 1
+          },
+          {
+            "id": "30052",
+            "count": 1
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30054",
+            "count": 2
+          },
+          {
+            "id": "30055",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 3
+          },
+          {
+            "id": "30057",
+            "count": 1
+          },
+          {
+            "id": "30058",
+            "count": 2
+          },
+          {
+            "id": "30066",
+            "count": 2
+          },
+          {
+            "id": "30068",
+            "count": 3
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35059",
+            "count": 3
+          },
+          {
+            "id": "35060",
+            "count": 2
+          },
+          {
+            "id": "35063",
+            "count": 3
+          },
+          {
+            "id": "35064",
+            "count": 3
+          },
+          {
+            "id": "35065",
+            "count": 1
+          },
+          {
+            "id": "35066",
+            "count": 1
+          },
+          {
+            "id": "35067",
+            "count": 3
+          },
+          {
+            "id": "35080",
+            "count": 1
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/19db2c28-8521-4b86-a45e-e46cb9830243",
+          "externalId": "19db2c28-8521-4b86-a45e-e46cb9830243",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:16:07+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.907Z",
+          "originalTitle": "[NSG Core] Gimbatul"
+        }
+      },
+      "seed": "identity-qualification:0",
+      "expected": {
+        "status": "completed",
+        "terminal": {
+          "winner": "runner",
+          "reason": "Runner reached 8 agenda points."
+        },
+        "points": {
+          "corp": 6,
+          "runner": 8
+        },
+        "turn": 44,
+        "decisions": 1700,
+        "traceHash": "24f026e45eb3948545a917e536ba5e60f605446ce59eff76f1413bbad071fb12"
+      }
+    },
+    {
+      "label": "Elevation identity 35068",
+      "runner": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Dashing Mad",
+        "side": "runner",
+        "identity": "35001",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 2
+          },
+          {
+            "id": "30015",
+            "count": 2
+          },
+          {
+            "id": "30026",
+            "count": 2
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 2
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 2
+          },
+          {
+            "id": "30034",
+            "count": 2
+          },
+          {
+            "id": "35003",
+            "count": 2
+          },
+          {
+            "id": "35004",
+            "count": 2
+          },
+          {
+            "id": "35005",
+            "count": 3
+          },
+          {
+            "id": "35009",
+            "count": 3
+          },
+          {
+            "id": "35011",
+            "count": 3
+          },
+          {
+            "id": "35015",
+            "count": 3
+          },
+          {
+            "id": "35018",
+            "count": 2
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/074c32b0-6429-49ec-91c1-46dcddba9e4b",
+          "externalId": "074c32b0-6429-49ec-91c1-46dcddba9e4b",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:13:48+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.007Z",
+          "originalTitle": "[NSG Core] Dashing Mad"
+        }
+      },
+      "corp": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Pork Chops",
+        "side": "corp",
+        "identity": "35068",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30060",
+            "count": 1
+          },
+          {
+            "id": "30061",
+            "count": 1
+          },
+          {
+            "id": "30063",
+            "count": 2
+          },
+          {
+            "id": "30064",
+            "count": 1
+          },
+          {
+            "id": "30065",
+            "count": 1
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30068",
+            "count": 3
+          },
+          {
+            "id": "30071",
+            "count": 2
+          },
+          {
+            "id": "30073",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35041",
+            "count": 2
+          },
+          {
+            "id": "35050",
+            "count": 2
+          },
+          {
+            "id": "35054",
+            "count": 3
+          },
+          {
+            "id": "35067",
+            "count": 1
+          },
+          {
+            "id": "35071",
+            "count": 3
+          },
+          {
+            "id": "35072",
+            "count": 3
+          },
+          {
+            "id": "35074",
+            "count": 1
+          },
+          {
+            "id": "35076",
+            "count": 3
+          },
+          {
+            "id": "35078",
+            "count": 3
+          },
+          {
+            "id": "35079",
+            "count": 1
+          },
+          {
+            "id": "35081",
+            "count": 3
+          },
+          {
+            "id": "35082",
+            "count": 2
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/f315fb7f-798b-4b4a-b515-675590b3f258",
+          "externalId": "f315fb7f-798b-4b4a-b515-675590b3f258",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:16:23+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.946Z",
+          "originalTitle": "[NSG Core] Pork Chops"
+        }
+      },
+      "seed": "identity-qualification:0",
+      "expected": {
+        "status": "completed",
+        "terminal": {
+          "winner": "corp",
+          "reason": "Runner flatlined",
+          "damage": {
+            "amount": 3,
+            "type": "net",
+            "gripBefore": 2,
+            "card": {
+              "id": "c26",
+              "number": 35050,
+              "title": "Byte!"
+            }
+          }
+        },
+        "points": {
+          "corp": 2,
+          "runner": 6
+        },
+        "turn": 22,
+        "decisions": 911,
+        "traceHash": "06f96d7ceffc0b7ffcee25b07bfae1219795af5fc6094e06bc9660f2e0e30f45"
+      }
+    },
+    {
+      "label": "Elevation identity 35069",
+      "runner": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Dashing Mad",
+        "side": "runner",
+        "identity": "35001",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 2
+          },
+          {
+            "id": "30015",
+            "count": 2
+          },
+          {
+            "id": "30026",
+            "count": 2
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 2
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 2
+          },
+          {
+            "id": "30034",
+            "count": 2
+          },
+          {
+            "id": "35003",
+            "count": 2
+          },
+          {
+            "id": "35004",
+            "count": 2
+          },
+          {
+            "id": "35005",
+            "count": 3
+          },
+          {
+            "id": "35009",
+            "count": 3
+          },
+          {
+            "id": "35011",
+            "count": 3
+          },
+          {
+            "id": "35015",
+            "count": 3
+          },
+          {
+            "id": "35018",
+            "count": 2
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/074c32b0-6429-49ec-91c1-46dcddba9e4b",
+          "externalId": "074c32b0-6429-49ec-91c1-46dcddba9e4b",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:13:48+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.007Z",
+          "originalTitle": "[NSG Core] Dashing Mad"
+        }
+      },
+      "corp": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Quick Returns",
+        "side": "corp",
+        "identity": "35069",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30039",
+            "count": 3
+          },
+          {
+            "id": "30040",
+            "count": 1
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30060",
+            "count": 1
+          },
+          {
+            "id": "30064",
+            "count": 1
+          },
+          {
+            "id": "30066",
+            "count": 2
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 1
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35055",
+            "count": 2
+          },
+          {
+            "id": "35070",
+            "count": 3
+          },
+          {
+            "id": "35071",
+            "count": 3
+          },
+          {
+            "id": "35073",
+            "count": 3
+          },
+          {
+            "id": "35074",
+            "count": 2
+          },
+          {
+            "id": "35075",
+            "count": 3
+          },
+          {
+            "id": "35076",
+            "count": 3
+          },
+          {
+            "id": "35077",
+            "count": 3
+          },
+          {
+            "id": "35079",
+            "count": 2
+          },
+          {
+            "id": "35081",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/1f9d8054-4993-4a09-91ba-4fca5fff3747",
+          "externalId": "1f9d8054-4993-4a09-91ba-4fca5fff3747",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:16:32+00:00",
+          "fetchedAt": "2026-11-13T23:20:36.169Z",
+          "originalTitle": "[NSG Core] Quick Returns"
+        }
+      },
+      "seed": "identity-qualification:0",
+      "expected": {
+        "status": "completed",
+        "terminal": {
+          "winner": "runner",
+          "reason": "Runner reached 8 agenda points."
+        },
+        "points": {
+          "corp": 3,
+          "runner": 8
+        },
+        "turn": 32,
+        "decisions": 1236,
+        "traceHash": "2c963df8ab1adb3c1725cfa68dc11c38fcb2e02f103bfc3f41d72d234ec0f891"
+      }
+    },
+    {
+      "label": "Gateway 0",
+      "seed": "benchmark-1:0",
+      "runner": {
+        "schemaVersion": 1,
+        "name": "René “Loup” Arcemont",
+        "side": "runner",
+        "identity": "30001",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30002",
+            "count": 3
+          },
+          {
+            "id": "30003",
+            "count": 2
+          },
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30005",
+            "count": 3
+          },
+          {
+            "id": "30006",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 3
+          },
+          {
+            "id": "30015",
+            "count": 3
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30031",
+            "count": 2
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 3
+          }
+        ]
+      },
+      "corp": {
+        "schemaVersion": 1,
+        "name": "Haas-Bioroid: Precision Design",
+        "side": "corp",
+        "identity": "30035",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30037",
+            "count": 3
+          },
+          {
+            "id": "30038",
+            "count": 3
+          },
+          {
+            "id": "30039",
+            "count": 3
+          },
+          {
+            "id": "30040",
+            "count": 3
+          },
+          {
+            "id": "30041",
+            "count": 2
+          },
+          {
+            "id": "30042",
+            "count": 2
+          },
+          {
+            "id": "30048",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 2
+          },
+          {
+            "id": "30056",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 3
+          },
+          {
+            "id": "30070",
+            "count": 1
+          },
+          {
+            "id": "30071",
+            "count": 1
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30074",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          }
+        ]
+      },
+      "expected": {
+        "status": "completed",
+        "terminal": {
+          "winner": "corp",
+          "reason": "Corp reached 7 agenda points."
+        },
+        "turn": 23,
+        "decisions": 662,
+        "points": {
+          "corp": 7,
+          "runner": 2
+        },
+        "traceHash": "a76933d1c37bfb241ca53b8a674d9532a82a8177f361c4a50098aa2f2c5cd1ed"
+      }
+    },
+    {
+      "label": "Gateway 1",
+      "seed": "benchmark-1:1",
+      "runner": {
+        "schemaVersion": 1,
+        "name": "René “Loup” Arcemont",
+        "side": "runner",
+        "identity": "30001",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30002",
+            "count": 3
+          },
+          {
+            "id": "30003",
+            "count": 2
+          },
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30005",
+            "count": 3
+          },
+          {
+            "id": "30006",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 3
+          },
+          {
+            "id": "30015",
+            "count": 3
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30031",
+            "count": 2
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 3
+          }
+        ]
+      },
+      "corp": {
+        "schemaVersion": 1,
+        "name": "Haas-Bioroid: Precision Design",
+        "side": "corp",
+        "identity": "30035",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30037",
+            "count": 3
+          },
+          {
+            "id": "30038",
+            "count": 3
+          },
+          {
+            "id": "30039",
+            "count": 3
+          },
+          {
+            "id": "30040",
+            "count": 3
+          },
+          {
+            "id": "30041",
+            "count": 2
+          },
+          {
+            "id": "30042",
+            "count": 2
+          },
+          {
+            "id": "30048",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 2
+          },
+          {
+            "id": "30056",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 3
+          },
+          {
+            "id": "30070",
+            "count": 1
+          },
+          {
+            "id": "30071",
+            "count": 1
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30074",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          }
+        ]
+      },
+      "expected": {
+        "status": "completed",
+        "terminal": {
+          "winner": "runner",
+          "reason": "Runner reached 8 agenda points."
+        },
+        "turn": 30,
+        "decisions": 1014,
+        "points": {
+          "corp": 4,
+          "runner": 8
+        },
+        "traceHash": "868261f7a584dac0ef87740d42149ae75e9277ede37ec2f76997449b351501e4"
+      }
+    },
+    {
+      "label": "Gateway 2",
+      "seed": "benchmark-1:2",
+      "runner": {
+        "schemaVersion": 1,
+        "name": "René “Loup” Arcemont",
+        "side": "runner",
+        "identity": "30001",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30002",
+            "count": 3
+          },
+          {
+            "id": "30003",
+            "count": 2
+          },
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30005",
+            "count": 3
+          },
+          {
+            "id": "30006",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 3
+          },
+          {
+            "id": "30015",
+            "count": 3
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30031",
+            "count": 2
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 3
+          }
+        ]
+      },
+      "corp": {
+        "schemaVersion": 1,
+        "name": "Haas-Bioroid: Precision Design",
+        "side": "corp",
+        "identity": "30035",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30037",
+            "count": 3
+          },
+          {
+            "id": "30038",
+            "count": 3
+          },
+          {
+            "id": "30039",
+            "count": 3
+          },
+          {
+            "id": "30040",
+            "count": 3
+          },
+          {
+            "id": "30041",
+            "count": 2
+          },
+          {
+            "id": "30042",
+            "count": 2
+          },
+          {
+            "id": "30048",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 2
+          },
+          {
+            "id": "30056",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 3
+          },
+          {
+            "id": "30070",
+            "count": 1
+          },
+          {
+            "id": "30071",
+            "count": 1
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30074",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          }
+        ]
+      },
+      "expected": {
+        "status": "completed",
+        "terminal": {
+          "winner": "corp",
+          "reason": "Corp reached 9 agenda points."
+        },
+        "turn": 45,
+        "decisions": 1869,
+        "points": {
+          "corp": 9,
+          "runner": 5
+        },
+        "traceHash": "6a49bf5aa34dd89e020f529a83756d810294c86a1ef3612a9f461d36ca0ddd96"
+      }
+    }
+  ]
+}

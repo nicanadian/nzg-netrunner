@@ -1,0 +1,235 @@
+{
+  "check": {
+    "overflow": false,
+    "playback": "RUNNER TURN 4 · PAUSED\nRunner passes Palisade unrezzed\n\nCould not rez Palisade: 3 credits required; 2 eligible credits available.\n\nUnderstood · continue the run\n\nWatching the opponent. Your next decision will appear here.",
+    "review": true,
+    "skip": false,
+    "turn": 8,
+    "version": 132
+  },
+  "screenshot": "/Users/nicanadian/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mwgu0t5k-cd756fb2.png",
+  "replay": {
+    "choices": [
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 8
+      },
+      {
+        "command": "install",
+        "index": 2,
+        "version": 10
+      },
+      {
+        "command": "install",
+        "index": 1,
+        "version": 12
+      },
+      {
+        "command": "install",
+        "index": 0,
+        "version": 44
+      },
+      {
+        "command": "install",
+        "index": 0,
+        "version": 46
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 48
+      },
+      {
+        "command": "rez",
+        "index": 0,
+        "version": 49
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 80
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 81
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 82
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 113
+      }
+    ],
+    "conceded": false,
+    "config": {
+      "deckDocuments": {
+        "corp": {
+          "cards": [
+            {
+              "count": 1,
+              "id": "30044"
+            },
+            {
+              "count": 3,
+              "id": "30045"
+            },
+            {
+              "count": 3,
+              "id": "30046"
+            },
+            {
+              "count": 3,
+              "id": "30047"
+            },
+            {
+              "count": 3,
+              "id": "30048"
+            },
+            {
+              "count": 2,
+              "id": "30049"
+            },
+            {
+              "count": 2,
+              "id": "30050"
+            },
+            {
+              "count": 3,
+              "id": "30053"
+            },
+            {
+              "count": 2,
+              "id": "30056"
+            },
+            {
+              "count": 3,
+              "id": "30067"
+            },
+            {
+              "count": 2,
+              "id": "30068"
+            },
+            {
+              "count": 2,
+              "id": "30069"
+            },
+            {
+              "count": 3,
+              "id": "30071"
+            },
+            {
+              "count": 3,
+              "id": "30072"
+            },
+            {
+              "count": 3,
+              "id": "30073"
+            },
+            {
+              "count": 3,
+              "id": "30074"
+            },
+            {
+              "count": 3,
+              "id": "30075"
+            }
+          ],
+          "identity": "30043",
+          "name": "restoring-humanity-v2 / Planogram instead of Clearinghouse",
+          "pool": "gateway-v1",
+          "schemaVersion": 1,
+          "side": "corp"
+        },
+        "runner": {
+          "cards": [
+            {
+              "count": 2,
+              "id": "30004"
+            },
+            {
+              "count": 3,
+              "id": "30006"
+            },
+            {
+              "count": 3,
+              "id": "30020"
+            },
+            {
+              "count": 3,
+              "id": "30021"
+            },
+            {
+              "count": 2,
+              "id": "30022"
+            },
+            {
+              "count": 2,
+              "id": "30023"
+            },
+            {
+              "count": 2,
+              "id": "30024"
+            },
+            {
+              "count": 3,
+              "id": "30025"
+            },
+            {
+              "count": 3,
+              "id": "30026"
+            },
+            {
+              "count": 1,
+              "id": "30027"
+            },
+            {
+              "count": 3,
+              "id": "30028"
+            },
+            {
+              "count": 3,
+              "id": "30029"
+            },
+            {
+              "count": 3,
+              "id": "30030"
+            },
+            {
+              "count": 2,
+              "id": "30032"
+            },
+            {
+              "count": 3,
+              "id": "30033"
+            },
+            {
+              "count": 2,
+              "id": "30034"
+            }
+          ],
+          "identity": "30019",
+          "name": "Tāo Salonga — two Mayflies",
+          "pool": "gateway-v1",
+          "schemaVersion": 1,
+          "side": "runner"
+        }
+      },
+      "rulesVersion": "26.03-local-2",
+      "seed": "2110a61e-4453-4bd5-840c-67a27c135195",
+      "side": "corp"
+    },
+    "engine": "chiriboga-77c80b1-local-1"
+  },
+  "steps": "Restore this UI replay, advance Urtica twice, then click Skip to decision during the Runner turn. It must stop at the insufficient-credit Palisade warning."
+}

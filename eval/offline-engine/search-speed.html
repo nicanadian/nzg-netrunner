@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>
+body {margin:0}
+#search-speed {font-family:var(--font-sans,system-ui);color:var(--foreground,CanvasText);margin:0;font-size:14px;max-width:728px}
+#search-speed figcaption {font-weight:600;margin-bottom:16px}
+#search-speed .plot {height:196px;display:grid;grid-template-rows:repeat(4,1fr);gap:9px}
+#search-speed .row {display:grid;grid-template-columns:minmax(112px,1.5fr) minmax(60px,4fr) 58px;gap:12px;align-items:center}
+#search-speed .label {line-height:1.25}
+#search-speed .track {height:22px;background:var(--secondary,ButtonFace);border-radius:4px;overflow:hidden}
+#search-speed .fill {height:22px;background:var(--chart-1,Highlight);border-radius:4px}
+#search-speed .value {font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+#search-speed .caption {margin:14px 0 0;color:var(--muted-foreground,GrayText);font-size:12px;line-height:1.45}
+@media(max-width:420px){#search-speed .row {grid-template-columns:106px minmax(40px,1fr) 51px;gap:8px}}
+</style></head><body>
+<figure id="search-speed" aria-label="Runtime comparison for twelve matched games, lower is faster: baseline 89.3 seconds, caching 60.5 seconds, continuous search 76.3 seconds, both changes 47.1 seconds.">
+ <figcaption>Runtime for 12 matched games · seconds</figcaption>
+ <div class="plot">
+  <div class="row"><span class="label">Baseline</span><div class="track"><div class="fill" style="width:100%"></div></div><span class="value">89.3 s</span></div>
+  <div class="row"><span class="label">Cache only</span><div class="track"><div class="fill" style="width:67.75%;background:var(--chart-2,Highlight)"></div></div><span class="value">60.5 s</span></div>
+  <div class="row"><span class="label">Timer pauses removed</span><div class="track"><div class="fill" style="width:85.42%;background:var(--chart-3,Highlight)"></div></div><span class="value">76.3 s</span></div>
+  <div class="row"><strong class="label">Both changes</strong><div class="track"><div class="fill" style="width:52.73%;background:var(--chart-4,Highlight)"></div></div><strong class="value">47.1 s</strong></div>
+ </div>
+ <p class="caption">Six fixed Gateway/Core cases × two rounds, one worker, rotated order. Complete decision traces match. Includes a deliberately slow case; this is a focused performance sample.</p>
+</figure>
+</body></html>

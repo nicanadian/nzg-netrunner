@@ -1,0 +1,49 @@
+{
+  "desktop": {
+    "height": 800,
+    "overflow": false,
+    "start": {
+      "bottom": 778,
+      "height": 47,
+      "left": 76.796875,
+      "right": 228.390625,
+      "top": 731,
+      "width": 151.59375,
+      "x": 76.796875,
+      "y": 731
+    },
+    "width": 1280
+  },
+  "mobile": {
+    "height": 844,
+    "libraryLabel": "Gateway · legal deck",
+    "overflow": false,
+    "start": {
+      "bottom": 765,
+      "height": 47,
+      "left": 24,
+      "right": 175.59375,
+      "top": 718,
+      "width": 151.59375,
+      "x": 24,
+      "y": 718
+    },
+    "width": 390
+  },
+  "customLibrary": {
+    "custom": "MY DECKS\nUI test · Mayfly custom\n\nTāo Salonga: Telepresence Magician\n\n40 cards · 12/15 influence\n\nGateway · legal deck\n\nEditUse this runner deckExportDelete"
+  },
+  "requiredRezReview": {
+    "overflow": false,
+    "playback": "RUNNER TURN 4 · PAUSED\nRunner passes Palisade unrezzed\n\nCould not rez Palisade: 3 credits required; 2 eligible credits available.\n\nUnderstood · continue the run\n\nWatching the opponent. Your next decision will appear here.",
+    "review": true,
+    "skip": false,
+    "turn": 8,
+    "version": 132
+  },
+  "finalBrowserDiagnostics": {
+    "console": [],
+    "network": [],
+    "screenshot": "/Users/nicanadian/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mwgu1q61-ca2e5e99.png"
+  }
+}

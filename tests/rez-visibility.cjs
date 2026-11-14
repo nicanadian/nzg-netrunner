@@ -3,6 +3,8 @@ const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('nod
 const {makeGame,choices,checkSnapshot}=require('./engine-smoke.cjs');
 const replay=require('./fixtures/ping-rez-affordability.json');
 (async()=>{
+ const {iceRezWarning}=await import('../app/rez-warning.mjs');
+ const {runDrawerModel}=await import('../app/run-drawer.mjs');
  const {opponentBeat}=await import('../app/opponent.mjs');
  const {corpIceRezHint}=await import('../app/encounter.mjs');
  const {assistedChoice}=await import('../app/interaction.mjs');
@@ -26,7 +28,16 @@ const replay=require('./fixtures/ping-rez-affordability.json');
   const ping=[...windows.values()][0];
   assert.equal(ping.decision.commands.some(c=>c.command==='rez'),false);
   assert.equal(tithe.decision.commands.find(c=>c.command==='rez').options[0].secondary,false);
+  const warning=iceRezWarning(tithe);
+  assert.equal(warning.card.title,'Tithe');assert.equal(warning.rez.cost,1);
+  assert.match(warning.detail,/without an encounter/);
+  assert.match(runDrawerModel(tithe).controls.find(c=>c.command==='n').label,/Tithe unrezzed/);
+  assert.equal(assistedChoice({...tithe,assistance:{kind:'optional-window',command:'n',index:0}}),null,'Even a stale assistance hint cannot pass unrezzed ice');
+  assert.equal(iceRezWarning({...tithe,side:'runner'}),null);
+  assert.equal(iceRezWarning({...tithe,run:{...tithe.run,card:{...tithe.run.card,rezzed:true}}}),null);
+  assert.equal(iceRezWarning({...tithe,phase:{identifier:'Run 3.1'}}),null);
   assert.equal(assistedChoice(tithe),null,'Affordable defensive rez stops assistance');
+  assert.ok(beats.every(b=>b.requiresRezReview),'Unaffordable ice passes require visible review');
   assert.equal(beats.length,4,'All four unaffordable ice passes are explained');
   assert.match(beats[0].detail,/2 credits required; 1 eligible credit available/);
   const context=helperContext(ping,{watching:true,playback:beats[0]});

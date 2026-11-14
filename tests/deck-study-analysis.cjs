@@ -1,0 +1,14 @@
+'use strict';const assert=require('node:assert/strict'),{wilson,paired,holm,summarize,quantile}=require('../scripts/experiments/deck-study.cjs');
+assert.equal(quantile([5,1,3,2],.5),2.5);assert.equal(quantile([],0),null);const interval=wilson(25,50);assert(Math.abs(interval[0]-.366445)<.00001);assert(Math.abs(interval[1]-.633555)<.00001);assert.equal(wilson(0,0),null);
+const job=(index,runnerWin=true,status='completed')=>({index,seed:'test:'+index,status,terminal:status==='completed'?{winner:runnerWin?'runner':'corp',reason:'Agenda points'}:null,turn:4,elapsedMs:1,decisions:2,trace:[{command:'gain',side:'runner'},{command:'draw',side:'corp'}]});
+const a=[job(0),job(1,false)],same=paired(a,a);assert.deepEqual(same.bootstrapInterval,[0,0]);assert.equal(same.mcnemarExactP,1);const reverse=paired(a,[job(1),job(0,false)]);assert.equal(reverse.delta,0);assert.equal(reverse.alternativeOnlyWins,1);assert.equal(reverse.originalOnlyWins,1);
+const missing=paired([job(0,false),job(1,false,'timeout')],[job(0,true),job(1,false)]);assert.equal(missing.pairedComplete,1);assert.deepEqual(missing.allScheduledDeltaBounds,[0,.5]);assert.throws(()=>paired(a,[{...job(0),seed:'other'}]),/same seed/);
+assert.deepEqual(holm([{mcnemarExactP:.04},{mcnemarExactP:.01}]).map(x=>x.holmAdjustedP),[.04,.02]);const s=summarize([job(0),job(1,false),job(2,false,'timeout')]);assert.equal(s.runnerWins,1);assert.equal(s.completed,2);assert.deepEqual(s.allScheduledWinBounds,[1/3,2/3]);assert.equal(s.basicRunnerCreditClicksPerTurn,.5);assert.equal(s.statuses.timeout,1);
+assert.throws(()=>summarize([{...job(0),trace:[]}]),/Full trace required/);
+const {select}=require('../scripts/experiments/deck-study.cjs');
+const selectionDesign={selection:{minimumCompleted:45}};
+const cell=(r,c,completed,runnerWinRate,statuses={completed})=>({r,c,completed,runnerWinRate,statuses});
+assert.equal(select({cells:[cell(1,0,50,.5,{error:1}),cell(0,0,44,.5),cell(0,1,50,.48)]},selectionDesign).c,1);
+assert.equal(select({cells:[cell(1,0,50,.5),cell(0,1,50,.5)]},selectionDesign).r,0);
+assert.throws(()=>select({cells:[cell(0,0,44,.5)]},selectionDesign),/No reliable pair/);
+console.log('PASS deck-study analysis: Wilson uncertainty, seed pairing, ties/discordance, missing-outcome bounds, Holm correction, action denominators, full-trace requirement and predeclared selection gate.');

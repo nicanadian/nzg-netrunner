@@ -1,0 +1,20 @@
+{
+  "jobs": 1000,
+  "statuses": {
+    "completed": 999,
+    "timeout": 1
+  },
+  "wins": {
+    "corp": 537,
+    "runner": 462
+  },
+  "runnerWinRate": 0.4624624624624625,
+  "runnerWilson95": [
+    0.4317468736666111,
+    0.49346564244759866
+  ],
+  "p50Ms": 3543,
+  "p95Ms": 24093,
+  "policyNotice": "Legacy native policies; hidden-information behavior and Elevation AI coverage are not certified. Results describe these policies.",
+  "experimentHash": "679e1378f1193dabdf696fec04206682d3f691ddc2d569e3e7d21379f12e8fcc"
+}

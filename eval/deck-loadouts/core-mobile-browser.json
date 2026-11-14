@@ -1,0 +1,690 @@
+{
+  "corpIdentity": {
+    "advancement": 0,
+    "advancementRequirement": null,
+    "artNumber": "35057-0",
+    "canScore": false,
+    "counters": {},
+    "faceUp": true,
+    "hidden": false,
+    "hosted": [],
+    "id": "c1",
+    "identityFace": "back",
+    "installed": false,
+    "number": 35057,
+    "rezzed": false,
+    "side": "corp",
+    "strength": null,
+    "subTypes": [],
+    "subroutines": [],
+    "title": "Nebula Talent Management: Making Stars",
+    "type": "identity"
+  },
+  "diagnostics": [],
+  "history": [
+    {
+      "side": "corp",
+      "text": "Game begins. First to 7 agenda points.",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp chose to keep",
+      "turn": 1
+    },
+    {
+      "actor": "runner",
+      "side": "corp",
+      "text": "Runner chose to keep",
+      "turn": 1
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed ice protecting R&D",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed ice protecting HQ",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 5 credits from credit pool",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Played \"Hedge Fund\"",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained 9 credits",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained one credit",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Nebula Talent Management flipped to its back face.",
+      "turn": 1
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 1 credit from credit pool",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Runner installed Telework Contract",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "9 credits loaded onto Telework Contract",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 2
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Corp spent 2 credits from credit pool",
+      "turn": 2
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Corp rezzed Flyswatter protecting R&D at position 0",
+      "turn": 2
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Purge virus counters triggered",
+      "turn": 2
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Virus counters purged",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Flyswatter protecting R&D at position 0",
+      "turn": 2
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"End the run.\" on Flyswatter protecting R&D at position 0:",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 2
+    },
+    {
+      "draw": {
+        "kind": "action"
+      },
+      "side": "runner",
+      "text": "Runner drew a card",
+      "turn": 2
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Corp created a new remote server",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed ice protecting a remote server",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed ice protecting a remote server",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed a card in root of a remote server",
+      "turn": 3
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Flyswatter protecting R&D at position 0",
+      "turn": 4
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"End the run.\" on Flyswatter protecting R&D at position 0:",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Flyswatter protecting R&D at position 0",
+      "turn": 4
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"End the run.\" on Flyswatter protecting R&D at position 0:",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Flyswatter protecting R&D at position 0",
+      "turn": 4
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"End the run.\" on Flyswatter protecting R&D at position 0:",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 4
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Played \"Predictive Planogram\"",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained one click",
+      "turn": 5
+    },
+    {
+      "draw": {
+        "kind": "effect",
+        "source": "Predictive Planogram"
+      },
+      "side": "corp",
+      "text": "Corp drew 3 cards",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 5
+    },
+    {
+      "draw": {
+        "kind": "action"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained one credit",
+      "turn": 5
+    }
+  ],
+  "session": {
+    "choices": [
+      {
+        "command": "n",
+        "index": 0,
+        "version": 2
+      },
+      {
+        "command": "install",
+        "index": 2,
+        "version": 39
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 44
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 46
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 67
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 114
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 129
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 144
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 159
+      }
+    ],
+    "conceded": false,
+    "config": {
+      "cardPool": "core-v1",
+      "deckDocuments": {
+        "corp": {
+          "cards": [
+            {
+              "count": 1,
+              "id": "30052"
+            },
+            {
+              "count": 3,
+              "id": "30053"
+            },
+            {
+              "count": 3,
+              "id": "30055"
+            },
+            {
+              "count": 3,
+              "id": "30056"
+            },
+            {
+              "count": 3,
+              "id": "30067"
+            },
+            {
+              "count": 1,
+              "id": "30071"
+            },
+            {
+              "count": 2,
+              "id": "30073"
+            },
+            {
+              "count": 3,
+              "id": "30075"
+            },
+            {
+              "count": 3,
+              "id": "35054"
+            },
+            {
+              "count": 3,
+              "id": "35055"
+            },
+            {
+              "count": 3,
+              "id": "35059"
+            },
+            {
+              "count": 2,
+              "id": "35060"
+            },
+            {
+              "count": 3,
+              "id": "35063"
+            },
+            {
+              "count": 3,
+              "id": "35064"
+            },
+            {
+              "count": 1,
+              "id": "35065"
+            },
+            {
+              "count": 2,
+              "id": "35067"
+            },
+            {
+              "count": 2,
+              "id": "35073"
+            },
+            {
+              "count": 1,
+              "id": "35079"
+            },
+            {
+              "count": 2,
+              "id": "35080"
+            },
+            {
+              "count": 3,
+              "id": "35081"
+            },
+            {
+              "count": 2,
+              "id": "35082"
+            }
+          ],
+          "identity": "35057",
+          "name": "[NSG Core] Not so subtle",
+          "pool": "core-v1",
+          "schemaVersion": 1,
+          "side": "corp",
+          "source": {
+            "author": "Girometics",
+            "externalId": "170f1c2f-e063-415a-ab06-7ef49763da04",
+            "fetchedAt": "2026-11-13T23:20:35.950Z",
+            "originalTitle": "[NSG Core] Not so subtle",
+            "provider": "NetrunnerDB v2 public",
+            "updatedAt": "2026-10-27T10:15:59+00:00",
+            "url": "https://netrunnerdb.com/en/decklist/170f1c2f-e063-415a-ab06-7ef49763da04"
+          }
+        },
+        "runner": {
+          "cards": [
+            {
+              "count": 3,
+              "id": "30007"
+            },
+            {
+              "count": 2,
+              "id": "30018"
+            },
+            {
+              "count": 3,
+              "id": "30020"
+            },
+            {
+              "count": 2,
+              "id": "30022"
+            },
+            {
+              "count": 1,
+              "id": "30025"
+            },
+            {
+              "count": 1,
+              "id": "30026"
+            },
+            {
+              "count": 3,
+              "id": "30027"
+            },
+            {
+              "count": 3,
+              "id": "30030"
+            },
+            {
+              "count": 3,
+              "id": "30032"
+            },
+            {
+              "count": 1,
+              "id": "35004"
+            },
+            {
+              "count": 2,
+              "id": "35022"
+            },
+            {
+              "count": 2,
+              "id": "35025"
+            },
+            {
+              "count": 3,
+              "id": "35026"
+            },
+            {
+              "count": 1,
+              "id": "35027"
+            },
+            {
+              "count": 2,
+              "id": "35028"
+            },
+            {
+              "count": 1,
+              "id": "35029"
+            },
+            {
+              "count": 2,
+              "id": "35030"
+            },
+            {
+              "count": 3,
+              "id": "35031"
+            },
+            {
+              "count": 1,
+              "id": "35032"
+            },
+            {
+              "count": 3,
+              "id": "35033"
+            },
+            {
+              "count": 3,
+              "id": "35034"
+            }
+          ],
+          "identity": "35023",
+          "name": " [NSG Core] Enthusiasm",
+          "pool": "core-v1",
+          "schemaVersion": 1,
+          "side": "runner",
+          "source": {
+            "author": "Girometics",
+            "externalId": "14966eb5-a65c-4578-83bb-345e566df203",
+            "fetchedAt": "2026-11-13T23:20:35.269Z",
+            "originalTitle": " [NSG Core] Enthusiasm",
+            "provider": "NetrunnerDB v2 public",
+            "updatedAt": "2026-10-27T10:14:52+00:00",
+            "url": "https://netrunnerdb.com/en/decklist/14966eb5-a65c-4578-83bb-345e566df203"
+          }
+        }
+      },
+      "rulesVersion": "26.03-core-2",
+      "seed": "61fd1add-3679-4d3d-a1a1-7745d87637bb",
+      "side": "runner"
+    },
+    "engine": "chiriboga-core-c863f5a-local-2"
+  },
+  "terminal": null,
+  "turn": 6,
+  "scope": "Partial UI playthrough only; not a completed Core game or rules/AI certification",
+  "browserDiagnostics": {
+    "console": [],
+    "network": [],
+    "screenshot": "/Users/nicanadian/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mwgu1q61-ca2e5e99.png"
+  }
+}

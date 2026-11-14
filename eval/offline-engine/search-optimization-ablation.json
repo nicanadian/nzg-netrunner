@@ -1,0 +1,2340 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-11-14T02:56:47.306Z",
+  "baselineHash": "230f78220f2ff76f4f5c4308669770a6b71c9bdfd82fa839e5facdb402ce9f2d",
+  "currentHash": "c8c52ccc31737fc9422b50e395a7400e0be4a08b2dffddedda3e275d88c8925f",
+  "rounds": 2,
+  "workers": 1,
+  "machine": {
+    "cpu": "Apple M4",
+    "logicalCPUs": 10,
+    "node": "v25.2.1",
+    "platform": "darwin"
+  },
+  "notice": "Sequential cold-worker games; rotated mode order, same complete decisions required. This is a small fixed corpus, not a 1,000-game throughput claim.",
+  "cases": [
+    {
+      "label": "Gateway 0",
+      "seed": "benchmark-1:0",
+      "runner": {
+        "schemaVersion": 1,
+        "name": "René “Loup” Arcemont",
+        "side": "runner",
+        "identity": "30001",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30002",
+            "count": 3
+          },
+          {
+            "id": "30003",
+            "count": 2
+          },
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30005",
+            "count": 3
+          },
+          {
+            "id": "30006",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 3
+          },
+          {
+            "id": "30015",
+            "count": 3
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30031",
+            "count": 2
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 3
+          }
+        ]
+      },
+      "corp": {
+        "schemaVersion": 1,
+        "name": "Haas-Bioroid: Precision Design",
+        "side": "corp",
+        "identity": "30035",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30037",
+            "count": 3
+          },
+          {
+            "id": "30038",
+            "count": 3
+          },
+          {
+            "id": "30039",
+            "count": 3
+          },
+          {
+            "id": "30040",
+            "count": 3
+          },
+          {
+            "id": "30041",
+            "count": 2
+          },
+          {
+            "id": "30042",
+            "count": 2
+          },
+          {
+            "id": "30048",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 2
+          },
+          {
+            "id": "30056",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 3
+          },
+          {
+            "id": "30070",
+            "count": 1
+          },
+          {
+            "id": "30071",
+            "count": 1
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30074",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          }
+        ]
+      }
+    },
+    {
+      "label": "Gateway 1",
+      "seed": "benchmark-1:1",
+      "runner": {
+        "schemaVersion": 1,
+        "name": "René “Loup” Arcemont",
+        "side": "runner",
+        "identity": "30001",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30002",
+            "count": 3
+          },
+          {
+            "id": "30003",
+            "count": 2
+          },
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30005",
+            "count": 3
+          },
+          {
+            "id": "30006",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 3
+          },
+          {
+            "id": "30015",
+            "count": 3
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30031",
+            "count": 2
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 3
+          }
+        ]
+      },
+      "corp": {
+        "schemaVersion": 1,
+        "name": "Haas-Bioroid: Precision Design",
+        "side": "corp",
+        "identity": "30035",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30037",
+            "count": 3
+          },
+          {
+            "id": "30038",
+            "count": 3
+          },
+          {
+            "id": "30039",
+            "count": 3
+          },
+          {
+            "id": "30040",
+            "count": 3
+          },
+          {
+            "id": "30041",
+            "count": 2
+          },
+          {
+            "id": "30042",
+            "count": 2
+          },
+          {
+            "id": "30048",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 2
+          },
+          {
+            "id": "30056",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 3
+          },
+          {
+            "id": "30070",
+            "count": 1
+          },
+          {
+            "id": "30071",
+            "count": 1
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30074",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          }
+        ]
+      }
+    },
+    {
+      "label": "Gateway 2",
+      "seed": "benchmark-1:2",
+      "runner": {
+        "schemaVersion": 1,
+        "name": "René “Loup” Arcemont",
+        "side": "runner",
+        "identity": "30001",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30002",
+            "count": 3
+          },
+          {
+            "id": "30003",
+            "count": 2
+          },
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30005",
+            "count": 3
+          },
+          {
+            "id": "30006",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 3
+          },
+          {
+            "id": "30015",
+            "count": 3
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30031",
+            "count": 2
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 3
+          }
+        ]
+      },
+      "corp": {
+        "schemaVersion": 1,
+        "name": "Haas-Bioroid: Precision Design",
+        "side": "corp",
+        "identity": "30035",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30037",
+            "count": 3
+          },
+          {
+            "id": "30038",
+            "count": 3
+          },
+          {
+            "id": "30039",
+            "count": 3
+          },
+          {
+            "id": "30040",
+            "count": 3
+          },
+          {
+            "id": "30041",
+            "count": 2
+          },
+          {
+            "id": "30042",
+            "count": 2
+          },
+          {
+            "id": "30048",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 2
+          },
+          {
+            "id": "30056",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 3
+          },
+          {
+            "id": "30070",
+            "count": 1
+          },
+          {
+            "id": "30071",
+            "count": 1
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30074",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          }
+        ]
+      }
+    },
+    {
+      "label": "Core Phoenix",
+      "seed": "identity-qualification:0",
+      "runner": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Dashing Mad",
+        "side": "runner",
+        "identity": "35001",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 2
+          },
+          {
+            "id": "30015",
+            "count": 2
+          },
+          {
+            "id": "30026",
+            "count": 2
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 2
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 2
+          },
+          {
+            "id": "30034",
+            "count": 2
+          },
+          {
+            "id": "35003",
+            "count": 2
+          },
+          {
+            "id": "35004",
+            "count": 2
+          },
+          {
+            "id": "35005",
+            "count": 3
+          },
+          {
+            "id": "35009",
+            "count": 3
+          },
+          {
+            "id": "35011",
+            "count": 3
+          },
+          {
+            "id": "35015",
+            "count": 3
+          },
+          {
+            "id": "35018",
+            "count": 2
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/074c32b0-6429-49ec-91c1-46dcddba9e4b",
+          "externalId": "074c32b0-6429-49ec-91c1-46dcddba9e4b",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:13:48+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.007Z",
+          "originalTitle": "[NSG Core] Dashing Mad"
+        }
+      },
+      "corp": {
+        "schemaVersion": 1,
+        "name": " [NSG Core] Brutal Efficiency",
+        "side": "corp",
+        "identity": "30035",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30038",
+            "count": 1
+          },
+          {
+            "id": "30039",
+            "count": 2
+          },
+          {
+            "id": "30040",
+            "count": 3
+          },
+          {
+            "id": "30042",
+            "count": 3
+          },
+          {
+            "id": "30050",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 1
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30071",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35038",
+            "count": 2
+          },
+          {
+            "id": "35039",
+            "count": 2
+          },
+          {
+            "id": "35041",
+            "count": 3
+          },
+          {
+            "id": "35042",
+            "count": 2
+          },
+          {
+            "id": "35045",
+            "count": 2
+          },
+          {
+            "id": "35075",
+            "count": 3
+          },
+          {
+            "id": "35079",
+            "count": 2
+          },
+          {
+            "id": "35082",
+            "count": 2
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/b441510e-00e7-42b7-a559-a7eba52b31a4",
+          "externalId": "b441510e-00e7-42b7-a559-a7eba52b31a4",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:15:06+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.480Z",
+          "originalTitle": " [NSG Core] Brutal Efficiency"
+        }
+      }
+    },
+    {
+      "label": "Core Topan",
+      "seed": "identity-qualification:0",
+      "runner": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Prick Thyself",
+        "side": "runner",
+        "identity": "35002",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 2
+          },
+          {
+            "id": "30012",
+            "count": 1
+          },
+          {
+            "id": "30021",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 1
+          },
+          {
+            "id": "30025",
+            "count": 1
+          },
+          {
+            "id": "30026",
+            "count": 1
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 3
+          },
+          {
+            "id": "35003",
+            "count": 1
+          },
+          {
+            "id": "35004",
+            "count": 3
+          },
+          {
+            "id": "35005",
+            "count": 2
+          },
+          {
+            "id": "35006",
+            "count": 3
+          },
+          {
+            "id": "35007",
+            "count": 2
+          },
+          {
+            "id": "35009",
+            "count": 3
+          },
+          {
+            "id": "35011",
+            "count": 3
+          },
+          {
+            "id": "35025",
+            "count": 1
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/bbcf997a-3ec6-4728-9813-82df335db2f3",
+          "externalId": "bbcf997a-3ec6-4728-9813-82df335db2f3",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:13:58+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.021Z",
+          "originalTitle": "[NSG Core] Prick Thyself"
+        }
+      },
+      "corp": {
+        "schemaVersion": 1,
+        "name": " [NSG Core] Brutal Efficiency",
+        "side": "corp",
+        "identity": "30035",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30038",
+            "count": 1
+          },
+          {
+            "id": "30039",
+            "count": 2
+          },
+          {
+            "id": "30040",
+            "count": 3
+          },
+          {
+            "id": "30042",
+            "count": 3
+          },
+          {
+            "id": "30050",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 1
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30071",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35038",
+            "count": 2
+          },
+          {
+            "id": "35039",
+            "count": 2
+          },
+          {
+            "id": "35041",
+            "count": 3
+          },
+          {
+            "id": "35042",
+            "count": 2
+          },
+          {
+            "id": "35045",
+            "count": 2
+          },
+          {
+            "id": "35075",
+            "count": 3
+          },
+          {
+            "id": "35079",
+            "count": 2
+          },
+          {
+            "id": "35082",
+            "count": 2
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/b441510e-00e7-42b7-a559-a7eba52b31a4",
+          "externalId": "b441510e-00e7-42b7-a559-a7eba52b31a4",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:15:06+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.480Z",
+          "originalTitle": " [NSG Core] Brutal Efficiency"
+        }
+      }
+    },
+    {
+      "label": "Core Synapse",
+      "seed": "identity-qualification:0",
+      "runner": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Dashing Mad",
+        "side": "runner",
+        "identity": "35001",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 2
+          },
+          {
+            "id": "30015",
+            "count": 2
+          },
+          {
+            "id": "30026",
+            "count": 2
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 2
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 2
+          },
+          {
+            "id": "30034",
+            "count": 2
+          },
+          {
+            "id": "35003",
+            "count": 2
+          },
+          {
+            "id": "35004",
+            "count": 2
+          },
+          {
+            "id": "35005",
+            "count": 3
+          },
+          {
+            "id": "35009",
+            "count": 3
+          },
+          {
+            "id": "35011",
+            "count": 3
+          },
+          {
+            "id": "35015",
+            "count": 3
+          },
+          {
+            "id": "35018",
+            "count": 2
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/074c32b0-6429-49ec-91c1-46dcddba9e4b",
+          "externalId": "074c32b0-6429-49ec-91c1-46dcddba9e4b",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:13:48+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.007Z",
+          "originalTitle": "[NSG Core] Dashing Mad"
+        }
+      },
+      "corp": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Gimbatul",
+        "side": "corp",
+        "identity": "35058",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30042",
+            "count": 2
+          },
+          {
+            "id": "30049",
+            "count": 1
+          },
+          {
+            "id": "30052",
+            "count": 1
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30054",
+            "count": 2
+          },
+          {
+            "id": "30055",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 3
+          },
+          {
+            "id": "30057",
+            "count": 1
+          },
+          {
+            "id": "30058",
+            "count": 2
+          },
+          {
+            "id": "30066",
+            "count": 2
+          },
+          {
+            "id": "30068",
+            "count": 3
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35059",
+            "count": 3
+          },
+          {
+            "id": "35060",
+            "count": 2
+          },
+          {
+            "id": "35063",
+            "count": 3
+          },
+          {
+            "id": "35064",
+            "count": 3
+          },
+          {
+            "id": "35065",
+            "count": 1
+          },
+          {
+            "id": "35066",
+            "count": 1
+          },
+          {
+            "id": "35067",
+            "count": 3
+          },
+          {
+            "id": "35080",
+            "count": 1
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/19db2c28-8521-4b86-a45e-e46cb9830243",
+          "externalId": "19db2c28-8521-4b86-a45e-e46cb9830243",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:16:07+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.907Z",
+          "originalTitle": "[NSG Core] Gimbatul"
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "round": 0,
+      "case": "Gateway 0",
+      "variant": "baseline",
+      "elapsedMs": 244,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 7 agenda points."
+      },
+      "turn": 23,
+      "decisions": 662,
+      "points": {
+        "corp": 7,
+        "runner": 2
+      },
+      "traceHash": "a76933d1c37bfb241ca53b8a674d9532a82a8177f361c4a50098aa2f2c5cd1ed"
+    },
+    {
+      "round": 0,
+      "case": "Gateway 0",
+      "variant": "cache-only",
+      "elapsedMs": 216,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 7 agenda points."
+      },
+      "turn": 23,
+      "decisions": 662,
+      "points": {
+        "corp": 7,
+        "runner": 2
+      },
+      "traceHash": "a76933d1c37bfb241ca53b8a674d9532a82a8177f361c4a50098aa2f2c5cd1ed",
+      "searchStats": {
+        "frames": 507,
+        "allCardHits": 5084,
+        "allCardMisses": 488,
+        "installedHits": 36761,
+        "installedMisses": 3731,
+        "invalidations": 0,
+        "continuousSearches": 0,
+        "cacheEnabled": true,
+        "continuousEnabled": false
+      }
+    },
+    {
+      "round": 0,
+      "case": "Gateway 0",
+      "variant": "continuous-only",
+      "elapsedMs": 237,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 7 agenda points."
+      },
+      "turn": 23,
+      "decisions": 662,
+      "points": {
+        "corp": 7,
+        "runner": 2
+      },
+      "traceHash": "a76933d1c37bfb241ca53b8a674d9532a82a8177f361c4a50098aa2f2c5cd1ed",
+      "searchStats": {
+        "frames": 0,
+        "allCardHits": 0,
+        "allCardMisses": 0,
+        "installedHits": 0,
+        "installedMisses": 0,
+        "invalidations": 0,
+        "continuousSearches": 226,
+        "cacheEnabled": false,
+        "continuousEnabled": true
+      }
+    },
+    {
+      "round": 0,
+      "case": "Gateway 0",
+      "variant": "combined",
+      "elapsedMs": 218,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 7 agenda points."
+      },
+      "turn": 23,
+      "decisions": 662,
+      "points": {
+        "corp": 7,
+        "runner": 2
+      },
+      "traceHash": "a76933d1c37bfb241ca53b8a674d9532a82a8177f361c4a50098aa2f2c5cd1ed",
+      "searchStats": {
+        "frames": 507,
+        "allCardHits": 5084,
+        "allCardMisses": 488,
+        "installedHits": 36761,
+        "installedMisses": 3731,
+        "invalidations": 0,
+        "continuousSearches": 226,
+        "cacheEnabled": true,
+        "continuousEnabled": true
+      }
+    },
+    {
+      "round": 0,
+      "case": "Gateway 1",
+      "variant": "cache-only",
+      "elapsedMs": 2469,
+      "status": "completed",
+      "terminal": {
+        "winner": "runner",
+        "reason": "Runner reached 8 agenda points."
+      },
+      "turn": 30,
+      "decisions": 1014,
+      "points": {
+        "corp": 4,
+        "runner": 8
+      },
+      "traceHash": "868261f7a584dac0ef87740d42149ae75e9277ede37ec2f76997449b351501e4",
+      "searchStats": {
+        "frames": 7197,
+        "allCardHits": 199910,
+        "allCardMisses": 11732,
+        "installedHits": 1451831,
+        "installedMisses": 91462,
+        "invalidations": 0,
+        "continuousSearches": 0,
+        "cacheEnabled": true,
+        "continuousEnabled": false
+      }
+    },
+    {
+      "round": 0,
+      "case": "Gateway 1",
+      "variant": "continuous-only",
+      "elapsedMs": 2915,
+      "status": "completed",
+      "terminal": {
+        "winner": "runner",
+        "reason": "Runner reached 8 agenda points."
+      },
+      "turn": 30,
+      "decisions": 1014,
+      "points": {
+        "corp": 4,
+        "runner": 8
+      },
+      "traceHash": "868261f7a584dac0ef87740d42149ae75e9277ede37ec2f76997449b351501e4",
+      "searchStats": {
+        "frames": 0,
+        "allCardHits": 0,
+        "allCardMisses": 0,
+        "installedHits": 0,
+        "installedMisses": 0,
+        "invalidations": 0,
+        "continuousSearches": 246,
+        "cacheEnabled": false,
+        "continuousEnabled": true
+      }
+    },
+    {
+      "round": 0,
+      "case": "Gateway 1",
+      "variant": "combined",
+      "elapsedMs": 2088,
+      "status": "completed",
+      "terminal": {
+        "winner": "runner",
+        "reason": "Runner reached 8 agenda points."
+      },
+      "turn": 30,
+      "decisions": 1014,
+      "points": {
+        "corp": 4,
+        "runner": 8
+      },
+      "traceHash": "868261f7a584dac0ef87740d42149ae75e9277ede37ec2f76997449b351501e4",
+      "searchStats": {
+        "frames": 7197,
+        "allCardHits": 199910,
+        "allCardMisses": 11732,
+        "installedHits": 1451831,
+        "installedMisses": 91462,
+        "invalidations": 0,
+        "continuousSearches": 246,
+        "cacheEnabled": true,
+        "continuousEnabled": true
+      }
+    },
+    {
+      "round": 0,
+      "case": "Gateway 1",
+      "variant": "baseline",
+      "elapsedMs": 3306,
+      "status": "completed",
+      "terminal": {
+        "winner": "runner",
+        "reason": "Runner reached 8 agenda points."
+      },
+      "turn": 30,
+      "decisions": 1014,
+      "points": {
+        "corp": 4,
+        "runner": 8
+      },
+      "traceHash": "868261f7a584dac0ef87740d42149ae75e9277ede37ec2f76997449b351501e4"
+    },
+    {
+      "round": 0,
+      "case": "Gateway 2",
+      "variant": "continuous-only",
+      "elapsedMs": 27279,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 9 agenda points."
+      },
+      "turn": 45,
+      "decisions": 1869,
+      "points": {
+        "corp": 9,
+        "runner": 5
+      },
+      "traceHash": "6a49bf5aa34dd89e020f529a83756d810294c86a1ef3612a9f461d36ca0ddd96",
+      "searchStats": {
+        "frames": 0,
+        "allCardHits": 0,
+        "allCardMisses": 0,
+        "installedHits": 0,
+        "installedMisses": 0,
+        "invalidations": 0,
+        "continuousSearches": 390,
+        "cacheEnabled": false,
+        "continuousEnabled": true
+      }
+    },
+    {
+      "round": 0,
+      "case": "Gateway 2",
+      "variant": "combined",
+      "elapsedMs": 16692,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 9 agenda points."
+      },
+      "turn": 45,
+      "decisions": 1869,
+      "points": {
+        "corp": 9,
+        "runner": 5
+      },
+      "traceHash": "6a49bf5aa34dd89e020f529a83756d810294c86a1ef3612a9f461d36ca0ddd96",
+      "searchStats": {
+        "frames": 45565,
+        "allCardHits": 1960808,
+        "allCardMisses": 85928,
+        "installedHits": 14281860,
+        "installedMisses": 662111,
+        "invalidations": 0,
+        "continuousSearches": 390,
+        "cacheEnabled": true,
+        "continuousEnabled": true
+      }
+    },
+    {
+      "round": 0,
+      "case": "Gateway 2",
+      "variant": "baseline",
+      "elapsedMs": 32489,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 9 agenda points."
+      },
+      "turn": 45,
+      "decisions": 1869,
+      "points": {
+        "corp": 9,
+        "runner": 5
+      },
+      "traceHash": "6a49bf5aa34dd89e020f529a83756d810294c86a1ef3612a9f461d36ca0ddd96"
+    },
+    {
+      "round": 0,
+      "case": "Gateway 2",
+      "variant": "cache-only",
+      "elapsedMs": 21532,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 9 agenda points."
+      },
+      "turn": 45,
+      "decisions": 1869,
+      "points": {
+        "corp": 9,
+        "runner": 5
+      },
+      "traceHash": "6a49bf5aa34dd89e020f529a83756d810294c86a1ef3612a9f461d36ca0ddd96",
+      "searchStats": {
+        "frames": 45565,
+        "allCardHits": 1960808,
+        "allCardMisses": 85928,
+        "installedHits": 14281860,
+        "installedMisses": 662111,
+        "invalidations": 0,
+        "continuousSearches": 0,
+        "cacheEnabled": true,
+        "continuousEnabled": false
+      }
+    },
+    {
+      "round": 0,
+      "case": "Core Phoenix",
+      "variant": "combined",
+      "elapsedMs": 561,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 7 agenda points."
+      },
+      "turn": 27,
+      "decisions": 1027,
+      "points": {
+        "corp": 7,
+        "runner": 6
+      },
+      "traceHash": "06d656bf70cd4188f7ae053e6edb1635dc6679ef83e30cb778213d5c734eb15b",
+      "searchStats": {
+        "frames": 1319,
+        "allCardHits": 32952,
+        "allCardMisses": 2310,
+        "installedHits": 176033,
+        "installedMisses": 12708,
+        "invalidations": 0,
+        "continuousSearches": 224,
+        "cacheEnabled": true,
+        "continuousEnabled": true
+      }
+    },
+    {
+      "round": 0,
+      "case": "Core Phoenix",
+      "variant": "baseline",
+      "elapsedMs": 857,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 7 agenda points."
+      },
+      "turn": 27,
+      "decisions": 1027,
+      "points": {
+        "corp": 7,
+        "runner": 6
+      },
+      "traceHash": "06d656bf70cd4188f7ae053e6edb1635dc6679ef83e30cb778213d5c734eb15b"
+    },
+    {
+      "round": 0,
+      "case": "Core Phoenix",
+      "variant": "cache-only",
+      "elapsedMs": 636,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 7 agenda points."
+      },
+      "turn": 27,
+      "decisions": 1027,
+      "points": {
+        "corp": 7,
+        "runner": 6
+      },
+      "traceHash": "06d656bf70cd4188f7ae053e6edb1635dc6679ef83e30cb778213d5c734eb15b",
+      "searchStats": {
+        "frames": 1319,
+        "allCardHits": 32952,
+        "allCardMisses": 2310,
+        "installedHits": 176033,
+        "installedMisses": 12708,
+        "invalidations": 0,
+        "continuousSearches": 0,
+        "cacheEnabled": true,
+        "continuousEnabled": false
+      }
+    },
+    {
+      "round": 0,
+      "case": "Core Phoenix",
+      "variant": "continuous-only",
+      "elapsedMs": 742,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 7 agenda points."
+      },
+      "turn": 27,
+      "decisions": 1027,
+      "points": {
+        "corp": 7,
+        "runner": 6
+      },
+      "traceHash": "06d656bf70cd4188f7ae053e6edb1635dc6679ef83e30cb778213d5c734eb15b",
+      "searchStats": {
+        "frames": 0,
+        "allCardHits": 0,
+        "allCardMisses": 0,
+        "installedHits": 0,
+        "installedMisses": 0,
+        "invalidations": 0,
+        "continuousSearches": 224,
+        "cacheEnabled": false,
+        "continuousEnabled": true
+      }
+    },
+    {
+      "round": 0,
+      "case": "Core Topan",
+      "variant": "baseline",
+      "elapsedMs": 4062,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 7 agenda points."
+      },
+      "turn": 25,
+      "decisions": 891,
+      "points": {
+        "corp": 7,
+        "runner": 3
+      },
+      "traceHash": "be731ff564b153b96fd81255ec3b306b2de00aa6cf60839f06b7e8540472e596"
+    },
+    {
+      "round": 0,
+      "case": "Core Topan",
+      "variant": "cache-only",
+      "elapsedMs": 2569,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 7 agenda points."
+      },
+      "turn": 25,
+      "decisions": 891,
+      "points": {
+        "corp": 7,
+        "runner": 3
+      },
+      "traceHash": "be731ff564b153b96fd81255ec3b306b2de00aa6cf60839f06b7e8540472e596",
+      "searchStats": {
+        "frames": 6684,
+        "allCardHits": 239974,
+        "allCardMisses": 12996,
+        "installedHits": 1040380,
+        "installedMisses": 61441,
+        "invalidations": 0,
+        "continuousSearches": 0,
+        "cacheEnabled": true,
+        "continuousEnabled": false
+      }
+    },
+    {
+      "round": 0,
+      "case": "Core Topan",
+      "variant": "continuous-only",
+      "elapsedMs": 3344,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 7 agenda points."
+      },
+      "turn": 25,
+      "decisions": 891,
+      "points": {
+        "corp": 7,
+        "runner": 3
+      },
+      "traceHash": "be731ff564b153b96fd81255ec3b306b2de00aa6cf60839f06b7e8540472e596",
+      "searchStats": {
+        "frames": 0,
+        "allCardHits": 0,
+        "allCardMisses": 0,
+        "installedHits": 0,
+        "installedMisses": 0,
+        "invalidations": 0,
+        "continuousSearches": 237,
+        "cacheEnabled": false,
+        "continuousEnabled": true
+      }
+    },
+    {
+      "round": 0,
+      "case": "Core Topan",
+      "variant": "combined",
+      "elapsedMs": 1862,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 7 agenda points."
+      },
+      "turn": 25,
+      "decisions": 891,
+      "points": {
+        "corp": 7,
+        "runner": 3
+      },
+      "traceHash": "be731ff564b153b96fd81255ec3b306b2de00aa6cf60839f06b7e8540472e596",
+      "searchStats": {
+        "frames": 6684,
+        "allCardHits": 239974,
+        "allCardMisses": 12996,
+        "installedHits": 1040380,
+        "installedMisses": 61441,
+        "invalidations": 0,
+        "continuousSearches": 237,
+        "cacheEnabled": true,
+        "continuousEnabled": true
+      }
+    },
+    {
+      "round": 0,
+      "case": "Core Synapse",
+      "variant": "cache-only",
+      "elapsedMs": 2660,
+      "status": "completed",
+      "terminal": {
+        "winner": "runner",
+        "reason": "Runner reached 8 agenda points."
+      },
+      "turn": 44,
+      "decisions": 1700,
+      "points": {
+        "corp": 6,
+        "runner": 8
+      },
+      "traceHash": "24f026e45eb3948545a917e536ba5e60f605446ce59eff76f1413bbad071fb12",
+      "searchStats": {
+        "frames": 6424,
+        "allCardHits": 180072,
+        "allCardMisses": 11512,
+        "installedHits": 810324,
+        "installedMisses": 51804,
+        "invalidations": 0,
+        "continuousSearches": 0,
+        "cacheEnabled": true,
+        "continuousEnabled": false
+      }
+    },
+    {
+      "round": 0,
+      "case": "Core Synapse",
+      "variant": "continuous-only",
+      "elapsedMs": 3151,
+      "status": "completed",
+      "terminal": {
+        "winner": "runner",
+        "reason": "Runner reached 8 agenda points."
+      },
+      "turn": 44,
+      "decisions": 1700,
+      "points": {
+        "corp": 6,
+        "runner": 8
+      },
+      "traceHash": "24f026e45eb3948545a917e536ba5e60f605446ce59eff76f1413bbad071fb12",
+      "searchStats": {
+        "frames": 0,
+        "allCardHits": 0,
+        "allCardMisses": 0,
+        "installedHits": 0,
+        "installedMisses": 0,
+        "invalidations": 0,
+        "continuousSearches": 420,
+        "cacheEnabled": false,
+        "continuousEnabled": true
+      }
+    },
+    {
+      "round": 0,
+      "case": "Core Synapse",
+      "variant": "combined",
+      "elapsedMs": 2061,
+      "status": "completed",
+      "terminal": {
+        "winner": "runner",
+        "reason": "Runner reached 8 agenda points."
+      },
+      "turn": 44,
+      "decisions": 1700,
+      "points": {
+        "corp": 6,
+        "runner": 8
+      },
+      "traceHash": "24f026e45eb3948545a917e536ba5e60f605446ce59eff76f1413bbad071fb12",
+      "searchStats": {
+        "frames": 6424,
+        "allCardHits": 180072,
+        "allCardMisses": 11512,
+        "installedHits": 810324,
+        "installedMisses": 51804,
+        "invalidations": 0,
+        "continuousSearches": 420,
+        "cacheEnabled": true,
+        "continuousEnabled": true
+      }
+    },
+    {
+      "round": 0,
+      "case": "Core Synapse",
+      "variant": "baseline",
+      "elapsedMs": 3781,
+      "status": "completed",
+      "terminal": {
+        "winner": "runner",
+        "reason": "Runner reached 8 agenda points."
+      },
+      "turn": 44,
+      "decisions": 1700,
+      "points": {
+        "corp": 6,
+        "runner": 8
+      },
+      "traceHash": "24f026e45eb3948545a917e536ba5e60f605446ce59eff76f1413bbad071fb12"
+    },
+    {
+      "round": 1,
+      "case": "Gateway 0",
+      "variant": "cache-only",
+      "elapsedMs": 226,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 7 agenda points."
+      },
+      "turn": 23,
+      "decisions": 662,
+      "points": {
+        "corp": 7,
+        "runner": 2
+      },
+      "traceHash": "a76933d1c37bfb241ca53b8a674d9532a82a8177f361c4a50098aa2f2c5cd1ed",
+      "searchStats": {
+        "frames": 507,
+        "allCardHits": 5084,
+        "allCardMisses": 488,
+        "installedHits": 36761,
+        "installedMisses": 3731,
+        "invalidations": 0,
+        "continuousSearches": 0,
+        "cacheEnabled": true,
+        "continuousEnabled": false
+      }
+    },
+    {
+      "round": 1,
+      "case": "Gateway 0",
+      "variant": "continuous-only",
+      "elapsedMs": 246,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 7 agenda points."
+      },
+      "turn": 23,
+      "decisions": 662,
+      "points": {
+        "corp": 7,
+        "runner": 2
+      },
+      "traceHash": "a76933d1c37bfb241ca53b8a674d9532a82a8177f361c4a50098aa2f2c5cd1ed",
+      "searchStats": {
+        "frames": 0,
+        "allCardHits": 0,
+        "allCardMisses": 0,
+        "installedHits": 0,
+        "installedMisses": 0,
+        "invalidations": 0,
+        "continuousSearches": 226,
+        "cacheEnabled": false,
+        "continuousEnabled": true
+      }
+    },
+    {
+      "round": 1,
+      "case": "Gateway 0",
+      "variant": "combined",
+      "elapsedMs": 226,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 7 agenda points."
+      },
+      "turn": 23,
+      "decisions": 662,
+      "points": {
+        "corp": 7,
+        "runner": 2
+      },
+      "traceHash": "a76933d1c37bfb241ca53b8a674d9532a82a8177f361c4a50098aa2f2c5cd1ed",
+      "searchStats": {
+        "frames": 507,
+        "allCardHits": 5084,
+        "allCardMisses": 488,
+        "installedHits": 36761,
+        "installedMisses": 3731,
+        "invalidations": 0,
+        "continuousSearches": 226,
+        "cacheEnabled": true,
+        "continuousEnabled": true
+      }
+    },
+    {
+      "round": 1,
+      "case": "Gateway 0",
+      "variant": "baseline",
+      "elapsedMs": 251,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 7 agenda points."
+      },
+      "turn": 23,
+      "decisions": 662,
+      "points": {
+        "corp": 7,
+        "runner": 2
+      },
+      "traceHash": "a76933d1c37bfb241ca53b8a674d9532a82a8177f361c4a50098aa2f2c5cd1ed"
+    },
+    {
+      "round": 1,
+      "case": "Gateway 1",
+      "variant": "continuous-only",
+      "elapsedMs": 2993,
+      "status": "completed",
+      "terminal": {
+        "winner": "runner",
+        "reason": "Runner reached 8 agenda points."
+      },
+      "turn": 30,
+      "decisions": 1014,
+      "points": {
+        "corp": 4,
+        "runner": 8
+      },
+      "traceHash": "868261f7a584dac0ef87740d42149ae75e9277ede37ec2f76997449b351501e4",
+      "searchStats": {
+        "frames": 0,
+        "allCardHits": 0,
+        "allCardMisses": 0,
+        "installedHits": 0,
+        "installedMisses": 0,
+        "invalidations": 0,
+        "continuousSearches": 246,
+        "cacheEnabled": false,
+        "continuousEnabled": true
+      }
+    },
+    {
+      "round": 1,
+      "case": "Gateway 1",
+      "variant": "combined",
+      "elapsedMs": 2109,
+      "status": "completed",
+      "terminal": {
+        "winner": "runner",
+        "reason": "Runner reached 8 agenda points."
+      },
+      "turn": 30,
+      "decisions": 1014,
+      "points": {
+        "corp": 4,
+        "runner": 8
+      },
+      "traceHash": "868261f7a584dac0ef87740d42149ae75e9277ede37ec2f76997449b351501e4",
+      "searchStats": {
+        "frames": 7197,
+        "allCardHits": 199910,
+        "allCardMisses": 11732,
+        "installedHits": 1451831,
+        "installedMisses": 91462,
+        "invalidations": 0,
+        "continuousSearches": 246,
+        "cacheEnabled": true,
+        "continuousEnabled": true
+      }
+    },
+    {
+      "round": 1,
+      "case": "Gateway 1",
+      "variant": "baseline",
+      "elapsedMs": 3384,
+      "status": "completed",
+      "terminal": {
+        "winner": "runner",
+        "reason": "Runner reached 8 agenda points."
+      },
+      "turn": 30,
+      "decisions": 1014,
+      "points": {
+        "corp": 4,
+        "runner": 8
+      },
+      "traceHash": "868261f7a584dac0ef87740d42149ae75e9277ede37ec2f76997449b351501e4"
+    },
+    {
+      "round": 1,
+      "case": "Gateway 1",
+      "variant": "cache-only",
+      "elapsedMs": 2549,
+      "status": "completed",
+      "terminal": {
+        "winner": "runner",
+        "reason": "Runner reached 8 agenda points."
+      },
+      "turn": 30,
+      "decisions": 1014,
+      "points": {
+        "corp": 4,
+        "runner": 8
+      },
+      "traceHash": "868261f7a584dac0ef87740d42149ae75e9277ede37ec2f76997449b351501e4",
+      "searchStats": {
+        "frames": 7197,
+        "allCardHits": 199910,
+        "allCardMisses": 11732,
+        "installedHits": 1451831,
+        "installedMisses": 91462,
+        "invalidations": 0,
+        "continuousSearches": 0,
+        "cacheEnabled": true,
+        "continuousEnabled": false
+      }
+    },
+    {
+      "round": 1,
+      "case": "Gateway 2",
+      "variant": "combined",
+      "elapsedMs": 16790,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 9 agenda points."
+      },
+      "turn": 45,
+      "decisions": 1869,
+      "points": {
+        "corp": 9,
+        "runner": 5
+      },
+      "traceHash": "6a49bf5aa34dd89e020f529a83756d810294c86a1ef3612a9f461d36ca0ddd96",
+      "searchStats": {
+        "frames": 45565,
+        "allCardHits": 1960808,
+        "allCardMisses": 85928,
+        "installedHits": 14281860,
+        "installedMisses": 662111,
+        "invalidations": 0,
+        "continuousSearches": 390,
+        "cacheEnabled": true,
+        "continuousEnabled": true
+      }
+    },
+    {
+      "round": 1,
+      "case": "Gateway 2",
+      "variant": "baseline",
+      "elapsedMs": 32097,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 9 agenda points."
+      },
+      "turn": 45,
+      "decisions": 1869,
+      "points": {
+        "corp": 9,
+        "runner": 5
+      },
+      "traceHash": "6a49bf5aa34dd89e020f529a83756d810294c86a1ef3612a9f461d36ca0ddd96"
+    },
+    {
+      "round": 1,
+      "case": "Gateway 2",
+      "variant": "cache-only",
+      "elapsedMs": 21520,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 9 agenda points."
+      },
+      "turn": 45,
+      "decisions": 1869,
+      "points": {
+        "corp": 9,
+        "runner": 5
+      },
+      "traceHash": "6a49bf5aa34dd89e020f529a83756d810294c86a1ef3612a9f461d36ca0ddd96",
+      "searchStats": {
+        "frames": 45565,
+        "allCardHits": 1960808,
+        "allCardMisses": 85928,
+        "installedHits": 14281860,
+        "installedMisses": 662111,
+        "invalidations": 0,
+        "continuousSearches": 0,
+        "cacheEnabled": true,
+        "continuousEnabled": false
+      }
+    },
+    {
+      "round": 1,
+      "case": "Gateway 2",
+      "variant": "continuous-only",
+      "elapsedMs": 27710,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 9 agenda points."
+      },
+      "turn": 45,
+      "decisions": 1869,
+      "points": {
+        "corp": 9,
+        "runner": 5
+      },
+      "traceHash": "6a49bf5aa34dd89e020f529a83756d810294c86a1ef3612a9f461d36ca0ddd96",
+      "searchStats": {
+        "frames": 0,
+        "allCardHits": 0,
+        "allCardMisses": 0,
+        "installedHits": 0,
+        "installedMisses": 0,
+        "invalidations": 0,
+        "continuousSearches": 390,
+        "cacheEnabled": false,
+        "continuousEnabled": true
+      }
+    },
+    {
+      "round": 1,
+      "case": "Core Phoenix",
+      "variant": "baseline",
+      "elapsedMs": 868,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 7 agenda points."
+      },
+      "turn": 27,
+      "decisions": 1027,
+      "points": {
+        "corp": 7,
+        "runner": 6
+      },
+      "traceHash": "06d656bf70cd4188f7ae053e6edb1635dc6679ef83e30cb778213d5c734eb15b"
+    },
+    {
+      "round": 1,
+      "case": "Core Phoenix",
+      "variant": "cache-only",
+      "elapsedMs": 654,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 7 agenda points."
+      },
+      "turn": 27,
+      "decisions": 1027,
+      "points": {
+        "corp": 7,
+        "runner": 6
+      },
+      "traceHash": "06d656bf70cd4188f7ae053e6edb1635dc6679ef83e30cb778213d5c734eb15b",
+      "searchStats": {
+        "frames": 1319,
+        "allCardHits": 32952,
+        "allCardMisses": 2310,
+        "installedHits": 176033,
+        "installedMisses": 12708,
+        "invalidations": 0,
+        "continuousSearches": 0,
+        "cacheEnabled": true,
+        "continuousEnabled": false
+      }
+    },
+    {
+      "round": 1,
+      "case": "Core Phoenix",
+      "variant": "continuous-only",
+      "elapsedMs": 744,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 7 agenda points."
+      },
+      "turn": 27,
+      "decisions": 1027,
+      "points": {
+        "corp": 7,
+        "runner": 6
+      },
+      "traceHash": "06d656bf70cd4188f7ae053e6edb1635dc6679ef83e30cb778213d5c734eb15b",
+      "searchStats": {
+        "frames": 0,
+        "allCardHits": 0,
+        "allCardMisses": 0,
+        "installedHits": 0,
+        "installedMisses": 0,
+        "invalidations": 0,
+        "continuousSearches": 224,
+        "cacheEnabled": false,
+        "continuousEnabled": true
+      }
+    },
+    {
+      "round": 1,
+      "case": "Core Phoenix",
+      "variant": "combined",
+      "elapsedMs": 532,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 7 agenda points."
+      },
+      "turn": 27,
+      "decisions": 1027,
+      "points": {
+        "corp": 7,
+        "runner": 6
+      },
+      "traceHash": "06d656bf70cd4188f7ae053e6edb1635dc6679ef83e30cb778213d5c734eb15b",
+      "searchStats": {
+        "frames": 1319,
+        "allCardHits": 32952,
+        "allCardMisses": 2310,
+        "installedHits": 176033,
+        "installedMisses": 12708,
+        "invalidations": 0,
+        "continuousSearches": 224,
+        "cacheEnabled": true,
+        "continuousEnabled": true
+      }
+    },
+    {
+      "round": 1,
+      "case": "Core Topan",
+      "variant": "cache-only",
+      "elapsedMs": 2703,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 7 agenda points."
+      },
+      "turn": 25,
+      "decisions": 891,
+      "points": {
+        "corp": 7,
+        "runner": 3
+      },
+      "traceHash": "be731ff564b153b96fd81255ec3b306b2de00aa6cf60839f06b7e8540472e596",
+      "searchStats": {
+        "frames": 6684,
+        "allCardHits": 239974,
+        "allCardMisses": 12996,
+        "installedHits": 1040380,
+        "installedMisses": 61441,
+        "invalidations": 0,
+        "continuousSearches": 0,
+        "cacheEnabled": true,
+        "continuousEnabled": false
+      }
+    },
+    {
+      "round": 1,
+      "case": "Core Topan",
+      "variant": "continuous-only",
+      "elapsedMs": 3362,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 7 agenda points."
+      },
+      "turn": 25,
+      "decisions": 891,
+      "points": {
+        "corp": 7,
+        "runner": 3
+      },
+      "traceHash": "be731ff564b153b96fd81255ec3b306b2de00aa6cf60839f06b7e8540472e596",
+      "searchStats": {
+        "frames": 0,
+        "allCardHits": 0,
+        "allCardMisses": 0,
+        "installedHits": 0,
+        "installedMisses": 0,
+        "invalidations": 0,
+        "continuousSearches": 237,
+        "cacheEnabled": false,
+        "continuousEnabled": true
+      }
+    },
+    {
+      "round": 1,
+      "case": "Core Topan",
+      "variant": "combined",
+      "elapsedMs": 1862,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 7 agenda points."
+      },
+      "turn": 25,
+      "decisions": 891,
+      "points": {
+        "corp": 7,
+        "runner": 3
+      },
+      "traceHash": "be731ff564b153b96fd81255ec3b306b2de00aa6cf60839f06b7e8540472e596",
+      "searchStats": {
+        "frames": 6684,
+        "allCardHits": 239974,
+        "allCardMisses": 12996,
+        "installedHits": 1040380,
+        "installedMisses": 61441,
+        "invalidations": 0,
+        "continuousSearches": 237,
+        "cacheEnabled": true,
+        "continuousEnabled": true
+      }
+    },
+    {
+      "round": 1,
+      "case": "Core Topan",
+      "variant": "baseline",
+      "elapsedMs": 4136,
+      "status": "completed",
+      "terminal": {
+        "winner": "corp",
+        "reason": "Corp reached 7 agenda points."
+      },
+      "turn": 25,
+      "decisions": 891,
+      "points": {
+        "corp": 7,
+        "runner": 3
+      },
+      "traceHash": "be731ff564b153b96fd81255ec3b306b2de00aa6cf60839f06b7e8540472e596"
+    },
+    {
+      "round": 1,
+      "case": "Core Synapse",
+      "variant": "continuous-only",
+      "elapsedMs": 3565,
+      "status": "completed",
+      "terminal": {
+        "winner": "runner",
+        "reason": "Runner reached 8 agenda points."
+      },
+      "turn": 44,
+      "decisions": 1700,
+      "points": {
+        "corp": 6,
+        "runner": 8
+      },
+      "traceHash": "24f026e45eb3948545a917e536ba5e60f605446ce59eff76f1413bbad071fb12",
+      "searchStats": {
+        "frames": 0,
+        "allCardHits": 0,
+        "allCardMisses": 0,
+        "installedHits": 0,
+        "installedMisses": 0,
+        "invalidations": 0,
+        "continuousSearches": 420,
+        "cacheEnabled": false,
+        "continuousEnabled": true
+      }
+    },
+    {
+      "round": 1,
+      "case": "Core Synapse",
+      "variant": "combined",
+      "elapsedMs": 2088,
+      "status": "completed",
+      "terminal": {
+        "winner": "runner",
+        "reason": "Runner reached 8 agenda points."
+      },
+      "turn": 44,
+      "decisions": 1700,
+      "points": {
+        "corp": 6,
+        "runner": 8
+      },
+      "traceHash": "24f026e45eb3948545a917e536ba5e60f605446ce59eff76f1413bbad071fb12",
+      "searchStats": {
+        "frames": 6424,
+        "allCardHits": 180072,
+        "allCardMisses": 11512,
+        "installedHits": 810324,
+        "installedMisses": 51804,
+        "invalidations": 0,
+        "continuousSearches": 420,
+        "cacheEnabled": true,
+        "continuousEnabled": true
+      }
+    },
+    {
+      "round": 1,
+      "case": "Core Synapse",
+      "variant": "baseline",
+      "elapsedMs": 3835,
+      "status": "completed",
+      "terminal": {
+        "winner": "runner",
+        "reason": "Runner reached 8 agenda points."
+      },
+      "turn": 44,
+      "decisions": 1700,
+      "points": {
+        "corp": 6,
+        "runner": 8
+      },
+      "traceHash": "24f026e45eb3948545a917e536ba5e60f605446ce59eff76f1413bbad071fb12"
+    },
+    {
+      "round": 1,
+      "case": "Core Synapse",
+      "variant": "cache-only",
+      "elapsedMs": 2771,
+      "status": "completed",
+      "terminal": {
+        "winner": "runner",
+        "reason": "Runner reached 8 agenda points."
+      },
+      "turn": 44,
+      "decisions": 1700,
+      "points": {
+        "corp": 6,
+        "runner": 8
+      },
+      "traceHash": "24f026e45eb3948545a917e536ba5e60f605446ce59eff76f1413bbad071fb12",
+      "searchStats": {
+        "frames": 6424,
+        "allCardHits": 180072,
+        "allCardMisses": 11512,
+        "installedHits": 810324,
+        "installedMisses": 51804,
+        "invalidations": 0,
+        "continuousSearches": 0,
+        "cacheEnabled": true,
+        "continuousEnabled": false
+      }
+    }
+  ],
+  "totals": {
+    "baseline": {
+      "games": 12,
+      "totalMatchMs": 89310
+    },
+    "cache-only": {
+      "games": 12,
+      "totalMatchMs": 60505
+    },
+    "continuous-only": {
+      "games": 12,
+      "totalMatchMs": 76288
+    },
+    "combined": {
+      "games": 12,
+      "totalMatchMs": 47089
+    }
+  },
+  "completedAt": "2026-11-14T03:01:21.147Z"
+}

@@ -33,7 +33,9 @@ function catalog(){
 function frontend(){
  const source=fs.readFileSync('app/table.js','utf8'),elements=new Map();
  const $=s=>{if(!elements.has(s))elements.set(s,{innerHTML:'',textContent:'',value:'',hidden:true,classList:{remove(){}},showModal(){this.open=true;}});return elements.get(s);};
- const context=vm.createContext({DECKS:decks,DATA:data,$,esc:s=>String(s),selectedDeckIds:{...decks.defaults},role:'runner',session:null,closeDialogs(){},opponentCurrent:null,ENGINE:'chiriboga-77c80b1-local-1'});
+ const documents=require('../engine/deck-document.js');
+ const context=vm.createContext({NRDeckDocument:documents,deckBuilder:{list:()=>decks.catalog,resolve:id=>decks.catalog.find(d=>d.id===id),document:d=>documents.normalize({...d,pool:'gateway-v1'})},DECKS:decks,DATA:data,$,esc:s=>String(s),selectedDeckIds:{...decks.defaults},role:'runner',session:null,closeDialogs(){},opponentCurrent:null,ENGINE:'chiriboga-77c80b1-local-1'});
+ vm.runInContext(source.slice(source.indexOf('function resolveDecks('),source.indexOf('const SAVE =')),context);
  vm.runInContext(source.slice(source.indexOf('function deckStats('),source.indexOf('document.addEventListener("click",')),context);
  vm.runInContext(source.slice(source.indexOf('function validateReplay('),source.indexOf('function rememberActionFocus(')),context);
  for(const side of ['runner','corp']){
@@ -42,7 +44,7 @@ function frontend(){
   assert.equal(($('#opponent-character').innerHTML.match(/<option /g)||[]).length,side==='runner'?4:3);
  }
  context.selectedDeckIds={runner:'tao-v1',corp:'built-to-last-v2'};context.renderCharacterPicker();context.viewDecks();
- assert.match($('#your-character').innerHTML+$('#opponent-character').innerHTML,/built-to-last-v2/);
+ assert.match($('#your-deck').innerHTML+$('#opponent-deck').innerHTML,/built-to-last-v2/);
  assert.ok(!($('#your-character').innerHTML+$('#opponent-character').innerHTML).includes('built-to-last-v1'));
  assert.match($('#deck-content').innerHTML,/Tāo Salonga/);assert.match($('#deck-content').innerHTML,/Built to Last/);
  const replay={engine:context.ENGINE,config:{side:'runner',seed:'catalog',deckIds:context.selectedDeckIds,decks:{runner:{identity:999}}},choices:[]};

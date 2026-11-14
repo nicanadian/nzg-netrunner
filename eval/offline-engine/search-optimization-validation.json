@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-14T03:18:13.577Z",
+  "engineHash": "c8c52ccc31737fc9422b50e395a7400e0be4a08b2dffddedda3e275d88c8925f",
+  "baselineHash": "230f78220f2ff76f4f5c4308669770a6b71c9bdfd82fa839e5facdb402ce9f2d",
+  "checks": [
+    {
+      "command": "NR_TEST_SEEDS=1 npm run check:dev",
+      "status": "passed"
+    },
+    {
+      "command": "npm run test:offline-package",
+      "status": "passed after rebuilding with linked performance documentation"
+    },
+    {
+      "command": "Current CLI replay of a frozen pre-change job",
+      "status": "passed"
+    },
+    {
+      "command": "git diff --check",
+      "status": "passed"
+    }
+  ],
+  "goldenCorpus": {
+    "games": 17,
+    "choices": 16884,
+    "completeTraceHashesMatch": true
+  },
+  "matchedBatch": {
+    "gamesPerMode": 100,
+    "choicesPerMode": 83830,
+    "completeTraceParity": true,
+    "baselineWallMs": 138727,
+    "optimizedWallMs": 73727
+  },
+  "ablation": {
+    "gamesPerMode": 12,
+    "modes": 4,
+    "rounds": 2,
+    "completeTraceParity": true
+  },
+  "limitations": [
+    "No new 1,000-game soak for this revision",
+    "Native policy fairness and full Elevation release audit remain separate gates"
+  ]
+}

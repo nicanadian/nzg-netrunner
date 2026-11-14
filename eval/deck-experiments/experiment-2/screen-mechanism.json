@@ -1,0 +1,31 @@
+{
+  "screenOnly": true,
+  "byVersion": [
+    {
+      "corp": "restoring-humanity-v1",
+      "wins": 21,
+      "flatlines": 2,
+      "basicCreditClicks": 1200,
+      "corpTurns": 1542
+    },
+    {
+      "corp": "restoring-humanity-v2",
+      "wins": 50,
+      "flatlines": 32,
+      "basicCreditClicks": 916,
+      "corpTurns": 1530
+    }
+  ],
+  "nativeCodeNotes": [
+    {
+      "file": "vendor/chiriboga/sets/systemgateway.js",
+      "line": 4536,
+      "finding": "Clearinghouse AI triggers only when damage exceeds Runner grip, aims at max hand size plus one advancement and rezzes at Runner end-of-turn timing."
+    },
+    {
+      "file": "vendor/chiriboga/ai_runner.js",
+      "line": 1945,
+      "finding": "Known Clearinghouse adds a threat value based on advancement counters. Unknown advanced remotes use generic heuristic; more than three advancement counters are valued less highly than one to three. This is a possible policy limitation, not a demonstrated cause of the result."
+    }
+  ]
+}
