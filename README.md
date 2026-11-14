@@ -1,12 +1,14 @@
 # Netrunner · Local Table
 
-**0.1.0 · Alpha — download, extract, and play (no Node.js needed):**
+**0.2.0 — alpha release. Download, extract, and play (no Node.js needed):**
 
-[Windows x64](https://github.com/nicanadian/nzg-netrunner/releases/download/alpha-build-1/nzg-netrunner-alpha-build-1-windows-x64.zip) · [macOS Apple Silicon](https://github.com/nicanadian/nzg-netrunner/releases/download/alpha-build-1/nzg-netrunner-alpha-build-1-macos-arm64.zip) · [macOS Intel](https://github.com/nicanadian/nzg-netrunner/releases/download/alpha-build-1/nzg-netrunner-alpha-build-1-macos-x64.zip) · [Linux x64](https://github.com/nicanadian/nzg-netrunner/releases/download/alpha-build-1/nzg-netrunner-alpha-build-1-linux-x64.zip)
+[Windows x64](https://github.com/nicanadian/nzg-netrunner/releases/download/v0.2.0/nzg-netrunner-0.2.0-windows-x64.zip) · [macOS Apple Silicon](https://github.com/nicanadian/nzg-netrunner/releases/download/v0.2.0/nzg-netrunner-0.2.0-macos-arm64.zip) · [macOS Intel](https://github.com/nicanadian/nzg-netrunner/releases/download/v0.2.0/nzg-netrunner-0.2.0-macos-x64.zip) · [Linux x64](https://github.com/nicanadian/nzg-netrunner/releases/download/v0.2.0/nzg-netrunner-0.2.0-linux-x64.zip)
 
-Launch **LocalTable.exe**, **Local Table.app**, or **./LocalTable** after extracting the whole ZIP. The game opens in your browser; **Quit game** stops its local server. [Launch instructions, system requirements, and build recipe](builds/alpha-build-1/README.md). This is an unsigned alpha; Windows/macOS may show a publisher warning. [Release notes and checksums](https://github.com/nicanadian/nzg-netrunner/releases/tag/alpha-build-1).
+Launch **LocalTable.exe**, **Local Table.app**, or **./LocalTable** after extracting the whole ZIP. The game opens in your browser; **Quit game** stops its local server. [Launch instructions, system requirements, and build recipe](builds/0.2.0/README.md). This is an unsigned alpha; Windows/macOS may show a publisher warning. [Release notes and checksums](https://github.com/nicanadian/nzg-netrunner/releases/tag/v0.2.0).
 
-The previous release is now named **0.1.0**. Its historical `alpha-build-1` tag and download filenames remain unchanged so existing links keep working. **0.2.0 is in release preparation**; the downloads above still contain 0.1.0.
+**Upgrading:** use **Quit game** in the old launcher before opening 0.2.0 so an old running server is not reused. Use the same browser and default address to retain saves, or export/import a replay. Gateway + Elevation remains an experimental preview.
+
+[Previous release: 0.1.0](https://github.com/nicanadian/nzg-netrunner/releases/tag/alpha-build-1), formerly Alpha Build 1, remains available with its original download URLs and checksums. Its source is also tagged `v0.1.0`.
 
 A playable, offline-first System Gateway game: choose Runner or Corporation and play against Chiriboga's AI. The interface is a new tabletop presentation with illustrated blue/red mats, legal actions, magnified cards, and local replay saves.
 
