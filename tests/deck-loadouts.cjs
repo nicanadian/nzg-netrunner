@@ -7,7 +7,7 @@ const plain=x=>JSON.parse(JSON.stringify(x));
  const {gatewayVariants}=await import('../app/ready-made-decks.mjs');
  const snapshots=[...require('../eval/deck-experiments/experiment-1/economy.json').runners.slice(1),...require('../eval/deck-experiments/experiment-2/ablation.json').corps];
  for(let i=0;i<gatewayVariants.length;i++){
-  const d=gatewayVariants[i];assert(docs.validate(d.document).valid);assert.equal(docs.contentKey(d.document),docs.contentKey(snapshots[i].deck),'Published variant matches the actual tested card list');assert(Object.isFrozen(d.document));
+  const d=gatewayVariants[i];assert(docs.validate(d.document).valid);if(i<3)assert.equal(docs.contentKey(d.document),docs.contentKey(snapshots[i].deck),'Previously published variants retain their exact tested card lists');assert(Object.isFrozen(d.document));
  }
  const source=fs.readFileSync('app/table.js','utf8');
  function ui(list,defaults,preview=false){
@@ -18,15 +18,18 @@ const plain=x=>JSON.parse(JSON.stringify(x));
   return {context,$};
  }
  const list=[...gateway.catalog,...gatewayVariants],{context:c,$}=ui(list,gateway.defaults);
- c.renderCharacterPicker();assert.equal(($('#your-character').innerHTML.match(/<option/g)||[]).length,3);assert.equal(($('#opponent-character').innerHTML.match(/<option/g)||[]).length,4);
- c.chooseCharacter('runner',30019);assert.equal(($('#your-deck').innerHTML.match(/<option/g)||[]).length,3);assert.equal(c.selectedDeckIds.runner,'tao-v1');
- c.selectedDeckIds.runner='tao-mayfly-v1';c.renderCharacterPicker();assert.equal($('#your-character').value,'30019');assert.equal($('#your-deck').value,'tao-mayfly-v1');assert.match($('#your-character-summary').innerHTML,/Mayfly backup/);
+ c.renderCharacterPicker();assert.equal(($('#your-deck').innerHTML.match(/<optgroup/g)||[]).length,3);assert.equal(($('#opponent-deck').innerHTML.match(/<optgroup/g)||[]).length,4);
+ c.selectedDeckIds.corp='local-deleted';c.renderCharacterPicker();assert.equal(c.selectedDeckIds.corp,gateway.defaults.corp,'Stale opponent selections are repaired before resolving the matchup');
+ assert.equal(list.length,15);
+ assert.equal(new Set(list.map(d=>docs.contentKey(d.document||docs.normalize({...d,pool:'gateway-v1'})))).size,15,'Alternatives are distinct lists, not renamed duplicates');
+ for(const identity of new Set(list.map(d=>d.identity)))assert(list.filter(d=>d.identity===identity).length>=2,'Every Gateway identity has an alternative');
+ c.selectedDeckIds.runner='tao-mayfly-v1';c.renderCharacterPicker();assert.equal($('#your-deck').value,'tao-mayfly-v1');assert.match($('#your-character-summary').innerHTML,/Mayfly backup/);assert.match($('#your-character-summary').innerHTML,/Tāo Salonga/);
+ assert.match($('#your-deck').innerHTML,/loup-burst-v1/,'All characters’ decks are available from one picker');
  c.role='corp';c.renderCharacterPicker();assert.equal($('#opponent-deck').value,'tao-mayfly-v1','Role swap preserves the other side’s chosen variant');
- c.chooseCharacter('corp',30043);assert.equal(($('#your-deck').innerHTML.match(/<option/g)||[]).length,2);
- c.chooseCharacter('runner',30001);assert.equal(c.selectedDeckIds.runner,'loup-v1');assert.equal(($('#opponent-deck').innerHTML.match(/<option/g)||[]).length,1,'Switching character never leaves another identity’s variant selected');
+ c.selectedDeckIds.corp='restoring-humanity-planogram-v1';c.renderCharacterPicker();assert.equal($('#your-deck').value,'restoring-humanity-planogram-v1');
  const custom={...gatewayVariants[0],id:'local-test',name:'My custom Tao',loadoutName:null,local:true};list.push(custom);c.selectedDeckIds.runner=custom.id;c.renderCharacterPicker();assert.equal($('#opponent-deck').value,custom.id);assert.match($('#opponent-deck').innerHTML,/My custom Tao/);
  const keys=new Set(core.catalog.map(d=>docs.contentKey({...d,pool:'core-v1'})));const coreLists=[...core.catalog,...net.catalog.filter(d=>!keys.has(docs.contentKey(d.document)))];assert.equal(coreLists.length,21);
- const coreUI=ui(coreLists,core.defaults,true);coreUI.context.renderCharacterPicker();assert.equal((coreUI.$('#your-character').innerHTML.match(/<option/g)||[]).length,9);assert.equal((coreUI.$('#opponent-character').innerHTML.match(/<option/g)||[]).length,12);
+ const coreUI=ui(coreLists,core.defaults,true);coreUI.context.renderCharacterPicker();assert.equal((coreUI.$('#your-deck').innerHTML.match(/<optgroup/g)||[]).length,9);assert.equal((coreUI.$('#opponent-deck').innerHTML.match(/<optgroup/g)||[]).length,12);
  // New variants use embedded documents, so current immutable catalog IDs and
  // any future library edits cannot alter a saved game's actual deck contents.
  for(const d of gatewayVariants){
@@ -45,5 +48,5 @@ const plain=x=>JSON.parse(JSON.stringify(x));
    assert.equal(a.errors.length,0);
   }finally{a.close();b.close();}
  }
- console.log('PASS character/deck separation, 10 ready-made Gateway lists, exact tested variants, custom library selection, role changes, 21-list Core preview, real variant openings and deterministic embedded-document replay.');
+ console.log('PASS unified deck/character picker, 15 distinct Gateway lists with alternatives for every identity, immutable shipped variants, custom selection, role changes, Core lists, real openings and exact replay.');
 })().catch(e=>{console.error(e);process.exitCode=1;});

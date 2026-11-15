@@ -1,5 +1,7 @@
 # Netrunner · Local Table
 
+**0.2.1 build candidate:** regression and package qualification in progress. [Changes and verification](docs/releases/0.2.1.md). The published downloads below remain 0.2.0 until the next release is published.
+
 **0.2.0 — alpha release. Download, extract, and play (no Node.js needed):**
 
 [Windows x64](https://github.com/nicanadian/nzg-netrunner/releases/download/v0.2.0/nzg-netrunner-0.2.0-windows-x64.zip) · [macOS Apple Silicon](https://github.com/nicanadian/nzg-netrunner/releases/download/v0.2.0/nzg-netrunner-0.2.0-macos-arm64.zip) · [macOS Intel](https://github.com/nicanadian/nzg-netrunner/releases/download/v0.2.0/nzg-netrunner-0.2.0-macos-x64.zip) · [Linux x64](https://github.com/nicanadian/nzg-netrunner/releases/download/v0.2.0/nzg-netrunner-0.2.0-linux-x64.zip)
@@ -29,7 +31,7 @@ npm run dev
 
 Open **http://localhost:5173/**. Choose a side and **Jack in**. If that port is occupied, use `PORT=5174 npm run dev`.
 
-Choose your character and AI opponent in the lobby. Each character has a complete ready-to-play deck; portraits open the identity's rules text. **View decks** previews the selected matchup, and **Menu → View matchup decks** shows the decks in an active game. Resume uses the saved characters, independently of the lobby's current selections.
+Choose your deck and the AI’s deck in the lobby; each list includes its character. Portraits open the identity’s rules text. **View decks** previews the selected matchup, and **Menu → View matchup decks** shows the decks in an active game. Resume uses the saved characters, independently of the lobby's current selections.
 
 - Hover or keyboard-focus a visible card to magnify it. Click/tap to pin its higher-resolution image, readable rules text, current strength, and available actions.
 - Gold borders identify actionable cards. The side panel lists legal decisions. Select individual cards or servers there when a choice has several targets.
@@ -72,11 +74,11 @@ The shared catalog is `engine/deck-catalog.js`. Saves retain versioned deck IDs 
 
 ## Development: Elevation, deck building and offline experiments
 
-The current checkout adds **Deck library & builder** to the lobby: clone ready-made lists, build/save custom decks, import public NetrunnerDB URLs or text/JSON, and export a library backup. Invalid lists remain saved drafts with actionable construction errors. Games embed exact custom deck snapshots so later edits/deletion cannot alter their replays.
+Choose **Tune this deck** beside your selected deck to edit a copy. Remove cards with **−** and add replacements with **+**; the editor shows your changes, deck size and influence. **Save & use this deck** returns to setup with your edited deck selected, ready for **Jack in**. Use **My decks & imports** to create a deck from scratch, import public NetrunnerDB URLs or text/JSON, and export a library backup. Each card shows its influence per copy for the selected identity, its faction relationship and the influence used by copies already in the deck. The influence filter uses this identity-specific cost. Thumbnails and **Read full card** open high-resolution artwork and readable rules text, then return to the editor. Invalid lists remain saved drafts with actionable construction errors. Games embed exact custom deck snapshots so later edits/deletion cannot alter their replays.
 
 Open **[Core Sets development preview](http://localhost:5173/?core-preview=1)** for Gateway + all 82 Elevation cards and 21 attributed official NSG sample lists. Definitions, printed fields, art and initial per-card ability fixtures are present. **The full rules/UI/AI audit is still open; this is an experimental preview.** New Core games use revision 2; retained revision 1 games still reconstruct.
 
-The game setup separates **character** from **deck**, for both you and the AI. System Gateway has 10 ready-made lists: the seven baseline decks, two Tāo alternatives (Burst economy and Mayfly backup), and Jinteki’s Planogram economy alternative. Use **Deck library & builder** to clone, import or create more. The **Card pool** selector opens the experimental Gateway + Elevation profile with 21 official sample lists; its rules and AI audit is still incomplete. Games using variants or custom decks save their exact deck documents for replay.
+Game setup uses one deck picker per side, grouped by character. System Gateway has **15 distinct ready-made lists**, with at least two for every Gateway character: seven baselines, Tāo’s Burst economy and Mayfly backup, Jinteki’s Planogram economy, Loup’s Burst economy, Zahya’s Mayfly backup, HB’s Bioroids & big agendas, NBN’s Tag & score, and Weyland’s Heavy ice & threats. Selections are remembered separately for each card pool. The new Loup/Zahya lists use the predeclared experiment recipes; the three Corp alternatives preserve earlier catalog lists. Their legality, openings and replay are checked; these checks do not establish human balance or stronger AI play. The **Card pool** selector opens the experimental Gateway + Elevation profile with 21 official sample lists; its rules and AI audit is still incomplete. Games using variants or custom decks save their exact deck documents for replay.
 
 A separate offline Node CLI validates decks, runs seeded matches, compares deck variants in worker-pool matchup matrices, resumes experiments and replays saved decisions using frozen source bundles. No browser, server, Docker, art or network is required for matches. See [CLI usage and measured limits](docs/offline-engine.md), [implementation roadmap](docs/plans/elevation-full-support.md), and [development-loop evidence](docs/playtesting/elevation/development-loop.md). [Search optimizations](docs/offline-engine-performance.md) reduced a matched 100-game batch from 139 to 74 seconds, preserving every decision. Build the portable code package with `npm run build:engine`; this does not replace the Alpha Build 1 downloads above.
 

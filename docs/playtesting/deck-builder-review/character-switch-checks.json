@@ -1,0 +1,139 @@
+{
+  "gateway": [
+    {
+      "id": "30001",
+      "total": "40 cards · 6/15 influence\nReady to play"
+    },
+    {
+      "id": "30010",
+      "total": "40 cards · 15/15 influence\nReady to play"
+    },
+    {
+      "id": "30019",
+      "total": "40 cards · 12/15 influence\nReady to play"
+    },
+    {
+      "id": "30035",
+      "total": "44 cards · 7/15 influence · 18/18–19 agenda points\nReady to play"
+    },
+    {
+      "id": "30043",
+      "total": "44 cards · 9/15 influence · 18/18–19 agenda points\nReady to play"
+    },
+    {
+      "id": "30051",
+      "total": "44 cards · 5/15 influence · 18/18–19 agenda points\nReady to play"
+    },
+    {
+      "id": "30059",
+      "total": "40 cards · 9/15 influence · 18/18–19 agenda points\nReady to play"
+    }
+  ],
+  "core": {
+    "corps": 12,
+    "results": [
+      {
+        "identity": "30001",
+        "totals": "40 cards · 15/15 influence\nReady to play"
+      },
+      {
+        "identity": "30010",
+        "totals": "40 cards · 15/15 influence\nReady to play"
+      },
+      {
+        "identity": "30019",
+        "totals": "40 cards · 15/15 influence\nReady to play"
+      },
+      {
+        "identity": "35001",
+        "totals": "45 cards · 17/17 influence\nReady to play"
+      },
+      {
+        "identity": "35002",
+        "totals": "45 cards · 15/15 influence\nReady to play"
+      },
+      {
+        "identity": "35012",
+        "totals": "45 cards · 15/15 influence\nReady to play"
+      },
+      {
+        "identity": "35013",
+        "totals": "45 cards · 15/15 influence\nReady to play"
+      },
+      {
+        "identity": "35023",
+        "totals": "45 cards · 15/15 influence\nReady to play"
+      },
+      {
+        "identity": "35024",
+        "totals": "45 cards · 15/15 influence\nReady to play"
+      },
+      {
+        "identity": "30035",
+        "totals": "44 cards · 15/15 influence · 18/18–19 agenda points\nReady to play"
+      },
+      {
+        "identity": "30043",
+        "totals": "44 cards · 15/15 influence · 18/18–19 agenda points\nReady to play"
+      },
+      {
+        "identity": "30051",
+        "totals": "44 cards · 15/15 influence · 18/18–19 agenda points\nReady to play"
+      },
+      {
+        "identity": "30059",
+        "totals": "44 cards · 15/15 influence · 18/18–19 agenda points\nReady to play"
+      },
+      {
+        "identity": "35035",
+        "totals": "49 cards · 15/15 influence · 20/20–21 agenda points\nReady to play"
+      },
+      {
+        "identity": "35036",
+        "totals": "49 cards · 15/15 influence · 20/20–21 agenda points\nReady to play"
+      },
+      {
+        "identity": "35046",
+        "totals": "49 cards · 15/15 influence · 20/20–21 agenda points\nReady to play"
+      },
+      {
+        "identity": "35047",
+        "totals": "49 cards · 15/15 influence · 20/20–21 agenda points\nReady to play"
+      },
+      {
+        "identity": "35057",
+        "totals": "49 cards · 15/15 influence · 20/20–21 agenda points\nReady to play"
+      },
+      {
+        "identity": "35058",
+        "totals": "49 cards · 15/15 influence · 20/20–21 agenda points\nReady to play"
+      },
+      {
+        "identity": "35068",
+        "totals": "49 cards · 15/15 influence · 20/20–21 agenda points\nReady to play"
+      },
+      {
+        "identity": "35069",
+        "totals": "48 cards · 15/15 influence · 20/20–21 agenda points\nReady to play"
+      }
+    ],
+    "runners": 9
+  },
+  "recovery": {
+    "identity": "30019",
+    "total": "40 cards · 12/15 influence\nReady to play",
+    "canSave": true,
+    "overflow": false
+  },
+  "gameStart": {
+    "phase": "Runner Mulligan",
+    "diagnostics": [],
+    "runner": {
+      "identity": "30019",
+      "size": 40,
+      "influence": 15,
+      "botulusCopies": 3,
+      "teleworkCopies": 2
+    }
+  }
+}

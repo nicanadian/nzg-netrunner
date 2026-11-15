@@ -40,12 +40,12 @@ function frontend(){
  vm.runInContext(source.slice(source.indexOf('function validateReplay('),source.indexOf('function rememberActionFocus(')),context);
  for(const side of ['runner','corp']){
   context.role=side;context.renderCharacterPicker();
-  assert.equal(($('#your-character').innerHTML.match(/<option /g)||[]).length,side==='runner'?3:4);
-  assert.equal(($('#opponent-character').innerHTML.match(/<option /g)||[]).length,side==='runner'?4:3);
+  assert.equal(($('#your-deck').innerHTML.match(/<optgroup /g)||[]).length,side==='runner'?3:4);
+  assert.equal(($('#opponent-deck').innerHTML.match(/<optgroup /g)||[]).length,side==='runner'?4:3);
  }
  context.selectedDeckIds={runner:'tao-v1',corp:'built-to-last-v2'};context.renderCharacterPicker();context.viewDecks();
  assert.match($('#your-deck').innerHTML+$('#opponent-deck').innerHTML,/built-to-last-v2/);
- assert.ok(!($('#your-character').innerHTML+$('#opponent-character').innerHTML).includes('built-to-last-v1'));
+ assert.ok(!($('#your-deck').innerHTML+$('#opponent-deck').innerHTML).includes('built-to-last-v1'));
  assert.match($('#deck-content').innerHTML,/Tāo Salonga/);assert.match($('#deck-content').innerHTML,/Built to Last/);
  const replay={engine:context.ENGINE,config:{side:'runner',seed:'catalog',deckIds:context.selectedDeckIds,decks:{runner:{identity:999}}},choices:[]};
  const restored=plain(context.validateReplay(replay));assert.deepEqual(restored.config,{side:'runner',seed:'catalog',deckIds:context.selectedDeckIds});

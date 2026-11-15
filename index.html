@@ -119,7 +119,7 @@
           A corporation with something to hide.<br />A runner with nothing to
           lose. Your move.
         </p>
-        <div class="pool-picker"><label for="card-pool">Card pool</label><select id="card-pool" aria-describedby="pool-help"><option value="gateway-v1">System Gateway · 10 ready-made decks</option><option value="core-v1">Gateway + Elevation · 21 decks · experimental</option></select><p id="pool-help">Choose a character, then choose their deck. You can also build or import your own.</p></div>
+        <div class="pool-picker"><label for="card-pool">Card pool</label><select id="card-pool" aria-describedby="pool-help"><option value="gateway-v1">System Gateway · 15 ready-made decks</option><option value="core-v1">Gateway + Elevation · 21 decks · experimental</option></select><p id="pool-help">Pick a deck to choose its character. Tune it here, then save and use it in your next game.</p></div>
         <div class="role-picker" role="group" aria-label="Choose your side">
           <button class="role active" data-side="runner" aria-pressed="true">
             <span>RUNNER</span><strong>Break the system.</strong
@@ -130,15 +130,15 @@
           </button>
         </div>
         <div id="character-picker" class="character-picker">
-          <section><label id="your-character-label" for="your-character">Your Runner</label><select id="your-character"></select><label for="your-deck">Your deck</label><select id="your-deck" aria-describedby="your-deck-count"></select><p id="your-deck-count" class="deck-count"></p><div id="your-character-summary" class="character-summary"></div></section>
-          <section><label id="opponent-character-label" for="opponent-character">AI Corporation</label><select id="opponent-character"></select><label for="opponent-deck">AI deck</label><select id="opponent-deck" aria-describedby="opponent-deck-count"></select><p id="opponent-deck-count" class="deck-count"></p><div id="opponent-character-summary" class="character-summary"></div></section>
+          <section><label id="your-character-label" for="your-deck">Your Runner deck</label><select id="your-deck" aria-describedby="your-deck-count"></select><p id="your-deck-count" class="deck-count"></p><div id="your-character-summary" class="character-summary"></div><button id="tune-your-deck" class="secondary">Tune this deck</button></section>
+          <section><label id="opponent-character-label" for="opponent-deck">AI Corporation deck</label><select id="opponent-deck" aria-describedby="opponent-deck-count"></select><p id="opponent-deck-count" class="deck-count"></p><div id="opponent-character-summary" class="character-summary"></div><button id="tune-opponent-deck" class="quiet">Tune AI deck</button></section>
         </div>
         <div class="lobby-actions">
           <button class="primary" id="start-button">
             Jack in <span>→</span></button
           ><button id="resume-button" class="secondary" hidden>
             Resume game</button
-          ><button id="deck-button" class="quiet">View decks</button><button id="build-deck-button" class="secondary">Deck library &amp; builder</button>
+          ><button id="deck-button" class="quiet">View decks</button><button id="build-deck-button" class="secondary">My decks &amp; imports</button>
         </div>
         <p id="resume-context" class="saved-context" hidden></p>
         <div class="lobby-foot">

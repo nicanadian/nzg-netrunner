@@ -18,6 +18,7 @@ import '../engine/core-decks.js';
 globalThis.NR_CORE_PREVIEW=new URLSearchParams(location.search).get('core-preview')==='1';
 const DECKS = globalThis.NRDecks;
 const selectedDeckIds = {...(globalThis.NR_CORE_PREVIEW?globalThis.NRCoreDecks.defaults:DECKS.defaults)};
+try{const saved=JSON.parse(localStorage.getItem('netrunner-lobby-decks-'+(globalThis.NR_CORE_PREVIEW?'core-v1':'gateway-v1')));for(const side of ['runner','corp'])if(typeof saved?.[side]==='string')selectedDeckIds[side]=saved[side];}catch{}
 const INSPECTION_PIXELS = 743;
 let pixelRatioQuery;
 function updateRasterLimit() {
@@ -42,7 +43,7 @@ const DATA = await fetch("/assets/card-data.json").then((r) => r.json());
 // The builder includes full rules text even while remaining art is being imported.
 for(const [id,card] of Object.entries(globalThis.NRCardCatalog.cards))if(!DATA[id])DATA[id]={...card,printingId:id,artist:'See source card',image:''};
 const activePool=globalThis.NR_CORE_PREVIEW?'core-v1':'gateway-v1';
-const deckBuilder=mountDeckBuilder({pool:activePool,bundled:globalThis.NR_CORE_PREVIEW?globalThis.NRCoreDecks.catalog:[...DECKS.catalog,...gatewayVariants],onSelect(deck){selectedDeckIds[deck.side]=deck.id;renderCharacterPicker();}});
+const deckBuilder=mountDeckBuilder({pool:activePool,bundled:globalThis.NR_CORE_PREVIEW?globalThis.NRCoreDecks.catalog:[...DECKS.catalog,...gatewayVariants],onSelect(deck){selectedDeckIds[deck.side]=deck.id;renderCharacterPicker();},onChange(){renderCharacterPicker();}});
 function resolveDecks(ids,documents=null){
  if(ids!==undefined&&(!ids||typeof ids!=='object'||Array.isArray(ids)))throw Error('Invalid character selection.');
  if(ids===undefined&&!documents&&!globalThis.NR_CORE_PREVIEW)return DECKS.resolve();
@@ -553,7 +554,7 @@ const deckBack = (side, count) =>
 function statusHTML(p) {
   const mine = state.side === p.side;
   const stat = (key, label, title = label) => `<div class="stat status-condition ${key}" title="${esc(title)}"><strong>${p[key]}</strong><small>${label}</small>${deltaHTML(p, key)}</div>`;
-  return `<div class="player-name">${p.side === "corp" ? "CORPORATION" : "RUNNER"}<small>${mine ? "YOU" : "CHIRIBOGA AI"}${state.playerTurn === p.side ? '<span class="turn-dot" title="Current turn" aria-label="Current turn"></span>' : ""}</small></div><div class="stats"><div class="stat pool-stat" title="Credits in your pool"><span class="credit-pile" aria-hidden="true">${Array.from({length:Math.min(4, p.credits)}, (_, i) => `<i style="--coin:${i}"></i>`).join("")}<span class="credit-token">${p.credits}</span></span><span class="sr-only">${p.credits}</span>${deltaHTML(p, "credits")}<small>credits</small></div><div class="stat click-stat">${clickMarkup(p, previousState?.[p.side], previousState?.turn === state.turn)}<small>${p.clicks} ${p.clicks === 1 ? "click" : "clicks"}</small></div>${p.side === "runner" ? `<div class="stat memory-stat" title="Available memory"><strong>${p.memory - p.memoryUsed}</strong><small>MU free</small></div>${p.tags ? stat('tags', 'tags', 'Runner tags') : ''}${p.coreDamage ? stat('coreDamage', 'core damage', 'Core damage permanently reduces your maximum hand size') : ''}${p.temporaryCredits ? stat('temporaryCredits', 'run credits', 'Temporary credits usable during this run') : ''}` : p.badPublicity ? stat('badPublicity', 'bad pub', 'Bad publicity gives the Runner temporary credits each run') : ''}</div><button class="scroll-cue" data-scroll-mat="${p.side}" aria-label="Scroll ${p.side} play area" title="Scroll to see more cards" hidden>↕ Board</button><button class="points" data-zone="${p.side}-score" aria-label="Inspect ${plural(p.points, "scored agenda point")}"><strong>${p.points}</strong>${deltaHTML(p, "points")}<span>/ 7 <small>AGENDA</small></span></button>`;
+  return `<div class="player-name">${p.side === "corp" ? "CORPORATION" : "RUNNER"}<small>${mine ? "YOU" : "CHIRIBOGA AI"}${state.playerTurn === p.side ? '<span class="turn-dot" title="Current turn" aria-label="Current turn"></span>' : ""}</small></div><div class="stats"><div class="stat pool-stat" title="Credits in your pool"><span class="credit-pile" aria-hidden="true">${Array.from({length:Math.min(4, p.credits)}, (_, i) => `<i style="--coin:${i}"></i>`).join("")}<span class="credit-token">${p.credits}</span></span><span class="sr-only">${p.credits}</span>${deltaHTML(p, "credits")}<small>credits</small></div><div class="stat hand-stat" role="group" aria-label="${mine ? 'Your' : 'Opponent'} ${p.side === 'corp' ? 'HQ' : 'grip'}: ${plural(p.hand.length, 'card')} in hand; maximum hand size ${p.maxHand}" title="${plural(p.hand.length, 'card')} in ${p.side === 'corp' ? 'HQ' : 'grip'} · discard down to ${p.maxHand} at the end of the turn"><strong>${p.hand.length}</strong><small>in hand<span>limit ${p.maxHand}</span></small></div><div class="stat click-stat">${clickMarkup(p, previousState?.[p.side], previousState?.turn === state.turn)}<small>${p.clicks} ${p.clicks === 1 ? "click" : "clicks"}</small></div>${p.side === "runner" ? `<div class="stat memory-stat" title="Available memory"><strong>${p.memory - p.memoryUsed}</strong><small>MU free</small></div>${p.tags ? stat('tags', 'tags', 'Runner tags') : ''}${p.coreDamage ? stat('coreDamage', 'core damage', 'Core damage permanently reduces your maximum hand size') : ''}${p.temporaryCredits ? stat('temporaryCredits', 'run credits', 'Temporary credits usable during this run') : ''}` : p.badPublicity ? stat('badPublicity', 'bad pub', 'Bad publicity gives the Runner temporary credits each run') : ''}</div><button class="scroll-cue" data-scroll-mat="${p.side}" aria-label="Scroll ${p.side} play area" title="Scroll to see more cards" hidden>↕ Board</button><button class="points" data-zone="${p.side}-score" aria-label="Inspect ${plural(p.points, "scored agenda point")}"><strong>${p.points}</strong>${deltaHTML(p, "points")}<span>/ 7 <small>AGENDA</small></span></button>`;
 }
 function renderActionReceipt(){
  const panel=$('#action-receipt');panel.hidden=!lastReceipt;if(!lastReceipt)return;
@@ -1153,32 +1154,26 @@ function deckStats(deck) {
 function availableLoadouts(side) {
   return deckBuilder.list().filter(d=>d.side===side&&globalThis.NRDeckDocument.validate(deckBuilder.document(d)).valid);
 }
-function chooseCharacter(side, identity) {
-  const available=availableLoadouts(side).filter(d=>String(d.identity)===String(identity));
-  if(available.length&&!available.some(d=>d.id===selectedDeckIds[side]))selectedDeckIds[side]=available[0].id;
-  renderCharacterPicker();
-}
 function loadoutTitle(deck) { return deck.local ? deck.name : deck.loadoutName || deck.title || deck.style || deck.name; }
 function renderCharacterPicker() {
   const opposite=role === 'runner' ? 'corp' : 'runner';
-  $('#your-character-label').textContent=role === 'runner' ? 'Your Runner' : 'Your Corporation';
-  $('#opponent-character-label').textContent=opposite === 'runner' ? 'AI Runner' : 'AI Corporation';
+  $('#your-character-label').textContent=role === 'runner' ? 'Your Runner deck' : 'Your Corporation deck';
+  $('#opponent-character-label').textContent=opposite === 'runner' ? 'AI Runner deck' : 'AI Corporation deck';
+  const bySide={runner:availableLoadouts('runner'),corp:availableLoadouts('corp')};
+  for(const side of ['runner','corp'])if(!bySide[side].some(d=>d.id===selectedDeckIds[side]))selectedDeckIds[side]=bySide[side][0]?.id;
+  const decks=resolveDecks(selectedDeckIds);
   for (const [prefix,side] of [['your',role],['opponent',opposite]]) {
-    const select=$(`#${prefix}-character`),deckSelect=$(`#${prefix}-deck`);
-    const available=availableLoadouts(side);
-    if(!available.some(d=>d.id===selectedDeckIds[side]))selectedDeckIds[side]=available[0]?.id;
-    const deck=resolveDecks(selectedDeckIds)[side],stats=deckStats(deck);
+    const deckSelect=$(`#${prefix}-deck`),available=bySide[side];
+    const deck=decks[side],stats=deckStats(deck);
     const identities=[...new Set(available.map(d=>String(d.identity)))];
-    select.innerHTML=identities.map(id=>`<option value="${esc(id)}">${esc(DATA[id].title)}</option>`).join('');
-    select.value=String(deck.identity);
-    const loadouts=available.filter(d=>String(d.identity)===String(deck.identity));
-    deckSelect.innerHTML=loadouts.map(d=>`<option value="${esc(d.id)}">${esc(loadoutTitle(d))}</option>`).join('');
+    deckSelect.innerHTML=identities.map(id=>`<optgroup label="${esc(DATA[id].title)}">${available.filter(d=>String(d.identity)===id).map(d=>`<option value="${esc(d.id)}">${esc(DATA[id].title.split(':')[0])} · ${esc(loadoutTitle(d))}${d.local?' · My deck':''}</option>`).join('')}</optgroup>`).join('');
     deckSelect.value=deck.id;
-    $(`#${prefix}-deck-count`).textContent=`${loadouts.length} ${loadouts.length===1?'deck':'decks'} available for this character`;
-    $(`#${prefix}-character-summary`).innerHTML=`<button class="character-portrait" data-library="${deck.identity}" aria-label="Read ${esc(DATA[deck.identity].title)} identity"><img src="/assets/cards-display/${deck.identity}-300.webp" alt=""></button><div><span class="character-faction">${esc(deck.faction)} · ${stats.size} cards · ${stats.influence} / ${DATA[deck.identity].influence_limit} influence</span><h2>${esc(loadoutTitle(deck))}</h2><p>${esc(deck.description)}</p><button class="quiet character-ability" data-library="${deck.identity}">Read identity ability →</button></div>`;
+    $(`#${prefix}-deck-count`).textContent=`${available.length} decks · ${identities.length} characters${deck.local?' · Your saved deck is selected':''}`;
+    $(`#${prefix}-character-summary`).innerHTML=`<button class="character-portrait" data-library="${deck.identity}" aria-label="Read ${esc(DATA[deck.identity].title)} identity"><img src="/assets/cards-display/${deck.identity}-300.webp" alt=""></button><div><span class="character-faction">${esc(DATA[deck.identity].title)}</span><h2>${esc(loadoutTitle(deck))}</h2><p>${esc(deck.description)}</p><p class="deck-metrics">${stats.size} cards · ${stats.influence} / ${DATA[deck.identity].influence_limit} influence</p><button class="quiet character-ability" data-library="${deck.identity}">Read identity ability →</button></div>`;
   }
-  $('.hero-card.front img').src=`/assets/cards-display/${resolveDecks(selectedDeckIds).runner.identity}-600.webp`;
-  $('.hero-card.back img').src=`/assets/cards-display/${resolveDecks(selectedDeckIds).corp.identity}-600.webp`;
+  try{localStorage.setItem('netrunner-lobby-decks-'+(globalThis.NR_CORE_PREVIEW?'core-v1':'gateway-v1'),JSON.stringify(selectedDeckIds));}catch{}
+  $('.hero-card.front img').src=`/assets/cards-display/${decks.runner.identity}-600.webp`;
+  $('.hero-card.back img').src=`/assets/cards-display/${decks.corp.identity}-600.webp`;
 }
 
 function viewDecks() {
@@ -1475,9 +1470,9 @@ $("#start-button").onclick = () => {
   start({side:role,seed:crypto.randomUUID(),...(custom?{deckDocuments:Object.fromEntries(Object.entries(decks).map(([side,d])=>[side,deckBuilder.document(d)]))}:{deckIds:{...selectedDeckIds}}),...(globalThis.NR_CORE_PREVIEW?{rulesVersion:globalThis.NRCoreDecks.rulesVersion,cardPool:globalThis.NRCoreDecks.cardPool}:{rulesVersion:'26.03-local-2'})});
 };
 $('#build-deck-button').onclick=()=>deckBuilder.open();
-$('#your-character').onchange = e => chooseCharacter(role,e.target.value);
+$('#tune-your-deck').onclick = () => deckBuilder.tune(selectedDeckIds[role]);
 $('#your-deck').onchange = e => {selectedDeckIds[role]=e.target.value;renderCharacterPicker();};
-$('#opponent-character').onchange = e => chooseCharacter(role==='runner'?'corp':'runner',e.target.value);
+$('#tune-opponent-deck').onclick = () => deckBuilder.tune(selectedDeckIds[role==='runner'?'corp':'runner']);
 $('#opponent-deck').onchange = e => {selectedDeckIds[role==='runner'?'corp':'runner']=e.target.value;renderCharacterPicker();};
 $('#card-pool').value=activePool;
 $('#card-pool').onchange=e=>{const url=new URL(location.href);if(e.target.value==='core-v1')url.searchParams.set('core-preview','1');else url.searchParams.delete('core-preview');location.assign(url.href);};

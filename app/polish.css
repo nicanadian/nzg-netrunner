@@ -247,3 +247,11 @@ input:focus-visible, textarea:focus-visible, select:focus-visible, summary:focus
 .card-counter.virus .counter-symbol { color:#ffd3f3; }
 .card-counter.virus .counter-art > small { color:#ffd3f3;border-color:#e7a2d580;font-size:8px;min-width:34px; }
 .virus-explanation { border-left:3px solid #efa8dc;padding:9px 12px;background:#ce80b412;color:#ecd3e8;font-size:12px;line-height:1.7; }
+
+/* Both players’ public hand totals stay beside credits, including on mobile. */
+.player-status .hand-stat { flex-shrink: 0; padding: 3px 6px; border: 1px solid #91b9c65c; border-radius: 4px; background: #17313d; }
+.player-status .hand-stat strong { color: #f2f7f8; }
+.player-status .hand-stat small { white-space: nowrap; }
+.player-status .hand-stat small span { display: block; color: #b8cbd3; }
+.player-status { height: auto; min-height: 32px; }
+.player-status .stats { min-width: 0; flex-wrap: wrap; row-gap: 6px; }

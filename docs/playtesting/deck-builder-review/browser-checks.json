@@ -1,0 +1,100 @@
+{
+  "desktop": {
+    "rows": [
+      {
+        "title": "Wildcat Strike",
+        "height": 93.796875,
+        "width": 548
+      },
+      {
+        "title": "Carnivore",
+        "height": 93.796875,
+        "width": 548
+      },
+      {
+        "title": "Botulus",
+        "height": 93.796875,
+        "width": 548
+      },
+      {
+        "title": "Buzzsaw",
+        "height": 93.796875,
+        "width": 548
+      }
+    ],
+    "header": {
+      "x": 81,
+      "y": 53,
+      "width": 1118,
+      "height": 65,
+      "top": 53,
+      "right": 1199,
+      "bottom": 118,
+      "left": 81
+    },
+    "summary": {
+      "x": 81,
+      "y": 244.3984375,
+      "width": 1118,
+      "height": 58,
+      "top": 244.3984375,
+      "right": 1199,
+      "bottom": 302.3984375,
+      "left": 81
+    },
+    "overflow": false
+  },
+  "mobileInteractions": {
+    "pane": "results",
+    "advancedOpen": true,
+    "filter": "0",
+    "faction": "shaper",
+    "rows": [
+      "Creative Commission\n2 in deck\n−\n2\n+\n\nevent · Shaper · 1 credits\n\n0 influence per copy · 0 total in deck\n\nRead card",
+      "VRcation\n3 in deck\n−\n3\n+\n\nevent · Shaper · 1 credits\n\n0 influence per copy · 0 total in deck\n\nRead card",
+      "DZMZ Optimizer\n2 in deck\n−\n2\n+\n\nhardware · Shaper · 2 credits\n\n0 influence per copy · 0 total in deck\n\nRead card",
+      "Pantograph\n2 in deck\n−\n2\n+\n\nhardware · Shaper · 2 credits\n\n0 influence per copy · 0 total in deck\n\nRead card",
+      "Conduit\n2 in deck\n−\n2\n+\n\nprogram · Shaper · 4 credits\n\n0 influence per copy · 0 total in deck\n\nRead card",
+      "Echelon\n3 in deck\n−\n3\n+\n\nprogram · Shaper · 3 credits\n\n0 influence per copy · 0 total in deck\n\nRead card",
+      "Unity\n3 in deck\n−\n3\n+\n\nprogram · Shaper · 3 credits\n\n0 influence per copy · 0 total in deck\n\nRead card",
+      "Telework Contract\n3 in deck\n−\n3\n+\n\nresource · Shaper · 1 credits\n\n0 influence per copy · 0 total in deck\n\nRead card"
+    ],
+    "totals": "39 cards · 12/15 influence\nNeeds changes before you can play",
+    "canSave": false,
+    "bodyOverflow": "hidden"
+  },
+  "keyboard": {
+    "active": "builder-search",
+    "field": {
+      "x": 27,
+      "y": 544.59375,
+      "width": 82,
+      "height": 36,
+      "top": 544.59375,
+      "right": 109,
+      "bottom": 580.59375,
+      "left": 27
+    },
+    "summary": {
+      "x": 27,
+      "y": 290.5,
+      "width": 266,
+      "height": 118.296875,
+      "top": 290.5,
+      "right": 293,
+      "bottom": 408.796875,
+      "left": 27
+    },
+    "header": {
+      "x": 27,
+      "y": 35.203125,
+      "width": 266,
+      "height": 62.3984375,
+      "top": 35.203125,
+      "right": 293,
+      "bottom": 97.6015625,
+      "left": 27
+    },
+    "overflow": false
+  }
+}
