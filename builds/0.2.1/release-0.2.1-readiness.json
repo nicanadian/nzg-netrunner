@@ -1,0 +1,225 @@
+{
+  "build": "0.2.1",
+  "status": "ready-draft",
+  "verifiedAt": "2026-11-15T21:47:21.883Z",
+  "sourceCommit": "e0177697d4e4932f311a5740faec1b8e8d76ffe2",
+  "cleanBuild": true,
+  "regressions": {
+    "command": "npm run check:dev",
+    "status": "passed",
+    "logSha256": "7b1a04e08eb08ee14e2e66e128ec790c38d676d3e88d7a9b1508233a0d1e1eb9",
+    "sourceLauncher": "npm run test:desktop passed"
+  },
+  "packageAudit": {
+    "build": "0.2.1",
+    "sourceCommit": "e0177697d4e4932f311a5740faec1b8e8d76ffe2",
+    "clean": true,
+    "targets": [
+      "windows-x64",
+      "macos-arm64",
+      "macos-x64",
+      "linux-x64"
+    ],
+    "checks": [
+      "sha256",
+      "size",
+      "embedded metadata",
+      "runtime source bytes",
+      "excluded private/development files"
+    ]
+  },
+  "localExtractedPackage": {
+    "target": "macos-arm64",
+    "startupAssetsOfflineHelpRelaunchProtectedQuit": "passed",
+    "signature": "ad hoc codesign verification passed",
+    "bundleVersion": "0.2.1"
+  },
+  "packagedBrowser": {
+    "runner": {
+      "artWidth": 743,
+      "build": "Local Table · 0.2.1",
+      "diagnostics": [],
+      "handCounts": [
+        {
+          "actual": 5,
+          "limit": 6,
+          "shown": "5\nin hand\nlimit 6",
+          "side": "corp"
+        },
+        {
+          "actual": 5,
+          "limit": 5,
+          "shown": "5\nin hand\nlimit 5",
+          "side": "runner"
+        }
+      ],
+      "phase": "Runner Mulligan",
+      "runnerDeck": {
+        "cards": [
+          {
+            "count": 3,
+            "id": "30004"
+          },
+          {
+            "count": 3,
+            "id": "30006"
+          },
+          {
+            "count": 3,
+            "id": "30020"
+          },
+          {
+            "count": 3,
+            "id": "30021"
+          },
+          {
+            "count": 2,
+            "id": "30022"
+          },
+          {
+            "count": 2,
+            "id": "30023"
+          },
+          {
+            "count": 2,
+            "id": "30024"
+          },
+          {
+            "count": 3,
+            "id": "30025"
+          },
+          {
+            "count": 3,
+            "id": "30026"
+          },
+          {
+            "count": 2,
+            "id": "30027"
+          },
+          {
+            "count": 3,
+            "id": "30028"
+          },
+          {
+            "count": 3,
+            "id": "30029"
+          },
+          {
+            "count": 3,
+            "id": "30030"
+          },
+          {
+            "count": 3,
+            "id": "30033"
+          },
+          {
+            "count": 2,
+            "id": "30034"
+          }
+        ],
+        "identity": "30019",
+        "name": "Release smoke · 0.2.1 Tao",
+        "pool": "gateway-v1",
+        "schemaVersion": 1,
+        "side": "runner"
+      },
+      "startTotal": "40 cards · 12/15 influence\nReady to play",
+      "tunedTotal": "40 cards · 15/15 influence\nReady to play"
+    },
+    "corp": {
+      "phase": "Corp Mulligan",
+      "side": "corp",
+      "diagnostics": [],
+      "handCountersMatch": true
+    },
+    "mobile": {
+      "viewport": [
+        390,
+        844
+      ],
+      "contentWidth": 375,
+      "scrollWidth": 375,
+      "handCountersMatch": true
+    },
+    "quit": "Stopped the temporary packaged server successfully"
+  },
+  "nativeCI": {
+    "url": "https://github.com/nicanadian/nzg-netrunner/actions/runs/43765321339",
+    "conclusion": "success",
+    "sourceCommit": "e0177697d4e4932f311a5740faec1b8e8d76ffe2",
+    "jobs": [
+      {
+        "name": "native-smoke (macos-15-intel, macos-x64)",
+        "conclusion": "success",
+        "url": "https://github.com/nicanadian/nzg-netrunner/actions/runs/43765321339/job/132968999965"
+      },
+      {
+        "name": "native-smoke (windows-2022, windows-x64)",
+        "conclusion": "success",
+        "url": "https://github.com/nicanadian/nzg-netrunner/actions/runs/43765321339/job/132969000151"
+      },
+      {
+        "name": "native-smoke (ubuntu-22.04, linux-x64)",
+        "conclusion": "success",
+        "url": "https://github.com/nicanadian/nzg-netrunner/actions/runs/43765321339/job/132969000194"
+      },
+      {
+        "name": "native-smoke (macos-15, macos-arm64)",
+        "conclusion": "success",
+        "url": "https://github.com/nicanadian/nzg-netrunner/actions/runs/43765321339/job/132969000234"
+      }
+    ]
+  },
+  "packages": [
+    {
+      "build": "0.2.1",
+      "target": "windows-x64",
+      "node": "v26.13.0",
+      "sourceCommit": "e0177697d4e4932f311a5740faec1b8e8d76ffe2",
+      "dirty": false,
+      "runtimeArchiveSha256": "dcc60d59a0746999f99064a01c020445d54d84228c691cdbf25b49ac3b59150a",
+      "file": "nzg-netrunner-0.2.1-windows-x64.zip",
+      "bytes": 552761461,
+      "sha256": "c5c6c5e7d34c312d76be87a22d5137ac05471ce6bc7f22d64434e57b3bfe312a"
+    },
+    {
+      "build": "0.2.1",
+      "target": "macos-arm64",
+      "node": "v26.13.0",
+      "sourceCommit": "e0177697d4e4932f311a5740faec1b8e8d76ffe2",
+      "dirty": false,
+      "runtimeArchiveSha256": "d38bd5e5a2ddce6bbb5ce45e46e208337da4d51fffe611e567fd32073d6439f6",
+      "file": "nzg-netrunner-0.2.1-macos-arm64.zip",
+      "bytes": 558863464,
+      "sha256": "4b3d3c244b233acffaee00882f83177f38caae90fc10b9c587afa1ad397c510a"
+    },
+    {
+      "build": "0.2.1",
+      "target": "macos-x64",
+      "node": "v26.13.0",
+      "sourceCommit": "e0177697d4e4932f311a5740faec1b8e8d76ffe2",
+      "dirty": false,
+      "runtimeArchiveSha256": "525c9b29bb0263d687de60a4cec0e2a6db876a8eb032369e5795eca71e7c358e",
+      "file": "nzg-netrunner-0.2.1-macos-x64.zip",
+      "bytes": 560346227,
+      "sha256": "7529ecaf3aea4a0c794ad54caddbf21dc8583d05f479b45f3e7b5e534146ccf2"
+    },
+    {
+      "build": "0.2.1",
+      "target": "linux-x64",
+      "node": "v26.13.0",
+      "sourceCommit": "e0177697d4e4932f311a5740faec1b8e8d76ffe2",
+      "dirty": false,
+      "runtimeArchiveSha256": "d28a96af6c38596f6d9d97c0ee531c13d238d757742387d1928de822d959e997",
+      "file": "nzg-netrunner-0.2.1-linux-x64.zip",
+      "bytes": 561137687,
+      "sha256": "b7c6b423cd403166b455759492aa458dd8aac8e2c8a62c73273eaf7583030c43"
+    }
+  ],
+  "limitations": [
+    "Unsigned alpha packages; Mac apps have ad hoc signatures and are not notarized.",
+    "Gateway + Elevation remains experimental; full card-rules/AI audit is incomplete.",
+    "Native CI checks launchers/assets/help/relaunch/shutdown, not full manual games on each operating system."
+  ],
+  "published": false
+}

@@ -1,6 +1,6 @@
 # Netrunner · Local Table
 
-**0.2.1 build candidate:** regression and package qualification in progress. [Changes and verification](docs/releases/0.2.1.md). The published downloads below remain 0.2.0 until the next release is published.
+**0.2.1 build candidate:** regression and native package verification passed; staged as a draft release. [Changes and verification](docs/releases/0.2.1.md). The published downloads below remain 0.2.0 until the next release is published.
 
 **0.2.0 — alpha release. Download, extract, and play (no Node.js needed):**
 
