@@ -1,16 +1,14 @@
 # Netrunner · Local Table
 
-**0.2.1 build candidate:** regression and native package verification passed; staged as a draft release. [Changes and verification](docs/releases/0.2.1.md). The published downloads below remain 0.2.0 until the next release is published.
+**0.2.1 — alpha release. Download, extract, and play (no Node.js needed):**
 
-**0.2.0 — alpha release. Download, extract, and play (no Node.js needed):**
+[Windows x64](https://github.com/nicanadian/nzg-netrunner/releases/download/v0.2.1/nzg-netrunner-0.2.1-windows-x64.zip) · [macOS Apple Silicon](https://github.com/nicanadian/nzg-netrunner/releases/download/v0.2.1/nzg-netrunner-0.2.1-macos-arm64.zip) · [macOS Intel](https://github.com/nicanadian/nzg-netrunner/releases/download/v0.2.1/nzg-netrunner-0.2.1-macos-x64.zip) · [Linux x64](https://github.com/nicanadian/nzg-netrunner/releases/download/v0.2.1/nzg-netrunner-0.2.1-linux-x64.zip)
 
-[Windows x64](https://github.com/nicanadian/nzg-netrunner/releases/download/v0.2.0/nzg-netrunner-0.2.0-windows-x64.zip) · [macOS Apple Silicon](https://github.com/nicanadian/nzg-netrunner/releases/download/v0.2.0/nzg-netrunner-0.2.0-macos-arm64.zip) · [macOS Intel](https://github.com/nicanadian/nzg-netrunner/releases/download/v0.2.0/nzg-netrunner-0.2.0-macos-x64.zip) · [Linux x64](https://github.com/nicanadian/nzg-netrunner/releases/download/v0.2.0/nzg-netrunner-0.2.0-linux-x64.zip)
+Launch **LocalTable.exe**, **Local Table.app**, or **./LocalTable** after extracting the whole ZIP. The game opens in your browser; **Quit game** stops its local server. [Launch instructions, system requirements, and build recipe](builds/0.2.1/README.md). This is an unsigned alpha; Windows/macOS may show a publisher warning. [Release notes and checksums](https://github.com/nicanadian/nzg-netrunner/releases/tag/v0.2.1).
 
-Launch **LocalTable.exe**, **Local Table.app**, or **./LocalTable** after extracting the whole ZIP. The game opens in your browser; **Quit game** stops its local server. [Launch instructions, system requirements, and build recipe](builds/0.2.0/README.md). This is an unsigned alpha; Windows/macOS may show a publisher warning. [Release notes and checksums](https://github.com/nicanadian/nzg-netrunner/releases/tag/v0.2.0).
+**Upgrading:** use **Quit game** in the old launcher before opening 0.2.1 so an old running server is not reused. Use the same browser and default address to retain saves, or export/import a replay. Gateway + Elevation remains an experimental preview.
 
-**Upgrading:** use **Quit game** in the old launcher before opening 0.2.0 so an old running server is not reused. Use the same browser and default address to retain saves, or export/import a replay. Gateway + Elevation remains an experimental preview.
-
-[Previous release: 0.1.0](https://github.com/nicanadian/nzg-netrunner/releases/tag/alpha-build-1), formerly Alpha Build 1, remains available with its original download URLs and checksums. Its source is also tagged `v0.1.0`.
+[Previous releases: 0.2.0](https://github.com/nicanadian/nzg-netrunner/releases/tag/v0.2.0) · [0.1.0](https://github.com/nicanadian/nzg-netrunner/releases/tag/alpha-build-1), formerly Alpha Build 1, remains available with its original download URLs and checksums. Its source is also tagged `v0.1.0`.
 
 A playable, offline-first System Gateway game: choose Runner or Corporation and play against Chiriboga's AI. The interface is a new tabletop presentation with illustrated blue/red mats, legal actions, magnified cards, and local replay saves.
 
@@ -80,7 +78,7 @@ Open **[Core Sets development preview](http://localhost:5173/?core-preview=1)** 
 
 Game setup uses one deck picker per side, grouped by character. System Gateway has **15 distinct ready-made lists**, with at least two for every Gateway character: seven baselines, Tāo’s Burst economy and Mayfly backup, Jinteki’s Planogram economy, Loup’s Burst economy, Zahya’s Mayfly backup, HB’s Bioroids & big agendas, NBN’s Tag & score, and Weyland’s Heavy ice & threats. Selections are remembered separately for each card pool. The new Loup/Zahya lists use the predeclared experiment recipes; the three Corp alternatives preserve earlier catalog lists. Their legality, openings and replay are checked; these checks do not establish human balance or stronger AI play. The **Card pool** selector opens the experimental Gateway + Elevation profile with 21 official sample lists; its rules and AI audit is still incomplete. Games using variants or custom decks save their exact deck documents for replay.
 
-A separate offline Node CLI validates decks, runs seeded matches, compares deck variants in worker-pool matchup matrices, resumes experiments and replays saved decisions using frozen source bundles. No browser, server, Docker, art or network is required for matches. See [CLI usage and measured limits](docs/offline-engine.md), [implementation roadmap](docs/plans/elevation-full-support.md), and [development-loop evidence](docs/playtesting/elevation/development-loop.md). [Search optimizations](docs/offline-engine-performance.md) reduced a matched 100-game batch from 139 to 74 seconds, preserving every decision. Build the portable code package with `npm run build:engine`; this does not replace the Alpha Build 1 downloads above.
+A separate offline Node CLI validates decks, runs seeded matches, compares deck variants in worker-pool matchup matrices, resumes experiments and replays saved decisions using frozen source bundles. No browser, server, Docker, art or network is required for matches. See [CLI usage and measured limits](docs/offline-engine.md), [implementation roadmap](docs/plans/elevation-full-support.md), and [development-loop evidence](docs/playtesting/elevation/development-loop.md). [Search optimizations](docs/offline-engine-performance.md) reduced a matched 100-game batch from 139 to 74 seconds, preserving every decision. Build the portable code package with `npm run build:engine`; this is separate from the game downloads above.
 
 ## Verify
 
