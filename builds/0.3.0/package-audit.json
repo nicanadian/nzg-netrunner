@@ -1,0 +1,44 @@
+{
+  "build": "0.3.0",
+  "sourceCommit": "29655f4f589e75f39f3d9388ed9f3640923d1b8f",
+  "clean": true,
+  "verifiedAt": "2026-11-20T00:07:26.213Z",
+  "packages": [
+    {
+      "target": "windows-x64",
+      "bytes": 715649426,
+      "sha256": "eebf8fececa429a58ed456e8d302d5885e7b5ff142f94663ecee3f33e8f2f1c0",
+      "runtimeFiles": 1091,
+      "sourceBytesMatch": true,
+      "metadata": true,
+      "privateFilesExcluded": true
+    },
+    {
+      "target": "macos-arm64",
+      "bytes": 721790905,
+      "sha256": "09bef450fd01ffb46e1d1bda2cd2abaed91e319d444106c1385dcbbd7c69a59d",
+      "runtimeFiles": 1091,
+      "sourceBytesMatch": true,
+      "metadata": true,
+      "privateFilesExcluded": true
+    },
+    {
+      "target": "macos-x64",
+      "bytes": 723272484,
+      "sha256": "0a9dfcd3e5450d0563296382cdc706958c1f0cd9f16bc81b75c94fe7a41e5acf",
+      "runtimeFiles": 1091,
+      "sourceBytesMatch": true,
+      "metadata": true,
+      "privateFilesExcluded": true
+    },
+    {
+      "target": "linux-x64",
+      "bytes": 724024473,
+      "sha256": "40c31a69789f98f9625885a8ad23c270cef0687695a1e78f9584f2f545a4c599",
+      "runtimeFiles": 1091,
+      "sourceBytesMatch": true,
+      "metadata": true,
+      "privateFilesExcluded": true
+    }
+  ]
+}

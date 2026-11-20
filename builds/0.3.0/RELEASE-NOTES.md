@@ -14,6 +14,8 @@ Quit the older local launcher before starting this one. Use the same browser and
 
 ## Verification
 
-See release-0.3.0-readiness.json and package-audit.json for the actual results and remaining gates. The package smoke checks include Vantage assets and the offline guide, startup, repeat launch and protected shutdown. Native Windows/Linux checks require their respective operating systems and are reported separately from local macOS execution.
+Full development regressions, deck/rules fixtures, recorded-game replay checks, search parity and network-denied offline packaging passed. All four [native package checks passed](https://github.com/nicanadian/nzg-netrunner/actions/runs/44645232919). Each ZIP was audited against 1,091 runtime source files; uploaded sizes and digests match the local archives.
+
+Built from clean source commit `29655f4f589e75f39f3d9388ed9f3640923d1b8f`. See the attached release-0.3.0-readiness.json and package-audit.json for detailed results and limitations. The package smoke checks include Vantage assets and the offline guide, startup, repeat launch and protected shutdown. Native Windows/Linux checks require their respective operating systems and are reported separately from local macOS execution.
 
 Unsigned alpha packages: macOS apps are ad hoc signed, not notarized. See README.md for launch instructions and operating system requirements. This is an independent fan project.

@@ -1,0 +1,167 @@
+{
+  "build": "0.3.0",
+  "status": "ready-draft",
+  "verifiedAt": "2026-11-20T00:23:29.092Z",
+  "sourceCommit": "29655f4f589e75f39f3d9388ed9f3640923d1b8f",
+  "cleanBuild": true,
+  "regressions": {
+    "command": "npm run check:dev",
+    "seeds": [
+      1,
+      2,
+      3
+    ],
+    "status": "passed",
+    "logSha256": "12c56ed0c7d4b8b63a2b329871f6e6b7154f4501c2448b234c78544c9d643ad1",
+    "sourceLauncher": "npm run test:desktop passed",
+    "guideGames": "3 retained browser games reconstructed, 896 native decisions"
+  },
+  "fixedDuringQualification": [
+    "Legacy lobby VM fixture now provides URLSearchParams and the active card pool."
+  ],
+  "packageAudit": {
+    "build": "0.3.0",
+    "sourceCommit": "29655f4f589e75f39f3d9388ed9f3640923d1b8f",
+    "clean": true,
+    "verifiedAt": "2026-11-20T00:07:26.213Z",
+    "packages": [
+      {
+        "target": "windows-x64",
+        "bytes": 715649426,
+        "sha256": "eebf8fececa429a58ed456e8d302d5885e7b5ff142f94663ecee3f33e8f2f1c0",
+        "runtimeFiles": 1091,
+        "sourceBytesMatch": true,
+        "metadata": true,
+        "privateFilesExcluded": true
+      },
+      {
+        "target": "macos-arm64",
+        "bytes": 721790905,
+        "sha256": "09bef450fd01ffb46e1d1bda2cd2abaed91e319d444106c1385dcbbd7c69a59d",
+        "runtimeFiles": 1091,
+        "sourceBytesMatch": true,
+        "metadata": true,
+        "privateFilesExcluded": true
+      },
+      {
+        "target": "macos-x64",
+        "bytes": 723272484,
+        "sha256": "0a9dfcd3e5450d0563296382cdc706958c1f0cd9f16bc81b75c94fe7a41e5acf",
+        "runtimeFiles": 1091,
+        "sourceBytesMatch": true,
+        "metadata": true,
+        "privateFilesExcluded": true
+      },
+      {
+        "target": "linux-x64",
+        "bytes": 724024473,
+        "sha256": "40c31a69789f98f9625885a8ad23c270cef0687695a1e78f9584f2f545a4c599",
+        "runtimeFiles": 1091,
+        "sourceBytesMatch": true,
+        "metadata": true,
+        "privateFilesExcluded": true
+      }
+    ]
+  },
+  "localExtractedPackage": {
+    "target": "macos-arm64",
+    "startupAssetsOfflineHelpRelaunchProtectedQuit": "passed",
+    "signature": "ad hoc codesign verification passed",
+    "bundleVersion": "0.3.0"
+  },
+  "officialMetadata": {
+    "checkedAt": "2026-11-20T00:03:42.250Z",
+    "url": "https://raw.githubusercontent.com/Null-Signal-Games/netrunner-cards-json/main/pack/vp.json",
+    "pinnedCommit": "3679461eba7f076a873f4a24ef55d9ae0828af10",
+    "cards": 66,
+    "sha256": "a6e16988abe6808666b0960a32bafa06fdeefd727f7dcccf3b628e8878593de0",
+    "printedFieldDifferences": []
+  },
+  "nativeCI": {
+    "id": 44645232919,
+    "url": "https://github.com/nicanadian/nzg-netrunner/actions/runs/44645232919",
+    "status": "completed",
+    "conclusion": "success",
+    "sourceCommit": "29655f4f589e75f39f3d9388ed9f3640923d1b8f",
+    "jobs": [
+      {
+        "name": "native-smoke (macos-15, macos-arm64)",
+        "conclusion": "success",
+        "url": "https://github.com/nicanadian/nzg-netrunner/actions/runs/44645232919/job/135986001070"
+      },
+      {
+        "name": "native-smoke (ubuntu-22.04, linux-x64)",
+        "conclusion": "success",
+        "url": "https://github.com/nicanadian/nzg-netrunner/actions/runs/44645232919/job/135986001431"
+      },
+      {
+        "name": "native-smoke (macos-15-intel, macos-x64)",
+        "conclusion": "success",
+        "url": "https://github.com/nicanadian/nzg-netrunner/actions/runs/44645232919/job/135986001474"
+      },
+      {
+        "name": "native-smoke (windows-2022, windows-x64)",
+        "conclusion": "success",
+        "url": "https://github.com/nicanadian/nzg-netrunner/actions/runs/44645232919/job/135986001552"
+      }
+    ]
+  },
+  "draft": {
+    "url": "https://github.com/nicanadian/nzg-netrunner/releases/tag/untagged-9dc526ec9c50e497d079",
+    "published": false,
+    "uploadedPackagesVerified": true
+  },
+  "packages": [
+    {
+      "build": "0.3.0",
+      "target": "windows-x64",
+      "node": "v26.13.0",
+      "sourceCommit": "29655f4f589e75f39f3d9388ed9f3640923d1b8f",
+      "dirty": false,
+      "runtimeArchiveSha256": "dcc60d59a0746999f99064a01c020445d54d84228c691cdbf25b49ac3b59150a",
+      "file": "nzg-netrunner-0.3.0-windows-x64.zip",
+      "bytes": 715649426,
+      "sha256": "eebf8fececa429a58ed456e8d302d5885e7b5ff142f94663ecee3f33e8f2f1c0"
+    },
+    {
+      "build": "0.3.0",
+      "target": "macos-arm64",
+      "node": "v26.13.0",
+      "sourceCommit": "29655f4f589e75f39f3d9388ed9f3640923d1b8f",
+      "dirty": false,
+      "runtimeArchiveSha256": "d38bd5e5a2ddce6bbb5ce45e46e208337da4d51fffe611e567fd32073d6439f6",
+      "file": "nzg-netrunner-0.3.0-macos-arm64.zip",
+      "bytes": 721790905,
+      "sha256": "09bef450fd01ffb46e1d1bda2cd2abaed91e319d444106c1385dcbbd7c69a59d"
+    },
+    {
+      "build": "0.3.0",
+      "target": "macos-x64",
+      "node": "v26.13.0",
+      "sourceCommit": "29655f4f589e75f39f3d9388ed9f3640923d1b8f",
+      "dirty": false,
+      "runtimeArchiveSha256": "525c9b29bb0263d687de60a4cec0e2a6db876a8eb032369e5795eca71e7c358e",
+      "file": "nzg-netrunner-0.3.0-macos-x64.zip",
+      "bytes": 723272484,
+      "sha256": "0a9dfcd3e5450d0563296382cdc706958c1f0cd9f16bc81b75c94fe7a41e5acf"
+    },
+    {
+      "build": "0.3.0",
+      "target": "linux-x64",
+      "node": "v26.13.0",
+      "sourceCommit": "29655f4f589e75f39f3d9388ed9f3640923d1b8f",
+      "dirty": false,
+      "runtimeArchiveSha256": "d28a96af6c38596f6d9d97c0ee531c13d238d757742387d1928de822d959e997",
+      "file": "nzg-netrunner-0.3.0-linux-x64.zip",
+      "bytes": 724024473,
+      "sha256": "40c31a69789f98f9625885a8ad23c270cef0687695a1e78f9584f2f545a4c599"
+    }
+  ],
+  "limitations": [
+    "Unsigned alpha packages; Mac apps have ad hoc signatures and are not notarized.",
+    "Elevation and Vantage are experimental previews; full cross-card/UI/strategic AI certification remains open.",
+    "Recorded browser sessions were replayed; this qualification did not recruit a new browser playtest cohort.",
+    "Native launcher checks test assets/help/relaunch/shutdown, not complete manual games on every operating system."
+  ],
+  "published": false
+}
