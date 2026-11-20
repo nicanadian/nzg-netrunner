@@ -37,3 +37,9 @@
 .optional-rez-exit button { white-space: normal; }
 .core-preview-notice { margin: 14px 0; padding: 10px 12px; border: 1px solid #668d8b; border-radius: 6px; color: #d0dfda; font-size: 13px; line-height: 1.45; }
 .private-look-cards{display:flex;gap:10px;overflow:auto;padding:6px 0 14px}.private-look>p{color:var(--muted,#a8bcc6);font-size:.85rem}.private-look-cards .card{flex-shrink:0}
+.compact-tool { padding: 6px 10px; }
+.compact-tool .tool-card { width: 100%; }
+
+.funding-quote{font-size:.82rem;color:var(--muted);margin:.35rem 0 .65rem}.manual-funding{font-size:.82rem}.manual-funding button{margin-top:.5rem}
+
+.receipt-details summary{cursor:pointer;list-style-position:outside}.receipt-details summary strong{display:inline}.receipt-details[open] summary{margin-bottom:.5rem}

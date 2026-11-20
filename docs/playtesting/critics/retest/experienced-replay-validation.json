@@ -1,0 +1,19 @@
+{
+  "role": "experienced",
+  "choices": 147,
+  "version": 802,
+  "terminal": {
+    "winner": "runner",
+    "reason": "Runner reached 7 agenda points."
+  },
+  "diagnostics": [],
+  "errors": [],
+  "verified": true,
+  "postgameAudit": {
+    "turnsWithAgendaInCorpHandAtRecordedDecision": [
+      1,
+      2
+    ],
+    "note": "Postgame offline aggregate only; reviewers did not inspect hidden cards while playing. Does not establish legal install or scoring opportunities."
+  }
+}

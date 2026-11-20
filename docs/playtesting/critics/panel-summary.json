@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-16",
+  "reviewType": "Three independent AI tester perspectives; not recruited human testers.",
+  "scope": "Current local development UI, two Gateway games and one Vantage pilot game. No gameplay/UI implementation was changed during the reviews.",
+  "ratings": [
+    {
+      "perspective": "New-player-oriented Runner",
+      "score": 7.2,
+      "review": "runner-review.json",
+      "outcome": "Corp won 8–0",
+      "choices": 109
+    },
+    {
+      "perspective": "Corporation game tester",
+      "score": 7.5,
+      "review": "corp-review.json",
+      "outcome": "Runner won 8–5",
+      "choices": 69
+    },
+    {
+      "perspective": "Experienced card-game critic / Vantage",
+      "score": 6.5,
+      "review": "experienced-review.json",
+      "outcome": "Intentional UI concession at turn 28; Runner 3–Corp 2 before concession",
+      "choices": 304
+    }
+  ],
+  "interpretation": "Roughly 7/10: functional, atmospheric and engaging once understood; not yet a polished self-teaching experience. The scores are subjective, evaluate different perspectives, and are not statistical estimates.",
+  "sharedStrengths": [
+    "Coherent Corp/Runner presentation and palette.",
+    "Working full-card inspection and faction-relative influence explanations.",
+    "Explicit ice rez warning, authoritative action costs, and scoring readiness.",
+    "No browser errors or engine diagnostics reported during these sessions."
+  ],
+  "priorities": [
+    {
+      "priority": 1,
+      "issue": "Sticky lobby action bar overlays deck selectors at 1280×800, scroll zero.",
+      "action": "Reserve space for actions or place them below setup; increase legibility of deck guidance.",
+      "evidence": "Experienced reviewer screenshot and bounding boxes; parent visually confirmed and checked CSS."
+    },
+    {
+      "priority": 2,
+      "issue": "Interaction-test pilots can lack essential tools and appear alongside play decks.",
+      "action": "Provide curated play decks, separate benchmark pilots, and show breaker/synergy health hints.",
+      "evidence": "Vic full Vantage list contains no decoder or Stealth subtype cards; parent verified source."
+    },
+    {
+      "priority": 3,
+      "issue": "Ambiguous choices: Continue declines optional effects; facedown HQ root and hand cards are poorly distinguished.",
+      "action": "Name the effect being declined, use verb/effect labels for triggers, and expose legal access-zone distinctions without revealing hidden identities."
+    },
+    {
+      "priority": 4,
+      "issue": "Install lists multiply cards by destinations, repeat copies, and repeated breaks require extra UI work.",
+      "action": "Choose card first, then destination; group equivalent copies; allow explicit-cost multi-subroutine selection."
+    },
+    {
+      "priority": 5,
+      "issue": "Unavailable breaker prices, playback handoffs and stale postgame controls add noise.",
+      "action": "Condense unavailable tools, distinguish narration from actionable decisions, and replace stale receipts with a useful end-of-game recap."
+    }
+  ],
+  "validation": "replay-validation.json",
+  "limitations": [
+    "One game per reviewer; bounded DOM-click assistance used for routine actions; not human novice observation or competitive balance testing.",
+    "Two natural Gateway finishes; Vantage ended with a deliberate concession, not a natural win.",
+    "Desktop visual evidence available; Corp visual score provisional due screenshot timeout. No broad mobile or accessibility certification."
+  ]
+}

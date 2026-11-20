@@ -34,7 +34,7 @@ function frontend(){
  const source=fs.readFileSync('app/table.js','utf8'),elements=new Map();
  const $=s=>{if(!elements.has(s))elements.set(s,{innerHTML:'',textContent:'',value:'',hidden:true,classList:{remove(){}},showModal(){this.open=true;}});return elements.get(s);};
  const documents=require('../engine/deck-document.js');
- const context=vm.createContext({NRDeckDocument:documents,deckBuilder:{list:()=>decks.catalog,resolve:id=>decks.catalog.find(d=>d.id===id),document:d=>documents.normalize({...d,pool:'gateway-v1'})},DECKS:decks,DATA:data,$,esc:s=>String(s),selectedDeckIds:{...decks.defaults},role:'runner',session:null,closeDialogs(){},opponentCurrent:null,ENGINE:'chiriboga-77c80b1-local-1'});
+ const context=vm.createContext({URLSearchParams,activePool:'gateway-v1',NRDeckDocument:documents,deckBuilder:{list:()=>decks.catalog,resolve:id=>decks.catalog.find(d=>d.id===id),document:d=>documents.normalize({...d,pool:'gateway-v1'})},DECKS:decks,DATA:data,$,esc:s=>String(s),selectedDeckIds:{...decks.defaults},role:'runner',session:null,closeDialogs(){},opponentCurrent:null,ENGINE:'chiriboga-77c80b1-local-1'});
  vm.runInContext(source.slice(source.indexOf('function resolveDecks('),source.indexOf('const SAVE =')),context);
  vm.runInContext(source.slice(source.indexOf('function deckStats('),source.indexOf('document.addEventListener("click",')),context);
  vm.runInContext(source.slice(source.indexOf('function validateReplay('),source.indexOf('function rememberActionFocus(')),context);

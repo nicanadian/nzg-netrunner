@@ -1,0 +1,501 @@
+{
+  "id": "netrunner-matchup-heatmap",
+  "title": "Runner win rate by exact deck pairing",
+  "description": "Rows are Runner decks; columns are Corp decks. 50% means equal observed wins. This is fixed-policy AI evidence, not human balance.",
+  "height": 436,
+  "spec": {
+    "type": "heatmap",
+    "x": "Corp deck",
+    "y": "Runner deck",
+    "value": "Runner win rate",
+    "xLabel": "Corp deck",
+    "yLabel": "Runner deck",
+    "xOrder": [
+      "HB · base",
+      "Jinteki · base",
+      "NBN · base",
+      "Weyland · base",
+      "Jinteki · Planogram",
+      "HB · big agendas",
+      "NBN · tag/score",
+      "Weyland · heavy ice"
+    ],
+    "yOrder": [
+      "Loup · base",
+      "Zahya · base",
+      "Tāo · base",
+      "Tāo · burst",
+      "Tāo · Mayflies",
+      "Loup · burst",
+      "Zahya · Mayflies"
+    ],
+    "colorDomain": [
+      0,
+      1
+    ],
+    "showValues": true,
+    "missingValues": "gap",
+    "valueFormat": {
+      "style": "percent",
+      "maximumFractionDigits": 0
+    }
+  },
+  "columns": [
+    "Corp deck",
+    "Runner deck",
+    "Runner win rate",
+    "Completed games",
+    "Runner wins",
+    "Corp wins"
+  ],
+  "rows": [
+    [
+      "HB · base",
+      "Loup · base",
+      0.3333333333333333,
+      6,
+      2,
+      4
+    ],
+    [
+      "Jinteki · base",
+      "Loup · base",
+      0.6666666666666666,
+      6,
+      4,
+      2
+    ],
+    [
+      "NBN · base",
+      "Loup · base",
+      0.6666666666666666,
+      6,
+      4,
+      2
+    ],
+    [
+      "Weyland · base",
+      "Loup · base",
+      0.5,
+      6,
+      3,
+      3
+    ],
+    [
+      "Jinteki · Planogram",
+      "Loup · base",
+      0.8333333333333334,
+      6,
+      5,
+      1
+    ],
+    [
+      "HB · big agendas",
+      "Loup · base",
+      0.8333333333333334,
+      6,
+      5,
+      1
+    ],
+    [
+      "NBN · tag/score",
+      "Loup · base",
+      0.6666666666666666,
+      6,
+      4,
+      2
+    ],
+    [
+      "Weyland · heavy ice",
+      "Loup · base",
+      0.16666666666666666,
+      6,
+      1,
+      5
+    ],
+    [
+      "HB · base",
+      "Zahya · base",
+      0.6666666666666666,
+      6,
+      4,
+      2
+    ],
+    [
+      "Jinteki · base",
+      "Zahya · base",
+      0.5,
+      6,
+      3,
+      3
+    ],
+    [
+      "NBN · base",
+      "Zahya · base",
+      0.5,
+      6,
+      3,
+      3
+    ],
+    [
+      "Weyland · base",
+      "Zahya · base",
+      0.5,
+      6,
+      3,
+      3
+    ],
+    [
+      "Jinteki · Planogram",
+      "Zahya · base",
+      0.8333333333333334,
+      6,
+      5,
+      1
+    ],
+    [
+      "HB · big agendas",
+      "Zahya · base",
+      0.8333333333333334,
+      6,
+      5,
+      1
+    ],
+    [
+      "NBN · tag/score",
+      "Zahya · base",
+      0.6666666666666666,
+      6,
+      4,
+      2
+    ],
+    [
+      "Weyland · heavy ice",
+      "Zahya · base",
+      0.8333333333333334,
+      6,
+      5,
+      1
+    ],
+    [
+      "HB · base",
+      "Tāo · base",
+      0.3333333333333333,
+      6,
+      2,
+      4
+    ],
+    [
+      "Jinteki · base",
+      "Tāo · base",
+      1,
+      6,
+      6,
+      0
+    ],
+    [
+      "NBN · base",
+      "Tāo · base",
+      0.5,
+      6,
+      3,
+      3
+    ],
+    [
+      "Weyland · base",
+      "Tāo · base",
+      1,
+      6,
+      6,
+      0
+    ],
+    [
+      "Jinteki · Planogram",
+      "Tāo · base",
+      1,
+      6,
+      6,
+      0
+    ],
+    [
+      "HB · big agendas",
+      "Tāo · base",
+      0.5,
+      6,
+      3,
+      3
+    ],
+    [
+      "NBN · tag/score",
+      "Tāo · base",
+      0.3333333333333333,
+      6,
+      2,
+      4
+    ],
+    [
+      "Weyland · heavy ice",
+      "Tāo · base",
+      0.5,
+      6,
+      3,
+      3
+    ],
+    [
+      "HB · base",
+      "Tāo · burst",
+      0.16666666666666666,
+      6,
+      1,
+      5
+    ],
+    [
+      "Jinteki · base",
+      "Tāo · burst",
+      0.5,
+      6,
+      3,
+      3
+    ],
+    [
+      "NBN · base",
+      "Tāo · burst",
+      0.3333333333333333,
+      6,
+      2,
+      4
+    ],
+    [
+      "Weyland · base",
+      "Tāo · burst",
+      0.5,
+      6,
+      3,
+      3
+    ],
+    [
+      "Jinteki · Planogram",
+      "Tāo · burst",
+      0.8333333333333334,
+      6,
+      5,
+      1
+    ],
+    [
+      "HB · big agendas",
+      "Tāo · burst",
+      0.6666666666666666,
+      6,
+      4,
+      2
+    ],
+    [
+      "NBN · tag/score",
+      "Tāo · burst",
+      0.5,
+      6,
+      3,
+      3
+    ],
+    [
+      "Weyland · heavy ice",
+      "Tāo · burst",
+      0.6666666666666666,
+      6,
+      4,
+      2
+    ],
+    [
+      "HB · base",
+      "Tāo · Mayflies",
+      0.3333333333333333,
+      6,
+      2,
+      4
+    ],
+    [
+      "Jinteki · base",
+      "Tāo · Mayflies",
+      0.5,
+      6,
+      3,
+      3
+    ],
+    [
+      "NBN · base",
+      "Tāo · Mayflies",
+      0.3333333333333333,
+      6,
+      2,
+      4
+    ],
+    [
+      "Weyland · base",
+      "Tāo · Mayflies",
+      0.8333333333333334,
+      6,
+      5,
+      1
+    ],
+    [
+      "Jinteki · Planogram",
+      "Tāo · Mayflies",
+      0.6666666666666666,
+      6,
+      4,
+      2
+    ],
+    [
+      "HB · big agendas",
+      "Tāo · Mayflies",
+      0.5,
+      6,
+      3,
+      3
+    ],
+    [
+      "NBN · tag/score",
+      "Tāo · Mayflies",
+      0.8333333333333334,
+      6,
+      5,
+      1
+    ],
+    [
+      "Weyland · heavy ice",
+      "Tāo · Mayflies",
+      0.8333333333333334,
+      6,
+      5,
+      1
+    ],
+    [
+      "HB · base",
+      "Loup · burst",
+      0.6666666666666666,
+      6,
+      4,
+      2
+    ],
+    [
+      "Jinteki · base",
+      "Loup · burst",
+      1,
+      6,
+      6,
+      0
+    ],
+    [
+      "NBN · base",
+      "Loup · burst",
+      0.5,
+      6,
+      3,
+      3
+    ],
+    [
+      "Weyland · base",
+      "Loup · burst",
+      0.3333333333333333,
+      6,
+      2,
+      4
+    ],
+    [
+      "Jinteki · Planogram",
+      "Loup · burst",
+      0.8333333333333334,
+      6,
+      5,
+      1
+    ],
+    [
+      "HB · big agendas",
+      "Loup · burst",
+      0.3333333333333333,
+      6,
+      2,
+      4
+    ],
+    [
+      "NBN · tag/score",
+      "Loup · burst",
+      1,
+      6,
+      6,
+      0
+    ],
+    [
+      "Weyland · heavy ice",
+      "Loup · burst",
+      0.6666666666666666,
+      6,
+      4,
+      2
+    ],
+    [
+      "HB · base",
+      "Zahya · Mayflies",
+      0.5,
+      6,
+      3,
+      3
+    ],
+    [
+      "Jinteki · base",
+      "Zahya · Mayflies",
+      0.5,
+      6,
+      3,
+      3
+    ],
+    [
+      "NBN · base",
+      "Zahya · Mayflies",
+      0.6666666666666666,
+      6,
+      4,
+      2
+    ],
+    [
+      "Weyland · base",
+      "Zahya · Mayflies",
+      0.3333333333333333,
+      6,
+      2,
+      4
+    ],
+    [
+      "Jinteki · Planogram",
+      "Zahya · Mayflies",
+      0.6666666666666666,
+      6,
+      4,
+      2
+    ],
+    [
+      "HB · big agendas",
+      "Zahya · Mayflies",
+      0.3333333333333333,
+      6,
+      2,
+      4
+    ],
+    [
+      "NBN · tag/score",
+      "Zahya · Mayflies",
+      0.3333333333333333,
+      6,
+      2,
+      4
+    ],
+    [
+      "Weyland · heavy ice",
+      "Zahya · Mayflies",
+      1,
+      6,
+      6,
+      0
+    ]
+  ]
+}

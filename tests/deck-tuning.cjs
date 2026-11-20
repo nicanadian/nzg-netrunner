@@ -58,14 +58,14 @@ class Dialog {
  await dialog.click({'data-add':'30020'});assert.match(dialog.innerHTML,/Ready to play/);assert.match(dialog.innerHTML,/\+1 Creative Commission/);
  await dialog.click({'data-save-use':''});assert(!dialog.open,'Save & use returns directly to setup');assert(selected.local);assert.equal(selected.name,'My first Loup');assert.equal(selectedDeckIds.runner,selected.id);assert.equal(docs.validate(selected.document).valid,true);assert.equal(selected.document.cards.find(c=>c.id==='30030').count,2);assert.equal(selected.document.cards.find(c=>c.id==='30020').count,1);
  const firstID=selected.id;
- const saved=JSON.parse(storage.get('netrunner-deck-library-v1'));assert.equal(saved.length,1);assert.equal(saved[0].id,firstID);assert.equal(storage.has('netrunner-deck-draft-v1'),false);
+ const saved=JSON.parse(storage.get('netrunner-deck-library-v1'));assert.equal(saved.length,1);assert.equal(saved[0].id,firstID);assert.equal(saved[0].baseline.id,'loup-v1');assert.equal(saved[0].baseline.deck.cards.find(c=>c.id==='30030').count,3);assert.equal(storage.has('netrunner-deck-draft-v1'),false);
  assert.equal(decks.catalog.find(d=>d.id==='loup-v1').cards.find(([id])=>id===30030)[1],3,'Tuning does not alter ready-made decks');
  // Use the actual lobby's start handler: the selected list must reach the game config.
  const source=fs.readFileSync('app/table.js','utf8'),nodes=new Map();let config;
- const context=vm.createContext({$:id=>{if(!nodes.has(id))nodes.set(id,{});return nodes.get(id);},role:'runner',crypto,localStorage,DATA:require('../assets/card-data.json'),esc:String,NRDeckDocument:docs,NR_CORE_PREVIEW:false,selectedDeckIds,deckBuilder:builder,resolveDecks:ids=>Object.fromEntries(['runner','corp'].map(side=>[side,builder.resolve(ids[side])])),start:value=>config=value});
+ const context=vm.createContext({activePool:'gateway-v1',URLSearchParams,$:id=>{if(!nodes.has(id))nodes.set(id,{});return nodes.get(id);},role:'runner',crypto,localStorage,DATA:require('../assets/card-data.json'),esc:String,NRDeckDocument:docs,NR_CORE_PREVIEW:false,selectedDeckIds,deckBuilder:builder,resolveDecks:ids=>Object.fromEntries(['runner','corp'].map(side=>[side,builder.resolve(ids[side])])),start:value=>config=value});
  vm.runInContext(source.slice(source.indexOf('$("#start-button").onclick ='),source.indexOf("$('#build-deck-button').onclick")),context);nodes.get('#start-button').onclick();
  assert.deepEqual(JSON.parse(JSON.stringify(config.deckDocuments.runner)),selected.document,'Starting uses the tuned list rather than its baseline');assert.equal(config.side,'runner');assert.equal(config.deckIds,undefined);
- builder.tune(firstID);dialog.input('builder-name','Loup revised');await dialog.click({'data-save-use':''});assert.equal(selected.id,firstID);assert.equal(JSON.parse(storage.get('netrunner-deck-library-v1')).length,1,'Editing a saved deck does not create duplicates');
+ builder.tune(firstID);assert.match(dialog.innerHTML,/Based on Trash &amp; viruses/);assert.match(dialog.innerHTML,/Compared with baseline: -1 Sure Gamble · \+1 Creative Commission/);dialog.input('builder-name','Loup revised');await dialog.click({'data-save-use':''});assert.equal(selected.id,firstID);assert.equal(JSON.parse(storage.get('netrunner-deck-library-v1')).length,1,'Editing a saved deck does not create duplicates');
  builder.tune('built-to-last-v2');await dialog.click({'data-save-use':''});assert.equal(selected.side,'corp');assert.equal(selectedDeckIds.corp,selected.id,'Tuning the AI deck selects the correct side');assert.equal(selectedDeckIds.runner,firstID);
  vm.runInContext(source.slice(source.indexOf('function deckStats('),source.indexOf('\nfunction viewDecks()')),context);refresh=()=>context.renderCharacterPicker();
  builder.tune(firstID);await dialog.click({'data-remove':'30030'});await dialog.click({'data-save':''});assert.match(dialog.innerHTML,/Saved to My decks/);assert.equal(selectedDeckIds.runner,'loup-v1','Saving an invalid edit replaces its lobby selection with a playable deck');assert(refreshCount>0);assert.equal(JSON.parse(storage.get('netrunner-lobby-decks-gateway-v1')).runner,'loup-v1','Persisted selection stays playable');
@@ -73,5 +73,19 @@ class Dialog {
  const savedBeforeSwitch=JSON.parse(storage.get('netrunner-deck-library-v1'));
  builder.tune(firstID);dialog.events.change({target:{id:'builder-identity',value:'30019'}});await dialog.click({'data-character-starter':''});assert.deepEqual(JSON.parse(storage.get('netrunner-deck-library-v1')),savedBeforeSwitch,'Loading another character’s starter never overwrites a saved custom deck');
  await dialog.click({'data-new':''});dialog.events.change({target:{id:'builder-identity',value:'30019'}});assert.equal(JSON.parse(storage.get('netrunner-deck-draft-v1')).draft.cards.length,0,'Choosing an identity for a new empty deck does not inject a starter list');
- console.log('PASS reported 48/15 character-switch regression, starter/keep/cancel choices, side-safe decks, copy-limit guard, identity-aware influence/filters, live faction changes, thumbnails/full-resolution preview, direct tune, guided swaps, invalid-use guard, save-and-use selection, actual game-start snapshot, saved edits, AI-side selection and persistent drafts.');
+ // Reproduce the browser failure: an Elevation draft in the old shared slot
+ // must never be offered or playable through Gateway's Resume draft action.
+ const legacy={draft:docs.normalize({...decks.catalog[0],name:'Legacy Elevation draft',pool:'core-v1'}),editing:null};
+ storage.set('netrunner-deck-draft-v1',JSON.stringify(legacy));
+ const gateway=mountDeckBuilder({pool:'gateway-v1',bundled:decks.catalog});const gatewayDialog=dialogs.at(-2);
+ gateway.open();assert(!gatewayDialog.innerHTML.includes('data-draft>'),'Gateway hides a legacy Elevation draft');
+ assert.deepEqual(JSON.parse(storage.get('netrunner-deck-draft-core-v1')),legacy,'Gateway preserves the legacy Core draft before its first edit');
+ await gatewayDialog.click({'data-draft':''});assert.match(gatewayDialog.querySelector('[role=status]').textContent,/No draft/);
+ const core=mountDeckBuilder({pool:'core-v1',bundled:require('../engine/core-decks.js').catalog});const coreDialog=dialogs.at(-2);
+ core.open();assert(coreDialog.innerHTML.includes('data-draft>'));await coreDialog.click({'data-draft':''});
+ assert.match(coreDialog.innerHTML,/Legacy Elevation draft/);assert.deepEqual(JSON.parse(storage.get('netrunner-deck-draft-core-v1')),legacy,'Matching legacy draft migrates without losing edits');
+ await gatewayDialog.click({'data-new':''});gatewayDialog.input('builder-name','Independent Gateway draft');
+ assert.equal(JSON.parse(storage.get('netrunner-deck-draft-v1')).draft.name,'Independent Gateway draft');
+ assert.deepEqual(JSON.parse(storage.get('netrunner-deck-draft-core-v1')),legacy,'Editing Gateway does not replace the Core draft');
+ console.log('PASS reported 48/15 character-switch regression, starter/keep/cancel choices, side-safe decks, copy-limit guard, identity-aware influence/filters, live faction changes, thumbnails/full-resolution preview, direct tune, guided swaps, invalid-use guard, save-and-use selection, actual game-start snapshot, saved edits, AI-side selection and isolated pool drafts with legacy migration.');
 })().catch(error=>{console.error(error);process.exitCode=1;});

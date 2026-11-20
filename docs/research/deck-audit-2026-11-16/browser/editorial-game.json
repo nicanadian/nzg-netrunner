@@ -1,0 +1,5867 @@
+{
+  "final": {
+    "diagnostics": [],
+    "points": {"corp":0,"runner":8},
+    "terminal": {
+      "reason": "Runner reached 8 agenda points.",
+      "winner": "runner"
+    },
+    "turn": 30,
+    "version": 1144
+  },
+  "history": [
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 22
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 22
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 22
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 23
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 23
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained one credit",
+      "turn": 23
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 23
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained one credit",
+      "turn": 23
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 23
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained one credit",
+      "turn": 23
+    },
+    {
+      "side": "corp",
+      "text": "Corp discarded \"hidden card\"",
+      "turn": 23
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking Archives",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained 2 credits from bad publicity",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting Archives",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Grubber protecting Archives at position 0",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Using Cleaver:",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 2 credits from bad publicity",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Cleaver gets +1 strength",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Using Cleaver:",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 2 credits from credit pool",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Cleaver gets +1 strength",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Using Cleaver:",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 1 credit from credit pool",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Subroutine \"End the run unless the Runner pays 3credit.\" broken",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Subroutine \"End the run unless the Runner pays 3credit.\" broken",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Using Cleaver:",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 2 credits from credit pool",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Cleaver gets +1 strength",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Cleaver's strength boost expires outside an encounter",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Using Cleaver:",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 2 credits from credit pool",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Cleaver gets +1 strength",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Cleaver's strength boost expires outside an encounter",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Approaching Archives",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Offworld Office accessed",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Offworld Office stolen",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Hedge Fund accessed",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Magistrate Revontulet accessed",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Nihilo Agent accessed",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Spin Doctor accessed",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Spin Doctor accessed",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Magistrate Revontulet accessed",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Predictive Planogram accessed",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Nico Campaign accessed",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Hedge Fund accessed",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 24
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained one credit",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained one credit",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained one credit",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Corp discarded \"hidden card\"",
+      "turn": 25
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking Archives",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained 2 credits from bad publicity",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting Archives",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Grubber protecting Archives at position 0",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Using Cleaver:",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 2 credits from bad publicity",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Cleaver gets +1 strength",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Using Cleaver:",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 2 credits from credit pool",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Cleaver gets +1 strength",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Using Cleaver:",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 1 credit from credit pool",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Subroutine \"End the run unless the Runner pays 3credit.\" broken",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Subroutine \"End the run unless the Runner pays 3credit.\" broken",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Using Cleaver:",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 2 credits from credit pool",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Cleaver gets +1 strength",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Cleaver's strength boost expires outside an encounter",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Approaching Archives",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Offworld Office accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Offworld Office stolen",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Hedge Fund accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Magistrate Revontulet accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Nihilo Agent accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Spin Doctor accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Spin Doctor accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Magistrate Revontulet accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Predictive Planogram accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Nico Campaign accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Hedge Fund accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 26
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 27
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 27
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained one credit",
+      "turn": 27
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 27
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained one credit",
+      "turn": 27
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 27
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained one credit",
+      "turn": 27
+    },
+    {
+      "side": "corp",
+      "text": "Corp discarded \"hidden card\"",
+      "turn": 27
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 28
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 28
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 28
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 28
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 28
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 28
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 28
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 28
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 29
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 29
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained one credit",
+      "turn": 29
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 29
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained one credit",
+      "turn": 29
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 29
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained one credit",
+      "turn": 29
+    },
+    {
+      "side": "corp",
+      "text": "Corp discarded \"hidden card\"",
+      "turn": 29
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking Archives",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained 2 credits from bad publicity",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting Archives",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Grubber protecting Archives at position 0",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Using Cleaver:",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 2 credits from bad publicity",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Cleaver gets +1 strength",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Using Cleaver:",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 2 credits from credit pool",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Cleaver gets +1 strength",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Using Cleaver:",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 1 credit from credit pool",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Subroutine \"End the run unless the Runner pays 3credit.\" broken",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Subroutine \"End the run unless the Runner pays 3credit.\" broken",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Using Cleaver:",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 2 credits from credit pool",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Cleaver gets +1 strength",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Cleaver's strength boost expires outside an encounter",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Approaching Archives",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Neurospike accessed",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Witch Hunt accessed",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Witch Hunt stolen",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Runner reached 8 agenda points.",
+      "turn": 30
+    }
+  ],
+  "lobby": {
+    "groups": [
+      {
+        "name": "Recommended play decks",
+        "values": [
+          "weyland-vantage-tools-v2",
+          "jinteki-vantage-pilot-v1",
+          "hb-vantage-tempo-v1",
+          "melies-play-v1",
+          "editorial-play-v2"
+        ]
+      },
+      {
+        "name": "Interaction test pilots · incomplete synergies",
+        "values": [
+          "weyland-vantage-pilot-v1",
+          "weyland-vantage-tools-v1",
+          "hb-vantage-reallocation-v1",
+          "hb-full-vp-v1",
+          "melies-full-vp-v1",
+          "editorial-full-vp-v1",
+          "weyland-full-vp-v1",
+          "editorial-play-v1"
+        ]
+      }
+    ],
+    "text": "Editorial Division: Ad Nihilum\nEditorial · funded defenses\n\nCampaigns, Planogram and Hansei Review fund Palisade-protected scoring. Nihilo provides tags and bad publicity, not income; manage that tradeoff as you build.\n\nRecommended for play\n\n45 cards · 15 / 15 influence\n\nRead identity ability →"
+  },
+  "session": {
+    "choices": [
+      {
+        "command": "n",
+        "index": 0,
+        "version": 2
+      },
+      {
+        "command": "install",
+        "index": 0,
+        "version": 32
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 34
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 35
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 36
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 38
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 40
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 47
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 48
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 52
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 55
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 62
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 63
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 67
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 70
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 77
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 78
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 121
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 124
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 131
+      },
+      {
+        "command": "steal",
+        "index": 0,
+        "version": 132
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 139
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 142
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 149
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 150
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 154
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 157
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 164
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 165
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 169
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 172
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 179
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 180
+      },
+      {
+        "command": "run",
+        "index": 2,
+        "version": 221
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 224
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 231
+      },
+      {
+        "command": "run",
+        "index": 2,
+        "version": 236
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 239
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 246
+      },
+      {
+        "command": "run",
+        "index": 2,
+        "version": 251
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 254
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 261
+      },
+      {
+        "command": "run",
+        "index": 2,
+        "version": 266
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 269
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 276
+      },
+      {
+        "command": "run",
+        "index": 2,
+        "version": 319
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 322
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 329
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 331
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 333
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 335
+      },
+      {
+        "command": "run",
+        "index": 2,
+        "version": 340
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 343
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 350
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 352
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 354
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 356
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 361
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 363
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 364
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 368
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 373
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 378
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 381
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 384
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 387
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 393
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 396
+      },
+      {
+        "command": "run",
+        "index": 2,
+        "version": 400
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 401
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 403
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 405
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 412
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 414
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 416
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 418
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 420
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 425
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 427
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 428
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 429
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 430
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 434
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 439
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 444
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 448
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 451
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 454
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 459
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 462
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 466
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 467
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 468
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 469
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 470
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 471
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 472
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 473
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 475
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 488
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 490
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 492
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 494
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 495
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 496
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 497
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 504
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 511
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 512
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 552
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 553
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 554
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 555
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 556
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 557
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 558
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 559
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 563
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 568
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 573
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 576
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 579
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 582
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 588
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 591
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 595
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 596
+      },
+      {
+        "command": "run",
+        "index": 2,
+        "version": 597
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 598
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 600
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 613
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 615
+      },
+      {
+        "command": "pay",
+        "index": 2,
+        "version": 617
+      },
+      {
+        "command": "pay",
+        "index": 0,
+        "version": 618
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 619
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 621
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 622
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 623
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 624
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 631
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 633
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 640
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 642
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 644
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 646
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 648
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 650
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 655
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 657
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 658
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 662
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 667
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 672
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 675
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 678
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 681
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 688
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 691
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 695
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 696
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 697
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 698
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 699
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 700
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 701
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 702
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 706
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 711
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 716
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 719
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 722
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 725
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 731
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 734
+      },
+      {
+        "command": "run",
+        "index": 2,
+        "version": 738
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 739
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 741
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 743
+      },
+      {
+        "command": "pay",
+        "index": 3,
+        "version": 745
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 746
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 748
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 749
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 750
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 751
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 758
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 760
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 767
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 769
+      },
+      {
+        "command": "steal",
+        "index": 0,
+        "version": 770
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 774
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 776
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 778
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 780
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 782
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 784
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 786
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 791
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 792
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 793
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 794
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 795
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 796
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 800
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 805
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 810
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 814
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 817
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 820
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 825
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 828
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 832
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 833
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 834
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 835
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 836
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 837
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 838
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 839
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 843
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 848
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 853
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 856
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 859
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 862
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 868
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 871
+      },
+      {
+        "command": "run",
+        "index": 2,
+        "version": 875
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 876
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 878
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 880
+      },
+      {
+        "command": "pay",
+        "index": 3,
+        "version": 882
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 883
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 885
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 886
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 887
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 888
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 895
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 897
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 899
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 906
+      },
+      {
+        "command": "steal",
+        "index": 0,
+        "version": 907
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 911
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 913
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 915
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 917
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 919
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 921
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 923
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 925
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 927
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 932
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 933
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 934
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 935
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 936
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 937
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 941
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 946
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 951
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 954
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 957
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 960
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 966
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 969
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 973
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 974
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 975
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 976
+      },
+      {
+        "command": "run",
+        "index": 2,
+        "version": 977
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 978
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 980
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 982
+      },
+      {
+        "command": "pay",
+        "index": 3,
+        "version": 984
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 985
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 987
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 988
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 989
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 990
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 997
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 999
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 1006
+      },
+      {
+        "command": "steal",
+        "index": 0,
+        "version": 1007
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 1011
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 1013
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 1015
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 1017
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 1019
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 1021
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 1023
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 1025
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 1027
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 1032
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1033
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1037
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1042
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1047
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1050
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1053
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1056
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1062
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1065
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 1069
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1070
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 1071
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1072
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 1073
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1074
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 1075
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1076
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1080
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1085
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1090
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1093
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1096
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1099
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1105
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1108
+      },
+      {
+        "command": "run",
+        "index": 2,
+        "version": 1112
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1113
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1115
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 1117
+      },
+      {
+        "command": "pay",
+        "index": 3,
+        "version": 1119
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 1120
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 1122
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 1123
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 1124
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1125
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 1132
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1134
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 1141
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 1143
+      },
+      {
+        "command": "steal",
+        "index": 0,
+        "version": 1144
+      }
+    ],
+    "conceded": false,
+    "config": {
+      "aiPolicy": "pressure-v1",
+      "cardPool": "vantage-preview-v1",
+      "deckDocuments": {
+        "corp": {
+          "cards": [
+            {
+              "count": 1,
+              "id": "30049"
+            },
+            {
+              "count": 3,
+              "id": "30053"
+            },
+            {
+              "count": 3,
+              "id": "30056"
+            },
+            {
+              "count": 3,
+              "id": "30067"
+            },
+            {
+              "count": 2,
+              "id": "30070"
+            },
+            {
+              "count": 3,
+              "id": "30075"
+            },
+            {
+              "count": 3,
+              "id": "36047"
+            },
+            {
+              "count": 3,
+              "id": "36048"
+            },
+            {
+              "count": 3,
+              "id": "36049"
+            },
+            {
+              "count": 3,
+              "id": "36050"
+            },
+            {
+              "count": 3,
+              "id": "36051"
+            },
+            {
+              "count": 3,
+              "id": "36052"
+            },
+            {
+              "count": 3,
+              "id": "36066"
+            },
+            {
+              "count": 3,
+              "id": "30037"
+            },
+            {
+              "count": 3,
+              "id": "30072"
+            },
+            {
+              "count": 3,
+              "id": "30048"
+            }
+          ],
+          "identity": "36046",
+          "name": "Editorial · funded defenses",
+          "pool": "vantage-preview-v1",
+          "schemaVersion": 1,
+          "side": "corp"
+        },
+        "runner": {
+          "cards": [
+            {
+              "count": 3,
+              "id": "30005"
+            },
+            {
+              "count": 3,
+              "id": "30011"
+            },
+            {
+              "count": 3,
+              "id": "30012"
+            },
+            {
+              "count": 2,
+              "id": "30013"
+            },
+            {
+              "count": 2,
+              "id": "30014"
+            },
+            {
+              "count": 3,
+              "id": "30015"
+            },
+            {
+              "count": 3,
+              "id": "30016"
+            },
+            {
+              "count": 2,
+              "id": "30017"
+            },
+            {
+              "count": 3,
+              "id": "30018"
+            },
+            {
+              "count": 3,
+              "id": "30027"
+            },
+            {
+              "count": 3,
+              "id": "30028"
+            },
+            {
+              "count": 3,
+              "id": "30029"
+            },
+            {
+              "count": 3,
+              "id": "30030"
+            },
+            {
+              "count": 2,
+              "id": "30034"
+            },
+            {
+              "count": 3,
+              "id": "36012"
+            },
+            {
+              "count": 2,
+              "id": "36013"
+            },
+            {
+              "count": 2,
+              "id": "30006"
+            }
+          ],
+          "identity": "36009",
+          "name": "Vic · central pressure",
+          "pool": "vantage-preview-v1",
+          "schemaVersion": 1,
+          "side": "runner"
+        }
+      },
+      "rulesVersion": "26.03-vantage-3",
+      "seed": "b847ca2f-fb73-42ab-996c-dccd8055adf7",
+      "side": "runner"
+    },
+    "engine": "local-vantage-preview-3"
+  },
+  "clicks": [
+    {
+      "version": 2,
+      "turn": 1,
+      "phase": {
+        "identifier": "Runner Mulligan",
+        "source": null,
+        "title": "Runner's Mulligan"
+      },
+      "text": "Keep this hand→",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 8,
+      "turn": 1,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 32,
+      "turn": 2,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Install1 click5 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c51 c91 c72 c59 c61",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 32,
+      "turn": 2,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Install Cleaver into program row1 click · 3 credits",
+      "data": {
+        "command": "install",
+        "option": "0",
+        "relatedCards": "c51",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 35,
+      "turn": 2,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D ›",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 38,
+      "turn": 2,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Cleaver · +1 strength.2 credits→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c51",
+        "sourceId": "c51",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 40,
+      "turn": 2,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 48,
+      "turn": 2,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Finish accessingFinish resolving this card’s access.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 52,
+      "turn": 2,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D ›",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 55,
+      "turn": 2,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 63,
+      "turn": 2,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Finish accessingFinish resolving this card’s access.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 67,
+      "turn": 2,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D ›",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 70,
+      "turn": 2,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 78,
+      "turn": 2,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Finish accessingFinish resolving this card’s access.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 87,
+      "turn": 2,
+      "phase": {
+        "identifier": "Runner 2.2",
+        "source": null,
+        "title": "Runner's Discard Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 121,
+      "turn": 4,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D ›",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 124,
+      "turn": 4,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 132,
+      "turn": 4,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Steal agenda0 credits→",
+      "data": {
+        "command": "steal",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 139,
+      "turn": 4,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D ›",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 142,
+      "turn": 4,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 150,
+      "turn": 4,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Finish accessingFinish resolving this card’s access.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 154,
+      "turn": 4,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D ›",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 157,
+      "turn": 4,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 165,
+      "turn": 4,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Finish accessingFinish resolving this card’s access.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 169,
+      "turn": 4,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D ›",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 172,
+      "turn": 4,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 180,
+      "turn": 4,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Finish accessingFinish resolving this card’s access.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 198,
+      "turn": 5,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 221,
+      "turn": 6,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Archives ›",
+      "data": {
+        "serverAction": "Archives",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 224,
+      "turn": 6,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 236,
+      "turn": 6,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Archives ›",
+      "data": {
+        "serverAction": "Archives",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 239,
+      "turn": 6,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 251,
+      "turn": 6,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Archives ›",
+      "data": {
+        "serverAction": "Archives",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 254,
+      "turn": 6,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 266,
+      "turn": 6,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Archives ›",
+      "data": {
+        "serverAction": "Archives",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 269,
+      "turn": 6,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 292,
+      "turn": 7,
+      "phase": {
+        "identifier": "Corp 1.2",
+        "source": null,
+        "title": "Corporation's Turn Begins"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 319,
+      "turn": 8,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Archives ›",
+      "data": {
+        "serverAction": "Archives",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 322,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 329,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run 5.2",
+        "source": null,
+        "title": "Run: Breach"
+      },
+      "text": "Magistrate Revontulet",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c29",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 331,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Predictive Planogram",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c13",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 333,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Nico Campaign",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c2",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 335,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Hedge Fund",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c24",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 340,
+      "turn": 8,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Archives ›",
+      "data": {
+        "serverAction": "Archives",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 343,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 350,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run 5.2",
+        "source": null,
+        "title": "Run: Breach"
+      },
+      "text": "Magistrate Revontulet",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c29",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 352,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Predictive Planogram",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c13",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 354,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Nico Campaign",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c2",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 356,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Hedge Fund",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c24",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 361,
+      "turn": 8,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 363,
+      "turn": 8,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 377,
+      "turn": 9,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "8"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 380,
+      "turn": 9,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "8"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 383,
+      "turn": 9,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "8"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 386,
+      "turn": 9,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "8"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 400,
+      "turn": 10,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Archives ›",
+      "data": {
+        "serverAction": "Archives",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 403,
+      "turn": 10,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Cleaver · +1 strength.2 credits→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c51",
+        "sourceId": "c51",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 405,
+      "turn": 10,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 412,
+      "turn": 10,
+      "phase": {
+        "identifier": "Run 5.2",
+        "source": null,
+        "title": "Run: Breach"
+      },
+      "text": "Spin Doctor",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c9",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 414,
+      "turn": 10,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Magistrate Revontulet",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c29",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 416,
+      "turn": 10,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Predictive Planogram",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c13",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 418,
+      "turn": 10,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Nico Campaign",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c2",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 420,
+      "turn": 10,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Hedge Fund",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c24",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 425,
+      "turn": 10,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 427,
+      "turn": 10,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 429,
+      "turn": 10,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 443,
+      "turn": 11,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "8"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 447,
+      "turn": 11,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 450,
+      "turn": 11,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 453,
+      "turn": 11,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 466,
+      "turn": 12,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "12"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 468,
+      "turn": 12,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "12"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 470,
+      "turn": 12,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "12"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 472,
+      "turn": 12,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D › · 1 ICE",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "4"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 477,
+      "turn": 12,
+      "phase": {
+        "identifier": "Rez",
+        "source": null,
+        "title": "Rez"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 490,
+      "turn": 12,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Break all · 5 credits",
+      "data": {
+        "planReview": "c51",
+        "vantageProbe": "8"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 504,
+      "turn": 12,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 512,
+      "turn": 12,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Finish accessingFinish resolving this card’s access.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 528,
+      "turn": 13,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 552,
+      "turn": 14,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 554,
+      "turn": 14,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 556,
+      "turn": 14,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 558,
+      "turn": 14,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 572,
+      "turn": 15,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 575,
+      "turn": 15,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 578,
+      "turn": 15,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 581,
+      "turn": 15,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 595,
+      "turn": 16,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 597,
+      "turn": 16,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Archives › · 1 ICE",
+      "data": {
+        "serverAction": "Archives",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 602,
+      "turn": 16,
+      "phase": {
+        "identifier": "Rez",
+        "source": null,
+        "title": "Rez"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "12"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 615,
+      "turn": 16,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Break all · 5 credits",
+      "data": {
+        "planReview": "c51",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 631,
+      "turn": 16,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Cleaver · +1 strength.2 credits→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c51",
+        "sourceId": "c51",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 633,
+      "turn": 16,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 640,
+      "turn": 16,
+      "phase": {
+        "identifier": "Run 5.2",
+        "source": null,
+        "title": "Run: Breach"
+      },
+      "text": "Spin Doctor",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c10",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 642,
+      "turn": 16,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Spin Doctor",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c9",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 644,
+      "turn": 16,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Magistrate Revontulet",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c29",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 646,
+      "turn": 16,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Predictive Planogram",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c13",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 648,
+      "turn": 16,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Nico Campaign",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c2",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 650,
+      "turn": 16,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Hedge Fund",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c24",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 655,
+      "turn": 16,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "13"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 657,
+      "turn": 16,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 671,
+      "turn": 17,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 674,
+      "turn": 17,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 677,
+      "turn": 17,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 680,
+      "turn": 17,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 695,
+      "turn": 18,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 697,
+      "turn": 18,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 699,
+      "turn": 18,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 701,
+      "turn": 18,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 715,
+      "turn": 19,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 738,
+      "turn": 20,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Archives › · 1 ICE",
+      "data": {
+        "serverAction": "Archives",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 743,
+      "turn": 20,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Break all · 5 credits",
+      "data": {
+        "planReview": "c51",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 758,
+      "turn": 20,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Cleaver · +1 strength.2 credits→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c51",
+        "sourceId": "c51",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 760,
+      "turn": 20,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 767,
+      "turn": 20,
+      "phase": {
+        "identifier": "Run 5.2",
+        "source": null,
+        "title": "Run: Breach"
+      },
+      "text": "Magistrate Revontulet",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c31",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 769,
+      "turn": 20,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Let Them Dream",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c44",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 770,
+      "turn": 20,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Steal agenda0 credits→",
+      "data": {
+        "command": "steal",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 774,
+      "turn": 20,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Nihilo Agent",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c32",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 776,
+      "turn": 20,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Spin Doctor",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c10",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 778,
+      "turn": 20,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Spin Doctor",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c9",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 780,
+      "turn": 20,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Magistrate Revontulet",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c29",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 782,
+      "turn": 20,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Predictive Planogram",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c13",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 784,
+      "turn": 20,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Nico Campaign",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c2",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 786,
+      "turn": 20,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Hedge Fund",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c24",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 791,
+      "turn": 20,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 793,
+      "turn": 20,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 795,
+      "turn": 20,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 809,
+      "turn": 21,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 813,
+      "turn": 21,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "12"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 816,
+      "turn": 21,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 819,
+      "turn": 21,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 832,
+      "turn": 22,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 834,
+      "turn": 22,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 836,
+      "turn": 22,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 838,
+      "turn": 22,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 852,
+      "turn": 23,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 855,
+      "turn": 23,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 858,
+      "turn": 23,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 861,
+      "turn": 23,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 875,
+      "turn": 24,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Archives › · 1 ICE",
+      "data": {
+        "serverAction": "Archives",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 880,
+      "turn": 24,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Break all · 5 credits",
+      "data": {
+        "planReview": "c51",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 895,
+      "turn": 24,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Cleaver · +1 strength.2 credits→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c51",
+        "sourceId": "c51",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 897,
+      "turn": 24,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Cleaver · +1 strength.2 credits→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c51",
+        "sourceId": "c51",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 899,
+      "turn": 24,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 906,
+      "turn": 24,
+      "phase": {
+        "identifier": "Run 5.2",
+        "source": null,
+        "title": "Run: Breach"
+      },
+      "text": "Offworld Office",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c16",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 907,
+      "turn": 24,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Steal agenda0 credits→",
+      "data": {
+        "command": "steal",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 911,
+      "turn": 24,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Hedge Fund",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c25",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 913,
+      "turn": 24,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Magistrate Revontulet",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c31",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 915,
+      "turn": 24,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Nihilo Agent",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c32",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 917,
+      "turn": 24,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Spin Doctor",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c10",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 919,
+      "turn": 24,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Spin Doctor",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c9",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 921,
+      "turn": 24,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Magistrate Revontulet",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c29",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 923,
+      "turn": 24,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Predictive Planogram",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c13",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 925,
+      "turn": 24,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Nico Campaign",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c2",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 927,
+      "turn": 24,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Hedge Fund",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c24",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 932,
+      "turn": 24,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 934,
+      "turn": 24,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 936,
+      "turn": 24,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 950,
+      "turn": 25,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 953,
+      "turn": 25,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 956,
+      "turn": 25,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 959,
+      "turn": 25,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 973,
+      "turn": 26,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 975,
+      "turn": 26,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 977,
+      "turn": 26,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Archives › · 1 ICE",
+      "data": {
+        "serverAction": "Archives",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 982,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Break all · 5 credits",
+      "data": {
+        "planReview": "c51",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 997,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Cleaver · +1 strength.2 credits→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c51",
+        "sourceId": "c51",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 999,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1006,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run 5.2",
+        "source": null,
+        "title": "Run: Breach"
+      },
+      "text": "Offworld Office",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c15",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1007,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Steal agenda0 credits→",
+      "data": {
+        "command": "steal",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1011,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Hedge Fund",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c25",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1013,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Magistrate Revontulet",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c31",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1015,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Nihilo Agent",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c32",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1017,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Spin Doctor",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c10",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1019,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Spin Doctor",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c9",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1021,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Magistrate Revontulet",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c29",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1023,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Predictive Planogram",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c13",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1025,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Nico Campaign",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c2",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1027,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Hedge Fund",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c24",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1032,
+      "turn": 26,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1046,
+      "turn": 27,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1049,
+      "turn": 27,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1052,
+      "turn": 27,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1055,
+      "turn": 27,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1069,
+      "turn": 28,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1071,
+      "turn": 28,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1073,
+      "turn": 28,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1075,
+      "turn": 28,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1089,
+      "turn": 29,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1092,
+      "turn": 29,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1095,
+      "turn": 29,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1098,
+      "turn": 29,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1112,
+      "turn": 30,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Archives › · 1 ICE",
+      "data": {
+        "serverAction": "Archives",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1117,
+      "turn": 30,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Break all · 5 credits",
+      "data": {
+        "planReview": "c51",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1132,
+      "turn": 30,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Cleaver · +1 strength.2 credits→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c51",
+        "sourceId": "c51",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1134,
+      "turn": 30,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1141,
+      "turn": 30,
+      "phase": {
+        "identifier": "Run 5.2",
+        "source": null,
+        "title": "Run: Breach"
+      },
+      "text": "Neurospike",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c8",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1143,
+      "turn": 30,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Witch Hunt",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c26",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1144,
+      "turn": 30,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Steal agenda0 credits→",
+      "data": {
+        "command": "steal",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    }
+  ],
+  "notes": [
+    "Actual rendered DOM controls only; public state reads, no worker or engine action injection.",
+    "Functional test driver initially repeated empty Archives runs; improved public-information strategy midgame. This is driver behavior, not an Editorial deck defect.",
+    "Vic won with 8 agenda points in round 15. Editorial installed central defenses and played income; no crash, stuck payment or blocked end-turn was observed. This one scripted UI game is not a human balance rating."
+  ]
+}

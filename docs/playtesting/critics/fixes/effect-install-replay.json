@@ -1,0 +1,335 @@
+{
+  "choices": [
+    {
+      "command": "m",
+      "index": 0,
+      "version": 1
+    },
+    {
+      "command": "play",
+      "index": 1,
+      "version": 8
+    },
+    {
+      "command": "install",
+      "index": 7,
+      "version": 10
+    },
+    {
+      "command": "install",
+      "index": 6,
+      "version": 12
+    },
+    {
+      "command": "install",
+      "index": 1,
+      "version": 45
+    },
+    {
+      "command": "install",
+      "index": 1,
+      "version": 47
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 49
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 63
+    },
+    {
+      "command": "rez",
+      "index": 0,
+      "version": 65
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 104
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 105
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 106
+    },
+    {
+      "command": "play",
+      "index": 0,
+      "version": 139
+    },
+    {
+      "command": "discard",
+      "index": 1,
+      "version": 140
+    },
+    {
+      "command": "install",
+      "index": 3,
+      "version": 143
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 144
+    },
+    {
+      "command": "install",
+      "index": 1,
+      "version": 145
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 160
+    },
+    {
+      "command": "rez",
+      "index": 0,
+      "version": 162
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 167
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 170
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 206
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 207
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 208
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 232
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 264
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 292
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 320
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 321
+    },
+    {
+      "command": "score",
+      "index": 0,
+      "version": 322
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 323
+    },
+    {
+      "command": "continue",
+      "index": 2,
+      "version": 324
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 325
+    },
+    {
+      "command": "continue",
+      "index": 0,
+      "version": 326
+    },
+    {
+      "command": "play",
+      "index": 0,
+      "version": 329
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 354
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 387
+    },
+    {
+      "command": "install",
+      "index": 3,
+      "version": 415
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 416
+    },
+    {
+      "command": "install",
+      "index": 2,
+      "version": 417
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 418
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "version": 419
+    },
+    {
+      "command": "continue",
+      "index": 1,
+      "version": 433
+    },
+    {
+      "command": "install",
+      "index": 1,
+      "version": 453
+    },
+    {
+      "command": "rez",
+      "index": 0,
+      "version": 455
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 456
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "version": 458
+    },
+    {
+      "command": "install",
+      "index": 1,
+      "version": 493
+    },
+    {
+      "command": "trash",
+      "index": 0,
+      "version": 494
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 498
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 499
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 530
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 531
+    },
+    {
+      "command": "score",
+      "index": 0,
+      "version": 532
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 533
+    },
+    {
+      "command": "continue",
+      "index": 0,
+      "version": 534
+    },
+    {
+      "command": "install",
+      "index": 1,
+      "version": 537
+    },
+    {
+      "command": "continue",
+      "index": 1,
+      "version": 552
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 575
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 576
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 577
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 600
+    },
+    {
+      "command": "continue",
+      "index": 0,
+      "version": 601
+    },
+    {
+      "command": "install",
+      "index": 1,
+      "version": 602
+    }
+  ],
+  "conceded": false,
+  "config": {
+    "deckIds": {
+      "corp": "precision-design-v2",
+      "runner": "loup-v1"
+    },
+    "rulesVersion": "26.03-local-2",
+    "seed": "4c9489c9-bd32-4edc-ac34-eecbde80b802",
+    "side": "corp"
+  },
+  "engine": "chiriboga-77c80b1-local-1"
+}

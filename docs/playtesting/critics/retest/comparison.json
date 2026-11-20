@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-16",
+  "conclusion": "Mixed: Runner rated higher; Corp remained in the same range; Vantage was unchanged. No broad rating uplift established.",
+  "comparisons": [
+    {
+      "role": "Runner · Gateway",
+      "previous": 7.2,
+      "current": 7.8,
+      "review": "runner-review.json",
+      "delta": 0.6
+    },
+    {
+      "role": "Corp · Gateway",
+      "previous": 7.5,
+      "current": 7.4,
+      "review": "corp-review.json",
+      "delta": -0.1
+    },
+    {
+      "role": "Experienced · Vantage",
+      "previous": 6.5,
+      "current": 6.5,
+      "review": "experienced-review.json",
+      "delta": 0
+    }
+  ],
+  "method": {
+    "reviewers": "Three fresh-context AI critics; earlier scores withheld and prior/current sibling reports forbidden before rating. Initial inherited-context attempts were cancelled before any gameplay or rating and excluded.",
+    "sample": "One natural game per perspective, new seeds. Gateway deck matchups repeated; Vantage now uses recommended Vic/Editorial lists rather than the earlier Vic/Weyland interaction pilots.",
+    "limits": "Subjective holistic scores from AI reviewers, not a human usability study or statistically established improvement. Differences include gameplay strategy and outcomes; cannot isolate UI changes.",
+    "sourceUnchangedDuringReviews": true
+  },
+  "games": [
+    {
+      "role": "Runner",
+      "score": "Runner 8–Corp 6",
+      "nativeChoices": 280,
+      "terminal": "Natural Runner agenda win",
+      "validation": "runner-replay-validation.json"
+    },
+    {
+      "role": "Corp",
+      "score": "Corp 9–Runner 0",
+      "nativeChoices": 55,
+      "terminal": "Natural Corp agenda win",
+      "validation": "corp-replay-validation.json"
+    },
+    {
+      "role": "Vantage",
+      "score": "Runner 7–Corp 0",
+      "nativeChoices": 147,
+      "terminal": "Natural Runner agenda win",
+      "validation": "experienced-replay-validation.json"
+    }
+  ],
+  "positives": [
+    "Working identity/card readers and deck setup guidance.",
+    "Clearer cost and encounter explanations; useful wrong-type and virus guidance.",
+    "Coherent visual organization and no observed application crashes in these games."
+  ],
+  "remainingPriorities": [
+    {
+      "priority": 1,
+      "issue": "Opponent pressure and engagement",
+      "evidence": "Corp reviewer faced one early Runner run, then repeated unchallenged scoring. Vantage reviewer felt routine central pressure against a Corp without a scoring clock.",
+      "caveat": "These seeds do not establish a universal AI defect. A postgame offline audit found Vantage Corp agendas in hand only at early recorded decisions, so lack of later scoring is not proof it ignored legal scoring opportunities."
+    },
+    {
+      "priority": 2,
+      "issue": "Stale subroutine/run guidance after derez",
+      "evidence": "Independently reconstructed Vantage version629: HQ Lethe unrezzed, movement=true, both subroutine fired flags true. See stale-ice-evidence.json."
+    },
+    {
+      "priority": 3,
+      "issue": "Timing and payment overhead",
+      "evidence": "Runner still found many small timing windows and a verbose sidebar. Vantage full-break plan required several separate temporary-credit confirmations."
+    },
+    {
+      "priority": 4,
+      "issue": "Smaller presentation details",
+      "evidence": "Inconsistent remote numbering, final resource feedback, dense scroll regions, and closely named deck options."
+    }
+  ],
+  "applicationSourceEdits": "None in this retest; server restarted for playtests."
+}

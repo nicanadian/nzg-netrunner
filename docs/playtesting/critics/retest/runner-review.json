@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "reviewer": {
+    "type": "AI game tester/critic",
+    "perspective": "Newer-player-oriented Runner",
+    "notHumanNoviceStudy": true,
+    "independence": "Score committed before reading any prior reviews, ratings, implementation logs, or other reviewers' artifacts. Evaluated current browser UI and this game only."
+  },
+  "rating": {
+    "overall": 7.8,
+    "scale": 10,
+    "categoryScores": {
+      "learnability": 7,
+      "clarity": 8,
+      "flow": 7,
+      "visualCohesion": 8.5,
+      "stability": 9
+    },
+    "rationale": "A complete and enjoyable close game with unusually useful legal-action and encounter guidance. The board feels coherent and card identity survives the digital adaptation. A newer player can finish a match with help from readable costs and explicit windows, but the quantity of timing decisions, repeated sidebar text, and a very compressed rules overview still impose substantial learning and pacing costs. This is a subjective interface/game-experience score, not a balance conclusion from the Runner win."
+  },
+  "session": {
+    "seed": "8ea5f5ef-f72c-43b5-9479-40de8babfa61",
+    "matchup": {
+      "runner": "René “Loup” Arcemont · Trash & viruses",
+      "runnerDeckId": "loup-v1",
+      "corp": "Haas-Bioroid: Precision Design · Build & score",
+      "corpDeckId": "precision-design-v2"
+    },
+    "side": "runner",
+    "cardPool": "System Gateway",
+    "engine": "chiriboga-77c80b1-local-1",
+    "rulesVersion": "26.03-local-2",
+    "terminal": {
+      "reason": "Runner reached 8 agenda points.",
+      "winner": "runner"
+    },
+    "score": {
+      "runner": 8,
+      "corp": 6
+    },
+    "displayedTurn": 16,
+    "publicTurn": 32,
+    "nativeRecordedChoices": 280,
+    "uiActivationCount": null,
+    "uiActivationCountReason": "Not instrumented from the beginning. Native choices exclude local UI navigation, multi-select toggles and some queued-plan activations, so they must not be presented as mouse clicks.",
+    "nativeChoiceCommandCounts": {
+      "n": 132,
+      "play": 8,
+      "install": 11,
+      "run": 10,
+      "continue": 34,
+      "access": 22,
+      "trash": 1,
+      "trigger": 29,
+      "draw": 12,
+      "gain": 14,
+      "steal": 3,
+      "discard": 3,
+      "pay": 1
+    },
+    "engineSteps": 1102,
+    "historyCount": 576,
+    "retainedFinalStateHistoryLength": 150,
+    "conceded": false,
+    "naturalTerminal": true,
+    "noPassOnlyDeckoutFarming": true,
+    "replayFile": "runner-game-replay.json"
+  },
+  "method": {
+    "browser": "Owned new incognito preview tab; reused only my tab; browser DOM clicks and DOM reading, plus read-only public window.localTable.state/session for planning and replay capture.",
+    "tabId": "tab_h_8325d3a1-a0be-4685-9ccc-b65089f2df75",
+    "sourceModified": false,
+    "deckSavedOrDeleted": false,
+    "preferencesChanged": false,
+    "hiddenNativeStateRead": false,
+    "engineChooseUsed": false,
+    "automation": "Bounded DOM-click sequences handled explicitly planned economy clicks, bioroid breaks, known cheap full-break plans and forced access/continue windows. Meaningful install, economy, run, break, trash and access choices were made by this reviewer.",
+    "limits": [
+      "Single match, one side, one matchup, one desktop viewport. No multiplayer, imports, undo, mobile layout or accessibility assistive-technology study.",
+      "Read-only public snapshots were used, so this was not a purely visual novice simulation.",
+      "Final public history is bounded to 150 entries; the full 280-choice session and seed are preserved for replay."
+    ]
+  },
+  "exploration": {
+    "lobby": "Checked ready-made deck descriptions, identities, influence/card totals and matchup selectors. Started a new game with the requested defaults.",
+    "identity": "Opened Loup's Read identity ability and read first accessed-trash reward.",
+    "deckbuilder": "Opened Tune deck, inspected deck list, faction/influence totals, Ready to play state, cost curve, filters and Deckbuilding basics. Closed without saving or editing deck contents.",
+    "rules": "Read How to play after game completion: win conditions, both turn structures, card inspection, gold legal-action highlights, counters and an official learning resource link."
+  },
+  "gameNarrative": [
+    "Kept Sure Gamble / Leech / Botulus / Overclock / Sure Gamble. Played both Gambles, installed Leech and challenged open HQ.",
+    "Paid 5 to Manegarm Skunkworks and trashed it for 3, triggering Loup's credit/card reward; HQ then became iced.",
+    "Installed Cleaver and probed R&D with Overclock. Whitespace was the wrong type for Cleaver and ended the run after draining the small credit pool. The UI clearly identified the mismatch.",
+    "Built a Botulus on Whitespace. At 0 credits, broke only its end-run subroutine and allowed the credit-loss subroutine to fire harmlessly, stealing Luminal Transubstantiation for 2 points.",
+    "Challenged a 4-advanced remote early in the turn and spent 3 clicks to break all three Brân 1.0 subroutines, stealing Send a Message for a 5–0 lead.",
+    "Corp scored Offworld Offices while I developed Verbal Plasticity, memory, Fermenters, Carnivore, a second hosted Botulus and later Buzzsaw. Corp purges repeatedly reset viruses; the match reached 5–6.",
+    "Used Overclock credits explicitly to break Palisade, used Carnivore multi-selection to remove Ansel from R&D and Seamless Launches from HQ, and collected Loup rewards.",
+    "Checked Archives after a concealed discard; all accessed cards were non-agendas. Continued central pressure and economic rebuilding.",
+    "Played Jailbreak targeting HQ on displayed turn 16. First random HQ access revealed Send a Message, which I stole for an 8–6 natural victory."
+  ],
+  "strengths": [
+    {
+      "area": "Encounter teaching",
+      "evidence": "The encounter panel labeled Cleaver Wrong ice type at Whitespace, Botulus Hosted on different ice, Leech's effect as strength reduction rather than a break, and exact full-break credit needs. These are useful distinctions for a new Runner."
+    },
+    {
+      "area": "Costs and consequences",
+      "evidence": "Costs appeared beside decisions, bioroid break choices explicitly cost 1 click, and Overclock's payment-source chooser offered Confirm from Overclock separately from the credit pool."
+    },
+    {
+      "area": "Action safety and visibility",
+      "evidence": "Gold available-action highlighting, separate Read card controls, source-card links, explicit multi-select counts/confirmation for Carnivore, and confirmed-choice/resource-change text made decisions reviewable."
+    },
+    {
+      "area": "Visual organization",
+      "evidence": "The retained screenshot shows clearly separated blue Corp and warm Runner zones, labeled server columns, horizontal ice, a persistent grip and legible numeric counters. The presentation feels like a designed tabletop rather than a plain form."
+    },
+    {
+      "area": "Opponent flow and stability",
+      "evidence": "Corp actions were narrated and could be skipped to the next decision. The entire game reached a valid terminal without reload, engine diagnostics, application crash or recovery action."
+    },
+    {
+      "area": "Deck setup",
+      "evidence": "Ready-made deck plans explain the intended play style; identity text is one click away; deckbuilder shows legality, influence, cost curve, card costs and replacement controls."
+    }
+  ],
+  "problems": [
+    {
+      "id": "R1",
+      "severity": "medium",
+      "category": "flow",
+      "title": "Timing confirmation volume still dominates an ordinary match",
+      "reproduction": "Play this recorded session. Known simple runs repeatedly require encounter pass, movement Continue the run, access/finish windows and ability selection. Session contains 132 command n records among 280 native choices.",
+      "observedImpact": "A rules-aware AI could keep moving, but a newer player must repeatedly decide whether a window contains a useful action. Break all reduces some work, yet a full match still feels much more procedural than its strategic turn count suggests.",
+      "suggestion": "Provide an optional newcomer timing mode that groups safe passes with a clear preview of what will resolve; preserve the current full-control mode. Do not equate native-choice count with actual UI clicks."
+    },
+    {
+      "id": "R2",
+      "severity": "medium",
+      "category": "clarity",
+      "title": "Encounter sidebar mixes essential decisions with repeated explanations and irrelevant installed tools",
+      "reproduction": "With Leech, Cleaver and Botulus installed on R&D, run a different server; later install the second Botulus and inspect Palisade/Whitespace encounters. The panel lists each hosted virus even when it says Hosted on different ice, repeats explanatory copy, full-break math, confirmed choice and activity sections.",
+      "observedImpact": "Useful information is present, but at the 1280×800 desktop viewport it creates a long decision rail. The next movement/pass action can be visually separated from the relevant ice and tool choices.",
+      "suggestion": "Keep current ice, usable choices and the primary continuation action together; collapse unavailable tools and deeper explanation by default while keeping reasons discoverable."
+    },
+    {
+      "id": "R3",
+      "severity": "medium",
+      "category": "learnability",
+      "title": "Rules overview explains mechanics but does not walk a new Runner through a first run",
+      "reproduction": "Open How to play. It provides a short role overview, counters and legal-action conventions, but no worked example of choosing a target, matching ice type/strength, breaking selected subroutines or sequencing economy before a run.",
+      "observedImpact": "The encounter guidance rescues local tactical decisions, but a first-time player still has to discover the larger economy/rig/run sequence by trial. My early Overclock probe failed against a code gate despite ample total starting money; that was my strategic choice, not an engine error.",
+      "suggestion": "Offer an optional short guided scenario or worked example alongside the existing concise overview, using a known face-up ice encounter and an economy setup step."
+    },
+    {
+      "id": "R4",
+      "severity": "low",
+      "category": "polish",
+      "title": "Some cost labels have grammatical rough edges",
+      "reproduction": "At Palisade or Whitespace with an affordable full break, the button reads Break all · 1 credits. Manegarm's payment option reads Pay 5 credit.",
+      "observedImpact": "Meaning remains clear, but the rough labels weaken otherwise polished presentation.",
+      "suggestion": "Use consistent credit/credits inflection across generated action labels."
+    },
+    {
+      "id": "R5",
+      "severity": "low",
+      "category": "flow",
+      "title": "Win screen gives little retrospective explanation of a long close game",
+      "reproduction": "Reach the preserved natural terminal. The primary copy is You win, Runner wins, Well played and Runner reached 8 agenda points; the rail still shows the most recent activity and last resource change.",
+      "observedImpact": "The ending confirms the result well, but it misses a good learning moment after a 16-turn 8–6 game.",
+      "suggestion": "Add a compact optional match recap with agenda steals/scores and notable turns, plus direct replay/export entry points."
+    }
+  ],
+  "errorsAndDiagnostics": {
+    "applicationDiagnostics": [],
+    "observedApplicationCrashes": 0,
+    "observedReloadsOrRecoveries": 0,
+    "automationLimitations": [
+      "Initial screenshot timed out. One midgame screenshot succeeded and was inspected. Three later terminal-screenshot attempts timed out; no terminal screenshot retained.",
+      "Several DOM automation calls attempted a button before the next render, or expected a different visible label. These produced evaluator TypeErrors only; subsequent DOM reads showed a healthy game. One generic forced-action loop encountered null decision after the win. These are automation errors, not demonstrated application defects."
+    ],
+    "successfulScreenshotConsoleEntries": [],
+    "successfulScreenshotNetworkDiagnostics": "Snapshot returned no retained network entries and said older/remaining entries were omitted; this is not an exhaustive clean-network assertion."
+  },
+  "artifacts": {
+    "screenshots": [
+      "/Users/nicanadian/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mwjxr0ya-2c7a78a3.png",
+      "/Users/nicanadian/repos/netrunner-game/docs/playtesting/critics/retest/runner-midgame.png"
+    ],
+    "terminalScreenshot": null,
+    "tabClosed": true
+  }
+}

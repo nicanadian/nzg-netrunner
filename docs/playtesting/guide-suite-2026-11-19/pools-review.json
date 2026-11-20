@@ -1,0 +1,169 @@
+{
+  "reviewer": "Fresh AI reviewer #6 — pools",
+  "date": "2026-11-19",
+  "origin": "http://127.0.0.1:5173",
+  "scope": "Educational/navigation playtest only; no games played or outcomes claimed.",
+  "firstImpressions": "pools-first-impressions.md; recorded before reading any prior review/source.",
+  "method": {
+    "tabs": [
+      "tab_14",
+      "tab_15 (own guide popup)",
+      "tab_17 (explicit owned guide)"
+    ],
+    "uiOnly": true,
+    "hiddenEngineUsed": false,
+    "storageDirectReadsOrWrites": false,
+    "sourceRead": false,
+    "priorReviewsRead": false,
+    "screenshot": "preview_snapshot timed out; DOM-backed functional evidence only, no visual certification.",
+    "toolProblems": [
+      "Snapshot timeout.",
+      "Brief no automation host; preview_status reconnected.",
+      "Viewport later reported 320×200 versus initial 1280×800; shared browser environment may change visibility/viewport.",
+      "One mistaken select used built-to-last-v1 (no matching option), timed out; corrected to observed built-to-last-v2.",
+      "Identity selection opens intermediary screen, so subsequent direct identity-selector attempt timed out; canceled from actual screen."
+    ]
+  },
+  "tasks": {
+    "P1": {
+      "status": "completed",
+      "guideAlone": "Explains percentages as Runner wins; 40–60% close in sample; exact lists, not identity strength; six games preliminary (~17-point shift for one result), 54 expanded, AI-versus-AI, custom decks not benchmarked. Opening path stays Vantage-specific in every pool.",
+      "pairings": [
+        {
+          "pool": "System Gateway",
+          "guideRunner": "René “Loup” Arcemont",
+          "guideCorp": "Weyland Consortium: Built to Last",
+          "sample": "Runner 3 / Corp 3 of 6 (50%), preliminary",
+          "lobbyRunner": "René “Loup” Arcemont · Trash & viruses",
+          "lobbyCorp": "Weyland Consortium · Advance & threaten",
+          "selectedInLobby": true,
+          "rationale": "Close preliminary practice pairing; don't substitute Heavy ice & threats (17% Runner, 1/6).",
+          "availability": "15 decks: 7 Runner, 8 Corp; 3 Runner and 4 Corp identities."
+        },
+        {
+          "pool": "Gateway + Elevation",
+          "guideRunner": "Ryō “Phoenix” Ōno: Out of the Ashes",
+          "guideCorp": "[NSG Core] Fine Print / NBN: Reality Plus",
+          "sample": "Runner 3 / Corp 3 of 6 (50%), preliminary",
+          "lobbyRunner": "Ryō “Phoenix” Ōno · Dashing Mad",
+          "lobbyCorp": "NBN · [NSG Core] Fine Print",
+          "selectedInLobby": true,
+          "rationale": "A close result to try while explicitly accepting experimental card/AI audit; no claim this is a beginner recommendation.",
+          "availability": "21 official Core Sets lists, 9 Runner / 12 Corp identities. Lobby experimental audit warning; guide lacks this contextual availability explanation."
+        },
+        {
+          "pool": "Gateway + Elevation + Vantage",
+          "guideRunner": "Loup · Tailored economy",
+          "guideCorp": "Restoring Humanity · Ambushes",
+          "sample": "Runner 28 / Corp 26 of 54 (52%)",
+          "lobbyRunner": "René “Loup” Arcemont · Loup · Tailored economy",
+          "lobbyCorp": "Jinteki · Restoring Humanity · Ambushes",
+          "selectedInLobby": true,
+          "rationale": "Explicit familiar-identities recommendation; small new-card package; stronger sample than six games but still AI evidence.",
+          "availability": "Lobby: 66/66 cards, 9 recommended play decks and 13 interaction test pilots. Guide defaults exclude pilots and offers Include interaction test pilots."
+        }
+      ],
+      "naming": "Guide omits Gateway base-list nicknames and Elevation Dashing Mad / Brutal Efficiency; one Gateway row exposes 'restoring-humanity-v2 / Planogram instead of Clearinghouse'. Identity can have several different lists. This mapping requires lobby comparison.",
+      "context": "Query ?pool=gateway-v1 correctly initializes Gateway matchup list, but First Vantage games/First Vantage games after Gateway and all three opening recommendations remain unchanged after selecting Gateway or Elevation. Guide select changes do not update query or Back to lobby href (still /)."
+    },
+    "P2": {
+      "status": "partial",
+      "reason": "UI rule checks and identity-preview task completed; guide alone cannot explain the requested construction rules.",
+      "knowledgeBeforeFinalCopyCheck": {
+        "guide": "None of influence, exact minimum, copies, uniqueness or Corp agenda band explained in guide. Only pairing caveats.",
+        "priorKnowledge": "Identity sets minimum deck size/influence; ordinarily max three copies unless card overrides; uniqueness limits simultaneous active copies rather than copies in deck; Corp agenda requirement depends on deck size. No external rule resource used.",
+        "builderHelp": "Deckbuilding basics: swap one-for-one; keep minimum/influence; own faction zero, imports printed cost per copy; Corp adds agenda-point range. Numeric minimum and rule definitions absent there."
+      },
+      "observations": [
+        "Gateway Loup initially 40 cards, 6/15 influence. Carmen shows 2 influence/copy ×3 =6; matching Anarch and neutral rows show zero.",
+        "Remove Wildcat Strike: 39 cards, 'Needs at least 40 cards; currently 39.' Save & use disabled, Save draft available. Re-added immediately; 40 Ready to play. No invalid draft saved.",
+        "After explicitly stating guide-only/prior knowledge, checked Vantage Loup Wildcat Strike/Botulus/Buzzsaw/Cleaver plus controls: disabled with title 'Maximum 3 copies in a deck'.",
+        "Select Tāo from Loup builder: switch screen offers legal Shaper starter 40 cards 12/15, or keep all cards at 40 cards 42/15; text explains changing identity alone retains cards and saved decks unchanged. Canceled without persisting.",
+        "Corp Precision Design initially 44 cards, 7/15 influence, 18/18–19 agenda points. Removing Superconducting Hub gives 43 cards, 17 agenda points and error '43 cards requires 18–19 agenda points; currently 17.' Used Add replacements and re-added Hub; original 44/18 ready state restored without saving.",
+        "No uniqueness explanation found in guide or expanded builder basics. Carnivore card preview says Limit 1 console per player; that is a console restriction, not evidence teaching unique-card rules."
+      ]
+    },
+    "P3": {
+      "status": "completed",
+      "guideSupport": "Guide What to learn next gives concrete Vantage observations (Tungsten Tailor changes strength/run costs; Touchstone credits and Corsair; Vulture Fund/bad publicity tradeoff; Vic pressure/tags). It does not give a general controlled experiment, log, observation template or construction link. Guide explicitly says custom decks have not been benchmarked; no custom benchmark exists there.",
+      "savedDeck": {
+        "name": "Suite Pools 19Nov",
+        "id": "local-708a1387-8e81-43fe-b020-1646889e963b",
+        "pool": "gateway-v1",
+        "identity": "René “Loup” Arcemont: Party Animal",
+        "base": "Trash & viruses (loup-v1)",
+        "revision": "+1 Carnivore (2→3), −1 T400 Memory Diamond (2→1)",
+        "legality": "40 cards · 6/15 influence · Ready to play; Gateway legal deck in My decks",
+        "verification": "Saved to My decks message, revisited Gateway library after changing pools, opened saved Edit, exact quantities and legal totals persisted.",
+        "cards": {
+          "Wildcat Strike": 3,
+          "Carnivore": 3,
+          "Botulus": 3,
+          "Buzzsaw": 3,
+          "Cleaver": 3,
+          "Fermenter": 3,
+          "Leech": 3,
+          "Carmen": 3,
+          "Jailbreak": 3,
+          "Overclock": 3,
+          "Sure Gamble": 3,
+          "T400 Memory Diamond": 1,
+          "Smartware Distributor": 3,
+          "Verbal Plasticity": 3
+        }
+      },
+      "hypothesis": "A third Carnivore will make its access-trash ability available earlier and more often, improving Loup's access pressure. This is a prediction, not an observed result.",
+      "opportunityCost": "One fewer cheap +1 MU/+1 hand-size T400, a 2-credit card replaced by a 4-credit card, and more redundant consoles (Carnivore text limits one console/player).",
+      "knowledgeSources": "Carnivore and T400 text read in actual builder Read full card previews; Loup pressure description from lobby; consistency/hypothesis/evaluation method from reviewer judgment, not guide.",
+      "plan": "Play six baseline and six revised Gateway games against exact Built to Last · Advance & threaten, alternating lists and holding opponent/settings stable. For each game log first Carnivore drawn/installed turn, useful activations by turn 6, duplicate consoles stranded, turns T400's missing MU/hand size would matter, and credits/clicks spent to establish rig. Separate missing-draw from unaffordable-install failures. Compare access-trash availability and cost, report raw counts and examples, treat wins as secondary preliminary observations. Revert extra Carnivore if duplicates/cost outweigh useful earlier access trash; choose next small revision from repeated bottleneck. No games performed.",
+      "uiTrace": [
+        "Gateway Tune deck → expanded builder basics → remove/re-add Wildcat to verify min → select Tāo → cancel switch screen",
+        "Read T400 → Back to deck → Read Carnivore → Back to deck",
+        "Remove T400 → Add Carnivore → name Suite Pools 19Nov → Save to library",
+        "Library confirms Saved to My decks and legal card → later change pools → return Gateway → My decks → Edit confirms persisted revision"
+      ],
+      "customBenchmark": "Explicitly unavailable; bundled Loup 3/6 vs Gateway Built to Last describes original exact list only, cannot transfer 50% to this custom deck."
+    }
+  },
+  "frictions": [
+    {
+      "priority": 1,
+      "severity": "high",
+      "finding": "Learning introduction is Vantage-only even under Gateway/Elevation and recommends unavailable lists.",
+      "improvement": "Make opening path contextual to pool and carry pool/deck choice back to lobby.",
+      "acceptance": "Open ?pool=gateway-v1, core-v1, vantage-preview-v1: opening recommended lists must exist in each lobby pool; selecting another pool updates path, URL/back link or a deliberate launch action."
+    },
+    {
+      "priority": 2,
+      "severity": "high",
+      "finding": "Guide lacks requested construction explanation and route to builder help.",
+      "improvement": "Add linked construction basics with identity minimum/influence, neutral/import arithmetic, three-copy and unique distinction, Corp agenda bands and faction restriction; link from guide and builder.",
+      "acceptance": "A new reviewer can explain all five rules from rendered guide before experimenting; links open current pool builder context; unique explanation does not confuse console restrictions with copy caps."
+    },
+    {
+      "priority": 3,
+      "severity": "medium",
+      "finding": "Exact-list caveat asks reader to use bundled names that do not match lobby options.",
+      "improvement": "Show identity plus exact lobby variant name everywhere; hide raw legacy identifiers.",
+      "acceptance": "Every guide runner/corp name maps exactly to a visible lobby option within pool; Gateway Planogram row no raw restoring-humanity-v2 text; Elevation base uses Dashing Mad / Brutal Efficiency."
+    },
+    {
+      "priority": 4,
+      "severity": "medium",
+      "finding": "Vantage-specific observation advice lacks reusable experiment planning or record.",
+      "improvement": "Offer one-change hypothesis/opportunity-cost/observation form, exact baseline comparator and raw-count log; retain explicit no-custom-benchmark caveat.",
+      "acceptance": "Reader can record target behavior, cost, baseline and evaluation window for a custom revision without treating bundled AI win rate as custom performance."
+    }
+  ],
+  "sharedInterference": "Another incognito tab already used 127.0.0.1; storage isolation per tab cannot be assumed. No existing lists were deleted or edited. Only one own unique custom saved; no direct storage/global preferences/read/write/restore. Viewport drift and transient automation disconnect are environment caveats, not proven application defects.",
+  "cleanup": {
+    "pending": false,
+    "closed": [
+      "tab_14 explicit preview",
+      "tab_17 explicit guide",
+      "tab_15 own link-opened popup"
+    ],
+    "method": "Owned tabs closed via close API. Popup close API rejected ownership; window.close() succeeded. Final preview_status returned no selected tab/available:false; no other tabs targeted.",
+    "storage": "Saved legal Suite Pools 19Nov retained. No storage restored or cleared."
+  }
+}

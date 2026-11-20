@@ -1,0 +1,177 @@
+{
+  "reviewer": "AI game tester / experienced digital-card-game UX critic",
+  "independence": "No other reviewers' ratings or findings were read. This is an AI review perspective, not a recruited human critic.",
+  "scope": "Current Vantage Point development preview; one 28-turn match ending by deliberate in-UI concession, plus lobby/deckbuilder exploration. Score is for this preview experience, not a competitive balance certification or shipped 0.2.1.",
+  "rating": {
+    "overall": 6.5,
+    "scale": 10,
+    "categories": {
+      "learnability": 5.5,
+      "clarity": 6.5,
+      "flow": 5.5,
+      "visualCohesion": 7.5,
+      "stability": 8.5
+    },
+    "rationale": "A coherent, functional local Netrunner table with useful card inspection and explicit action costs. However, a visibly obstructed lobby selector, ambiguous access ordering, and interaction-test pilots that can lack essential matchup tools make it difficult to recommend as a polished play experience. Stability was strong in this match."
+  },
+  "game": {
+    "url": "http://localhost:5173/?vantage-preview=1",
+    "runner": "vic-full-vp-v1",
+    "corp": "weyland-full-vp-v1",
+    "side": "runner",
+    "seed": "edc70c98-ecda-4118-a47d-1e328be3aec3",
+    "turn": 28,
+    "choices": 304,
+    "points": {
+      "runner": 3,
+      "corp": 2
+    },
+    "terminal": {
+      "reason": "You conceded the game.",
+      "winner": "corp"
+    },
+    "conceded": true,
+    "naturalAgendaOrFlatlineCompletion": false,
+    "reasonForConcession": "After initial rig development, successful central pressure, tags/identity cleanup and reaching 3 points, both centrals became protected by code gates. This interaction pilot has no decoder and no stealth credit source for Baker's bypass. Continuing a pass-only deckout would add little playtest value. This is a player concession, not an engine blocker.",
+    "strategy": "Installed Borrowed Goods, removed its tag with Vic, ran Archives to enable Carmen's install discount, installed Carmen/Cleaver, tried Overclock on a scoring remote, probed self-trashing Event Horizon, pressured exposed HQ and R&D, installed Rotary, inspected public cards/access choices, checked Archives. Bounded DOM loops handled repeated legal run/access/continue choices and later playback skipping.",
+    "diagnostics": [],
+    "consoleErrors": []
+  },
+  "explored": [
+    "Identity ability and portrait inspection",
+    "Deck and character selection; matchup library",
+    "Tune deck; influence/program filters; full-resolution preview",
+    "Character-change warning and cancel",
+    "Install/discount/identity/tag UI",
+    "Overclock target selection and encounter options",
+    "Central and remote runs; successful and ended runs",
+    "Access-order selection; full accessed-card inspection; stealing agendas",
+    "Menu and in-UI concede"
+  ],
+  "findings": [
+    {
+      "priority": "high",
+      "category": "UI defect",
+      "title": "Sticky lobby actions obstruct both deck selectors at the initial desktop scroll position",
+      "reproduce": "Open the Vantage lobby at 1280×800, scroll to document top. Both deck selectors lie behind the sticky action bar.",
+      "evidence": {
+        "bounds": {
+          "actions": {
+            "bottom": 788,
+            "height": 67,
+            "left": 76.796875,
+            "right": 683.015625,
+            "top": 721,
+            "width": 606.21875,
+            "x": 76.796875,
+            "y": 721
+          },
+          "opponentDeck": {
+            "bottom": 778.4140625,
+            "height": 40,
+            "left": 398.90625,
+            "right": 670.015625,
+            "top": 738.4140625,
+            "width": 271.109375,
+            "x": 398.90625,
+            "y": 738.4140625
+          },
+          "yourDeck": {
+            "bottom": 778.4140625,
+            "height": 40,
+            "left": 89.796875,
+            "right": 360.90625,
+            "top": 738.4140625,
+            "width": 271.109375,
+            "x": 89.796875,
+            "y": 738.4140625
+          }
+        },
+        "viewport": [
+          1280,
+          800
+        ]
+      },
+      "recommendation": "Keep the action bar below the deck setup or reserve explicit space; test the lobby with long deck descriptions and Resume visible.",
+      "screenshot": "/Users/nicanadian/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mwjfl95c-df0a3ea5.png"
+    },
+    {
+      "priority": "high",
+      "category": "Deck usability / expectation setting",
+      "title": "The full-card Vic pilot lacks a decoder and stealth funding for its own Baker cards",
+      "evidence": {
+        "programs": [
+          "3 Cleaver (Fracter)",
+          "3 Carmen (Killer)",
+          "3 Marjanah (Fracter)",
+          "3 Baker"
+        ],
+        "decoderCount": 0,
+        "stealthSubtypeCards": 0,
+        "notice": "Development benchmark and playtest list; tune the economy and card ratios before drawing balance conclusions."
+      },
+      "impact": "The warning is honest but does not make missing tool coverage obvious before play. My match eventually met Tocsin code gates with no matching breaker; Baker could not supply a practical redirect without stealth credits.",
+      "recommendation": "Separate interaction-test pilots from curated play decks and add deck health hints (ice coverage, economy, unsupported synergies). Do not present this as evidence of competitive deck balance."
+    },
+    {
+      "priority": "medium",
+      "category": "UI clarity",
+      "title": "Facedown access choices do not identify hand/deck cards versus installed server-root cards clearly",
+      "evidence": {
+        "turn": 18,
+        "labels": [
+          "Facedown card",
+          "Facedown card · HQ"
+        ],
+        "result": "Selecting 'Facedown card · HQ' accessed installed Flagship, not the random HQ hand card I expected."
+      },
+      "recommendation": "Use 'Random card from HQ' and 'Unrezzed card in HQ root'; keep hidden identity concealed while exposing legal zone information."
+    },
+    {
+      "priority": "medium",
+      "category": "Information hierarchy / flow",
+      "title": "Unavailable breaker panels and empty windows occupy disproportionate decision space",
+      "evidence": {
+        "turn": 8,
+        "ice": "Tocsin",
+        "ui": [
+          "Carmen: Cannot break this ice; wrong type; disabled Break all · 5 credits",
+          "Cleaver: Cannot break this ice; wrong type; disabled Break all · 6 credits"
+        ],
+        "accessWindow": "No additional ability choices in this window. Use the continuation below when ready."
+      },
+      "recommendation": "Compact unavailable breakers to one reason, hide irrelevant price quotations, and prioritize the active continuation. Preserve the clear explicit 'Finish accessing' label."
+    },
+    {
+      "priority": "medium",
+      "category": "Learning / decision preview",
+      "title": "Action quotes emphasize money and clicks more than non-monetary consequences",
+      "evidence": "I installed zero-credit Borrowed Goods, then needed to clear its installation tag through Vic. The printed card explains it; the install quote itself focused on 1 click / 0 credits.",
+      "recommendation": "Where the engine can quote a guaranteed extra consequence, surface a brief 'takes 1 tag' annotation alongside the install cost. Treat this as onboarding help, not a rules bug."
+    }
+  ],
+  "strengths": [
+    "Distinct Corp/Runner presentation and restrained teal/gold palette",
+    "Public hand counts, clicks, credits and agenda totals are available together",
+    "Full card art and text work from lobby, builder and accessed-card context",
+    "Influence filters explain in-faction versus imported cards",
+    "Character switching shows both keep-cards and starter consequences, with a working cancel",
+    "Wrong-ice-type guidance is explicit and prevents erroneous breaker activation",
+    "Explicit Finish accessing / run phase trail are useful",
+    "No game crash or engine diagnostic in 304 recorded choices"
+  ],
+  "artifacts": {
+    "replay": "docs/playtesting/critics/experienced-game-replay.json",
+    "preConcession": "docs/playtesting/critics/experienced-preconcession-state.json",
+    "lobbyScreenshot": "/Users/nicanadian/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mwjfl95c-df0a3ea5.png",
+    "gameplayScreenshot": "/Users/nicanadian/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mwjfdmhd-9541a281.png"
+  },
+  "limitations": [
+    "One match and one reviewer perspective; no statistical balance conclusion.",
+    "Routine legal DOM-click loops assisted repeated central run/access steps; no engine state injection or direct engine choose calls were used for browser gameplay.",
+    "Pre-concession state was reconstructed afterward from exact recorded choices with version checks and zero native errors.",
+    "Desktop screenshots worked; the attempted mobile resize had not applied before the final read, so mobile visual quality was not evaluated.",
+    "No source edits or fixes were made during this review."
+  ],
+  "browserTabClosed": true
+}

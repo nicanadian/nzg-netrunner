@@ -1,0 +1,75 @@
+{
+  "id": "netrunner-matchup-heatmap",
+  "title": "Tāo · foundation · Runner win rate",
+  "description": "Each bar is an exact Corp deck opponent. The 50% line means equal observed wins. n is completed games.",
+  "height": 310,
+  "spec": {
+    "type": "horizontalBar",
+    "x": "Runner win rate",
+    "y": "Corp deck",
+    "xLabel": "Runner win rate",
+    "yLabel": "Corp opponent · sample size",
+    "xDomain": [
+      0,
+      1
+    ],
+    "showValues": true,
+    "showLegend": false,
+    "sortOrder": "original",
+    "valueFormat": {
+      "style": "percent",
+      "maximumFractionDigits": 0
+    },
+    "referenceLines": [
+      {
+        "axis": "x",
+        "value": 0.5,
+        "label": "Equal wins"
+      }
+    ]
+  },
+  "columns": [
+    "Corp deck",
+    "Runner win rate",
+    "Completed games",
+    "Runner wins",
+    "Corp wins"
+  ],
+  "rows": [
+    [
+      "Weyland · funded · n=54",
+      0.3888888888888889,
+      54,
+      21,
+      33
+    ],
+    [
+      "Jinteki · ambush · n=54",
+      0.3148148148148148,
+      54,
+      17,
+      37
+    ],
+    [
+      "HB · tempo · n=54",
+      0.5,
+      54,
+      27,
+      27
+    ],
+    [
+      "Méliès · campaign · n=54",
+      0.6666666666666666,
+      54,
+      36,
+      18
+    ],
+    [
+      "Editorial · funded · n=54",
+      0.6481481481481481,
+      54,
+      35,
+      19
+    ]
+  ]
+}

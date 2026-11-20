@@ -1,0 +1,263 @@
+{
+  "manifest": {
+    "schemaVersion": 1,
+    "rulesVersion": "26.03-core-2",
+    "engineHash": "f13f5fe6482206473d79bda8ebfb3dbcf9228b369de9136ad452fb8599248ba9",
+    "policy": "pressure-v1",
+    "aiPolicy": "pressure-v1",
+    "runner": {
+      "schemaVersion": 1,
+      "name": "Ryō “Phoenix” Ōno: Out of the Ashes",
+      "side": "runner",
+      "identity": "35001",
+      "pool": "core-v1",
+      "cards": [
+        {
+          "id": "30004",
+          "count": 3
+        },
+        {
+          "id": "30007",
+          "count": 3
+        },
+        {
+          "id": "30008",
+          "count": 2
+        },
+        {
+          "id": "30015",
+          "count": 2
+        },
+        {
+          "id": "30026",
+          "count": 2
+        },
+        {
+          "id": "30028",
+          "count": 3
+        },
+        {
+          "id": "30029",
+          "count": 2
+        },
+        {
+          "id": "30030",
+          "count": 3
+        },
+        {
+          "id": "30033",
+          "count": 2
+        },
+        {
+          "id": "30034",
+          "count": 2
+        },
+        {
+          "id": "35003",
+          "count": 2
+        },
+        {
+          "id": "35004",
+          "count": 2
+        },
+        {
+          "id": "35005",
+          "count": 3
+        },
+        {
+          "id": "35009",
+          "count": 3
+        },
+        {
+          "id": "35011",
+          "count": 3
+        },
+        {
+          "id": "35015",
+          "count": 3
+        },
+        {
+          "id": "35018",
+          "count": 2
+        },
+        {
+          "id": "35034",
+          "count": 3
+        }
+      ],
+      "source": {
+        "url": "https://netrunnerdb.com/en/decklist/074c32b0-6429-49ec-91c1-46dcddba9e4b/-nsg-core-dashing-mad"
+      }
+    },
+    "corp": {
+      "schemaVersion": 1,
+      "name": "Haas-Bioroid: Precision Design",
+      "side": "corp",
+      "identity": "30035",
+      "pool": "core-v1",
+      "cards": [
+        {
+          "id": "30036",
+          "count": 1
+        },
+        {
+          "id": "30038",
+          "count": 1
+        },
+        {
+          "id": "30039",
+          "count": 2
+        },
+        {
+          "id": "30040",
+          "count": 3
+        },
+        {
+          "id": "30042",
+          "count": 3
+        },
+        {
+          "id": "30050",
+          "count": 2
+        },
+        {
+          "id": "30053",
+          "count": 3
+        },
+        {
+          "id": "30056",
+          "count": 1
+        },
+        {
+          "id": "30067",
+          "count": 3
+        },
+        {
+          "id": "30069",
+          "count": 2
+        },
+        {
+          "id": "30071",
+          "count": 2
+        },
+        {
+          "id": "30075",
+          "count": 3
+        },
+        {
+          "id": "35038",
+          "count": 2
+        },
+        {
+          "id": "35039",
+          "count": 2
+        },
+        {
+          "id": "35041",
+          "count": 3
+        },
+        {
+          "id": "35042",
+          "count": 2
+        },
+        {
+          "id": "35045",
+          "count": 2
+        },
+        {
+          "id": "35075",
+          "count": 3
+        },
+        {
+          "id": "35079",
+          "count": 2
+        },
+        {
+          "id": "35082",
+          "count": 2
+        }
+      ],
+      "source": {
+        "url": "https://netrunnerdb.com/en/decklist/b441510e-00e7-42b7-a559-a7eba52b31a4/-nsg-core-brutal-efficiency"
+      }
+    },
+    "runnerHash": "fad58f268be2cc4e61bcf02e8dba8166bf9310453b62f790828d681d1acbd25c",
+    "corpHash": "d4a262e57b5b44abf063af33d192f675063221b73ccab3fb6529676f53432e76",
+    "games": 8,
+    "seed": "pressure-core-smoke",
+    "limits": {
+      "wallMs": 60000,
+      "decisions": 100000
+    },
+    "mode": "fast",
+    "traceEvery": 100,
+    "experimentHash": "fcf531fc1717f85deff5280a1b8d68970cabcb533b3ccb8e9f046f8e5f77217e",
+    "createdAt": "2026-11-17T01:31:29.852Z",
+    "machine": {
+      "platform": "darwin",
+      "arch": "arm64",
+      "node": "v25.2.1",
+      "cpu": "Apple M4"
+    },
+    "workers": 4
+  },
+  "summary": {
+    "jobs": 8,
+    "statuses": {
+      "completed": 8
+    },
+    "wins": {
+      "corp": 7,
+      "runner": 1
+    },
+    "runnerWinRate": 0.125,
+    "runnerWilson95": [
+      0.02241690886329617,
+      0.4708948057698615
+    ],
+    "p50Ms": 401,
+    "p95Ms": 3706,
+    "aiSummary": {
+      "totals": {
+        "runner": {
+          "actions": 390,
+          "gain": 62,
+          "draw": 90,
+          "install": 75,
+          "play": 25,
+          "run": 53,
+          "advance": 0,
+          "score": 0,
+          "overrides": 3,
+          "idleWithAgenda": 0,
+          "scoreOffered": 0,
+          "scoreTaken": 0,
+          "runs": 69,
+          "probesConsidered": 107,
+          "probesRejected": 104
+        },
+        "corp": {
+          "actions": 335,
+          "gain": 36,
+          "draw": 30,
+          "install": 96,
+          "play": 27,
+          "run": 0,
+          "advance": 84,
+          "score": 23,
+          "overrides": 38,
+          "idleWithAgenda": 21,
+          "scoreOffered": 23,
+          "scoreTaken": 23,
+          "runs": 0,
+          "probesConsidered": 0,
+          "probesRejected": 0
+        }
+      },
+      "averageRunnerRuns": 8.625,
+      "lowPressureGames": 0
+    },
+    "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+    "experimentHash": "fcf531fc1717f85deff5280a1b8d68970cabcb533b3ccb8e9f046f8e5f77217e"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "runner": {
+    "cards": [
+      {
+        "count": 3,
+        "id": "30020"
+      },
+      {
+        "count": 3,
+        "id": "30021"
+      },
+      {
+        "count": 3,
+        "id": "30022"
+      },
+      {
+        "count": 1,
+        "id": "30023"
+      },
+      {
+        "count": 2,
+        "id": "30024"
+      },
+      {
+        "count": 3,
+        "id": "30025"
+      },
+      {
+        "count": 3,
+        "id": "30026"
+      },
+      {
+        "count": 3,
+        "id": "30027"
+      },
+      {
+        "count": 3,
+        "id": "30028"
+      },
+      {
+        "count": 3,
+        "id": "30029"
+      },
+      {
+        "count": 3,
+        "id": "30030"
+      },
+      {
+        "count": 3,
+        "id": "36004"
+      },
+      {
+        "count": 2,
+        "id": "36013"
+      },
+      {
+        "count": 3,
+        "id": "36021"
+      },
+      {
+        "count": 2,
+        "id": "36024"
+      }
+    ],
+    "identity": "30019",
+    "name": "Suite Dependency 19Nov",
+    "pool": "vantage-preview-v1",
+    "schemaVersion": 1,
+    "side": "runner"
+  },
+  "corp": {
+    "cards": [
+      {
+        "count": 1,
+        "id": "30036"
+      },
+      {
+        "count": 3,
+        "id": "30037"
+      },
+      {
+        "count": 2,
+        "id": "30038"
+      },
+      {
+        "count": 2,
+        "id": "30039"
+      },
+      {
+        "count": 3,
+        "id": "30040"
+      },
+      {
+        "count": 1,
+        "id": "30042"
+      },
+      {
+        "count": 1,
+        "id": "30048"
+      },
+      {
+        "count": 2,
+        "id": "30053"
+      },
+      {
+        "count": 3,
+        "id": "30067"
+      },
+      {
+        "count": 2,
+        "id": "30068"
+      },
+      {
+        "count": 1,
+        "id": "30069"
+      },
+      {
+        "count": 3,
+        "id": "30070"
+      },
+      {
+        "count": 3,
+        "id": "30071"
+      },
+      {
+        "count": 3,
+        "id": "30072"
+      },
+      {
+        "count": 3,
+        "id": "30073"
+      },
+      {
+        "count": 3,
+        "id": "30075"
+      },
+      {
+        "count": 1,
+        "id": "36030"
+      },
+      {
+        "count": 1,
+        "id": "36031"
+      },
+      {
+        "count": 1,
+        "id": "36032"
+      },
+      {
+        "count": 1,
+        "id": "36042"
+      }
+    ],
+    "identity": "30035",
+    "name": "Precision Design · Tempo and recycling",
+    "pool": "vantage-preview-v1",
+    "schemaVersion": 1,
+    "side": "corp"
+  },
+  "revision": {
+    "removed": {
+      "30023": 1
+    },
+    "added": {
+      "30022": 1
+    },
+    "reason": "Earlier program-install discounts and +1 MU availability for full breaker rig plus Conduit; opportunity cost is one Pantograph's agenda-triggered draw/install utility. No demonstrated balance improvement."
+  }
+}

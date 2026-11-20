@@ -1,0 +1,643 @@
+[
+  {
+    "stage": "R2-original-after-two-credit-actions",
+    "final": {
+      "diagnostics": [],
+      "points": {
+        "corp": 0,
+        "runner": 0
+      },
+      "terminal": null,
+      "turn": 2,
+      "version": 41
+    },
+    "session": {
+      "choices": [
+        {
+          "command": "n",
+          "index": 0,
+          "version": 2
+        },
+        {
+          "command": "gain",
+          "index": 0,
+          "version": 37
+        },
+        {
+          "command": "gain",
+          "index": 0,
+          "version": 39
+        }
+      ],
+      "conceded": false,
+      "config": {
+        "aiPolicy": "pressure-v1",
+        "cardPool": "core-v1",
+        "deckDocuments": {
+          "corp": {
+            "cards": [
+              {
+                "count": 1,
+                "id": "30036"
+              },
+              {
+                "count": 1,
+                "id": "30038"
+              },
+              {
+                "count": 2,
+                "id": "30039"
+              },
+              {
+                "count": 3,
+                "id": "30040"
+              },
+              {
+                "count": 3,
+                "id": "30042"
+              },
+              {
+                "count": 2,
+                "id": "30050"
+              },
+              {
+                "count": 3,
+                "id": "30053"
+              },
+              {
+                "count": 1,
+                "id": "30056"
+              },
+              {
+                "count": 3,
+                "id": "30067"
+              },
+              {
+                "count": 2,
+                "id": "30069"
+              },
+              {
+                "count": 2,
+                "id": "30071"
+              },
+              {
+                "count": 3,
+                "id": "30075"
+              },
+              {
+                "count": 2,
+                "id": "35038"
+              },
+              {
+                "count": 2,
+                "id": "35039"
+              },
+              {
+                "count": 3,
+                "id": "35041"
+              },
+              {
+                "count": 2,
+                "id": "35042"
+              },
+              {
+                "count": 2,
+                "id": "35045"
+              },
+              {
+                "count": 3,
+                "id": "35075"
+              },
+              {
+                "count": 2,
+                "id": "35079"
+              },
+              {
+                "count": 2,
+                "id": "35082"
+              }
+            ],
+            "identity": "30035",
+            "name": "Brutal Efficiency",
+            "pool": "core-v1",
+            "schemaVersion": 1,
+            "side": "corp",
+            "source": {
+              "url": "https://netrunnerdb.com/en/decklist/b441510e-00e7-42b7-a559-a7eba52b31a4/-nsg-core-brutal-efficiency"
+            }
+          },
+          "runner": {
+            "cards": [
+              {
+                "count": 3,
+                "id": "30004"
+              },
+              {
+                "count": 3,
+                "id": "30007"
+              },
+              {
+                "count": 3,
+                "id": "30008"
+              },
+              {
+                "count": 2,
+                "id": "30015"
+              },
+              {
+                "count": 2,
+                "id": "30026"
+              },
+              {
+                "count": 3,
+                "id": "30028"
+              },
+              {
+                "count": 2,
+                "id": "30029"
+              },
+              {
+                "count": 3,
+                "id": "30030"
+              },
+              {
+                "count": 2,
+                "id": "30033"
+              },
+              {
+                "count": 2,
+                "id": "30034"
+              },
+              {
+                "count": 1,
+                "id": "35003"
+              },
+              {
+                "count": 2,
+                "id": "35004"
+              },
+              {
+                "count": 3,
+                "id": "35005"
+              },
+              {
+                "count": 3,
+                "id": "35009"
+              },
+              {
+                "count": 3,
+                "id": "35011"
+              },
+              {
+                "count": 3,
+                "id": "35015"
+              },
+              {
+                "count": 2,
+                "id": "35018"
+              },
+              {
+                "count": 3,
+                "id": "35034"
+              }
+            ],
+            "identity": "35001",
+            "name": "Suite Returning 19Nov",
+            "pool": "core-v1",
+            "schemaVersion": 1,
+            "side": "runner",
+            "source": {
+              "url": "https://netrunnerdb.com/en/decklist/074c32b0-6429-49ec-91c1-46dcddba9e4b/-nsg-core-dashing-mad"
+            }
+          }
+        },
+        "rulesVersion": "26.03-core-2",
+        "seed": "559f0b6f-309a-4f87-896a-1daef7f6c967",
+        "side": "runner"
+      },
+      "engine": "chiriboga-core-c863f5a-local-2"
+    }
+  },
+  {
+    "stage": "R3-resumed-after-later-library-edit",
+    "session": {
+      "choices": [
+        {
+          "command": "n",
+          "index": 0,
+          "version": 2
+        },
+        {
+          "command": "gain",
+          "index": 0,
+          "version": 37
+        },
+        {
+          "command": "gain",
+          "index": 0,
+          "version": 39
+        }
+      ],
+      "conceded": false,
+      "config": {
+        "aiPolicy": "pressure-v1",
+        "cardPool": "core-v1",
+        "deckDocuments": {
+          "corp": {
+            "cards": [
+              {
+                "count": 1,
+                "id": "30036"
+              },
+              {
+                "count": 1,
+                "id": "30038"
+              },
+              {
+                "count": 2,
+                "id": "30039"
+              },
+              {
+                "count": 3,
+                "id": "30040"
+              },
+              {
+                "count": 3,
+                "id": "30042"
+              },
+              {
+                "count": 2,
+                "id": "30050"
+              },
+              {
+                "count": 3,
+                "id": "30053"
+              },
+              {
+                "count": 1,
+                "id": "30056"
+              },
+              {
+                "count": 3,
+                "id": "30067"
+              },
+              {
+                "count": 2,
+                "id": "30069"
+              },
+              {
+                "count": 2,
+                "id": "30071"
+              },
+              {
+                "count": 3,
+                "id": "30075"
+              },
+              {
+                "count": 2,
+                "id": "35038"
+              },
+              {
+                "count": 2,
+                "id": "35039"
+              },
+              {
+                "count": 3,
+                "id": "35041"
+              },
+              {
+                "count": 2,
+                "id": "35042"
+              },
+              {
+                "count": 2,
+                "id": "35045"
+              },
+              {
+                "count": 3,
+                "id": "35075"
+              },
+              {
+                "count": 2,
+                "id": "35079"
+              },
+              {
+                "count": 2,
+                "id": "35082"
+              }
+            ],
+            "identity": "30035",
+            "name": "Brutal Efficiency",
+            "pool": "core-v1",
+            "schemaVersion": 1,
+            "side": "corp",
+            "source": {
+              "url": "https://netrunnerdb.com/en/decklist/b441510e-00e7-42b7-a559-a7eba52b31a4/-nsg-core-brutal-efficiency"
+            }
+          },
+          "runner": {
+            "cards": [
+              {
+                "count": 3,
+                "id": "30004"
+              },
+              {
+                "count": 3,
+                "id": "30007"
+              },
+              {
+                "count": 3,
+                "id": "30008"
+              },
+              {
+                "count": 2,
+                "id": "30015"
+              },
+              {
+                "count": 2,
+                "id": "30026"
+              },
+              {
+                "count": 3,
+                "id": "30028"
+              },
+              {
+                "count": 2,
+                "id": "30029"
+              },
+              {
+                "count": 3,
+                "id": "30030"
+              },
+              {
+                "count": 2,
+                "id": "30033"
+              },
+              {
+                "count": 2,
+                "id": "30034"
+              },
+              {
+                "count": 1,
+                "id": "35003"
+              },
+              {
+                "count": 2,
+                "id": "35004"
+              },
+              {
+                "count": 3,
+                "id": "35005"
+              },
+              {
+                "count": 3,
+                "id": "35009"
+              },
+              {
+                "count": 3,
+                "id": "35011"
+              },
+              {
+                "count": 3,
+                "id": "35015"
+              },
+              {
+                "count": 2,
+                "id": "35018"
+              },
+              {
+                "count": 3,
+                "id": "35034"
+              }
+            ],
+            "identity": "35001",
+            "name": "Suite Returning 19Nov",
+            "pool": "core-v1",
+            "schemaVersion": 1,
+            "side": "runner",
+            "source": {
+              "url": "https://netrunnerdb.com/en/decklist/074c32b0-6429-49ec-91c1-46dcddba9e4b/-nsg-core-dashing-mad"
+            }
+          }
+        },
+        "rulesVersion": "26.03-core-2",
+        "seed": "559f0b6f-309a-4f87-896a-1daef7f6c967",
+        "side": "runner"
+      },
+      "engine": "chiriboga-core-c863f5a-local-2"
+    },
+    "final": {
+      "diagnostics": [],
+      "points": {
+        "corp": 0,
+        "runner": 0
+      },
+      "terminal": null,
+      "turn": 2,
+      "version": 41
+    }
+  },
+  {
+    "stage": "R3-fresh-game-revised-list-opening-hand",
+    "session": {
+      "choices": [],
+      "conceded": false,
+      "config": {
+        "aiPolicy": "pressure-v1",
+        "cardPool": "core-v1",
+        "deckDocuments": {
+          "corp": {
+            "cards": [
+              {
+                "count": 1,
+                "id": "30036"
+              },
+              {
+                "count": 1,
+                "id": "30038"
+              },
+              {
+                "count": 2,
+                "id": "30039"
+              },
+              {
+                "count": 3,
+                "id": "30040"
+              },
+              {
+                "count": 3,
+                "id": "30042"
+              },
+              {
+                "count": 2,
+                "id": "30050"
+              },
+              {
+                "count": 3,
+                "id": "30053"
+              },
+              {
+                "count": 1,
+                "id": "30056"
+              },
+              {
+                "count": 3,
+                "id": "30067"
+              },
+              {
+                "count": 2,
+                "id": "30069"
+              },
+              {
+                "count": 2,
+                "id": "30071"
+              },
+              {
+                "count": 3,
+                "id": "30075"
+              },
+              {
+                "count": 2,
+                "id": "35038"
+              },
+              {
+                "count": 2,
+                "id": "35039"
+              },
+              {
+                "count": 3,
+                "id": "35041"
+              },
+              {
+                "count": 2,
+                "id": "35042"
+              },
+              {
+                "count": 2,
+                "id": "35045"
+              },
+              {
+                "count": 3,
+                "id": "35075"
+              },
+              {
+                "count": 2,
+                "id": "35079"
+              },
+              {
+                "count": 2,
+                "id": "35082"
+              }
+            ],
+            "identity": "30035",
+            "name": "Brutal Efficiency",
+            "pool": "core-v1",
+            "schemaVersion": 1,
+            "side": "corp",
+            "source": {
+              "url": "https://netrunnerdb.com/en/decklist/b441510e-00e7-42b7-a559-a7eba52b31a4/-nsg-core-brutal-efficiency"
+            }
+          },
+          "runner": {
+            "cards": [
+              {
+                "count": 3,
+                "id": "30004"
+              },
+              {
+                "count": 3,
+                "id": "30007"
+              },
+              {
+                "count": 3,
+                "id": "30008"
+              },
+              {
+                "count": 2,
+                "id": "30015"
+              },
+              {
+                "count": 2,
+                "id": "30026"
+              },
+              {
+                "count": 3,
+                "id": "30028"
+              },
+              {
+                "count": 2,
+                "id": "30029"
+              },
+              {
+                "count": 3,
+                "id": "30030"
+              },
+              {
+                "count": 3,
+                "id": "30033"
+              },
+              {
+                "count": 2,
+                "id": "30034"
+              },
+              {
+                "count": 1,
+                "id": "35003"
+              },
+              {
+                "count": 1,
+                "id": "35004"
+              },
+              {
+                "count": 3,
+                "id": "35005"
+              },
+              {
+                "count": 3,
+                "id": "35009"
+              },
+              {
+                "count": 3,
+                "id": "35011"
+              },
+              {
+                "count": 3,
+                "id": "35015"
+              },
+              {
+                "count": 2,
+                "id": "35018"
+              },
+              {
+                "count": 3,
+                "id": "35034"
+              }
+            ],
+            "identity": "35001",
+            "name": "Suite Returning 19Nov",
+            "pool": "core-v1",
+            "schemaVersion": 1,
+            "side": "runner",
+            "source": {
+              "url": "https://netrunnerdb.com/en/decklist/074c32b0-6429-49ec-91c1-46dcddba9e4b/-nsg-core-dashing-mad"
+            }
+          }
+        },
+        "rulesVersion": "26.03-core-2",
+        "seed": "24aa5b03-38be-46df-83bf-d1b83c9a7945",
+        "side": "runner"
+      },
+      "engine": "chiriboga-core-c863f5a-local-2"
+    },
+    "final": {
+      "diagnostics": [],
+      "points": {
+        "corp": 0,
+        "runner": 0
+      },
+      "terminal": null,
+      "turn": 1,
+      "version": 2
+    }
+  }
+]

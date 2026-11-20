@@ -1,0 +1,1974 @@
+{
+  "overflow": false,
+  "session": {
+    "choices": [
+      {
+        "command": "n",
+        "index": 0,
+        "version": 2
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 33
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 34
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 51
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 56
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 60
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 61
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 62
+      },
+      {
+        "command": "steal",
+        "index": 0,
+        "version": 63
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 68
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 71
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 72
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 75
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 80
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 84
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 85
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 86
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 87
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 91
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 92
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 95
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 100
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 104
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 105
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 106
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 107
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 113
+      },
+      {
+        "command": "install",
+        "index": 3,
+        "version": 147
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 150
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 153
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 168
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 175
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 176
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 220
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 223
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 236
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 243
+      },
+      {
+        "command": "steal",
+        "index": 0,
+        "version": 244
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 249
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 262
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 269
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 270
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 311
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 314
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 327
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 335
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 339
+      },
+      {
+        "command": "steal",
+        "index": 0,
+        "version": 340
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 342
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 343
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 347
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 360
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 366
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 370
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 371
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 372
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 373
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 412
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 414
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 427
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 433
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 439
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 452
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 458
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 504
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 517
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 523
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 527
+      },
+      {
+        "command": "steal",
+        "index": 0,
+        "version": 528
+      }
+    ],
+    "conceded": false,
+    "config": {
+      "cardPool": "vantage-preview-v1",
+      "deckDocuments": {
+        "corp": {
+          "cards": [
+            {
+              "count": 1,
+              "id": "30036"
+            },
+            {
+              "count": 3,
+              "id": "30037"
+            },
+            {
+              "count": 2,
+              "id": "30038"
+            },
+            {
+              "count": 2,
+              "id": "30039"
+            },
+            {
+              "count": 3,
+              "id": "30040"
+            },
+            {
+              "count": 1,
+              "id": "30042"
+            },
+            {
+              "count": 1,
+              "id": "30048"
+            },
+            {
+              "count": 2,
+              "id": "30053"
+            },
+            {
+              "count": 3,
+              "id": "30067"
+            },
+            {
+              "count": 2,
+              "id": "30068"
+            },
+            {
+              "count": 1,
+              "id": "30069"
+            },
+            {
+              "count": 3,
+              "id": "30070"
+            },
+            {
+              "count": 3,
+              "id": "30071"
+            },
+            {
+              "count": 3,
+              "id": "30072"
+            },
+            {
+              "count": 3,
+              "id": "30073"
+            },
+            {
+              "count": 3,
+              "id": "30075"
+            },
+            {
+              "count": 1,
+              "id": "36030"
+            },
+            {
+              "count": 1,
+              "id": "36031"
+            },
+            {
+              "count": 1,
+              "id": "36032"
+            },
+            {
+              "count": 1,
+              "id": "36042"
+            }
+          ],
+          "identity": "30035",
+          "name": "Precision Design · Tempo and recycling",
+          "pool": "vantage-preview-v1",
+          "schemaVersion": 1,
+          "side": "corp"
+        },
+        "runner": {
+          "cards": [
+            {
+              "count": 2,
+              "id": "30004"
+            },
+            {
+              "count": 3,
+              "id": "30005"
+            },
+            {
+              "count": 3,
+              "id": "30011"
+            },
+            {
+              "count": 3,
+              "id": "30012"
+            },
+            {
+              "count": 2,
+              "id": "30013"
+            },
+            {
+              "count": 2,
+              "id": "30014"
+            },
+            {
+              "count": 3,
+              "id": "30015"
+            },
+            {
+              "count": 3,
+              "id": "30016"
+            },
+            {
+              "count": 2,
+              "id": "30017"
+            },
+            {
+              "count": 3,
+              "id": "30018"
+            },
+            {
+              "count": 3,
+              "id": "30027"
+            },
+            {
+              "count": 3,
+              "id": "30028"
+            },
+            {
+              "count": 3,
+              "id": "30029"
+            },
+            {
+              "count": 3,
+              "id": "30030"
+            },
+            {
+              "count": 2,
+              "id": "30034"
+            },
+            {
+              "count": 3,
+              "id": "36012"
+            },
+            {
+              "count": 2,
+              "id": "36013"
+            }
+          ],
+          "identity": "36009",
+          "name": "Vic · Central pressure",
+          "pool": "vantage-preview-v1",
+          "schemaVersion": 1,
+          "side": "runner"
+        }
+      },
+      "rulesVersion": "26.03-vantage-2",
+      "seed": "1f42daed-da3b-4e44-9777-e92f44ebc018",
+      "side": "runner"
+    },
+    "engine": "local-vantage-preview-2"
+  },
+  "state": {
+    "access": null,
+    "active": "runner",
+    "agendaPointTarget": 7,
+    "assistance": null,
+    "corp": {
+      "badPublicity": 0,
+      "clicks": 0,
+      "credits": 10,
+      "deck": 23,
+      "discard": [
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c41",
+          "installed": false,
+          "number": 36042,
+          "rezzed": true,
+          "side": "corp",
+          "strength": 3,
+          "subTypes": [
+            "Trap",
+            "AP",
+            "Observer"
+          ],
+          "subroutines": [
+            {
+              "broken": false,
+              "fired": true,
+              "text": "Do X net damage and give the Runner X tags. X is equal to the number of tags the Runner has."
+            },
+            {
+              "broken": false,
+              "fired": true,
+              "text": "Give the Runner 1 tag. Trash this ice."
+            }
+          ],
+          "title": "Vicsek",
+          "type": "ice"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c37",
+          "installed": false,
+          "number": 30075,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Transaction"
+          ],
+          "subroutines": [],
+          "title": "Hedge Fund",
+          "type": "operation"
+        }
+      ],
+      "hand": [
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c16",
+          "installed": false,
+          "rezzed": false,
+          "side": "corp"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c26",
+          "installed": false,
+          "rezzed": false,
+          "side": "corp"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c10",
+          "installed": false,
+          "rezzed": false,
+          "side": "corp"
+        }
+      ],
+      "identity": {
+        "advancement": 0,
+        "advancementRequirement": null,
+        "canScore": false,
+        "counters": {},
+        "faceUp": true,
+        "hidden": false,
+        "hosted": [],
+        "id": "c1",
+        "installed": false,
+        "number": 30035,
+        "rezzed": false,
+        "side": "corp",
+        "strength": null,
+        "subTypes": [
+          "Megacorp"
+        ],
+        "subroutines": [],
+        "title": "Haas-Bioroid: Precision Design",
+        "type": "identity"
+      },
+      "maxHand": 6,
+      "points": 2,
+      "resolving": [],
+      "score": [
+        {
+          "advancement": 0,
+          "advancementRequirement": 4,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c17",
+          "installed": false,
+          "number": 30067,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Expansion"
+          ],
+          "subroutines": [],
+          "title": "Offworld Office",
+          "type": "agenda"
+        }
+      ],
+      "servers": [
+        {
+          "central": true,
+          "ice": [
+            {
+              "advancement": 0,
+              "faceUp": false,
+              "hidden": true,
+              "hosted": [],
+              "id": "c38",
+              "installed": true,
+              "rezzed": false,
+              "side": "corp"
+            }
+          ],
+          "name": "HQ",
+          "root": []
+        },
+        {
+          "central": true,
+          "ice": [
+            {
+              "advancement": 0,
+              "advancementRequirement": null,
+              "canScore": false,
+              "counters": {},
+              "faceUp": true,
+              "hidden": false,
+              "hosted": [],
+              "id": "c39",
+              "installed": true,
+              "number": 36031,
+              "rezzed": true,
+              "side": "corp",
+              "strength": 1,
+              "subTypes": [
+                "Code Gate"
+              ],
+              "subroutines": [
+                {
+                  "broken": false,
+                  "fired": true,
+                  "text": "The Runner loses Click."
+                }
+              ],
+              "title": "Vertigo",
+              "type": "ice"
+            }
+          ],
+          "name": "R&D",
+          "root": [
+            {
+              "advancement": 0,
+              "advancementRequirement": null,
+              "canScore": false,
+              "counters": {},
+              "faceUp": true,
+              "hidden": false,
+              "hosted": [],
+              "id": "c13",
+              "installed": true,
+              "number": 30042,
+              "rezzed": true,
+              "side": "corp",
+              "strength": null,
+              "subTypes": [],
+              "subroutines": [],
+              "title": "Manegarm Skunkworks",
+              "type": "upgrade"
+            }
+          ]
+        },
+        {
+          "central": true,
+          "ice": [],
+          "name": "Archives",
+          "root": []
+        },
+        {
+          "central": false,
+          "ice": [
+            {
+              "advancement": 0,
+              "faceUp": false,
+              "hidden": true,
+              "hosted": [],
+              "id": "c33",
+              "installed": true,
+              "rezzed": false,
+              "side": "corp"
+            },
+            {
+              "advancement": 0,
+              "faceUp": false,
+              "hidden": true,
+              "hosted": [],
+              "id": "c8",
+              "installed": true,
+              "rezzed": false,
+              "side": "corp"
+            }
+          ],
+          "name": "Remote 0",
+          "root": [
+            {
+              "advancement": 0,
+              "advancementRequirement": null,
+              "canScore": false,
+              "counters": {
+                "credits": 6
+              },
+              "faceUp": true,
+              "hidden": false,
+              "hosted": [],
+              "id": "c3",
+              "installed": true,
+              "number": 30037,
+              "rezzed": true,
+              "side": "corp",
+              "strength": null,
+              "subTypes": [
+                "Advertisement"
+              ],
+              "subroutines": [],
+              "title": "Nico Campaign",
+              "type": "asset"
+            }
+          ]
+        },
+        {
+          "central": false,
+          "ice": [
+            {
+              "advancement": 0,
+              "faceUp": false,
+              "hidden": true,
+              "hosted": [],
+              "id": "c34",
+              "installed": true,
+              "rezzed": false,
+              "side": "corp"
+            }
+          ],
+          "name": "Remote 1",
+          "root": []
+        }
+      ],
+      "side": "corp"
+    },
+    "decision": null,
+    "diagnostics": [],
+    "history": [
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 4
+      },
+      {
+        "side": "runner",
+        "text": "Run initiated attacking R&D",
+        "turn": 4
+      },
+      {
+        "side": "runner",
+        "text": "Approaching outermost piece of ice protecting R&D",
+        "turn": 4
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Corp spent 1 credit from credit pool",
+        "turn": 4
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Corp rezzed Vertigo protecting R&D at position 0",
+        "turn": 4
+      },
+      {
+        "side": "runner",
+        "text": "Encountering Vertigo protecting R&D at position 0",
+        "turn": 4
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Firing \"The Runner loses Click.\" on Vertigo protecting R&D at position 0:",
+        "turn": 4
+      },
+      {
+        "side": "runner",
+        "text": "Runner lost 1 click",
+        "turn": 4
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Vertigo: Runner cannot steal or trash Corp cards for the remainder of this run",
+        "turn": 4
+      },
+      {
+        "side": "runner",
+        "text": "Approaching R&D",
+        "turn": 4
+      },
+      {
+        "side": "runner",
+        "text": "Run successful",
+        "turn": 4
+      },
+      {
+        "side": "runner",
+        "text": "Seamless Launch accessed",
+        "turn": 4
+      },
+      {
+        "side": "runner",
+        "text": "Run ends",
+        "turn": 4
+      },
+      {
+        "draw": {
+          "kind": "mandatory"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 5
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 5
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 1 credit from credit pool",
+        "turn": 5
+      },
+      {
+        "side": "corp",
+        "text": "Card advanced",
+        "turn": 5
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 5
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 1 credit from credit pool",
+        "turn": 5
+      },
+      {
+        "side": "corp",
+        "text": "Card advanced",
+        "turn": 5
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 5
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 1 credit from credit pool",
+        "turn": 5
+      },
+      {
+        "side": "corp",
+        "text": "Played \"Seamless Launch\"",
+        "turn": 5
+      },
+      {
+        "side": "corp",
+        "text": "2 advancement tokens placed on hidden card",
+        "turn": 5
+      },
+      {
+        "side": "corp",
+        "text": "Offworld Office scored",
+        "turn": 5
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained 7 credits",
+        "turn": 5
+      },
+      {
+        "side": "corp",
+        "text": "You may add 1 card from Archives to HQ triggered",
+        "turn": 5
+      },
+      {
+        "side": "corp",
+        "text": "Seamless Launch added to HQ from Archives",
+        "turn": 5
+      },
+      {
+        "side": "runner",
+        "text": "Using Telework Contract:",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "3 credits taken from Telework Contract",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Run initiated attacking R&D",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Approaching outermost piece of ice protecting R&D",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Encountering Vertigo protecting R&D at position 0",
+        "turn": 6
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Firing \"The Runner loses Click.\" on Vertigo protecting R&D at position 0:",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Runner lost 1 click",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Approaching R&D",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Run successful",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Offworld Office accessed",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Offworld Office stolen",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Run ends",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Run initiated attacking R&D",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Approaching outermost piece of ice protecting R&D",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Encountering Vertigo protecting R&D at position 0",
+        "turn": 6
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Firing \"The Runner loses Click.\" on Vertigo protecting R&D at position 0:",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Runner lost no clicks",
+        "turn": 6
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Vertigo: Runner cannot steal or trash Corp cards for the remainder of this run",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Approaching R&D",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Run successful",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Hedge Fund accessed",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Run ends",
+        "turn": 6
+      },
+      {
+        "draw": {
+          "kind": "mandatory"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 7
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 7
+      },
+      {
+        "side": "corp",
+        "text": "Corp installed ice protecting HQ",
+        "turn": 7
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 7
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 5 credits from credit pool",
+        "turn": 7
+      },
+      {
+        "side": "corp",
+        "text": "Played \"Hedge Fund\"",
+        "turn": 7
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained 9 credits",
+        "turn": 7
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 7
+      },
+      {
+        "side": "corp",
+        "text": "Corp installed a card in root of R&D",
+        "turn": 7
+      },
+      {
+        "side": "runner",
+        "text": "Using Telework Contract:",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "3 credits taken from Telework Contract",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Telework Contract trashed",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Run initiated attacking R&D",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Approaching outermost piece of ice protecting R&D",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Encountering Vertigo protecting R&D at position 0",
+        "turn": 8
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Firing \"The Runner loses Click.\" on Vertigo protecting R&D at position 0:",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Runner lost 1 click",
+        "turn": 8
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Corp spent 2 credits from credit pool",
+        "turn": 8
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Corp rezzed Manegarm Skunkworks",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Approaching R&D",
+        "turn": 8
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Whenever the Runner approaches this server triggered",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 5 credits from credit pool",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Run successful",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Orbital Superiority accessed",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Orbital Superiority stolen",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Manegarm Skunkworks accessed",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Run ends",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Run initiated attacking R&D",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Approaching outermost piece of ice protecting R&D",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Encountering Vertigo protecting R&D at position 0",
+        "turn": 8
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Firing \"The Runner loses Click.\" on Vertigo protecting R&D at position 0:",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Runner lost no clicks",
+        "turn": 8
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Vertigo: Runner cannot steal or trash Corp cards for the remainder of this run",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Approaching R&D",
+        "turn": 8
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Whenever the Runner approaches this server triggered",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 5 credits from credit pool",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Run successful",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Nico Campaign accessed",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Manegarm Skunkworks accessed",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Run ends",
+        "turn": 8
+      },
+      {
+        "draw": {
+          "kind": "mandatory"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 9
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 9
+      },
+      {
+        "side": "corp",
+        "text": "Corp installed a card in root of a remote server",
+        "turn": 9
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 9
+      },
+      {
+        "draw": {
+          "kind": "action"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 9
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 9
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained one credit",
+        "turn": 9
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 10
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained one credit",
+        "turn": 10
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 10
+      },
+      {
+        "side": "runner",
+        "text": "Run initiated attacking R&D",
+        "turn": 10
+      },
+      {
+        "side": "runner",
+        "text": "Approaching outermost piece of ice protecting R&D",
+        "turn": 10
+      },
+      {
+        "side": "runner",
+        "text": "Encountering Vertigo protecting R&D at position 0",
+        "turn": 10
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Firing \"The Runner loses Click.\" on Vertigo protecting R&D at position 0:",
+        "turn": 10
+      },
+      {
+        "side": "runner",
+        "text": "Runner lost 1 click",
+        "turn": 10
+      },
+      {
+        "side": "runner",
+        "text": "Approaching R&D",
+        "turn": 10
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Whenever the Runner approaches this server triggered",
+        "turn": 10
+      },
+      {
+        "side": "runner",
+        "text": "Run ends",
+        "turn": 10
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 10
+      },
+      {
+        "side": "runner",
+        "text": "Run initiated attacking R&D",
+        "turn": 10
+      },
+      {
+        "side": "runner",
+        "text": "Approaching outermost piece of ice protecting R&D",
+        "turn": 10
+      },
+      {
+        "side": "runner",
+        "text": "Encountering Vertigo protecting R&D at position 0",
+        "turn": 10
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Firing \"The Runner loses Click.\" on Vertigo protecting R&D at position 0:",
+        "turn": 10
+      },
+      {
+        "side": "runner",
+        "text": "Runner lost no clicks",
+        "turn": 10
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Vertigo: Runner cannot steal or trash Corp cards for the remainder of this run",
+        "turn": 10
+      },
+      {
+        "side": "runner",
+        "text": "Approaching R&D",
+        "turn": 10
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Whenever the Runner approaches this server triggered",
+        "turn": 10
+      },
+      {
+        "side": "runner",
+        "text": "Run ends",
+        "turn": 10
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Corp spent 2 credits from credit pool",
+        "turn": 10
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Corp rezzed Nico Campaign",
+        "turn": 10
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "9 credits loaded onto Nico Campaign",
+        "turn": 10
+      },
+      {
+        "side": "corp",
+        "text": "3 credits taken from Nico Campaign",
+        "turn": 11
+      },
+      {
+        "draw": {
+          "kind": "mandatory"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 11
+      },
+      {
+        "side": "corp",
+        "text": "Corp created a new remote server",
+        "turn": 11
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 11
+      },
+      {
+        "side": "corp",
+        "text": "Corp installed ice protecting a remote server",
+        "turn": 11
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 11
+      },
+      {
+        "draw": {
+          "kind": "action"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 11
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 11
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 1 credit from credit pool",
+        "turn": 11
+      },
+      {
+        "side": "corp",
+        "text": "Corp installed ice protecting a remote server",
+        "turn": 11
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 12
+      },
+      {
+        "side": "runner",
+        "text": "Run initiated attacking R&D",
+        "turn": 12
+      },
+      {
+        "side": "runner",
+        "text": "Approaching outermost piece of ice protecting R&D",
+        "turn": 12
+      },
+      {
+        "side": "runner",
+        "text": "Encountering Vertigo protecting R&D at position 0",
+        "turn": 12
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Firing \"The Runner loses Click.\" on Vertigo protecting R&D at position 0:",
+        "turn": 12
+      },
+      {
+        "side": "runner",
+        "text": "Runner lost 1 click",
+        "turn": 12
+      },
+      {
+        "side": "runner",
+        "text": "Approaching R&D",
+        "turn": 12
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Whenever the Runner approaches this server triggered",
+        "turn": 12
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 2 clicks",
+        "turn": 12
+      },
+      {
+        "side": "runner",
+        "text": "Run successful",
+        "turn": 12
+      },
+      {
+        "side": "runner",
+        "text": "Offworld Office accessed",
+        "turn": 12
+      },
+      {
+        "side": "runner",
+        "text": "Offworld Office stolen",
+        "turn": 12
+      },
+      {
+        "side": "runner",
+        "text": "Runner reached 7 agenda points.",
+        "turn": 12
+      }
+    ],
+    "historyCount": 217,
+    "installation": null,
+    "phase": {
+      "identifier": "Run Accessing",
+      "source": null,
+      "title": "Run: Access"
+    },
+    "playerTurn": "runner",
+    "quietWindow": false,
+    "rulesVersion": "26.03-vantage-2",
+    "run": {
+      "card": null,
+      "encountering": false,
+      "ice": -1,
+      "movement": false,
+      "restrictions": [],
+      "server": "R&D",
+      "tools": []
+    },
+    "runner": {
+      "clicks": 0,
+      "coreDamage": 0,
+      "credits": 3,
+      "deck": 36,
+      "discard": [
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c73",
+          "installed": false,
+          "number": 30028,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [
+            "Run"
+          ],
+          "subroutines": [],
+          "title": "Jailbreak",
+          "type": "event"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c72",
+          "installed": false,
+          "number": 30028,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [
+            "Run"
+          ],
+          "subroutines": [],
+          "title": "Jailbreak",
+          "type": "event"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c74",
+          "installed": false,
+          "number": 30028,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [
+            "Run"
+          ],
+          "subroutines": [],
+          "title": "Jailbreak",
+          "type": "event"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c43",
+          "installed": false,
+          "number": 30004,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [
+            "Virus"
+          ],
+          "subroutines": [],
+          "title": "Botulus",
+          "type": "program"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c69",
+          "installed": false,
+          "number": 30027,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [
+            "Job"
+          ],
+          "subroutines": [],
+          "title": "Telework Contract",
+          "type": "resource"
+        }
+      ],
+      "hand": [
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c63",
+          "installed": false,
+          "number": 30016,
+          "rezzed": false,
+          "side": "runner",
+          "strength": 1,
+          "subTypes": [
+            "Icebreaker",
+            "Fracter"
+          ],
+          "subroutines": [],
+          "title": "Marjanah",
+          "type": "program"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c45",
+          "installed": false,
+          "number": 30005,
+          "rezzed": false,
+          "side": "runner",
+          "strength": 3,
+          "subTypes": [
+            "Icebreaker",
+            "Decoder"
+          ],
+          "subroutines": [],
+          "title": "Buzzsaw",
+          "type": "program"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c68",
+          "installed": false,
+          "number": 30018,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [
+            "Job"
+          ],
+          "subroutines": [],
+          "title": "Red Team",
+          "type": "resource"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c47",
+          "installed": false,
+          "number": 30005,
+          "rezzed": false,
+          "side": "runner",
+          "strength": 3,
+          "subTypes": [
+            "Icebreaker",
+            "Decoder"
+          ],
+          "subroutines": [],
+          "title": "Buzzsaw",
+          "type": "program"
+        }
+      ],
+      "identity": {
+        "advancement": 0,
+        "advancementRequirement": null,
+        "canScore": false,
+        "counters": {},
+        "faceUp": true,
+        "hidden": false,
+        "hosted": [],
+        "id": "c42",
+        "installed": false,
+        "number": 36009,
+        "rezzed": false,
+        "side": "runner",
+        "strength": null,
+        "subTypes": [
+          "Digital"
+        ],
+        "subroutines": [],
+        "title": "Virtual Intelligence, P.I.: “You Can Call Me Vic”",
+        "type": "identity"
+      },
+      "maxHand": 5,
+      "memory": 4,
+      "memoryUsed": 0,
+      "points": 7,
+      "resolving": [],
+      "rig": {
+        "hardware": [],
+        "programs": [],
+        "resources": []
+      },
+      "score": [
+        {
+          "advancement": 0,
+          "advancementRequirement": 3,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c23",
+          "installed": false,
+          "number": 30070,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Expansion"
+          ],
+          "subroutines": [],
+          "title": "Superconducting Hub",
+          "type": "agenda"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": 4,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c18",
+          "installed": false,
+          "number": 30067,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Expansion"
+          ],
+          "subroutines": [],
+          "title": "Offworld Office",
+          "type": "agenda"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": 4,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c21",
+          "installed": false,
+          "number": 30068,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Security"
+          ],
+          "subroutines": [],
+          "title": "Orbital Superiority",
+          "type": "agenda"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": 4,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c19",
+          "installed": false,
+          "number": 30067,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Expansion"
+          ],
+          "subroutines": [],
+          "title": "Offworld Office",
+          "type": "agenda"
+        }
+      ],
+      "side": "runner",
+      "tags": 0,
+      "temporaryCredits": 0
+    },
+    "seed": "1f42daed-da3b-4e44-9777-e92f44ebc018",
+    "side": "runner",
+    "steps": 528,
+    "terminal": {
+      "reason": "Runner reached 7 agenda points.",
+      "winner": "runner"
+    },
+    "turn": 12,
+    "version": 528
+  },
+  "viewport": {
+    "height": 844,
+    "width": 390
+  }
+}

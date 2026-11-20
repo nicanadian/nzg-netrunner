@@ -1,0 +1,29 @@
+[
+  {
+    "stage": "R2-original-after-two-credit-actions",
+    "choices": 3,
+    "version": 41,
+    "terminal": null,
+    "replayPassed": true,
+    "runnerRevision": "2df99625399b93d88d0a8df13312b5cce8211e56f767dacfe9ac2a1d91704843",
+    "corpRevision": "d4a262e57b5b44abf063af33d192f675063221b73ccab3fb6529676f53432e76"
+  },
+  {
+    "stage": "R3-resumed-after-later-library-edit",
+    "choices": 3,
+    "version": 41,
+    "terminal": null,
+    "replayPassed": true,
+    "runnerRevision": "2df99625399b93d88d0a8df13312b5cce8211e56f767dacfe9ac2a1d91704843",
+    "corpRevision": "d4a262e57b5b44abf063af33d192f675063221b73ccab3fb6529676f53432e76"
+  },
+  {
+    "stage": "R3-fresh-game-revised-list-opening-hand",
+    "choices": 0,
+    "version": 2,
+    "terminal": null,
+    "replayPassed": true,
+    "runnerRevision": "5e0137e8495afe3381517ecd54f33e7922da17f14c59ed2b9ba37248666cc310",
+    "corpRevision": "d4a262e57b5b44abf063af33d192f675063221b73ccab3fb6529676f53432e76"
+  }
+]

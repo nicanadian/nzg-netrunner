@@ -42,10 +42,19 @@
 @media (prefers-reduced-motion: reduce) { .encounter-tool { transition: none; } }
 button:disabled { cursor: not-allowed; }
 input:focus-visible, textarea:focus-visible, select:focus-visible, summary:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
-.table { background: linear-gradient(#07172066,#07172066), url('/assets/playmat.png') center/100% 100%, #10252d; }
-.corp-mat { background: linear-gradient(90deg,#092c39bd,#102e3870); }
-.runner-mat { background: linear-gradient(90deg,#47272bbe,#38242d70); }
-.mat::before { opacity: .35; }
+/* Keep the art's blue/red halves aligned to their independently sized play areas.
+   A neutral frame and feathered art prevent bright pixels bleeding around its edge. */
+.table { background: #10191e; background-clip: padding-box; border-color: #29353b; box-shadow: 0 6px 24px #0004; }
+.corp-mat { background: linear-gradient(110deg,#10252e,#101d24); }
+.runner-mat { background: linear-gradient(110deg,#2b2025,#1d1c22); }
+.mat::before {
+  background: url('/assets/playmat.png') center top / 100% 200% no-repeat;
+  opacity: .2;
+  -webkit-mask-image: radial-gradient(ellipse closest-side at center,#000 40%,transparent 100%);
+  mask-image: radial-gradient(ellipse closest-side at center,#000 40%,transparent 100%);
+}
+.runner-mat::before { background-position: center bottom; }
+.run-divider { border-color: #ffffff0d; }
 .corp-mat .player-status, .runner-mat .player-status { background: #0c1d27e8; border-radius: 4px; padding-left: 7px; padding-right: 7px; box-shadow: inset 3px 0 #6e838c44; }
 .corp-mat.turn-owner .player-status { box-shadow: inset 3px 0 #99dbe5; }
 .runner-mat.turn-owner .player-status { box-shadow: inset 3px 0 #edb49e; }

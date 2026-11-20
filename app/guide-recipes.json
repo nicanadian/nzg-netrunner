@@ -1,0 +1,290 @@
+[
+  {
+    "id": "loup-v1",
+    "pool": "gateway-v1",
+    "side": "runner",
+    "goal": "Lower the opening cash requirement",
+    "cut": {
+      "id": "30030",
+      "title": "Sure Gamble",
+      "text": "Gain 9 credits."
+    },
+    "add": {
+      "id": "30020",
+      "title": "Creative Commission",
+      "text": "Gain 5 credits. If you have any click remaining, lose click."
+    },
+    "tradeoff": "You trade a larger burst payout for an event that is easier to play with little cash. Creative Commission can cost a click if you have not run successfully.",
+    "observe": "Record when money was missing versus when the smaller payout was insufficient.",
+    "before": {
+      "size": 40,
+      "influence": 6,
+      "influenceLimit": 15,
+      "minimumSize": 40,
+      "agenda": 0,
+      "agendaMin": 18,
+      "agendaMax": 19
+    },
+    "after": {
+      "size": 40,
+      "influence": 8,
+      "influenceLimit": 15,
+      "minimumSize": 40,
+      "agenda": 0,
+      "agendaMin": 18,
+      "agendaMax": 19
+    }
+  },
+  {
+    "id": "reality-plus-v2",
+    "pool": "gateway-v1",
+    "side": "corp",
+    "goal": "Practice a paid remote defense",
+    "cut": {
+      "id": "30065",
+      "title": "Retribution",
+      "text": "Play only if the Runner is tagged. Trash 1 installed program or piece of hardware."
+    },
+    "add": {
+      "id": "30050",
+      "title": "Anoetic Void",
+      "text": "Whenever the Runner approaches this server, you may pay 2 credits and trash 2 cards from HQ. If you do, end the run."
+    },
+    "tradeoff": "You give up a tag-conditional program-trash operation and spend three more influence. Anoetic needs 2 credits and 2 HQ cards to end a run.",
+    "observe": "Did you draw/install the upgrade, keep the payment available, and actually trigger it?",
+    "before": {
+      "size": 44,
+      "influence": 5,
+      "influenceLimit": 15,
+      "minimumSize": 40,
+      "agenda": 18,
+      "agendaMin": 18,
+      "agendaMax": 19
+    },
+    "after": {
+      "size": 44,
+      "influence": 8,
+      "influenceLimit": 15,
+      "minimumSize": 40,
+      "agenda": 18,
+      "agendaMin": 18,
+      "agendaMax": 19
+    }
+  },
+  {
+    "id": "phoenix-core-v1",
+    "pool": "core-v1",
+    "side": "runner",
+    "goal": "Find virus support more often",
+    "cut": {
+      "id": "35003",
+      "title": "Charm Offensive",
+      "text": "Run Archives. When that run ends, you may trash 1 rezzed copy of a card you accessed in Archives during that run."
+    },
+    "add": {
+      "id": "30008",
+      "title": "Leech",
+      "text": "Whenever you make a successful run on a central server, place 1 virus counter on this program. Hosted virus counter: The ice you are encountering gets -1 strength for the remainder of this encounter."
+    },
+    "tradeoff": "You add another virus tool and give up a draw/damage event. A spare Leech may be less useful than the event you cut.",
+    "observe": "Record useful Leech encounters, duplicate copies and times you missed the event.",
+    "before": {
+      "size": 45,
+      "influence": 17,
+      "influenceLimit": 17,
+      "minimumSize": 45,
+      "agenda": 0,
+      "agendaMin": 20,
+      "agendaMax": 21
+    },
+    "after": {
+      "size": 45,
+      "influence": 17,
+      "influenceLimit": 17,
+      "minimumSize": 45,
+      "agenda": 0,
+      "agendaMin": 20,
+      "agendaMax": 21
+    }
+  },
+  {
+    "id": "precision-design-core-v1",
+    "pool": "core-v1",
+    "side": "corp",
+    "goal": "Find another defensive ice",
+    "cut": {
+      "id": "30042",
+      "title": "Manegarm Skunkworks",
+      "text": "Whenever the Runner approaches this server, end the run unless they either spend click click or pay 5 credits."
+    },
+    "add": {
+      "id": "30038",
+      "title": "Ansel 1.0",
+      "text": "Lose click: Break 1 subroutine on this ice. Only the Runner can use this ability. Subroutine Trash 1 installed Runner card. Subroutine You may install 1 card from HQ or Archives. Subroutine The Runner cannot steal or trash Corp cards for the remainder of this run."
+    },
+    "tradeoff": "You replace an upgrade with a bioroid sentry. Keep rez money ready; the Runner can spend clicks to break bioroid subroutines.",
+    "observe": "Did another sentry protect a scoring lane, or did losing the upgrade make access cheaper?",
+    "before": {
+      "size": 44,
+      "influence": 15,
+      "influenceLimit": 15,
+      "minimumSize": 40,
+      "agenda": 18,
+      "agendaMin": 18,
+      "agendaMax": 19
+    },
+    "after": {
+      "size": 44,
+      "influence": 15,
+      "influenceLimit": 15,
+      "minimumSize": 40,
+      "agenda": 18,
+      "agendaMin": 18,
+      "agendaMax": 19
+    }
+  },
+  {
+    "id": "loup-vantage-tailor-v1",
+    "pool": "vantage-preview-v1",
+    "side": "runner",
+    "goal": "See the ice-strength lesson more often",
+    "cut": {
+      "id": "36016",
+      "title": "Underdome Irregulars",
+      "text": "When your action phase ends, if a piece of ice was rezzed this turn, draw 2 cards or remove 1 tag. If no ice was rezzed this turn, trash this resource."
+    },
+    "add": {
+      "id": "36003",
+      "title": "The Tungsten Tailor",
+      "text": "Each piece of ice gets -1 strength. The first time each turn you break a subroutine on a piece of ice with 0 or less strength, gain 1 credit."
+    },
+    "tradeoff": "You trade a conditional resource for a second unique hardware copy. This may improve availability but can leave an unusable duplicate while one is active.",
+    "observe": "Was Tailor drawn/installed earlier? Did the second copy sit in hand, or was Underdome missed?",
+    "before": {
+      "size": 40,
+      "influence": 9,
+      "influenceLimit": 15,
+      "minimumSize": 40,
+      "agenda": 0,
+      "agendaMin": 18,
+      "agendaMax": 19
+    },
+    "after": {
+      "size": 40,
+      "influence": 7,
+      "influenceLimit": 15,
+      "minimumSize": 40,
+      "agenda": 0,
+      "agendaMin": 18,
+      "agendaMax": 19
+    }
+  },
+  {
+    "id": "vic-play-v1",
+    "pool": "vantage-preview-v1",
+    "side": "runner",
+    "goal": "Try more HQ access",
+    "cut": {
+      "id": "30016",
+      "title": "Marjanah",
+      "text": "Interface -> 2 credits: Break 1 barrier subroutine. If you made a successful run this turn, this ability costs 1 credit less to use. 1 credit: +1 strength."
+    },
+    "add": {
+      "id": "30013",
+      "title": "Docklands Pass",
+      "text": "The first time each turn you breach HQ, access 1 additional card."
+    },
+    "tradeoff": "You trade a copy of a barrier breaker for hardware rewarding HQ access. Keep the other barrier breakers; more accesses do not help if you cannot enter HQ.",
+    "observe": "Was Docklands drawn and installed? Did extra access matter? Did you miss the breaker?",
+    "before": {
+      "size": 45,
+      "influence": 13,
+      "influenceLimit": 15,
+      "minimumSize": 45,
+      "agenda": 0,
+      "agendaMin": 20,
+      "agendaMax": 21
+    },
+    "after": {
+      "size": 45,
+      "influence": 13,
+      "influenceLimit": 15,
+      "minimumSize": 45,
+      "agenda": 0,
+      "agendaMin": 20,
+      "agendaMax": 21
+    }
+  },
+  {
+    "id": "tao-vantage-pilot-v1",
+    "pool": "vantage-preview-v1",
+    "side": "runner",
+    "goal": "Try earlier program setup",
+    "cut": {
+      "id": "30023",
+      "title": "Pantograph",
+      "text": "+1 mu Whenever an agenda is scored or stolen, gain 1 credit. Then, you may install 1 card from your grip. Limit 1 console per player."
+    },
+    "add": {
+      "id": "30022",
+      "title": "DZMZ Optimizer",
+      "text": "+1 mu The first program you install each turn costs 1 credit less to install."
+    },
+    "tradeoff": "You trade agenda-triggered draw/install utility for program-install discounts and memory. Keep all Touchstones for Corsair’s stealth-only reduction.",
+    "observe": "Record when the install discount helped, and when an agenda would have made Pantograph useful.",
+    "before": {
+      "size": 40,
+      "influence": 8,
+      "influenceLimit": 15,
+      "minimumSize": 40,
+      "agenda": 0,
+      "agendaMin": 18,
+      "agendaMax": 19
+    },
+    "after": {
+      "size": 40,
+      "influence": 8,
+      "influenceLimit": 15,
+      "minimumSize": 40,
+      "agenda": 0,
+      "agendaMin": 18,
+      "agendaMax": 19
+    }
+  },
+  {
+    "id": "weyland-vantage-tools-v2",
+    "pool": "vantage-preview-v1",
+    "side": "corp",
+    "goal": "Practice affordable early defenses",
+    "cut": {
+      "id": "30063",
+      "title": "Pharos",
+      "text": "You can advance this ice. It gets +5 strength while there are 3 or more hosted advancement counters. Subroutine Give the Runner 1 tag. Subroutine End the run. Subroutine End the run."
+    },
+    "add": {
+      "id": "30073",
+      "title": "Tithe",
+      "text": "Subroutine Do 1 net damage. Subroutine Gain 1 credit."
+    },
+    "tradeoff": "You trade a large stopping code gate for cheaper taxing/damage ice and spend one more influence. Tithe does not end the run, so retain real stopping ice.",
+    "observe": "Did lower rez cost matter? Did a Runner pass Tithe where the larger ice would have stopped them?",
+    "before": {
+      "size": 40,
+      "influence": 14,
+      "influenceLimit": 15,
+      "minimumSize": 40,
+      "agenda": 18,
+      "agendaMin": 18,
+      "agendaMax": 19
+    },
+    "after": {
+      "size": 40,
+      "influence": 14,
+      "influenceLimit": 15,
+      "minimumSize": 40,
+      "agenda": 18,
+      "agendaMin": 18,
+      "agendaMax": 19
+    }
+  }
+]

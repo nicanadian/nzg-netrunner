@@ -1,0 +1,111 @@
+{
+  "reviewer": "AI tester · Corp learner",
+  "date": "2026-11-19",
+  "method": "Actual shared-browser incognito tab. Lobby/reference/deckbuilder controls used directly; public visible DTO informed play. A bounded DOM-button heuristic handled routine gameplay. No direct engine choices, worker messages, private opponent cards, or game-state injection. One initial unplayed opening was restarted to ensure asynchronous Save & use selection finished before starting. Shared browser snapshot timed out; visual appearance is not certified.",
+  "guideJourney": [
+    "Opened Pairing & learning guide from lobby in same owned tab after removing link target solely to keep tab ownership isolated; production link normally opens a new tab.",
+    "Read First Vantage games and What to learn next.",
+    "Selected Vic in Your Runner deck, saw funded Weyland 26/54 Runner wins (48%), and chose this familiar Corp/new Runner pairing.",
+    "Returned through Back to lobby, selected Corporation, Weyland defensive economy and Vic central pressure.",
+    "Used Tune your deck, renamed to Panel Corp 19Nov, removed/added cards through rendered quantity buttons, saw Ready to play and change summary, saved & used.",
+    "Waited for local deck summary to reflect custom name before starting final recorded game."
+  ],
+  "crafting": {
+    "base": "weyland-vantage-tools-v2",
+    "customName": "Panel Corp 19Nov",
+    "swaps": [
+      {
+        "remove": "1 Pharos",
+        "add": "1 Tithe",
+        "reason": "Lower early rez commitment while keeping all ice types/agenda structure. A learner can protect centrals without waiting for seven credits."
+      },
+      {
+        "remove": "1 Vulture Fund",
+        "add": "1 Regolith Mining License",
+        "reason": "Retain two Vulture Funds to learn the bad-publicity tradeoff while reducing dependence on expensive burst money and adding familiar sustained income."
+      }
+    ],
+    "size": 40,
+    "influence": 14,
+    "influenceLimit": 15,
+    "agendaPoints": 18,
+    "agendaRange": [
+      18,
+      19
+    ],
+    "guideSupported": "Choosing opponent and recognizing money/bad-publicity lesson",
+    "guideDidNotSupport": "No specific swap suggestions, shell-preservation checklist, ice/economy targets or how to translate a play problem into a deck change."
+  },
+  "result": {
+    "diagnostics": [],
+    "points": {
+      "corp": 3,
+      "runner": 8
+    },
+    "terminal": {
+      "reason": "Runner reached 8 agenda points.",
+      "winner": "runner"
+    },
+    "turn": 20,
+    "version": 759,
+    "round": 10,
+    "recordedChoices": 48,
+    "uiGameplayClicks": 74,
+    "winningSide": "runner",
+    "interpretation": "A completed functional learning playtest, not a balance estimate. The heuristic Corp strategy banked 25 credits and under-reinforced centrals later; it did not exploit all legal defensive alternatives."
+  },
+  "ratings": {
+    "guideUsefulness": 7,
+    "deckbuildingClarity": 7.5,
+    "guideSupportForCrafting": 5,
+    "gameplayEnjoyment": 6.5,
+    "scale": "Subjective AI review of this one session, not a human user-study score or competitive rating."
+  },
+  "liked": [
+    "Exact deck names are consistent between guide and lobby, avoiding character/deck confusion.",
+    "Runner counts and 54-game sample are explicit; 48% vs Weyland gave a concrete starting hypothesis without pretending to prove balance.",
+    "Custom decks not benchmarked warning is clear.",
+    "Deckbuilder live size/influence/agenda summary and per-card import cost made two legal swaps easy.",
+    "Changes summary confirmed all four quantity changes; Save & use eventually selected the custom deck.",
+    "Explicit Rez Palisade/Paywall buttons with credit quotes were offered during the run; no skipped approach or blocked turn occurred.",
+    "Bad publicity was observable in the Runner log: extra credit each run was spent breaking Palisade, turning an abstract warning into a useful lesson."
+  ],
+  "findings": [
+    {
+      "priority": "P1",
+      "area": "Guide → lobby handoff",
+      "observation": "Recommendations are plain text. Returning requires reselecting role and both exact decks; no Use this pairing action or Tune this deck action.",
+      "suggestion": "Add Use this pairing with explicit side choice, plus a Tune option that starts from the named list. Preserve current lobby/game saves and explain that this configures a new game."
+    },
+    {
+      "priority": "P1",
+      "area": "Corp perspective",
+      "observation": "Explore matchups only offers Your Runner deck; Corp players must choose an opponent and invert Runner win percentages. Initial Loup selector does not reflect the lobby's Corp choice.",
+      "suggestion": "Offer I am playing Runner/Corp and select my deck; label results and difficulty from that side while keeping raw Runner record available."
+    },
+    {
+      "priority": "P1",
+      "area": "Crafting guidance",
+      "observation": "The guide tells me what deck to start with but not what to change, what to keep, or which symptoms to diagnose. My swap decisions came from existing rules knowledge rather than the guide.",
+      "suggestion": "Add a small tuning recipe: preserve agenda points and breaker/ice coverage; change 1–3 slots for one goal; track whether the problem was money, timing or coverage; show one valid before/after example with influence."
+    },
+    {
+      "priority": "P2",
+      "area": "Bad publicity lesson",
+      "observation": "Text says temporary credit each run but does not illustrate how it cancels cheap defenses. In this game repeated bad-publicity credits paid Cleaver's one-credit breaks through Palisade.",
+      "suggestion": "Add a worked example and a midgame checkpoint: after taking bad publicity, compare costs of your central defenses against the visible breaker rig, then consider upgrading/reinforcing."
+    },
+    {
+      "priority": "P2",
+      "area": "Learning goals during play",
+      "observation": "After opening the guide, its chosen lesson is not visible at the table. Banking income does not teach when to stop taking credits and build stronger defenses.",
+      "suggestion": "Provide an optional short lesson checklist or reference pin: bank rez money, protect a scoring lane, reassess when a breaker appears. Avoid prescribing every move."
+    }
+  ],
+  "limits": [
+    "Single game and small AI panel; no independent human novices.",
+    "Bounded heuristic play prioritized income/scoring and was weak at late defensive reinforcement; 3–8 loss cannot establish the tuned deck is worse.",
+    "One snapshot timed out; DOM text, legal controls and public state were inspected instead.",
+    "No engine or app source changes were made."
+  ]
+}

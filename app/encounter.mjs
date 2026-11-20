@@ -5,6 +5,13 @@ export function encounterTool(tool) {
   const {card} = tool;
   if (card.hidden) return null;
   if (tool.enabled === false) return {status:'Abilities inactive',tone:'unavailable',detail:'An active effect prevents this program from using its abilities.'};
+  if(tool.kind==='stealth-breaker'){
+    if(!tool.matches)return {status:'Cannot break this ice',tone:'unavailable',detail:'Breaks barrier subroutines. The ice type does not match.'};
+    if(!tool.unbroken)return {status:'All subroutines broken',tone:'complete',detail:'Continue the run when you are ready.'};
+    const ready=!tool.gap&&tool.availableCredits>=1;
+    const setup=tool.gap&&!tool.canLower?'This ice cannot lose strength':tool.gap&&tool.stealthCredits<tool.requiredStealth?`Needs ${tool.requiredStealth} stealth credit${tool.requiredStealth===1?'':'s'}`:tool.gap?'Can weaken this barrier':'Not enough credits to break';
+    return {status:ready?'Strength matches · can break':setup,tone:ready?'ready':'setup',detail:`STR ${card.strength} · 1 credit: break 1 barrier subroutine. Spend 1 stealth credit for −3 ice strength this encounter; ${tool.stealthCredits} stealth credit${tool.stealthCredits===1?'':'s'} available. Pool and bad-publicity credits cannot pay for the reduction.`};
+  }
   if (tool.kind === 'breaker') {
     const against = tool.type === 'Any' ? 'any ice type' : tool.type.toLowerCase();
     const payment = `${credits(tool.breakCost)}: break ${tool.breakCount === 1 ? '1' : 'up to ' + tool.breakCount} subroutine${tool.breakCount === 1 ? '' : 's'}`;

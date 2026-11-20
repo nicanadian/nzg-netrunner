@@ -1,0 +1,123 @@
+{
+  "reviewer": "Independent AI tester · experienced deck tinkerer",
+  "date": "2026-11-19",
+  "method": "Actual shared-browser incognito tabs. Read lobby/guide/builder and public localTable DTO. All actions through rendered DOM buttons/input/change events. Setup and later encounters manually reasoned; bounded DOM heuristics handled early routine decisions. No engine/worker choice injection, private-state inspection or app changes. This is an AI qualitative review, not a human study or a controlled deck-strength experiment.",
+  "guideUse": {
+    "selected": "Hiram · funded rig vs Restoring Humanity · Ambushes",
+    "observedGuideRecord": "Runner12/54,22%,Harder for Runner",
+    "benefits": [
+      "Explicit direction: every percentage is Runner wins.",
+      "54-game denominator and human/AI caveat are clear.",
+      "Exact deck names match lobby; recommended vs interaction group is useful."
+    ],
+    "transferGap": "The guide identifies a hard pairing but gives no account of why it is hard or which deck changes address it. Hiram has no concrete learning example in What to learn next."
+  },
+  "tuning": {
+    "name": "Panel Experiment 19Nov",
+    "base": "hiram-play-v1",
+    "swaps": [
+      {
+        "remove": "Beta Build",
+        "count": 2,
+        "add": "Jailbreak"
+      },
+      {
+        "remove": "Sipa",
+        "count": 1,
+        "add": "T400 Memory Diamond"
+      }
+    ],
+    "size": 45,
+    "influence": 9,
+    "influenceLimit": 15,
+    "hypothesis": "Add affordable multiaccess plus card draw and a hardware/maximum-hand-size buffer for Jinteki, while retaining a complete breaker rig. This is my hypothesis; the guide did not prescribe or validate it.",
+    "validation": "Legal, implemented; expansion AI certification pending. Saved and selected successfully through builder.",
+    "limitation": "Jailbreak/hand buffer do not solve every damage or economic problem, and no benchmark estimate applies to this tuned list."
+  },
+  "games": [
+    {
+      "file": "experiment-game.json",
+      "round": 6,
+      "choices": 66,
+      "version": 458,
+      "points": {
+        "corp": 0,
+        "runner": 2
+      },
+      "terminal": "Corp flatline: Clearinghouse8meat damage vs5cards",
+      "diagnostics": 0,
+      "confounds": [
+        "Early bounded strategy ignored the advancing remote and conserved only5cards even after installingT400.",
+        "One game cannot establish tuning effectiveness."
+      ]
+    },
+    {
+      "file": "experiment-followup-game.json",
+      "round": 13,
+      "choices": 203,
+      "version": 812,
+      "points": {
+        "corp": 8,
+        "runner": 0
+      },
+      "terminal": "Corp scored Send a Message and won at8agenda points",
+      "diagnostics": 0,
+      "confounds": [
+        "Early routine mistakenly boosted mismatched Cleaver against Lionsmane, burning credits; this was a tester-driver error.",
+        "After manual takeover, an intended Continue/Unity break at innerWhitespace was not completed; authoritative history shows both unbroken subroutines resolving. Timing/selector ambiguity is not proof of an engine bug.",
+        "Different random seeds and altered tester strategy prevent any causal deck comparison."
+      ]
+    }
+  ],
+  "specificGameplayNotes": [
+    "T400 was installed in first game, so the new hardware was actually exercised. Raising max hand did not prevent8damage.",
+    "Second game survived Lionsmane early net damage and jacked out, later installedEchelon by trashingSipa for memory.",
+    "Manual Aircheck run onHQ: used1Aircheckcredit to breakWhitespace's ETR withUnity, let the loss subroutine fire becauseAircheck protectspool, then trashedEsca with the remaining3Aircheckcredits anddeclinedthe optionalremote.",
+    "Finalremotechallenge: bankedto5,boostedEchelonfrom3to5,brokefirst/thirdLionmaneroutines,accepted2netdamagetopreserve1creditforinnerice; innerWhitespaceendedrun.",
+    "Explicit credit sources, wrong-type labels and targetedsubroutinechoices support interesting decisions, but abundant irrelevant boosts remain distracting."
+  ],
+  "findings": [
+    {
+      "priority": "P1",
+      "area": "Guide to crafting",
+      "finding": "Hard-matchup labels do not explain threats or suggest a learning/tuning hypothesis.",
+      "suggestion": "Add short opponent threat notes and one small, legal example swap with tradeoffs, clearly marked as an unbenchmarked custom variant."
+    },
+    {
+      "priority": "P1",
+      "area": "Card provenance",
+      "finding": "Aircheck inspector footer displayed 'Art by Mia Siergiejew · System Gateway #18' despite Aircheck beingVantage36018. Correct ability text was shown.",
+      "suggestion": "Derive expansion name/number from card pack metadata rather than a Gateway fallback.",
+      "evidence": "Read card from Aircheck play options in follow-up round10."
+    },
+    {
+      "priority": "P2",
+      "area": "Guide navigation",
+      "finding": "Learning suggestions name pairings but do not offer an apply/open-in-lobby or tune action.",
+      "suggestion": "Add use-this-pairing and tune-from-this-list links; preserve exact source deck names and warn custom variants lack measurements.",
+      "caveat": "The targetblank popup was not surfaced by the shared tool after DOM click; I opened a new tab at the observed href. This is an automation limitation, not a verified browser defect."
+    },
+    {
+      "priority": "P2",
+      "area": "Paid ability presentation",
+      "finding": "Wrong-type boosters and boosts during movement/turn-start still appear among defaults.",
+      "suggestion": "Keep them behind an explicit all-abilities disclosure while emphasizing currently matching breaker actions.",
+      "caveat": "My initial wrong-type boosts were a heuristic error. Their visibility is a usability concern, not evidence of incorrect rules."
+    },
+    {
+      "priority": "P2",
+      "area": "Learning coverage",
+      "finding": "What to learn next gives concrete Loup/Weyland/Tao/Vic examples but no concreteHiram lesson.",
+      "suggestion": "Add a Hiram hardware/peek lesson and resource/rig sequencing example."
+    }
+  ],
+  "ratings": {
+    "scale": "Subjective AI review,10=clear,polished and useful for this task; outcomes do not determine ratings.",
+    "guideForSelectingMatchup": 8,
+    "guideForCraftingDeck": 4,
+    "deckbuilderClarity": 8,
+    "gameplayEnjoyment": 6,
+    "overallGuideUsefulness": 6
+  },
+  "conclusion": "Useful for choosing a named pairing, weaker at helping a player explain and tune a bad pairing. Deck editing/saving/play worked. Both games completed naturally with0diagnostics, but tester strategy materially confounded the losses."
+}

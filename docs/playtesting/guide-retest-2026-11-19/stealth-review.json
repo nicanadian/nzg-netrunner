@@ -1,0 +1,97 @@
+{
+  "tester": "Fresh AI Stealth retest",
+  "date": "2026-11-19",
+  "origin": "http://localhost:5173",
+  "method": "Owned incognito tab plus own lobby guide popups; DOM-only after snapshot timeout. Rendered controls only. Public localTable.state for strategy; session read only after terminal.",
+  "completion": {
+    "firstImpressions": true,
+    "actualGuideStartingDeckAction": true,
+    "roleAndPairingCarried": true,
+    "workedEditSavedAndUsed": true,
+    "exactDeckCaptured": true,
+    "baselineDiffAndUnbenchmarkedVerified": true,
+    "preAndPostNotes": true,
+    "notesReloadAndSelectionIsolation": true,
+    "oneNaturalFullGame": true,
+    "returnedGuide": true,
+    "sessionCaptured": true,
+    "cleanup": "Own tabs closed after artifacts; no storage restore/clear."
+  },
+  "setup": {
+    "pool": "vantage-preview-v1",
+    "side": "runner",
+    "baseline": "Tāo · Stealth foundation pilot",
+    "opponent": "Precision Design · Tempo and recycling",
+    "revision": "Retest Stealth 19Nov",
+    "cut": "1 Pantograph (2→1)",
+    "add": "1 DZMZ Optimizer (2→3)",
+    "cards": 40,
+    "influence": "8/15"
+  },
+  "outcome": {
+    "diagnostics": [],
+    "points": {
+      "corp": 6,
+      "runner": 8
+    },
+    "terminal": {
+      "reason": "Runner reached 8 agenda points.",
+      "winner": "runner"
+    },
+    "turn": 42,
+    "version": 1620
+  },
+  "works": [
+    "Guide actual Open starting deck to edit carried Vantage pool, Runner role, exact Tao and HB opponent.",
+    "Legal worked edit matched builder before/after 40 cards 8/15 influence; all3 Touchstones retained.",
+    "Builder retained named baseline, exact +/- diff, custom revision unbenchmarked warning; guide custom banner avoided presenting baseline record as custom result.",
+    "Dependency example successfully taught separate stealth reductions and ordinary break payments; actual Palisade central2 used one reduction plus poolbreak, Bran6 usedtwo reductions plus3poolbreaks.",
+    "DZMZ installed opening, discounted Conduit4→3, Corsair3→2, Echelon3→2, Unity3→2; extraMU useful for Conduit+3breakers+hostedStowaway.",
+    "Five custom notes persisted through reload; selecting Loup showed empty independent log, reloading original custom URL restored custom notes."
+  ],
+  "issues": [
+    {
+      "id": "S1",
+      "kind": "instructional gap, not a proven game-rules defect",
+      "severity": "medium",
+      "title": "Dependency mnemonic omits the conditions for replenishing/keeping stealth reserve",
+      "repro": "Read Stealth path; it says event → Touchstone credit → Corsair reduction, but has no Touchstone/Corsair read links beside the lesson. In game I expected another same-turn event to add reserve and tried installing a second Touchstone; the observed reserve and replacement did not match those assumptions.",
+      "fix": "Link Read Touchstone and Read Corsair directly from the dependency lesson; state applicable first-event timing and active-copy restriction from the actual card. Add one short install/event/reserve check before the run.",
+      "acceptance": "A Gateway graduate can explain how to accumulate two stealth credits, why a second event that turn may not recharge, and whether installing another copy preserves the existing reserve after reading the path and linked cards.",
+      "confidence": "Observed behavior is recorded; I did not inspect private rules implementation, so confirm exact timing/unique text before changing copy."
+    },
+    {
+      "id": "S2",
+      "kind": "instructional precision",
+      "severity": "low",
+      "title": "Strength4 Palisade example lacks its remote-server condition",
+      "repro": "Guide arithmetic starts strength4Palisade. Actual Palisade encountered on R&D wasstrength2, requiring one reduction. Copying two reductions mechanically would waste stealth.",
+      "fix": "Say 'Palisade protecting a remote is strength4; on a central it is2. Check current strength first.' Confirm printed card text for wording.",
+      "acceptance": "Lesson gives current-strength check and explains central2→0 needsone stealth versusremote4→1→0 needs two."
+    },
+    {
+      "id": "S3",
+      "kind": "game UI copy defect outside guide",
+      "severity": "low",
+      "title": "Manegarm payment says Spend ClickClick",
+      "repro": "Reach Manegarm with exactly2clicks and nocredits. Its payment button's rendered DOM text is 'Spend ClickClick'.",
+      "fix": "Render text 'Spend 2 clicks' with accessible numeric cost.",
+      "acceptance": "Visible and accessible labels clearly say2clicks; selecting it spends2 and continuesbreach."
+    }
+  ],
+  "preferences": [
+    {
+      "severity": "suggestion",
+      "title": "Add one example opening/mulligan checklist for Gateway graduates",
+      "detail": "Income first, Touchstone before relevant event, matching breaker and reserves, read damage/advancingremote; existing broad reminder did not determine this without my own knowledge."
+    }
+  ],
+  "limitations": [
+    "One game only; no baseline paired comparison and no strength inference from Runner8–6.",
+    "DZMZ already has2 baseline copies, so observing it does not establish that the added third copy caused the opening draw or outcome.",
+    "Pantograph was drawn and discarded as my cash/hand decision; absence at steals shows opportunity, not measured lost value.",
+    "Snapshot timed out; no visual/layout/accessibility claims beyond rendered DOM text.",
+    "Tester errors: kept a no-income opening; queued a next-turn R&D path before re-reading newly installed outer barriers; expected same-turn event recharge; tried replacement Touchstone. Failed batches stopped on absent rendered controls. No wrong-breaker blind boosting, storage reset, private state or headless injection.",
+    "Detailed trace is a selected UI/action/strategy log; session.choices is the complete engine action record captured only after game end."
+  ]
+}

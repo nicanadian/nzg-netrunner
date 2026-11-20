@@ -1,11 +1,15 @@
 /* Local Table adapter and versioned rules corrections; upstream stays pinned. */
 (function () {
   const CURRENT_RULES = '26.03-local-2';
-  const CORE_RULES = '26.03-core-1', FULL_CORE_RULES='26.03-core-2';
-  const coreRules=version=>[CORE_RULES,FULL_CORE_RULES].includes(version);
-  const SUPPORTED_RULES = ['26.03-local-1', CURRENT_RULES, CORE_RULES, FULL_CORE_RULES];
+  const CORE_RULES = '26.03-core-1', FULL_CORE_RULES='26.03-core-2', VANTAGE_RULES=globalThis.NRVantagePreview?.rulesVersion;
+  const VANTAGE_SUPPORTED=globalThis.NRVantagePreview?.supportedRules||[];
+  const vantageRules=version=>VANTAGE_SUPPORTED.includes(version);
+  const coreRules=version=>[CORE_RULES,FULL_CORE_RULES,...VANTAGE_SUPPORTED].includes(version);
+  const fullCoreRules=()=>config?.rulesVersion===FULL_CORE_RULES || vantageRules(config?.rulesVersion);
+  const corePool=()=>config?.cardPool==='core-v1'||!!VANTAGE_RULES&&config?.cardPool==='vantage-preview-v1';
+  const SUPPORTED_RULES = ['26.03-local-1', CURRENT_RULES, CORE_RULES, FULL_CORE_RULES,...VANTAGE_SUPPORTED];
   const currentRules = () => SUPPORTED_RULES.includes(config?.rulesVersion);
-  const fullPaidChoices = () => [CURRENT_RULES,CORE_RULES,FULL_CORE_RULES].includes(config?.rulesVersion);
+  const fullPaidChoices = () => config?.rulesVersion===CURRENT_RULES || coreRules(config?.rulesVersion);
   const rulesAdvanceChoices = phases.corpActionMain.Enumerate.advance;
   phases.corpActionMain.Enumerate.advance = function () {
     if (!fullPaidChoices() || corp.AI) return rulesAdvanceChoices.call(this);
@@ -94,11 +98,20 @@
     return phase;
   };
   // Track public encounter outcomes without changing upstream timing or choices.
-  const firedSubroutines = new WeakMap();
+  let firedSubroutines = new WeakMap(), encounteredIce = new WeakSet();
   const rulesAutomaticTriggers = AutomaticTriggers;
   AutomaticTriggers = function (name, cards, ...args) {
-    if (name === "automaticOnEncounter") for (const card of cards || []) firedSubroutines.set(card, new Set());
+    if (name === 'automaticOnRunBegins') { firedSubroutines = new WeakMap(); encounteredIce = new WeakSet();globalThis.NRPressurePolicy?.noteRun(cards[0],turn); }
+    if (name === "automaticOnEncounter") for (const card of cards || []) { firedSubroutines.set(card, new Set()); encounteredIce.add(card); }
     return rulesAutomaticTriggers.call(this, name, cards, ...args);
+  };
+  const outcomeChangePhase = ChangePhase;
+  ChangePhase = function (phase, skipInit = false) {
+    if (phase === phases.runApproachIce && !skipInit) {
+      const ice = attackedServer?.ice[approachIce];
+      if (ice) { firedSubroutines.delete(ice); encounteredIce.delete(ice); }
+    }
+    return outcomeChangePhase.apply(this, arguments);
   };
   const rulesTrigger = Trigger;
   Trigger = function (card, ability, params, verb) {
@@ -243,7 +256,7 @@
   const rulesMakeRun = MakeRun;
   MakeRun = function (...args) {
     const result = rulesMakeRun.apply(this, args);
-    if (currentRules() && config.rulesVersion!==FULL_CORE_RULES) {
+    if (currentRules() && !fullCoreRules()) {
       const next = currentPhase;
       const initiation = CreatePhaseFromTemplate(phaseTemplates.standardResponse, runner,
         'Run: Initiation', 'Run 1.5', next);
@@ -257,12 +270,14 @@
     return currentRules() ? player.creditPool : rulesCredits(player);
   };
   AvailableCredits = function (player, ...args) {
+    if (vantageRules(config?.rulesVersion) && globalThis.NRVantageCreditRestriction)
+      return ActiveCards(player).filter(source=>globalThis.NRVantageCreditRestriction(source)&&typeof source.canUseCredits==='function'&&source.canUseCredits(...args)).reduce((total,source)=>total+(source.credits||0),0);
     return rulesAvailableCredits(player, ...args) +
-      (currentRules() && player === runner && attackedServer ? runner.temporaryCredits : 0);
+      (currentRules() && player === runner && attackedServer ? runner.temporaryCredits : 0)-(player===runner&&globalThis.NRVantagePoolLocked?.()?runner.creditPool:0);
   };
   LoseCredits = function (player, num) {
     if (!currentRules()) return rulesLoseCredits(player, num);
-    const lost = Math.min(player.creditPool, num);
+    const lost = player===runner&&globalThis.NRVantagePoolLocked?.()?0:Math.min(player.creditPool, num);
     player.creditPool -= lost;
     Log(`${PlayerName(player)} lost ${lost} credit${lost === 1 ? '' : 's'}`);
     return lost;
@@ -272,25 +287,30 @@
   // effects must not resolve while a player is still paying their cost.
   const rulesSpendCredits = SpendCredits;
   SpendCredits = function (player, num, doing = '', card = null, afterSpend, context) {
-    if(config?.cardPool==='core-v1' && doing==='installing' && typeof NRCoreInstallPaid==='function'){
+    if(corePool() && doing==='installing' && typeof NRCoreInstallPaid==='function'){
       const next=afterSpend,amount=num;
       afterSpend=function(){NRCoreInstallPaid(card,amount);if(next)next.call(context);};
     }
     if (!fullPaidChoices() || num <= 0)
       return rulesSpendCredits.call(this,player,num,doing,card,afterSpend,context);
     const sources = [];
+    let outsidePoolSpent=false;
+    const finishPayment=()=>{const next=()=>{if(typeof afterSpend==='function')afterSpend.call(context);};if(vantageRules(config.rulesVersion)&&typeof NRVantageAfterSpend==='function')NRVantageAfterSpend(player,outsidePoolSpent,next);else next();};
     const add = (object, key, label, sourceCard = null) => {
       if (object[key] > 0) sources.push({object, key, label, card:sourceCard});
     };
-    add(player, 'creditPool', 'credit pool');
+    if(!(player===runner&&globalThis.NRVantagePoolLocked?.()))add(player, 'creditPool', 'credit pool');
     if (player === runner && attackedServer) add(runner, 'temporaryCredits', 'bad publicity');
     for (const source of ActiveCards(player))
       if (typeof source.canUseCredits === 'function' && source.canUseCredits(doing, card))
         add(source, 'credits', source.title, source);
+    if(vantageRules(config.rulesVersion) && globalThis.NRVantageCreditRestriction)
+      sources.splice(0,sources.length,...sources.filter(source=>source.card&&globalThis.NRVantageCreditRestriction(source.card)));
     const spend = (source, amount) => {
       source.object[source.key] -= amount;
+      if(amount>0&&source.key!=='creditPool')outsidePoolSpent=true;
       Log(`${PlayerName(player)} spent ${amount} credit${amount === 1 ? '' : 's'} from ${source.label}`);
-      if(config.rulesVersion===FULL_CORE_RULES&&source.card&&typeof source.card.onCreditsSpent==='function')source.card.onCreditsSpent(amount);
+      if(fullCoreRules()&&source.card&&typeof source.card.onCreditsSpent==='function')source.card.onCreditsSpent(amount);
       UpdateCounters();
     };
     if (sources.reduce((sum, source) => sum + source.object[source.key], 0) < num)
@@ -307,7 +327,7 @@
         if (amount > 0) spend(source, amount);
         remaining -= amount;
       }
-      if (typeof afterSpend === 'function') afterSpend.call(context);
+      finishPayment();
       return;
     }
     const previous = currentPhase;
@@ -320,7 +340,7 @@
         return sources.flatMap((source, sourceIndex) => {
           const options = [];
           for (let amount = 1; amount <= Math.min(source.object[source.key], remaining); amount++)
-            options.push({sourceIndex, amount, sourceLabel:source.label,available:source.object[source.key],card:source.card,
+            options.push({sourceIndex, amount, sourceLabel:source.label,sourceId:source.card?id(source.card):source.key,available:source.object[source.key],card:source.card,
               label:`Pay ${amount} credit${amount === 1 ? '' : 's'} from ${source.label}`});
           return options;
         });
@@ -331,11 +351,11 @@
         remaining -= params.amount;
         if (remaining === 0) {
           ChangePhase(previous, true);
-          if (typeof afterSpend === 'function') afterSpend.call(context);
-        } else guidedPhases.set(phase, {kind:'credit-payment', total:num, remaining});
+          finishPayment();
+        } else guidedPhases.set(phase, {kind:'credit-payment', total:num, remaining,sourceId:card?id(card):null,doing});
       }},
     };
-    guidedPhases.set(phase, {kind:'credit-payment', total:num, remaining});
+    guidedPhases.set(phase, {kind:'credit-payment', total:num, remaining,sourceId:card?id(card):null,doing});
     ChangePhase(phase);
   };
   const rulesBoostStrength = BoostStrength;
@@ -434,13 +454,19 @@
   function boot(options = {}) {
     if (config) throw Error("Create a fresh engine for a new game.");
     config = { side: "runner", seed: "local-table", ...options };
-    globalThis.NRCoreRulesVersion=config.rulesVersion;
+    globalThis.NRAiPolicyVersion=config.aiPolicy||'native-v1';
+    globalThis.NRPressurePolicy?.configure(config.aiPolicy);
+    if(VANTAGE_RULES && !vantageRules(config.rulesVersion))throw Error('Create a fresh Gateway/Core runtime to restore an older rules profile.');
+    // The new profile inherits Core revision 2 while retaining its own public
+    // version. Existing Core patches see their original compatibility switch.
+    globalThis.NRVantageRulesVersion=vantageRules(config.rulesVersion)?config.rulesVersion:undefined;
+    globalThis.NRCoreRulesVersion=vantageRules(config.rulesVersion)?FULL_CORE_RULES:config.rulesVersion;
     if (config.rulesVersion !== undefined && !SUPPORTED_RULES.includes(config.rulesVersion))
       throw Error('Unsupported rules version: ' + config.rulesVersion);
     // Six points is an explicit teaching/evaluation variant. Normal local
     // games always use the standard seven-point target.
     globalProperties.agendaPointsToWin = config.control === 'scripted' && config.agendaPointTarget === 6 ? 6 : 7;
-    const selectedDecks = NRDecks.resolve(config.deckIds || (config.deckDocuments && config.cardPool==='core-v1' ? NRCoreDecks.defaults : undefined));
+    const selectedDecks = NRDecks.resolve(config.deckIds || (config.deckDocuments && corePool() ? NRCoreDecks.defaults : undefined));
     let validatedDecks=null;
     if(config.deckDocuments){
       validatedDecks={};
@@ -451,10 +477,12 @@
         validatedDecks[s]=NRDeckDocument.expand(doc);
       }
     }
-    if(config.cardPool!==undefined && config.cardPool!=='core-v1')throw Error('Unsupported card pool.');
+    if(config.cardPool!==undefined && !corePool())throw Error('Unsupported card pool.');
+    if(config.cardPool==='vantage-preview-v1' && (!vantageRules(config.rulesVersion)||!config.deckDocuments))throw Error('Vantage preview requires its isolated rules profile and two deck documents.');
+    if(vantageRules(config.rulesVersion) && config.cardPool!=='vantage-preview-v1')throw Error('Vantage rules require the Vantage preview card pool.');
     if(config.cardPool==='core-v1' && !coreRules(config.rulesVersion))throw Error('Core Sets requires the Elevation rules profile.');
     const core=Object.values(selectedDecks).some(d=>d.pool==='core-v1');
-    if(core && (!coreRules(config.rulesVersion) || config.cardPool!=='core-v1'))throw Error('Core Sets decks require the Elevation engine profile.');
+    if(core && (!coreRules(config.rulesVersion) || !corePool()))throw Error('Core Sets decks require the Elevation engine profile.');
     if(coreRules(config.rulesVersion) && !Object.values(selectedDecks).every(d=>d.pool==='core-v1'))throw Error('Choose both decks from the Core Sets card pool.');
     installContext = null;
     Math.seedrandom(String(config.seed));
@@ -617,8 +645,8 @@
     // Preserve ResolveChoice's receiver: handlers may call siblings via this.n().
     try { currentPhase.Resolve[cmd](choice); }
     finally { effectSource = previousSource; }
-    if(config.cardPool==='core-v1' && typeof NRCoreFlushHosted==='function')NRCoreFlushHosted();
-    if(config.cardPool==='core-v1' && typeof NRCoreFlushTags==='function')NRCoreFlushTags();
+    if(corePool() && typeof NRCoreFlushHosted==='function')NRCoreFlushHosted();
+    if(corePool() && typeof NRCoreFlushTags==='function')NRCoreFlushTags();
     winCheck();
   }
   function forcedPass(commands) {
@@ -638,14 +666,18 @@
       // Auto-pass only forced non-interactive timing windows. Never hide card/access choices.
       const forced = forcedPass(commands);
       if (!ai && !forced) break;
-      const cmd =
+      let cmd =
         commands.length === 1
           ? commands[0]
           : commands[await ai.CommandChoice(commands)];
       if (!cmd) throw Error("AI returned an invalid command");
       executingCommand = cmd;
       validOptions = phaseOptions[cmd];
-      const index = ai ? await ai.SelectChoice(validOptions) : 0;
+      let index = ai ? await ai.SelectChoice(validOptions) : 0;
+      if(ai && globalThis.NRPressurePolicy){
+        ({command:cmd,index}=await NRPressurePolicy.select(ai,phaseOptions,{command:cmd,index},turn));
+        executingCommand=cmd;validOptions=phaseOptions[cmd];
+      }
       if (!Number.isInteger(index) || !validOptions[index])
         throw Error("AI returned an invalid option");
       if(onDecision)onDecision({version,command:cmd,index,side:side(activePlayer)});
@@ -701,7 +733,7 @@
           fired: !!firedSubroutines.get(c)?.has(i),
         })),
       });
-      if(c.cardType==='identity' && typeof c.flipped==='boolean'){out.identityFace=c.flipped?'back':'front';if(c.flipped)out.artNumber=String(c.setNumber)+'-0';}
+      if(c.cardType==='identity' && typeof c.flipped==='boolean'){out.identityFace=c.flipped?'back':'front';if(c.flipped)out.artNumber=String(c.setNumber)+'-'+(c.setNumber===36036?c.secretCopy:0);if(c.setNumber===36036&&viewingPlayer===corp)out.secretIdentityCopy=c.secretCopy;}
       if(c.player===corp && viewingPlayer===corp && CheckInstalled(c) && !c.rezzed && ['asset','upgrade'].includes(c.cardType)) {
         out.rezStatus={cost:RezCost(c),available:AvailableCredits(corp,'rezzing',c),
           offered:activePlayer===corp && !!phaseOptions.rez?.some(o=>o.card===c),
@@ -775,6 +807,9 @@
     if (!card || !ability) return null;
     const profile = breakerProfile(card);
     const index = card.abilities?.indexOf(ability);
+    if(vantageRules(config.rulesVersion) && ability.localCost)return {...ability.localCost};
+    if(vantageRules(config.rulesVersion) && card.setNumber===36004 && index>=0)
+      return {credits:1,...(index===1?{note:'Spend credits only from stealth cards'}:{})};
     if (profile && index >= 0) return {credits:index === 0 ? profile.breakCost : profile.boostCost,
       ...(card.setNumber === 30032 && index === 0 ? {note:'Trash Mayfly when this run ends'} : {})};
     if (card.setNumber===35081 && index===0)return {clicks:1,credits:PlayCost(card),note:'Returns 1 click; remove this operation from the game after resolving'};
@@ -804,7 +839,7 @@
     }
     if (cmd === "rez" && card?.setNumber === 30053) cost.note = "On rez: draw 2 cards";
     const abilitySource = card || (currentPhase.context?.isCard ? currentPhase.context : null);
-    if (abilitySource && activePlayer === runner && CheckSubType(abilitySource, "Bioroid") &&
+    if (abilitySource && abilitySource.setNumber!==36028 && activePlayer === runner && CheckSubType(abilitySource, "Bioroid") &&
       ((cmd === "trigger" && currentPhase.identifier === "Run 3.1") || (cmd === "continue" && option?.subroutine))) cost.clicks = 1;
     // Explicit costs from the pinned Gateway economy abilities. Turn-start
     // responses are deliberately excluded; these are action-window abilities.
@@ -828,26 +863,30 @@
       if (cmd === "install" && card) {
         cost.credits = card.player === runner ? InstallCost(card, option?.host) :
           card.cardType === 'ice' ? (option?.server?.ice.length || 0) : InstallCost(card);
-        if (card.player === corp) cost.note = ['asset','upgrade'].includes(card.cardType) ? 'Rez cost paid later' : card.cardType === 'agenda' ? 'Install facedown' : 'Keep existing ice';
+        if (card.player === corp) cost.note = ['asset','upgrade'].includes(card.cardType) ? 'Rez cost paid later' : card.cardType === 'agenda' ? card.setNumber===36056?'Install faceup':'Install facedown' : 'Keep existing ice';
       }
     }
-    if(config?.cardPool==='core-v1' && cmd==='continue' && currentPhase.title?.startsWith('Playing ') && currentPhase.context?.isCard){
+    if(corePool() && cmd==='continue' && currentPhase.title?.startsWith('Playing ') && currentPhase.context?.isCard){
       const played=currentPhase.context;
       cost.credits=Number.isFinite(option?.playCost)?option.playCost:PlayCost(played);
       cost.clicks=currentPhase.corePlayActionClicks ?? (CheckSubType(played,'Double')?2:1);
       if(played.setNumber===35066 && Number.isFinite(option?.playCost))cost.note=`Remove ${option.playCost} tags as an additional cost`;
     }
     if (cmd === "rez" && card && PlayerCanLook(viewingPlayer, card)) cost.credits = RezCost(card);
-    if(config.rulesVersion===FULL_CORE_RULES&&cmd==='rez'&&card?.additionalRezCostForfeitOrTrashThree)cost.note='Also forfeit 1 agenda or reveal and trash 3 chosen HQ cards';
-    if(config.rulesVersion===FULL_CORE_RULES&&cmd==='rez'&&card?.optionalForfeitRezReduction)cost.note=`May forfeit 1 agenda to pay for ${card.optionalForfeitRezReduction} credits of this rez cost`;
+    if(fullCoreRules()&&cmd==='rez'&&card?.additionalRezCostForfeitOrTrashThree)cost.note='Also forfeit 1 agenda or reveal and trash 3 chosen HQ cards';
+    if(fullCoreRules()&&cmd==='rez'&&card?.optionalForfeitRezReduction)cost.note=`May forfeit 1 agenda to pay for ${card.optionalForfeitRezReduction} credits of this rez cost`;
     if (cmd === "trash" && ["Run Accessing","Core Access"].includes(currentPhase.identifier) && accessingCard && PlayerCanLook(viewingPlayer, accessingCard)) {
       cost.credits = TrashCost(accessingCard);
       const pool = runner.creditPool;
       const available = AvailableCredits(runner, "paying trash costs", accessingCard);
       cost.note = available > pool ? `${pool} pool + ${available - pool} eligible run/card credits` : `${pool} credits available`;
     }
+    if(vantageRules(config.rulesVersion)&&globalThis.NRVantagePlayClicks&&((cmd==='play'&&card)||(cmd==='continue'&&currentPhase.title?.startsWith('Playing ')&&currentPhase.context?.isCard))){const played=card||currentPhase.context;cost.clicks=NRVantagePlayClicks(played,cost.clicks??(CheckSubType(played,'Double')?2:1));}
+    if(cmd==='steal'&&vantageRules(config.rulesVersion)&&globalThis.NRVantageStealCost)Object.assign(cost,NRVantageStealCost());
     const notes=[];
+    if(vantageRules(config.rulesVersion)&&((cmd==='play'&&card?.setNumber===36011)||(cmd==='continue'&&currentPhase.title?.startsWith('Playing ')&&currentPhase.context?.setNumber===36011)))notes.push('Trash 1 installed resource as an additional cost');
     const guide=guidedPhases.get(currentPhase);
+    if(cmd==='install' && card?.setNumber===36013 && !runner.tags)notes.push('On install: take 1 tag if you are not already tagged');
     if (cmd==='install' && guide?.kind==='pantograph-install') {
       if (card) cost.credits=InstallCost(card,option?.host);
       notes.push(card ? 'Pantograph: no click cost; pay the quoted install credits' : 'Keep the gained credit and skip the optional install');
@@ -895,7 +934,7 @@
   function groupCostDTO(cmd) {
     const options=phaseOptions[cmd];
     const base=costDTO(cmd,options.length===1?options[0].card:null,options.length===1?options[0]:null);
-    if(config.cardPool!=='core-v1' || cmd!=='play' || options.length<2)return base;
+    if(!corePool() || cmd!=='play' || options.length<2)return base;
     const costs=options.map(o=>costDTO(cmd,o.card,o));
     if(costs.every(c=>JSON.stringify(c)===JSON.stringify(costs[0])))return costs[0];
     return {...(costs.every(c=>c.clicks===costs[0].clicks)?{clicks:costs[0].clicks}:{}),note:'Cost shown when choosing a card'};
@@ -929,7 +968,13 @@
       card: o.card ? cardDTO(o.card,searchChoice) : null,
       server: "server" in o ? o.server?.serverName || "New remote" : null,
     };
-    if(cmd==='pay' && Number.isFinite(o.amount))out.payment={amount:o.amount,source:o.sourceLabel,available:o.available};
+    if(cmd==='access'&&o.card){
+      const server=GetServer(o.card);
+      if(o.card.cardLocation===corp.HQ.cards)out.label='Random card from HQ';
+      else if(o.card.cardLocation===corp.RnD.cards)out.label='Next card from R&D';
+      else if(server?.root.includes(o.card))out.label=`${visible?o.card.title:'Unrezzed card'} in ${server.serverName} root`;
+    }
+    if(cmd==='pay' && Number.isFinite(o.amount))out.payment={amount:o.amount,source:o.sourceLabel,sourceId:o.sourceId,available:o.available};
     if(searchChoice)out.searchChoice=true;
     const source = phaseSourceCard() || o.card;
     if (source?.isCard && PlayerCanLook(viewingPlayer, source)) out.sourceId = id(source);
@@ -958,6 +1003,7 @@
     const profile=visible && breakerProfile(o.card);
     const selectedAbility=typeof o.ability==='number'?o.card?.abilities?.[o.ability]:o.ability;
     if(profile && selectedAbility)out.abilityKind=o.card.abilities.indexOf(selectedAbility)===1?'boost':'break';
+    if(VANTAGE_RULES&&o.card?.setNumber===36004&&selectedAbility)out.abilityKind=o.card.abilities.indexOf(selectedAbility)===1?'ice-reduction':'break';
     if (cmd==='install' && ['Corp 2.2','Runner 1.3'].includes(currentPhase.identifier)) out.installQuote=true;
     if (fullPaidChoices() && o.card && isPriorityWindow()) {
       if (cmd==='rez') out.secondary = !(attackedServer &&
@@ -978,6 +1024,8 @@
         out.label = "Spin Doctor · Draw 2 cards on rez";
       if (currentPhase.identifier === 'Rez' && o.card.setNumber === 35079)
         out.label = 'Flyswatter · Purge virus counters on rez';
+      if(o.card.setNumber===30028&&(o.callbackName||currentPhase.triggerCallbackName)==='responseOnRunSuccessful')
+        out.label='Jailbreak · draw 1 card and access 1 additional card';
     }
     if(cmd==='install' && visible && o.card?.cardType==='ice' && attackedServer && o.server===attackedServer && phaseSourceCard()?.setNumber===30038) {
       out.detail=`Installs outside ${phaseSourceCard().title}, behind the Runner's current position. This ice will not be approached during this run; it can defend a later run against ${attackedServer.serverName}.`;
@@ -999,32 +1047,48 @@
       };
     return out;
   }
+  function breakerFunding(card) {
+    const sources=[];
+    const add=(sourceId,label,available,expiring)=>{if(available>0)sources.push({sourceId,label,available,expiring});};
+    if(!globalThis.NRVantagePoolLocked?.())add('creditPool','credit pool',runner.creditPool,false);
+    if(attackedServer)add('temporaryCredits','bad publicity',runner.temporaryCredits,true);
+    for(const source of ActiveCards(runner))if(typeof source.canUseCredits==='function' && source.canUseCredits('using',card) && source.credits>0)
+      add(id(source),source.title,source.credits,source.setNumber===30029);
+    if(vantageRules(config.rulesVersion) && globalThis.NRVantageCreditRestriction)
+      return {sources:[],manualReason:'This ability restricts which credits may be spent. Choose sources manually.'};
+    const response=attackedServer?.root.some(c=>c.setNumber===36065 && c.rezzed && !c.usedThisTurn);
+    return {sources,manualReason:response?'Spending outside your pool can trigger this server’s defense. Choose sources manually.':null};
+  }
   function encounterTools() {
     const ice = CheckEncounter() && GetApproachEncounterIce();
     if (!ice || viewingPlayer !== runner || !PlayerCanLook(viewingPlayer, ice)) return [];
     const unbroken = ice.subroutines.filter(s => !s.broken).length;
     return InstalledCards(runner).filter(c => PlayerCanLook(viewingPlayer,c)).flatMap(card => {
       const profile = breakerProfile(card);
-      if (!profile && ![30004,30008].includes(card.setNumber)) return [];
+      if (!profile && ![30004,30008,...(VANTAGE_RULES?[36004]:[])].includes(card.setNumber)) return [];
       const tool = {card:cardDTO(card),enabled:CheckHasAbilities(card)};
-      if (profile) {
-        const matches = config.rulesVersion===FULL_CORE_RULES ? BreakerMatchesIce(card,ice) : profile.type === 'Any' ? !ice.cannotBreakUsingAIPrograms : CheckSubType(ice,profile.type);
+      if(VANTAGE_RULES&&card.setNumber===36004){
+        const gap=Math.max(0,Strength(ice)-Strength(card));
+        Object.assign(tool,{kind:'stealth-breaker',type:'Barrier',matches:BreakerMatchesIce(card,ice),gap,unbroken,breakCost:1,breakCount:1,
+          stealthCredits:NRVantageStealthCredits(card),requiredStealth:Math.ceil(gap/3),availableCredits:AvailableCredits(runner,'using',card),canLower:!ice.strengthCannotBeLowered});
+      }else if (profile) {
+        const matches = fullCoreRules() ? BreakerMatchesIce(card,ice) : profile.type === 'Any' ? !ice.cannotBreakUsingAIPrograms : CheckSubType(ice,profile.type);
         const gap = Math.max(0,Strength(ice)-Strength(card));
         const boostTotal = Math.ceil(gap / Math.max(1,profile.boostAmount)) * profile.boostCost;
         const breakTotal = Math.ceil(unbroken / profile.breakCount) * profile.breakCost;
         Object.assign(tool,{kind:'breaker',...profile,matches,gap,boostTotal,breakTotal,
-          availableCredits:AvailableCredits(runner,'using',card),unbroken});
+          availableCredits:AvailableCredits(runner,'using',card),funding:breakerFunding(card),unbroken});
       } else Object.assign(tool,{kind:card.setNumber === 30004 ? 'hosted-virus' : 'strength-virus',
-        counters:Counters(card,'virus'),matches:card.setNumber !== 30004 || card.host === ice && !(config.rulesVersion===FULL_CORE_RULES&&ice.setNumber===35054),
+        counters:Counters(card,'virus'),matches:card.setNumber !== 30004 || card.host === ice && !(fullCoreRules()&&ice.setNumber===35054),
         canLower:!ice.strengthCannotBeLowered});
-      if(config.rulesVersion===FULL_CORE_RULES&&ice.setNumber===35054&&card.setNumber!==30008&&!CheckSubType(card,'Fracter'))tool.restriction='Only a fracter can break this ice’s printed subroutine.';
+      if(fullCoreRules()&&ice.setNumber===35054&&card.setNumber!==30008&&!CheckSubType(card,'Fracter'))tool.restriction='Only a fracter can break this ice’s printed subroutine.';
       return [tool];
     });
   }
   function isPriorityWindow() {
     // Corp's movement response is a paid-ability window too. Recognize it
     // only for Core Corp priority; Runner's jack-out decision stays explicit.
-    if (config.cardPool==='core-v1' && currentPhase.identifier==='Run 4.3' && activePlayer===corp)return true;
+    if (corePool() && currentPhase.identifier==='Run 4.3' && activePlayer===corp)return true;
     return ['Corp 1.1','Corp 2.1','Corp 2.2','Corp 2.2*','Corp 3.2',
       'Runner 1.1','Runner 1.3','Runner 1.3*','Runner 2.2','Run 1.5','Run 2.1','Run 3.1','Run 4.5'].includes(currentPhase.identifier) && !abilityPhases.has(currentPhase);
   }
@@ -1049,10 +1113,14 @@
       return {kind:'single-access',command:'access',index:0};
     if (commands.length===1 && commands[0]==='trigger' && phaseOptions.trigger.length===1) {
       const o=phaseOptions.trigger[0], callback=o.callbackName || currentPhase.triggerCallbackName;
-      const known={35079:'responseOnRez',35004:'responseOnInstall',30037:'responseOnCorpTurnBegins',30053:'responseOnRez',30055:'responseOnRez',30042:'responseOnApproachServer',30036:'responseOnScored'};
+      const known={30028:'responseOnRunSuccessful',35079:'responseOnRez',35004:'responseOnInstall',30037:'responseOnCorpTurnBegins',30053:'responseOnRez',30055:'responseOnRez',30042:'responseOnApproachServer',30036:'responseOnScored'};
       const forcedEffect=o.card && known[o.card.setNumber] && known[o.card.setNumber]===callback;
-      if(config.rulesVersion===FULL_CORE_RULES&&o.card?.setNumber===35002&&callback==='responseOnInstall')return {kind:'forced-effect',command:'trigger',index:0};
-      if(config.rulesVersion===FULL_CORE_RULES&&(o.card?.setNumber===35080&&['responseOnScored','responseOnStolen'].includes(callback)||o.card?.setNumber===35068&&callback==='responseOnAccess'))return {kind:'forced-effect',command:'trigger',index:0};
+      if(fullCoreRules()&&o.card?.setNumber===35002&&callback==='responseOnInstall')return {kind:'forced-effect',command:'trigger',index:0};
+      if(vantageRules(config.rulesVersion)){
+        if(o.card?.setNumber===36020&&callback==='responseOnRunBegins')return {kind:'effect-targets',command:'trigger',index:0};
+        if(o.card?.setNumber===36050&&callback==='responseOnRez'||o.card?.setNumber===36038&&callback==='responseOnAccess'||o.card?.setNumber===36016&&callback==='responseOnRunnerActionPhaseEnds')return {kind:'forced-effect',command:'trigger',index:0};
+      }
+      if(fullCoreRules()&&(o.card?.setNumber===35080&&['responseOnScored','responseOnStolen'].includes(callback)||o.card?.setNumber===35068&&callback==='responseOnAccess'))return {kind:'forced-effect',command:'trigger',index:0};
       const forcedSub=currentPhase.identifier==='Run Subroutines' && (!o.choice || !Object.keys(o.choice).length);
       if (forcedEffect || forcedSub) return {kind:'forced-effect',command:'trigger',index:0};
       if (o.card?.setNumber===30035 && callback==='responseOnScored' ||
@@ -1076,7 +1144,7 @@
   }
   function snapshot() {
     const commands = terminal ? [] : enumerate();
-    const approachedIce=attackedServer?.ice[approachIce];
+    const approachedIce=GetApproachEncounterIce();
     const rezStatus=fullPaidChoices() && viewingPlayer===corp && currentPhase.identifier==='Run 2.1' && approachedIce && !approachedIce.rezzed
       ? {cardId:id(approachedIce),cost:RezCost(approachedIce),available:AvailableCredits(corp,'rezzing',approachedIce),
         offered:activePlayer===corp && !!phaseOptions.rez?.some(o=>o.card===approachedIce)} : null;
@@ -1141,6 +1209,8 @@
             ice: approachIce,
             encountering,
             movement,
+            ...(movement && approachedIce && !encounteredIce.has(approachedIce) && !approachedIce.rezzed ? {iceOutcome:'passed-unrezzed'} : {}),
+            ...(movement&&globalThis.NRCoreVacatedApproach?.()?{iceOutcome:'removed'}:{}),
             tools: encounterTools(),
             ...(rezStatus ? {rezStatus} : {}),
             restrictions: ChoicesActiveTriggers("modifyCannot").flatMap(({card}) => {
@@ -1152,7 +1222,7 @@
             }),
             card:
               approachIce >= 0
-                ? cardDTO(attackedServer.ice[approachIce])
+                ? cardDTO(approachedIce)
                 : null,
           }
         : null,
@@ -1195,6 +1265,7 @@
     choose,
     snapshot,
     summary,
+    aiAudit: () => globalThis.NRPressurePolicy?.audit(),
     presets,
     metrics: () => ({ steps, version, diagnostics }),
   };

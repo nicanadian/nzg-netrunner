@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "runners": [
+    "loup-full-vp-v1",
+    "vic-full-vp-v1",
+    "hiram-full-vp-v1"
+  ],
+  "corps": [
+    "hb-full-vp-v1",
+    "melies-full-vp-v1",
+    "editorial-full-vp-v1",
+    "weyland-full-vp-v1"
+  ],
+  "gamesPerMatchup": 100,
+  "workers": 4,
+  "seed": "vantage-full-validation-1",
+  "wallMs": 60000,
+  "decisions": 6000,
+  "traceEvery": 50
+}

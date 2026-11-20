@@ -1,0 +1,2822 @@
+{
+  "overflow": false,
+  "session": {
+    "choices": [
+      {
+        "command": "n",
+        "index": 0,
+        "version": 2
+      },
+      {
+        "command": "install",
+        "index": 0,
+        "version": 32
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 35
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 37
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 38
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 57
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 97
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 99
+      },
+      {
+        "command": "install",
+        "index": 0,
+        "version": 101
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 104
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 142
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 143
+      },
+      {
+        "command": "install",
+        "index": 0,
+        "version": 144
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 147
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 149
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 150
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 152
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 156
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 161
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 166
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 169
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 172
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 176
+      },
+      {
+        "command": "continue",
+        "index": 3,
+        "version": 177
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 180
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 185
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 188
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 192
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 194
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 195
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 197
+      },
+      {
+        "command": "install",
+        "index": 1,
+        "version": 198
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 199
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 200
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 201
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 202
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 205
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 207
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 209
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 211
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 213
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 215
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 263
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 265
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 266
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 267
+      },
+      {
+        "command": "install",
+        "index": 2,
+        "version": 268
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 270
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 271
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 272
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 276
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 281
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 286
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 289
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 292
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 296
+      },
+      {
+        "command": "continue",
+        "index": 4,
+        "version": 297
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 300
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 305
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 308
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 312
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 313
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 314
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 315
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 316
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 319
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 321
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 324
+      },
+      {
+        "command": "trigger",
+        "index": 1,
+        "version": 325
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 326
+      },
+      {
+        "command": "trigger",
+        "index": 1,
+        "version": 327
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 328
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 329
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 336
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 338
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 345
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 346
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 350
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 351
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 355
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 360
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 365
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 369
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 373
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 377
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 382
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 385
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 389
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 390
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 391
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 392
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 393
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 396
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 398
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 401
+      },
+      {
+        "command": "trigger",
+        "index": 1,
+        "version": 402
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 403
+      },
+      {
+        "command": "trigger",
+        "index": 1,
+        "version": 404
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 405
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 406
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 413
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 415
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 429
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 436
+      },
+      {
+        "command": "steal",
+        "index": 0,
+        "version": 437
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 438
+      },
+      {
+        "command": "continue",
+        "index": 5,
+        "version": 439
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 449
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 488
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 489
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 490
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 491
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 492
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 493
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 496
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 498
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 500
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 512
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 546
+      },
+      {
+        "command": "continue",
+        "index": 5,
+        "version": 547
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 562
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 563
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 564
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 565
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 566
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 567
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 568
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 570
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 573
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 575
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 580
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 587
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 591
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 595
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 599
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 604
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 607
+      },
+      {
+        "command": "install",
+        "index": 1,
+        "version": 611
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 614
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 615
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 616
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 617
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 618
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 619
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 623
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 628
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 635
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 639
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 642
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 645
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 650
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 653
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 657
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 658
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 660
+      },
+      {
+        "command": "trigger",
+        "index": 1,
+        "version": 662
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 663
+      },
+      {
+        "command": "pay",
+        "index": 1,
+        "version": 664
+      },
+      {
+        "command": "trigger",
+        "index": 1,
+        "version": 665
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 666
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 667
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 674
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 676
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 678
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 692
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 699
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 700
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 704
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 705
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 706
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 707
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 708
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 709
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 713
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 718
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 723
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 726
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 729
+      }
+    ],
+    "conceded": false,
+    "config": {
+      "cardPool": "vantage-preview-v1",
+      "deckDocuments": {
+        "corp": {
+          "cards": [
+            {
+              "count": 1,
+              "id": "30036"
+            },
+            {
+              "count": 3,
+              "id": "30037"
+            },
+            {
+              "count": 2,
+              "id": "30038"
+            },
+            {
+              "count": 2,
+              "id": "30039"
+            },
+            {
+              "count": 3,
+              "id": "30040"
+            },
+            {
+              "count": 1,
+              "id": "30042"
+            },
+            {
+              "count": 1,
+              "id": "30048"
+            },
+            {
+              "count": 2,
+              "id": "30053"
+            },
+            {
+              "count": 3,
+              "id": "30067"
+            },
+            {
+              "count": 2,
+              "id": "30068"
+            },
+            {
+              "count": 1,
+              "id": "30069"
+            },
+            {
+              "count": 3,
+              "id": "30070"
+            },
+            {
+              "count": 3,
+              "id": "30071"
+            },
+            {
+              "count": 3,
+              "id": "30072"
+            },
+            {
+              "count": 3,
+              "id": "30073"
+            },
+            {
+              "count": 3,
+              "id": "30075"
+            },
+            {
+              "count": 1,
+              "id": "36030"
+            },
+            {
+              "count": 1,
+              "id": "36031"
+            },
+            {
+              "count": 1,
+              "id": "36032"
+            },
+            {
+              "count": 1,
+              "id": "36042"
+            }
+          ],
+          "identity": "30035",
+          "name": "Precision Design · Tempo and recycling",
+          "pool": "vantage-preview-v1",
+          "schemaVersion": 1,
+          "side": "corp"
+        },
+        "runner": {
+          "cards": [
+            {
+              "count": 3,
+              "id": "30020"
+            },
+            {
+              "count": 3,
+              "id": "30021"
+            },
+            {
+              "count": 2,
+              "id": "30022"
+            },
+            {
+              "count": 2,
+              "id": "30023"
+            },
+            {
+              "count": 3,
+              "id": "30025"
+            },
+            {
+              "count": 3,
+              "id": "30026"
+            },
+            {
+              "count": 3,
+              "id": "30027"
+            },
+            {
+              "count": 3,
+              "id": "30029"
+            },
+            {
+              "count": 3,
+              "id": "30030"
+            },
+            {
+              "count": 3,
+              "id": "36004"
+            },
+            {
+              "count": 3,
+              "id": "36012"
+            },
+            {
+              "count": 2,
+              "id": "36013"
+            },
+            {
+              "count": 2,
+              "id": "36020"
+            },
+            {
+              "count": 3,
+              "id": "36021"
+            },
+            {
+              "count": 2,
+              "id": "36024"
+            }
+          ],
+          "identity": "30019",
+          "name": "Tāo · Stealth console",
+          "pool": "vantage-preview-v1",
+          "schemaVersion": 1,
+          "side": "runner"
+        }
+      },
+      "rulesVersion": "26.03-vantage-2",
+      "seed": "19977232-7285-47da-9740-64bf95bf1859",
+      "side": "runner"
+    },
+    "engine": "local-vantage-preview-2"
+  },
+  "state": {
+    "access": null,
+    "active": "corp",
+    "agendaPointTarget": 7,
+    "assistance": null,
+    "corp": {
+      "badPublicity": 0,
+      "clicks": 0,
+      "credits": 41,
+      "deck": 19,
+      "discard": [
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c26",
+          "installed": false,
+          "number": 30071,
+          "rezzed": true,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [],
+          "subroutines": [],
+          "title": "Regolith Mining License",
+          "type": "asset"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c35",
+          "installed": false,
+          "number": 30075,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Transaction"
+          ],
+          "subroutines": [],
+          "title": "Hedge Fund",
+          "type": "operation"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c36",
+          "installed": false,
+          "number": 30075,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Transaction"
+          ],
+          "subroutines": [],
+          "title": "Hedge Fund",
+          "type": "operation"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c37",
+          "installed": false,
+          "number": 30075,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Transaction"
+          ],
+          "subroutines": [],
+          "title": "Hedge Fund",
+          "type": "operation"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c5",
+          "installed": false,
+          "number": 30037,
+          "rezzed": true,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Advertisement"
+          ],
+          "subroutines": [],
+          "title": "Nico Campaign",
+          "type": "asset"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c12",
+          "installed": false,
+          "number": 30040,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [],
+          "subroutines": [],
+          "title": "Seamless Launch",
+          "type": "operation"
+        }
+      ],
+      "hand": [
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c10",
+          "installed": false,
+          "rezzed": false,
+          "side": "corp"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c23",
+          "installed": false,
+          "rezzed": false,
+          "side": "corp"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c14",
+          "installed": false,
+          "rezzed": false,
+          "side": "corp"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c40",
+          "installed": false,
+          "rezzed": false,
+          "side": "corp"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c2",
+          "installed": false,
+          "rezzed": false,
+          "side": "corp"
+        }
+      ],
+      "identity": {
+        "advancement": 0,
+        "advancementRequirement": null,
+        "canScore": false,
+        "counters": {},
+        "faceUp": true,
+        "hidden": false,
+        "hosted": [],
+        "id": "c1",
+        "installed": false,
+        "number": 30035,
+        "rezzed": false,
+        "side": "corp",
+        "strength": null,
+        "subTypes": [
+          "Megacorp"
+        ],
+        "subroutines": [],
+        "title": "Haas-Bioroid: Precision Design",
+        "type": "identity"
+      },
+      "maxHand": 6,
+      "points": 8,
+      "resolving": [],
+      "score": [
+        {
+          "advancement": 0,
+          "advancementRequirement": 4,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c18",
+          "installed": false,
+          "number": 30067,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Expansion"
+          ],
+          "subroutines": [],
+          "title": "Offworld Office",
+          "type": "agenda"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": 4,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c19",
+          "installed": false,
+          "number": 30067,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Expansion"
+          ],
+          "subroutines": [],
+          "title": "Offworld Office",
+          "type": "agenda"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": 4,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c21",
+          "installed": false,
+          "number": 30068,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Security"
+          ],
+          "subroutines": [],
+          "title": "Orbital Superiority",
+          "type": "agenda"
+        },
+        {
+          "advancement": 4,
+          "advancementRequirement": 4,
+          "canScore": false,
+          "counters": {
+            "advancement": 4
+          },
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c17",
+          "installed": false,
+          "number": 30067,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Expansion"
+          ],
+          "subroutines": [],
+          "title": "Offworld Office",
+          "type": "agenda"
+        }
+      ],
+      "servers": [
+        {
+          "central": true,
+          "ice": [
+            {
+              "advancement": 0,
+              "advancementRequirement": null,
+              "canScore": false,
+              "counters": {},
+              "faceUp": true,
+              "hidden": false,
+              "hosted": [],
+              "id": "c29",
+              "installed": true,
+              "number": 30072,
+              "rezzed": true,
+              "side": "corp",
+              "strength": 2,
+              "subTypes": [
+                "Barrier"
+              ],
+              "subroutines": [
+                {
+                  "broken": false,
+                  "fired": true,
+                  "text": "End the run."
+                }
+              ],
+              "title": "Palisade",
+              "type": "ice"
+            }
+          ],
+          "name": "HQ",
+          "root": []
+        },
+        {
+          "central": true,
+          "ice": [
+            {
+              "advancement": 0,
+              "advancementRequirement": null,
+              "canScore": false,
+              "counters": {},
+              "faceUp": true,
+              "hidden": false,
+              "hosted": [],
+              "id": "c34",
+              "installed": true,
+              "number": 30073,
+              "rezzed": true,
+              "side": "corp",
+              "strength": 1,
+              "subTypes": [
+                "Sentry",
+                "AP"
+              ],
+              "subroutines": [
+                {
+                  "broken": false,
+                  "fired": true,
+                  "text": "Do 1 net damage."
+                },
+                {
+                  "broken": false,
+                  "fired": true,
+                  "text": "Gain 1 credit."
+                }
+              ],
+              "title": "Tithe",
+              "type": "ice"
+            },
+            {
+              "advancement": 0,
+              "advancementRequirement": null,
+              "canScore": false,
+              "counters": {},
+              "faceUp": true,
+              "hidden": false,
+              "hosted": [],
+              "id": "c33",
+              "installed": true,
+              "number": 30073,
+              "rezzed": true,
+              "side": "corp",
+              "strength": 1,
+              "subTypes": [
+                "Sentry",
+                "AP"
+              ],
+              "subroutines": [
+                {
+                  "broken": false,
+                  "fired": false,
+                  "text": "Do 1 net damage."
+                },
+                {
+                  "broken": false,
+                  "fired": false,
+                  "text": "Gain 1 credit."
+                }
+              ],
+              "title": "Tithe",
+              "type": "ice"
+            }
+          ],
+          "name": "R&D",
+          "root": []
+        },
+        {
+          "central": true,
+          "ice": [],
+          "name": "Archives",
+          "root": []
+        },
+        {
+          "central": false,
+          "ice": [
+            {
+              "advancement": 0,
+              "faceUp": false,
+              "hidden": true,
+              "hosted": [],
+              "id": "c30",
+              "installed": true,
+              "rezzed": false,
+              "side": "corp"
+            }
+          ],
+          "name": "Remote 0",
+          "root": []
+        },
+        {
+          "central": false,
+          "ice": [
+            {
+              "advancement": 0,
+              "advancementRequirement": null,
+              "canScore": false,
+              "counters": {},
+              "faceUp": true,
+              "hidden": false,
+              "hosted": [],
+              "id": "c7",
+              "installed": true,
+              "number": 30038,
+              "rezzed": true,
+              "side": "corp",
+              "strength": 4,
+              "subTypes": [
+                "Sentry",
+                "Bioroid",
+                "Destroyer"
+              ],
+              "subroutines": [
+                {
+                  "broken": false,
+                  "fired": false,
+                  "text": "Trash 1 installed Runner card."
+                },
+                {
+                  "broken": false,
+                  "fired": false,
+                  "text": "You may install 1 card from HQ or Archives."
+                },
+                {
+                  "broken": false,
+                  "fired": false,
+                  "text": "The Runner cannot steal or trash Corp cards for the remainder of this run."
+                }
+              ],
+              "title": "Ansel 1.0",
+              "type": "ice"
+            }
+          ],
+          "name": "Remote 1",
+          "root": []
+        }
+      ],
+      "side": "corp"
+    },
+    "decision": null,
+    "diagnostics": [],
+    "history": [
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "You may rez 1 installed piece of ice, ignoring all costs triggered",
+        "turn": 14
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Corp rezzed Ansel 1.0 protecting Remote 1 at position 0",
+        "turn": 14
+      },
+      {
+        "side": "runner",
+        "text": "Run ends",
+        "turn": 14
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 14
+      },
+      {
+        "draw": {
+          "kind": "action"
+        },
+        "side": "runner",
+        "text": "Runner drew a card",
+        "turn": 14
+      },
+      {
+        "draw": {
+          "kind": "mandatory"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 15
+      },
+      {
+        "side": "corp",
+        "text": "Using Regolith Mining License:",
+        "turn": 15
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 15
+      },
+      {
+        "side": "corp",
+        "text": "3 credits taken from Regolith Mining License",
+        "turn": 15
+      },
+      {
+        "side": "corp",
+        "text": "Regolith Mining License trashed",
+        "turn": 15
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 15
+      },
+      {
+        "side": "corp",
+        "text": "Corp installed a card in root of a remote server",
+        "turn": 15
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 15
+      },
+      {
+        "side": "corp",
+        "text": "Corp installed a card in root of a remote server",
+        "turn": 15
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 16
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained one credit",
+        "turn": 16
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 16
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained one credit",
+        "turn": 16
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 16
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 2 credits from credit pool",
+        "turn": 16
+      },
+      {
+        "side": "runner",
+        "text": "Played \"Tailgate\"",
+        "turn": 16
+      },
+      {
+        "side": "runner",
+        "text": "1 credit placed on Touchstone",
+        "turn": 16
+      },
+      {
+        "side": "runner",
+        "text": "Run initiated attacking HQ",
+        "turn": 16
+      },
+      {
+        "side": "runner",
+        "text": "Approaching outermost piece of ice protecting HQ",
+        "turn": 16
+      },
+      {
+        "side": "runner",
+        "text": "Encountering Palisade protecting HQ at position 0",
+        "turn": 16
+      },
+      {
+        "side": "runner",
+        "text": "Using Unity:",
+        "turn": 16
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 1 credit from Touchstone",
+        "turn": 16
+      },
+      {
+        "side": "runner",
+        "text": "Unity gets +2 strength",
+        "turn": 16
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Firing \"End the run.\" on Palisade protecting HQ at position 0:",
+        "turn": 16
+      },
+      {
+        "side": "runner",
+        "text": "Run ends",
+        "turn": 16
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 16
+      },
+      {
+        "draw": {
+          "kind": "action"
+        },
+        "side": "runner",
+        "text": "Runner drew a card",
+        "turn": 16
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Corp spent 2 credits from credit pool",
+        "turn": 16
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Corp rezzed Nico Campaign",
+        "turn": 16
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "9 credits loaded onto Nico Campaign",
+        "turn": 16
+      },
+      {
+        "side": "corp",
+        "text": "3 credits taken from Nico Campaign",
+        "turn": 17
+      },
+      {
+        "draw": {
+          "kind": "mandatory"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 17
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 17
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 1 credit from credit pool",
+        "turn": 17
+      },
+      {
+        "side": "corp",
+        "text": "Card advanced",
+        "turn": 17
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 17
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 1 credit from credit pool",
+        "turn": 17
+      },
+      {
+        "side": "corp",
+        "text": "Card advanced",
+        "turn": 17
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 17
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 1 credit from credit pool",
+        "turn": 17
+      },
+      {
+        "side": "corp",
+        "text": "Played \"Seamless Launch\"",
+        "turn": 17
+      },
+      {
+        "side": "corp",
+        "text": "2 advancement tokens placed on hidden card",
+        "turn": 17
+      },
+      {
+        "side": "corp",
+        "text": "Orbital Superiority scored",
+        "turn": 17
+      },
+      {
+        "side": "corp",
+        "text": "Do 4 meat damage or give the Runner 1 tag triggered",
+        "turn": 17
+      },
+      {
+        "side": "corp",
+        "text": "1 tag added",
+        "turn": 17
+      },
+      {
+        "side": "corp",
+        "text": "You may add 1 card from Archives to HQ triggered",
+        "turn": 17
+      },
+      {
+        "side": "corp",
+        "text": "Seamless Launch added to HQ from Archives",
+        "turn": 17
+      },
+      {
+        "actor": "runner",
+        "side": "corp",
+        "text": "Tāo Salonga: Swap 2 installed pieces of ice triggered",
+        "turn": 17
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained one credit",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained one credit",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained one credit",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 1 credit from credit pool",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Played \"VRcation\"",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "1 credit placed on Touchstone",
+        "turn": 18
+      },
+      {
+        "draw": {
+          "kind": "effect",
+          "source": "VRcation"
+        },
+        "side": "runner",
+        "text": "Runner drew 4 cards",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Runner lost no clicks",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Runner discarded \"Unity\"",
+        "turn": 18
+      },
+      {
+        "side": "corp",
+        "text": "3 credits taken from Nico Campaign",
+        "turn": 19
+      },
+      {
+        "draw": {
+          "kind": "mandatory"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 19
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 19
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 5 credits from credit pool",
+        "turn": 19
+      },
+      {
+        "side": "corp",
+        "text": "Played \"Hedge Fund\"",
+        "turn": 19
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained 9 credits",
+        "turn": 19
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 19
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 5 credits from credit pool",
+        "turn": 19
+      },
+      {
+        "side": "corp",
+        "text": "Played \"Hedge Fund\"",
+        "turn": 19
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained 9 credits",
+        "turn": 19
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 19
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 5 credits from credit pool",
+        "turn": 19
+      },
+      {
+        "side": "corp",
+        "text": "Played \"Hedge Fund\"",
+        "turn": 19
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained 9 credits",
+        "turn": 19
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 2 credits from credit pool",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Runner installed Pantograph",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Pantograph is a console, the older card will be unpreventably trashed.",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Methuselah trashed",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained one credit",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained one credit",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained one credit",
+        "turn": 20
+      },
+      {
+        "side": "corp",
+        "text": "3 credits taken from Nico Campaign",
+        "turn": 21
+      },
+      {
+        "side": "corp",
+        "text": "Nico Campaign trashed",
+        "turn": 21
+      },
+      {
+        "draw": {
+          "kind": "effect",
+          "source": "Nico Campaign"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 21
+      },
+      {
+        "draw": {
+          "kind": "mandatory"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 21
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 21
+      },
+      {
+        "side": "corp",
+        "text": "Corp installed a card in root of a remote server",
+        "turn": 21
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 21
+      },
+      {
+        "draw": {
+          "kind": "action"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 21
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 21
+      },
+      {
+        "draw": {
+          "kind": "action"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 21
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Run initiated attacking R&D",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Approaching outermost piece of ice protecting R&D",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Encountering Tithe protecting R&D at position 1",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Using Echelon:",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 1 credit from Touchstone",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Subroutine \"Do 1 net damage.\" broken",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Using Echelon:",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 1 credit from credit pool",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Subroutine \"Gain 1 credit.\" broken",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Using Unity:",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 1 credit from credit pool",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Unity gets +2 strength",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Unity's strength boost expires outside an encounter",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Using Unity:",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 1 credit from credit pool",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Unity gets +2 strength",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Unity's strength boost expires outside an encounter",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Approaching next piece of ice protecting R&D",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Encountering Tithe protecting R&D at position 0",
+        "turn": 22
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Firing \"Do 1 net damage.\" on Tithe protecting R&D at position 0:",
+        "turn": 22
+      },
+      {
+        "damage": {
+          "amount": 1,
+          "card": {
+            "id": "c34",
+            "number": 30073,
+            "title": "Tithe"
+          },
+          "gripBefore": 4,
+          "type": "net"
+        },
+        "side": "runner",
+        "text": "Runner takes 1 net damage",
+        "turn": 22
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Echelon trashed",
+        "turn": 22
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Firing \"Gain 1 credit.\" on Tithe protecting R&D at position 0:",
+        "turn": 22
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Corp gained one credit",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Approaching R&D",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Run successful",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Hansei Review accessed",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Run ends",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained one credit",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained one credit",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained one credit",
+        "turn": 22
+      },
+      {
+        "draw": {
+          "kind": "mandatory"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 23
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 23
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 1 credit from credit pool",
+        "turn": 23
+      },
+      {
+        "side": "corp",
+        "text": "Card advanced",
+        "turn": 23
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 23
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 1 credit from credit pool",
+        "turn": 23
+      },
+      {
+        "side": "corp",
+        "text": "Card advanced",
+        "turn": 23
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 23
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 1 credit from credit pool",
+        "turn": 23
+      },
+      {
+        "side": "corp",
+        "text": "Played \"Seamless Launch\"",
+        "turn": 23
+      },
+      {
+        "side": "corp",
+        "text": "2 advancement tokens placed on hidden card",
+        "turn": 23
+      },
+      {
+        "side": "corp",
+        "text": "Offworld Office scored",
+        "turn": 23
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained 7 credits",
+        "turn": 23
+      },
+      {
+        "side": "corp",
+        "text": "Corp reached 8 agenda points.",
+        "turn": 23
+      }
+    ],
+    "historyCount": 365,
+    "installation": null,
+    "phase": {
+      "identifier": "Scored",
+      "source": null,
+      "title": "Scored"
+    },
+    "playerTurn": "corp",
+    "quietWindow": false,
+    "rulesVersion": "26.03-vantage-2",
+    "run": null,
+    "runner": {
+      "clicks": 0,
+      "coreDamage": 0,
+      "credits": 3,
+      "deck": 22,
+      "discard": [
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c73",
+          "installed": false,
+          "number": 36012,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [
+            "Run"
+          ],
+          "subroutines": [],
+          "title": "Tailgate",
+          "type": "event"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c46",
+          "installed": false,
+          "number": 30021,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [],
+          "subroutines": [],
+          "title": "VRcation",
+          "type": "event"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c67",
+          "installed": false,
+          "number": 30030,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [],
+          "subroutines": [],
+          "title": "Sure Gamble",
+          "type": "event"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c71",
+          "installed": false,
+          "number": 36012,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [
+            "Run"
+          ],
+          "subroutines": [],
+          "title": "Tailgate",
+          "type": "event"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c60",
+          "installed": false,
+          "number": 30027,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [
+            "Job"
+          ],
+          "subroutines": [],
+          "title": "Telework Contract",
+          "type": "resource"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c66",
+          "installed": false,
+          "number": 30030,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [],
+          "subroutines": [],
+          "title": "Sure Gamble",
+          "type": "event"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c72",
+          "installed": false,
+          "number": 36012,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [
+            "Run"
+          ],
+          "subroutines": [],
+          "title": "Tailgate",
+          "type": "event"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c48",
+          "installed": false,
+          "number": 30021,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [],
+          "subroutines": [],
+          "title": "VRcation",
+          "type": "event"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c58",
+          "installed": false,
+          "number": 30026,
+          "rezzed": false,
+          "side": "runner",
+          "strength": 1,
+          "subTypes": [
+            "Icebreaker",
+            "Decoder"
+          ],
+          "subroutines": [],
+          "title": "Unity",
+          "type": "program"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c76",
+          "installed": false,
+          "number": 36020,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [
+            "Console",
+            "Stealth"
+          ],
+          "subroutines": [],
+          "title": "Methuselah",
+          "type": "hardware"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c53",
+          "installed": false,
+          "number": 30025,
+          "rezzed": false,
+          "side": "runner",
+          "strength": 0,
+          "subTypes": [
+            "Icebreaker",
+            "Killer"
+          ],
+          "subroutines": [],
+          "title": "Echelon",
+          "type": "program"
+        }
+      ],
+      "hand": [
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c80",
+          "installed": false,
+          "number": 36021,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [
+            "Stealth"
+          ],
+          "subroutines": [],
+          "title": "Touchstone",
+          "type": "hardware"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c78",
+          "installed": false,
+          "number": 36021,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [
+            "Stealth"
+          ],
+          "subroutines": [],
+          "title": "Touchstone",
+          "type": "hardware"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c75",
+          "installed": false,
+          "number": 36013,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [
+            "Chip"
+          ],
+          "subroutines": [],
+          "title": "Borrowed Goods",
+          "type": "hardware"
+        }
+      ],
+      "identity": {
+        "advancement": 0,
+        "advancementRequirement": null,
+        "canScore": false,
+        "counters": {},
+        "faceUp": true,
+        "hidden": false,
+        "hosted": [],
+        "id": "c42",
+        "installed": false,
+        "number": 30019,
+        "rezzed": false,
+        "side": "runner",
+        "strength": null,
+        "subTypes": [
+          "Natural"
+        ],
+        "subroutines": [],
+        "title": "Tāo Salonga: Telepresence Magician",
+        "type": "identity"
+      },
+      "maxHand": 5,
+      "memory": 5,
+      "memoryUsed": 2,
+      "points": 3,
+      "resolving": [],
+      "rig": {
+        "hardware": [
+          {
+            "advancement": 0,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "faceUp": true,
+            "hidden": false,
+            "hosted": [],
+            "id": "c79",
+            "installed": true,
+            "number": 36021,
+            "rezzed": false,
+            "side": "runner",
+            "strength": null,
+            "subTypes": [
+              "Stealth"
+            ],
+            "subroutines": [],
+            "title": "Touchstone",
+            "type": "hardware"
+          },
+          {
+            "advancement": 0,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "faceUp": true,
+            "hidden": false,
+            "hosted": [],
+            "id": "c52",
+            "installed": true,
+            "number": 30023,
+            "rezzed": false,
+            "side": "runner",
+            "strength": null,
+            "subTypes": [
+              "Console"
+            ],
+            "subroutines": [],
+            "title": "Pantograph",
+            "type": "hardware"
+          }
+        ],
+        "programs": [
+          {
+            "advancement": 0,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "faceUp": true,
+            "hidden": false,
+            "hosted": [],
+            "id": "c56",
+            "installed": true,
+            "number": 30026,
+            "rezzed": false,
+            "side": "runner",
+            "strength": 1,
+            "subTypes": [
+              "Icebreaker",
+              "Decoder"
+            ],
+            "subroutines": [],
+            "title": "Unity",
+            "type": "program"
+          },
+          {
+            "advancement": 0,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "faceUp": true,
+            "hidden": false,
+            "hosted": [],
+            "id": "c54",
+            "installed": true,
+            "number": 30025,
+            "rezzed": false,
+            "side": "runner",
+            "strength": 2,
+            "subTypes": [
+              "Icebreaker",
+              "Killer"
+            ],
+            "subroutines": [],
+            "title": "Echelon",
+            "type": "program"
+          }
+        ],
+        "resources": []
+      },
+      "score": [
+        {
+          "advancement": 0,
+          "advancementRequirement": 5,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c22",
+          "installed": false,
+          "number": 30069,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Security"
+          ],
+          "subroutines": [],
+          "title": "Send a Message",
+          "type": "agenda"
+        }
+      ],
+      "side": "runner",
+      "tags": 1,
+      "temporaryCredits": 0
+    },
+    "seed": "19977232-7285-47da-9740-64bf95bf1859",
+    "side": "runner",
+    "steps": 732,
+    "terminal": {
+      "reason": "Corp reached 8 agenda points.",
+      "winner": "corp"
+    },
+    "turn": 23,
+    "version": 732
+  },
+  "viewport": {
+    "height": 844,
+    "width": 390
+  }
+}

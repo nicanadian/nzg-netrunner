@@ -9,6 +9,9 @@ try{
  const sandbox=process.platform==='darwin'&&fs.existsSync('/usr/bin/sandbox-exec');
  const result=sandbox?spawnSync('/usr/bin/sandbox-exec',['-p','(version 1)(allow default)(deny network*)',process.execPath,...args],{cwd:target,encoding:'utf8',timeout:30000}):spawnSync(process.execPath,args,{cwd:target,encoding:'utf8',timeout:30000});
  assert.equal(result.status,0,result.stderr||result.error?.message);const summary=JSON.parse(fs.readFileSync(path.join(temp,'results/summary.json')));assert.equal(summary.statuses.completed,1);
+ const vantageArgs=['scripts/netrunner.cjs','validate','tao-vantage-pilot-v1'];
+ const vantage=sandbox?spawnSync('/usr/bin/sandbox-exec',['-p','(version 1)(allow default)(deny network*)',process.execPath,...vantageArgs],{cwd:target,encoding:'utf8',timeout:30000}):spawnSync(process.execPath,vantageArgs,{cwd:target,encoding:'utf8',timeout:30000});
+ assert.equal(vantage.status,0,vantage.stderr);assert.equal(JSON.parse(vantage.stdout).valid,true);assert.equal(JSON.parse(vantage.stdout).aiCertified,false);
  const files=fs.readdirSync(path.join(temp,'results/jobs'));const replay=spawnSync(process.execPath,['scripts/netrunner.cjs','replay',path.join(temp,'results/jobs',files[0])],{cwd:target,encoding:'utf8',timeout:30000});assert.equal(replay.status,0,replay.stderr);assert.match(replay.stdout,/PASS deterministic replay/);
  console.log('PASS portable offline package: Unicode/spaced path, no dependencies/UI/art/server; complete native match and pinned-source replay'+(sandbox?', OS network access denied.':'. Network-denied qualification needs a platform-specific sandbox.'));
 }finally{fs.rmSync(temp,{recursive:true,force:true});}

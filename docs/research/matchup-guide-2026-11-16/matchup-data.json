@@ -1,0 +1,5652 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-16",
+  "engineHash": "d8ca9a11d7e9724aa0636b608763aa8c7265d22404dbcb0467dd721496b10dbd",
+  "policy": "pressure-v1",
+  "expanded": true,
+  "definitions": {
+    "metric": "Runner wins divided by completed games for the exact pairing.",
+    "close": "Observed Runner win rate from 40% through 60%; a descriptive window, not a claim of equivalence.",
+    "preliminary": "Fewer than 30 completed games. Gateway, Elevation and interaction snapshots currently have six.",
+    "limitation": "Fixed-policy AI results. Human skill, card familiarity and bot weaknesses can change the matchup. Pairwise estimates share seed families, and suggestions are exploratory."
+  },
+  "sources": [
+    {
+      "source": "audit-gateway-v1",
+      "pool": "gateway-v1",
+      "seed": "all-decks-2026-11-16",
+      "gamesPerMatchup": 6,
+      "pairings": 56,
+      "experimentHash": "ebc9431f5b419c0cf3884cb74155656199edc7a1fc0bf8dadf8fd1585ce02fdd",
+      "engineHash": "d8ca9a11d7e9724aa0636b608763aa8c7265d22404dbcb0467dd721496b10dbd",
+      "policy": "pressure-v1"
+    },
+    {
+      "source": "audit-core-v1",
+      "pool": "core-v1",
+      "seed": "all-decks-2026-11-16",
+      "gamesPerMatchup": 6,
+      "pairings": 108,
+      "experimentHash": "aafb4bc28c51af41abb446f0a250820bb337fb9b7655d456a50db7ed121e2960",
+      "engineHash": "d8ca9a11d7e9724aa0636b608763aa8c7265d22404dbcb0467dd721496b10dbd",
+      "policy": "pressure-v1"
+    },
+    {
+      "source": "audit-vantage-preview-v1",
+      "pool": "vantage-preview-v1",
+      "seed": "all-decks-2026-11-16",
+      "gamesPerMatchup": 6,
+      "pairings": 117,
+      "experimentHash": "91633186cc97c526309304160d5a3e38cb427215018254835c5c06cfb9191b2f",
+      "engineHash": "d8ca9a11d7e9724aa0636b608763aa8c7265d22404dbcb0467dd721496b10dbd",
+      "policy": "pressure-v1"
+    },
+    {
+      "source": "vantage-followup-48",
+      "pool": "vantage-preview-v1",
+      "seed": "vantage-matchup-guide-heldout-2026-11-16",
+      "gamesPerMatchup": 48,
+      "pairings": 20,
+      "experimentHash": "15b59a36c7a4d5fdabca05d92f8c15aef726b5d718682d1f56ffad131ad29e40",
+      "engineHash": "d8ca9a11d7e9724aa0636b608763aa8c7265d22404dbcb0467dd721496b10dbd",
+      "policy": "pressure-v1"
+    }
+  ],
+  "decks": [
+    {
+      "id": "loup-v1",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "René “Loup” Arcemont",
+      "displayName": "Trash & viruses",
+      "identity": "René “Loup” Arcemont: Party Animal",
+      "identityId": "30001",
+      "side": "runner",
+      "purpose": "play",
+      "label": "Loup · base"
+    },
+    {
+      "id": "zahya-v2",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "Zahya Sadeghi",
+      "displayName": "Central-server pressure",
+      "identity": "Zahya Sadeghi: Versatile Smuggler",
+      "identityId": "30010",
+      "side": "runner",
+      "purpose": "play",
+      "label": "Zahya · base"
+    },
+    {
+      "id": "tao-v1",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "Tāo Salonga",
+      "displayName": "Build a rig & rearrange ice",
+      "identity": "Tāo Salonga: Telepresence Magician",
+      "identityId": "30019",
+      "side": "runner",
+      "purpose": "play",
+      "label": "Tāo · base"
+    },
+    {
+      "id": "precision-design-v2",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "Haas-Bioroid: Precision Design",
+      "displayName": "Build & score",
+      "identity": "Haas-Bioroid: Precision Design",
+      "identityId": "30035",
+      "side": "corp",
+      "purpose": "play",
+      "label": "HB · base"
+    },
+    {
+      "id": "restoring-humanity-v2",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "Jinteki: Restoring Humanity",
+      "displayName": "Ambushes & net damage",
+      "identity": "Jinteki: Restoring Humanity",
+      "identityId": "30043",
+      "side": "corp",
+      "purpose": "play",
+      "label": "Jinteki · base"
+    },
+    {
+      "id": "reality-plus-v2",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "NBN: Reality Plus",
+      "displayName": "Tags & consequences",
+      "identity": "NBN: Reality Plus",
+      "identityId": "30051",
+      "side": "corp",
+      "purpose": "play",
+      "label": "NBN · base"
+    },
+    {
+      "id": "built-to-last-v2",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "Weyland Consortium: Built to Last",
+      "displayName": "Advance & threaten",
+      "identity": "Weyland Consortium: Built to Last",
+      "identityId": "30059",
+      "side": "corp",
+      "purpose": "play",
+      "label": "Weyland · base"
+    },
+    {
+      "id": "tao-burst-v1",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "Tāo Salonga — burst income",
+      "displayName": "Burst economy",
+      "identity": "Tāo Salonga: Telepresence Magician",
+      "identityId": "30019",
+      "side": "runner",
+      "purpose": "play",
+      "label": "Tāo · burst"
+    },
+    {
+      "id": "tao-mayfly-v1",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "Tāo Salonga — two Mayflies",
+      "displayName": "Mayfly backup",
+      "identity": "Tāo Salonga: Telepresence Magician",
+      "identityId": "30019",
+      "side": "runner",
+      "purpose": "play",
+      "label": "Tāo · Mayflies"
+    },
+    {
+      "id": "restoring-humanity-planogram-v1",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "restoring-humanity-v2 / Planogram instead of Clearinghouse",
+      "displayName": "Planogram economy",
+      "identity": "Jinteki: Restoring Humanity",
+      "identityId": "30043",
+      "side": "corp",
+      "purpose": "play",
+      "label": "Jinteki · Planogram"
+    },
+    {
+      "id": "loup-burst-v1",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "René “Loup” Arcemont — burst income",
+      "displayName": "Burst economy",
+      "identity": "René “Loup” Arcemont: Party Animal",
+      "identityId": "30001",
+      "side": "runner",
+      "purpose": "play",
+      "label": "Loup · burst"
+    },
+    {
+      "id": "zahya-mayfly-v1",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "Zahya Sadeghi — two Mayflies",
+      "displayName": "Mayfly backup",
+      "identity": "Zahya Sadeghi: Versatile Smuggler",
+      "identityId": "30010",
+      "side": "runner",
+      "purpose": "play",
+      "label": "Zahya · Mayflies"
+    },
+    {
+      "id": "precision-design-large-agendas-v1",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "Haas-Bioroid: Precision Design — Bioroids & big agendas",
+      "displayName": "Bioroids & big agendas",
+      "identity": "Haas-Bioroid: Precision Design",
+      "identityId": "30035",
+      "side": "corp",
+      "purpose": "play",
+      "label": "HB · big agendas"
+    },
+    {
+      "id": "reality-plus-tag-and-score-v1",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "NBN: Reality Plus — Tag & score",
+      "displayName": "Tag & score",
+      "identity": "NBN: Reality Plus",
+      "identityId": "30051",
+      "side": "corp",
+      "purpose": "play",
+      "label": "NBN · tag/score"
+    },
+    {
+      "id": "built-to-last-heavy-ice-v1",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "Weyland Consortium: Built to Last — Heavy ice & threats",
+      "displayName": "Heavy ice & threats",
+      "identity": "Weyland Consortium: Built to Last",
+      "identityId": "30059",
+      "side": "corp",
+      "purpose": "play",
+      "label": "Weyland · heavy ice"
+    },
+    {
+      "id": "phoenix-core-v1",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "Ryō “Phoenix” Ōno: Out of the Ashes",
+      "displayName": "Dashing Mad",
+      "identity": "Ryō “Phoenix” Ōno: Out of the Ashes",
+      "identityId": "35001",
+      "side": "runner",
+      "purpose": "play",
+      "label": "Phoenix"
+    },
+    {
+      "id": "precision-design-core-v1",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "Haas-Bioroid: Precision Design",
+      "displayName": "Brutal Efficiency",
+      "identity": "Haas-Bioroid: Precision Design",
+      "identityId": "30035",
+      "side": "corp",
+      "purpose": "play",
+      "label": "HB"
+    },
+    {
+      "id": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "[NSG Core] Bowel Movements",
+      "displayName": "[NSG Core] Bowel Movements",
+      "identity": "René “Loup” Arcemont: Party Animal",
+      "identityId": "30001",
+      "side": "runner",
+      "purpose": "play",
+      "label": "Loup"
+    },
+    {
+      "id": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "[NSG Core] Prick Thyself",
+      "displayName": "[NSG Core] Prick Thyself",
+      "identity": "Topan: Ormas Leader",
+      "identityId": "35002",
+      "side": "runner",
+      "purpose": "play",
+      "label": "Topan"
+    },
+    {
+      "id": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": " [NSG Core] Tickets, please",
+      "displayName": " [NSG Core] Tickets, please",
+      "identity": "Zahya Sadeghi: Versatile Smuggler",
+      "identityId": "30010",
+      "side": "runner",
+      "purpose": "play",
+      "label": "Zahya"
+    },
+    {
+      "id": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": " [NSG Core] Shootin' 'n' Lootin'",
+      "displayName": " [NSG Core] Shootin' 'n' Lootin'",
+      "identity": "MuslihaT: Multifarious Marketeer",
+      "identityId": "35013",
+      "side": "runner",
+      "purpose": "play",
+      "label": "MuslihaT"
+    },
+    {
+      "id": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "[NSG Core] Professional Opportunities",
+      "displayName": "[NSG Core] Professional Opportunities",
+      "identity": "Barry “Baz” Wong: Tri-Maf Veteran",
+      "identityId": "35012",
+      "side": "runner",
+      "purpose": "play",
+      "label": "Baz"
+    },
+    {
+      "id": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "[NSG Core] Flow and Ebb",
+      "displayName": "[NSG Core] Flow and Ebb",
+      "identity": "Tāo Salonga: Telepresence Magician",
+      "identityId": "30019",
+      "side": "runner",
+      "purpose": "play",
+      "label": "Tāo"
+    },
+    {
+      "id": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": " [NSG Core] Enthusiasm",
+      "displayName": " [NSG Core] Enthusiasm",
+      "identity": "Dewi Subrotoputri: Pedagogical Dhalang",
+      "identityId": "35023",
+      "side": "runner",
+      "purpose": "play",
+      "label": "Dewi"
+    },
+    {
+      "id": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": " [NSG Core] Sabbatical",
+      "displayName": " [NSG Core] Sabbatical",
+      "identity": "Magdalene Keino-Chemutai: Cryptarchitect",
+      "identityId": "35024",
+      "side": "runner",
+      "purpose": "play",
+      "label": "Magdalene"
+    },
+    {
+      "id": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "[NSG Core] Agency",
+      "displayName": "[NSG Core] Agency",
+      "identity": "LEO Construction: Labor Solutions",
+      "identityId": "35035",
+      "side": "corp",
+      "purpose": "play",
+      "label": "LEO"
+    },
+    {
+      "id": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "[NSG Core] Fashion Lab",
+      "displayName": "[NSG Core] Fashion Lab",
+      "identity": "Poétrï Luxury Brands: All the Rage",
+      "identityId": "35036",
+      "side": "corp",
+      "purpose": "play",
+      "label": "Poétrï"
+    },
+    {
+      "id": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "[NSG Core] Hidden Funds",
+      "displayName": "[NSG Core] Hidden Funds",
+      "identity": "Jinteki: Restoring Humanity",
+      "identityId": "30043",
+      "side": "corp",
+      "purpose": "play",
+      "label": "Jinteki"
+    },
+    {
+      "id": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "[NSG Core] Peculiarity",
+      "displayName": "[NSG Core] Peculiarity",
+      "identity": "PT Untaian: Life's Building Blocks",
+      "identityId": "35047",
+      "side": "corp",
+      "purpose": "play",
+      "label": "PT Untaian"
+    },
+    {
+      "id": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "[NSG Core] Glyph of Warding",
+      "displayName": "[NSG Core] Glyph of Warding",
+      "identity": "AU Co.: The Gold Standard in Clones",
+      "identityId": "35046",
+      "side": "corp",
+      "purpose": "play",
+      "label": "AU Co."
+    },
+    {
+      "id": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "[NSG Core] Fine Print",
+      "displayName": "[NSG Core] Fine Print",
+      "identity": "NBN: Reality Plus",
+      "identityId": "30051",
+      "side": "corp",
+      "purpose": "play",
+      "label": "NBN"
+    },
+    {
+      "id": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "[NSG Core] Not so subtle",
+      "displayName": "[NSG Core] Not so subtle",
+      "identity": "Nebula Talent Management: Making Stars",
+      "identityId": "35057",
+      "side": "corp",
+      "purpose": "play",
+      "label": "Nebula"
+    },
+    {
+      "id": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "[NSG Core] Gimbatul",
+      "displayName": "[NSG Core] Gimbatul",
+      "identity": "Synapse Global: Faster than Thought",
+      "identityId": "35058",
+      "side": "corp",
+      "purpose": "play",
+      "label": "Synapse"
+    },
+    {
+      "id": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": " [NSG Core] Brick Stack",
+      "displayName": " [NSG Core] Brick Stack",
+      "identity": "Weyland Consortium: Built to Last",
+      "identityId": "30059",
+      "side": "corp",
+      "purpose": "play",
+      "label": "Weyland"
+    },
+    {
+      "id": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "[NSG Core] Pork Chops",
+      "displayName": "[NSG Core] Pork Chops",
+      "identity": "BANGUN: When Disaster Strikes",
+      "identityId": "35068",
+      "side": "corp",
+      "purpose": "play",
+      "label": "BANGUN"
+    },
+    {
+      "id": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "[NSG Core] Quick Returns",
+      "displayName": "[NSG Core] Quick Returns",
+      "identity": "The Zwicky Group: Invisible Hands",
+      "identityId": "35069",
+      "side": "corp",
+      "purpose": "play",
+      "label": "Zwicky"
+    },
+    {
+      "id": "tao-vantage-pilot-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Tāo · Stealth foundation pilot",
+      "displayName": "Tāo · Stealth foundation pilot",
+      "identity": "Tāo Salonga: Telepresence Magician",
+      "identityId": "30019",
+      "side": "runner",
+      "purpose": "play",
+      "label": "Tāo · foundation"
+    },
+    {
+      "id": "weyland-vantage-pilot-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Built to Last · Bad publicity pilot",
+      "displayName": "Built to Last · Bad publicity pilot",
+      "identity": "Weyland Consortium: Built to Last",
+      "identityId": "30059",
+      "side": "corp",
+      "purpose": "interaction",
+      "label": "Weyland · bad pub pilot"
+    },
+    {
+      "id": "vic-vantage-pilot-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Vic · Central pressure",
+      "displayName": "Vic · Central pressure",
+      "identity": "Virtual Intelligence, P.I.: “You Can Call Me Vic”",
+      "identityId": "36009",
+      "side": "runner",
+      "purpose": "interaction",
+      "label": "Vic · original pilot"
+    },
+    {
+      "id": "tao-vantage-stealth-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Tāo · Stealth console",
+      "displayName": "Tāo · Stealth console",
+      "identity": "Tāo Salonga: Telepresence Magician",
+      "identityId": "30019",
+      "side": "runner",
+      "purpose": "interaction",
+      "label": "Tāo · console"
+    },
+    {
+      "id": "weyland-vantage-tools-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Built to Last · Defensive tools",
+      "displayName": "Built to Last · Defensive tools",
+      "identity": "Weyland Consortium: Built to Last",
+      "identityId": "30059",
+      "side": "corp",
+      "purpose": "interaction",
+      "label": "Weyland · tools v1"
+    },
+    {
+      "id": "weyland-vantage-tools-v2",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Built to Last · defensive economy",
+      "displayName": "Built to Last · defensive economy",
+      "identity": "Weyland Consortium: Built to Last",
+      "identityId": "30059",
+      "side": "corp",
+      "purpose": "play",
+      "label": "Weyland · funded"
+    },
+    {
+      "id": "jinteki-vantage-pilot-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Restoring Humanity · Ambushes",
+      "displayName": "Restoring Humanity · Ambushes",
+      "identity": "Jinteki: Restoring Humanity",
+      "identityId": "30043",
+      "side": "corp",
+      "purpose": "play",
+      "label": "Jinteki · ambush"
+    },
+    {
+      "id": "hb-vantage-tempo-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Precision Design · Tempo and recycling",
+      "displayName": "Precision Design · Tempo and recycling",
+      "identity": "Haas-Bioroid: Precision Design",
+      "identityId": "30035",
+      "side": "corp",
+      "purpose": "play",
+      "label": "HB · tempo"
+    },
+    {
+      "id": "loup-vantage-tailor-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Loup · Tailored economy",
+      "displayName": "Loup · Tailored economy",
+      "identity": "René “Loup” Arcemont: Party Animal",
+      "identityId": "30001",
+      "side": "runner",
+      "purpose": "play",
+      "label": "Loup · Tailor"
+    },
+    {
+      "id": "hb-vantage-reallocation-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Precision Design · Reallocation",
+      "displayName": "Precision Design · Reallocation",
+      "identity": "Haas-Bioroid: Precision Design",
+      "identityId": "30035",
+      "side": "corp",
+      "purpose": "interaction",
+      "label": "HB · realloc"
+    },
+    {
+      "id": "loup-full-vp-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Loup · Vantage interactions",
+      "displayName": "Loup · Vantage interactions",
+      "identity": "René “Loup” Arcemont: Party Animal",
+      "identityId": "30001",
+      "side": "runner",
+      "purpose": "interaction",
+      "label": "Loup · test"
+    },
+    {
+      "id": "vic-full-vp-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Vic · Vantage interactions",
+      "displayName": "Vic · Vantage interactions",
+      "identity": "Virtual Intelligence, P.I.: “You Can Call Me Vic”",
+      "identityId": "36009",
+      "side": "runner",
+      "purpose": "interaction",
+      "label": "Vic · test"
+    },
+    {
+      "id": "hiram-full-vp-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Hiram · Vantage interactions",
+      "displayName": "Hiram · Vantage interactions",
+      "identity": "Hiram “0mission” Svensson: Shadow of the Past",
+      "identityId": "36017",
+      "side": "runner",
+      "purpose": "interaction",
+      "label": "Hiram · test"
+    },
+    {
+      "id": "hb-full-vp-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Precision Design · Vantage interactions",
+      "displayName": "Precision Design · Vantage interactions",
+      "identity": "Haas-Bioroid: Precision Design",
+      "identityId": "30035",
+      "side": "corp",
+      "purpose": "interaction",
+      "label": "HB · test"
+    },
+    {
+      "id": "melies-full-vp-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Méliès U · Vantage interactions",
+      "displayName": "Méliès U · Vantage interactions",
+      "identity": "Méliès U: Only the Brightest",
+      "identityId": "36036",
+      "side": "corp",
+      "purpose": "interaction",
+      "label": "Méliès · test"
+    },
+    {
+      "id": "editorial-full-vp-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Editorial Division · Vantage interactions",
+      "displayName": "Editorial Division · Vantage interactions",
+      "identity": "Editorial Division: Ad Nihilum",
+      "identityId": "36046",
+      "side": "corp",
+      "purpose": "interaction",
+      "label": "Editorial · test"
+    },
+    {
+      "id": "weyland-full-vp-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Built to Last · Vantage interactions",
+      "displayName": "Built to Last · Vantage interactions",
+      "identity": "Weyland Consortium: Built to Last",
+      "identityId": "30059",
+      "side": "corp",
+      "purpose": "interaction",
+      "label": "Weyland · test"
+    },
+    {
+      "id": "vic-play-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Vic · central pressure",
+      "displayName": "Vic · central pressure",
+      "identity": "Virtual Intelligence, P.I.: “You Can Call Me Vic”",
+      "identityId": "36009",
+      "side": "runner",
+      "purpose": "play",
+      "label": "Vic · central"
+    },
+    {
+      "id": "hiram-play-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Hiram · funded rig",
+      "displayName": "Hiram · funded rig",
+      "identity": "Hiram “0mission” Svensson: Shadow of the Past",
+      "identityId": "36017",
+      "side": "runner",
+      "purpose": "play",
+      "label": "Hiram · funded"
+    },
+    {
+      "id": "melies-play-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Méliès U · campaign control",
+      "displayName": "Méliès U · campaign control",
+      "identity": "Méliès U: Only the Brightest",
+      "identityId": "36036",
+      "side": "corp",
+      "purpose": "play",
+      "label": "Méliès · campaign"
+    },
+    {
+      "id": "editorial-play-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Editorial · campaigns & tags",
+      "displayName": "Editorial · campaigns & tags",
+      "identity": "Editorial Division: Ad Nihilum",
+      "identityId": "36046",
+      "side": "corp",
+      "purpose": "interaction",
+      "label": "Editorial · v1"
+    },
+    {
+      "id": "editorial-play-v2",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Editorial · funded defenses",
+      "displayName": "Editorial · funded defenses",
+      "identity": "Editorial Division: Ad Nihilum",
+      "identityId": "36046",
+      "side": "corp",
+      "purpose": "play",
+      "label": "Editorial · funded"
+    }
+  ],
+  "pairs": [
+    {
+      "pool": "gateway-v1",
+      "runner": "loup-v1",
+      "corp": "precision-design-v2",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "loup-v1",
+      "corp": "restoring-humanity-v2",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "loup-v1",
+      "corp": "reality-plus-v2",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "loup-v1",
+      "corp": "built-to-last-v2",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "loup-v1",
+      "corp": "restoring-humanity-planogram-v1",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "loup-v1",
+      "corp": "precision-design-large-agendas-v1",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "loup-v1",
+      "corp": "reality-plus-tag-and-score-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "loup-v1",
+      "corp": "built-to-last-heavy-ice-v1",
+      "completed": 6,
+      "runnerWins": 1,
+      "corpWins": 5,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 1,
+          "corpWins": 5
+        }
+      ],
+      "runnerWinRate": 0.16666666666666666
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "zahya-v2",
+      "corp": "precision-design-v2",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "zahya-v2",
+      "corp": "restoring-humanity-v2",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "zahya-v2",
+      "corp": "reality-plus-v2",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "zahya-v2",
+      "corp": "built-to-last-v2",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "zahya-v2",
+      "corp": "restoring-humanity-planogram-v1",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "zahya-v2",
+      "corp": "precision-design-large-agendas-v1",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "zahya-v2",
+      "corp": "reality-plus-tag-and-score-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "zahya-v2",
+      "corp": "built-to-last-heavy-ice-v1",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "tao-v1",
+      "corp": "precision-design-v2",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "tao-v1",
+      "corp": "restoring-humanity-v2",
+      "completed": 6,
+      "runnerWins": 6,
+      "corpWins": 0,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 6,
+          "corpWins": 0
+        }
+      ],
+      "runnerWinRate": 1
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "tao-v1",
+      "corp": "reality-plus-v2",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "tao-v1",
+      "corp": "built-to-last-v2",
+      "completed": 6,
+      "runnerWins": 6,
+      "corpWins": 0,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 6,
+          "corpWins": 0
+        }
+      ],
+      "runnerWinRate": 1
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "tao-v1",
+      "corp": "restoring-humanity-planogram-v1",
+      "completed": 6,
+      "runnerWins": 6,
+      "corpWins": 0,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 6,
+          "corpWins": 0
+        }
+      ],
+      "runnerWinRate": 1
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "tao-v1",
+      "corp": "precision-design-large-agendas-v1",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "tao-v1",
+      "corp": "reality-plus-tag-and-score-v1",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "tao-v1",
+      "corp": "built-to-last-heavy-ice-v1",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "tao-burst-v1",
+      "corp": "precision-design-v2",
+      "completed": 6,
+      "runnerWins": 1,
+      "corpWins": 5,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 1,
+          "corpWins": 5
+        }
+      ],
+      "runnerWinRate": 0.16666666666666666
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "tao-burst-v1",
+      "corp": "restoring-humanity-v2",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "tao-burst-v1",
+      "corp": "reality-plus-v2",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "tao-burst-v1",
+      "corp": "built-to-last-v2",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "tao-burst-v1",
+      "corp": "restoring-humanity-planogram-v1",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "tao-burst-v1",
+      "corp": "precision-design-large-agendas-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "tao-burst-v1",
+      "corp": "reality-plus-tag-and-score-v1",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "tao-burst-v1",
+      "corp": "built-to-last-heavy-ice-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "tao-mayfly-v1",
+      "corp": "precision-design-v2",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "tao-mayfly-v1",
+      "corp": "restoring-humanity-v2",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "tao-mayfly-v1",
+      "corp": "reality-plus-v2",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "tao-mayfly-v1",
+      "corp": "built-to-last-v2",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "tao-mayfly-v1",
+      "corp": "restoring-humanity-planogram-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "tao-mayfly-v1",
+      "corp": "precision-design-large-agendas-v1",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "tao-mayfly-v1",
+      "corp": "reality-plus-tag-and-score-v1",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "tao-mayfly-v1",
+      "corp": "built-to-last-heavy-ice-v1",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "loup-burst-v1",
+      "corp": "precision-design-v2",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "loup-burst-v1",
+      "corp": "restoring-humanity-v2",
+      "completed": 6,
+      "runnerWins": 6,
+      "corpWins": 0,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 6,
+          "corpWins": 0
+        }
+      ],
+      "runnerWinRate": 1
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "loup-burst-v1",
+      "corp": "reality-plus-v2",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "loup-burst-v1",
+      "corp": "built-to-last-v2",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "loup-burst-v1",
+      "corp": "restoring-humanity-planogram-v1",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "loup-burst-v1",
+      "corp": "precision-design-large-agendas-v1",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "loup-burst-v1",
+      "corp": "reality-plus-tag-and-score-v1",
+      "completed": 6,
+      "runnerWins": 6,
+      "corpWins": 0,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 6,
+          "corpWins": 0
+        }
+      ],
+      "runnerWinRate": 1
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "loup-burst-v1",
+      "corp": "built-to-last-heavy-ice-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "zahya-mayfly-v1",
+      "corp": "precision-design-v2",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "zahya-mayfly-v1",
+      "corp": "restoring-humanity-v2",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "zahya-mayfly-v1",
+      "corp": "reality-plus-v2",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "zahya-mayfly-v1",
+      "corp": "built-to-last-v2",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "zahya-mayfly-v1",
+      "corp": "restoring-humanity-planogram-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "zahya-mayfly-v1",
+      "corp": "precision-design-large-agendas-v1",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "zahya-mayfly-v1",
+      "corp": "reality-plus-tag-and-score-v1",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "gateway-v1",
+      "runner": "zahya-mayfly-v1",
+      "corp": "built-to-last-heavy-ice-v1",
+      "completed": 6,
+      "runnerWins": 6,
+      "corpWins": 0,
+      "sources": [
+        {
+          "source": "audit-gateway-v1",
+          "games": 6,
+          "runnerWins": 6,
+          "corpWins": 0
+        }
+      ],
+      "runnerWinRate": 1
+    },
+    {
+      "pool": "core-v1",
+      "runner": "phoenix-core-v1",
+      "corp": "precision-design-core-v1",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "core-v1",
+      "runner": "phoenix-core-v1",
+      "corp": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "phoenix-core-v1",
+      "corp": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "phoenix-core-v1",
+      "corp": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad",
+      "completed": 6,
+      "runnerWins": 1,
+      "corpWins": 5,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 1,
+          "corpWins": 5
+        }
+      ],
+      "runnerWinRate": 0.16666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "phoenix-core-v1",
+      "corp": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "phoenix-core-v1",
+      "corp": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "phoenix-core-v1",
+      "corp": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "phoenix-core-v1",
+      "corp": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "core-v1",
+      "runner": "phoenix-core-v1",
+      "corp": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "core-v1",
+      "runner": "phoenix-core-v1",
+      "corp": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "core-v1",
+      "runner": "phoenix-core-v1",
+      "corp": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "core-v1",
+      "runner": "phoenix-core-v1",
+      "corp": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303",
+      "corp": "precision-design-core-v1",
+      "completed": 6,
+      "runnerWins": 1,
+      "corpWins": 5,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 1,
+          "corpWins": 5
+        }
+      ],
+      "runnerWinRate": 0.16666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303",
+      "corp": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303",
+      "corp": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303",
+      "corp": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad",
+      "completed": 6,
+      "runnerWins": 1,
+      "corpWins": 5,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 1,
+          "corpWins": 5
+        }
+      ],
+      "runnerWinRate": 0.16666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303",
+      "corp": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303",
+      "corp": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303",
+      "corp": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303",
+      "corp": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303",
+      "corp": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303",
+      "corp": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c",
+      "completed": 6,
+      "runnerWins": 1,
+      "corpWins": 5,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 1,
+          "corpWins": 5
+        }
+      ],
+      "runnerWinRate": 0.16666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303",
+      "corp": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303",
+      "corp": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd",
+      "corp": "precision-design-core-v1",
+      "completed": 6,
+      "runnerWins": 1,
+      "corpWins": 5,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 1,
+          "corpWins": 5
+        }
+      ],
+      "runnerWinRate": 0.16666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd",
+      "corp": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f",
+      "completed": 6,
+      "runnerWins": 6,
+      "corpWins": 0,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 6,
+          "corpWins": 0
+        }
+      ],
+      "runnerWinRate": 1
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd",
+      "corp": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd",
+      "corp": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad",
+      "completed": 6,
+      "runnerWins": 0,
+      "corpWins": 6,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 0,
+          "corpWins": 6
+        }
+      ],
+      "runnerWinRate": 0
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd",
+      "corp": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd",
+      "corp": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd",
+      "corp": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd",
+      "corp": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd",
+      "corp": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd",
+      "corp": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd",
+      "corp": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a",
+      "completed": 6,
+      "runnerWins": 1,
+      "corpWins": 5,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 1,
+          "corpWins": 5
+        }
+      ],
+      "runnerWinRate": 0.16666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd",
+      "corp": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5",
+      "corp": "precision-design-core-v1",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5",
+      "corp": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f",
+      "completed": 6,
+      "runnerWins": 6,
+      "corpWins": 0,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 6,
+          "corpWins": 0
+        }
+      ],
+      "runnerWinRate": 1
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5",
+      "corp": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5",
+      "corp": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5",
+      "corp": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5",
+      "corp": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5",
+      "corp": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5",
+      "corp": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5",
+      "corp": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5",
+      "corp": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5",
+      "corp": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5",
+      "corp": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd",
+      "corp": "precision-design-core-v1",
+      "completed": 6,
+      "runnerWins": 1,
+      "corpWins": 5,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 1,
+          "corpWins": 5
+        }
+      ],
+      "runnerWinRate": 0.16666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd",
+      "corp": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd",
+      "corp": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd",
+      "corp": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd",
+      "corp": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd",
+      "corp": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd",
+      "corp": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd",
+      "corp": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd",
+      "corp": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd",
+      "corp": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd",
+      "corp": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a",
+      "completed": 6,
+      "runnerWins": 6,
+      "corpWins": 0,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 6,
+          "corpWins": 0
+        }
+      ],
+      "runnerWinRate": 1
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd",
+      "corp": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96",
+      "corp": "precision-design-core-v1",
+      "completed": 6,
+      "runnerWins": 1,
+      "corpWins": 5,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 1,
+          "corpWins": 5
+        }
+      ],
+      "runnerWinRate": 0.16666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96",
+      "corp": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96",
+      "corp": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96",
+      "corp": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad",
+      "completed": 6,
+      "runnerWins": 1,
+      "corpWins": 5,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 1,
+          "corpWins": 5
+        }
+      ],
+      "runnerWinRate": 0.16666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96",
+      "corp": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4",
+      "completed": 6,
+      "runnerWins": 1,
+      "corpWins": 5,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 1,
+          "corpWins": 5
+        }
+      ],
+      "runnerWinRate": 0.16666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96",
+      "corp": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96",
+      "corp": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96",
+      "corp": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96",
+      "corp": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96",
+      "corp": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96",
+      "corp": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96",
+      "corp": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18",
+      "corp": "precision-design-core-v1",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18",
+      "corp": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f",
+      "completed": 6,
+      "runnerWins": 6,
+      "corpWins": 0,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 6,
+          "corpWins": 0
+        }
+      ],
+      "runnerWinRate": 1
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18",
+      "corp": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18",
+      "corp": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18",
+      "corp": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18",
+      "corp": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18",
+      "corp": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18",
+      "corp": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11",
+      "completed": 6,
+      "runnerWins": 1,
+      "corpWins": 5,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 1,
+          "corpWins": 5
+        }
+      ],
+      "runnerWinRate": 0.16666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18",
+      "corp": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18",
+      "corp": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18",
+      "corp": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18",
+      "corp": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442",
+      "corp": "precision-design-core-v1",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442",
+      "corp": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442",
+      "corp": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442",
+      "corp": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442",
+      "corp": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442",
+      "corp": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442",
+      "corp": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285",
+      "completed": 6,
+      "runnerWins": 0,
+      "corpWins": 6,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 0,
+          "corpWins": 6
+        }
+      ],
+      "runnerWinRate": 0
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442",
+      "corp": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11",
+      "completed": 6,
+      "runnerWins": 1,
+      "corpWins": 5,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 1,
+          "corpWins": 5
+        }
+      ],
+      "runnerWinRate": 0.16666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442",
+      "corp": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442",
+      "corp": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c",
+      "completed": 6,
+      "runnerWins": 0,
+      "corpWins": 6,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 0,
+          "corpWins": 6
+        }
+      ],
+      "runnerWinRate": 0
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442",
+      "corp": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442",
+      "corp": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd",
+      "corp": "precision-design-core-v1",
+      "completed": 6,
+      "runnerWins": 1,
+      "corpWins": 5,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 1,
+          "corpWins": 5
+        }
+      ],
+      "runnerWinRate": 0.16666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd",
+      "corp": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd",
+      "corp": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd",
+      "corp": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd",
+      "corp": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd",
+      "corp": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd",
+      "corp": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd",
+      "corp": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd",
+      "corp": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd",
+      "corp": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd",
+      "corp": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "core-v1",
+      "runner": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd",
+      "corp": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-core-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "tao-vantage-pilot-v1",
+      "corp": "weyland-vantage-pilot-v1",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "tao-vantage-pilot-v1",
+      "corp": "weyland-vantage-tools-v1",
+      "completed": 6,
+      "runnerWins": 6,
+      "corpWins": 0,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 6,
+          "corpWins": 0
+        }
+      ],
+      "runnerWinRate": 1
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "tao-vantage-pilot-v1",
+      "corp": "weyland-vantage-tools-v2",
+      "completed": 54,
+      "runnerWins": 21,
+      "corpWins": 33,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        },
+        {
+          "source": "vantage-followup-48",
+          "games": 48,
+          "runnerWins": 18,
+          "corpWins": 30
+        }
+      ],
+      "runnerWinRate": 0.3888888888888889
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "tao-vantage-pilot-v1",
+      "corp": "jinteki-vantage-pilot-v1",
+      "completed": 54,
+      "runnerWins": 17,
+      "corpWins": 37,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        },
+        {
+          "source": "vantage-followup-48",
+          "games": 48,
+          "runnerWins": 15,
+          "corpWins": 33
+        }
+      ],
+      "runnerWinRate": 0.3148148148148148
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "tao-vantage-pilot-v1",
+      "corp": "hb-vantage-tempo-v1",
+      "completed": 54,
+      "runnerWins": 27,
+      "corpWins": 27,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        },
+        {
+          "source": "vantage-followup-48",
+          "games": 48,
+          "runnerWins": 23,
+          "corpWins": 25
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "tao-vantage-pilot-v1",
+      "corp": "hb-vantage-reallocation-v1",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "tao-vantage-pilot-v1",
+      "corp": "hb-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 6,
+      "corpWins": 0,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 6,
+          "corpWins": 0
+        }
+      ],
+      "runnerWinRate": 1
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "tao-vantage-pilot-v1",
+      "corp": "melies-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "tao-vantage-pilot-v1",
+      "corp": "editorial-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 6,
+      "corpWins": 0,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 6,
+          "corpWins": 0
+        }
+      ],
+      "runnerWinRate": 1
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "tao-vantage-pilot-v1",
+      "corp": "weyland-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "tao-vantage-pilot-v1",
+      "corp": "melies-play-v1",
+      "completed": 54,
+      "runnerWins": 36,
+      "corpWins": 18,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        },
+        {
+          "source": "vantage-followup-48",
+          "games": 48,
+          "runnerWins": 34,
+          "corpWins": 14
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "tao-vantage-pilot-v1",
+      "corp": "editorial-play-v1",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "tao-vantage-pilot-v1",
+      "corp": "editorial-play-v2",
+      "completed": 54,
+      "runnerWins": 35,
+      "corpWins": 19,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        },
+        {
+          "source": "vantage-followup-48",
+          "games": 48,
+          "runnerWins": 33,
+          "corpWins": 15
+        }
+      ],
+      "runnerWinRate": 0.6481481481481481
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-vantage-pilot-v1",
+      "corp": "weyland-vantage-pilot-v1",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-vantage-pilot-v1",
+      "corp": "weyland-vantage-tools-v1",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-vantage-pilot-v1",
+      "corp": "weyland-vantage-tools-v2",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-vantage-pilot-v1",
+      "corp": "jinteki-vantage-pilot-v1",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-vantage-pilot-v1",
+      "corp": "hb-vantage-tempo-v1",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-vantage-pilot-v1",
+      "corp": "hb-vantage-reallocation-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-vantage-pilot-v1",
+      "corp": "hb-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-vantage-pilot-v1",
+      "corp": "melies-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-vantage-pilot-v1",
+      "corp": "editorial-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-vantage-pilot-v1",
+      "corp": "weyland-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 6,
+      "corpWins": 0,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 6,
+          "corpWins": 0
+        }
+      ],
+      "runnerWinRate": 1
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-vantage-pilot-v1",
+      "corp": "melies-play-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-vantage-pilot-v1",
+      "corp": "editorial-play-v1",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-vantage-pilot-v1",
+      "corp": "editorial-play-v2",
+      "completed": 6,
+      "runnerWins": 6,
+      "corpWins": 0,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 6,
+          "corpWins": 0
+        }
+      ],
+      "runnerWinRate": 1
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "tao-vantage-stealth-v1",
+      "corp": "weyland-vantage-pilot-v1",
+      "completed": 6,
+      "runnerWins": 1,
+      "corpWins": 5,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 1,
+          "corpWins": 5
+        }
+      ],
+      "runnerWinRate": 0.16666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "tao-vantage-stealth-v1",
+      "corp": "weyland-vantage-tools-v1",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "tao-vantage-stealth-v1",
+      "corp": "weyland-vantage-tools-v2",
+      "completed": 6,
+      "runnerWins": 1,
+      "corpWins": 5,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 1,
+          "corpWins": 5
+        }
+      ],
+      "runnerWinRate": 0.16666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "tao-vantage-stealth-v1",
+      "corp": "jinteki-vantage-pilot-v1",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "tao-vantage-stealth-v1",
+      "corp": "hb-vantage-tempo-v1",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "tao-vantage-stealth-v1",
+      "corp": "hb-vantage-reallocation-v1",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "tao-vantage-stealth-v1",
+      "corp": "hb-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "tao-vantage-stealth-v1",
+      "corp": "melies-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 6,
+      "corpWins": 0,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 6,
+          "corpWins": 0
+        }
+      ],
+      "runnerWinRate": 1
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "tao-vantage-stealth-v1",
+      "corp": "editorial-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 6,
+      "corpWins": 0,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 6,
+          "corpWins": 0
+        }
+      ],
+      "runnerWinRate": 1
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "tao-vantage-stealth-v1",
+      "corp": "weyland-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 6,
+      "corpWins": 0,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 6,
+          "corpWins": 0
+        }
+      ],
+      "runnerWinRate": 1
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "tao-vantage-stealth-v1",
+      "corp": "melies-play-v1",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "tao-vantage-stealth-v1",
+      "corp": "editorial-play-v1",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "tao-vantage-stealth-v1",
+      "corp": "editorial-play-v2",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "loup-vantage-tailor-v1",
+      "corp": "weyland-vantage-pilot-v1",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "loup-vantage-tailor-v1",
+      "corp": "weyland-vantage-tools-v1",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "loup-vantage-tailor-v1",
+      "corp": "weyland-vantage-tools-v2",
+      "completed": 54,
+      "runnerWins": 35,
+      "corpWins": 19,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        },
+        {
+          "source": "vantage-followup-48",
+          "games": 48,
+          "runnerWins": 32,
+          "corpWins": 16
+        }
+      ],
+      "runnerWinRate": 0.6481481481481481
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "loup-vantage-tailor-v1",
+      "corp": "jinteki-vantage-pilot-v1",
+      "completed": 54,
+      "runnerWins": 28,
+      "corpWins": 26,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        },
+        {
+          "source": "vantage-followup-48",
+          "games": 48,
+          "runnerWins": 24,
+          "corpWins": 24
+        }
+      ],
+      "runnerWinRate": 0.5185185185185185
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "loup-vantage-tailor-v1",
+      "corp": "hb-vantage-tempo-v1",
+      "completed": 54,
+      "runnerWins": 33,
+      "corpWins": 21,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        },
+        {
+          "source": "vantage-followup-48",
+          "games": 48,
+          "runnerWins": 31,
+          "corpWins": 17
+        }
+      ],
+      "runnerWinRate": 0.6111111111111112
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "loup-vantage-tailor-v1",
+      "corp": "hb-vantage-reallocation-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "loup-vantage-tailor-v1",
+      "corp": "hb-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "loup-vantage-tailor-v1",
+      "corp": "melies-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 6,
+      "corpWins": 0,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 6,
+          "corpWins": 0
+        }
+      ],
+      "runnerWinRate": 1
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "loup-vantage-tailor-v1",
+      "corp": "editorial-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "loup-vantage-tailor-v1",
+      "corp": "weyland-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "loup-vantage-tailor-v1",
+      "corp": "melies-play-v1",
+      "completed": 54,
+      "runnerWins": 27,
+      "corpWins": 27,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        },
+        {
+          "source": "vantage-followup-48",
+          "games": 48,
+          "runnerWins": 22,
+          "corpWins": 26
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "loup-vantage-tailor-v1",
+      "corp": "editorial-play-v1",
+      "completed": 6,
+      "runnerWins": 6,
+      "corpWins": 0,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 6,
+          "corpWins": 0
+        }
+      ],
+      "runnerWinRate": 1
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "loup-vantage-tailor-v1",
+      "corp": "editorial-play-v2",
+      "completed": 54,
+      "runnerWins": 42,
+      "corpWins": 12,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        },
+        {
+          "source": "vantage-followup-48",
+          "games": 48,
+          "runnerWins": 37,
+          "corpWins": 11
+        }
+      ],
+      "runnerWinRate": 0.7777777777777778
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "loup-full-vp-v1",
+      "corp": "weyland-vantage-pilot-v1",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "loup-full-vp-v1",
+      "corp": "weyland-vantage-tools-v1",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "loup-full-vp-v1",
+      "corp": "weyland-vantage-tools-v2",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "loup-full-vp-v1",
+      "corp": "jinteki-vantage-pilot-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "loup-full-vp-v1",
+      "corp": "hb-vantage-tempo-v1",
+      "completed": 6,
+      "runnerWins": 1,
+      "corpWins": 5,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 1,
+          "corpWins": 5
+        }
+      ],
+      "runnerWinRate": 0.16666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "loup-full-vp-v1",
+      "corp": "hb-vantage-reallocation-v1",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "loup-full-vp-v1",
+      "corp": "hb-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 6,
+      "corpWins": 0,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 6,
+          "corpWins": 0
+        }
+      ],
+      "runnerWinRate": 1
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "loup-full-vp-v1",
+      "corp": "melies-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "loup-full-vp-v1",
+      "corp": "editorial-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "loup-full-vp-v1",
+      "corp": "weyland-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "loup-full-vp-v1",
+      "corp": "melies-play-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "loup-full-vp-v1",
+      "corp": "editorial-play-v1",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "loup-full-vp-v1",
+      "corp": "editorial-play-v2",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-full-vp-v1",
+      "corp": "weyland-vantage-pilot-v1",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-full-vp-v1",
+      "corp": "weyland-vantage-tools-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-full-vp-v1",
+      "corp": "weyland-vantage-tools-v2",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-full-vp-v1",
+      "corp": "jinteki-vantage-pilot-v1",
+      "completed": 6,
+      "runnerWins": 1,
+      "corpWins": 5,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 1,
+          "corpWins": 5
+        }
+      ],
+      "runnerWinRate": 0.16666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-full-vp-v1",
+      "corp": "hb-vantage-tempo-v1",
+      "completed": 6,
+      "runnerWins": 0,
+      "corpWins": 6,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 0,
+          "corpWins": 6
+        }
+      ],
+      "runnerWinRate": 0
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-full-vp-v1",
+      "corp": "hb-vantage-reallocation-v1",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-full-vp-v1",
+      "corp": "hb-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-full-vp-v1",
+      "corp": "melies-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-full-vp-v1",
+      "corp": "editorial-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-full-vp-v1",
+      "corp": "weyland-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-full-vp-v1",
+      "corp": "melies-play-v1",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-full-vp-v1",
+      "corp": "editorial-play-v1",
+      "completed": 6,
+      "runnerWins": 6,
+      "corpWins": 0,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 6,
+          "corpWins": 0
+        }
+      ],
+      "runnerWinRate": 1
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-full-vp-v1",
+      "corp": "editorial-play-v2",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "hiram-full-vp-v1",
+      "corp": "weyland-vantage-pilot-v1",
+      "completed": 6,
+      "runnerWins": 1,
+      "corpWins": 5,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 1,
+          "corpWins": 5
+        }
+      ],
+      "runnerWinRate": 0.16666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "hiram-full-vp-v1",
+      "corp": "weyland-vantage-tools-v1",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "hiram-full-vp-v1",
+      "corp": "weyland-vantage-tools-v2",
+      "completed": 6,
+      "runnerWins": 0,
+      "corpWins": 6,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 0,
+          "corpWins": 6
+        }
+      ],
+      "runnerWinRate": 0
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "hiram-full-vp-v1",
+      "corp": "jinteki-vantage-pilot-v1",
+      "completed": 6,
+      "runnerWins": 1,
+      "corpWins": 5,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 1,
+          "corpWins": 5
+        }
+      ],
+      "runnerWinRate": 0.16666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "hiram-full-vp-v1",
+      "corp": "hb-vantage-tempo-v1",
+      "completed": 6,
+      "runnerWins": 1,
+      "corpWins": 5,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 1,
+          "corpWins": 5
+        }
+      ],
+      "runnerWinRate": 0.16666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "hiram-full-vp-v1",
+      "corp": "hb-vantage-reallocation-v1",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "hiram-full-vp-v1",
+      "corp": "hb-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "hiram-full-vp-v1",
+      "corp": "melies-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "hiram-full-vp-v1",
+      "corp": "editorial-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "hiram-full-vp-v1",
+      "corp": "weyland-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "hiram-full-vp-v1",
+      "corp": "melies-play-v1",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "hiram-full-vp-v1",
+      "corp": "editorial-play-v1",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "hiram-full-vp-v1",
+      "corp": "editorial-play-v2",
+      "completed": 6,
+      "runnerWins": 0,
+      "corpWins": 6,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 0,
+          "corpWins": 6
+        }
+      ],
+      "runnerWinRate": 0
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-play-v1",
+      "corp": "weyland-vantage-pilot-v1",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-play-v1",
+      "corp": "weyland-vantage-tools-v1",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-play-v1",
+      "corp": "weyland-vantage-tools-v2",
+      "completed": 54,
+      "runnerWins": 26,
+      "corpWins": 28,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        },
+        {
+          "source": "vantage-followup-48",
+          "games": 48,
+          "runnerWins": 24,
+          "corpWins": 24
+        }
+      ],
+      "runnerWinRate": 0.48148148148148145
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-play-v1",
+      "corp": "jinteki-vantage-pilot-v1",
+      "completed": 54,
+      "runnerWins": 22,
+      "corpWins": 32,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        },
+        {
+          "source": "vantage-followup-48",
+          "games": 48,
+          "runnerWins": 20,
+          "corpWins": 28
+        }
+      ],
+      "runnerWinRate": 0.4074074074074074
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-play-v1",
+      "corp": "hb-vantage-tempo-v1",
+      "completed": 54,
+      "runnerWins": 29,
+      "corpWins": 25,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        },
+        {
+          "source": "vantage-followup-48",
+          "games": 48,
+          "runnerWins": 26,
+          "corpWins": 22
+        }
+      ],
+      "runnerWinRate": 0.5370370370370371
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-play-v1",
+      "corp": "hb-vantage-reallocation-v1",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-play-v1",
+      "corp": "hb-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-play-v1",
+      "corp": "melies-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-play-v1",
+      "corp": "editorial-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-play-v1",
+      "corp": "weyland-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 6,
+      "corpWins": 0,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 6,
+          "corpWins": 0
+        }
+      ],
+      "runnerWinRate": 1
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-play-v1",
+      "corp": "melies-play-v1",
+      "completed": 54,
+      "runnerWins": 30,
+      "corpWins": 24,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        },
+        {
+          "source": "vantage-followup-48",
+          "games": 48,
+          "runnerWins": 27,
+          "corpWins": 21
+        }
+      ],
+      "runnerWinRate": 0.5555555555555556
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-play-v1",
+      "corp": "editorial-play-v1",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "vic-play-v1",
+      "corp": "editorial-play-v2",
+      "completed": 54,
+      "runnerWins": 39,
+      "corpWins": 15,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        },
+        {
+          "source": "vantage-followup-48",
+          "games": 48,
+          "runnerWins": 34,
+          "corpWins": 14
+        }
+      ],
+      "runnerWinRate": 0.7222222222222222
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "hiram-play-v1",
+      "corp": "weyland-vantage-pilot-v1",
+      "completed": 6,
+      "runnerWins": 1,
+      "corpWins": 5,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 1,
+          "corpWins": 5
+        }
+      ],
+      "runnerWinRate": 0.16666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "hiram-play-v1",
+      "corp": "weyland-vantage-tools-v1",
+      "completed": 6,
+      "runnerWins": 3,
+      "corpWins": 3,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        }
+      ],
+      "runnerWinRate": 0.5
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "hiram-play-v1",
+      "corp": "weyland-vantage-tools-v2",
+      "completed": 54,
+      "runnerWins": 22,
+      "corpWins": 32,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 1,
+          "corpWins": 5
+        },
+        {
+          "source": "vantage-followup-48",
+          "games": 48,
+          "runnerWins": 21,
+          "corpWins": 27
+        }
+      ],
+      "runnerWinRate": 0.4074074074074074
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "hiram-play-v1",
+      "corp": "jinteki-vantage-pilot-v1",
+      "completed": 54,
+      "runnerWins": 12,
+      "corpWins": 42,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        },
+        {
+          "source": "vantage-followup-48",
+          "games": 48,
+          "runnerWins": 10,
+          "corpWins": 38
+        }
+      ],
+      "runnerWinRate": 0.2222222222222222
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "hiram-play-v1",
+      "corp": "hb-vantage-tempo-v1",
+      "completed": 54,
+      "runnerWins": 25,
+      "corpWins": 29,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 3,
+          "corpWins": 3
+        },
+        {
+          "source": "vantage-followup-48",
+          "games": 48,
+          "runnerWins": 22,
+          "corpWins": 26
+        }
+      ],
+      "runnerWinRate": 0.46296296296296297
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "hiram-play-v1",
+      "corp": "hb-vantage-reallocation-v1",
+      "completed": 6,
+      "runnerWins": 2,
+      "corpWins": 4,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 2,
+          "corpWins": 4
+        }
+      ],
+      "runnerWinRate": 0.3333333333333333
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "hiram-play-v1",
+      "corp": "hb-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "hiram-play-v1",
+      "corp": "melies-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "hiram-play-v1",
+      "corp": "editorial-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 4,
+      "corpWins": 2,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        }
+      ],
+      "runnerWinRate": 0.6666666666666666
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "hiram-play-v1",
+      "corp": "weyland-full-vp-v1",
+      "completed": 6,
+      "runnerWins": 6,
+      "corpWins": 0,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 6,
+          "corpWins": 0
+        }
+      ],
+      "runnerWinRate": 1
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "hiram-play-v1",
+      "corp": "melies-play-v1",
+      "completed": 54,
+      "runnerWins": 33,
+      "corpWins": 21,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 4,
+          "corpWins": 2
+        },
+        {
+          "source": "vantage-followup-48",
+          "games": 48,
+          "runnerWins": 29,
+          "corpWins": 19
+        }
+      ],
+      "runnerWinRate": 0.6111111111111112
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "hiram-play-v1",
+      "corp": "editorial-play-v1",
+      "completed": 6,
+      "runnerWins": 5,
+      "corpWins": 1,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        }
+      ],
+      "runnerWinRate": 0.8333333333333334
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "runner": "hiram-play-v1",
+      "corp": "editorial-play-v2",
+      "completed": 54,
+      "runnerWins": 30,
+      "corpWins": 24,
+      "sources": [
+        {
+          "source": "audit-vantage-preview-v1",
+          "games": 6,
+          "runnerWins": 5,
+          "corpWins": 1
+        },
+        {
+          "source": "vantage-followup-48",
+          "games": 48,
+          "runnerWins": 25,
+          "corpWins": 23
+        }
+      ],
+      "runnerWinRate": 0.5555555555555556
+    }
+  ]
+}

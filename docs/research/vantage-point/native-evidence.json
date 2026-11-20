@@ -1,0 +1,398 @@
+{
+  "schemaVersion": 1,
+  "scope": "Complete Vantage Point implementation: 66 definitions with per-card native evidence",
+  "capturedAt": "2026-11-16T07:18:08.717Z",
+  "notice": "Native rules fixtures and shared-browser smoke evidence only; neither exhaustive rules/visual coverage nor strategic AI qualification. Completion results do not measure competitive deck strength.",
+  "coverage": {
+    "cards": 66,
+    "definitions": 66,
+    "withPartialNativeEvidence": 66,
+    "uiQualified": 0,
+    "aiCertified": 0,
+    "fullyCertified": 0
+  },
+  "checks": [
+    "npm run check:dev passed, including Gateway/Core, current Vantage fixtures, saved replays, deck validation, search and simulation, and portable offline package",
+    "All 66 printed card values checked against pinned metadata",
+    "Four full-set optimized/reference comparisons normalize sandbox objects and compare full traces/terminal/points/versions",
+    "Nine actual shared-browser captures reconstruct all decisions and terminal states",
+    "Native PDF artwork check: 69 masters and 207 display files match pinned source",
+    "Module syntax and git diff --check passed"
+  ],
+  "runs": [
+    {
+      "directory": "tmp/vantage-foundation-smoke",
+      "engineHash": "30ed7556d68ef5fe0d280854937758001137c3782c174a2bc95c0dbd64504aca",
+      "rulesVersion": "26.03-vantage-1",
+      "seed": "vantage-foundation",
+      "results": [
+        {
+          "file": "3f9776170e5a836941b8d2b9.json",
+          "sha256": "cfaa06c6b21c086801e8e4c9c0655caaa36a137e3649f378624f15f591653238",
+          "seed": "vantage-foundation:1",
+          "status": "error",
+          "turn": 19,
+          "decisions": 846,
+          "elapsedMs": 164,
+          "terminal": {
+            "winner": "corp",
+            "reason": "Runner flatlined",
+            "damage": {
+              "amount": 6,
+              "type": "meat",
+              "gripBefore": 5,
+              "card": {
+                "id": "c7",
+                "number": 30061,
+                "title": "Clearinghouse"
+              }
+            }
+          },
+          "failureSummary": "Native Runner AI lacked the new ice/payment-choice model; complete original error and decision trace retained in the job file."
+        },
+        {
+          "file": "8a2db2b7f8881d30ffe60b21.json",
+          "sha256": "9f36a15558988ecfcd522f5aad5b3d17b06c5cb4f62e078694bb9ecda0642e13",
+          "seed": "vantage-foundation:0",
+          "status": "error",
+          "turn": 33,
+          "decisions": 1100,
+          "elapsedMs": 417,
+          "terminal": {
+            "winner": "corp",
+            "reason": "Corp reached 8 agenda points."
+          },
+          "failureSummary": "Native Runner AI lacked the new ice/payment-choice model; complete original error and decision trace retained in the job file."
+        }
+      ]
+    },
+    {
+      "directory": "tmp/vantage-foundation-smoke-r2",
+      "engineHash": "64a6599cae94cf2884c93df0af26343c59c2c28eef969e1d10e0735594fa63ce",
+      "rulesVersion": "26.03-vantage-1",
+      "seed": "vantage-foundation",
+      "results": [
+        {
+          "file": "a6664101f821851e1853d24f.json",
+          "sha256": "08fc3fcc6e9e6d9b1409b1c56d73270aab99ce1b33b798beb7b7e323b235144c",
+          "seed": "vantage-foundation:1",
+          "status": "completed",
+          "turn": 65,
+          "decisions": 2152,
+          "elapsedMs": 2301,
+          "terminal": {
+            "winner": "runner",
+            "reason": "Corp attempted to draw a card from empty R&D"
+          }
+        },
+        {
+          "file": "ef1acea713eee17ad9526c19.json",
+          "sha256": "d52706ffacad579e912a8c6ee1cd1d46ed420718b65b223d6d1a7cae1136115e",
+          "seed": "vantage-foundation:0",
+          "status": "completed",
+          "turn": 35,
+          "decisions": 1172,
+          "elapsedMs": 465,
+          "terminal": {
+            "winner": "corp",
+            "reason": "Corp reached 8 agenda points."
+          }
+        }
+      ]
+    },
+    {
+      "directory": "tmp/vantage-loop4-vic-hb",
+      "engineHash": "0f2e1fdc5789fbf6f74b73dc4a55d6633ec9c33a17120ca6b5ae8d4564ef9270",
+      "rulesVersion": "26.03-vantage-2",
+      "seed": "vantage-loop4-vic-hb",
+      "notice": "One completion smoke only; no deck-strength inference.",
+      "results": [
+        {
+          "file": "2634904f9944df53bc29dc11.json",
+          "sha256": "30d6999099b8288e98058a14a467dbd5845aabdeab67779d9bdafaae71702a7f",
+          "seed": "vantage-loop4-vic-hb:0",
+          "status": "completed",
+          "turn": 27,
+          "decisions": 842,
+          "elapsedMs": 506,
+          "terminal": {
+            "winner": "corp",
+            "reason": "Corp reached 7 agenda points."
+          }
+        }
+      ]
+    }
+  ],
+  "remaining": [
+    "Full visual/keyboard/accessibility qualification in existing Chrome",
+    "Strategic and hidden-information AI certification",
+    "Exhaustive cross-card/rules audit",
+    "Startup tournament restrictions if exposing that format",
+    "Release packaging/publication are a separate task"
+  ],
+  "browser": {
+    "surface": "Authorized T3 shared browser; existing Chrome host unavailable",
+    "interaction": "Observed rendered controls; no direct choose calls or worker-message injection",
+    "limitations": [
+      "Existing Chrome browser access host unavailable",
+      "Shared-browser snapshot timeout; no final screenshot/keyboard/accessibility certification",
+      "Bounded UI policy exercises legal controls but is not a strategic player"
+    ],
+    "games": [
+      {
+        "file": "docs/playtesting/vantage/runner-v1.json",
+        "sha256": "dce3822b81d05ad0f7db244a5b7704a287c957b85aba5d75c852e4f328026090",
+        "engine": "local-vantage-preview-1",
+        "side": "runner",
+        "identity": 30019,
+        "decisions": 78,
+        "terminal": {
+          "damage": {
+            "amount": 6,
+            "card": {
+              "id": "c6",
+              "number": 30061,
+              "title": "Clearinghouse"
+            },
+            "gripBefore": 3,
+            "type": "meat"
+          },
+          "reason": "Runner flatlined",
+          "winner": "corp"
+        },
+        "viewport": null
+      },
+      {
+        "file": "docs/playtesting/vantage/corp-v2.json",
+        "sha256": "45ff2ff544678587ee3b0bc7e97be9c0b1240e84cba468d88f9dbf346f1cf85f",
+        "engine": "local-vantage-preview-2",
+        "side": "corp",
+        "identity": 30059,
+        "decisions": 53,
+        "terminal": {
+          "reason": "Runner reached 8 agenda points.",
+          "winner": "runner"
+        },
+        "viewport": null
+      },
+      {
+        "file": "docs/playtesting/vantage/hb-mobile-v2.json",
+        "sha256": "5fe913d47c3d8b3b6ef19a46e25ee1c2aa8b56daa6efeab499fae3b90b808516",
+        "engine": "local-vantage-preview-2",
+        "side": "corp",
+        "identity": 30035,
+        "decisions": 50,
+        "terminal": {
+          "reason": "Runner reached 9 agenda points.",
+          "winner": "runner"
+        },
+        "viewport": {
+          "height": 844,
+          "width": 390
+        }
+      },
+      {
+        "file": "docs/playtesting/vantage/stealth-mobile-v2.json",
+        "sha256": "1afe4370eef25d05809f97b1bedf519232bf7e15b6f5ef4d24110a23da88530a",
+        "engine": "local-vantage-preview-2",
+        "side": "runner",
+        "identity": 30019,
+        "decisions": 178,
+        "terminal": {
+          "reason": "Corp reached 8 agenda points.",
+          "winner": "corp"
+        },
+        "viewport": {
+          "height": 844,
+          "width": 390
+        }
+      },
+      {
+        "file": "docs/playtesting/vantage/vic-mobile-v2.json",
+        "sha256": "df10444ed506e4463e7ed0ff595a75be76960d3847c6ba94e0c084fecfdf05b9",
+        "engine": "local-vantage-preview-2",
+        "side": "runner",
+        "identity": 36009,
+        "decisions": 69,
+        "terminal": {
+          "reason": "Runner reached 7 agenda points.",
+          "winner": "runner"
+        },
+        "viewport": {
+          "height": 844,
+          "width": 390
+        }
+      },
+      {
+        "file": "docs/playtesting/vantage/full-hiram-v2.json",
+        "sha256": "4135c3a2b47002f6fd9e9fd71cc74d9ef3222eed28b8dcb76a876af860fa7790",
+        "engine": "local-vantage-preview-2",
+        "side": "runner",
+        "identity": 36017,
+        "decisions": 231,
+        "terminal": {
+          "reason": "Corp reached 7 agenda points.",
+          "winner": "corp"
+        },
+        "viewport": {
+          "height": 800,
+          "width": 1280
+        }
+      },
+      {
+        "file": "docs/playtesting/vantage/full-melies-v3.json",
+        "sha256": "94b8f321018f520023948c7f7f00545779beba7ab8b4ce8a66b3212ce903e2aa",
+        "engine": "local-vantage-preview-3",
+        "side": "corp",
+        "identity": 36036,
+        "decisions": 123,
+        "terminal": {
+          "reason": "Runner reached 7 agenda points.",
+          "winner": "runner"
+        },
+        "viewport": {
+          "height": 800,
+          "width": 1280
+        }
+      },
+      {
+        "file": "docs/playtesting/vantage/full-editorial-v3.json",
+        "sha256": "1da5a58e010b367a595d5080e1d439d5fea2326b8592a4d579490c5a9d6123bd",
+        "engine": "local-vantage-preview-3",
+        "side": "corp",
+        "identity": 36046,
+        "decisions": 72,
+        "terminal": {
+          "reason": "Runner reached 8 agenda points.",
+          "winner": "runner"
+        },
+        "viewport": {
+          "height": 800,
+          "width": 1280
+        }
+      },
+      {
+        "file": "docs/playtesting/vantage/full-weyland-v3.json",
+        "sha256": "b8da90d52096d9fb7928d1dac474cfb2bd8340e89ac6ca4d30d82ccf2c9a6227",
+        "engine": "local-vantage-preview-3",
+        "side": "corp",
+        "identity": 30059,
+        "decisions": 43,
+        "terminal": {
+          "reason": "Runner reached 7 agenda points.",
+          "winner": "runner"
+        },
+        "viewport": {
+          "height": 844,
+          "width": 390
+        }
+      }
+    ],
+    "focusedChecks": [
+      "All-new-identity setup and exact deck selection",
+      "Corp-only selected copy visible in full identity inspector",
+      "Complete game restored through paste replay dialog",
+      "390-pixel viewport without horizontal page overflow",
+      "Native-source 743-pixel full-card image loaded"
+    ]
+  },
+  "currentProfile": {
+    "engine": "local-vantage-preview-3",
+    "rulesVersion": "26.03-vantage-3",
+    "supportedRules": [
+      "26.03-vantage-1",
+      "26.03-vantage-2",
+      "26.03-vantage-3"
+    ],
+    "engines": {
+      "26.03-vantage-1": "local-vantage-preview-1",
+      "26.03-vantage-2": "local-vantage-preview-2",
+      "26.03-vantage-3": "local-vantage-preview-3"
+    },
+    "cardPool": "vantage-preview-v1"
+  },
+  "pilotDecks": [
+    {
+      "id": "tao-vantage-pilot-v1",
+      "name": "Tāo · Stealth foundation pilot",
+      "identity": "30019"
+    },
+    {
+      "id": "weyland-vantage-pilot-v1",
+      "name": "Built to Last · Bad publicity pilot",
+      "identity": "30059"
+    },
+    {
+      "id": "vic-vantage-pilot-v1",
+      "name": "Vic · Central pressure",
+      "identity": "36009"
+    },
+    {
+      "id": "tao-vantage-stealth-v1",
+      "name": "Tāo · Stealth console",
+      "identity": "30019"
+    },
+    {
+      "id": "weyland-vantage-tools-v1",
+      "name": "Built to Last · Defensive tools",
+      "identity": "30059"
+    },
+    {
+      "id": "jinteki-vantage-pilot-v1",
+      "name": "Restoring Humanity · Ambushes",
+      "identity": "30043"
+    },
+    {
+      "id": "hb-vantage-tempo-v1",
+      "name": "Precision Design · Tempo and recycling",
+      "identity": "30035"
+    },
+    {
+      "id": "loup-vantage-tailor-v1",
+      "name": "Loup · Tailored economy",
+      "identity": "30001"
+    },
+    {
+      "id": "hb-vantage-reallocation-v1",
+      "name": "Precision Design · Reallocation",
+      "identity": "30035"
+    },
+    {
+      "id": "loup-full-vp-v1",
+      "name": "Loup · Vantage interactions",
+      "identity": "30001"
+    },
+    {
+      "id": "vic-full-vp-v1",
+      "name": "Vic · Vantage interactions",
+      "identity": "36009"
+    },
+    {
+      "id": "hiram-full-vp-v1",
+      "name": "Hiram · Vantage interactions",
+      "identity": "36017"
+    },
+    {
+      "id": "hb-full-vp-v1",
+      "name": "Precision Design · Vantage interactions",
+      "identity": "30035"
+    },
+    {
+      "id": "melies-full-vp-v1",
+      "name": "Méliès U · Vantage interactions",
+      "identity": "36036"
+    },
+    {
+      "id": "editorial-full-vp-v1",
+      "name": "Editorial Division · Vantage interactions",
+      "identity": "36046"
+    },
+    {
+      "id": "weyland-full-vp-v1",
+      "name": "Built to Last · Vantage interactions",
+      "identity": "30059"
+    }
+  ],
+  "benchmarkReport": "benchmark-validation.json",
+  "benchmarkPreset": "benchmark-matrix.json"
+}

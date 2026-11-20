@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-19",
+  "role": "Corp",
+  "origin": "http://127.0.0.1:5173",
+  "testedVersion": {
+    "engine": "chiriboga-77c80b1-local-1",
+    "rules": "26.03-local-2",
+    "finalStateVersion": 1009
+  },
+  "method": {
+    "freshImpressionsBeforePriorReports": true,
+    "priorReportsRead": false,
+    "domOnly": true,
+    "snapshot": "Preview snapshot failed: Preview automation snapshot timed out after 15000ms.",
+    "hiddenInformationUsed": false,
+    "sessionReadAfterTerminalOnly": true,
+    "mutation": "Rendered buttons and DOM inputs only",
+    "visualCertification": false
+  },
+  "result": {
+    "winner": "corp",
+    "points": {
+      "corp": 9,
+      "runner": 2
+    },
+    "uiTurn": 16,
+    "stateTurn": 31,
+    "terminal": "Corp reached 9 agenda points.",
+    "diagnostics": [],
+    "gamesPlayed": 1
+  },
+  "firstImpressions": "Clear entry from Gateway lobby and explicit Corp role. Guide carried pool, role and own selected Precision Design Build & score deck; percentages correctly changed to Corp and counts remained visible. Worked Tag and score path was actionable and small enough to follow without inventing an experiment.",
+  "checks": [
+    {
+      "check": "Gateway Corp context",
+      "status": "pass",
+      "evidence": "Lobby guide href pool=gateway-v1 side=corp runner=loup-v1 corp=precision-design-v2; guide My Corp deck=Build & score."
+    },
+    {
+      "check": "Corp percentages",
+      "status": "pass",
+      "evidence": "Initial Precision row vs Loup: Corp4 Runner2 of6 =67% Corp wins; Zahya Corp2 Runner4=33%. Difficulty row labels correct."
+    },
+    {
+      "check": "Worked tune preserves exact pairing and no automatic game",
+      "status": "pass",
+      "evidence": "Open starting deck to edit selected Corp Reality Plus reality-plus-v2 and AI Tao tao-v1, opened editor over lobby. Jack in clicked separately after save."
+    },
+    {
+      "check": "Legal recipe, source baseline, custom warning",
+      "status": "pass",
+      "evidence": "-1 Retribution +1 Anoetic Void;44 cards8/15 influence18/18–19 agenda. Saved Retest Corp19Nov. Editor named Tags & consequences baseline and exact diff; guide custom warning and custom notes name present."
+    },
+    {
+      "check": "Notes through guide",
+      "status": "pass",
+      "evidence": "All five fields filled before game and result/next fields updated after; Saved on this device for Retest Corp19Nov."
+    },
+    {
+      "check": "One natural full game",
+      "status": "pass",
+      "evidence": "Corp9–2 UIturn16,200 recorded choices; no undo, concede or restart; final diagnostics empty."
+    }
+  ],
+  "experiment": {
+    "cut": "1 Retribution",
+    "add": "1 Anoetic Void",
+    "drawn": true,
+    "drawnUiTurn": 7,
+    "installed": true,
+    "installedUiTurn": 7,
+    "rezzed": true,
+    "activated": true,
+    "activatedUiTurn": 14,
+    "payment": {
+      "credits": 2,
+      "hqCards": [
+        "Funhouse",
+        "Hansei Review"
+      ]
+    },
+    "observedEffect": "Ended the run before access to Send a Message.",
+    "supportUsability": "Guide's 2 credits +2 expendable HQ cards reminder affected budgeting. In-game option and committed-payment labels made each cost explicit.",
+    "opportunityCost": "Remaining Retribution was played after Public Trail to trash Cleaver on turn9; losing one copy has a concrete alternative effect. +3 net influence spent. One activation and a win do not establish stronger deck.",
+    "notesHelp": "Five fields separated hypothesis, support, observed opportunity and next decision. Reminder to track draw/install/trigger prevented treating earlier White stops as upgrade evidence.",
+    "priorKnowledge": "AI brought Netrunner rules/strategy knowledge. Guide helped structure experiment and support reserve, while most specific ice, economy and scoring choices came from prior knowledge."
+  },
+  "bugs": [
+    {
+      "priority": "P2",
+      "title": "Corp reading-section thresholds contradict selected-side percentages",
+      "repro": "Open guide from Gateway lobby as Corp; read How to read the results.",
+      "actual": "Rows use Corp win rate, but text says Below40 harder Runner / Above60 harder Corp.",
+      "expected": "Selected-side wording or role-aware Runner/Corp wording: below40 harder for selected side; above60 harder for opposing side.",
+      "acceptance": "Switch Runner↔Corp and verify explanation agrees with row win-rate label, raw counts and difficulty across <40,40–60,>60 examples."
+    }
+  ],
+  "preferences": [
+    {
+      "priority": "low",
+      "title": "Name generic preparation advice for the actual matchup",
+      "detail": "The generic 'income and right breaker or rez budget' before-play sentence is less useful than the concrete Corp paragraph about Anoetic/HQ support. It is acceptable scaffolding; a role-specific opening checklist could be more direct.",
+      "acceptance": "Optional refinement: Corp sentence mentions rez reserve, scoring lane, visible breakers/Tao swap; Runner sentence mentions breaker/economy/access."
+    }
+  ],
+  "limitations": [
+    "Single AI-controlled human-side playtest vs Chiriboga AI; not evidence of human novice comprehension or matchup balance.",
+    "Initial snapshot timed out; all assessment DOM-only, no layout or visual quality certification.",
+    "Some rapid dependent clicks initially hit resolving DOM before rerender; later used settling delays. No engine/worker/NR.choose injection.",
+    "Full session choices preserved; public UI history capture is final 150-event tail, with narrative UI trace covering earlier key decisions.",
+    "Strategic mistakes included early unprotected agenda discard via Hansei and exposing Orbital behind Funhouse after Tao swap; recovered discarded agenda with Spin Doctor. These weaken any balance inference.",
+    "No Conduit appeared installed; did not claim to test R&D multiaccess defense."
+  ]
+}

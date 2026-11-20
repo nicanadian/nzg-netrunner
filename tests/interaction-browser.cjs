@@ -57,6 +57,7 @@ const fixtures=Object.fromEntries(['runner','corp'].map(side=>[side,require(`../
   const funds=(await state(breaker)).runner.credits;await act(breaker,'[data-plan-review="c58"]');
   await breaker.waitForFunction(()=>!localTable.busy&&localTable.state.phase.identifier==='Run 4.3');
   const broken=await state(breaker);assert.equal(broken.runner.credits,funds-3);assert.ok(broken.run.card.subroutines.every(s=>s.broken));
+  await breaker.locator('#action-receipt summary').click();
   assert.match(await breaker.locator('#action-receipt').innerText(),/All subroutines broken.*Spent 3 credits/s);
   assert.equal(await breaker.locator('[data-opponent-pause]').filter({hasText:'Resume'}).count(),0);
   await breaker.screenshot({path:'eval/click-flow/break-complete.png',fullPage:true});
@@ -79,6 +80,7 @@ const fixtures=Object.fromEntries(['runner','corp'].map(side=>[side,require(`../
   const spin=await open('corp',408);
   await spin.click('#table [data-card="c38"]');await act(spin,'[data-inspect-command="rez"]');
   assert.equal((await state(spin)).phase.identifier,'Corp 2.2');
+  await spin.locator('#action-receipt summary').click();
   assert.match(await spin.locator('#action-receipt').innerText(),/Automatically resolved/);
   const optional=await open('corp',76);
   assert.equal((await state(optional)).phase.source,'Send a Message');

@@ -1,3 +1,4 @@
+import {setupUrl,readGuideSetup} from './guide-flow.mjs';
 import {mountDeckBuilder} from './deck-builder.mjs';
 import {gatewayVariants} from './ready-made-decks.mjs';
 import {replayExport} from './replay-export.mjs';
@@ -10,15 +11,27 @@ import { virusStatus, virusMarkup } from './virus.mjs';
 import { helperContext } from './helper-context.mjs';
 import { mountHelper } from './helper.mjs';
 import { encounterTool, relatedCards, corpIceRezHint, corpAssetRezHint } from './encounter.mjs';
-import {breakerPlan,secondaryAbility,cancellationLabel,assistedChoice,quotedInstallFinish,paidAbilityFinish} from './interaction.mjs';
+import {breakerPlan,breakerFundingQuote,approvedPaymentChoice,secondaryAbility,cancellationLabel,assistedChoice,quotedInstallFinish,paidAbilityFinish} from './interaction.mjs';
 import {responseLabel} from './presentation.mjs';
 import { runDrawerModel } from './run-drawer.mjs';
+import {optionLabel,installationGroups,clickBreakBatch,clickBreakPlan,deckHealth,rulesTextHTML} from './playtest-polish.mjs';
 import '../engine/deck-catalog.js';
 import '../engine/core-decks.js';
-globalThis.NR_CORE_PREVIEW=new URLSearchParams(location.search).get('core-preview')==='1';
+globalThis.NR_VANTAGE_PREVIEW=new URLSearchParams(location.search).get('vantage-preview')==='1';
+globalThis.NR_CORE_PREVIEW=globalThis.NR_VANTAGE_PREVIEW||new URLSearchParams(location.search).get('core-preview')==='1';
+if(globalThis.NR_VANTAGE_PREVIEW){
+  await import('../engine/vantage-catalog.js');
+  await import('../engine/vantage-profile.js');
+  await import('../engine/vantage-decks.js');
+  globalThis.NRDeckDocument=globalThis.NRDeckDocument.withCatalog(globalThis.NRCardCatalog);
+  globalThis.NRDeckImport=globalThis.NRDeckImport.withCatalog(globalThis.NRCardCatalog,globalThis.NRDeckDocument);
+}
 const DECKS = globalThis.NRDecks;
-const selectedDeckIds = {...(globalThis.NR_CORE_PREVIEW?globalThis.NRCoreDecks.defaults:DECKS.defaults)};
-try{const saved=JSON.parse(localStorage.getItem('netrunner-lobby-decks-'+(globalThis.NR_CORE_PREVIEW?'core-v1':'gateway-v1')));for(const side of ['runner','corp'])if(typeof saved?.[side]==='string')selectedDeckIds[side]=saved[side];}catch{}
+const vantageDecks=(globalThis.NRVantageDecks||[]).map(entry=>{const d=entry.document;return {...entry,...d,document:d,identity:Number(d.identity),cards:d.cards.map(c=>[Number(c.id),c.count]),loadoutName:d.name,style:entry.purpose==='play'?'Recommended play deck':'Interaction test pilot'};});
+const activePool=globalThis.NR_VANTAGE_PREVIEW?'vantage-preview-v1':globalThis.NR_CORE_PREVIEW?'core-v1':'gateway-v1';
+document.querySelector('#pairing-guide-link').href='/app/pairing-guide.html?pool='+encodeURIComponent(activePool);
+const selectedDeckIds = {...(globalThis.NR_VANTAGE_PREVIEW?Object.fromEntries(['runner','corp'].map(side=>[side,vantageDecks.find(d=>d.side===side&&d.purpose==='play').id])):globalThis.NR_CORE_PREVIEW?globalThis.NRCoreDecks.defaults:DECKS.defaults)};
+try{const saved=JSON.parse(localStorage.getItem('netrunner-lobby-decks-'+activePool));for(const side of ['runner','corp'])if(typeof saved?.[side]==='string')selectedDeckIds[side]=saved[side];}catch{}
 const INSPECTION_PIXELS = 743;
 let pixelRatioQuery;
 function updateRasterLimit() {
@@ -41,21 +54,20 @@ const esc = (s) =>
   );
 const DATA = await fetch("/assets/card-data.json").then((r) => r.json());
 // The builder includes full rules text even while remaining art is being imported.
-for(const [id,card] of Object.entries(globalThis.NRCardCatalog.cards))if(!DATA[id])DATA[id]={...card,printingId:id,artist:'See source card',image:''};
-const activePool=globalThis.NR_CORE_PREVIEW?'core-v1':'gateway-v1';
-const deckBuilder=mountDeckBuilder({pool:activePool,bundled:globalThis.NR_CORE_PREVIEW?globalThis.NRCoreDecks.catalog:[...DECKS.catalog,...gatewayVariants],onSelect(deck){selectedDeckIds[deck.side]=deck.id;renderCharacterPicker();},onChange(){renderCharacterPicker();}});
+for(const [id,card] of Object.entries(globalThis.NRCardCatalog.cards))if(!DATA[id])DATA[id]={...card,printingId:id,artist:card.illustrator||'See source card',image:`/assets/cards-display/${id}-743.webp`};
+const deckBuilder=mountDeckBuilder({pool:activePool,bundled:globalThis.NR_VANTAGE_PREVIEW?vantageDecks:globalThis.NR_CORE_PREVIEW?globalThis.NRCoreDecks.catalog:[...DECKS.catalog,...gatewayVariants],onSelect(deck){selectedDeckIds[deck.side]=deck.id;renderCharacterPicker();},onChange(){renderCharacterPicker();}});
 function resolveDecks(ids,documents=null){
  if(ids!==undefined&&(!ids||typeof ids!=='object'||Array.isArray(ids)))throw Error('Invalid character selection.');
  if(ids===undefined&&!documents&&!globalThis.NR_CORE_PREVIEW)return DECKS.resolve();
- const fallback=globalThis.NR_CORE_PREVIEW?globalThis.NRCoreDecks.defaults:DECKS.defaults;
+ const fallback=globalThis.NR_VANTAGE_PREVIEW?Object.fromEntries(['runner','corp'].map(side=>[side,globalThis.NRVantageDecks.find(d=>d.document.side===side&&d.purpose==='play').id])):globalThis.NR_CORE_PREVIEW?globalThis.NRCoreDecks.defaults:DECKS.defaults;
  return Object.fromEntries(['runner','corp'].map(side=>{
   if(documents?.[side]){const d=documents[side];return [side,{...d,identity:Number(d.identity),cards:d.cards.map(c=>[Number(c.id),c.count]),name:d.name,faction:DATA[d.identity]?.faction_code,description:'Deck snapshot saved with this game'}];}
   const key=ids?.[side]||fallback[side],local=deckBuilder.resolve(key);
   if(local)return [side,local];
-  return [side,DECKS.resolve({...fallback,[side]:key})[side]];
+  return [side,DECKS.resolve({...DECKS.defaults,[side]:key})[side]];
  }));
 }
-const SAVE = globalThis.NR_CORE_PREVIEW ? "netrunner-local-table-core-v1" : "netrunner-local-table-v1",
+const SAVE = globalThis.NR_VANTAGE_PREVIEW ? "netrunner-local-table-vantage-preview-v1" : globalThis.NR_CORE_PREVIEW ? "netrunner-local-table-core-v1" : "netrunner-local-table-v1",
   ENGINE = "chiriboga-77c80b1-local-1";
 let worker,
   state,
@@ -87,6 +99,8 @@ let streamlineTiming=true, teachingPauses=false, holdPriority=false, installTran
 let automaticReceiptBefore=null, deferredAutomatic=null;
 try{streamlineTiming=localStorage.getItem('netrunner-streamline-timing')!=='false';teachingPauses=localStorage.getItem('netrunner-teaching-pauses')==='true'}catch{}
 let runPane = 'actions', runSheetCollapsed = false, wasRunning = false, runDecisionVersion = null;
+let installCardSelection=null;
+const currentPlanModel=()=>activePlan?.kind==='click-break'?clickBreakPlan(state,activePlan):activePlan&&breakerPlan(state,activePlan.cardId);
 
 function stopOpponentPlayback(clearArchive = false) {
   clearTimeout(opponentTimer); opponentTimer = null;
@@ -200,7 +214,7 @@ function save() {
   }
 }
 function validateReplay(data) {
-  const engines=[ENGINE,...Object.values(globalThis.NRCoreDecks?.engines||{})].filter(Boolean);
+  const engines=[ENGINE,...Object.values(globalThis.NRCoreDecks?.engines||{}),...Object.values(globalThis.NRVantagePreview?.engines||{})].filter(Boolean);
   if (
     !engines.includes(data?.engine) ||
     !["runner", "corp"].includes(data.config?.side) ||
@@ -212,7 +226,7 @@ function validateReplay(data) {
     throw Error(
       "This replay is not compatible with this version of Local Table.",
     );
-  const expectedEngine=data.config.cardPool==='core-v1'?globalThis.NRCoreDecks?.engines[data.config.rulesVersion]:ENGINE;
+  const expectedEngine=data.config.cardPool==='vantage-preview-v1'?globalThis.NRVantagePreview?.engines[data.config.rulesVersion]:data.config.cardPool==='core-v1'?globalThis.NRCoreDecks?.engines[data.config.rulesVersion]:ENGINE;
   if(data.engine!==expectedEngine)throw Error('Replay engine and card pool do not match.');
   for (const c of data.choices)
     if (
@@ -225,7 +239,7 @@ function validateReplay(data) {
     )
       throw Error("Invalid replay decision.");
   return {
-    engine: data.config.cardPool==='core-v1'?globalThis.NRCoreDecks.engines[data.config.rulesVersion]:ENGINE,
+    engine: expectedEngine,
     config: replayConfig(data.config),
     choices: data.choices,
     conceded: !!data.conceded,
@@ -233,21 +247,28 @@ function validateReplay(data) {
 }
 function replayConfig(config) {
   const result={side:config.side,seed:config.seed};
+  if(config.aiPolicy!==undefined){if(!['native-v1','pressure-v1'].includes(config.aiPolicy))throw Error('Unsupported AI policy.');result.aiPolicy=config.aiPolicy;}
   if(config.cardPool!==undefined){
-    if(config.cardPool!=='core-v1')throw Error('Unsupported card pool.');
-    if(!globalThis.NR_CORE_PREVIEW)throw Error('Open the Core Sets development preview to use this in-development matchup.');
-    if(!globalThis.NRCoreDecks.supportedRules.includes(config.rulesVersion))throw Error('Unsupported Core Sets rules version.');
+    if(!['core-v1','vantage-preview-v1'].includes(config.cardPool))throw Error('Unsupported card pool.');
+    if(config.cardPool==='vantage-preview-v1'){
+      if(!globalThis.NR_VANTAGE_PREVIEW)throw Error('Choose the Vantage Point preview card sets to restore this game.');
+      if(!globalThis.NRVantagePreview.supportedRules.includes(config.rulesVersion))throw Error('Unsupported Vantage preview rules version.');
+      if(!config.deckDocuments)throw Error('Vantage replays require both saved deck lists.');
+    }else{
+      if(!globalThis.NR_CORE_PREVIEW)throw Error('Open the Core Sets development preview to use this in-development matchup.');
+      if(!globalThis.NRCoreDecks.supportedRules.includes(config.rulesVersion))throw Error('Unsupported Core Sets rules version.');
+    }
     result.cardPool=config.cardPool;
   }
 
   if (config.rulesVersion !== undefined) {
-    if (!['26.03-local-1','26.03-local-2',...(result.cardPool?globalThis.NRCoreDecks.supportedRules:[])].includes(config.rulesVersion)) throw Error('Unsupported replay rules version.');
+    if (!['26.03-local-1','26.03-local-2',...(result.cardPool==='vantage-preview-v1'?globalThis.NRVantagePreview.supportedRules:result.cardPool?globalThis.NRCoreDecks.supportedRules:[])].includes(config.rulesVersion)) throw Error('Unsupported replay rules version.');
     result.rulesVersion = config.rulesVersion;
   }
   if (config.deckIds !== undefined) {
     const decks=resolveDecks(config.deckIds,config.deckDocuments);
     if(Object.values(decks).some(d=>d.pool==='core-v1') && result.cardPool!=='core-v1')throw Error('Core Sets decks require the Core Sets preview.');
-    if(result.cardPool && !Object.values(decks).every(d=>d.pool==='core-v1'))throw Error('Choose both decks from Core Sets.');
+    if(result.cardPool && !Object.values(decks).every(d=>d.pool===result.cardPool))throw Error('Choose both decks from the selected card sets.');
     if(!config.deckDocuments)result.deckIds=Object.fromEntries(Object.entries(decks).map(([side,deck])=>[side,deck.id]));
   }
   if(config.deckDocuments){
@@ -303,7 +324,7 @@ function start(config, replay = [], conceded = false) {
   clearTimeout(presentationTimer);
   hideHover();
   session = {
-    engine: config.cardPool==='core-v1'?globalThis.NRCoreDecks.engines[config.rulesVersion]:ENGINE,
+    engine: config.cardPool==='vantage-preview-v1'?globalThis.NRVantagePreview.engines[config.rulesVersion]:config.cardPool==='core-v1'?globalThis.NRCoreDecks.engines[config.rulesVersion]:ENGINE,
     config,
     choices: structuredClone(replay),
     conceded,
@@ -326,7 +347,7 @@ function start(config, replay = [], conceded = false) {
   $("#loading").textContent = replay.length
     ? "Restoring your game…"
     : "Shuffling the decks…";
-  worker = new Worker("/engine/worker.js");
+  worker = new Worker(config.cardPool==='vantage-preview-v1'?"/engine/vantage-worker.js":"/engine/worker.js");
   const runWorker = worker;
   worker.onmessage = ({ data }) => {
     if (worker !== runWorker) return;
@@ -397,9 +418,10 @@ function start(config, replay = [], conceded = false) {
         render();
         if(cancelReturnFocus){focusIntent={...abilityOrigin,force:true};cancelReturnFocus=false;manualExpanded=true;}
         const plan=activePlan;
-        const step=plan&&breakerPlan(state,plan.cardId);
+        const step=plan&&currentPlanModel();
         if(step?.status==='complete'){completeBreakerPlan();renderActionReceipt();}
         const planned=activePlan && nextPlannedChoice(step);
+        if(activePlan?.paused)renderDecisions();
         const finish=paidAbilityFinish(state);
         if(!installTransaction && state.installation){
           const card=state.installation.card;
@@ -557,8 +579,8 @@ function statusHTML(p) {
   return `<div class="player-name">${p.side === "corp" ? "CORPORATION" : "RUNNER"}<small>${mine ? "YOU" : "CHIRIBOGA AI"}${state.playerTurn === p.side ? '<span class="turn-dot" title="Current turn" aria-label="Current turn"></span>' : ""}</small></div><div class="stats"><div class="stat pool-stat" title="Credits in your pool"><span class="credit-pile" aria-hidden="true">${Array.from({length:Math.min(4, p.credits)}, (_, i) => `<i style="--coin:${i}"></i>`).join("")}<span class="credit-token">${p.credits}</span></span><span class="sr-only">${p.credits}</span>${deltaHTML(p, "credits")}<small>credits</small></div><div class="stat hand-stat" role="group" aria-label="${mine ? 'Your' : 'Opponent'} ${p.side === 'corp' ? 'HQ' : 'grip'}: ${plural(p.hand.length, 'card')} in hand; maximum hand size ${p.maxHand}" title="${plural(p.hand.length, 'card')} in ${p.side === 'corp' ? 'HQ' : 'grip'} · discard down to ${p.maxHand} at the end of the turn"><strong>${p.hand.length}</strong><small>in hand<span>limit ${p.maxHand}</span></small></div><div class="stat click-stat">${clickMarkup(p, previousState?.[p.side], previousState?.turn === state.turn)}<small>${p.clicks} ${p.clicks === 1 ? "click" : "clicks"}</small></div>${p.side === "runner" ? `<div class="stat memory-stat" title="Available memory"><strong>${p.memory - p.memoryUsed}</strong><small>MU free</small></div>${p.tags ? stat('tags', 'tags', 'Runner tags') : ''}${p.coreDamage ? stat('coreDamage', 'core damage', 'Core damage permanently reduces your maximum hand size') : ''}${p.temporaryCredits ? stat('temporaryCredits', 'run credits', 'Temporary credits usable during this run') : ''}` : p.badPublicity ? stat('badPublicity', 'bad pub', 'Bad publicity gives the Runner temporary credits each run') : ''}</div><button class="scroll-cue" data-scroll-mat="${p.side}" aria-label="Scroll ${p.side} play area" title="Scroll to see more cards" hidden>↕ Board</button><button class="points" data-zone="${p.side}-score" aria-label="Inspect ${plural(p.points, "scored agenda point")}"><strong>${p.points}</strong>${deltaHTML(p, "points")}<span>/ 7 <small>AGENDA</small></span></button>`;
 }
 function renderActionReceipt(){
- const panel=$('#action-receipt');panel.hidden=!lastReceipt;if(!lastReceipt)return;
- panel.innerHTML=`<span class="receipt-kind">${lastReceipt.cancel?'CANCELLED':'LAST CONFIRMED CHOICE'}</span><strong>${esc(displayText(lastReceipt.label))}</strong><p>${esc(lastReceipt.detail)}</p>${lastReceipt.changes.length?`<ul>${lastReceipt.changes.map(c=>`<li>${esc(c.label)} · ${esc(c.detail || (c.delta>0?'+':'')+c.delta+' · '+c.value+' left')}</li>`).join('')}</ul>`:''}`;
+ const panel=$('#action-receipt');panel.hidden=!lastReceipt||!!state?.terminal;if(panel.hidden)return;
+ panel.innerHTML=`<details class="receipt-details"><summary><span class="receipt-kind">${lastReceipt.cancel?'CANCELLED':'LAST ACTION · DETAILS'}</span><strong>${esc(displayText(lastReceipt.label))}</strong></summary><p>${esc(lastReceipt.detail)}</p>${lastReceipt.changes.length?`<ul>${lastReceipt.changes.map(c=>`<li>${esc(c.label)} · ${esc(c.detail || (c.delta>0?'+':'')+c.delta+' · '+c.value+' left')}</li>`).join('')}</ul>`:''}</details>`;
 }
 function renderResourceFeedback() {
   const fresh = resourceChanges(previousState, state);
@@ -600,7 +622,7 @@ function singleActionLabel(command) {
   if(option && !option.card && option.label==='Done')return state.phase.identifier==='Scrounge Add to Stack'?'Skip optional program return':'Done';
   return command.label === "Continue" && option?.label &&
     !["Continue", command.command].includes(option.label)
-    ? option.label : command.label;
+    ? optionLabel(option,state) : command.label;
 }
 function render() {
   rememberActionFocus();
@@ -609,7 +631,7 @@ function render() {
   cardsById = new Map();
   hideHover();
   $("#session-label").textContent =
-    (session?.config.cardPool==='core-v1'?"CORE SETS PREVIEW · ":"SYSTEM GATEWAY · ") + (state.side === "runner" ? "RUNNER" : "CORPORATION");
+    (session?.config.cardPool==='vantage-preview-v1'?"VANTAGE POINT (PREVIEW) · ":session?.config.cardPool==='core-v1'?"GATEWAY + ELEVATION (PREVIEW) · ":"SYSTEM GATEWAY · ") + (state.side === "runner" ? "RUNNER" : "CORPORATION");
   for (const side of ["corp", "runner"]) {
     const p = state[side];
     $("#" + side + "-status").innerHTML = statusHTML(p);
@@ -699,7 +721,7 @@ function renderActivity() {
 }
 function hint() {
   if (state.terminal) return "Every run tells a story.";
-  if (busy) return "Your opponent is considering the position.";
+  if (busy) return "Resolving the last action. Your next decision will appear here.";
   const rezWarning=iceRezWarning(state);
   if(rezWarning)return rezWarning.detail;
   if (state.phase.guide?.kind==='credit-payment') return `Pay ${state.phase.guide.remaining} more of ${state.phase.guide.total} credits. Choose how much to spend from your pool, bad publicity, or eligible cards. The effect resolves when payment is complete.`;
@@ -743,6 +765,8 @@ function hint() {
       : "Spend clicks to build your position. Gold outlines mark cards with available actions.";
   if (state.run?.movement && state.side === "corp")
     return "The Runner is moving through the server. Use available defenses or pass this window; the Runner decides whether to continue or jack out.";
+  if(state.run?.movement && state.run.iceOutcome==='removed')return 'The approached ice was removed. Continue inward, or jack out to end the run.';
+  if (state.run?.movement && state.run.iceOutcome==='passed-unrezzed') return 'The Corp left this ice inactive. The Runner passed it without an encounter.';
   if (state.run?.movement)
     return state.run.card?.subroutines?.some(s=>s.fired) ? "Unbroken subroutines have fired. Review their effects, then continue or jack out." : "Continue deeper into the server, or jack out to end this run.";
   if (state.phase.identifier === "Run 5.2" && state.side === "corp")
@@ -775,11 +799,12 @@ function renderDecisions(resetScroll = false) {
   const brokenCount = focus?.subroutines?.filter(s => s.broken).length || 0;
   const firedCount = focus?.subroutines?.filter(s => s.fired).length || 0;
   $("#access-card").innerHTML = drawer ? runContextHTML(drawer) : state.privateView ? `<section class="private-look"><p>${esc(state.privateView.label)} · visible only to you</p><div class="private-look-cards">${state.privateView.cards.map(card=>cardHTML(card)).join('')}</div></section>` : focus
-    ? `${state.viewed ? `<p class="encounter-result">${state.viewed.kind==='expose' ? 'EXPOSED' : 'REVEALED'} CARD</p>` : !state.access && state.run?.movement ? `<p class="encounter-result">ICE PASSED <span>${brokenCount} broken${firedCount ? ` · ${firedCount} fired` : ''}</span></p>` : ""}${!focus.hidden && !state.access && state.run?.encountering ? `<p class="encounter-type">${esc(focus.subTypes?.join(" · "))} · STR ${focus.strength}</p>` : ""}<div class="access-inline">${cardHTML(focus)}</div>${!state.viewed && !state.access && focus.subroutines?.length ? `<ol class="subroutines" aria-label="Ice subroutines">${focus.subroutines.map((s,i) => `<li data-subroutine-number="${i+1}" class="${s.broken ? "broken" : s.fired ? "fired" : ""}"><span class="subroutine-number">${i + 1}</span><span class="subroutine-copy">${esc(s.text)}<small>${s.broken ? '✓ Broken' : s.fired ? 'Fired' : 'Unbroken'}</small></span></li>`).join("")}</ol>` : ""}`
+    ? `${state.viewed ? `<p class="encounter-result">${state.viewed.kind==='expose' ? 'EXPOSED' : 'REVEALED'} CARD</p>` : !state.access && state.run?.movement ? `<p class="encounter-result">${state.run.iceOutcome==='passed-unrezzed'?'PASSED INACTIVE ICE':'ICE PASSED'} <span>${brokenCount} broken${firedCount ? ` · ${firedCount} fired` : ''}</span></p>` : ""}${!focus.hidden && !state.access && state.run?.encountering ? `<p class="encounter-type">${esc(focus.subTypes?.join(" · "))} · STR ${focus.strength}</p>` : ""}<div class="access-inline">${cardHTML(focus)}</div>${!state.viewed && !state.access && state.run?.iceOutcome!=='passed-unrezzed' && focus.subroutines?.length ? `<ol class="subroutines" aria-label="Ice subroutines">${focus.subroutines.map((s,i) => `<li data-subroutine-number="${i+1}" class="${s.broken ? "broken" : s.fired ? "fired" : ""}"><span class="subroutine-number">${i + 1}</span><span class="subroutine-copy">${esc(s.text)}<small>${s.broken ? '✓ Broken' : s.fired ? 'Fired' : 'Unbroken'}</small></span></li>`).join("")}</ol>` : ""}`
     : "";
+  $('#hold-priority').closest('label').hidden=!!state.terminal;
   if (state.terminal) {
     $("#decisions").innerHTML =
-      `<div class="gameover"><span class="eyebrow">${state.terminal.winner.toUpperCase()} WINS</span><h2>${state.terminal.winner === state.side ? "Well played." : "Another run awaits."}</h2><p>${esc(state.terminal.reason)}</p>${state.terminal.damage ? `<p class="damage-result">${esc(damageExplanation(state.terminal.damage))}</p>` : ''}<button class="primary" data-lobby>Play again →</button></div>`;
+      `<div class="gameover"><span class="eyebrow">${state.terminal.winner.toUpperCase()} WINS</span><h2>${state.terminal.winner === state.side ? "Well played." : "Another run awaits."}</h2><p>${esc(state.terminal.reason)}</p>${state.terminal.damage ? `<p class="damage-result">${esc(damageExplanation(state.terminal.damage))}</p>` : ''}<button class="primary" data-rematch>Play again · same decks →</button><button class="secondary" data-lobby>Change decks</button></div>`;
     return;
   }
   if (busy) {
@@ -787,14 +812,18 @@ function renderDecisions(resetScroll = false) {
       opponentCurrent?.kind==='encounter' ? rootAbilityHTML(null,true) + `<p class="target-instruction">${opponentPaused?'Encounter paused. Review the subroutines, then Resume to watch the result.':'Encounter resolving. No input needed; Pause to review the subroutines.'}</p>` : opponentCurrent ? '' : `<div class="waiting-response"><strong>${state.active===state.side?'Resolving your choice':'Waiting for '+(state.active==='corp'?'Corp':'Runner')+' response'}</strong><p>${state.playerTurn===state.side?'Your turn continues.':'The opponent’s turn continues.'} Committed payments remain spent.</p></div>${activePlan?'<button class="quiet" data-plan-stop>Stop queued plan</button>':''}`;
     return;
   }
+  if(state.installation||installTransaction&&state.phase.guide?.kind==='credit-payment'){
+    $('#decisions').innerHTML='<p class="target-instruction">Finish the installation in the installation dialog.</p><button class="action-button" data-finish-install>Review installation →</button>';
+    return;
+  }
   let planNotice='';
   if(activePlan){
-    const model=breakerPlan(state,activePlan.cardId);
+    const model=currentPlanModel();
     if(model.status==='invalid')activePlan=null;
     else if(['paused','unavailable'].includes(model.status)){
       activePlan.paused=true;planNotice=planHTML(model);
     }
-    else if(model.status!=='payment'){
+    else if(model.status!=='payment' || activePlan.funding&&!activePlan.paused){
       $('#decisions').innerHTML=planHTML(model);return;
     }
   }
@@ -813,6 +842,7 @@ function renderDecisions(resetScroll = false) {
     group = commands[0];
     selectedCommand = group.command;
   }
+  if(group?.command==='install'&&renderInstallPicker(group,commands.length>1))return;
   if (group) {
     const multi = group.options.find((o) => o.multi)?.multi;
     const head = `${commands.length > 1 ? '<button class="action-back" data-back>← All actions</button>' : ""}${group.instruction ? `<p class="phase-hint">${esc(group.instruction)}</p>` : ""}`;
@@ -821,12 +851,12 @@ function renderDecisions(resetScroll = false) {
       .map(o => {
         const location = o.hostLabel || o.location;
         const locationDetail = location && !o.label.includes(location) ? location : null;
-        const button=`<button class="action-button ${multiSelected.includes(o.card?.id) ? "selected" : ""}" data-related-cards="${esc(relatedCards(o).join(' '))}" ${multi && o.multi ? `aria-pressed="${multiSelected.includes(o.card?.id)}"` : ""} ${o.subroutine ? `data-target-subroutine="${o.subroutine}"` : ""} data-option="${o.index}" data-command="${esc(group.command)}"><span class="action-option">${o.card && !o.card.hidden ? `<img class="option-thumb" src="/assets/cards-display/${o.card.number}-300.webp" alt="">` : ""}<span>${esc((group.command==='rez'?'Rez ':'')+displayText(o.label))}${locationDetail ? `<span class="option-detail">${esc(displayText(locationDetail))}</span>` : ""}${costHTML(o.cost)}${o.detail && !o.label.replace(/[.\s]+$/, "").includes(o.detail.replace(/[.\s]+$/, "")) ? `<span class="option-detail">${esc(displayText(o.detail))}</span>` : ""}</span></span>${multi && o.multi ? "<small>" + (multiSelected.includes(o.card?.id) ? "✓" : "＋") + "</small>" : ""}</button>`;
+        const button=`<button class="action-button ${multiSelected.includes(o.card?.id) ? "selected" : ""}" data-related-cards="${esc(relatedCards(o).join(' '))}" ${multi && o.multi ? `aria-pressed="${multiSelected.includes(o.card?.id)}"` : ""} ${o.subroutine ? `data-target-subroutine="${o.subroutine}"` : ""} data-option="${o.index}" data-command="${esc(group.command)}"><span class="action-option">${o.card && !o.card.hidden ? `<img class="option-thumb" src="/assets/cards-display/${o.card.number}-300.webp" alt="">` : ""}<span>${esc((group.command==='rez'?'Rez ':'')+displayText(optionLabel(o,state)))}${locationDetail ? `<span class="option-detail">${esc(displayText(locationDetail))}</span>` : ""}${costHTML(o.cost)}${o.detail && !o.label.replace(/[.\s]+$/, "").includes(o.detail.replace(/[.\s]+$/, "")) ? `<span class="option-detail">${esc(displayText(o.detail))}</span>` : ""}</span></span>${multi && o.multi ? "<small>" + (multiSelected.includes(o.card?.id) ? "✓" : "＋") + "</small>" : ""}</button>`;
         return (o.searchChoice || o.card && !o.card.hidden) ? `<div class="search-choice">${button}<button class="quiet" data-read-option="${o.index}" data-read-command="${esc(group.command)}" aria-label="Read ${esc(displayText(o.label))} before choosing">Read card</button>${o.installQuote?`<button class="quiet" data-install-options="${o.index}">Install options · replace / trash…</button>`:''}</div>` : button;
       })
       .join("");
     $("#decisions").innerHTML =
-      head + (encounter && group.options.some(o=>o.subroutine) ? `<p class="target-instruction">${esc(state.phase.source || 'Ability')} → choose the subroutine below.${group.cancel ? ' Nothing spent yet; Cancel returns to your encounter options.' : ' Follow-up choices use the payment shown below.'}</p>` : '') +
+      head + (clickBreakBatch(state)?`<button class="action-button primary-action" data-click-break-all>Break all remaining · ${plural(clickBreakBatch(state).ceiling,'click')}</button><p class="phase-hint">Or choose one subroutine below. Queued breaks stop if the encounter or cost changes.</p>`:'') + (encounter && group.options.some(o=>o.subroutine) ? `<p class="target-instruction">${esc(state.phase.source || 'Ability')} → choose the subroutine below.${group.cancel ? ' Nothing spent yet; Cancel returns to your encounter options.' : ' Follow-up choices use the payment shown below.'}</p>` : '') +
       `<div class="actions">${options}</div>` +
       (multi
         ? `<p class="phase-hint" style="margin-top:14px">Select ${multi.optional ? "up to " : ""}${multi.max} cards · ${multiSelected.length} selected</p><button class="action-button primary-action" data-multi-confirm ${(multiSelected.length === 0 && !multi.optional) || (multiSelected.length !== multi.max && !multi.optional) ? "disabled" : ""}>Confirm selection</button>`
@@ -844,7 +874,7 @@ function renderDecisions(resetScroll = false) {
             `<button class="action-button ${c.command === primaryCommand ? "primary-action" : ""} ${["gain","draw"].includes(c.command) ? "basic-action" : ""}" data-related-cards="${esc([...new Set(c.options.flatMap(relatedCards))].join(' '))}" data-command="${esc(c.command)}" data-group><span>${esc(displayText(promoted?.kind==='install'&&c.command==='trash'?'Trash existing cards (optional)':singleActionLabel(c)))}${costHTML(c.cost)}${nextStep?.command===c.command?`<span class="option-detail">${esc(nextStep.detail)}</span>`:''}${c.options.length === 1 && c.options[0].card ? `<span class="option-detail">${esc(displayText(["install", "play", "rez", "advance"].includes(c.command) ? c.options[0].card.title || c.options[0].label : c.options[0].label))}</span>` : ""}</span><small>${c.options.length > 1 ? c.options.length + " choices ›" : "→"}</small></button>`,
         )
         .join("") +
-      "</div>" + (!commands.length && drawer ? '<p class="run-no-actions">No additional ability choices in this window. Use the continuation below when ready.</p>' : '');
+      "</div>" + '';
     const extraRez=commands.find(c=>c.command==='rez'&&c.options.some(o=>o.secondary));
     if(extraRez)$('#decisions').insertAdjacentHTML('beforeend',`<details class="more-abilities"><summary>Other paid abilities · rez cards</summary><p>You can also read a card on the board to rez it.</p>${extraRez.options.filter(o=>o.secondary).map(o=>abilityButton(extraRez,o)).join('')}</details>`);
   }
@@ -854,19 +884,35 @@ function renderDecisions(resetScroll = false) {
   if(planNotice)$('#decisions').insertAdjacentHTML('afterbegin',planNotice);
 
 }
+function renderInstallPicker(group,allowBack){
+ const groups=installationGroups(group.options);if(!groups?.length)return false;
+ if(groups.every(g=>g.copies.size===1&&g.options.filter(o=>o.card.id===g.card.id).length===1))return false;
+ if(installCardSelection?.version!==state.version)installCardSelection=null;
+ if(groups.length===1&&!installCardSelection)installCardSelection={id:groups[0].card.id,version:state.version};
+ const chosen=installCardSelection?.version===state.version&&groups.find(g=>g.card.id===installCardSelection.id);
+ const head=allowBack?'<button class="action-back" data-back>← All actions</button>':'';
+ if(!chosen){
+  $('#decisions').innerHTML=head+'<p class="target-instruction">Choose a card, then choose where to install it.</p><div class="actions">'+groups.map(g=>`<div class="search-choice"><button class="action-button" data-install-card="${esc(g.card.id)}"><span class="action-option"><img class="option-thumb" src="/assets/cards-display/${g.card.number}-300.webp" alt=""><span>${esc(g.card.title)}${g.copies.size>1?` <small>×${g.copies.size} copies</small>`:''}${g.options.filter(o=>o.card.id===g.card.id).length===1?`${costHTML(g.options[0].cost)}<span class="option-detail">Install → ${esc(displayText(g.options[0].hostLabel||g.options[0].server||g.options[0].label))}</span>`:`<span class="option-detail">${plural(g.options.filter(o=>o.card.id===g.card.id).length,'legal destination')}</span>`}</span></span></button><button class="quiet" data-read-option="${g.options[0].index}" data-read-command="install">Read card</button></div>`).join('')+'</div>'+(group.cancel?'<button class="quiet" data-cancel="install">Cancel installation</button>':'');
+ }else{
+  const options=chosen.options.filter(o=>o.card.id===chosen.card.id);
+  $('#decisions').innerHTML=`<button class="action-back" data-install-card-back>← Choose another card</button><h3>Install ${esc(chosen.card.title)}</h3><p class="phase-hint">Choose a legal destination. The cost is shown for each destination.</p><div class="actions">${options.map(o=>`<div class="search-choice"><button class="action-button" data-command="install" data-option="${o.index}" data-related-cards="${esc(relatedCards(o).join(' '))}"><span>${esc(displayText(o.hostLabel||o.server||o.label))}${costHTML(o.cost)}${o.detail?`<span class="option-detail">${esc(displayText(o.detail))}</span>`:''}</span></button>${o.installQuote?`<button class="quiet" data-install-options="${o.index}">Replace / trash options…</button>`:''}</div>`).join('')}</div>${group.cancel?'<button class="quiet" data-cancel="install">Cancel installation</button>':''}`;
+ }
+ return true;
+}
 function planHTML(model){
  const t=model.tool, plan=activePlan;
+ if(plan?.kind==='click-break')return `<section class="breaker-plan"><h2>${esc(plan.cardName)} · queued click breaks</h2><p>${plural(plan.initialClicks-state.runner.clicks,'click')} spent of the ${plural(plan.ceiling,'click')} approved quote.</p>${model.reason?`<p>${esc(model.reason)}</p>`:''}<button class="quiet" data-plan-stop>Stop queued breaks · keep committed effects</button></section>`;
  const paused=plan?.paused || ['unavailable','paused','invalid'].includes(model.status);
  const total=t?t.boostTotal+t.breakTotal:0;
- return `<section class="breaker-plan"><span class="eyebrow">${esc(t?.card.title || 'Breaker')}</span><h2>${paused?'Break paused':'Breaking the remaining subroutines…'}</h2><p class="plan-quote">${plural(plan?.spent || 0,'credit')} spent of the ${plural(plan?.ceiling || 0,'credit')} approved quote.</p>${paused?`<p class="plan-reason">${esc(plan?.reason || model.reason || 'Review the current encounter before continuing.')}</p><p>${plural(total,'credit')} currently quoted to finish.</p>${model.next?'<button class="action-button primary-action" data-plan-step>Continue break at this quote</button>':''}`:'<p>Stops if the cost changes or the Corp responds. Choose credit sources when asked.</p>'}${t?.card.number===30032?'<p class="plan-warning">Mayfly will be trashed at run end if it breaks a subroutine.</p>':''}<button class="quiet" data-plan-stop>Stop breaking · keep committed effects</button></section>`;
+ return `<section class="breaker-plan"><span class="eyebrow">${esc(t?.card.title || 'Breaker')}</span><h2>${paused?'Break paused':'Breaking the remaining subroutines…'}</h2><p class="plan-quote">${plural(plan?.spent || 0,'credit')} spent of the ${plural(plan?.ceiling || 0,'credit')} approved quote.</p>${paused?`<p class="plan-reason">${esc(plan?.reason || model.reason || 'Review the current encounter before continuing.')}</p><p>${plural(total,'credit')} currently quoted to finish.</p>${model.next?'<button class="action-button primary-action" data-plan-step>Continue break · choose sources manually</button>':''}`:`<p>${plan?.funding?'Using your approved run-credit budget.':'Choose credit sources when asked.'}</p><details><summary>Plan limits</summary><p>Stops if the cost, credit sources, ice, or Corp response changes. Committed payments remain spent.</p></details>`}${t?.card.number===30032?'<p class="plan-warning">Mayfly will be trashed at run end if it breaks a subroutine.</p>':''}<button class="quiet" data-plan-stop>Stop breaking · keep committed effects</button></section>`;
 }
 function paymentHTML(prefix=''){
  const group=state.decision.commands.find(c=>c.command==='pay');
  const sources=new Map();for(const o of group.options){const key=o.payment?.source || o.card?.title || o.label.replace(/^Pay \d+ credits? from /,'');if(!sources.has(key))sources.set(key,[]);sources.get(key).push(o)}
- return `<section class="credit-sources"><span class="eyebrow">SPEND IN-GAME CREDITS</span><h2>${state.phase.guide.remaining} credit${state.phase.guide.remaining===1?'':'s'} left to pay</h2><p>The effect resolves after the full cost is paid. Any amounts already spent remain paid.</p>${[...sources].map(([source,options],i)=>{const id=prefix+'credit-source-'+i,max=options.at(-1);return `<section class="credit-source"><label for="${id}">${esc(source)}<small>${max.payment?.available ?? 'Eligible'} credits available toward this payment</small></label><select id="${id}" aria-label="Credits from ${esc(source)}">${options.map(o=>`<option value="${o.index}" ${o===max?'selected':''}>${o.payment?.amount ?? o.label.match(/Pay (\d+)/)?.[1]}</option>`).join('')}</select><button class="action-button" data-pay-source="${id}">Confirm from ${esc(source)}</button></section>`}).join('')}${activePlan?'<button class="quiet" data-plan-stop>Stop queued plan · finish this committed payment manually</button>':''}</section>`;
+ return `<section class="credit-sources"><span class="eyebrow">SPEND IN-GAME CREDITS</span><h2>${state.phase.guide.remaining} credit${state.phase.guide.remaining===1?'':'s'} left to pay</h2>${activePlan?.paused?`<p class="plan-reason">${esc(activePlan.reason || 'Automatic payment paused.')}</p>`:''}<details><summary>Payment details</summary><p>The effect resolves after the full cost is paid. Any amounts already spent remain paid.</p></details>${[...sources].map(([source,options],i)=>{const id=prefix+'credit-source-'+i,max=options.at(-1);return `<section class="credit-source"><label for="${id}">${esc(source)}<small>${max.payment?.available ?? 'Eligible'} credit${max.payment?.available===1?'':'s'} available toward this payment</small></label><select id="${id}" aria-label="Credits from ${esc(source)}">${options.map(o=>`<option value="${o.index}" ${o===max?'selected':''}>${o.payment?.amount ?? o.label.match(/Pay (\d+)/)?.[1]}</option>`).join('')}</select><button class="action-button" data-pay-source="${id}">Confirm from ${esc(source)}</button></section>`}).join('')}${activePlan?'<button class="quiet" data-plan-stop>Stop queued plan · finish this committed payment manually</button>':''}</section>`;
 }
 function renderRunDrawer() {
-  const model = runDrawerModel(state, busy);
+  const model = state?.installation?null:runDrawerModel(state, busy);
   const running = !!model;
   $('#game').classList.toggle('run-active', running);
   $('#run-status').hidden = !running;
@@ -911,7 +957,7 @@ function runContextHTML(model) {
   cardsById.set(c.id,c);
   const visible = !c.hidden;
   const subtitle = visible ? [c.subTypes?.join(' · ') || c.type, c.strength !== null && c.strength !== undefined ? `STR ${c.strength}` : null].filter(Boolean).join(' · ') : 'Identity concealed';
-  return `<span class="run-context-label">${esc(model.contextLabel)}</span><button class="run-card-summary" ${visible?'':'disabled'} data-inspect-tool="${esc(c.id)}" data-related-cards="${esc(c.id)}" aria-label="Read ${esc(visible?c.title:'unrevealed card')}">${visible ? `<img src="/assets/cards-display/${c.number}-300.webp" alt="">` : '<span class="run-card-back" aria-hidden="true">?</span>'}<span><strong>${esc(visible?c.title:'Unrevealed card')}</strong><small>${esc(subtitle)}</small><span class="run-read-card">${visible?'Read full card ↗':'Card is unrevealed'}</span></span></button>${visible && !state.access && c.subroutines?.length ? `<h2 class="run-threat-heading">${model.remaining} unresolved <span>of ${c.subroutines.length}</span></h2><ol class="subroutines" aria-label="Ice subroutines">${c.subroutines.map((s,i)=>`<li data-subroutine-number="${i+1}" class="${s.broken?'broken':s.fired?'fired':''}"><span class="subroutine-number">${i+1}</span><span class="subroutine-copy">${esc(s.text)}<small>${s.broken?'✓ Broken':s.fired?'Fired':'Unbroken'}</small></span></li>`).join('')}</ol>` : ''}${visible && state.access ? '<p class="run-context-note">Read the card for its full text. Access choices and costs are shown alongside.</p>' : ''}`;
+  return `<span class="run-context-label">${esc(model.contextLabel)}</span><button class="run-card-summary" ${visible?'':'disabled'} data-inspect-tool="${esc(c.id)}" data-related-cards="${esc(c.id)}" aria-label="Read ${esc(visible?c.title:'unrevealed card')}">${visible ? `<img src="/assets/cards-display/${c.number}-300.webp" alt="">` : '<span class="run-card-back" aria-hidden="true">?</span>'}<span><strong>${esc(visible?c.title:'Unrevealed card')}</strong><small>${esc(subtitle)}</small><span class="run-read-card">${visible?'Read full card ↗':'Card is unrevealed'}</span></span></button>${visible && !state.access && state.run?.iceOutcome!=='passed-unrezzed' && c.subroutines?.length ? `<h2 class="run-threat-heading">${model.remaining} unresolved <span>of ${c.subroutines.length}</span></h2><ol class="subroutines" aria-label="Ice subroutines">${c.subroutines.map((s,i)=>`<li data-subroutine-number="${i+1}" class="${s.broken?'broken':s.fired?'fired':''}"><span class="subroutine-number">${i+1}</span><span class="subroutine-copy">${esc(s.text)}<small>${s.broken?'✓ Broken':s.fired?'Fired':'Unbroken'}</small></span></li>`).join('')}</ol>` : ''}${state.run?.iceOutcome==='passed-unrezzed'?'<p class="run-context-note">Passed inactive ice · no subroutines resolved.</p>':''}${visible && state.access ? '<p class="run-context-note">Read the card for its full text. Access choices and costs are shown alongside.</p>' : ''}`;
 }
 function abilityButton(group, option) {
   return `<button class="action-button ability-action" data-source-id="${esc(option.card?.id || option.sourceId || '')}" data-ability-kind="${esc(option.abilityKind || '')}" data-command="${esc(group.command)}" data-option="${option.index}" data-related-cards="${esc(relatedCards(option).join(' '))}"><span>${esc((group.command==='rez'?'Rez ':'')+displayText(option.label))}${costHTML(option.cost)}</span><span aria-hidden="true">→</span></button>`;
@@ -923,14 +969,18 @@ function rootAbilityHTML(group, encounter) {
   const consumed = new Set();
   const rows = tools.map(tool => {
     const model = encounterTool(tool);
+    if(tool.kind==='breaker'&&(!tool.enabled||!tool.matches||!tool.unbroken))return `<section class="encounter-tool unavailable compact-tool"><button class="tool-card" data-inspect-tool="${esc(tool.card.id)}" aria-label="Read ${esc(tool.card.title)}"><span><strong>${esc(tool.card.title)}</strong><small>${esc(!tool.matches?'Wrong ice type':model.status)}</small></span></button></section>`;
     if (!model) return '';
+    const funding=tool.kind==='breaker'&&breakerFundingQuote(tool);
+    const fundingText=funding?funding.sources.filter(s=>s.budget).map(s=>`${s.budget} ${s.label}`).join(' + '):tool.funding?.manualReason||'Choose credit sources for each payment.';
     const actions = options.filter(o=>o.card?.id === tool.card.id);
     actions.forEach(o=>consumed.add(o.index));
-    return `<section class="encounter-tool ${model.tone}" data-related-cards="${esc(tool.card.id)}"><button class="tool-card" data-inspect-tool="${esc(tool.card.id)}" aria-label="Read ${esc(tool.card.title)}"><img src="/assets/cards-display/${tool.card.number}-300.webp" alt=""><span><strong>${esc(tool.card.title)}</strong><small>${esc(model.status)}</small></span></button><p>${esc(model.detail)}</p>${tool.kind==='breaker'?`<p id="tool-reason-${esc(tool.card.id)}" class="tool-availability">${tool.unbroken&&tool.matches ? tool.availableCredits<tool.boostTotal+tool.breakTotal?`Full break needs ${tool.boostTotal+tool.breakTotal} credits; ${tool.availableCredits} eligible credits available.`:'' : !tool.unbroken?'No unresolved subroutines remain. Legal paid abilities are in More abilities.':'Wrong ice type for this breaker.'}</p><button class="action-button primary-action" data-plan-review="${esc(tool.card.id)}" ${busy||!tool.enabled||!tool.matches||!tool.unbroken||tool.availableCredits<tool.boostTotal+tool.breakTotal?'disabled':''} aria-describedby="tool-reason-${esc(tool.card.id)}">Break all · ${tool.boostTotal+tool.breakTotal} credits</button>`:''}${actions.filter(o=>!secondaryAbility(o,state)).map(o=>abilityButton(group,o)).join('')}</section>`;
+    if(tool.kind==='breaker'&&(!tool.enabled||!tool.matches||!tool.unbroken))return `<section class="encounter-tool unavailable compact-tool"><button class="tool-card" data-inspect-tool="${esc(tool.card.id)}" aria-label="Read ${esc(tool.card.title)}"><span><strong>${esc(tool.card.title)}</strong><small>${esc(model.status)}</small></span></button></section>`;
+    return `<section class="encounter-tool ${model.tone}" data-related-cards="${esc(tool.card.id)}"><button class="tool-card" data-inspect-tool="${esc(tool.card.id)}" aria-label="Read ${esc(tool.card.title)}"><img src="/assets/cards-display/${tool.card.number}-300.webp" alt=""><span><strong>${esc(tool.card.title)}</strong><small>${esc(model.status)}</small></span></button>${tool.kind==='breaker'?`<details class="tool-cost-details"><summary>Ability costs</summary><p>${esc(model.detail)}</p></details>`:`<p>${esc(model.detail)}</p>`}${tool.kind==='breaker'?`<p id="tool-reason-${esc(tool.card.id)}" class="tool-availability">${tool.unbroken&&tool.matches ? tool.availableCredits<tool.boostTotal+tool.breakTotal?`Full break needs ${tool.boostTotal+tool.breakTotal} credits; ${tool.availableCredits} eligible credits available.`:'' : !tool.unbroken?'No unresolved subroutines remain. Legal paid abilities are in More abilities.':'Wrong ice type for this breaker.'}</p><button class="action-button primary-action" data-plan-review="${esc(tool.card.id)}" ${busy||!tool.enabled||!tool.matches||!tool.unbroken||tool.availableCredits<tool.boostTotal+tool.breakTotal?'disabled':''} aria-describedby="tool-reason-${esc(tool.card.id)} funding-${esc(tool.card.id)}">Break all · ${tool.boostTotal+tool.breakTotal} credits</button><p class="funding-quote" id="funding-${esc(tool.card.id)}">${funding?'Uses ':''}${esc(fundingText)}</p>${funding&&tool.funding.sources.length>1?`<details class="manual-funding"><summary>Choose sources yourself</summary><button class="action-button" data-plan-review="${esc(tool.card.id)}" data-manual-funding>Break all · pay each cost manually</button></details>`:''}`:''}${actions.filter(o=>!secondaryAbility(o,state)).map(o=>abilityButton(group,o)).join('')}</section>`;
   }).join('');
   const other = options.filter(o=>!consumed.has(o.index));
   const bioroid = encounter && state.run.card?.subTypes?.includes('Bioroid');
-  const guidance = encounter ? `${!tools.some(t=>t.kind === 'breaker' && t.matches) ? '<p class="encounter-warning">No installed icebreaker matches this ice. Other abilities may still help.</p>' : ''}${bioroid ? `<p class="bioroid-tip">Bioroid: spend 1 click to break 1 subroutine, regardless of type or strength.${!state.runner.clicks ? ' No clicks remain.' : ''}</p>` : ''}<p class="encounter-footnote">Only available actions have buttons. Unbroken subroutines fire in order when both players pass. Jacking out is available after the encounter.</p>` : '';
+  const guidance = encounter ? `${!tools.some(t=>t.kind === 'breaker' && t.matches) ? '<p class="encounter-warning">No installed icebreaker matches this ice. Other abilities may still help.</p>' : ''}${bioroid ? `<p class="bioroid-tip">Bioroid: ${state.run.card.number===36028?'spend 2 clicks to break up to 2 subroutines':'spend 1 click to break 1 subroutine'}, regardless of type or strength.${!state.runner.clicks ? ' No clicks remain.' : ''}</p>` : ''}<p class="encounter-footnote">Unbroken subroutines fire in order when both players pass. Jacking out is available after the encounter.</p>` : '';
   return `<section class="encounter-options" aria-label="${encounter ? 'Encounter options' : 'Card abilities'}"><h2>${encounter ? 'Your encounter options' : 'Card abilities'}</h2>${rows}${!encounter&&state.side==='runner'?Object.values(state.runner.rig).flat().filter(c=>c.availability&&!options.some(o=>o.card?.id===c.id)).map(c=>`<section class="unavailable-ability"><button class="quiet" data-inspect-tool="${esc(c.id)}">${esc(c.title)} · Read card</button><p>${esc(c.availability)}</p><button disabled aria-describedby="unavailable-${esc(c.id)}">Use ability</button><span id="unavailable-${esc(c.id)}" class="sr-only">${esc(c.availability)}</span></section>`).join(''):''}${other.filter(o=>!secondaryAbility(o,state)).map(o=>abilityButton(group,o)).join('')}${options.some(o=>secondaryAbility(o,state))?`<details class="more-abilities" ${manualExpanded?'open':''}><summary>Other paid abilities · all legal choices</summary><p>These abilities remain legal. Read their cards and check the cost before using them.</p>${options.filter(o=>secondaryAbility(o,state)).map(o=>abilityButton(group,o)).join('')}</details>`:''}${guidance ? `<details class="run-guidance"><summary>Encounter guidance</summary>${guidance}</details>` : ''}</section>`;
 }
 function toggleMulti(group, option) {
@@ -986,18 +1036,13 @@ function inspect(card) {
     )
     .join("");
   $("#inspect-content").innerHTML =
-    `<div class="inspect-layout"><img class="inspect-image" src="/assets/cards-display/${card.artNumber||card.number}-743.webp" data-fallback="${card.number}" alt="${esc(d.title)} card"><div class="inspect-copy">${state?.installation || installTransaction && state?.phase.guide?.kind==='credit-payment'?`<aside class="pending-install-notice"><p>Finish installing ${esc(state.installation?.card.title || installTransaction.title)} before playing another card.</p><button class="action-button primary-action" data-finish-install>Return to installation →</button></aside>`:''}<span class="eyebrow">${esc(d.faction_code.replaceAll("-", " ")).toUpperCase()}</span><h2>${esc(d.title)}</h2>${card.identityFace?`<p>Current face: ${card.identityFace}</p>`:''}<p class="inspect-type">${esc(d.type_code.toUpperCase())}${d.keywords ? " · " + esc(d.keywords) : ""}${d.uniqueness ? " · UNIQUE" : ""}</p>${stats ? `<div class="inspect-stats">${stats}</div>` : ""}${
+    `<div class="inspect-layout"><img class="inspect-image" src="/assets/cards-display/${card.artNumber||card.number}-743.webp" data-fallback="${card.number}" alt="${esc(d.title)} card"><div class="inspect-copy">${state?.installation || installTransaction && state?.phase.guide?.kind==='credit-payment'?`<aside class="pending-install-notice"><p>Finish installing ${esc(state.installation?.card.title || installTransaction.title)} before playing another card.</p><button class="action-button primary-action" data-finish-install>Return to installation →</button></aside>`:''}<span class="eyebrow">${esc(d.faction_code.replaceAll("-", " ")).toUpperCase()}</span><h2>${esc(d.title)}</h2>${card.identityFace?`<p>Current face: ${card.identityFace}</p>`:''}${Number.isInteger(card.secretIdentityCopy)?`<p>Your selected copy: <b>${esc(['HQ','R&D','Archives'][card.secretIdentityCopy])}</b></p>`:''}<p class="inspect-type">${esc(d.type_code.toUpperCase())}${d.keywords ? " · " + esc(d.keywords) : ""}${d.uniqueness ? " · UNIQUE" : ""}</p>${stats ? `<div class="inspect-stats">${stats}</div>` : ""}${
       counterEntries(card).length
         ? `<div class="inspect-counters">${counterMarkup(card)}<p class="inspect-type">${counterEntries(card)
             .map(([k, v]) => counterLabel(k, v))
             .join(" · ")}</p></div>`
         : ""
-    }<p class="card-text">${esc(d.stripped_text || d.text)
-      .replaceAll("[credit]", "¢")
-      .replaceAll(
-        "[click]",
-        "⏱",
-      )}</p>${d.flavor ? `<p class="card-flavor">${esc(d.flavor.replace(/<[^>]*>/g, ""))}</p>` : ""}<p class="artist">Art by ${esc(d.artist || d.illustrator)} · ${esc(d.pack_code === 'elev' ? 'Elevation' : 'System Gateway')} #${d.position}</p>${card.hosted?.length ? `<h3>Hosted cards</h3><div>${card.hosted.map((c) => cardHTML(c)).join("")}</div>` : ""}<div class="inspect-actions">${actions.map((a) => `<button class="action-button primary-action" data-inspect-command="${esc(a.command)}" data-option="${a.index}"><span class="inspect-action-copy"><strong>${esc(a.group.label)}${a.option.server ? ` → ${esc(displayText(a.option.server))}` : a.option.hostLabel ? ` → ${esc(displayText(a.option.hostLabel))}` : ""}</strong>${costHTML(a.option.cost || a.group.cost)}${a.option.detail ? `<span class="option-detail">${esc(a.option.detail)}</span>` : ""}</span><span aria-hidden="true">→</span></button>`).join("")}</div></div></div>`;
+    }<p class="card-text">${rulesTextHTML(d.stripped_text || d.text)}</p>${d.flavor ? `<p class="card-flavor">${esc(d.flavor.replace(/<[^>]*>/g, ""))}</p>` : ""}<p class="artist">Art by ${esc(d.artist || d.illustrator)} · ${esc(({'sg':'System Gateway','elev':'Elevation','vp':'Vantage Point'}[d.pack_code]||d.pack_code||'Unknown set'))} #${d.position}</p>${card.hosted?.length ? `<h3>Hosted cards</h3><div>${card.hosted.map((c) => cardHTML(c)).join("")}</div>` : ""}<div class="inspect-actions">${actions.map((a) => `<button class="action-button primary-action" data-inspect-command="${esc(a.command)}" data-option="${a.index}"><span class="inspect-action-copy"><strong>${esc(a.group.label)}${a.option.server ? ` → ${esc(displayText(a.option.server))}` : a.option.hostLabel ? ` → ${esc(displayText(a.option.hostLabel))}` : ""}</strong>${costHTML(a.option.cost || a.group.cost)}${a.option.detail ? `<span class="option-detail">${esc(a.option.detail)}</span>` : ""}</span><span aria-hidden="true">→</span></button>`).join("")}</div></div></div>`;
   const virus = virusStatus(card);
   const rezHint=corpIceRezHint(card,state);
   if(rezHint){
@@ -1021,7 +1066,7 @@ function inspect(card) {
       if(actions[i].option.installQuote)button.insertAdjacentHTML('afterend',`<button class="quiet" data-install-options="${actions[i].index}">Install options${actions[i].option.server?' · '+esc(displayText(actions[i].option.server)):''} · replace or trash cards…</button>`);
     });
   }
-  if(state.side==='corp' && card.side==='corp' && card.installed && !card.rezzed && ['asset','upgrade'].includes(card.type)){
+  if(state?.side==='corp' && card.side==='corp' && card.installed && !card.rezzed && ['asset','upgrade'].includes(card.type)){
     const step=continuationModel(state);
     const end=!busy && step && state.phase.identifier==='Corp 2.2' && state.corp.clicks===0;
     $('#inspect-content .inspect-copy').insertAdjacentHTML('beforeend',`<section class="optional-rez-exit"><p>Rezzing this card is optional. Closing this view spends nothing.</p>${end?`<button class="action-button primary-action" data-command="${esc(step.command)}" data-option="${step.index}">End action phase · leave ${esc(card.title)} unrezzed</button>`:''}<button class="action-button" data-close>Leave ${esc(card.title)} unrezzed · close card</button></section>`);
@@ -1049,16 +1094,23 @@ function renderInstallation() {
   closeDialogs();$('#install-dialog').showModal();
 }
 function nextPlannedChoice(model) {
-  if(!activePlan || activePlan.paused || !model?.next || !['ready','target','finish'].includes(model.status))return null;
+  if(!activePlan || activePlan.paused)return null;
+  if(activePlan.kind!=='click-break' && activePlan.funding){
+    const payment=approvedPaymentChoice(state,activePlan);
+    if(payment?.reason){activePlan.paused=true;activePlan.reason=payment.reason;return null;}
+    if(payment?.next)return payment.next;
+  }
+  if(!model?.next || !['ready','target','finish'].includes(model.status))return null;
+  if(activePlan.kind==='click-break')return model.next;
   const cost=model.status==='ready' && model.next.abilityKind==='break'?0:model.cost || 0;
   const remaining=activePlan.ceiling-activePlan.spent;
-  if(cost>remaining || model.status==='ready' && model.total>remaining){
+  if(cost>remaining || model.status==='ready' && model.total!==remaining){
     activePlan.paused=true;activePlan.reason='The remaining cost changed. Review the new quote to continue.';return null;
   }
   return model.next;
 }
 function accountPlanSpending(next) {
-  if(!activePlan)return;
+  if(!activePlan||activePlan.kind==='click-break')return;
   const count=next.historyCount-activePlan.lastHistoryCount;
   if(count<=0)return;
   // A boost can resolve in a forced continuation after the immediate resource
@@ -1070,11 +1122,16 @@ function accountPlanSpending(next) {
   },0);
   activePlan.lastHistoryCount=next.historyCount;
   activePlan.spent+=spent;activePlan.totalSpent+=spent;
+  if(activePlan.funding)for(const entry of next.history.slice(-count)){
+    const match=entry.text.match(/^Runner spent (\d+) credits? from (.+)$/);
+    const source=match&&activePlan.funding.sources.find(s=>s.label===match[2]);
+    if(source)source.used+=Number(match[1]);
+  }
 }
 function completeBreakerPlan() {
   const plan=activePlan;
-  lastReceipt={label:`${plan.cardName} · All subroutines broken`,changes:resourceChanges(plan.before,state).filter(c=>c.side==='runner'&&['credits','temporaryCredits'].includes(c.key)),
-    detail:`Spent ${plural(plan.totalSpent,'credit')} during this break. Continue the run or jack out at the next movement window.`};
+  lastReceipt={label:`${plan.cardName} · All subroutines broken`,changes:resourceChanges(plan.before,state).filter(c=>c.side==='runner'&&['credits','temporaryCredits','clicks'].includes(c.key)),
+    detail:`Spent ${plan.kind==='click-break'?plural(plan.initialClicks-state.runner.clicks,'click'):plural(plan.totalSpent,'credit')} during this break. Continue the run or jack out at the next movement window.`};
   activePlan=null;
 }
 function showHover(el) {
@@ -1123,7 +1180,18 @@ function lobby() {
   const saved = readSave();
   $('#resume-context').hidden = !saved;
   $('#resume-context').textContent = resumeSummary(saved);
-  $("#session-label").textContent = globalThis.NR_CORE_PREVIEW?"GATEWAY + ELEVATION · DEVELOPMENT PREVIEW":"SYSTEM GATEWAY";
+  $('#resume-help').hidden = !saved;
+  $("#session-label").textContent = globalThis.NR_VANTAGE_PREVIEW?"VANTAGE POINT (PREVIEW)":globalThis.NR_CORE_PREVIEW?"SYSTEM GATEWAY + ELEVATION (PREVIEW)":"SYSTEM GATEWAY";
+}
+function changeDecks() {
+  lobby();
+  $('#your-deck').focus({preventScroll:true});
+  $('#character-picker').scrollIntoView({block:'center'});
+}
+function rematch() {
+  if (!state?.terminal || !session?.config) return;
+  closeDialogs();
+  start({...session.config,seed:crypto.randomUUID()});
 }
 function showZone(zone) {
   const [side, type] = zone.split('-');
@@ -1166,12 +1234,15 @@ function renderCharacterPicker() {
     const deckSelect=$(`#${prefix}-deck`),available=bySide[side];
     const deck=decks[side],stats=deckStats(deck);
     const identities=[...new Set(available.map(d=>String(d.identity)))];
-    deckSelect.innerHTML=identities.map(id=>`<optgroup label="${esc(DATA[id].title)}">${available.filter(d=>String(d.identity)===id).map(d=>`<option value="${esc(d.id)}">${esc(DATA[id].title.split(':')[0])} · ${esc(loadoutTitle(d))}${d.local?' · My deck':''}</option>`).join('')}</optgroup>`).join('');
+    const deckOption=d=>`<option value="${esc(d.id)}">${esc(DATA[d.identity].title.split(':')[0])} · ${esc(loadoutTitle(d))}${d.local?' · My deck':''}</option>`;
+    deckSelect.innerHTML=globalThis.NR_VANTAGE_PREVIEW?[['Recommended play decks',available.filter(d=>d.purpose==='play')],['My decks',available.filter(d=>d.local)],['Interaction test pilots · incomplete synergies',available.filter(d=>d.purpose==='interaction')]].filter(([,list])=>list.length).map(([label,list])=>`<optgroup label="${esc(label)}">${list.map(deckOption).join('')}</optgroup>`).join(''):identities.map(id=>`<optgroup label="${esc(DATA[id].title)}">${available.filter(d=>String(d.identity)===id).map(deckOption).join('')}</optgroup>`).join('');
     deckSelect.value=deck.id;
     $(`#${prefix}-deck-count`).textContent=`${available.length} decks · ${identities.length} characters${deck.local?' · Your saved deck is selected':''}`;
-    $(`#${prefix}-character-summary`).innerHTML=`<button class="character-portrait" data-library="${deck.identity}" aria-label="Read ${esc(DATA[deck.identity].title)} identity"><img src="/assets/cards-display/${deck.identity}-300.webp" alt=""></button><div><span class="character-faction">${esc(DATA[deck.identity].title)}</span><h2>${esc(loadoutTitle(deck))}</h2><p>${esc(deck.description)}</p><p class="deck-metrics">${stats.size} cards · ${stats.influence} / ${DATA[deck.identity].influence_limit} influence</p><button class="quiet character-ability" data-library="${deck.identity}">Read identity ability →</button></div>`;
+    $(`#${prefix}-character-summary`).innerHTML=`<button class="character-portrait" data-library="${deck.identity}" aria-label="Read ${esc(DATA[deck.identity].title)} identity"><img src="/assets/cards-display/${deck.identity}-300.webp" alt=""></button><div><span class="character-faction">${esc(DATA[deck.identity].title)}</span><h2>${esc(loadoutTitle(deck))}</h2><p>${esc(deck.description)}</p>${deck.purpose?`<p class="deck-purpose">${deck.purpose==='play'?'Recommended for play':'Interaction test pilot · for card testing'}</p>`:''}<p class="deck-metrics">${stats.size} cards · ${stats.influence} / ${DATA[deck.identity].influence_limit} influence</p>${globalThis.NR_VANTAGE_PREVIEW?deckHealth(deck,DATA).map(h=>`<p class="deck-health">${esc(h)}</p>`).join(''):''}<button class="quiet character-ability" data-library="${deck.identity}">Read identity ability →</button></div>`;
   }
-  try{localStorage.setItem('netrunner-lobby-decks-'+(globalThis.NR_CORE_PREVIEW?'core-v1':'gateway-v1'),JSON.stringify(selectedDeckIds));}catch{}
+  try{localStorage.setItem('netrunner-lobby-decks-'+(globalThis.NR_VANTAGE_PREVIEW?'vantage-preview-v1':globalThis.NR_CORE_PREVIEW?'core-v1':'gateway-v1'),JSON.stringify(selectedDeckIds));}catch{}
+  const guideParams=new URLSearchParams({pool:activePool,side:role,runner:selectedDeckIds.runner,corp:selectedDeckIds.corp});
+  $('#pairing-guide-link').href='/app/pairing-guide.html?'+guideParams;
   $('.hero-card.front img').src=`/assets/cards-display/${decks.runner.identity}-600.webp`;
   $('.hero-card.back img').src=`/assets/cards-display/${decks.corp.identity}-600.webp`;
 }
@@ -1183,8 +1254,8 @@ function viewDecks() {
   }
   const decks=resolveDecks($('#game').hidden ? selectedDeckIds : session?.config.deckIds,$('#game').hidden?null:session?.config.deckDocuments);
   $('#deck-dialog').classList.remove('pile-view');
-  $('#library-eyebrow').textContent = `${session?.config.cardPool === 'core-v1' || globalThis.NR_CORE_PREVIEW ? 'GATEWAY + ELEVATION' : 'SYSTEM GATEWAY'} · SELECTED MATCHUP`;
-  $('#deck-dialog>p').textContent = 'Ready-to-play decks for this matchup. Inspect any card to read its full text.';
+  $('#library-eyebrow').textContent = `${globalThis.NR_VANTAGE_PREVIEW ? 'GATEWAY + ELEVATION + VANTAGE POINT' : session?.config.cardPool === 'core-v1' || globalThis.NR_CORE_PREVIEW ? 'GATEWAY + ELEVATION' : 'SYSTEM GATEWAY'} · SELECTED MATCHUP`;
+  $('#deck-dialog>p').textContent = $('#game').hidden ? 'Selected setup decks. Inspect any card to read its full text.' : 'Game-start deck snapshots. Later library edits apply to a new game; Resume retains these exact lists.';
   $('#deck-dialog h2').textContent = 'Your loadout';
   $('#deck-dialog>p').hidden = false;
   $('#deck-content').innerHTML = '<div class="deck-columns">'+Object.values(decks).map(d=>{
@@ -1196,10 +1267,18 @@ function viewDecks() {
 document.addEventListener("click", (e) => {
   const el = e.target.closest("button,[data-zone]");
   if (!el) return;
+  if (e.detail > 1 && el.closest('#decisions, #run-footer, .inspect-actions')) { e.preventDefault(); return; }
+  if(el.hasAttribute('data-click-break-all')){
+    if(busy)return;const batch=clickBreakBatch(state);if(!batch)return;
+    activePlan={...batch,kind:'click-break',before:state,spent:0,totalSpent:0,paused:false};
+    const step=currentPlanModel();if(step?.next)choose(step.next.command,step.next.index);return;
+  }
+  if(el.dataset?.installCard){if(busy)return;const options=state.decision?.commands.find(c=>c.command==='install')?.options.filter(o=>o.card?.id===el.dataset.installCard);if(options?.length===1){choose('install',options[0].index);return;}installCardSelection={id:el.dataset.installCard,version:state.version};renderDecisions();return;}
+  if(el.hasAttribute('data-install-card-back')){installCardSelection=null;renderDecisions();return;}
   if(el.dataset?.planReview){
     if(busy)return;const id=el.dataset.planReview,tool=state.run?.tools.find(t=>t.card.id===id);
     if(!tool || !tool.matches || !tool.enabled || tool.availableCredits<tool.boostTotal+tool.breakTotal)return;
-    activePlan={cardId:id,cardName:tool.card.title,before:state,lastHistoryCount:state.historyCount,iceId:state.run.card.id,originVersion:state.version,ceiling:tool.boostTotal+tool.breakTotal,spent:0,totalSpent:0,paused:false};
+    activePlan={cardId:id,cardName:tool.card.title,before:state,lastHistoryCount:state.historyCount,iceId:state.run.card.id,iceStrength:state.run.card.strength,iceText:state.run.card.subroutines.map(s=>s.text).join('|'),funding:el.hasAttribute('data-manual-funding')?null:breakerFundingQuote(tool),originVersion:state.version,ceiling:tool.boostTotal+tool.breakTotal,spent:0,totalSpent:0,paused:false};
     const step=breakerPlan(state,id);
     const next=nextPlannedChoice(step);
     if(next){choose(next.command,next.index);return;}
@@ -1213,9 +1292,9 @@ document.addEventListener("click", (e) => {
     if(abilityOrigin)focusIntent={...abilityOrigin};else focusIntent={};renderActionReceipt();renderDecisions();return;
   }
   if(el.hasAttribute('data-plan-step')){
-    if(busy||!activePlan)return;const model=breakerPlan(state,activePlan.cardId);
+    if(busy||!activePlan)return;const model=currentPlanModel();
     if(!model.next||!['ready','target','finish'].includes(model.status))return;
-    activePlan.paused=false;activePlan.reason=null;activePlan.spent=0;activePlan.ceiling=model.tool.boostTotal+model.tool.breakTotal;
+    activePlan.paused=false;activePlan.reason=null;activePlan.funding=null;activePlan.iceStrength=state.run.card.strength;activePlan.iceText=state.run.card.subroutines.map(s=>s.text).join('|');activePlan.spent=0;activePlan.ceiling=model.tool.boostTotal+model.tool.breakTotal;
     choose(model.next.command,model.next.index);return;
   }
   if(el.hasAttribute('data-install-options')){installReplaceIntent=true;choose('install',Number(el.dataset.installOptions));return;}
@@ -1267,7 +1346,6 @@ document.addEventListener("click", (e) => {
   if (el.dataset.activityView) { activityView = el.dataset.activityView; renderActivity(); return; }
   // A rapid second click can land on a different action after an AI response
   // or a forced window replaces the button. Require a distinct activation.
-  if (e.detail > 1 && el.closest('#decisions, #run-footer, .inspect-actions')) { e.preventDefault(); return; }
   if (el.dataset.runPane) {
     runPane = el.dataset.runPane; runSheetCollapsed = false; renderRunDrawer();
     return;
@@ -1327,12 +1405,17 @@ document.addEventListener("click", (e) => {
   }
   if (el.hasAttribute("data-back")) {
     selectedCommand = null;
+    installCardSelection=null;
     multiSelected = [];if(abilityOrigin)focusIntent={...abilityOrigin};
     renderDecisions(true);
     return;
   }
   if (el.hasAttribute("data-lobby")) {
-    lobby();
+    changeDecks();
+    return;
+  }
+  if (el.hasAttribute("data-rematch")) {
+    rematch();
     return;
   }
   if (el.dataset.cancel) {
@@ -1467,7 +1550,7 @@ document.querySelectorAll("[data-side]").forEach((btn) =>
 );
 $("#start-button").onclick = () => {
   const decks=resolveDecks(selectedDeckIds),custom=Object.values(decks).some(d=>d.document);
-  start({side:role,seed:crypto.randomUUID(),...(custom?{deckDocuments:Object.fromEntries(Object.entries(decks).map(([side,d])=>[side,deckBuilder.document(d)]))}:{deckIds:{...selectedDeckIds}}),...(globalThis.NR_CORE_PREVIEW?{rulesVersion:globalThis.NRCoreDecks.rulesVersion,cardPool:globalThis.NRCoreDecks.cardPool}:{rulesVersion:'26.03-local-2'})});
+    start({side:role,aiPolicy:'pressure-v1',seed:crypto.randomUUID(),...(custom?{deckDocuments:Object.fromEntries(Object.entries(decks).map(([side,d])=>[side,deckBuilder.document(d)]))}:{deckIds:{...selectedDeckIds}}),...(globalThis.NR_VANTAGE_PREVIEW?{rulesVersion:globalThis.NRVantagePreview.rulesVersion,cardPool:globalThis.NRVantagePreview.cardPool}:globalThis.NR_CORE_PREVIEW?{rulesVersion:globalThis.NRCoreDecks.rulesVersion,cardPool:globalThis.NRCoreDecks.cardPool}:{rulesVersion:'26.03-local-2'})});
 };
 $('#build-deck-button').onclick=()=>deckBuilder.open();
 $('#tune-your-deck').onclick = () => deckBuilder.tune(selectedDeckIds[role]);
@@ -1475,7 +1558,7 @@ $('#your-deck').onchange = e => {selectedDeckIds[role]=e.target.value;renderChar
 $('#tune-opponent-deck').onclick = () => deckBuilder.tune(selectedDeckIds[role==='runner'?'corp':'runner']);
 $('#opponent-deck').onchange = e => {selectedDeckIds[role==='runner'?'corp':'runner']=e.target.value;renderCharacterPicker();};
 $('#card-pool').value=activePool;
-$('#card-pool').onchange=e=>{const url=new URL(location.href);if(e.target.value==='core-v1')url.searchParams.set('core-preview','1');else url.searchParams.delete('core-preview');location.assign(url.href);};
+$('#card-pool').onchange=e=>{const url=new URL(location.href);url.searchParams.delete('core-preview');url.searchParams.delete('vantage-preview');if(e.target.value==='vantage-preview-v1')url.searchParams.set('vantage-preview','1');else if(e.target.value==='core-v1')url.searchParams.set('core-preview','1');location.assign(url.href);};
 renderCharacterPicker();
 $("#resume-button").onclick = () => {
   try {
@@ -1514,7 +1597,7 @@ $("#log-button").onclick = () => {
       .join("") || "<p>No moves yet. Jack in to start a game.</p>";
   $("#log-dialog").showModal();
 };
-$("#new-button").onclick = lobby;
+$("#new-button").onclick = changeDecks;
 $("#undo-button").onclick = () => {
   if (!session?.choices.length) return;
   const replay = session.choices.slice(0, -1),
@@ -1581,6 +1664,7 @@ $("#resume-button").hidden = !readSave();
   const saved = readSave();
   $('#resume-context').hidden = !saved;
   $('#resume-context').textContent = resumeSummary(saved);
+  $('#resume-help').hidden = !saved;
 gameHelper = mountHelper({
   getContext:selectedCard=>helperContext($('#game').hidden ? null : state,{selectedCard,watching:!!opponentCurrent,replay:opponentReplaying,resolving:busy,
     playback:opponentCurrent ? {caption:opponentCurrent.caption,detail:opponentCurrent.detail} : null}),
@@ -1653,9 +1737,18 @@ for(const dialog of document.querySelectorAll('dialog'))dialog.addEventListener(
   if(deferredAutomatic)setTimeout(()=>deferredAutomatic?.(),0);
 });
 
-if(globalThis.NR_CORE_PREVIEW){
- $('#session-label').textContent='GATEWAY + ELEVATION · DEVELOPMENT PREVIEW';
+if(globalThis.NR_VANTAGE_PREVIEW){
+ const implemented=Object.values(globalThis.NRVantageCatalog.coverage).filter(c=>c.definition).length;
+ $('#session-label').textContent='VANTAGE POINT (PREVIEW)';
+ $('#lobby .lobby-copy h1').insertAdjacentHTML('afterend',`<aside class="core-preview-notice">Early Vantage Point preview · ${implemented} of 66 cards available. ${vantageDecks.filter(d=>d.purpose==='play').length} recommended play decks plus ${vantageDecks.filter(d=>d.purpose==='interaction').length} interaction test pilots; rules and AI testing in progress.</aside>`);
+ $('#lobby .lobby-foot').textContent='LOCAL PLAY · AI OPPONENT · VANTAGE POINT PREVIEW';
+ document.querySelectorAll('.role small').forEach(el=>{el.textContent='Play decks & test pilots';});
+}else if(globalThis.NR_CORE_PREVIEW){
+ $('#session-label').textContent='SYSTEM GATEWAY + ELEVATION (PREVIEW)';
  $('#lobby .lobby-copy h1').insertAdjacentHTML('afterend','<aside class="core-preview-notice">Development preview: 21 official Core Sets decklists. Card rules and AI audit in progress.</aside>');
  $('#lobby .lobby-foot').textContent='LOCAL PLAY · AI OPPONENT · GATEWAY + ELEVATION';
  document.querySelectorAll('.role small').forEach(el=>{el.textContent='Core Sets · official sample decks';});
 }
+
+// Guide links configure a new setup; they never start or replace a saved game.
+try{const intent=readGuideSetup(location.search,activePool,id=>deckBuilder.resolve(id),d=>globalThis.NRDeckDocument.validate(deckBuilder.document(d)).valid);if(intent){selectedDeckIds.runner=intent.runner;selectedDeckIds.corp=intent.corp;document.querySelector('[data-side="'+intent.side+'"]').click();const url=new URL(location.href);for(const k of [...url.searchParams.keys()])if(k.startsWith('guide-'))url.searchParams.delete(k);history.replaceState(null,'',url);if(intent.tune)deckBuilder.tune(selectedDeckIds[intent.tune==='basics'?intent.side:intent.tune],{basics:intent.tune==='basics'});}}catch(error){toast(error.message);}

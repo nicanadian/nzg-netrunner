@@ -1,0 +1,1179 @@
+{
+  "final": {
+    "diagnostics": [],
+    "points": {
+      "corp": 9,
+      "runner": 2
+    },
+    "terminal": {
+      "reason": "Corp reached 9 agenda points.",
+      "winner": "corp"
+    },
+    "turn": 31,
+    "version": 1009
+  },
+  "session": {
+    "choices": [
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 8
+      },
+      {
+        "command": "install",
+        "index": 3,
+        "version": 10
+      },
+      {
+        "command": "install",
+        "index": 5,
+        "version": 12
+      },
+      {
+        "command": "install",
+        "index": 0,
+        "version": 44
+      },
+      {
+        "command": "rez",
+        "index": 0,
+        "version": 46
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 47
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 48
+      },
+      {
+        "command": "discard",
+        "index": 2,
+        "version": 49
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 79
+      },
+      {
+        "command": "rez",
+        "index": 0,
+        "version": 81
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 86
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 96
+      },
+      {
+        "command": "rez",
+        "index": 0,
+        "version": 98
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 102
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 106
+      },
+      {
+        "command": "continue",
+        "index": 1,
+        "version": 107
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 112
+      },
+      {
+        "command": "install",
+        "index": 6,
+        "version": 143
+      },
+      {
+        "command": "install",
+        "index": 1,
+        "version": 145
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 147
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 179
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 180
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 181
+      },
+      {
+        "command": "score",
+        "index": 0,
+        "version": 182
+      },
+      {
+        "command": "install",
+        "index": 1,
+        "version": 221
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 223
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 224
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 244
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 248
+      },
+      {
+        "command": "continue",
+        "index": 1,
+        "version": 249
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 254
+      },
+      {
+        "command": "install",
+        "index": 10,
+        "version": 298
+      },
+      {
+        "command": "rez",
+        "index": 0,
+        "version": 300
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 301
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 305
+      },
+      {
+        "command": "continue",
+        "index": 1,
+        "version": 307
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 308
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 309
+      },
+      {
+        "command": "install",
+        "index": 21,
+        "version": 311
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 312
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 315
+      },
+      {
+        "command": "install",
+        "index": 21,
+        "version": 398
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 400
+      },
+      {
+        "command": "install",
+        "index": 20,
+        "version": 401
+      },
+      {
+        "command": "rez",
+        "index": 1,
+        "version": 403
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 404
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 408
+      },
+      {
+        "command": "discard",
+        "index": 1,
+        "version": 410
+      },
+      {
+        "command": "discard",
+        "index": 2,
+        "version": 411
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 413
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 418
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 431
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 433
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 440
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 447
+      },
+      {
+        "command": "continue",
+        "index": 2,
+        "version": 449
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 450
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 453
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 465
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 468
+      },
+      {
+        "command": "install",
+        "index": 15,
+        "version": 473
+      },
+      {
+        "command": "rez",
+        "index": 1,
+        "version": 475
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 476
+      },
+      {
+        "command": "install",
+        "index": 3,
+        "version": 480
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 481
+      },
+      {
+        "command": "play",
+        "index": 1,
+        "version": 482
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 484
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 487
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 492
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 505
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 507
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 508
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 528
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 531
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 536
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 537
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 540
+      },
+      {
+        "command": "continue",
+        "index": 1,
+        "version": 541
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 544
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 545
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 546
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 548
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 549
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 551
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 556
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 572
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 575
+      },
+      {
+        "command": "play",
+        "index": 1,
+        "version": 580
+      },
+      {
+        "command": "continue",
+        "index": 1,
+        "version": 581
+      },
+      {
+        "command": "install",
+        "index": 31,
+        "version": 582
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 583
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 584
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 585
+      },
+      {
+        "command": "discard",
+        "index": 4,
+        "version": 587
+      },
+      {
+        "command": "discard",
+        "index": 4,
+        "version": 588
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 590
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 595
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 605
+      },
+      {
+        "command": "rez",
+        "index": 1,
+        "version": 607
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 611
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 615
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 616
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 617
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 627
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 629
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 630
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 666
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 669
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 674
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 675
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 676
+      },
+      {
+        "command": "score",
+        "index": 0,
+        "version": 677
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 685
+      },
+      {
+        "command": "discard",
+        "index": 5,
+        "version": 687
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 689
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 694
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 710
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 713
+      },
+      {
+        "command": "install",
+        "index": 16,
+        "version": 718
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 719
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 720
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 721
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 722
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 725
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 730
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 743
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 746
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 751
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 752
+      },
+      {
+        "command": "score",
+        "index": 0,
+        "version": 753
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 754
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 756
+      },
+      {
+        "command": "continue",
+        "index": 1,
+        "version": 757
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 767
+      },
+      {
+        "command": "continue",
+        "index": 2,
+        "version": 768
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 769
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 771
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 772
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 773
+      },
+      {
+        "command": "discard",
+        "index": 1,
+        "version": 774
+      },
+      {
+        "command": "discard",
+        "index": 1,
+        "version": 775
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 777
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 782
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 789
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 791
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 792
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 844
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 847
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 852
+      },
+      {
+        "command": "install",
+        "index": 1,
+        "version": 854
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 855
+      },
+      {
+        "command": "install",
+        "index": 1,
+        "version": 856
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 857
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 858
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 861
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 866
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 871
+      },
+      {
+        "command": "rez",
+        "index": 1,
+        "version": 873
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 877
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 881
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 882
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 883
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 890
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 891
+      },
+      {
+        "command": "rez",
+        "index": 1,
+        "version": 893
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 897
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 901
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 902
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 903
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 910
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 911
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 913
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 915
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 919
+      },
+      {
+        "command": "continue",
+        "index": 1,
+        "version": 920
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 924
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 925
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 935
+      },
+      {
+        "command": "rez",
+        "index": 0,
+        "version": 936
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 939
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 942
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 944
+      },
+      {
+        "command": "discard",
+        "index": 2,
+        "version": 945
+      },
+      {
+        "command": "discard",
+        "index": 2,
+        "version": 946
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 961
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 964
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 969
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 970
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 971
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 972
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 973
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 976
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 981
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 998
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1001
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 1006
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 1007
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 1008
+      },
+      {
+        "command": "score",
+        "index": 0,
+        "version": 1009
+      }
+    ],
+    "conceded": false,
+    "config": {
+      "aiPolicy": "pressure-v1",
+      "deckDocuments": {
+        "corp": {
+          "cards": [
+            {
+              "count": 2,
+              "id": "30048"
+            },
+            {
+              "count": 1,
+              "id": "30050"
+            },
+            {
+              "count": 1,
+              "id": "30052"
+            },
+            {
+              "count": 3,
+              "id": "30053"
+            },
+            {
+              "count": 3,
+              "id": "30054"
+            },
+            {
+              "count": 3,
+              "id": "30055"
+            },
+            {
+              "count": 3,
+              "id": "30056"
+            },
+            {
+              "count": 2,
+              "id": "30057"
+            },
+            {
+              "count": 2,
+              "id": "30058"
+            },
+            {
+              "count": 2,
+              "id": "30065"
+            },
+            {
+              "count": 3,
+              "id": "30067"
+            },
+            {
+              "count": 2,
+              "id": "30068"
+            },
+            {
+              "count": 2,
+              "id": "30069"
+            },
+            {
+              "count": 3,
+              "id": "30071"
+            },
+            {
+              "count": 3,
+              "id": "30072"
+            },
+            {
+              "count": 3,
+              "id": "30073"
+            },
+            {
+              "count": 3,
+              "id": "30074"
+            },
+            {
+              "count": 3,
+              "id": "30075"
+            }
+          ],
+          "identity": "30051",
+          "name": "Retest Corp 19Nov",
+          "pool": "gateway-v1",
+          "schemaVersion": 1,
+          "side": "corp"
+        },
+        "runner": {
+          "cards": [
+            {
+              "count": 2,
+              "id": "30004"
+            },
+            {
+              "count": 3,
+              "id": "30006"
+            },
+            {
+              "count": 3,
+              "id": "30020"
+            },
+            {
+              "count": 3,
+              "id": "30021"
+            },
+            {
+              "count": 2,
+              "id": "30022"
+            },
+            {
+              "count": 2,
+              "id": "30023"
+            },
+            {
+              "count": 2,
+              "id": "30024"
+            },
+            {
+              "count": 3,
+              "id": "30025"
+            },
+            {
+              "count": 3,
+              "id": "30026"
+            },
+            {
+              "count": 3,
+              "id": "30027"
+            },
+            {
+              "count": 3,
+              "id": "30028"
+            },
+            {
+              "count": 3,
+              "id": "30029"
+            },
+            {
+              "count": 3,
+              "id": "30030"
+            },
+            {
+              "count": 3,
+              "id": "30033"
+            },
+            {
+              "count": 2,
+              "id": "30034"
+            }
+          ],
+          "identity": "30019",
+          "name": "Tāo Salonga",
+          "pool": "gateway-v1",
+          "schemaVersion": 1,
+          "side": "runner"
+        }
+      },
+      "rulesVersion": "26.03-local-2",
+      "seed": "a8ab1c2c-d778-4eea-824f-0b8c3354b861",
+      "side": "corp"
+    },
+    "engine": "chiriboga-77c80b1-local-1"
+  }
+}

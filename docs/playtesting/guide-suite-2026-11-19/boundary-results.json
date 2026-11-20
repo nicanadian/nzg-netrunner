@@ -1,0 +1,294 @@
+{
+  "baselineDocumentsChecked": 58,
+  "scenarioChecks": 14,
+  "passed": 14,
+  "method": "Offline production validator checks, separate from actual browser usability tasks. They verify guardrails, not comprehension or human deck strength.",
+  "cases": [
+    {
+      "id": "copy-limit",
+      "expected": "copies",
+      "actualValid": false,
+      "errors": [
+        {
+          "code": "copies",
+          "message": "Wildcat Strike: at most 3 copies.",
+          "card": "30002"
+        }
+      ],
+      "totals": {
+        "size": 41,
+        "influence": 6,
+        "influenceLimit": 15,
+        "minimumSize": 40,
+        "agenda": 0,
+        "agendaMin": 18,
+        "agendaMax": 19
+      },
+      "explanation": "Fourth copies are prohibited; guide must distinguish this from drawing duplicate unique cards."
+    },
+    {
+      "id": "minimum-size",
+      "expected": "minimum-size",
+      "actualValid": false,
+      "errors": [
+        {
+          "code": "minimum-size",
+          "message": "Needs at least 40 cards; currently 39."
+        }
+      ],
+      "totals": {
+        "size": 39,
+        "influence": 6,
+        "influenceLimit": 15,
+        "minimumSize": 40,
+        "agenda": 0,
+        "agendaMin": 16,
+        "agendaMax": 17
+      },
+      "explanation": "Removing a card without a replacement can leave a deck below identity minimum."
+    },
+    {
+      "id": "opposite-side-card",
+      "expected": "side",
+      "actualValid": false,
+      "errors": [
+        {
+          "code": "side",
+          "message": "Hedge Fund belongs to the other side.",
+          "card": "30075"
+        }
+      ],
+      "totals": {
+        "size": 41,
+        "influence": 6,
+        "influenceLimit": 15,
+        "minimumSize": 40,
+        "agenda": 0,
+        "agendaMin": 18,
+        "agendaMax": 19
+      },
+      "explanation": "A Runner cannot use a Corp operation."
+    },
+    {
+      "id": "outside-selected-pool",
+      "expected": "pool",
+      "actualValid": false,
+      "errors": [
+        {
+          "code": "pool",
+          "message": "Gourmand is outside this pool.",
+          "card": "35007"
+        }
+      ],
+      "totals": {
+        "size": 41,
+        "influence": 6,
+        "influenceLimit": 15,
+        "minimumSize": 40,
+        "agenda": 0,
+        "agendaMin": 18,
+        "agendaMax": 19
+      },
+      "explanation": "The active card set constrains card availability."
+    },
+    {
+      "id": "too-few-agenda-points",
+      "expected": "agenda-total",
+      "actualValid": false,
+      "errors": [
+        {
+          "code": "minimum-size",
+          "message": "Needs at least 40 cards; currently 30."
+        },
+        {
+          "code": "agenda-total",
+          "message": "30 cards requires 14–15 agenda points; currently 0."
+        }
+      ],
+      "totals": {
+        "size": 30,
+        "influence": 9,
+        "influenceLimit": 15,
+        "minimumSize": 40,
+        "agenda": 0,
+        "agendaMin": 14,
+        "agendaMax": 15
+      },
+      "explanation": "Corp agenda totals are not a minimum-deck-size-only rule."
+    },
+    {
+      "id": "foreign-faction-agenda",
+      "expected": "agenda-faction",
+      "actualValid": false,
+      "errors": [
+        {
+          "code": "agenda-faction",
+          "message": "Longevity Serum: agendas must match your identity's faction or be neutral.",
+          "card": "30044"
+        },
+        {
+          "code": "agenda-total",
+          "message": "41 cards requires 18–19 agenda points; currently 20."
+        }
+      ],
+      "totals": {
+        "size": 41,
+        "influence": 9,
+        "influenceLimit": 15,
+        "minimumSize": 40,
+        "agenda": 20,
+        "agendaMin": 18,
+        "agendaMax": 19
+      },
+      "explanation": "Influence does not allow a foreign-faction agenda."
+    },
+    {
+      "id": "influence-budget",
+      "expected": "influence",
+      "actualValid": false,
+      "errors": [
+        {
+          "code": "influence",
+          "message": "Uses 21/15 influence."
+        }
+      ],
+      "totals": {
+        "size": 40,
+        "influence": 21,
+        "influenceLimit": 15,
+        "minimumSize": 40,
+        "agenda": 0,
+        "agendaMin": 18,
+        "agendaMax": 19
+      },
+      "explanation": "Card legality depends on identity and copy count; the one-for-one swap is not enough."
+    },
+    {
+      "id": "too-many-agenda-points",
+      "expected": "agenda-total",
+      "actualValid": false,
+      "errors": [
+        {
+          "code": "agenda-total",
+          "message": "40 cards requires 18–19 agenda points; currently 20."
+        }
+      ],
+      "totals": {
+        "size": 40,
+        "influence": 8,
+        "influenceLimit": 15,
+        "minimumSize": 40,
+        "agenda": 20,
+        "agendaMin": 18,
+        "agendaMax": 19
+      },
+      "explanation": "Replacing a non-agenda with an otherwise allowed agenda can exceed the band."
+    },
+    {
+      "id": "legal-one-for-one-revision",
+      "expected": "valid",
+      "actualValid": true,
+      "errors": [],
+      "totals": {
+        "size": 40,
+        "influence": 8,
+        "influenceLimit": 15,
+        "minimumSize": 40,
+        "agenda": 0,
+        "agendaMin": 18,
+        "agendaMax": 19
+      },
+      "explanation": "Legal construction does not establish improved strength."
+    },
+    {
+      "id": "legal-without-dedicated-decoder",
+      "expected": "valid",
+      "actualValid": true,
+      "errors": [],
+      "totals": {
+        "size": 45,
+        "influence": 12,
+        "influenceLimit": 15,
+        "minimumSize": 45,
+        "agenda": 0,
+        "agendaMin": 20,
+        "agendaMax": 21
+      },
+      "explanation": "A legal test list can lack a dedicated breaker type; support/bypass plans require separate reasoning."
+    },
+    {
+      "id": "legal-without-stealth-credit-source",
+      "expected": "valid",
+      "actualValid": true,
+      "errors": [],
+      "totals": {
+        "size": 45,
+        "influence": 12,
+        "influenceLimit": 15,
+        "minimumSize": 40,
+        "agenda": 0,
+        "agendaMin": 20,
+        "agendaMax": 21
+      },
+      "explanation": "A construction validator does not establish that all printed abilities can be used."
+    },
+    {
+      "id": "rename-does-not-change-list",
+      "expected": "valid",
+      "actualValid": true,
+      "errors": [],
+      "totals": {
+        "size": 40,
+        "influence": 6,
+        "influenceLimit": 15,
+        "minimumSize": 40,
+        "agenda": 0,
+        "agendaMin": 18,
+        "agendaMax": 19
+      },
+      "explanation": "Display names are not evidence of a different deck or new benchmark."
+    },
+    {
+      "id": "identity-change-recalculates-budget",
+      "expected": "influence",
+      "actualValid": false,
+      "errors": [
+        {
+          "code": "influence",
+          "message": "Uses 55/15 influence."
+        }
+      ],
+      "totals": {
+        "size": 40,
+        "influence": 55,
+        "influenceLimit": 15,
+        "minimumSize": 40,
+        "agenda": 0,
+        "agendaMin": 18,
+        "agendaMax": 19
+      },
+      "explanation": "Changing identity changes which cards use influence."
+    },
+    {
+      "id": "larger-deck-changes-agenda-band",
+      "expected": "agenda-total",
+      "actualValid": false,
+      "errors": [
+        {
+          "code": "agenda-total",
+          "message": "45 cards requires 20–21 agenda points; currently 18."
+        }
+      ],
+      "totals": {
+        "size": 45,
+        "influence": 9,
+        "influenceLimit": 15,
+        "minimumSize": 40,
+        "agenda": 18,
+        "agendaMin": 20,
+        "agendaMax": 21
+      },
+      "explanation": "Growing a 40-card Corp list to 45 cards changes the required agenda-point band even if the added cards are otherwise legal."
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+[
+  {
+    "name": "stealth-game",
+    "pool": "vantage-preview-v1",
+    "construction": [
+      {
+        "side": "corp",
+        "name": "Precision Design · Tempo and recycling",
+        "valid": true,
+        "totals": {
+          "size": 40,
+          "influence": 6,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 18,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "nearestBundledSnapshot": {
+          "id": "hb-vantage-tempo-v1",
+          "delta": []
+        }
+      },
+      {
+        "side": "runner",
+        "name": "Retest Stealth 19Nov",
+        "valid": true,
+        "totals": {
+          "size": 40,
+          "influence": 8,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 0,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "nearestBundledSnapshot": {
+          "id": "tao-vantage-pilot-v1",
+          "delta": [
+            {
+              "id": "30022",
+              "before": 2,
+              "after": 3
+            },
+            {
+              "id": "30023",
+              "before": 2,
+              "after": 1
+            }
+          ]
+        }
+      }
+    ],
+    "decisions": 494,
+    "terminal": {
+      "reason": "Runner reached 8 agenda points.",
+      "winner": "runner"
+    },
+    "points": {
+      "corp": 6,
+      "runner": 8
+    },
+    "version": 1620,
+    "diagnostics": [],
+    "replayPassed": true
+  },
+  {
+    "name": "corp-game",
+    "pool": "gateway-v1",
+    "construction": [
+      {
+        "side": "corp",
+        "name": "Retest Corp 19Nov",
+        "valid": true,
+        "totals": {
+          "size": 44,
+          "influence": 8,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 18,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "nearestBundledSnapshot": {
+          "id": "reality-plus-v2",
+          "delta": [
+            {
+              "id": "30065",
+              "before": 3,
+              "after": 2
+            },
+            {
+              "id": "30050",
+              "before": 0,
+              "after": 1
+            }
+          ]
+        }
+      },
+      {
+        "side": "runner",
+        "name": "Tāo Salonga",
+        "valid": true,
+        "totals": {
+          "size": 40,
+          "influence": 12,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 0,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "nearestBundledSnapshot": {
+          "id": "tao-v1",
+          "delta": []
+        }
+      }
+    ],
+    "decisions": 200,
+    "terminal": {
+      "reason": "Corp reached 9 agenda points.",
+      "winner": "corp"
+    },
+    "points": {
+      "corp": 9,
+      "runner": 2
+    },
+    "version": 1009,
+    "diagnostics": [],
+    "replayPassed": true
+  },
+  {
+    "name": "returning-game",
+    "pool": "core-v1",
+    "construction": [
+      {
+        "side": "corp",
+        "name": "[NSG Core] Fine Print",
+        "valid": true,
+        "totals": {
+          "size": 44,
+          "influence": 15,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 18,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "nearestBundledSnapshot": {
+          "id": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285",
+          "delta": []
+        }
+      },
+      {
+        "side": "runner",
+        "name": "Retest Returning 19Nov",
+        "valid": true,
+        "totals": {
+          "size": 45,
+          "influence": 17,
+          "influenceLimit": 17,
+          "minimumSize": 45,
+          "agenda": 0,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "nearestBundledSnapshot": {
+          "id": "phoenix-core-v1",
+          "delta": [
+            {
+              "id": "30008",
+              "before": 2,
+              "after": 3
+            },
+            {
+              "id": "30033",
+              "before": 2,
+              "after": 3
+            },
+            {
+              "id": "35003",
+              "before": 2,
+              "after": 1
+            },
+            {
+              "id": "35004",
+              "before": 2,
+              "after": 1
+            }
+          ]
+        }
+      }
+    ],
+    "decisions": 202,
+    "terminal": {
+      "reason": "Runner reached 9 agenda points.",
+      "winner": "runner"
+    },
+    "points": {
+      "corp": 0,
+      "runner": 9
+    },
+    "version": 1005,
+    "diagnostics": [],
+    "replayPassed": true
+  }
+]

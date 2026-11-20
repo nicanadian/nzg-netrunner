@@ -1,0 +1,1198 @@
+{
+  "clicks": [
+    "#your-character-summary .character-ability",
+    "#inspect-dialog [data-close]",
+    "#deck-button",
+    "#deck-dialog [data-close]",
+    "#tune-your-deck",
+    ".builder-help summary",
+    "#builder-results .builder-read",
+    "[data-preview-close]",
+    ".deck-builder [data-close]",
+    "#start-button",
+    "#decisions [data-command=n]",
+    "#hand [data-card=c60]",
+    "#inspect-content [data-inspect-command=install]",
+    "#decisions [data-command=gain]",
+    "#decisions [data-command=play]",
+    "#decisions [data-command=continue][data-option=\"1\"]",
+    "[data-plan-review=c60]",
+    "#run-footer [data-command=n]",
+    "#decisions [data-command=trigger]",
+    "#run-footer [data-command=n]",
+    "Access next card",
+    "#run-footer [data-command=n]",
+    "#decisions [data-command=gain]",
+    "Draw a card1 click→",
+    "Gain 1 credit1 click→",
+    "Gain 1 credit1 click→",
+    "Make a run1 click3 choices ›",
+    "R&D1 click",
+    "Continue · resolve unbroken subroutinesIf both players pass, unbroken subroutines resolve in order.",
+    "Continue the runMove to the next run window, or jack out to end the run.",
+    "Make a run1 click3 choices ›",
+    "R&D1 click",
+    "Continue · resolve unbroken subroutinesIf both players pass, unbroken subroutines resolve in order.",
+    "Continue the runMove to the next run window, or jack out to end the run.",
+    "Make a run1 click3 choices ›",
+    "R&D1 click",
+    "Continue · resolve unbroken subroutinesIf both players pass, unbroken subroutines resolve in order.",
+    "Continue the runMove to the next run window, or jack out to end the run.",
+    "Gain 1 credit1 click→",
+    "Install1 click9 choices ›",
+    "Install Verbal Plasticity into resource row1 click · 3 credits",
+    "Draw a card1 click→",
+    "Draw a card1 click→",
+    "Install1 click10 choices ›",
+    "Install Leech into program row1 click · 1 credit",
+    "Draw a card1 click→",
+    "T400 Memory Diamond",
+    "Botulus",
+    "Install1 click5 choices ›",
+    "Install Smartware Distributor into resource row1 click · 0 credits",
+    "Draw a card1 click→",
+    "Draw a card1 click→",
+    "Gain 1 credit1 click→",
+    "Carnivore",
+    "Botulus",
+    "Draw a card1 click→",
+    "Gain 1 credit1 click→",
+    "Gain 1 credit1 click→",
+    "Play1 click3 choices ›",
+    "Sure Gamble1 click · 5 credits",
+    "Carmen",
+    "Draw a card1 click→",
+    "Play1 click3 choices ›",
+    "Jailbreak1 click · 0 credits",
+    "#decisions [data-command=continue][data-option=\"0\"]",
+    "Make a run1 click4 choices ›",
+    "Remote 11 click",
+    "Continue the runMove to the next run window, or jack out to end the run.",
+    "Gain 1 credit1 click→",
+    "Make a run1 click4 choices ›",
+    "HQ1 click",
+    "Gain 1 credit1 click→",
+    "Make a run1 click4 choices ›",
+    "HQ1 click",
+    "Gain 1 credit1 click→",
+    "Gain 1 credit1 click→",
+    "Gain 1 credit1 click→",
+    "Make a run1 click4 choices ›",
+    "HQ1 click",
+    "Gain 1 credit1 click→",
+    "Gain 1 credit1 click→",
+    "Gain 1 credit1 click→",
+    "Make a run1 click5 choices ›",
+    "Remote 21 click",
+    "Ansel 1.0 · Break 1 subroutine on this ice1 click→",
+    "Break subroutine 1: Trash 1 installed Runner card.1 click",
+    "Continue the runMove to the next run window, or jack out to end the run.",
+    "Finish accessingFinish resolving this card’s access.",
+    "Make a run1 click5 choices ›",
+    "HQ1 click",
+    "Gain 1 credit1 click→",
+    "Gain 1 credit1 click→",
+    "Gain 1 credit1 click→",
+    "Make a run1 click5 choices ›",
+    "HQ1 click",
+    "Gain 1 credit1 click→",
+    "Gain 1 credit1 click→",
+    "Gain 1 credit1 click→",
+    "Make a run1 click5 choices ›",
+    "Remote 21 click",
+    "Continue the runMove to the next run window, or jack out to end the run.",
+    "Ansel 1.0 · Break 1 subroutine on this ice1 click→",
+    "Break subroutine 1: Trash 1 installed Runner card.1 click",
+    "Ansel 1.0 · Break 1 subroutine on this ice1 click→",
+    "Break subroutine 2: You may install 1 card from HQ or Archives.1 click",
+    "Ansel 1.0 · Break 1 subroutine on this ice1 click→",
+    "Break subroutine 3: The Runner cannot steal or trash Corp cards for the remainder of this run.1 click",
+    "Continue the runMove to the next run window, or jack out to end the run.",
+    "Finish accessingFinish resolving this card’s access."
+  ],
+  "errors": [],
+  "logs": [
+    {
+      "button": "Draw a card\n1 click",
+      "credits": 3,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        0
+      ],
+      "reason": "draw",
+      "turn": 4,
+      "version": 108
+    },
+    {
+      "button": "Gain 1 credit\n1 click",
+      "credits": 3,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        0
+      ],
+      "reason": "gain",
+      "turn": 4,
+      "version": 110
+    },
+    {
+      "button": "Gain 1 credit\n1 click",
+      "credits": 4,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        0
+      ],
+      "reason": "gain",
+      "turn": 4,
+      "version": 112
+    },
+    {
+      "button": "Make a run\n1 click\n3 choices ›",
+      "credits": 5,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        0
+      ],
+      "reason": "run",
+      "turn": 4,
+      "version": 114
+    },
+    {
+      "button": "R&D\n1 click",
+      "credits": 5,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        0
+      ],
+      "reason": "run",
+      "turn": 4,
+      "version": 114
+    },
+    {
+      "button": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order.",
+      "credits": 5,
+      "phase": "Run 3.1",
+      "points": [
+        0,
+        0
+      ],
+      "reason": "use quoted break all",
+      "turn": 4,
+      "version": 121
+    },
+    {
+      "button": "Continue the run\nMove to the next run window, or jack out to end the run.",
+      "credits": 5,
+      "phase": "Run 4.3",
+      "points": [
+        0,
+        0
+      ],
+      "turn": 4,
+      "version": 135
+    },
+    {
+      "button": "Make a run\n1 click\n3 choices ›",
+      "credits": 5,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        0
+      ],
+      "reason": "run",
+      "turn": 6,
+      "version": 180
+    },
+    {
+      "button": "R&D\n1 click",
+      "credits": 5,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        0
+      ],
+      "reason": "run",
+      "turn": 6,
+      "version": 180
+    },
+    {
+      "button": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order.",
+      "credits": 5,
+      "phase": "Run 3.1",
+      "points": [
+        0,
+        0
+      ],
+      "reason": "use quoted break all",
+      "turn": 6,
+      "version": 185
+    },
+    {
+      "button": "Continue the run\nMove to the next run window, or jack out to end the run.",
+      "credits": 5,
+      "phase": "Run 4.3",
+      "points": [
+        0,
+        0
+      ],
+      "turn": 6,
+      "version": 196
+    },
+    {
+      "button": "Make a run\n1 click\n3 choices ›",
+      "credits": 5,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        0
+      ],
+      "reason": "run",
+      "turn": 6,
+      "version": 211
+    },
+    {
+      "button": "R&D\n1 click",
+      "credits": 5,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        0
+      ],
+      "reason": "run",
+      "turn": 6,
+      "version": 211
+    },
+    {
+      "button": "Continue · resolve unbroken subroutines\nIf both players pass, unbroken subroutines resolve in order.",
+      "credits": 5,
+      "phase": "Run 3.1",
+      "points": [
+        0,
+        0
+      ],
+      "reason": "use quoted break all",
+      "turn": 6,
+      "version": 216
+    },
+    {
+      "button": "Continue the run\nMove to the next run window, or jack out to end the run.",
+      "credits": 5,
+      "phase": "Run 4.3",
+      "points": [
+        0,
+        0
+      ],
+      "turn": 6,
+      "version": 227
+    },
+    {
+      "button": "Gain 1 credit\n1 click",
+      "credits": 5,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        0
+      ],
+      "reason": "gain",
+      "turn": 6,
+      "version": 242
+    },
+    {
+      "button": "Install\n1 click\n9 choices ›",
+      "credits": 6,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        0
+      ],
+      "turn": 6,
+      "version": 244
+    },
+    {
+      "button": "Install Verbal Plasticity into resource row\n1 click · 3 credits",
+      "credits": 6,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        0
+      ],
+      "turn": 6,
+      "version": 244
+    },
+    {
+      "button": "Draw a card\n1 click",
+      "credits": 3,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        0
+      ],
+      "reason": "draw",
+      "turn": 8,
+      "version": 282
+    },
+    {
+      "button": "Draw a card\n1 click",
+      "credits": 3,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        0
+      ],
+      "reason": "draw",
+      "turn": 8,
+      "version": 284
+    },
+    {
+      "button": "Install\n1 click\n10 choices ›",
+      "credits": 3,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        0
+      ],
+      "turn": 8,
+      "version": 286
+    },
+    {
+      "button": "Install Leech into program row\n1 click · 1 credit",
+      "credits": 3,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        0
+      ],
+      "turn": 8,
+      "version": 286
+    },
+    {
+      "button": "Draw a card\n1 click",
+      "credits": 2,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        0
+      ],
+      "reason": "draw",
+      "turn": 8,
+      "version": 289
+    },
+    {
+      "button": "T400 Memory Diamond",
+      "credits": 2,
+      "phase": "Runner 2.1",
+      "points": [
+        0,
+        0
+      ],
+      "turn": 8,
+      "version": 291
+    },
+    {
+      "button": "Botulus",
+      "credits": 2,
+      "phase": "Runner 2.1",
+      "points": [
+        0,
+        0
+      ],
+      "turn": 8,
+      "version": 292
+    },
+    {
+      "button": "Install\n1 click\n5 choices ›",
+      "credits": 2,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        0
+      ],
+      "turn": 10,
+      "version": 323
+    },
+    {
+      "button": "Install Smartware Distributor into resource row\n1 click · 0 credits",
+      "credits": 2,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        0
+      ],
+      "turn": 10,
+      "version": 323
+    },
+    {
+      "button": "Draw a card\n1 click",
+      "credits": 2,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        0
+      ],
+      "reason": "draw",
+      "turn": 10,
+      "version": 326
+    },
+    {
+      "button": "Draw a card\n1 click",
+      "credits": 2,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        0
+      ],
+      "reason": "draw",
+      "turn": 10,
+      "version": 328
+    },
+    {
+      "button": "Gain 1 credit\n1 click",
+      "credits": 2,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        0
+      ],
+      "reason": "gain",
+      "turn": 10,
+      "version": 330
+    },
+    {
+      "button": "Carnivore",
+      "credits": 3,
+      "phase": "Runner 2.1",
+      "points": [
+        0,
+        0
+      ],
+      "turn": 10,
+      "version": 332
+    },
+    {
+      "button": "Botulus",
+      "credits": 3,
+      "phase": "Runner 2.1",
+      "points": [
+        0,
+        0
+      ],
+      "turn": 10,
+      "version": 333
+    },
+    {
+      "button": "Draw a card\n1 click",
+      "credits": 3,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        3
+      ],
+      "reason": "draw",
+      "turn": 12,
+      "version": 375
+    },
+    {
+      "button": "Gain 1 credit\n1 click",
+      "credits": 3,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        3
+      ],
+      "reason": "gain",
+      "turn": 12,
+      "version": 377
+    },
+    {
+      "button": "Gain 1 credit\n1 click",
+      "credits": 4,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        3
+      ],
+      "reason": "gain",
+      "turn": 12,
+      "version": 379
+    },
+    {
+      "button": "Play\n1 click\n3 choices ›",
+      "credits": 5,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        3
+      ],
+      "turn": 12,
+      "version": 381
+    },
+    {
+      "button": "Sure Gamble\n1 click · 5 credits",
+      "credits": 5,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        3
+      ],
+      "turn": 12,
+      "version": 381
+    },
+    {
+      "button": "Carmen",
+      "credits": 9,
+      "phase": "Runner 2.1",
+      "points": [
+        0,
+        3
+      ],
+      "turn": 12,
+      "version": 384
+    },
+    {
+      "button": "Draw a card\n1 click",
+      "credits": 9,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        3
+      ],
+      "reason": "draw",
+      "turn": 14,
+      "version": 416
+    },
+    {
+      "button": "Play\n1 click\n3 choices ›",
+      "credits": 9,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        3
+      ],
+      "reason": "run",
+      "turn": 14,
+      "version": 418
+    },
+    {
+      "button": "Jailbreak\n1 click · 0 credits",
+      "credits": 9,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        3
+      ],
+      "reason": "run",
+      "turn": 14,
+      "version": 418
+    },
+    {
+      "blocked": true,
+      "buttons": [
+        [
+          "HQ",
+          {}
+        ],
+        [
+          "R&D",
+          {}
+        ],
+        [
+          "Cancel",
+          {}
+        ]
+      ],
+      "options": [
+        [
+          "continue",
+          0,
+          "HQ"
+        ],
+        [
+          "continue",
+          1,
+          "R&D"
+        ]
+      ],
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": "Jailbreak",
+        "title": "Playing Jailbreak"
+      }
+    },
+    {
+      "button": "Make a run\n1 click\n4 choices ›",
+      "credits": 6,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        3
+      ],
+      "reason": "run",
+      "turn": 14,
+      "version": 435
+    },
+    {
+      "button": "Remote 1\n1 click",
+      "credits": 6,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        3
+      ],
+      "reason": "run",
+      "turn": 14,
+      "version": 435
+    },
+    {
+      "button": "Continue the run\nMove to the next run window, or jack out to end the run.",
+      "credits": 6,
+      "phase": "Run 4.3",
+      "points": [
+        0,
+        3
+      ],
+      "turn": 14,
+      "version": 453
+    },
+    {
+      "button": "Gain 1 credit\n1 click",
+      "credits": 6,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        3
+      ],
+      "reason": "gain",
+      "turn": 14,
+      "version": 474
+    },
+    {
+      "button": "Make a run\n1 click\n4 choices ›",
+      "credits": 7,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        3
+      ],
+      "reason": "run",
+      "turn": 16,
+      "version": 509
+    },
+    {
+      "button": "HQ\n1 click",
+      "credits": 7,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        3
+      ],
+      "reason": "run",
+      "turn": 16,
+      "version": 509
+    },
+    {
+      "button": "Gain 1 credit\n1 click",
+      "credits": 4,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        3
+      ],
+      "reason": "gain",
+      "turn": 16,
+      "version": 525
+    },
+    {
+      "button": "Make a run\n1 click\n4 choices ›",
+      "credits": 5,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        3
+      ],
+      "reason": "run",
+      "turn": 16,
+      "version": 527
+    },
+    {
+      "button": "HQ\n1 click",
+      "credits": 5,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        3
+      ],
+      "reason": "run",
+      "turn": 16,
+      "version": 527
+    },
+    {
+      "button": "Gain 1 credit\n1 click",
+      "credits": 2,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        3
+      ],
+      "reason": "gain",
+      "turn": 16,
+      "version": 543
+    },
+    {
+      "button": "Gain 1 credit\n1 click",
+      "credits": 3,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        3
+      ],
+      "reason": "gain",
+      "turn": 18,
+      "version": 579
+    },
+    {
+      "button": "Gain 1 credit\n1 click",
+      "credits": 4,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        3
+      ],
+      "reason": "gain",
+      "turn": 18,
+      "version": 581
+    },
+    {
+      "button": "Make a run\n1 click\n4 choices ›",
+      "credits": 5,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        3
+      ],
+      "reason": "run",
+      "turn": 18,
+      "version": 583
+    },
+    {
+      "button": "HQ\n1 click",
+      "credits": 5,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        3
+      ],
+      "reason": "run",
+      "turn": 18,
+      "version": 583
+    },
+    {
+      "button": "Gain 1 credit\n1 click",
+      "credits": 2,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        3
+      ],
+      "reason": "gain",
+      "turn": 18,
+      "version": 599
+    },
+    {
+      "button": "Gain 1 credit\n1 click",
+      "credits": 3,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        3
+      ],
+      "reason": "gain",
+      "turn": 20,
+      "version": 634
+    },
+    {
+      "button": "Gain 1 credit\n1 click",
+      "credits": 4,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        3
+      ],
+      "reason": "gain",
+      "turn": 20,
+      "version": 636
+    },
+    {
+      "button": "Make a run\n1 click\n5 choices ›",
+      "credits": 5,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        3
+      ],
+      "reason": "run",
+      "turn": 20,
+      "version": 638
+    },
+    {
+      "button": "Remote 2\n1 click",
+      "credits": 5,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        3
+      ],
+      "reason": "run",
+      "turn": 20,
+      "version": 638
+    },
+    {
+      "button": "Ansel 1.0 · Break 1 subroutine on this ice\n1 click\n→",
+      "credits": 5,
+      "phase": "Run 3.1",
+      "points": [
+        0,
+        3
+      ],
+      "reason": "use quoted break all",
+      "turn": 20,
+      "version": 645
+    },
+    {
+      "button": "Break subroutine 1: Trash 1 installed Runner card.\n1 click",
+      "credits": 5,
+      "phase": "Run 3.1",
+      "points": [
+        0,
+        3
+      ],
+      "reason": "use quoted break all",
+      "turn": 20,
+      "version": 646
+    },
+    {
+      "button": "Continue the run\nMove to the next run window, or jack out to end the run.",
+      "credits": 5,
+      "phase": "Run 4.3",
+      "points": [
+        0,
+        3
+      ],
+      "turn": 20,
+      "version": 657
+    },
+    {
+      "button": "Finish accessing\nFinish resolving this card’s access.",
+      "credits": 5,
+      "phase": "Run Accessing",
+      "points": [
+        0,
+        3
+      ],
+      "turn": 20,
+      "version": 665
+    },
+    {
+      "button": "Make a run\n1 click\n5 choices ›",
+      "credits": 5,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        5
+      ],
+      "reason": "run",
+      "turn": 22,
+      "version": 720
+    },
+    {
+      "button": "HQ\n1 click",
+      "credits": 5,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        5
+      ],
+      "reason": "run",
+      "turn": 22,
+      "version": 720
+    },
+    {
+      "button": "Gain 1 credit\n1 click",
+      "credits": 2,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        5
+      ],
+      "reason": "gain",
+      "turn": 22,
+      "version": 736
+    },
+    {
+      "button": "Gain 1 credit\n1 click",
+      "credits": 3,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        5
+      ],
+      "reason": "gain",
+      "turn": 22,
+      "version": 738
+    },
+    {
+      "button": "Gain 1 credit\n1 click",
+      "credits": 4,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        5
+      ],
+      "reason": "gain",
+      "turn": 22,
+      "version": 740
+    },
+    {
+      "button": "Make a run\n1 click\n5 choices ›",
+      "credits": 5,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        6
+      ],
+      "reason": "run",
+      "turn": 24,
+      "version": 782
+    },
+    {
+      "button": "HQ\n1 click",
+      "credits": 5,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        6
+      ],
+      "reason": "run",
+      "turn": 24,
+      "version": 782
+    },
+    {
+      "button": "Gain 1 credit\n1 click",
+      "credits": 2,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        6
+      ],
+      "reason": "gain",
+      "turn": 24,
+      "version": 798
+    },
+    {
+      "button": "Gain 1 credit\n1 click",
+      "credits": 3,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        6
+      ],
+      "reason": "gain",
+      "turn": 24,
+      "version": 800
+    },
+    {
+      "button": "Gain 1 credit\n1 click",
+      "credits": 4,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        6
+      ],
+      "reason": "gain",
+      "turn": 24,
+      "version": 802
+    },
+    {
+      "button": "Make a run\n1 click\n5 choices ›",
+      "credits": 5,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        6
+      ],
+      "reason": "run",
+      "turn": 26,
+      "version": 837
+    },
+    {
+      "button": "Remote 2\n1 click",
+      "credits": 5,
+      "phase": "Runner 1.3",
+      "points": [
+        0,
+        6
+      ],
+      "reason": "run",
+      "turn": 26,
+      "version": 837
+    },
+    {
+      "button": "Continue the run\nMove to the next run window, or jack out to end the run.",
+      "credits": 5,
+      "phase": "Run 4.3",
+      "points": [
+        0,
+        6
+      ],
+      "turn": 26,
+      "version": 844
+    },
+    {
+      "button": "Ansel 1.0 · Break 1 subroutine on this ice\n1 click\n→",
+      "credits": 5,
+      "phase": "Run 3.1",
+      "points": [
+        0,
+        6
+      ],
+      "reason": "use quoted break all",
+      "turn": 26,
+      "version": 849
+    },
+    {
+      "button": "Break subroutine 1: Trash 1 installed Runner card.\n1 click",
+      "credits": 5,
+      "phase": "Run 3.1",
+      "points": [
+        0,
+        6
+      ],
+      "reason": "use quoted break all",
+      "turn": 26,
+      "version": 850
+    },
+    {
+      "button": "Ansel 1.0 · Break 1 subroutine on this ice\n1 click\n→",
+      "credits": 5,
+      "phase": "Run 3.1",
+      "points": [
+        0,
+        6
+      ],
+      "reason": "use quoted break all",
+      "turn": 26,
+      "version": 851
+    },
+    {
+      "button": "Break subroutine 2: You may install 1 card from HQ or Archives.\n1 click",
+      "credits": 5,
+      "phase": "Run 3.1",
+      "points": [
+        0,
+        6
+      ],
+      "reason": "use quoted break all",
+      "turn": 26,
+      "version": 852
+    },
+    {
+      "button": "Ansel 1.0 · Break 1 subroutine on this ice\n1 click\n→",
+      "credits": 5,
+      "phase": "Run 3.1",
+      "points": [
+        0,
+        6
+      ],
+      "reason": "use quoted break all",
+      "turn": 26,
+      "version": 853
+    },
+    {
+      "button": "Break subroutine 3: The Runner cannot steal or trash Corp cards for the remainder of this run.\n1 click",
+      "credits": 5,
+      "phase": "Run 3.1",
+      "points": [
+        0,
+        6
+      ],
+      "reason": "use quoted break all",
+      "turn": 26,
+      "version": 854
+    },
+    {
+      "button": "Continue the run\nMove to the next run window, or jack out to end the run.",
+      "credits": 5,
+      "phase": "Run 4.3",
+      "points": [
+        0,
+        6
+      ],
+      "turn": 26,
+      "version": 862
+    },
+    {
+      "button": "Finish accessing\nFinish resolving this card’s access.",
+      "credits": 5,
+      "phase": "Run Accessing",
+      "points": [
+        0,
+        6
+      ],
+      "turn": 26,
+      "version": 870
+    }
+  ],
+  "turns": {
+    "4": {
+      "draw": 0,
+      "runs": 1
+    },
+    "6": {
+      "draw": 0,
+      "runs": 2
+    },
+    "8": {
+      "draw": 0,
+      "runs": 0
+    },
+    "10": {
+      "draw": 0,
+      "runs": 0
+    },
+    "12": {
+      "draw": 0,
+      "runs": 0
+    },
+    "14": {
+      "draw": 0,
+      "runs": 2
+    },
+    "16": {
+      "draw": 0,
+      "runs": 2
+    },
+    "18": {
+      "draw": 0,
+      "runs": 1
+    },
+    "20": {
+      "draw": 0,
+      "runs": 1
+    },
+    "22": {
+      "draw": 0,
+      "runs": 1
+    },
+    "24": {
+      "draw": 0,
+      "runs": 1
+    },
+    "26": {
+      "draw": 0,
+      "runs": 1
+    }
+  }
+}

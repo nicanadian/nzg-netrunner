@@ -1,0 +1,734 @@
+{
+  "schemaVersion": 1,
+  "aiPolicy": "pressure-v1",
+  "seed": "vantage-matchup-guide-heldout-2026-11-16",
+  "gamesPerMatchup": 48,
+  "workers": 4,
+  "wallMs": 60000,
+  "decisions": 30000,
+  "traceEvery": 1,
+  "runners": [
+    {
+      "label": "tao-vantage-pilot-v1",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "Tāo · Stealth foundation pilot",
+        "side": "runner",
+        "identity": "30019",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30020",
+            "count": 3
+          },
+          {
+            "id": "30021",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 2
+          },
+          {
+            "id": "30023",
+            "count": 2
+          },
+          {
+            "id": "30024",
+            "count": 2
+          },
+          {
+            "id": "30025",
+            "count": 3
+          },
+          {
+            "id": "30026",
+            "count": 3
+          },
+          {
+            "id": "30027",
+            "count": 3
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "36004",
+            "count": 3
+          },
+          {
+            "id": "36013",
+            "count": 2
+          },
+          {
+            "id": "36021",
+            "count": 3
+          },
+          {
+            "id": "36024",
+            "count": 2
+          }
+        ]
+      }
+    },
+    {
+      "label": "loup-vantage-tailor-v1",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "Loup · Tailored economy",
+        "side": "runner",
+        "identity": "30001",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30002",
+            "count": 3
+          },
+          {
+            "id": "30003",
+            "count": 1
+          },
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30005",
+            "count": 3
+          },
+          {
+            "id": "30006",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 3
+          },
+          {
+            "id": "30015",
+            "count": 3
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30031",
+            "count": 1
+          },
+          {
+            "id": "30033",
+            "count": 2
+          },
+          {
+            "id": "30034",
+            "count": 3
+          },
+          {
+            "id": "36003",
+            "count": 1
+          },
+          {
+            "id": "36011",
+            "count": 1
+          },
+          {
+            "id": "36016",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "label": "vic-play-v1",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "Vic · central pressure",
+        "side": "runner",
+        "identity": "36009",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30005",
+            "count": 3
+          },
+          {
+            "id": "30006",
+            "count": 2
+          },
+          {
+            "id": "30011",
+            "count": 3
+          },
+          {
+            "id": "30012",
+            "count": 3
+          },
+          {
+            "id": "30013",
+            "count": 2
+          },
+          {
+            "id": "30014",
+            "count": 2
+          },
+          {
+            "id": "30015",
+            "count": 3
+          },
+          {
+            "id": "30016",
+            "count": 3
+          },
+          {
+            "id": "30017",
+            "count": 2
+          },
+          {
+            "id": "30018",
+            "count": 3
+          },
+          {
+            "id": "30027",
+            "count": 3
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 2
+          },
+          {
+            "id": "36012",
+            "count": 3
+          },
+          {
+            "id": "36013",
+            "count": 2
+          }
+        ]
+      }
+    },
+    {
+      "label": "hiram-play-v1",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "Hiram · funded rig",
+        "side": "runner",
+        "identity": "36017",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30006",
+            "count": 3
+          },
+          {
+            "id": "30020",
+            "count": 3
+          },
+          {
+            "id": "30021",
+            "count": 3
+          },
+          {
+            "id": "30025",
+            "count": 3
+          },
+          {
+            "id": "30026",
+            "count": 3
+          },
+          {
+            "id": "30027",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "36018",
+            "count": 3
+          },
+          {
+            "id": "36019",
+            "count": 3
+          },
+          {
+            "id": "36020",
+            "count": 3
+          },
+          {
+            "id": "36021",
+            "count": 3
+          },
+          {
+            "id": "36022",
+            "count": 3
+          },
+          {
+            "id": "36023",
+            "count": 3
+          },
+          {
+            "id": "36024",
+            "count": 3
+          },
+          {
+            "id": "36025",
+            "count": 3
+          }
+        ]
+      }
+    }
+  ],
+  "corps": [
+    {
+      "label": "weyland-vantage-tools-v2",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "Built to Last · defensive economy",
+        "side": "corp",
+        "identity": "30059",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30060",
+            "count": 1
+          },
+          {
+            "id": "30061",
+            "count": 2
+          },
+          {
+            "id": "30062",
+            "count": 1
+          },
+          {
+            "id": "30063",
+            "count": 2
+          },
+          {
+            "id": "30065",
+            "count": 1
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30068",
+            "count": 2
+          },
+          {
+            "id": "30069",
+            "count": 1
+          },
+          {
+            "id": "30070",
+            "count": 3
+          },
+          {
+            "id": "30071",
+            "count": 2
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "36029",
+            "count": 2
+          },
+          {
+            "id": "36041",
+            "count": 1
+          },
+          {
+            "id": "36050",
+            "count": 1
+          },
+          {
+            "id": "36052",
+            "count": 3
+          },
+          {
+            "id": "36059",
+            "count": 1
+          },
+          {
+            "id": "36063",
+            "count": 3
+          }
+        ]
+      }
+    },
+    {
+      "label": "jinteki-vantage-pilot-v1",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "Restoring Humanity · Ambushes",
+        "side": "corp",
+        "identity": "30043",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30044",
+            "count": 1
+          },
+          {
+            "id": "30046",
+            "count": 3
+          },
+          {
+            "id": "30048",
+            "count": 3
+          },
+          {
+            "id": "30049",
+            "count": 2
+          },
+          {
+            "id": "30050",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30061",
+            "count": 2
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30068",
+            "count": 2
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30074",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "36038",
+            "count": 3
+          },
+          {
+            "id": "36041",
+            "count": 3
+          }
+        ]
+      }
+    },
+    {
+      "label": "hb-vantage-tempo-v1",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "Precision Design · Tempo and recycling",
+        "side": "corp",
+        "identity": "30035",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30037",
+            "count": 3
+          },
+          {
+            "id": "30038",
+            "count": 2
+          },
+          {
+            "id": "30039",
+            "count": 2
+          },
+          {
+            "id": "30040",
+            "count": 3
+          },
+          {
+            "id": "30042",
+            "count": 1
+          },
+          {
+            "id": "30048",
+            "count": 1
+          },
+          {
+            "id": "30053",
+            "count": 2
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30068",
+            "count": 2
+          },
+          {
+            "id": "30069",
+            "count": 1
+          },
+          {
+            "id": "30070",
+            "count": 3
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "36030",
+            "count": 1
+          },
+          {
+            "id": "36031",
+            "count": 1
+          },
+          {
+            "id": "36032",
+            "count": 1
+          },
+          {
+            "id": "36042",
+            "count": 1
+          }
+        ]
+      }
+    },
+    {
+      "label": "melies-play-v1",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "Méliès U · campaign control",
+        "side": "corp",
+        "identity": "36036",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30037",
+            "count": 3
+          },
+          {
+            "id": "30042",
+            "count": 1
+          },
+          {
+            "id": "30048",
+            "count": 3
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30070",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "36037",
+            "count": 3
+          },
+          {
+            "id": "36039",
+            "count": 3
+          },
+          {
+            "id": "36040",
+            "count": 3
+          },
+          {
+            "id": "36041",
+            "count": 3
+          },
+          {
+            "id": "36042",
+            "count": 3
+          },
+          {
+            "id": "36043",
+            "count": 3
+          },
+          {
+            "id": "36044",
+            "count": 3
+          },
+          {
+            "id": "36045",
+            "count": 3
+          },
+          {
+            "id": "36066",
+            "count": 3
+          }
+        ]
+      }
+    },
+    {
+      "label": "editorial-play-v2",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "Editorial · funded defenses",
+        "side": "corp",
+        "identity": "36046",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30037",
+            "count": 3
+          },
+          {
+            "id": "30048",
+            "count": 3
+          },
+          {
+            "id": "30049",
+            "count": 1
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30070",
+            "count": 2
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "36047",
+            "count": 3
+          },
+          {
+            "id": "36048",
+            "count": 3
+          },
+          {
+            "id": "36049",
+            "count": 3
+          },
+          {
+            "id": "36050",
+            "count": 3
+          },
+          {
+            "id": "36051",
+            "count": 3
+          },
+          {
+            "id": "36052",
+            "count": 3
+          },
+          {
+            "id": "36066",
+            "count": 3
+          }
+        ]
+      }
+    }
+  ]
+}

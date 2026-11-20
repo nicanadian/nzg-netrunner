@@ -1,0 +1,146 @@
+{
+  "reviewer": "constraints",
+  "date": "2026-11-19",
+  "method": "Fresh AI usability walkthrough in actual shared server browser at localhost:5173. No product/source edits or engine calls. DOM controls only for mutations; public localTable.state/session read. No private Runner cards inspected.",
+  "limitations": [
+    "preview_snapshot timed out after 15000 ms; DOM-only evidence, no screenshot/layout assessment",
+    "One AI tester and one natural game, not a human study or balance test",
+    "Small custom revision was not benchmarked; game does not establish strength improvement"
+  ],
+  "browser": {
+    "profile": "incognito",
+    "tabsOpened": [
+      "tab_v_8325d3a1-a0be-4685-9ccc-b65089f2df75",
+      "tab_y_8325d3a1-a0be-4685-9ccc-b65089f2df75"
+    ],
+    "closed": true,
+    "storage": "No clearing or restoration; parent responsible for restoring shared test storage."
+  },
+  "tasks": [
+    {
+      "id": "C1",
+      "status": "completed",
+      "goal": "Choose Runner opponent as Corp and interpret guide rates",
+      "steps": [
+        "Lobby Corporation > choose NBN Tags & consequences, open actual linked guide with gateway-v1",
+        "Read default Loup results, then select Tao Salonga in guide-runner",
+        "Choose Tao base deck against Reality Plus base; lobby opponent-deck tao-v1"
+      ],
+      "evidence": [
+        "Loup vs Reality Plus: Runner4 Corp2 /6 =67% Runner; harder for Corp",
+        "Tao vs Reality Plus: Runner3 Corp3 /6 =50%, close in this sample",
+        "Tao vs Precision Design base: Runner2 Corp4 /6 =33%; harder for Runner",
+        "All percentages are Runner wins, six-game results preliminary; one game about17 percentage points; AI both sides; custom decks unbenchmarked"
+      ],
+      "guideKnowledge": [
+        "Direction and denominators, preliminary label, limits of AI results, exact bundled lists matter"
+      ],
+      "testerKnowledge": [
+        "A Corp player must reverse Runner percentage and browse Runner selector to compare fixed Corp row"
+      ],
+      "difficulty": "moderate",
+      "severity": "medium",
+      "finding": "Guide selector remains 'Your Runner deck' when entered as Corp; no fixed-Corp opponent view.",
+      "improvement": "Add side selector, fixed Your Corporation deck, and ranked Runner opponents while retaining Runner percentage label and raw counts.",
+      "acceptanceTest": "From Corporation lobby with Reality Plus selected, guide opens matching pool and Corp, shows Tao base 3 Runner/3 Corp of6, and explains 50% as this AI sample rather than personal win odds."
+    },
+    {
+      "id": "C2",
+      "status": "completed",
+      "goal": "Encounter and repair agenda and influence constraints without persisting illegal draft",
+      "steps": [
+        "Tune Reality Plus, expand Deckbuilding basics",
+        "Remove1 Offworld Office:43 cards,16 points; restore +1 Office",
+        "Inspect maxed Spin Doctor +: disabled title Maximum3 copies in a deck, attempted click leaves count3",
+        "Add replacements: add3 Anoetic Void;47 cards17/15 influence18/20–21 agenda; remove2 Anoetic and1 Retribution =>44 cards8/15 influence18/18–19 Ready to play"
+      ],
+      "evidence": [
+        "43 cards requires18–19 agenda points; currently16.",
+        "Uses17/15 influence.",
+        "47 cards requires20–21 agenda points; currently18.",
+        "Faction-labelled imports show per-copy multiplication; out-of-faction agendas say Cannot include · Agendas must match your faction or be neutral",
+        "Deckbuilding basics says swap one-for-one, preserve minimum/influence/agenda range, same faction0, imports printed influence"
+      ],
+      "guideKnowledge": [
+        "Pairing guide contains no agenda, copy, influence or faction repair instructions"
+      ],
+      "testerKnowledge": [
+        "Undoing the removed2-point agenda restores total; removing excess imports and swapping one-for-one restores influence/card-count combination"
+      ],
+      "uiKnowledge": [
+        "Builder live totals, inline error text, copy-limit disabled control and basics supplied constraint feedback"
+      ],
+      "difficulty": "low with Netrunner familiarity; novice inference remains untested",
+      "severity": "medium",
+      "finding": "Builder teaches rules at high level and enforces legality; guide does not teach a worked repair or deck-size boundary.",
+      "improvement": "Add worked Corp example: removing2-point agenda from44-card18-point list breaks it; restore/replace same points. Explain that45 cards changes required agenda band to20–21 and show an import budget calculation.",
+      "acceptanceTest": "A reader can identify both errors in47-card17/15-influence18-agenda list and use explicit guide steps to return44 cards8/15,18 agenda, without relying only on UI errors. Include maximum3 copies and faction/neutral agenda restriction."
+    },
+    {
+      "id": "C3",
+      "status": "completed",
+      "goal": "Save/select legal small learning revision and finish natural Corp game",
+      "steps": [
+        "Name Suite Constraints 19Nov",
+        "Save & use this deck; Jack in; verify session config exact custom44-card Corp and Tao base Runner",
+        "Keep mixed2-agenda2-ice/economy hand; play Hedge, HQ Palisade, remote Funhouse",
+        "Turn2 Tomorrow's Headline into remote, advance2; turn3 advance/score2; choose Reality Plus draw2 to find R&D ice",
+        "Install Funhouse R&D, Spin Doctor new remote; rez Spin, recycle Anoetic and Hedge, discard Regolith",
+        "Turn4 Office remote + Whitespace R&D + advance1; turn5 advance3 score4 total",
+        "Turn6 second Office remote + Ping reinforcement +advance1; explicit rez Ping on approach for2, choose identity gain2; Ping ends run; turn7advance3 score6 total",
+        "Turn8 Orbital remote +advance2; turn9install recovered Anoetic in scoring remote,advance2score8"
+      ],
+      "evidence": [
+        "Session config preserves exact name Suite Constraints 19Nov and card list.",
+        "Final version511; internal turn17 corresponds UI Corp turn9; Corp8 Runner6; terminal winnercorp reasonCorp reached8 agenda points.; diagnostics[]",
+        "58 recorded UI choices in constraints-game.json; seed fd475bd6-9bc6-4aa9-a0d6-74f2dc1b6904"
+      ],
+      "guideKnowledge": [
+        "Selected matchup direction, familiarity and changing one idea; custom-deck unbenchmarked caveat"
+      ],
+      "testerKnowledge": [
+        "Remote defense, reserving rez funds, scoring, drawing ice after early central pressure, exploiting tag-trigger rewards, recycling useful cards"
+      ],
+      "difficulty": "moderate",
+      "severity": "medium",
+      "finding": "Guide supports selecting matchup but does not connect small learning revision to a gameplay observation plan.",
+      "improvement": "Provide side-specific hypothesis worksheet: one change, legal totals, expected trigger/cost, observation and tradeoff; remind learner one game may never exercise new card.",
+      "acceptanceTest": "For -1Retribution/+1Anoetic, worksheet states +3 influence net,44cards18agenda, conditional program trash sacrificed, remote end-run costs2credits+2HQ cards, and records whether trigger was used without calling win evidence of improvement."
+    }
+  ],
+  "deck": {
+    "name": "Suite Constraints 19Nov",
+    "identity": "NBN: Reality Plus",
+    "base": "reality-plus-v2 / Tags & consequences",
+    "pool": "gateway-v1",
+    "change": {
+      "remove": {
+        "Retribution": 1
+      },
+      "add": {
+        "Anoetic Void": 1
+      }
+    },
+    "totals": {
+      "cards": 44,
+      "influence": 8,
+      "influenceLimit": 15,
+      "agendaPoints": 18,
+      "agendaRange": [
+        18,
+        19
+      ]
+    },
+    "hypothesis": "Practice a remote end-run defense with Anoetic Void, paying2 credits and trashing2 HQ cards, instead of relying as heavily on tag-conditional Retribution program trash.",
+    "tradeoff": "Four influence for Anoetic vs1 for Retribution; loses one tag punishment; spends cards and credits to stop remote run.",
+    "observed": "Anoetic trashed from R&D on Runner turn1, recycled by Spin Doctor turn3, drawn and installed turn9. No activation before terminal. Hypothesis remains untested; Corp win is not measured improvement."
+  },
+  "traceNotes": [
+    "All actual actions clicked rendered button controls using preview_evaluate DOM .click or preview_act select/type. No NR.choose, engine/worker API, hidden card inspection, headless browser, or state mutation.",
+    "Bounded batches used1.2s waits, repeated2–3 known advancement clicks, and Skip to decision for animation; no blind policy auto-playing turns.",
+    "One accidental builder +Anoetic from incorrect scoped read-card selector made45-card12/15 draft; immediately removed1 and used exact Read card text before saving. No illegal deck persisted.",
+    "Save response initially showed stale lobby; session config later confirmed correct custom deck, name,44 cards and Tao.",
+    "Free rez Send a Message choices: Funhouse remote turn1 for5-cost saving, then Palisade remote turn2 after Tao swap. Remote threat turn6 explicitly rezzed Ping; no risk-pass warning bypassed.",
+    "Early unprotected R&D conceded two Send a Messages (6 Runner points), a play weakness. Continued active scoring and installed R&D ice rather than hoarding economy."
+  ]
+}

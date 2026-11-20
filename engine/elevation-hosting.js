@@ -37,7 +37,7 @@ detente.resolveDetenteAccess=function(card){
 // own recursive hostees, which are filtered out by the time this queue drains.
 const moveTriggers=MoveCardTriggers,pending=[];
 MoveCardTriggers=function(card,from,to){
- if([35018,35006].includes(card.setNumber)&&[runner.grip,runner.stack,runner.heap,removedFromGame,null].includes(to)&&from!==to&&card.hostedCards?.length)pending.push({host:card,cards:card.hostedCards.slice()});
+ if(([35018,35006].includes(card.setNumber)||globalThis.NRVantageTrackHostLifecycle?.(card))&&[runner.grip,runner.stack,runner.heap,removedFromGame,null,...(globalThis.NRVantageTrackHostLifecycle?.(card)?[corp.HQ.cards,corp.RnD.cards,corp.archives.cards]:[])].includes(to)&&from!==to&&card.hostedCards?.length)pending.push({host:card,cards:card.hostedCards.slice()});
  return moveTriggers.apply(this,arguments);
 };
 globalThis.NRCoreFlushHosted=function(){const trash=[];for(const item of pending.splice(0))for(const card of item.cards)if(card.cardLocation===item.host.hostedCards&&!trash.includes(card)){card.notInstalled=false;trash.push(card);}if(trash.length)Trash(trash,false);};

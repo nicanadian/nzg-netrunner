@@ -1,0 +1,64 @@
+{
+  "method": {
+    "browser": "Own incognito tab_x only",
+    "snapshot": "Timed out at 15000ms. DOM-only review; no visual-layout conclusions.",
+    "automation": "Bounded routines clicked rendered DOM controls for economy, draw, options, payment and Skip to decision. Strategically adaptive decisions used only localTable.state. No headless simulation, engine/worker methods or private card information. localTable.session read only after terminal.",
+    "scope": "Artifacts only; no product source edits; no storage cleared or restored."
+  },
+  "preGame": [
+    {
+      "action": "preview_status then preview_open",
+      "result": "Created own incognito tab_x with reuseExistingTab:false; did not use default/shared reviewer tabs."
+    },
+    {
+      "action": "preview_snapshot(includeImage:true)",
+      "result": "PreviewAutomationTimeoutError after15000ms; all subsequent inspections DOM-only."
+    },
+    {
+      "action": "Lobby guide → Vantage → Tao stealth guide selection → Back lobby → Vantage → Tao foundation → HB tempo → Tune deck",
+      "result": "Recommended 27/54 and50%; named learning package but no dependency lesson."
+    },
+    {
+      "action": "Read Touchstone, Corsair via rendered Read card controls",
+      "result": "Derived stealth dependency from card text."
+    },
+    {
+      "action": "Remove Touchstone ×3; Add replacements → Add Smartware Distributor ×3",
+      "result": "Legal Ready to play40 cards8 influence; no functional warning."
+    },
+    {
+      "action": "Remove Smartware ×3; restore Touchstone ×3; -Pantograph1 +DZMZ1; save Suite Dependency 19Nov",
+      "result": "40cards8 influence Ready to play."
+    },
+    {
+      "action": "Jack in → Keep hand",
+      "result": "Played revised list, verified exact embedded docs at terminal."
+    }
+  ],
+  "gameMilestones": [
+    "Played full natural game with revised Tao against exact HB Tempo and recycling; kept economical opener and built rig/drew toward stealth.",
+    "Loaded Touchstone using Creative Commission, VRcation, Jailbreak, Overclock and Sure Gamble events.",
+    "UI turn8: explicitly confirmed payment from Touchstone for Echelon breaking Tithe's net damage; allowed 1-credit subroutine.",
+    "UI turn9/internal18: Overclock run on UI Remote2; Palisade str4 lowered twice via Corsair using two Touchstone credits; broke ETR with Overclock funds; Echelon broke inner Tithe damage with Overclock; stole Offworld Office.",
+    "Later used Unity against Sleipnir code gate; Echelon against Ansel sentry; clicked bioroid subroutines when preserving pool made sense.",
+    "UI turn15/internal30: complete R&D run traversed Bran, Palisade, Sleipnir, Ansel and Tithe; stole Superconducting Hub then Offworld Office to win 7–6."
+  ],
+  "errors": [
+    "Snapshot timeout prevents screenshot-based QA.",
+    "One preview_act CSS selector rejected; switched to DOM clicks on observed attributes.",
+    "Routine helper initially assumed data-command on install options; adapted for observed data-install-card.",
+    "UI remote names one-based, state zero-based. Initial intended Regolith probe selected UI Remote1/public Remote0 and encountered Vicsek; target interpretation corrected.",
+    "Internal28 routine over-continued and allowed Sleipnir ETR. Reviewer automation error, no undo or state repair.",
+    "Tao swap selected Bran R&D and Tithe UI Remote2, then used Confirm selection."
+  ],
+  "evidenceFiles": [
+    "dependency-game.json contains exact session replay choices and final",
+    "dependency-history.json contains last150 public history entries at terminal",
+    "dependency-deck.json contains exact deck documents"
+  ],
+  "postGame": [
+    "Captured session only after terminal.",
+    "Returned to lobby and expanded builder Deckbuilding basics after game; it only describes legality and swaps.",
+    "Closed own tab only; no storage cleanup or preference changes."
+  ]
+}

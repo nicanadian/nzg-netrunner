@@ -1,0 +1,1235 @@
+[
+  {
+    "version": 1,
+    "turn": 1,
+    "phase": {
+      "identifier": "Corp Mulligan",
+      "source": null,
+      "title": "Corporation's Mulligan"
+    },
+    "text": "Keep this hand→",
+    "data": {
+      "command": "n",
+      "option": "0",
+      "vantageProbe": "2"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 8,
+    "turn": 1,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Play1 click · 5 creditsHedge Fund→",
+    "data": {
+      "command": "play",
+      "group": "",
+      "relatedCards": "c29",
+      "vantageProbe": "8"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 10,
+    "turn": 1,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Install1 click17 choices ›",
+    "data": {
+      "command": "install",
+      "group": "",
+      "relatedCards": "c38 c24 c4 c23 c25",
+      "vantageProbe": "8"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 10,
+    "turn": 1,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Palisade ×3 copies4 legal destinations",
+    "data": {
+      "installCard": "c24",
+      "vantageProbe": "9"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 10,
+    "turn": 1,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "R&D1 click · 0 creditsKeep existing ice",
+    "data": {
+      "command": "install",
+      "option": "6",
+      "relatedCards": "c24",
+      "vantageProbe": "11"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 12,
+    "turn": 1,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Install1 click13 choices ›",
+    "data": {
+      "command": "install",
+      "group": "",
+      "relatedCards": "c38 c4 c23 c25",
+      "vantageProbe": "9"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 12,
+    "turn": 1,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Palisade ×2 copies4 legal destinations",
+    "data": {
+      "installCard": "c23",
+      "vantageProbe": "12"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 12,
+    "turn": 1,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "HQ1 click · 0 creditsKeep existing ice",
+    "data": {
+      "command": "install",
+      "option": "6",
+      "relatedCards": "c23",
+      "vantageProbe": "10"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 28,
+    "turn": 2,
+    "phase": {
+      "identifier": "Runner 1.3*",
+      "source": null,
+      "title": "Runner's Action Phase: Post Action"
+    },
+    "text": "Skip to decision",
+    "data": {
+      "opponentSkip": "",
+      "vantageProbe": "7"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 50,
+    "turn": 3,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Play1 click · 7 creditsVulture Fund→",
+    "data": {
+      "command": "play",
+      "group": "",
+      "relatedCards": "c41",
+      "vantageProbe": "13"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 53,
+    "turn": 3,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Install1 click9 choices ›",
+    "data": {
+      "command": "install",
+      "group": "",
+      "relatedCards": "c38 c4 c25",
+      "vantageProbe": "12"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 53,
+    "turn": 3,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Paywall4 legal destinations",
+    "data": {
+      "installCard": "c38",
+      "vantageProbe": "11"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 53,
+    "turn": 3,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "New remote1 click · 0 creditsKeep existing ice",
+    "data": {
+      "command": "install",
+      "option": "0",
+      "relatedCards": "c38",
+      "vantageProbe": "11"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 55,
+    "turn": 3,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Draw a card1 click→",
+    "data": {
+      "command": "draw",
+      "group": "",
+      "relatedCards": "",
+      "vantageProbe": "12"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 70,
+    "turn": 4,
+    "phase": {
+      "identifier": "Runner 1.3*",
+      "source": null,
+      "title": "Runner's Action Phase: Post Action"
+    },
+    "text": "Skip to decision",
+    "data": {
+      "opponentSkip": "",
+      "vantageProbe": "10"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 76,
+    "turn": 4,
+    "phase": {
+      "identifier": "Run 2.1",
+      "source": null,
+      "title": "Run: Approach Ice"
+    },
+    "text": "Rez Palisade · HQ · ice 1 from outside3 credits",
+    "data": {
+      "command": "rez",
+      "option": "0",
+      "relatedCards": "c23",
+      "vantageProbe": "9"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 86,
+    "turn": 4,
+    "phase": {
+      "identifier": "Run 6.4",
+      "source": null,
+      "title": "Run: End"
+    },
+    "text": "Skip to decision",
+    "data": {
+      "opponentSkip": "",
+      "vantageProbe": "11"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 106,
+    "turn": 5,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Install1 click14 choices ›",
+    "data": {
+      "command": "install",
+      "group": "",
+      "relatedCards": "c4 c25 c18 c36",
+      "vantageProbe": "14"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 106,
+    "turn": 5,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Superconducting Hub2 legal destinations",
+    "data": {
+      "installCard": "c18",
+      "vantageProbe": "17"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 106,
+    "turn": 5,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Remote 11 click · 0 creditsInstall facedown",
+    "data": {
+      "command": "install",
+      "option": "8",
+      "relatedCards": "c18",
+      "vantageProbe": "15"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 108,
+    "turn": 5,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Advance1 click · 1 creditBuilt to Last: pay 1 credit, then gain 2 credits for the first counterSuperconducting Hub→",
+    "data": {
+      "command": "advance",
+      "group": "",
+      "relatedCards": "c18",
+      "vantageProbe": "16"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 109,
+    "turn": 5,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Advance1 click · 1 creditSuperconducting Hub→",
+    "data": {
+      "command": "advance",
+      "group": "",
+      "relatedCards": "c18",
+      "vantageProbe": "16"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 124,
+    "turn": 6,
+    "phase": {
+      "identifier": "Runner 1.3*",
+      "source": null,
+      "title": "Runner's Action Phase: Post Action"
+    },
+    "text": "Skip to decision",
+    "data": {
+      "opponentSkip": "",
+      "vantageProbe": "11"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 147,
+    "turn": 7,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Advance1 click · 1 creditSuperconducting Hub→",
+    "data": {
+      "command": "advance",
+      "group": "",
+      "relatedCards": "c18",
+      "vantageProbe": "15"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 148,
+    "turn": 7,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Score agendaSuperconducting Hub→",
+    "data": {
+      "command": "score",
+      "group": "",
+      "relatedCards": "c18",
+      "vantageProbe": "12"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 149,
+    "turn": 7,
+    "phase": {
+      "identifier": "Scored",
+      "source": null,
+      "title": "Scored"
+    },
+    "text": "Superconducting Hub · You may draw 2 cards→",
+    "data": {
+      "abilityKind": "",
+      "command": "trigger",
+      "option": "0",
+      "relatedCards": "c18",
+      "sourceId": "c18",
+      "vantageProbe": "7"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 151,
+    "turn": 7,
+    "phase": {
+      "identifier": "Scored",
+      "source": "Superconducting Hub",
+      "title": "Superconducting Hub"
+    },
+    "text": "Draw 2 cards",
+    "data": {
+      "command": "continue",
+      "option": "0",
+      "relatedCards": "c18",
+      "vantageProbe": "7"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 154,
+    "turn": 7,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Install1 click21 choices ›",
+    "data": {
+      "command": "install",
+      "group": "",
+      "relatedCards": "c4 c25 c36 c12 c7 c39",
+      "vantageProbe": "13"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 154,
+    "turn": 7,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Offworld Office2 legal destinations",
+    "data": {
+      "installCard": "c12",
+      "vantageProbe": "18"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 154,
+    "turn": 7,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Remote 11 click · 0 creditsInstall facedown",
+    "data": {
+      "command": "install",
+      "option": "13",
+      "relatedCards": "c12",
+      "vantageProbe": "14"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 156,
+    "turn": 7,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Advance1 click · 1 creditBuilt to Last: pay 1 credit, then gain 2 credits for the first counterOffworld Office→",
+    "data": {
+      "command": "advance",
+      "group": "",
+      "relatedCards": "c12",
+      "vantageProbe": "15"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 172,
+    "turn": 8,
+    "phase": {
+      "identifier": "Runner 1.3*",
+      "source": null,
+      "title": "Runner's Action Phase: Post Action"
+    },
+    "text": "Skip to decision",
+    "data": {
+      "opponentSkip": "",
+      "vantageProbe": "12"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 180,
+    "turn": 8,
+    "phase": {
+      "identifier": "Run 2.1",
+      "source": null,
+      "title": "Run: Approach Ice"
+    },
+    "text": "Rez Paywall · Remote 1 · ice 1 from outside4 credits",
+    "data": {
+      "command": "rez",
+      "option": "0",
+      "relatedCards": "c38",
+      "vantageProbe": "10"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 197,
+    "turn": 8,
+    "phase": {
+      "identifier": "Run 5.1",
+      "source": null,
+      "title": "Run: Successful"
+    },
+    "text": "Skip to decision",
+    "data": {
+      "opponentSkip": "",
+      "vantageProbe": "12"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 220,
+    "turn": 9,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Draw a card1 click→",
+    "data": {
+      "command": "draw",
+      "group": "",
+      "relatedCards": "",
+      "vantageProbe": "12"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 221,
+    "turn": 9,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Draw a card1 click→",
+    "data": {
+      "command": "draw",
+      "group": "",
+      "relatedCards": "",
+      "vantageProbe": "12"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 222,
+    "turn": 9,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Install1 click28 choices ›",
+    "data": {
+      "command": "install",
+      "group": "",
+      "relatedCards": "c4 c25 c36 c7 c39 c37 c6 c17",
+      "vantageProbe": "14"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 222,
+    "turn": 9,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Superconducting Hub2 legal destinations",
+    "data": {
+      "installCard": "c17",
+      "vantageProbe": "23"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 222,
+    "turn": 9,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Remote 11 click · 0 creditsInstall facedown",
+    "data": {
+      "command": "install",
+      "option": "27",
+      "relatedCards": "c17",
+      "vantageProbe": "15"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 238,
+    "turn": 10,
+    "phase": {
+      "identifier": "Runner 1.3*",
+      "source": null,
+      "title": "Runner's Action Phase: Post Action"
+    },
+    "text": "Skip to decision",
+    "data": {
+      "opponentSkip": "",
+      "vantageProbe": "11"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 260,
+    "turn": 11,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Advance1 click · 1 creditBuilt to Last: pay 1 credit, then gain 2 credits for the first counterSuperconducting Hub→",
+    "data": {
+      "command": "advance",
+      "group": "",
+      "relatedCards": "c17",
+      "vantageProbe": "16"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 261,
+    "turn": 11,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Advance1 click · 1 creditSuperconducting Hub→",
+    "data": {
+      "command": "advance",
+      "group": "",
+      "relatedCards": "c17",
+      "vantageProbe": "16"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 262,
+    "turn": 11,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Advance1 click · 1 creditSuperconducting Hub→",
+    "data": {
+      "command": "advance",
+      "group": "",
+      "relatedCards": "c17",
+      "vantageProbe": "16"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 263,
+    "turn": 11,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Score agendaSuperconducting Hub→",
+    "data": {
+      "command": "score",
+      "group": "",
+      "relatedCards": "c17",
+      "vantageProbe": "9"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 264,
+    "turn": 11,
+    "phase": {
+      "identifier": "Scored",
+      "source": null,
+      "title": "Scored"
+    },
+    "text": "Superconducting Hub · You may draw 2 cards→",
+    "data": {
+      "abilityKind": "",
+      "command": "trigger",
+      "option": "0",
+      "relatedCards": "c17",
+      "sourceId": "c17",
+      "vantageProbe": "8"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 266,
+    "turn": 11,
+    "phase": {
+      "identifier": "Scored",
+      "source": "Superconducting Hub",
+      "title": "Superconducting Hub"
+    },
+    "text": "Draw 2 cards",
+    "data": {
+      "command": "continue",
+      "option": "0",
+      "relatedCards": "c17",
+      "vantageProbe": "8"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 273,
+    "turn": 11,
+    "phase": {
+      "identifier": "Corp 3.1",
+      "source": null,
+      "title": "Corporation's Discard Phase"
+    },
+    "text": "Spin Doctor",
+    "data": {
+      "command": "discard",
+      "option": "0",
+      "relatedCards": "c4",
+      "vantageProbe": "8"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 284,
+    "turn": 12,
+    "phase": {
+      "identifier": "Runner 1.3*",
+      "source": null,
+      "title": "Runner's Action Phase: Post Action"
+    },
+    "text": "Skip to decision",
+    "data": {
+      "opponentSkip": "",
+      "vantageProbe": "10"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 296,
+    "turn": 12,
+    "phase": {
+      "identifier": "Run 2.1",
+      "source": null,
+      "title": "Run: Approach Ice"
+    },
+    "text": "Rez Palisade · R&D · ice 1 from outside3 credits",
+    "data": {
+      "command": "rez",
+      "option": "0",
+      "relatedCards": "c24",
+      "vantageProbe": "10"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 306,
+    "turn": 12,
+    "phase": {
+      "identifier": "Run 6.4",
+      "source": null,
+      "title": "Run: End"
+    },
+    "text": "Skip to decision",
+    "data": {
+      "opponentSkip": "",
+      "vantageProbe": "12"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 321,
+    "turn": 13,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Install1 click38 choices ›",
+    "data": {
+      "command": "install",
+      "group": "",
+      "relatedCards": "c25 c36 c7 c39 c37 c6 c19 c22 c35 c9",
+      "vantageProbe": "16"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 321,
+    "turn": 13,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Regolith Mining License2 legal destinations",
+    "data": {
+      "installCard": "c22",
+      "vantageProbe": "25"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 321,
+    "turn": 13,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "New remote1 click · 0 creditsRez cost paid later",
+    "data": {
+      "command": "install",
+      "option": "26",
+      "relatedCards": "c22",
+      "vantageProbe": "15"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 323,
+    "turn": 13,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Rez Regolith Mining License2 credits→",
+    "data": {
+      "abilityKind": "",
+      "command": "rez",
+      "option": "0",
+      "relatedCards": "c22",
+      "sourceId": "c22",
+      "vantageProbe": "19"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 324,
+    "turn": 13,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Regolith Mining License · Take 3 credit from this asset.1 click→",
+    "data": {
+      "abilityKind": "",
+      "command": "trigger",
+      "option": "0",
+      "relatedCards": "c22",
+      "sourceId": "c22",
+      "vantageProbe": "16"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 326,
+    "turn": 13,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Regolith Mining License · Take 3 credit from this asset.1 click→",
+    "data": {
+      "abilityKind": "",
+      "command": "trigger",
+      "option": "0",
+      "relatedCards": "c22",
+      "sourceId": "c22",
+      "vantageProbe": "16"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 342,
+    "turn": 14,
+    "phase": {
+      "identifier": "Runner 1.3*",
+      "source": null,
+      "title": "Runner's Action Phase: Post Action"
+    },
+    "text": "Skip to decision",
+    "data": {
+      "opponentSkip": "",
+      "vantageProbe": "13"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 419,
+    "turn": 15,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Play1 click · 5 creditsHedge Fund→",
+    "data": {
+      "command": "play",
+      "group": "",
+      "relatedCards": "c30",
+      "vantageProbe": "21"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 421,
+    "turn": 15,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Regolith Mining License · Take 3 credit from this asset.1 click→",
+    "data": {
+      "abilityKind": "",
+      "command": "trigger",
+      "option": "0",
+      "relatedCards": "c22",
+      "sourceId": "c22",
+      "vantageProbe": "17"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 423,
+    "turn": 15,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Regolith Mining License · Take 3 credit from this asset.1 click→",
+    "data": {
+      "abilityKind": "",
+      "command": "trigger",
+      "option": "0",
+      "relatedCards": "c22",
+      "sourceId": "c22",
+      "vantageProbe": "17"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 440,
+    "turn": 16,
+    "phase": {
+      "identifier": "Run 1.5",
+      "source": null,
+      "title": "Run: Initiation"
+    },
+    "text": "Skip to decision",
+    "data": {
+      "opponentSkip": "",
+      "vantageProbe": "14"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 544,
+    "turn": 17,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Play1 click · 5 creditsHedge Fund→",
+    "data": {
+      "command": "play",
+      "group": "",
+      "relatedCards": "c31",
+      "vantageProbe": "21"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 546,
+    "turn": 17,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Regolith Mining License · Take 3 credit from this asset.1 click→",
+    "data": {
+      "abilityKind": "",
+      "command": "trigger",
+      "option": "0",
+      "relatedCards": "c22",
+      "sourceId": "c22",
+      "vantageProbe": "17"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 548,
+    "turn": 17,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Install1 click34 choices ›",
+    "data": {
+      "command": "install",
+      "group": "",
+      "relatedCards": "c25 c9 c37 c36 c7 c35 c19 c39",
+      "vantageProbe": "17"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 548,
+    "turn": 17,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Superconducting Hub2 legal destinations",
+    "data": {
+      "installCard": "c19",
+      "vantageProbe": "26"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 548,
+    "turn": 17,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Remote 11 click · 0 creditsInstall facedown",
+    "data": {
+      "command": "install",
+      "option": "28",
+      "relatedCards": "c19",
+      "vantageProbe": "18"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 564,
+    "turn": 18,
+    "phase": {
+      "identifier": "Run 1.5",
+      "source": null,
+      "title": "Run: Initiation"
+    },
+    "text": "Skip to decision",
+    "data": {
+      "opponentSkip": "",
+      "vantageProbe": "14"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 686,
+    "turn": 19,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Advance1 click · 1 creditBuilt to Last: pay 1 credit, then gain 2 credits for the first counterSuperconducting Hub→",
+    "data": {
+      "command": "advance",
+      "group": "",
+      "relatedCards": "c19",
+      "vantageProbe": "19"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 687,
+    "turn": 19,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Advance1 click · 1 creditSuperconducting Hub→",
+    "data": {
+      "command": "advance",
+      "group": "",
+      "relatedCards": "c19",
+      "vantageProbe": "19"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 688,
+    "turn": 19,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Advance1 click · 1 creditSuperconducting Hub→",
+    "data": {
+      "command": "advance",
+      "group": "",
+      "relatedCards": "c19",
+      "vantageProbe": "19"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 689,
+    "turn": 19,
+    "phase": {
+      "identifier": "Corp 2.2",
+      "source": null,
+      "title": "Corporation's Action Phase"
+    },
+    "text": "Score agendaSuperconducting Hub→",
+    "data": {
+      "command": "score",
+      "group": "",
+      "relatedCards": "c19",
+      "vantageProbe": "12"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 690,
+    "turn": 19,
+    "phase": {
+      "identifier": "Scored",
+      "source": null,
+      "title": "Scored"
+    },
+    "text": "Superconducting Hub · You may draw 2 cards→",
+    "data": {
+      "abilityKind": "",
+      "command": "trigger",
+      "option": "0",
+      "relatedCards": "c19",
+      "sourceId": "c19",
+      "vantageProbe": "11"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 692,
+    "turn": 19,
+    "phase": {
+      "identifier": "Scored",
+      "source": "Superconducting Hub",
+      "title": "Superconducting Hub"
+    },
+    "text": "Draw 2 cards",
+    "data": {
+      "command": "continue",
+      "option": "0",
+      "relatedCards": "c19",
+      "vantageProbe": "11"
+    },
+    "interaction": "DOM button click"
+  },
+  {
+    "version": 709,
+    "turn": 20,
+    "phase": {
+      "identifier": "Run 1.5",
+      "source": null,
+      "title": "Run: Initiation"
+    },
+    "text": "Skip to decision",
+    "data": {
+      "opponentSkip": "",
+      "vantageProbe": "13"
+    },
+    "interaction": "DOM button click"
+  }
+]

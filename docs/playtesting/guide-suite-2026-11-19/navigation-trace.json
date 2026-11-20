@@ -1,0 +1,263 @@
+{
+  "format": "normalized interaction trace",
+  "note": "Transcribed from actual preview outputs; not a complete raw tool log.",
+  "initialOpen": [
+    {
+      "step": "open",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"available\":true,\"visible\":false,\"tabId\":\"tab_10_8325d3a1-a0be-4685-9ccc-b65089f2df75\",\"url\":\"http://127.0.0.1:5173/\",\"title\":\"Netrunner · Local Table\",\"loading\":false,\"control\":{\"owner\":\"agent\",\"ownedByCaller\":true,\"generation\":0},\"dialog\":null,\"viewportSetting\":{\"_tag\":\"fill\"},\"viewport\":{\"width\":1280,\"height\":800},\"fileChooser\":null,\"downloads\":[],\"tabs\":[{\"tabId\":\"tab_2_8325d3a1-a0be-4685-9ccc-b65089f2df75\",\"url\":\"http://localhost:5173/\",\"owner\":\"unclaimed\",\"ownedByCaller\":false,\"visible\":false,\"profileId\":\"default\"},{\"tabId\":\"tab_t_8325d3a1-a0be-4685-9ccc-b65089f2df75\",\"url\":\"http://localhost:5173/\",\"owner\":\"agent\",\"ownedByCaller\":true,\"visible\":false,\"profileId\":\"incognito\"},{\"tabId\":\"tab_u_8325d3a1-a0be-4685-9ccc-b65089f2df75\",\"url\":\"http://localhost:5173/?vantage-preview=1\",\"owner\":\"agent\",\"ownedByCaller\":true,\"visible\":false,\"profileId\":\"incognito\"},{\"tabId\":\"tab_w_8325d3a1-a0be-4685-9ccc-b65089f2df75\",\"url\":\"http://localhost:5173/app/pairing-guide.html?pool=gateway-v1\",\"owner\":\"unclaimed\",\"ownedByCaller\":false,\"visible\":true,\"profileId\":\"incognito\"},{\"tabId\":\"tab_x_8325d3a1-a0be-4685-9ccc-b65089f2df75\",\"url\":\"http://localhost:5173/?vantage-preview=1\",\"owner\":\"agent\",\"ownedByCaller\":true,\"visible\":false,\"profileId\":\"incognito\"},{\"tabId\":\"tab_z_8325d3a1-a0be-4685-9ccc-b65089f2df75\",\"url\":\"http://127.0.0.1:5173/\",\"owner\":\"agent\",\"ownedByCaller\":true,\"visible\":false,\"profileId\":\"incognito\"},{\"tabId\":\"tab_10_8325d3a1-a0be-4685-9ccc-b65089f2df75\",\"url\":\"http://127.0.0.1:5173/\",\"owner\":\"agent\",\"ownedByCaller\":true,\"visible\":false,\"profileId\":\"incognito\"}],\"profiles\":[{\"id\":\"default\",\"name\":\"Default\"},{\"id\":\"incognito\",\"name\":\"Incognito\",\"incognito\":true}],\"defaultProfileId\":\"default\"}"
+          }
+        ],
+        "structuredContent": {
+          "available": true,
+          "visible": false,
+          "tabId": "tab_10_8325d3a1-a0be-4685-9ccc-b65089f2df75",
+          "url": "http://127.0.0.1:5173/",
+          "title": "Netrunner · Local Table",
+          "loading": false,
+          "control": {
+            "owner": "agent",
+            "ownedByCaller": true,
+            "generation": 0
+          },
+          "dialog": null,
+          "viewportSetting": {
+            "_tag": "fill"
+          },
+          "viewport": {
+            "width": 1280,
+            "height": 800
+          },
+          "fileChooser": null,
+          "downloads": [],
+          "tabs": [
+            {
+              "tabId": "tab_2_8325d3a1-a0be-4685-9ccc-b65089f2df75",
+              "url": "http://localhost:5173/",
+              "owner": "unclaimed",
+              "ownedByCaller": false,
+              "visible": false,
+              "profileId": "default"
+            },
+            {
+              "tabId": "tab_t_8325d3a1-a0be-4685-9ccc-b65089f2df75",
+              "url": "http://localhost:5173/",
+              "owner": "agent",
+              "ownedByCaller": true,
+              "visible": false,
+              "profileId": "incognito"
+            },
+            {
+              "tabId": "tab_u_8325d3a1-a0be-4685-9ccc-b65089f2df75",
+              "url": "http://localhost:5173/?vantage-preview=1",
+              "owner": "agent",
+              "ownedByCaller": true,
+              "visible": false,
+              "profileId": "incognito"
+            },
+            {
+              "tabId": "tab_w_8325d3a1-a0be-4685-9ccc-b65089f2df75",
+              "url": "http://localhost:5173/app/pairing-guide.html?pool=gateway-v1",
+              "owner": "unclaimed",
+              "ownedByCaller": false,
+              "visible": true,
+              "profileId": "incognito"
+            },
+            {
+              "tabId": "tab_x_8325d3a1-a0be-4685-9ccc-b65089f2df75",
+              "url": "http://localhost:5173/?vantage-preview=1",
+              "owner": "agent",
+              "ownedByCaller": true,
+              "visible": false,
+              "profileId": "incognito"
+            },
+            {
+              "tabId": "tab_z_8325d3a1-a0be-4685-9ccc-b65089f2df75",
+              "url": "http://127.0.0.1:5173/",
+              "owner": "agent",
+              "ownedByCaller": true,
+              "visible": false,
+              "profileId": "incognito"
+            },
+            {
+              "tabId": "tab_10_8325d3a1-a0be-4685-9ccc-b65089f2df75",
+              "url": "http://127.0.0.1:5173/",
+              "owner": "agent",
+              "ownedByCaller": true,
+              "visible": false,
+              "profileId": "incognito"
+            }
+          ],
+          "profiles": [
+            {
+              "id": "default",
+              "name": "Default"
+            },
+            {
+              "id": "incognito",
+              "name": "Incognito",
+              "incognito": true
+            }
+          ],
+          "defaultProfileId": "default"
+        },
+        "isError": false
+      }
+    }
+  ],
+  "flows": [
+    {
+      "taskId": "N1",
+      "steps": [
+        "Opened lobby at 127.0.0.1 in a new incognito preview; resized to 390×844; opened labeled guide link (new tab).",
+        "Chose Familiar identities: Loup · Tailored economy vs Restoring Humanity · Ambushes from rendered learning text.",
+        "Native Tab moved BODY → Back to lobby → First Vantage games → Explore matchups → How to read the results. Native Enter activated #reading and scrolled to it.",
+        "Clicked the pool select; native End then Enter did not change its value in this host. Used the rendered native-select operation to choose Vantage.",
+        "Native Tab moved pool → Runner select → test-pilot checkbox. Native Space checked and later unchecked the checkbox."
+      ],
+      "observed": [
+        "Learning choice has a clear goal and exact list names; it is descriptive article content without a configure action.",
+        "At confirmed 390px viewport, document scrollWidth was 390 and DOM overflow scan found no element extending horizontally outside the viewport.",
+        "Navigation links were 14px text with 23.09px-high boxes. Pool and Runner selects were 354×44px. Checkbox itself was 18×18px inside a 354×44px label.",
+        "Focused section links had computed 2px solid outlines. Activating #reading left activeElement BODY, with reading section top 230px at document's lower scroll limit.",
+        "Native keyboard was available. Native-select End/Enter behavior remained unverified; no synthetic keyboard events were used."
+      ]
+    },
+    {
+      "taskId": "N2",
+      "steps": [
+        "Read first pairing record and How to read the results section.",
+        "Compared Vantage explorer with interaction pilots off and on using native Space.",
+        "Read per-row Runner/Corp counts and sample badges."
+      ],
+      "observed": [
+        "Vantage off: four Runner choices, five opponents, 54 games per pairing.",
+        "Vantage on: nine Runner choices, thirteen opponents, summary '6 or 54 games per pairing'; added Runner options explicitly say TEST PILOT; added Corp rows say interaction test pilot and Preliminary sample with 6-game counts.",
+        "The recommended 'Stealth foundation pilot' name contains pilot but remains in the default population; TEST PILOT labels and count distinctions still made the populations understandable."
+      ]
+    },
+    {
+      "taskId": "N3",
+      "steps": [
+        "Changed guide pool Gateway → Vantage and selected Loup Tailored economy; clicked Back to lobby.",
+        "Observed original Gateway pool/default Loup vs Precision Design; manually selected Vantage, Corp, Jinteki Restoring Humanity Ambushes, AI Loup Tailored economy.",
+        "Clicked Tune deck; confirmed Corp identity Jinteki and Vantage pool. Opened Esca using its Read Esca full card control.",
+        "Native Escape closed Esca preview and restored focus to Read Esca full card. Removed one Esca using the rendered Remove Esca button.",
+        "Opened Deckbuilding basics; read swap, size, influence, agenda and save/use instructions. Closed builder without saving.",
+        "Reopened guide from configured Corp lobby. Entry used Vantage and Loup; changed guide pool to Gateway+Elevation, then Back to lobby.",
+        "Closed both script-opened popup tabs with window.close fallback and original owned preview with close tool."
+      ],
+      "observed": [
+        "First return ignored changed guide pool and Runner selection: lobby remained Gateway, Runner Loup Trash & viruses vs Precision Design Build & score.",
+        "Manual pairing configuration was feasible, with recommended decks grouped in lobby selects.",
+        "Esca showed full rules text and 0 influence. Draft changed 44 → 43 cards, kept 9/15 influence and 18 agenda points, and displayed 'Changes: -1 Esca'. No save or start action was taken.",
+        "Closing unsaved editor retained Vantage, Corp, Jinteki selected and AI Loup selected.",
+        "Second guide return kept Vantage despite guide filter changing to core, but human side became Runner: your Loup Tailored, opponent Jinteki Ambushes. Same two lists, reversed human-side intent.",
+        "Builder help was relevant and easy to find beside deck validation. It did not repeat the guide's custom-deck benchmark limitation after the edit."
+      ]
+    }
+  ],
+  "keyboardEvents": [
+    {
+      "key": "Tab",
+      "result": "BODY → Back to lobby → First Vantage games → Explore matchups → How to read the results in four successive presses; section links had computed2px solid outlines"
+    },
+    {
+      "key": "Enter",
+      "result": "Activated #reading, scrollY2830, section top230.0625, activeElement BODY"
+    },
+    {
+      "key": "End then Enter",
+      "result": "Clicked pool select still gateway-v1; used native-select tool afterward"
+    },
+    {
+      "key": "Tab twice",
+      "result": "From pool → guide-runner → guide-tests"
+    },
+    {
+      "key": "Space",
+      "result": "guide-tests true; options9, opponents13, mixed6/54 games"
+    },
+    {
+      "key": "Space",
+      "result": "guide-tests false; selected Loup Tailored with rendered select operation"
+    },
+    {
+      "key": "Escape",
+      "result": "Initial invalid-selector read attempt followed by Escape closed builder, restoring Tune deck; reopened for successful card inspection"
+    },
+    {
+      "key": "Escape",
+      "result": "Successful Esca preview closed; focus restored to Read Esca full card"
+    }
+  ],
+  "toolLimitations": [
+    {
+      "tool": "preview_snapshot",
+      "result": "Timed out after15000ms; no screenshot saved"
+    },
+    {
+      "tool": "preview_act",
+      "result": "CSS .builder-read[data-builder-preview=\"36038\"] reported invalid selector; role locator subsequently succeeded"
+    },
+    {
+      "tool": "preview_evaluate",
+      "result": "Broad dialog read exceeded64000 bytes; narrower read succeeded"
+    }
+  ],
+  "handoffs": [
+    {
+      "from": "Gateway guide, filter changed to Vantage, Loup Tailored chosen",
+      "return": {
+        "url": "http://127.0.0.1:5173/",
+        "pool": "gateway-v1",
+        "your": "loup-v1",
+        "opponent": "precision-design-v2"
+      }
+    },
+    {
+      "from": "Corp Vantage lobby Jinteki Ambushes versus AI Loup Tailored, guide filter changed to core-v1",
+      "return": {
+        "url": "http://127.0.0.1:5173/?vantage-preview=1",
+        "pool": "vantage-preview-v1",
+        "side": "runner",
+        "your": "loup-vantage-tailor-v1",
+        "opponent": "jinteki-vantage-pilot-v1"
+      }
+    }
+  ],
+  "geometry": {
+    "confirmedViewport": [
+      390,
+      844
+    ],
+    "documentWidth": 390,
+    "horizontalOverflowElements": [],
+    "selectSize": [
+      354,
+      44
+    ],
+    "sectionLinkHeights": 23.09375,
+    "linkFontSize": 14,
+    "checkboxSize": [
+      18,
+      18
+    ],
+    "checkboxLabelSize": [
+      354,
+      44
+    ]
+  },
+  "cleanup": {
+    "scriptOpenedPopupTabs": [
+      "tab_11_8325d3a1-a0be-4685-9ccc-b65089f2df75",
+      "tab_12_8325d3a1-a0be-4685-9ccc-b65089f2df75"
+    ],
+    "popupClose": "window.close() returned success for both",
+    "ownedOriginalClose": "t3_preview_close tab_10 returned success; status then available:false tabId:null",
+    "storage": "No direct writes or clear; parent restores origin preferences"
+  }
+}

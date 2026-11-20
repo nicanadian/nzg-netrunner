@@ -1,0 +1,4858 @@
+{
+  "date": "2026-11-16",
+  "method": "Shared-browser DOM controls: actual button clicks and input/change events. No engine choose calls or game-state injection. Isolated incognito test tab; original storage restored afterward.",
+  "viewports": [
+    {
+      "width": 1280,
+      "height": 800
+    },
+    {
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "totalPassingChecks": 1170,
+  "fixes": [
+    {
+      "issue": "Gateway lobby header incorrectly included Elevation.",
+      "resolution": "Initial and return-to-lobby labels now match the active card pool."
+    },
+    {
+      "issue": "Gateway and Elevation shared a draft slot; Gateway could resume an Elevation draft as playable.",
+      "resolution": "Separate per-pool draft slots, matching-pool resume validation, and preservation of legacy Elevation drafts."
+    }
+  ],
+  "additionalChecks": [
+    "Live NetrunnerDB public decklist URL import succeeded: [NSG Core] Dashing Mad.",
+    "Export deck, export draft, and library backup produced JSON downloads.",
+    "Profile switching restored named independent Gateway and Elevation drafts; all three draft slots held independent names.",
+    "Native deck tests, presentation/interaction tests, module syntax and whitespace checks passed."
+  ],
+  "limitations": [
+    "A mobile screenshot snapshot timed out. Responsive functionality and element bounds were checked through the DOM; no final visual screenshot certification.",
+    "External source links were inspected; not every remote source page was individually visited."
+  ],
+  "reports": {
+    "gatewayDesktop": {
+      "checks": [
+        {
+          "name": "runner labels",
+          "pass": true
+        },
+        {
+          "name": "runner/your/loup-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "loup-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/your/loup-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "loup-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/your/loup-burst-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "loup-burst-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/your/loup-burst-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "loup-burst-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/your/zahya-v2/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "zahya-v2 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/your/zahya-v2/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "zahya-v2 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/your/zahya-mayfly-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "zahya-mayfly-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/your/zahya-mayfly-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "zahya-mayfly-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/your/tao-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "tao-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/your/tao-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "tao-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/your/tao-burst-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "tao-burst-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/your/tao-burst-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "tao-burst-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/your/tao-mayfly-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "tao-mayfly-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/your/tao-mayfly-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "tao-mayfly-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/your/local-980a1551-68c7-41fb-a064-b96ed1b037c1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "local-980a1551-68c7-41fb-a064-b96ed1b037c1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/your/local-980a1551-68c7-41fb-a064-b96ed1b037c1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "local-980a1551-68c7-41fb-a064-b96ed1b037c1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/precision-design-v2/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "precision-design-v2 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/precision-design-v2/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "precision-design-v2 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/precision-design-large-agendas-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "precision-design-large-agendas-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/precision-design-large-agendas-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "precision-design-large-agendas-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/restoring-humanity-v2/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "restoring-humanity-v2 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/restoring-humanity-v2/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "restoring-humanity-v2 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/restoring-humanity-planogram-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "restoring-humanity-planogram-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/restoring-humanity-planogram-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "restoring-humanity-planogram-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/reality-plus-v2/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "reality-plus-v2 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/reality-plus-v2/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "reality-plus-v2 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/reality-plus-tag-and-score-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "reality-plus-tag-and-score-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/reality-plus-tag-and-score-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "reality-plus-tag-and-score-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/built-to-last-v2/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "built-to-last-v2 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/built-to-last-v2/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "built-to-last-v2 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/built-to-last-heavy-ice-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "built-to-last-heavy-ice-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/built-to-last-heavy-ice-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "built-to-last-heavy-ice-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "runner matchup lists",
+          "pass": true
+        },
+        {
+          "name": "runner library 30019",
+          "pass": true
+        },
+        {
+          "name": "runner library 30004",
+          "pass": true
+        },
+        {
+          "name": "runner library 30006",
+          "pass": true
+        },
+        {
+          "name": "runner library 30020",
+          "pass": true
+        },
+        {
+          "name": "runner library 30021",
+          "pass": true
+        },
+        {
+          "name": "runner library 30022",
+          "pass": true
+        },
+        {
+          "name": "runner library 30023",
+          "pass": true
+        },
+        {
+          "name": "runner library 30024",
+          "pass": true
+        },
+        {
+          "name": "runner library 30025",
+          "pass": true
+        },
+        {
+          "name": "runner library 30026",
+          "pass": true
+        },
+        {
+          "name": "runner library 30027",
+          "pass": true
+        },
+        {
+          "name": "runner library 30028",
+          "pass": true
+        },
+        {
+          "name": "runner library 30029",
+          "pass": true
+        },
+        {
+          "name": "runner library 30030",
+          "pass": true
+        },
+        {
+          "name": "runner library 30032",
+          "pass": true
+        },
+        {
+          "name": "runner library 30033",
+          "pass": true
+        },
+        {
+          "name": "runner library 30034",
+          "pass": true
+        },
+        {
+          "name": "runner library 30059",
+          "pass": true
+        },
+        {
+          "name": "runner library 30060",
+          "pass": true
+        },
+        {
+          "name": "runner library 30067",
+          "pass": true
+        },
+        {
+          "name": "runner library 30068",
+          "pass": true
+        },
+        {
+          "name": "runner library 30069",
+          "pass": true
+        },
+        {
+          "name": "runner library 30070",
+          "pass": true
+        },
+        {
+          "name": "runner library 30061",
+          "pass": true
+        },
+        {
+          "name": "runner library 30062",
+          "pass": true
+        },
+        {
+          "name": "runner library 30063",
+          "pass": true
+        },
+        {
+          "name": "runner library 30064",
+          "pass": true
+        },
+        {
+          "name": "runner library 30065",
+          "pass": true
+        },
+        {
+          "name": "runner library 30066",
+          "pass": true
+        },
+        {
+          "name": "runner library 30071",
+          "pass": true
+        },
+        {
+          "name": "runner library 30072",
+          "pass": true
+        },
+        {
+          "name": "runner library 30074",
+          "pass": true
+        },
+        {
+          "name": "runner library 30075",
+          "pass": true
+        },
+        {
+          "name": "runner library 30053",
+          "pass": true
+        },
+        {
+          "name": "corp labels",
+          "pass": true
+        },
+        {
+          "name": "corp/your/precision-design-v2/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "precision-design-v2 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/your/precision-design-v2/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "precision-design-v2 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/your/precision-design-large-agendas-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "precision-design-large-agendas-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/your/precision-design-large-agendas-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "precision-design-large-agendas-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/your/restoring-humanity-v2/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "restoring-humanity-v2 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/your/restoring-humanity-v2/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "restoring-humanity-v2 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/your/restoring-humanity-planogram-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "restoring-humanity-planogram-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/your/restoring-humanity-planogram-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "restoring-humanity-planogram-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/your/reality-plus-v2/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "reality-plus-v2 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/your/reality-plus-v2/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "reality-plus-v2 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/your/reality-plus-tag-and-score-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "reality-plus-tag-and-score-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/your/reality-plus-tag-and-score-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "reality-plus-tag-and-score-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/your/built-to-last-v2/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "built-to-last-v2 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/your/built-to-last-v2/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "built-to-last-v2 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/your/built-to-last-heavy-ice-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "built-to-last-heavy-ice-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/your/built-to-last-heavy-ice-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "built-to-last-heavy-ice-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/loup-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "loup-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/loup-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "loup-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/loup-burst-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "loup-burst-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/loup-burst-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "loup-burst-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/zahya-v2/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "zahya-v2 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/zahya-v2/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "zahya-v2 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/zahya-mayfly-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "zahya-mayfly-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/zahya-mayfly-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "zahya-mayfly-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/tao-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "tao-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/tao-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "tao-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/tao-burst-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "tao-burst-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/tao-burst-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "tao-burst-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/tao-mayfly-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "tao-mayfly-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/tao-mayfly-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "tao-mayfly-v1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/local-980a1551-68c7-41fb-a064-b96ed1b037c1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "local-980a1551-68c7-41fb-a064-b96ed1b037c1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/local-980a1551-68c7-41fb-a064-b96ed1b037c1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "local-980a1551-68c7-41fb-a064-b96ed1b037c1 full art loaded",
+          "pass": true
+        },
+        {
+          "name": "corp matchup lists",
+          "pass": true
+        },
+        {
+          "name": "corp library 30019",
+          "pass": true
+        },
+        {
+          "name": "corp library 30004",
+          "pass": true
+        },
+        {
+          "name": "corp library 30006",
+          "pass": true
+        },
+        {
+          "name": "corp library 30020",
+          "pass": true
+        },
+        {
+          "name": "corp library 30021",
+          "pass": true
+        },
+        {
+          "name": "corp library 30022",
+          "pass": true
+        },
+        {
+          "name": "corp library 30023",
+          "pass": true
+        },
+        {
+          "name": "corp library 30024",
+          "pass": true
+        },
+        {
+          "name": "corp library 30025",
+          "pass": true
+        },
+        {
+          "name": "corp library 30026",
+          "pass": true
+        },
+        {
+          "name": "corp library 30027",
+          "pass": true
+        },
+        {
+          "name": "corp library 30028",
+          "pass": true
+        },
+        {
+          "name": "corp library 30029",
+          "pass": true
+        },
+        {
+          "name": "corp library 30030",
+          "pass": true
+        },
+        {
+          "name": "corp library 30032",
+          "pass": true
+        },
+        {
+          "name": "corp library 30033",
+          "pass": true
+        },
+        {
+          "name": "corp library 30034",
+          "pass": true
+        },
+        {
+          "name": "corp library 30059",
+          "pass": true
+        },
+        {
+          "name": "corp library 30060",
+          "pass": true
+        },
+        {
+          "name": "corp library 30067",
+          "pass": true
+        },
+        {
+          "name": "corp library 30068",
+          "pass": true
+        },
+        {
+          "name": "corp library 30069",
+          "pass": true
+        },
+        {
+          "name": "corp library 30070",
+          "pass": true
+        },
+        {
+          "name": "corp library 30061",
+          "pass": true
+        },
+        {
+          "name": "corp library 30062",
+          "pass": true
+        },
+        {
+          "name": "corp library 30063",
+          "pass": true
+        },
+        {
+          "name": "corp library 30064",
+          "pass": true
+        },
+        {
+          "name": "corp library 30065",
+          "pass": true
+        },
+        {
+          "name": "corp library 30066",
+          "pass": true
+        },
+        {
+          "name": "corp library 30071",
+          "pass": true
+        },
+        {
+          "name": "corp library 30072",
+          "pass": true
+        },
+        {
+          "name": "corp library 30074",
+          "pass": true
+        },
+        {
+          "name": "corp library 30075",
+          "pass": true
+        },
+        {
+          "name": "corp library 30053",
+          "pass": true
+        },
+        {
+          "name": "help opens",
+          "pass": true
+        },
+        {
+          "name": "log opens",
+          "pass": true
+        },
+        {
+          "name": "menu opens",
+          "pass": true
+        },
+        {
+          "detail": "39 cards · 6/15 influenceNeeds changes before you can play",
+          "name": "Removing updates validity",
+          "pass": true
+        },
+        {
+          "name": "Adding restores valid deck",
+          "pass": true
+        },
+        {
+          "name": "Max copies disabled",
+          "pass": true
+        },
+        {
+          "name": "Empty results and recovery",
+          "pass": true
+        },
+        {
+          "detail": "Cleaver\n3 in deck\n−\n3\n+\n\nprogram · Anarch · 3 credits\n\n0 influence per copy · 0 total in deck\n\nRead card",
+          "name": "Combined filters render",
+          "pass": true
+        },
+        {
+          "name": "Full card preview opens",
+          "pass": true
+        },
+        {
+          "detail": 743,
+          "name": "Full card artwork loaded",
+          "pass": true
+        },
+        {
+          "name": "Return to editor",
+          "pass": true
+        },
+        {
+          "name": "Replacement pane",
+          "pass": true
+        },
+        {
+          "name": "Keep cards changes identity",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 36/15 influenceNeeds changes before you can play",
+          "name": "Over-influence prevents play",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 15/15 influenceReady to play",
+          "name": "Starter restores legal list",
+          "pass": true
+        },
+        {
+          "name": "Faction follows identity",
+          "pass": true
+        },
+        {
+          "name": "Cross-side offers starter only",
+          "pass": true
+        },
+        {
+          "name": "Corp starter legal",
+          "pass": true
+        },
+        {
+          "name": "No results clear action",
+          "pass": true
+        },
+        {
+          "name": "#builder-type applies",
+          "pass": true
+        },
+        {
+          "name": "#builder-faction applies",
+          "pass": true
+        },
+        {
+          "name": "#builder-subtype applies",
+          "pass": true
+        },
+        {
+          "name": "#builder-cost applies",
+          "pass": true
+        },
+        {
+          "name": "#builder-influence applies",
+          "pass": true
+        },
+        {
+          "name": "Filter is zero influence",
+          "pass": true
+        },
+        {
+          "name": "Save and use closes editor",
+          "pass": true
+        },
+        {
+          "name": "Custom selected in lobby",
+          "pass": true
+        },
+        {
+          "name": "Saved deck reopens",
+          "pass": true
+        },
+        {
+          "name": "Delete removes local deck",
+          "pass": true
+        },
+        {
+          "name": "Restore returns local deck",
+          "pass": true
+        },
+        {
+          "name": "New empty draft blocks play",
+          "pass": true
+        },
+        {
+          "name": "Resume draft restores name",
+          "pass": true
+        },
+        {
+          "name": "Malformed JSON explained",
+          "pass": true
+        },
+        {
+          "name": "JSON import opens legal editor",
+          "pass": true
+        },
+        {
+          "name": "Imported deck selected",
+          "pass": true
+        },
+        {
+          "name": "Tune AI opens Corp editor",
+          "pass": true
+        },
+        {
+          "name": "AI custom selected",
+          "pass": true
+        },
+        {
+          "name": "Jack in embeds exact custom lists",
+          "pass": true
+        },
+        {
+          "name": "Keep and mulligan both present",
+          "pass": true
+        },
+        {
+          "name": "Change decks returns lobby",
+          "pass": true
+        },
+        {
+          "name": "Resume keeps original Runner matchup",
+          "pass": true
+        },
+        {
+          "name": "Corp starts with selected custom list",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "harnessNote": "One invalid synthetic select value (30009) discarded; actual dropdown options are tested below."
+    },
+    "elevationDesktop": {
+      "checks": [
+        {
+          "name": "runner role labels",
+          "pass": true
+        },
+        {
+          "name": "runner/your/phoenix-core-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "phoenix-core-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/your/phoenix-core-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "phoenix-core-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "45 cards · 17/17 influenceReady to play",
+          "name": "phoenix-core-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "phoenix-core-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "phoenix-core-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/your/nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/your/nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 15/15 influenceReady to play",
+          "name": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303 faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/your/nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/your/nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd has ability text",
+          "pass": true
+        },
+        {
+          "detail": "45 cards · 15/15 influenceReady to play",
+          "name": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/your/nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/your/nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 15/15 influenceReady to play",
+          "name": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5 faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/your/nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/your/nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd has ability text",
+          "pass": true
+        },
+        {
+          "detail": "45 cards · 15/15 influenceReady to play",
+          "name": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/your/nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/your/nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "45 cards · 15/15 influenceReady to play",
+          "name": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96 faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/your/nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/your/nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 15/15 influenceReady to play",
+          "name": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18 faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/your/nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/your/nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "45 cards · 15/15 influenceReady to play",
+          "name": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442 faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/your/nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/your/nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd has ability text",
+          "pass": true
+        },
+        {
+          "detail": "45 cards · 15/15 influenceReady to play",
+          "name": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/precision-design-core-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "precision-design-core-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/precision-design-core-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "precision-design-core-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "44 cards · 15/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "precision-design-core-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "precision-design-core-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "precision-design-core-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f has ability text",
+          "pass": true
+        },
+        {
+          "detail": "49 cards · 15/15 influence · 20/20–21 agenda pointsReady to play",
+          "name": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "49 cards · 15/15 influence · 20/20–21 agenda pointsReady to play",
+          "name": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91 faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad has ability text",
+          "pass": true
+        },
+        {
+          "detail": "44 cards · 15/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "49 cards · 15/15 influence · 20/20–21 agenda pointsReady to play",
+          "name": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4 faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e has ability text",
+          "pass": true
+        },
+        {
+          "detail": "49 cards · 15/15 influence · 20/20–21 agenda pointsReady to play",
+          "name": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "44 cards · 15/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285 faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "49 cards · 15/15 influence · 20/20–21 agenda pointsReady to play",
+          "name": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11 faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "49 cards · 15/15 influence · 20/20–21 agenda pointsReady to play",
+          "name": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652 faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c has ability text",
+          "pass": true
+        },
+        {
+          "detail": "44 cards · 15/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a has ability text",
+          "pass": true
+        },
+        {
+          "detail": "49 cards · 15/15 influence · 20/20–21 agenda pointsReady to play",
+          "name": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "48 cards · 15/15 influence · 20/20–21 agenda pointsReady to play",
+          "name": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28 faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp role labels",
+          "pass": true
+        },
+        {
+          "name": "corp/your/precision-design-core-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "precision-design-core-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/precision-design-core-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "precision-design-core-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "44 cards · 15/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "precision-design-core-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "precision-design-core-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "precision-design-core-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/your/nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f has ability text",
+          "pass": true
+        },
+        {
+          "detail": "49 cards · 15/15 influence · 20/20–21 agenda pointsReady to play",
+          "name": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/your/nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "49 cards · 15/15 influence · 20/20–21 agenda pointsReady to play",
+          "name": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91 faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/your/nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad has ability text",
+          "pass": true
+        },
+        {
+          "detail": "44 cards · 15/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/your/nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "49 cards · 15/15 influence · 20/20–21 agenda pointsReady to play",
+          "name": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4 faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/your/nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e has ability text",
+          "pass": true
+        },
+        {
+          "detail": "49 cards · 15/15 influence · 20/20–21 agenda pointsReady to play",
+          "name": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/your/nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "44 cards · 15/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285 faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/your/nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "49 cards · 15/15 influence · 20/20–21 agenda pointsReady to play",
+          "name": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11 faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/your/nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "49 cards · 15/15 influence · 20/20–21 agenda pointsReady to play",
+          "name": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652 faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/your/nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c has ability text",
+          "pass": true
+        },
+        {
+          "detail": "44 cards · 15/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/your/nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a has ability text",
+          "pass": true
+        },
+        {
+          "detail": "49 cards · 15/15 influence · 20/20–21 agenda pointsReady to play",
+          "name": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/your/nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "48 cards · 15/15 influence · 20/20–21 agenda pointsReady to play",
+          "name": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28 faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/phoenix-core-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "phoenix-core-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/phoenix-core-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "phoenix-core-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "45 cards · 17/17 influenceReady to play",
+          "name": "phoenix-core-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "phoenix-core-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "phoenix-core-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 15/15 influenceReady to play",
+          "name": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303 faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd has ability text",
+          "pass": true
+        },
+        {
+          "detail": "45 cards · 15/15 influenceReady to play",
+          "name": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 15/15 influenceReady to play",
+          "name": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5 faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd has ability text",
+          "pass": true
+        },
+        {
+          "detail": "45 cards · 15/15 influenceReady to play",
+          "name": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "45 cards · 15/15 influenceReady to play",
+          "name": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96 faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 15/15 influenceReady to play",
+          "name": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18 faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "45 cards · 15/15 influenceReady to play",
+          "name": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442 faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd has ability text",
+          "pass": true
+        },
+        {
+          "detail": "45 cards · 15/15 influenceReady to play",
+          "name": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd faction shown",
+          "pass": true
+        },
+        {
+          "name": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "View decks shows two lists",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 35024",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30004",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30007",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30012",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30020",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30021",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30022",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30023",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30025",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30026",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30027",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30029",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30030",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30033",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30034",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 35004",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 35026",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 35027",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 35029",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 35031",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 35032",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 35069",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30039",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30040",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30053",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30060",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30064",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30066",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30067",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30069",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30073",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30075",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 35055",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 35070",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 35071",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 35073",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 35074",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 35075",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 35076",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 35077",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 35079",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 35081",
+          "pass": true
+        },
+        {
+          "name": "No horizontal page overflow",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "url": "http://localhost:5173/?core-preview=1"
+    },
+    "vantageDesktopAndMobile": {
+      "checks": [
+        {
+          "name": "runner role labels",
+          "pass": true
+        },
+        {
+          "name": "runner/your/tao-vantage-pilot-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "tao-vantage-pilot-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/your/tao-vantage-pilot-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "tao-vantage-pilot-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 8/15 influenceReady to play",
+          "name": "tao-vantage-pilot-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "tao-vantage-pilot-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "tao-vantage-pilot-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/your/tao-vantage-stealth-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "tao-vantage-stealth-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/your/tao-vantage-stealth-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "tao-vantage-stealth-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 14/15 influenceReady to play",
+          "name": "tao-vantage-stealth-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "tao-vantage-stealth-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "tao-vantage-stealth-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/your/vic-vantage-pilot-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "vic-vantage-pilot-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/your/vic-vantage-pilot-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "vic-vantage-pilot-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "45 cards · 15/15 influenceReady to play",
+          "name": "vic-vantage-pilot-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "vic-vantage-pilot-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "vic-vantage-pilot-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/your/vic-full-vp-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "vic-full-vp-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/your/vic-full-vp-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "vic-full-vp-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "45 cards · 12/15 influenceReady to play",
+          "name": "vic-full-vp-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "vic-full-vp-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "vic-full-vp-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/your/loup-vantage-tailor-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "loup-vantage-tailor-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/your/loup-vantage-tailor-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "loup-vantage-tailor-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 9/15 influenceReady to play",
+          "name": "loup-vantage-tailor-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "loup-vantage-tailor-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "loup-vantage-tailor-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/your/loup-full-vp-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "loup-full-vp-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/your/loup-full-vp-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "loup-full-vp-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "45 cards · 12/15 influenceReady to play",
+          "name": "loup-full-vp-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "loup-full-vp-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "loup-full-vp-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/your/hiram-full-vp-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "hiram-full-vp-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/your/hiram-full-vp-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "hiram-full-vp-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "45 cards · 6/15 influenceReady to play",
+          "name": "hiram-full-vp-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "hiram-full-vp-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "hiram-full-vp-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/weyland-vantage-pilot-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "weyland-vantage-pilot-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/weyland-vantage-pilot-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "weyland-vantage-pilot-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 9/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "weyland-vantage-pilot-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "weyland-vantage-pilot-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "weyland-vantage-pilot-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/weyland-vantage-tools-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "weyland-vantage-tools-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/weyland-vantage-tools-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "weyland-vantage-tools-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 15/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "weyland-vantage-tools-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "weyland-vantage-tools-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "weyland-vantage-tools-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/weyland-full-vp-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "weyland-full-vp-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/weyland-full-vp-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "weyland-full-vp-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "45 cards · 9/15 influence · 20/20–21 agenda pointsReady to play",
+          "name": "weyland-full-vp-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "weyland-full-vp-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "weyland-full-vp-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/jinteki-vantage-pilot-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "jinteki-vantage-pilot-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/jinteki-vantage-pilot-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "jinteki-vantage-pilot-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "44 cards · 9/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "jinteki-vantage-pilot-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "jinteki-vantage-pilot-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "jinteki-vantage-pilot-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/hb-vantage-tempo-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "hb-vantage-tempo-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/hb-vantage-tempo-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "hb-vantage-tempo-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 6/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "hb-vantage-tempo-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "hb-vantage-tempo-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "hb-vantage-tempo-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/hb-vantage-reallocation-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "hb-vantage-reallocation-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/hb-vantage-reallocation-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "hb-vantage-reallocation-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 6/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "hb-vantage-reallocation-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "hb-vantage-reallocation-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "hb-vantage-reallocation-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/hb-full-vp-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "hb-full-vp-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/hb-full-vp-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "hb-full-vp-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "45 cards · 6/15 influence · 20/20–21 agenda pointsReady to play",
+          "name": "hb-full-vp-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "hb-full-vp-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "hb-full-vp-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/melies-full-vp-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "melies-full-vp-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/melies-full-vp-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "melies-full-vp-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "45 cards · 9/15 influence · 20/20–21 agenda pointsReady to play",
+          "name": "melies-full-vp-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "melies-full-vp-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "melies-full-vp-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/editorial-full-vp-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "editorial-full-vp-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/editorial-full-vp-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "editorial-full-vp-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "45 cards · 6/15 influence · 20/20–21 agenda pointsReady to play",
+          "name": "editorial-full-vp-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "editorial-full-vp-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "editorial-full-vp-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp role labels",
+          "pass": true
+        },
+        {
+          "name": "corp/your/weyland-vantage-pilot-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "weyland-vantage-pilot-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/weyland-vantage-pilot-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "weyland-vantage-pilot-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 9/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "weyland-vantage-pilot-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "weyland-vantage-pilot-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "weyland-vantage-pilot-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/your/weyland-vantage-tools-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "weyland-vantage-tools-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/weyland-vantage-tools-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "weyland-vantage-tools-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 15/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "weyland-vantage-tools-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "weyland-vantage-tools-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "weyland-vantage-tools-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/your/weyland-full-vp-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "weyland-full-vp-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/weyland-full-vp-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "weyland-full-vp-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "45 cards · 9/15 influence · 20/20–21 agenda pointsReady to play",
+          "name": "weyland-full-vp-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "weyland-full-vp-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "weyland-full-vp-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/your/jinteki-vantage-pilot-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "jinteki-vantage-pilot-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/jinteki-vantage-pilot-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "jinteki-vantage-pilot-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "44 cards · 9/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "jinteki-vantage-pilot-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "jinteki-vantage-pilot-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "jinteki-vantage-pilot-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/your/hb-vantage-tempo-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "hb-vantage-tempo-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/hb-vantage-tempo-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "hb-vantage-tempo-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 6/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "hb-vantage-tempo-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "hb-vantage-tempo-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "hb-vantage-tempo-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/your/hb-vantage-reallocation-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "hb-vantage-reallocation-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/hb-vantage-reallocation-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "hb-vantage-reallocation-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 6/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "hb-vantage-reallocation-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "hb-vantage-reallocation-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "hb-vantage-reallocation-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/your/hb-full-vp-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "hb-full-vp-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/hb-full-vp-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "hb-full-vp-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "45 cards · 6/15 influence · 20/20–21 agenda pointsReady to play",
+          "name": "hb-full-vp-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "hb-full-vp-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "hb-full-vp-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/your/melies-full-vp-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "melies-full-vp-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/melies-full-vp-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "melies-full-vp-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "45 cards · 9/15 influence · 20/20–21 agenda pointsReady to play",
+          "name": "melies-full-vp-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "melies-full-vp-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "melies-full-vp-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/your/editorial-full-vp-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "editorial-full-vp-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/editorial-full-vp-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "editorial-full-vp-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "45 cards · 6/15 influence · 20/20–21 agenda pointsReady to play",
+          "name": "editorial-full-vp-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "editorial-full-vp-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "editorial-full-vp-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/tao-vantage-pilot-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "tao-vantage-pilot-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/tao-vantage-pilot-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "tao-vantage-pilot-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 8/15 influenceReady to play",
+          "name": "tao-vantage-pilot-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "tao-vantage-pilot-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "tao-vantage-pilot-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/tao-vantage-stealth-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "tao-vantage-stealth-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/tao-vantage-stealth-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "tao-vantage-stealth-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 14/15 influenceReady to play",
+          "name": "tao-vantage-stealth-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "tao-vantage-stealth-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "tao-vantage-stealth-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/vic-vantage-pilot-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "vic-vantage-pilot-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/vic-vantage-pilot-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "vic-vantage-pilot-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "45 cards · 15/15 influenceReady to play",
+          "name": "vic-vantage-pilot-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "vic-vantage-pilot-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "vic-vantage-pilot-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/vic-full-vp-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "vic-full-vp-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/vic-full-vp-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "vic-full-vp-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "45 cards · 12/15 influenceReady to play",
+          "name": "vic-full-vp-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "vic-full-vp-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "vic-full-vp-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/loup-vantage-tailor-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "loup-vantage-tailor-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/loup-vantage-tailor-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "loup-vantage-tailor-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 9/15 influenceReady to play",
+          "name": "loup-vantage-tailor-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "loup-vantage-tailor-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "loup-vantage-tailor-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/loup-full-vp-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "loup-full-vp-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/loup-full-vp-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "loup-full-vp-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "45 cards · 12/15 influenceReady to play",
+          "name": "loup-full-vp-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "loup-full-vp-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "loup-full-vp-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/hiram-full-vp-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "hiram-full-vp-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/hiram-full-vp-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "hiram-full-vp-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "45 cards · 6/15 influenceReady to play",
+          "name": "hiram-full-vp-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "hiram-full-vp-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "hiram-full-vp-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "View decks shows two lists",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 36017",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30005",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30020",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30021",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30025",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30026",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30027",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30030",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 36018",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 36019",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 36020",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 36021",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 36022",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 36023",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 36024",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 36025",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 36046",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30049",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30053",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30056",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30067",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30070",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30075",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 36047",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 36048",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 36049",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 36050",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 36051",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 36052",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 36053",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 36054",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 36055",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 36066",
+          "pass": true
+        },
+        {
+          "name": "No horizontal page overflow",
+          "pass": true
+        },
+        {
+          "name": "Mobile viewport",
+          "pass": true
+        },
+        {
+          "name": "Mobile lobby no overflow",
+          "pass": true
+        },
+        {
+          "name": "Mobile identity fits",
+          "pass": true
+        },
+        {
+          "name": "Vantage draft available",
+          "pass": true
+        },
+        {
+          "name": "Vantage own draft resumes",
+          "pass": true
+        },
+        {
+          "name": "Basics expand",
+          "pass": true
+        },
+        {
+          "name": "Advanced filters expand",
+          "pass": true
+        },
+        {
+          "name": "Mobile filter applies",
+          "pass": true
+        },
+        {
+          "name": "Mobile art modal fits",
+          "pass": true
+        },
+        {
+          "name": "Preview back button present",
+          "pass": true
+        },
+        {
+          "name": "Back to own deck",
+          "pass": true
+        },
+        {
+          "name": "Mobile builder fits",
+          "pass": true
+        },
+        {
+          "name": "Mobile builder no horizontal overflow",
+          "pass": true
+        },
+        {
+          "name": "Wrong-pool import rejected",
+          "pass": true
+        },
+        {
+          "name": "Invalid URL explained",
+          "pass": true
+        },
+        {
+          "name": "Plain-text import reports short deck",
+          "pass": true
+        },
+        {
+          "name": "Saved invalid draft cannot be used",
+          "pass": true
+        },
+        {
+          "name": "Library backup import returns library",
+          "pass": true
+        },
+        {
+          "name": "Lobby helper opens",
+          "pass": true
+        },
+        {
+          "name": "Lobby helper closes",
+          "pass": true
+        },
+        {
+          "name": "Identity helper opens with card context",
+          "pass": true
+        },
+        {
+          "name": "Library backup import explained",
+          "pass": true
+        },
+        {
+          "name": "Library backup appends one deck",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "url": "http://localhost:5173/?vantage-preview=1"
+    },
+    "gatewayMobile": {
+      "checks": [
+        {
+          "name": "runner role labels",
+          "pass": true
+        },
+        {
+          "name": "runner/your/loup-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "loup-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/your/loup-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "loup-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 6/15 influenceReady to play",
+          "name": "loup-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "loup-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "loup-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/your/loup-burst-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "loup-burst-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/your/loup-burst-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "loup-burst-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 10/15 influenceReady to play",
+          "name": "loup-burst-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "loup-burst-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "loup-burst-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/your/local-168088b8-644f-4e06-afba-a0330dcf6397/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "local-168088b8-644f-4e06-afba-a0330dcf6397 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/your/local-168088b8-644f-4e06-afba-a0330dcf6397/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "local-168088b8-644f-4e06-afba-a0330dcf6397 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 6/15 influenceReady to play",
+          "name": "local-168088b8-644f-4e06-afba-a0330dcf6397 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "local-168088b8-644f-4e06-afba-a0330dcf6397 faction shown",
+          "pass": true
+        },
+        {
+          "name": "local-168088b8-644f-4e06-afba-a0330dcf6397 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/your/local-ff23be6b-0e59-49c3-8ea8-6f6270168b50/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "local-ff23be6b-0e59-49c3-8ea8-6f6270168b50 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/your/local-ff23be6b-0e59-49c3-8ea8-6f6270168b50/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "local-ff23be6b-0e59-49c3-8ea8-6f6270168b50 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 6/15 influenceReady to play",
+          "name": "local-ff23be6b-0e59-49c3-8ea8-6f6270168b50 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "local-ff23be6b-0e59-49c3-8ea8-6f6270168b50 faction shown",
+          "pass": true
+        },
+        {
+          "name": "local-ff23be6b-0e59-49c3-8ea8-6f6270168b50 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/your/zahya-v2/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "zahya-v2 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/your/zahya-v2/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "zahya-v2 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 15/15 influenceReady to play",
+          "name": "zahya-v2 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "zahya-v2 faction shown",
+          "pass": true
+        },
+        {
+          "name": "zahya-v2 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/your/zahya-mayfly-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "zahya-mayfly-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/your/zahya-mayfly-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "zahya-mayfly-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 11/15 influenceReady to play",
+          "name": "zahya-mayfly-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "zahya-mayfly-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "zahya-mayfly-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/your/tao-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "tao-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/your/tao-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "tao-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 12/15 influenceReady to play",
+          "name": "tao-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "tao-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "tao-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/your/tao-burst-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "tao-burst-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/your/tao-burst-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "tao-burst-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 14/15 influenceReady to play",
+          "name": "tao-burst-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "tao-burst-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "tao-burst-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/your/tao-mayfly-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "tao-mayfly-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/your/tao-mayfly-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "tao-mayfly-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 12/15 influenceReady to play",
+          "name": "tao-mayfly-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "tao-mayfly-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "tao-mayfly-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/your/local-980a1551-68c7-41fb-a064-b96ed1b037c1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "local-980a1551-68c7-41fb-a064-b96ed1b037c1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/your/local-980a1551-68c7-41fb-a064-b96ed1b037c1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "local-980a1551-68c7-41fb-a064-b96ed1b037c1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 12/15 influenceReady to play",
+          "name": "local-980a1551-68c7-41fb-a064-b96ed1b037c1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "local-980a1551-68c7-41fb-a064-b96ed1b037c1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "local-980a1551-68c7-41fb-a064-b96ed1b037c1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/precision-design-v2/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "precision-design-v2 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/precision-design-v2/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "precision-design-v2 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "44 cards · 7/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "precision-design-v2 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "precision-design-v2 faction shown",
+          "pass": true
+        },
+        {
+          "name": "precision-design-v2 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/precision-design-large-agendas-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "precision-design-large-agendas-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/precision-design-large-agendas-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "precision-design-large-agendas-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 4/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "precision-design-large-agendas-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "precision-design-large-agendas-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "precision-design-large-agendas-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/restoring-humanity-v2/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "restoring-humanity-v2 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/restoring-humanity-v2/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "restoring-humanity-v2 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "44 cards · 9/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "restoring-humanity-v2 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "restoring-humanity-v2 faction shown",
+          "pass": true
+        },
+        {
+          "name": "restoring-humanity-v2 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/restoring-humanity-planogram-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "restoring-humanity-planogram-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/restoring-humanity-planogram-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "restoring-humanity-planogram-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "44 cards · 5/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "restoring-humanity-planogram-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "restoring-humanity-planogram-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "restoring-humanity-planogram-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/reality-plus-v2/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "reality-plus-v2 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/reality-plus-v2/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "reality-plus-v2 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "44 cards · 5/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "reality-plus-v2 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "reality-plus-v2 faction shown",
+          "pass": true
+        },
+        {
+          "name": "reality-plus-v2 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/reality-plus-tag-and-score-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "reality-plus-tag-and-score-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/reality-plus-tag-and-score-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "reality-plus-tag-and-score-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 3/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "reality-plus-tag-and-score-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "reality-plus-tag-and-score-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "reality-plus-tag-and-score-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/built-to-last-v2/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "built-to-last-v2 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/built-to-last-v2/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "built-to-last-v2 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 9/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "built-to-last-v2 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "built-to-last-v2 faction shown",
+          "pass": true
+        },
+        {
+          "name": "built-to-last-v2 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/built-to-last-heavy-ice-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "built-to-last-heavy-ice-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/built-to-last-heavy-ice-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "built-to-last-heavy-ice-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 2/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "built-to-last-heavy-ice-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "built-to-last-heavy-ice-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "built-to-last-heavy-ice-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/local-a3b688b5-9bd1-495e-b338-2564821f001b/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "local-a3b688b5-9bd1-495e-b338-2564821f001b has ability text",
+          "pass": true
+        },
+        {
+          "name": "runner/opponent/local-a3b688b5-9bd1-495e-b338-2564821f001b/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "local-a3b688b5-9bd1-495e-b338-2564821f001b has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 2/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "local-a3b688b5-9bd1-495e-b338-2564821f001b opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "local-a3b688b5-9bd1-495e-b338-2564821f001b faction shown",
+          "pass": true
+        },
+        {
+          "name": "local-a3b688b5-9bd1-495e-b338-2564821f001b builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp role labels",
+          "pass": true
+        },
+        {
+          "name": "corp/your/precision-design-v2/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "precision-design-v2 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/precision-design-v2/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "precision-design-v2 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "44 cards · 7/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "precision-design-v2 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "precision-design-v2 faction shown",
+          "pass": true
+        },
+        {
+          "name": "precision-design-v2 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/your/precision-design-large-agendas-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "precision-design-large-agendas-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/precision-design-large-agendas-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "precision-design-large-agendas-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 4/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "precision-design-large-agendas-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "precision-design-large-agendas-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "precision-design-large-agendas-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/your/restoring-humanity-v2/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "restoring-humanity-v2 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/restoring-humanity-v2/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "restoring-humanity-v2 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "44 cards · 9/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "restoring-humanity-v2 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "restoring-humanity-v2 faction shown",
+          "pass": true
+        },
+        {
+          "name": "restoring-humanity-v2 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/your/restoring-humanity-planogram-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "restoring-humanity-planogram-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/restoring-humanity-planogram-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "restoring-humanity-planogram-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "44 cards · 5/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "restoring-humanity-planogram-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "restoring-humanity-planogram-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "restoring-humanity-planogram-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/your/reality-plus-v2/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "reality-plus-v2 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/reality-plus-v2/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "reality-plus-v2 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "44 cards · 5/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "reality-plus-v2 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "reality-plus-v2 faction shown",
+          "pass": true
+        },
+        {
+          "name": "reality-plus-v2 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/your/reality-plus-tag-and-score-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "reality-plus-tag-and-score-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/reality-plus-tag-and-score-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "reality-plus-tag-and-score-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 3/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "reality-plus-tag-and-score-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "reality-plus-tag-and-score-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "reality-plus-tag-and-score-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/your/built-to-last-v2/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "built-to-last-v2 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/built-to-last-v2/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "built-to-last-v2 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 9/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "built-to-last-v2 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "built-to-last-v2 faction shown",
+          "pass": true
+        },
+        {
+          "name": "built-to-last-v2 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/your/built-to-last-heavy-ice-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "built-to-last-heavy-ice-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/built-to-last-heavy-ice-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "built-to-last-heavy-ice-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 2/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "built-to-last-heavy-ice-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "built-to-last-heavy-ice-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "built-to-last-heavy-ice-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/your/local-a3b688b5-9bd1-495e-b338-2564821f001b/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "local-a3b688b5-9bd1-495e-b338-2564821f001b has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/your/local-a3b688b5-9bd1-495e-b338-2564821f001b/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "local-a3b688b5-9bd1-495e-b338-2564821f001b has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 2/15 influence · 18/18–19 agenda pointsReady to play",
+          "name": "local-a3b688b5-9bd1-495e-b338-2564821f001b opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "local-a3b688b5-9bd1-495e-b338-2564821f001b faction shown",
+          "pass": true
+        },
+        {
+          "name": "local-a3b688b5-9bd1-495e-b338-2564821f001b builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/loup-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "loup-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/loup-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "loup-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 6/15 influenceReady to play",
+          "name": "loup-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "loup-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "loup-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/loup-burst-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "loup-burst-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/loup-burst-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "loup-burst-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 10/15 influenceReady to play",
+          "name": "loup-burst-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "loup-burst-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "loup-burst-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/local-168088b8-644f-4e06-afba-a0330dcf6397/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "local-168088b8-644f-4e06-afba-a0330dcf6397 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/local-168088b8-644f-4e06-afba-a0330dcf6397/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "local-168088b8-644f-4e06-afba-a0330dcf6397 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 6/15 influenceReady to play",
+          "name": "local-168088b8-644f-4e06-afba-a0330dcf6397 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "local-168088b8-644f-4e06-afba-a0330dcf6397 faction shown",
+          "pass": true
+        },
+        {
+          "name": "local-168088b8-644f-4e06-afba-a0330dcf6397 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/local-ff23be6b-0e59-49c3-8ea8-6f6270168b50/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "local-ff23be6b-0e59-49c3-8ea8-6f6270168b50 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/local-ff23be6b-0e59-49c3-8ea8-6f6270168b50/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "local-ff23be6b-0e59-49c3-8ea8-6f6270168b50 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 6/15 influenceReady to play",
+          "name": "local-ff23be6b-0e59-49c3-8ea8-6f6270168b50 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "local-ff23be6b-0e59-49c3-8ea8-6f6270168b50 faction shown",
+          "pass": true
+        },
+        {
+          "name": "local-ff23be6b-0e59-49c3-8ea8-6f6270168b50 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/zahya-v2/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "zahya-v2 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/zahya-v2/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "zahya-v2 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 15/15 influenceReady to play",
+          "name": "zahya-v2 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "zahya-v2 faction shown",
+          "pass": true
+        },
+        {
+          "name": "zahya-v2 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/zahya-mayfly-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "zahya-mayfly-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/zahya-mayfly-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "zahya-mayfly-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 11/15 influenceReady to play",
+          "name": "zahya-mayfly-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "zahya-mayfly-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "zahya-mayfly-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/tao-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "tao-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/tao-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "tao-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 12/15 influenceReady to play",
+          "name": "tao-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "tao-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "tao-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/tao-burst-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "tao-burst-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/tao-burst-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "tao-burst-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 14/15 influenceReady to play",
+          "name": "tao-burst-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "tao-burst-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "tao-burst-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/tao-mayfly-v1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "tao-mayfly-v1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/tao-mayfly-v1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "tao-mayfly-v1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 12/15 influenceReady to play",
+          "name": "tao-mayfly-v1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "tao-mayfly-v1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "tao-mayfly-v1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/local-980a1551-68c7-41fb-a064-b96ed1b037c1/.character-ability",
+          "pass": true
+        },
+        {
+          "name": "local-980a1551-68c7-41fb-a064-b96ed1b037c1 has ability text",
+          "pass": true
+        },
+        {
+          "name": "corp/opponent/local-980a1551-68c7-41fb-a064-b96ed1b037c1/.character-portrait",
+          "pass": true
+        },
+        {
+          "name": "local-980a1551-68c7-41fb-a064-b96ed1b037c1 has ability text",
+          "pass": true
+        },
+        {
+          "detail": "40 cards · 12/15 influenceReady to play",
+          "name": "local-980a1551-68c7-41fb-a064-b96ed1b037c1 opens legal matching editor",
+          "pass": true
+        },
+        {
+          "name": "local-980a1551-68c7-41fb-a064-b96ed1b037c1 faction shown",
+          "pass": true
+        },
+        {
+          "name": "local-980a1551-68c7-41fb-a064-b96ed1b037c1 builder high-res preview",
+          "pass": true
+        },
+        {
+          "name": "View decks shows two lists",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30019",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30004",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30006",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30020",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30021",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30022",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30023",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30024",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30025",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30026",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30027",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30028",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30029",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30030",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30032",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30033",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30034",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30059",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30053",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30060",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30061",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30062",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30063",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30064",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30065",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30066",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30067",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30068",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30069",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30070",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30071",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30072",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30074",
+          "pass": true
+        },
+        {
+          "name": "Matchup library card 30075",
+          "pass": true
+        },
+        {
+          "name": "No horizontal page overflow",
+          "pass": true
+        }
+      ],
+      "errors": [],
+      "url": "http://localhost:5173/"
+    }
+  }
+}

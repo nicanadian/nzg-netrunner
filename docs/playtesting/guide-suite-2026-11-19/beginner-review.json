@@ -1,0 +1,97 @@
+{
+  "reviewer": "beginner",
+  "date": "2026-11-19",
+  "persona": "Gateway graduate choosing a first Vantage matchup; AI usability reviewer, not a human novice",
+  "method": {
+    "browser": "Shared actual browser, new incognito tab_u; own lobby guide popup tab_w",
+    "firstImpression": "Saved before source/rules/prior reviews. No source, external rules, or other panel reviews read at any point.",
+    "interaction": "Rendered DOM input events and button clicks. Named-button routine sequences scripted with waits; no direct engine/worker actions. localTable.session/state read only after terminal to export.",
+    "visual": "preview_snapshot timed out; DOM inspection only, no visual certification"
+  },
+  "tasks": [
+    {
+      "id": "B1",
+      "goal": "Find an approachable Vantage matchup from the lobby guide as a Gateway graduate",
+      "status": "completed",
+      "actionsEvidence": [
+        "Clicked lobby Pairing & learning guide link; first recommendations name Vic central pressure vs Built to Last defensive economy and say learn tag management with complete familiar rig.",
+        "Switched pool to Vantage and selected exact recommended Vic and Built to Last deck names in lobby.",
+        "Guide separates AI-only results and preliminary samples and says custom decks unbenchmarked."
+      ],
+      "guideHelp": "Three learning goals are an effective on-ramp; clear caveats prevent treating the 48% AI result as a human difficulty score.",
+      "externalKnowledge": "Chose Vic partly because reviewer assignment requested coverage; no outside matchup information.",
+      "friction": "Recommendation cards have no select/launch or deck-detail links. Need manual pool switch and name matching. Lobby includes both Vic central pressure and Vic Central pressure variants; exactness matters.",
+      "severity": "medium",
+      "improvement": "Add a Try this pairing button to each recommendation, preselecting exact pool and both deck IDs. Add Read the deck plan with two first-turn priorities and important new cards.",
+      "howToTest": "Fresh Gateway-profile session: ask a Gateway graduate to launch recommended Vic pairing; confirm exact vic-play-v1 and weyland-vantage-tools-v2 selected without name hunting or accidental pilot selection."
+    },
+    {
+      "id": "B2",
+      "goal": "Use guide alone to choose one small legal Runner edit",
+      "status": "blocked",
+      "fallbackStatus": "completed with builder help and reviewer knowledge",
+      "actionsEvidence": [
+        "Entire rendered guide contains pairing/results instructions but no cuts/adds, sample edit, or deckbuilding legality explanation.",
+        "Opened lobby Tune deck; expanded Deckbuilding basics, which supplies one-for-one swaps, minimum size, faction/influence and save behavior.",
+        "Changed -1 Marjanah +1 Docklands Pass; builder says Changes +1 Docklands Pass -1 Marjanah, 45 cards, 13/15 influence, Ready to play.",
+        "Exported exact JSON as beginner-deck.json."
+      ],
+      "guideHelp": "The central-pressure learning goal provides broad intent, and custom-deck warning correctly removes benchmark certainty after edits.",
+      "externalKnowledge": "Reviewer supplied the idea that an extra Docklands Pass supports HQ multiaccess and that reducing redundant Marjanah while retaining two Cleavers/two Marjanahs preserves barrier coverage. The guide does not teach this reasoning or the copy limit. Builder supplies legality feedback; own Netrunner knowledge supplies card-role and redundancy judgments.",
+      "friction": "Guide-only task cannot be completed. What to learn next is not an actionable deckbuilding exercise. No link to Tune deck or a worked edit/tradeoff.",
+      "severity": "medium; missing educational scope, not a claim the pairing page promises a full deckbuilding tutorial",
+      "improvement": "Add one optional worked one-for-one exercise per recommended deck with card text links, role of the cut/add, before/after size/influence, and a question to observe in the next game. Link directly to editor with exact base deck and clearly label altered lists unbenchmarked.",
+      "howToTest": "Give fresh Gateway graduates only the guide. Ask them to propose one legal edit and explain what function they are sacrificing; verify they can identify both cards, preserve complete breaker coverage and explain legality without outside rules."
+    },
+    {
+      "id": "B3",
+      "goal": "Save/reopen/select the tuned list and finish one natural UI game",
+      "status": "completed",
+      "actionsEvidence": [
+        "Named Suite Beginner 19Nov, Save & use; automatically selected in lobby with Your saved deck is selected. Reopened Tune deck and verified Docklands3 / Marjanah2 / 45cards13influence.",
+        "Jack in started actual Runner game vs recommended Built to Last. Exact deckDocuments embedded in session match exported deck JSON.",
+        "At turn2 contested 2-advanced remote, stole Superconducting Hub; trashed accessed Clearinghouse for3 earlier to remove future damage threat.",
+        "At turn4 read Lionsmane damage subs, took2 with3grip, paid3 from Overclock, jacked out on final choice rather than flatline; later fetched Carmen via Mutual Favor.",
+        "Installed Cleaver to cut Reverb break cost from5 to1; T12 Jailbreak HQ stole Offworld Office. T13 used Vic to draw/remove tag following Orbital score.",
+        "Final turn15: 4-advanced remote with Corp5 points. Drew to6grip before Tread Lightly run; outer remained unrezzed, broke Reverb for1, boosted Carmen2 and broke only Lionsmane jack-out sub1; accepted4 net, then Tithe1, left1 grip; stole Send a Message for terminal Runner8 / Corp5.",
+        "After terminal, changed decks, switched from custom to preset and back to custom via selector, reopened editor and verified unchanged saved quantities.",
+        "Final game JSON: version1093, engine turn30 (UI round15), winner runner, no diagnostics, conceded:false. 162 DOM action trace entries saved."
+      ],
+      "guideHelp": "Pairing was a useful starting point and Vic's goal prompted tag removal. The guide offered no turn plan, damage-budgeting example, economy recovery guidance, or postgame tuning question.",
+      "externalKnowledge": "Substantial tactical Netrunner knowledge: public advanced remote urgency, damage buffer, breaking only relevant subs, economy reservation, targeted tutor, and deciding when server costs exceed budget. Exact choices were supplied by game UI card/subroutine details, not guide.",
+      "friction": "No handoff from guide to play or postgame reflection. Save/reopen flow itself worked and clearly showed legal totals. Dynamic action panels sometimes changed between single-card and multi-card selection; routine scripting had harmless locator/timing misses, not evidence of human UI defects.",
+      "severity": "medium for educational handoff; low/no observed save defect",
+      "improvement": "Add short pregame checklist for this pair: establish income, find killer before revealed damaging sentries, count grip before accepting damage, check every advanced remote, use Vic after a tag. Add postgame prompts separating bad draws, tactical errors and deck edits; link back to exact saved deck.",
+      "howToTest": "Observe a novice playing this pair with the checklist. Record whether they notice a 2+ advanced remote, inspect damage subs, retain a survival buffer, and use Vic once tagged. Ask for one evidence-based edit after game without claiming that one result proves strength."
+    }
+  ],
+  "game": {
+    "artifact": "beginner-game.json",
+    "uiRound": 15,
+    "engineTurn": 30,
+    "points": {
+      "runner": 8,
+      "corp": 5
+    },
+    "terminal": "Runner reached 8 agenda points.",
+    "diagnostics": [],
+    "conceded": false,
+    "editImpact": "Extra Docklands Pass was drawn but never installed; this game does not show edit benefit or establish balance."
+  },
+  "limitations": [
+    "Single AI-driven usability session; reviewer already knows Netrunner and is simulating a Gateway graduate, so not a substitute for human novice testing.",
+    "No screenshot/visual certification due snapshot timeout and shared browser viewport changes.",
+    "Shared incognito storage contained other work; no storage clearing, global preference changes, deletion of others' decks or restoration performed. Parent restores environment.",
+    "Early setup/keep-hand clicks precede detailed automatic trace; setup notes and first-impression artifact preserve their sequence. Trace records successful named DOM clicks; failed locator/timing attempts are visible in tool transcript and had no game action.",
+    "Strategy confounds: early killer absence, optional Spin Doctor trash cost, expensive full-break remote steal and insufficient economy recovery created avoidable pressure. Winning last run used careful but risky damage arithmetic; it is not evidence that guide teaches beginner tactics.",
+    "Only session/config/final fields read after terminal; no private engine cards or direct action APIs used. No headless browser."
+  ],
+  "artifacts": [
+    "beginner-first-impression.md",
+    "beginner-deck.json",
+    "beginner-ui-trace.json",
+    "beginner-game.json",
+    "beginner-review.json",
+    "beginner-review.md"
+  ]
+}

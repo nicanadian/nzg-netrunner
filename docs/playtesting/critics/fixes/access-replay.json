@@ -1,0 +1,986 @@
+{
+  "choices": [
+    {
+      "command": "n",
+      "index": 0,
+      "version": 2
+    },
+    {
+      "command": "install",
+      "index": 3,
+      "version": 32
+    },
+    {
+      "command": "run",
+      "index": 2,
+      "version": 35
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 38
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 49
+    },
+    {
+      "command": "install",
+      "index": 0,
+      "version": 53
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 90
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 91
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 92
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 93
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 94
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 95
+    },
+    {
+      "command": "install",
+      "index": 2,
+      "version": 96
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 97
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "version": 135
+    },
+    {
+      "command": "install",
+      "index": 0,
+      "version": 137
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 140
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 142
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 143
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 144
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 149
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 154
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 159
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 162
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 165
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 168
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 174
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 177
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "version": 181
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 182
+    },
+    {
+      "command": "play",
+      "index": 1,
+      "version": 183
+    },
+    {
+      "command": "continue",
+      "index": 3,
+      "version": 184
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 185
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 187
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 190
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 191
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 202
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 204
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 205
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 209
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 214
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 219
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 223
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 226
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 229
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 234
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 237
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "version": 241
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 242
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "version": 243
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 244
+    },
+    {
+      "command": "run",
+      "index": 0,
+      "version": 245
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 246
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 248
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 256
+    },
+    {
+      "command": "run",
+      "index": 0,
+      "version": 257
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 258
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 260
+    },
+    {
+      "command": "access",
+      "index": 0,
+      "version": 267
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 268
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 271
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 275
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 280
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 285
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 288
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 291
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 294
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 300
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 303
+    },
+    {
+      "command": "run",
+      "index": 1,
+      "version": 307
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 308
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 310
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 318
+    },
+    {
+      "command": "run",
+      "index": 0,
+      "version": 319
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 320
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 322
+    },
+    {
+      "command": "access",
+      "index": 0,
+      "version": 329
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 330
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 333
+    },
+    {
+      "command": "run",
+      "index": 0,
+      "version": 334
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 335
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 337
+    },
+    {
+      "command": "access",
+      "index": 0,
+      "version": 344
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 345
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 348
+    },
+    {
+      "command": "run",
+      "index": 0,
+      "version": 349
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 350
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 352
+    },
+    {
+      "command": "access",
+      "index": 0,
+      "version": 359
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 360
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 363
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 367
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 372
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 377
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 380
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 383
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 386
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 392
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 395
+    },
+    {
+      "command": "run",
+      "index": 0,
+      "version": 399
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 400
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 402
+    },
+    {
+      "command": "access",
+      "index": 0,
+      "version": 409
+    },
+    {
+      "command": "steal",
+      "index": 0,
+      "version": 410
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 414
+    },
+    {
+      "command": "run",
+      "index": 0,
+      "version": 415
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 416
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 418
+    },
+    {
+      "command": "access",
+      "index": 0,
+      "version": 425
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 426
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 429
+    },
+    {
+      "command": "run",
+      "index": 0,
+      "version": 430
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 431
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 433
+    },
+    {
+      "command": "access",
+      "index": 0,
+      "version": 440
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 441
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 444
+    },
+    {
+      "command": "run",
+      "index": 0,
+      "version": 445
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 446
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 448
+    },
+    {
+      "command": "access",
+      "index": 0,
+      "version": 455
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 456
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 459
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 463
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 468
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 473
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 476
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 482
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 486
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 491
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 494
+    },
+    {
+      "command": "run",
+      "index": 0,
+      "version": 498
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 499
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 501
+    },
+    {
+      "command": "access",
+      "index": 0,
+      "version": 508
+    },
+    {
+      "command": "steal",
+      "index": 0,
+      "version": 509
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 513
+    },
+    {
+      "command": "run",
+      "index": 0,
+      "version": 514
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 515
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 517
+    },
+    {
+      "command": "access",
+      "index": 0,
+      "version": 524
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 525
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 528
+    },
+    {
+      "command": "run",
+      "index": 0,
+      "version": 529
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 530
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 532
+    },
+    {
+      "command": "access",
+      "index": 0,
+      "version": 539
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 540
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 543
+    },
+    {
+      "command": "run",
+      "index": 0,
+      "version": 544
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 545
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 547
+    },
+    {
+      "command": "access",
+      "index": 0,
+      "version": 554
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 555
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 558
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 562
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 567
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 581
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 585
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 588
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 592
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 597
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 600
+    },
+    {
+      "command": "run",
+      "index": 0,
+      "version": 604
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 605
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 607
+    }
+  ],
+  "conceded": false,
+  "config": {
+    "cardPool": "vantage-preview-v1",
+    "deckDocuments": {
+      "corp": {
+        "cards": [
+          {
+            "count": 1,
+            "id": "30049"
+          },
+          {
+            "count": 3,
+            "id": "30053"
+          },
+          {
+            "count": 3,
+            "id": "30067"
+          },
+          {
+            "count": 2,
+            "id": "30070"
+          },
+          {
+            "count": 3,
+            "id": "30075"
+          },
+          {
+            "count": 3,
+            "id": "36056"
+          },
+          {
+            "count": 3,
+            "id": "36057"
+          },
+          {
+            "count": 3,
+            "id": "36058"
+          },
+          {
+            "count": 3,
+            "id": "36059"
+          },
+          {
+            "count": 3,
+            "id": "36060"
+          },
+          {
+            "count": 3,
+            "id": "36061"
+          },
+          {
+            "count": 3,
+            "id": "36062"
+          },
+          {
+            "count": 3,
+            "id": "36063"
+          },
+          {
+            "count": 3,
+            "id": "36064"
+          },
+          {
+            "count": 3,
+            "id": "36065"
+          },
+          {
+            "count": 3,
+            "id": "36066"
+          }
+        ],
+        "identity": "30059",
+        "name": "Built to Last · Vantage interactions",
+        "pool": "vantage-preview-v1",
+        "schemaVersion": 1,
+        "side": "corp"
+      },
+      "runner": {
+        "cards": [
+          {
+            "count": 3,
+            "id": "30006"
+          },
+          {
+            "count": 3,
+            "id": "30015"
+          },
+          {
+            "count": 3,
+            "id": "30016"
+          },
+          {
+            "count": 3,
+            "id": "30027"
+          },
+          {
+            "count": 3,
+            "id": "30028"
+          },
+          {
+            "count": 3,
+            "id": "30029"
+          },
+          {
+            "count": 3,
+            "id": "30030"
+          },
+          {
+            "count": 3,
+            "id": "30033"
+          },
+          {
+            "count": 3,
+            "id": "36010"
+          },
+          {
+            "count": 3,
+            "id": "36011"
+          },
+          {
+            "count": 3,
+            "id": "36012"
+          },
+          {
+            "count": 3,
+            "id": "36013"
+          },
+          {
+            "count": 3,
+            "id": "36014"
+          },
+          {
+            "count": 3,
+            "id": "36015"
+          },
+          {
+            "count": 3,
+            "id": "36016"
+          }
+        ],
+        "identity": "36009",
+        "name": "Vic · Vantage interactions",
+        "pool": "vantage-preview-v1",
+        "schemaVersion": 1,
+        "side": "runner"
+      }
+    },
+    "rulesVersion": "26.03-vantage-3",
+    "seed": "edc70c98-ecda-4118-a47d-1e328be3aec3",
+    "side": "runner"
+  },
+  "engine": "local-vantage-preview-3"
+}

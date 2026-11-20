@@ -1,0 +1,1213 @@
+{
+  "final": {
+    "diagnostics": [],
+    "points": {
+      "corp": 0,
+      "runner": 7
+    },
+    "terminal": {
+      "reason": "Runner reached 7 agenda points.",
+      "winner": "runner"
+    },
+    "turn": 6,
+    "version": 227
+  },
+  "history": [
+    {
+      "side": "corp",
+      "text": "Game begins. First to 7 agenda points.",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp chose to keep",
+      "turn": 1
+    },
+    {
+      "actor": "runner",
+      "side": "corp",
+      "text": "Runner chose to keep",
+      "turn": 1
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp created a new remote server",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed a card in root of a remote server",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed ice protecting a remote server",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 1
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking Remote 0",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting Remote 0",
+      "turn": 2
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Corp did not rez ice",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Approaching Remote 0",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Offworld Office accessed",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Offworld Office stolen",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Played \"Jailbreak\"",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Approaching R&D",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 2
+    },
+    {
+      "draw": {
+        "kind": "effect",
+        "source": "Jailbreak"
+      },
+      "side": "runner",
+      "text": "Runner drew a card",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "hidden card accessed",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 2 credits from credit pool",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Spin Doctor trashed",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "hidden card accessed",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 1 credit from credit pool",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Runner installed Fermenter",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "1 virus counter placed on Fermenter",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking HQ",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Approaching HQ",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Spin Doctor accessed",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 2 credits from credit pool",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Spin Doctor trashed",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 2
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Corp created a new remote server",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed a card in root of a remote server",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 3
+    },
+    {
+      "side": "runner",
+      "text": "1 virus counter placed on Fermenter",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking Remote 1",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Approaching Remote 1",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Send a Message accessed",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Send a Message stolen",
+      "turn": 4
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "You may rez 1 installed piece of ice, ignoring all costs triggered",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Approaching R&D",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "hidden card accessed",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking HQ",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Approaching HQ",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Nanomanagement accessed",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 4
+    },
+    {
+      "draw": {
+        "kind": "action"
+      },
+      "side": "runner",
+      "text": "Runner drew a card",
+      "turn": 4
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Corp created a new remote server",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed a card in root of a remote server",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed ice protecting a remote server",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 5
+    },
+    {
+      "side": "runner",
+      "text": "1 virus counter placed on Fermenter",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Using Fermenter:",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Fermenter trashed",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained 6 credits",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking Remote 2",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting Remote 2",
+      "turn": 6
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Corp did not rez ice",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Approaching Remote 2",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Project Ingatan accessed",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Project Ingatan stolen",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Runner reached 7 agenda points.",
+      "turn": 6
+    }
+  ],
+  "session": {
+    "choices": [
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1
+      },
+      {
+        "command": "install",
+        "index": 0,
+        "version": 8
+      },
+      {
+        "command": "install",
+        "index": 1,
+        "version": 12
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 16
+      },
+      {
+        "command": "install",
+        "index": 0,
+        "version": 104
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 108
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 109
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 136
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 137
+      },
+      {
+        "command": "install",
+        "index": 0,
+        "version": 187
+      },
+      {
+        "command": "install",
+        "index": 2,
+        "version": 191
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 195
+      }
+    ],
+    "conceded": false,
+    "config": {
+      "aiPolicy": "pressure-v1",
+      "cardPool": "core-v1",
+      "deckDocuments": {
+        "corp": {
+          "cards": [
+            {
+              "count": 1,
+              "id": "30036"
+            },
+            {
+              "count": 2,
+              "id": "30038"
+            },
+            {
+              "count": 3,
+              "id": "30039"
+            },
+            {
+              "count": 1,
+              "id": "30040"
+            },
+            {
+              "count": 1,
+              "id": "30041"
+            },
+            {
+              "count": 3,
+              "id": "30042"
+            },
+            {
+              "count": 3,
+              "id": "30053"
+            },
+            {
+              "count": 3,
+              "id": "30067"
+            },
+            {
+              "count": 2,
+              "id": "30069"
+            },
+            {
+              "count": 1,
+              "id": "30071"
+            },
+            {
+              "count": 3,
+              "id": "30075"
+            },
+            {
+              "count": 3,
+              "id": "35038"
+            },
+            {
+              "count": 3,
+              "id": "35040"
+            },
+            {
+              "count": 3,
+              "id": "35041"
+            },
+            {
+              "count": 1,
+              "id": "35042"
+            },
+            {
+              "count": 1,
+              "id": "35043"
+            },
+            {
+              "count": 3,
+              "id": "35045"
+            },
+            {
+              "count": 3,
+              "id": "35054"
+            },
+            {
+              "count": 3,
+              "id": "35076"
+            },
+            {
+              "count": 1,
+              "id": "35079"
+            },
+            {
+              "count": 3,
+              "id": "35081"
+            },
+            {
+              "count": 2,
+              "id": "35082"
+            }
+          ],
+          "identity": "35035",
+          "name": "[NSG Core] Agency",
+          "pool": "core-v1",
+          "schemaVersion": 1,
+          "side": "corp",
+          "source": {
+            "author": "Girometics",
+            "externalId": "8b2c2754-48c2-4375-a124-e1eebba9a95e",
+            "fetchedAt": "2026-11-13T23:20:35.457Z",
+            "originalTitle": "[NSG Core] Agency",
+            "provider": "NetrunnerDB v2 public",
+            "updatedAt": "2026-10-27T10:15:14+00:00",
+            "url": "https://netrunnerdb.com/en/decklist/8b2c2754-48c2-4375-a124-e1eebba9a95e"
+          }
+        },
+        "runner": {
+          "cards": [
+            {
+              "count": 3,
+              "id": "30004"
+            },
+            {
+              "count": 3,
+              "id": "30007"
+            },
+            {
+              "count": 2,
+              "id": "30008"
+            },
+            {
+              "count": 2,
+              "id": "30015"
+            },
+            {
+              "count": 2,
+              "id": "30026"
+            },
+            {
+              "count": 3,
+              "id": "30028"
+            },
+            {
+              "count": 2,
+              "id": "30029"
+            },
+            {
+              "count": 3,
+              "id": "30030"
+            },
+            {
+              "count": 2,
+              "id": "30033"
+            },
+            {
+              "count": 2,
+              "id": "30034"
+            },
+            {
+              "count": 2,
+              "id": "35003"
+            },
+            {
+              "count": 2,
+              "id": "35004"
+            },
+            {
+              "count": 3,
+              "id": "35005"
+            },
+            {
+              "count": 3,
+              "id": "35009"
+            },
+            {
+              "count": 3,
+              "id": "35011"
+            },
+            {
+              "count": 3,
+              "id": "35015"
+            },
+            {
+              "count": 2,
+              "id": "35018"
+            },
+            {
+              "count": 3,
+              "id": "35034"
+            }
+          ],
+          "identity": "35001",
+          "name": "Dashing Mad",
+          "pool": "core-v1",
+          "schemaVersion": 1,
+          "side": "runner",
+          "source": {
+            "url": "https://netrunnerdb.com/en/decklist/074c32b0-6429-49ec-91c1-46dcddba9e4b/-nsg-core-dashing-mad"
+          }
+        }
+      },
+      "rulesVersion": "26.03-core-2",
+      "seed": "1d47bc37-a0a6-4c76-b399-bb160f8a2949",
+      "side": "corp"
+    },
+    "engine": "chiriboga-core-c863f5a-local-2"
+  },
+  "clicks": [
+    {
+      "version": 1,
+      "turn": 1,
+      "phase": {
+        "identifier": "Corp Mulligan",
+        "source": null,
+        "title": "Corporation's Mulligan"
+      },
+      "text": "Keep this hand→",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 8,
+      "turn": 1,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Install1 click8 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c16 c6 c20 c27 c15",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 8,
+      "turn": 1,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Offworld Office1 click · 0 creditsInstall facedownInstall → New remote",
+      "data": {
+        "installCard": "c16",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 12,
+      "turn": 1,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Install1 click11 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c6 c20 c27 c15",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 12,
+      "turn": 1,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Brân 1.05 legal destinations",
+      "data": {
+        "installCard": "c6",
+        "vantageProbe": "8"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 12,
+      "turn": 1,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Remote 11 click · 0 creditsKeep existing ice",
+      "data": {
+        "command": "install",
+        "option": "1",
+        "relatedCards": "c6",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 16,
+      "turn": 1,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Advance1 click · 1 creditOffworld Office→",
+      "data": {
+        "command": "advance",
+        "group": "",
+        "relatedCards": "c16",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 31,
+      "turn": 2,
+      "phase": {
+        "identifier": "Run 1.5",
+        "source": null,
+        "title": "Run: Initiation"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 35,
+      "turn": 2,
+      "phase": {
+        "identifier": "Run 4.1",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Understood · continue the run",
+      "data": {
+        "rezReviewContinue": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 104,
+      "turn": 3,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Install1 click4 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c20 c27",
+        "vantageProbe": "8"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 104,
+      "turn": 3,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Send a Message2 legal destinations",
+      "data": {
+        "installCard": "c20",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 104,
+      "turn": 3,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "New remote1 click · 0 creditsInstall facedown",
+      "data": {
+        "command": "install",
+        "option": "0",
+        "relatedCards": "c20",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 108,
+      "turn": 3,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Advance1 click · 1 creditSend a Message→",
+      "data": {
+        "command": "advance",
+        "group": "",
+        "relatedCards": "c20",
+        "vantageProbe": "12"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 109,
+      "turn": 3,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Advance1 click · 1 creditSend a Message→",
+      "data": {
+        "command": "advance",
+        "group": "",
+        "relatedCards": "c20",
+        "vantageProbe": "12"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 121,
+      "turn": 4,
+      "phase": {
+        "identifier": "Runner 1.2",
+        "source": null,
+        "title": "Runner's Turn Begins"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "8"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 137,
+      "turn": 4,
+      "phase": {
+        "identifier": "Stolen",
+        "source": "Send a Message",
+        "title": "You may rez 1 installed piece of ice, ignoring all costs"
+      },
+      "text": "Decline free rez",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "relatedCards": "c20",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 140,
+      "turn": 4,
+      "phase": {
+        "identifier": "Run 6.4",
+        "source": null,
+        "title": "Run: End"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 187,
+      "turn": 5,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Install1 click7 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c27 c7",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 187,
+      "turn": 5,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Project Ingatan2 legal destinations",
+      "data": {
+        "installCard": "c27",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 187,
+      "turn": 5,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "New remote1 click · 0 creditsInstall facedown",
+      "data": {
+        "command": "install",
+        "option": "0",
+        "relatedCards": "c27",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 191,
+      "turn": 5,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Install1 click6 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c7",
+        "vantageProbe": "13"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 191,
+      "turn": 5,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Remote 31 click · 0 creditsKeep existing ice",
+      "data": {
+        "command": "install",
+        "option": "2",
+        "relatedCards": "c7",
+        "vantageProbe": "16"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 195,
+      "turn": 5,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Advance1 click · 1 creditProject Ingatan→",
+      "data": {
+        "command": "advance",
+        "group": "",
+        "relatedCards": "c27",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 207,
+      "turn": 6,
+      "phase": {
+        "identifier": "Runner 1.2",
+        "source": null,
+        "title": "Runner's Turn Begins"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 217,
+      "turn": 6,
+      "phase": {
+        "identifier": "Run 4.1",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Understood · continue the run",
+      "data": {
+        "rezReviewContinue": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    }
+  ],
+  "notes": [
+    "Shared-browser functional smoke test: LEO Agency vs Phoenix, rendered DOM controls only.",
+    "Runner won in round 3. Driver staged agendas before banking enough for expensive ice; this poor Corp strategy is not evidence that the official list is malformed.",
+    "Both deck selectors and completion worked; this short game did not exercise the exact LEO/Shred regression. That timing is covered by a deterministic rules fixture and exhaustive engine matchups."
+  ]
+}

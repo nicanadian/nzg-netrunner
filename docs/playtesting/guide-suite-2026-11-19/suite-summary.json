@@ -1,0 +1,224 @@
+{
+  "date": "2026-11-19",
+  "reviewers": 6,
+  "reviewerType": "Fresh AI reviewers with distinct task briefs; not human novice research",
+  "manualTaskSlots": 18,
+  "reportedTaskStatuses": {
+    "completed": 16,
+    "blocked": 1,
+    "partial": 1
+  },
+  "naturalBrowserGames": 3,
+  "nativeGameDecisions": 820,
+  "persistenceCheckpoints": 3,
+  "guardrailCases": 14,
+  "baselineDocuments": 58,
+  "productUnchanged": true,
+  "findings": [
+    {
+      "priority": "P1",
+      "title": "Match exact list names and carry setup intent",
+      "evidence": [
+        "B1",
+        "C1",
+        "D1",
+        "N3",
+        "R1",
+        "P1"
+      ],
+      "observation": "Guide-to-lobby name matching and round trips require manual reconstruction. Core guide labels omit Dashing Mad/Brutal Efficiency. Browsing another pool does not change the Back link; a fresh lobby defaults player side to Runner.",
+      "proposal": "Share lobby display labels with the guide. Add Use this pairing with exact IDs, pool and explicit human side, plus Tune this list. Clarify returning to the original lobby versus configuring a selected pairing.",
+      "acceptance": "From Gateway, choose Vantage Jinteki as human Corp versus Loup; the setup has the exact lists and side without starting a game or overwriting an existing save. Core titles match verbatim. The original tab is preserved."
+    },
+    {
+      "priority": "P1",
+      "title": "Teach one deliberate edit, with construction and coherence explained separately",
+      "evidence": [
+        "B2",
+        "C2",
+        "D2",
+        "P2",
+        "P3"
+      ],
+      "observation": "One guide-only edit task was blocked; its fallback succeeded with builder/expert help. Corp errors were repaired using builder feedback. Removing all Touchstones left a legal list with Corsairs and no stealth credit source.",
+      "proposal": "Attach an optional worked cut/add example to each learning goal: role of both cards, legal totals, sacrificed capability and dependencies. Link to existing Deckbuilding basics. Keep coherence advisories distinct from legality errors and preserve creative legal lists.",
+      "acceptance": "A reader can explain the role lost by a cut and diagnose a missing stealth source. Last-Touchstone removal remains legal but has a specific advisory about Corsair reduction funding. A Corp example explains size and agenda-band changes, plus influence/copies."
+    },
+    {
+      "priority": "P1",
+      "title": "Move prerequisites beside the chosen lesson and show a real payment example",
+      "evidence": [
+        "D1",
+        "D3",
+        "B3"
+      ],
+      "observation": "A short Touchstone/Corsair hint exists under collapsed What to learn next. The dependency reviewer did not obtain a sufficient working model from it. Actual play required named source selection and separate strength-reduction/break costs.",
+      "proposal": "Show a compact dependency chain beside the stealth path and a worked barrier encounter; retain full card-text links. Explain the finite stealth budget and which cost can use ordinary credits.",
+      "acceptance": "Given strength-4 Palisade, a learner can explain two Corsair reductions paid with two stealth credits and a separate one-credit break paid from another legal source. They can identify what fails with an empty stealth budget."
+    },
+    {
+      "priority": "P2",
+      "title": "Give each side and card pool a relevant entry point",
+      "evidence": [
+        "C1",
+        "N3",
+        "P1"
+      ],
+      "observation": "Corp users browse Your Runner deck and invert rates. Gateway/Core routes still lead with Vantage lessons.",
+      "proposal": "Initialize from pool, human side and exact selected deck. Offer My Runner/My Corp views with explicitly labeled test-win direction; surface the relevant learning path first.",
+      "acceptance": "A Gateway Corp can hold their Corp fixed while comparing Runner opponents. The header and recommendations show the selected pool; six-game results remain visibly preliminary."
+    },
+    {
+      "priority": "P2",
+      "title": "Keep a baseline and game-start snapshot visible across edits",
+      "evidence": [
+        "R1",
+        "R2",
+        "R3",
+        "N3"
+      ],
+      "observation": "Persistence works, but reopened custom editors show changes relative to that edit session, not the original baseline. A resumed game and revised library deck may share a name while holding different card counts.",
+      "proposal": "Add Based on [exact baseline], cumulative Compare to baseline, and a game-start snapshot label. Add short returning-player instructions that reuse current Resume/Jack in copy. Show custom benchmark status at the edit/selection point.",
+      "acceptance": "After two saved revisions, the cumulative delta remains inspectable. Resume shows the old exact list; fresh Jack in shows the new list, with names/revision context making the difference clear. No original benchmark percentage is assigned to the custom revision."
+    },
+    {
+      "priority": "P2",
+      "title": "Teach an observation loop instead of using wins as the only feedback",
+      "evidence": [
+        "B3",
+        "C3",
+        "D3",
+        "P3"
+      ],
+      "observation": "The extra Docklands Pass was not installed and Anoetic Void never activated before their wins. The stealth lesson occurred through the preserved core package; that does not measure benefit of the DZMZ swap.",
+      "proposal": "Use a small worksheet: goal, one edit, cost/tradeoff, expected interaction, what actually happened, next decision. Include optional opening/threat reminders. Pairings and recipes are hypotheses, not strength certifications.",
+      "acceptance": "An edit can be recorded as untested when its interaction never occurs, even after a win. A player can separate a deck issue from a missed remote threat or payment/strategy mistake and define a useful next trial."
+    },
+    {
+      "priority": "P3",
+      "title": "Polish narrow navigation targets",
+      "evidence": [
+        "N1"
+      ],
+      "observation": "No horizontal overflow at 390px; sampled keyboard navigation worked. Section/back links measured around 23px high while form controls met 44px.",
+      "proposal": "Increase link hit areas while preserving wrap and focus outlines; repeat keyboard and coarse-pointer checks.",
+      "acceptance": "Relevant links have comfortable 44px targets at narrow width and retain correct Tab/Enter behavior. Full visual/accessibility qualification remains separate."
+    }
+  ],
+  "tasks": [
+    {
+      "reviewer": "beginner",
+      "id": "B1",
+      "status": "completed",
+      "severity": "medium"
+    },
+    {
+      "reviewer": "beginner",
+      "id": "B2",
+      "status": "blocked",
+      "severity": "medium; missing educational scope, not a claim the pairing page promises a full deckbuilding tutorial"
+    },
+    {
+      "reviewer": "beginner",
+      "id": "B3",
+      "status": "completed",
+      "severity": "medium for educational handoff; low/no observed save defect"
+    },
+    {
+      "reviewer": "constraints",
+      "id": "C1",
+      "status": "completed",
+      "severity": "medium"
+    },
+    {
+      "reviewer": "constraints",
+      "id": "C2",
+      "status": "completed",
+      "severity": "medium"
+    },
+    {
+      "reviewer": "constraints",
+      "id": "C3",
+      "status": "completed",
+      "severity": "medium"
+    },
+    {
+      "reviewer": "dependency",
+      "id": "D1",
+      "status": "completed",
+      "severity": null
+    },
+    {
+      "reviewer": "dependency",
+      "id": "D2",
+      "status": "completed",
+      "severity": null
+    },
+    {
+      "reviewer": "dependency",
+      "id": "D3",
+      "status": "completed",
+      "severity": null
+    },
+    {
+      "reviewer": "navigation",
+      "id": "N1",
+      "status": "completed",
+      "severity": null
+    },
+    {
+      "reviewer": "navigation",
+      "id": "N2",
+      "status": "completed",
+      "severity": null
+    },
+    {
+      "reviewer": "navigation",
+      "id": "N3",
+      "status": "completed",
+      "severity": null
+    },
+    {
+      "reviewer": "returning",
+      "id": "R1",
+      "status": "completed",
+      "severity": "P2 naming/discoverability; P3 baseline comparison"
+    },
+    {
+      "reviewer": "returning",
+      "id": "R2",
+      "status": "completed",
+      "severity": "P3 documentation opportunity; no persistence defect observed"
+    },
+    {
+      "reviewer": "returning",
+      "id": "R3",
+      "status": "completed",
+      "severity": "P3 snapshot labeling; no persistence defect observed"
+    },
+    {
+      "reviewer": "pools",
+      "id": "P1",
+      "status": "completed",
+      "severity": null
+    },
+    {
+      "reviewer": "pools",
+      "id": "P2",
+      "status": "partial",
+      "severity": null
+    },
+    {
+      "reviewer": "pools",
+      "id": "P3",
+      "status": "completed",
+      "severity": null
+    }
+  ],
+  "cleanup": {
+    "localhostIncognitoRestored": true,
+    "aliasIncognitoRestored": true,
+    "testTabsClosed": true,
+    "defaultProfileUntouched": true
+  }
+}

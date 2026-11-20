@@ -1,0 +1,943 @@
+{
+  "setup": [
+    "Clicked lobby guide link (popup not surfaced by shared tool); opened own guide tab at observed href.",
+    "Selected Hiram, read22% vsJinteki and54games caveat.",
+    "Tuned45cards9/15 through plus/minus: -2BetaBuild,-1Sipa,+2Jailbreak,+1T400MemoryDiamond; save &use selected custom deck.",
+    "Kept opening Sipa,Stowaway,VRcation,TeleworkContract,T400MemoryDiamond."
+  ],
+  "gameplay": [
+    {
+      "version": 8,
+      "turn": 1,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "4"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 37,
+      "turn": 2,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Install1 click5 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c84 c87 c36 c3 c62 c70",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 37,
+      "turn": 2,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "T400 Memory Diamond1 click · 2 creditsInstall → Install T400 Memory Diamond into hardware row",
+      "data": {
+        "installCard": "c70",
+        "vantageProbe": "16"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 39,
+      "turn": 2,
+      "phase": {
+        "identifier": "Installed",
+        "source": null,
+        "title": "Installed"
+      },
+      "text": "Hiram “0mission” Svensson: Shadow of the Past→",
+      "data": {
+        "abilityKind": "",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c46",
+        "sourceId": "c46",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 41,
+      "turn": 2,
+      "phase": {
+        "identifier": "Installed",
+        "source": "Hiram “0mission” Svensson: Shadow of the Past",
+        "title": "Hiram “0mission” Svensson: Shadow of the Past"
+      },
+      "text": "Finish looking→",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 45,
+      "turn": 2,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Draw a card1 click→",
+      "data": {
+        "command": "draw",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 47,
+      "turn": 2,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Install1 click5 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c84 c87 c36 c3 c62 c60",
+        "vantageProbe": "12"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 47,
+      "turn": 2,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Unity1 click · 3 creditsInstall → Install Unity into program row",
+      "data": {
+        "installCard": "c60",
+        "vantageProbe": "17"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 52,
+      "turn": 2,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Draw a card1 click→",
+      "data": {
+        "command": "draw",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 66,
+      "turn": 3,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 92,
+      "turn": 4,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Install1 click3 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c87 c36 c3 c35",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 92,
+      "turn": 4,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Facedown ice · R&D · ice 1 from outside1 click · 0 credits",
+      "data": {
+        "command": "install",
+        "option": "0",
+        "relatedCards": "c87 c36",
+        "vantageProbe": "13"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 97,
+      "turn": 4,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Draw a card1 click→",
+      "data": {
+        "command": "draw",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "13"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 99,
+      "turn": 4,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "HQ ›",
+      "data": {
+        "serverAction": "HQ",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 102,
+      "turn": 4,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 112,
+      "turn": 4,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Finish accessingFinish resolving this card’s access.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 116,
+      "turn": 4,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "HQ ›",
+      "data": {
+        "serverAction": "HQ",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 119,
+      "turn": 4,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 129,
+      "turn": 4,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Finish accessingFinish resolving this card’s access.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 145,
+      "turn": 5,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 170,
+      "turn": 6,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "HQ ›",
+      "data": {
+        "serverAction": "HQ",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 173,
+      "turn": 6,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 183,
+      "turn": 6,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Finish accessingFinish resolving this card’s access.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 187,
+      "turn": 6,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "HQ ›",
+      "data": {
+        "serverAction": "HQ",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 190,
+      "turn": 6,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 200,
+      "turn": 6,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Finish accessingFinish resolving this card’s access.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 204,
+      "turn": 6,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "HQ ›",
+      "data": {
+        "serverAction": "HQ",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 207,
+      "turn": 6,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 217,
+      "turn": 6,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Finish accessingFinish resolving this card’s access.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 221,
+      "turn": 6,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "HQ ›",
+      "data": {
+        "serverAction": "HQ",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 224,
+      "turn": 6,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 234,
+      "turn": 6,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Finish accessingFinish resolving this card’s access.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 250,
+      "turn": 7,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "12"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 272,
+      "turn": 8,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "HQ ›",
+      "data": {
+        "serverAction": "HQ",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 275,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 285,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Steal agenda0 credits→",
+      "data": {
+        "command": "steal",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 290,
+      "turn": 8,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "HQ ›",
+      "data": {
+        "serverAction": "HQ",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 293,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 303,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Finish accessingFinish resolving this card’s access.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 307,
+      "turn": 8,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "HQ ›",
+      "data": {
+        "serverAction": "HQ",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 310,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 320,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Finish accessingFinish resolving this card’s access.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 324,
+      "turn": 8,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "HQ ›",
+      "data": {
+        "serverAction": "HQ",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 327,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 337,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Finish accessingFinish resolving this card’s access.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 353,
+      "turn": 9,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "12"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 375,
+      "turn": 10,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "HQ ›",
+      "data": {
+        "serverAction": "HQ",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 378,
+      "turn": 10,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 388,
+      "turn": 10,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Finish accessingFinish resolving this card’s access.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 392,
+      "turn": 10,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "HQ ›",
+      "data": {
+        "serverAction": "HQ",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 395,
+      "turn": 10,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 405,
+      "turn": 10,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Finish accessingFinish resolving this card’s access.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 409,
+      "turn": 10,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "HQ ›",
+      "data": {
+        "serverAction": "HQ",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 412,
+      "turn": 10,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 422,
+      "turn": 10,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Finish accessingFinish resolving this card’s access.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 426,
+      "turn": 10,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "HQ ›",
+      "data": {
+        "serverAction": "HQ",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 429,
+      "turn": 10,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 439,
+      "turn": 10,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Finish accessingFinish resolving this card’s access.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 448,
+      "turn": 10,
+      "phase": {
+        "identifier": "Runner 2.2",
+        "source": null,
+        "title": "Runner's Discard Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "13"
+      },
+      "interaction": "DOM button click"
+    }
+  ]
+}

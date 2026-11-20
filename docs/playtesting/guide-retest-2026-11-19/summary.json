@@ -1,0 +1,30 @@
+{
+  "reviewers": 3,
+  "reviewerType": "Fresh AI reviewers; not a human study",
+  "naturalBrowserGames": 3,
+  "validatedNativeDecisions": 896,
+  "allDeckDocumentsValid": true,
+  "engineDiagnostics": 0,
+  "mainResult": "Setup, recipes, cumulative baselines and observation-note workflows completed in real UI games",
+  "knownCopyIssues": [
+    "Corp threshold paragraph",
+    "Touchstone first-event/uniqueness clarity"
+  ],
+  "remainingPolish": [
+    "Explicit copy-baseline-plan action",
+    "Concrete optional opening examples",
+    "Adaptive target-selection guidance"
+  ],
+  "cleanup": {
+    "allThreeTestOriginsRestored": true,
+    "ownedTabsClosed": true,
+    "temporary5174ServerStopped": true,
+    "defaultProfileUntouched": true
+  },
+  "postReviewRefinements": [
+    "Corp threshold text now relative to selected side",
+    "Touchstone first-event and uniqueness conditions plus card links",
+    "Palisade remote/central strength context",
+    "Spend 2 clicks payment label"
+  ]
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "name": "runner",
+    "choices": 557,
+    "terminal": {
+      "winner": "corp",
+      "reason": "Corp reached 8 agenda points."
+    },
+    "version": 2108,
+    "reconstructed": true,
+    "errors": []
+  },
+  {
+    "name": "corp",
+    "choices": 38,
+    "terminal": {
+      "winner": "runner",
+      "reason": "Runner reached 7 agenda points."
+    },
+    "version": 404,
+    "reconstructed": true,
+    "errors": []
+  }
+]

@@ -1,0 +1,1658 @@
+{
+  "schemaVersion": 1,
+  "set": "Vantage Point",
+  "rules": "26.03",
+  "source": "../research/vantage-point/source.json",
+  "notice": "Specifications are test requirements, not passes. Definition, rules, browser and AI evidence remain separate.",
+  "cards": [
+    {
+      "id": "36001",
+      "title": "Chain Reaction",
+      "side": "runner",
+      "type": "event",
+      "faction": "anarch",
+      "wave": 2,
+      "dependencies": [
+        "run-history",
+        "trash"
+      ],
+      "requiredScenarios": [
+        "Require three distinct successful centrals this turn",
+        "choose two distinct installed Corp cards",
+        "Corp chooses an installed Runner card",
+        "interrupted/terminal cleanup."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-runner-complete.cjs"
+      ]
+    },
+    {
+      "id": "36002",
+      "title": "Take a Dive",
+      "side": "runner",
+      "type": "event",
+      "faction": "anarch",
+      "wave": 2,
+      "dependencies": [
+        "run-events",
+        "bad-publicity"
+      ],
+      "requiredScenarios": [
+        "Only HQ/R&D",
+        "success and an actually resolved subroutine required",
+        "broken or skipped subroutine is insufficient",
+        "event removed after unsuccessful run too."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-runner-complete.cjs"
+      ]
+    },
+    {
+      "id": "36003",
+      "title": "The Tungsten Tailor",
+      "side": "runner",
+      "type": "hardware",
+      "faction": "anarch",
+      "wave": 2,
+      "dependencies": [
+        "strength",
+        "break-history"
+      ],
+      "requiredScenarios": [
+        "Global minus one includes all ice and respects zero/negative strength",
+        "credit only for first qualifying break each player turn",
+        "no reward on merely passing."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-wave4.cjs"
+      ]
+    },
+    {
+      "id": "36004",
+      "title": "Corsair",
+      "side": "runner",
+      "type": "program",
+      "faction": "anarch",
+      "wave": 1,
+      "dependencies": [
+        "stealth",
+        "encounters"
+      ],
+      "requiredScenarios": [
+        "Barrier-only breaks",
+        "stealth-only strength payment excludes pool/fund/non-stealth",
+        "exact and insufficient credits",
+        "reduction expires at encounter end."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-foundation.cjs"
+      ]
+    },
+    {
+      "id": "36005",
+      "title": "Lampades",
+      "side": "runner",
+      "type": "program",
+      "faction": "anarch",
+      "wave": 2,
+      "dependencies": [
+        "stealth",
+        "access"
+      ],
+      "requiredScenarios": [
+        "Three install counters",
+        "pay printed cost exclusively with stealth and a counter",
+        "zero/X cost rules",
+        "counter and credit costs precede trash, prevention and terminal handling."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-runner-complete.cjs"
+      ]
+    },
+    {
+      "id": "36006",
+      "title": "Hackerspace",
+      "side": "runner",
+      "type": "resource",
+      "faction": "anarch",
+      "wave": 2,
+      "dependencies": [
+        "hosting",
+        "install-discounts"
+      ],
+      "requiredScenarios": [
+        "Only unique companion/connection resources",
+        "discount floors at zero",
+        "hand bonus requires both subtypes hosted",
+        "trash/uninstall and memory independence."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-runner-complete.cjs",
+        "tests/vantage-boundaries.cjs"
+      ]
+    },
+    {
+      "id": "36007",
+      "title": "Nurse Hạnh",
+      "side": "runner",
+      "type": "resource",
+      "faction": "anarch",
+      "wave": 2,
+      "dependencies": [
+        "archives-reveal",
+        "draw"
+      ],
+      "requiredScenarios": [
+        "Two or more facedown Archives cards revealed by one event draws exactly two",
+        "one card or already-faceup cards do not qualify",
+        "deck exhaustion and simultaneous effects."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-runner-complete.cjs"
+      ]
+    },
+    {
+      "id": "36008",
+      "title": "Stick and Poke",
+      "side": "runner",
+      "type": "resource",
+      "faction": "anarch",
+      "wave": 2,
+      "dependencies": [
+        "encounters",
+        "subroutines"
+      ],
+      "requiredScenarios": [
+        "First encounter each player turn",
+        "prepend temporary subroutine",
+        "damage resolves before draw including flatline",
+        "expiry and re-encounter."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-runner-complete.cjs"
+      ]
+    },
+    {
+      "id": "36009",
+      "title": "Virtual Intelligence, P.I.: “You Can Call Me Vic”",
+      "side": "runner",
+      "type": "identity",
+      "faction": "criminal",
+      "wave": 4,
+      "dependencies": [
+        "tags",
+        "once-per-turn"
+      ],
+      "requiredScenarios": [
+        "Pay click and credit before draw/tag removal",
+        "zero tags still allows draw",
+        "once each turn and reset",
+        "loss/prevention and draw exhaustion."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-wave2.cjs"
+      ]
+    },
+    {
+      "id": "36010",
+      "title": "Kompromat",
+      "side": "runner",
+      "type": "event",
+      "faction": "criminal",
+      "wave": 2,
+      "dependencies": [
+        "run-events",
+        "bad-publicity"
+      ],
+      "requiredScenarios": [
+        "Only server initially protected by ice",
+        "successful run-end Corp choice of a rezzed protecting ice or bad publicity",
+        "no eligible derez",
+        "event removal on all endings."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-runner-complete.cjs"
+      ]
+    },
+    {
+      "id": "36011",
+      "title": "Sell Out",
+      "side": "runner",
+      "type": "event",
+      "faction": "criminal",
+      "wave": 2,
+      "dependencies": [
+        "additional-cost",
+        "trash",
+        "draw"
+      ],
+      "requiredScenarios": [
+        "Must trash installed resource before gain/draw",
+        "no resource or prevented trash blocks payment",
+        "source/location changes",
+        "draw exhaustion."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-wave4.cjs"
+      ]
+    },
+    {
+      "id": "36012",
+      "title": "Tailgate",
+      "side": "runner",
+      "type": "event",
+      "faction": "criminal",
+      "wave": 2,
+      "dependencies": [
+        "run-events",
+        "cost-modifiers",
+        "multiaccess"
+      ],
+      "requiredScenarios": [
+        "Discount by HQ ice count floors at zero and payment uses current count",
+        "HQ run only",
+        "two extra accesses stack correctly",
+        "failure or replacement breach."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-wave2.cjs"
+      ]
+    },
+    {
+      "id": "36013",
+      "title": "Borrowed Goods",
+      "side": "runner",
+      "type": "hardware",
+      "faction": "criminal",
+      "wave": 1,
+      "dependencies": [
+        "install",
+        "tags",
+        "memory"
+      ],
+      "requiredScenarios": [
+        "One MU while installed",
+        "install gives tag only when untagged",
+        "tag avoidance",
+        "reinstall triggers again",
+        "removal restores memory."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-foundation.cjs"
+      ]
+    },
+    {
+      "id": "36014",
+      "title": "Rotary",
+      "side": "runner",
+      "type": "hardware",
+      "faction": "criminal",
+      "wave": 2,
+      "dependencies": [
+        "breach",
+        "tags",
+        "cross-player-ability"
+      ],
+      "requiredScenarios": [
+        "Optional tag for additional HQ/R&D access",
+        "multiple breaches",
+        "console limit",
+        "Corp-only click/two-credit trash while tagged, unavailable to Runner."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-runner-complete.cjs",
+        "tests/vantage-boundaries.cjs"
+      ]
+    },
+    {
+      "id": "36015",
+      "title": "Baker",
+      "side": "runner",
+      "type": "program",
+      "faction": "criminal",
+      "wave": 2,
+      "dependencies": [
+        "stealth",
+        "run-redirection",
+        "once-per-turn"
+      ],
+      "requiredScenarios": [
+        "One click Archives run once per turn",
+        "optional one-credit stealth redirect after Archives ice",
+        "HQ/R&D approached after ice",
+        "failure/decline and reset."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-runner-complete.cjs"
+      ]
+    },
+    {
+      "id": "36016",
+      "title": "Underdome Irregulars",
+      "side": "runner",
+      "type": "resource",
+      "faction": "criminal",
+      "wave": 2,
+      "dependencies": [
+        "turn-history",
+        "action-end",
+        "tags"
+      ],
+      "requiredScenarios": [
+        "Only ice rez this turn qualifies",
+        "optional draw-two versus remove-tag outcomes",
+        "trash when no ice rezzed",
+        "reset across turns and draw exhaustion."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-wave4.cjs"
+      ]
+    },
+    {
+      "id": "36017",
+      "title": "Hiram “0mission” Svensson: Shadow of the Past",
+      "side": "runner",
+      "type": "identity",
+      "faction": "shaper",
+      "wave": 4,
+      "dependencies": [
+        "private-look",
+        "install",
+        "trash"
+      ],
+      "requiredScenarios": [
+        "Every hardware install or trash from any zone triggers",
+        "look private to Runner",
+        "multiple simultaneous events and empty R&D",
+        "opponent replay does not reveal."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-runner-complete.cjs"
+      ]
+    },
+    {
+      "id": "36018",
+      "title": "Aircheck",
+      "side": "runner",
+      "type": "event",
+      "faction": "shaper",
+      "wave": 2,
+      "dependencies": [
+        "restricted-payments",
+        "run-events"
+      ],
+      "requiredScenarios": [
+        "Four hosted credits active across central run and optional remote follow-up",
+        "cannot spend/lose pool credits",
+        "fund/hosted payments allowed",
+        "cleanup at all run endings."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-runner-complete.cjs"
+      ]
+    },
+    {
+      "id": "36019",
+      "title": "Beta Build",
+      "side": "runner",
+      "type": "event",
+      "faction": "shaper",
+      "wave": 3,
+      "dependencies": [
+        "search",
+        "install",
+        "delayed-return"
+      ],
+      "requiredScenarios": [
+        "Search excludes viruses",
+        "install ignores all costs",
+        "shuffle before run",
+        "return surviving installed object to stack top",
+        "no return after uninstall/reinstall or trash."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-runner-complete.cjs"
+      ]
+    },
+    {
+      "id": "36020",
+      "title": "Methuselah",
+      "side": "runner",
+      "type": "hardware",
+      "faction": "shaper",
+      "wave": 2,
+      "dependencies": [
+        "run-begins",
+        "hosted-credits",
+        "console"
+      ],
+      "requiredScenarios": [
+        "Optional grip hardware trash before two credits",
+        "credits spent only during runs",
+        "multiple runs",
+        "console replacement and no eligible card."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-wave2.cjs"
+      ]
+    },
+    {
+      "id": "36021",
+      "title": "Touchstone",
+      "side": "runner",
+      "type": "hardware",
+      "faction": "shaper",
+      "wave": 1,
+      "dependencies": [
+        "event-history",
+        "hosted-credits",
+        "stealth"
+      ],
+      "requiredScenarios": [
+        "First event each player turn adds one hosted credit",
+        "installation mid-turn respects earlier event history",
+        "credits only usable during runs",
+        "spending records stealth source."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-foundation.cjs"
+      ]
+    },
+    {
+      "id": "36022",
+      "title": "Read-Write Share",
+      "side": "runner",
+      "type": "program",
+      "faction": "shaper",
+      "wave": 2,
+      "dependencies": [
+        "facedown-hosting",
+        "draw",
+        "shuffle"
+      ],
+      "requiredScenarios": [
+        "Four hosted-card limit",
+        "optional install/turn-start host from grip then draw",
+        "host identities hidden",
+        "trash shuffles hosted cards instead of trashing",
+        "empty/short stack."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-runner-complete.cjs"
+      ]
+    },
+    {
+      "id": "36023",
+      "title": "Sipa",
+      "side": "runner",
+      "type": "program",
+      "faction": "shaper",
+      "wave": 2,
+      "dependencies": [
+        "pass-ice",
+        "fully-broken",
+        "swap"
+      ],
+      "requiredScenarios": [
+        "First qualifying outermost pass per turn",
+        "require every subroutine broken",
+        "select another installed ice",
+        "preserve hosts/order and handle no targets or jack-out."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-runner-complete.cjs"
+      ]
+    },
+    {
+      "id": "36024",
+      "title": "Stowaway",
+      "side": "runner",
+      "type": "program",
+      "faction": "shaper",
+      "wave": 1,
+      "dependencies": [
+        "hosting",
+        "run-success"
+      ],
+      "requiredScenarios": [
+        "Install only on ice",
+        "reward on successful run against current host server",
+        "central and remote",
+        "swap changes server, bypass still qualifies, unsuccessful run does not."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-foundation.cjs"
+      ]
+    },
+    {
+      "id": "36025",
+      "title": "Word on the Street",
+      "side": "runner",
+      "type": "resource",
+      "faction": "neutral-runner",
+      "wave": 3,
+      "dependencies": [
+        "agenda-cost",
+        "score-area",
+        "install-history"
+      ],
+      "requiredScenarios": [
+        "Fast-advance score adds resource as minus-one un-forfeitable agenda",
+        "older agenda score trashes resource then gain/draw",
+        "multiple copies, steal does not qualify, victory timing."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-runner-complete.cjs",
+        "tests/vantage-boundaries.cjs"
+      ]
+    },
+    {
+      "id": "36026",
+      "title": "Méliès City Luxury Line",
+      "side": "corp",
+      "type": "agenda",
+      "faction": "haas-bioroid",
+      "wave": 2,
+      "dependencies": [
+        "steal-cost",
+        "clicks",
+        "score"
+      ],
+      "requiredScenarios": [
+        "Additional click to steal blocks zero-click steals",
+        "scoring grants click",
+        "ignore-cost effects and simultaneous score triggers."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-corp-state.cjs",
+        "tests/vantage-boundaries.cjs"
+      ]
+    },
+    {
+      "id": "36027",
+      "title": "Synchrocyclotron",
+      "side": "corp",
+      "type": "asset",
+      "faction": "haas-bioroid",
+      "wave": 2,
+      "dependencies": [
+        "additional-click-cost",
+        "operation-history"
+      ],
+      "requiredScenarios": [
+        "First double operation costs one fewer click, never negative",
+        "earlier double before install still counts",
+        "later operations and next-turn reset."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-corp-advanced.cjs"
+      ]
+    },
+    {
+      "id": "36028",
+      "title": "Ansel 2.0",
+      "side": "corp",
+      "type": "ice",
+      "faction": "haas-bioroid",
+      "wave": 2,
+      "dependencies": [
+        "bioroid",
+        "subroutines",
+        "install"
+      ],
+      "requiredScenarios": [
+        "Two-click loss breaks up to two chosen subroutines",
+        "insufficient clicks cannot pay",
+        "installed trash, heap removal, HQ/Archives install and end-run subroutines each resolve in order."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-ice-complete.cjs"
+      ]
+    },
+    {
+      "id": "36029",
+      "title": "Reverb",
+      "side": "corp",
+      "type": "ice",
+      "faction": "haas-bioroid",
+      "wave": 1,
+      "dependencies": [
+        "rez-cost"
+      ],
+      "requiredScenarios": [
+        "Discount counts other unrezzed ice across all servers",
+        "excludes itself and faceup agendas",
+        "floors at zero",
+        "both end-run subroutines and exact payment."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-foundation.cjs"
+      ]
+    },
+    {
+      "id": "36030",
+      "title": "Sleipnir",
+      "side": "corp",
+      "type": "ice",
+      "faction": "haas-bioroid",
+      "wave": 2,
+      "dependencies": [
+        "draw",
+        "recursion",
+        "subroutines"
+      ],
+      "requiredScenarios": [
+        "Optional draw",
+        "optional single HQ/Archives shuffle with correct privacy",
+        "no eligible target and empty R&D",
+        "end-run subroutine."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-wave3.cjs"
+      ]
+    },
+    {
+      "id": "36031",
+      "title": "Vertigo",
+      "side": "corp",
+      "type": "ice",
+      "faction": "haas-bioroid",
+      "wave": 2,
+      "dependencies": [
+        "pass-ice",
+        "clicks",
+        "restrictions"
+      ],
+      "requiredScenarios": [
+        "Lose click subroutine floors at zero",
+        "passing at zero clicks forbids steal/trash for current run",
+        "higher clicks does not",
+        "bypass/pass timing and end-run cleanup."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-wave3.cjs"
+      ]
+    },
+    {
+      "id": "36032",
+      "title": "Caveat Emptor",
+      "side": "corp",
+      "type": "operation",
+      "faction": "haas-bioroid",
+      "wave": 2,
+      "dependencies": [
+        "choices",
+        "delayed-clicks"
+      ],
+      "requiredScenarios": [
+        "Corp chooses gain six/next Runner minus click or gain ten/plus click",
+        "applies exactly next turn",
+        "multiple copies stack",
+        "no retroactive current-turn change."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-wave3.cjs"
+      ]
+    },
+    {
+      "id": "36033",
+      "title": "realloc()",
+      "side": "corp",
+      "type": "operation",
+      "faction": "haas-bioroid",
+      "wave": 2,
+      "dependencies": [
+        "additional-click-cost",
+        "multi-target",
+        "derez"
+      ],
+      "requiredScenarios": [
+        "Pay extra click",
+        "choose exactly two distinct rezzed ice",
+        "printed rather than modified costs",
+        "gain/derez per target",
+        "insufficient targets and state changes."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-wave4.cjs"
+      ]
+    },
+    {
+      "id": "36034",
+      "title": "Retirement Plan",
+      "side": "corp",
+      "type": "operation",
+      "faction": "haas-bioroid",
+      "wave": 2,
+      "dependencies": [
+        "additional-click-cost",
+        "archives-install"
+      ],
+      "requiredScenarios": [
+        "Pay extra click and normal install costs",
+        "Archives agenda/asset/ice only",
+        "legal destination, occupied remote and additional costs",
+        "decline/cancel handling."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-wave4.cjs"
+      ]
+    },
+    {
+      "id": "36035",
+      "title": "Perfect Recall",
+      "side": "corp",
+      "type": "upgrade",
+      "faction": "haas-bioroid",
+      "wave": 2,
+      "dependencies": [
+        "rez",
+        "agenda-history",
+        "restrictions"
+      ],
+      "requiredScenarios": [
+        "Counter on rez and each agenda scored/stolen from server",
+        "reveal HQ card privately until reveal resolves",
+        "block copies by title for this run",
+        "repeat use/no counter/no run."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-corp-advanced.cjs"
+      ]
+    },
+    {
+      "id": "36036",
+      "title": "Méliès U: Only the Brightest",
+      "side": "corp",
+      "type": "identity",
+      "faction": "jinteki",
+      "wave": 4,
+      "dependencies": [
+        "private-identity",
+        "multi-face",
+        "action-end",
+        "recursion"
+      ],
+      "requiredScenarios": [
+        "Secretly choose among identity copies at Corp discard end",
+        "successful central flips and matching face private R&D look/trash/Archives return",
+        "Runner action-end credit and discard-end flip",
+        "observer redaction."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-corp-advanced.cjs"
+      ]
+    },
+    {
+      "id": "36037",
+      "title": "Lotus Haze",
+      "side": "corp",
+      "type": "agenda",
+      "faction": "jinteki",
+      "wave": 2,
+      "dependencies": [
+        "score",
+        "counters",
+        "move-upgrade"
+      ],
+      "requiredScenarios": [
+        "Three agenda counters on score only",
+        "move rezzed upgrade to different legal server",
+        "regions/central-only restrictions",
+        "no counter and same-server exclusion."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-corp-state.cjs"
+      ]
+    },
+    {
+      "id": "36038",
+      "title": "Esca",
+      "side": "corp",
+      "type": "asset",
+      "faction": "jinteki",
+      "wave": 2,
+      "dependencies": [
+        "access",
+        "reveal",
+        "tags",
+        "damage"
+      ],
+      "requiredScenarios": [
+        "R&D access reveals",
+        "lose one pool credit",
+        "net damage only if tagged at resolution",
+        "zero credits and flatline",
+        "HQ/Archives access reveal differences."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-wave2.cjs"
+      ]
+    },
+    {
+      "id": "36039",
+      "title": "ezaM",
+      "side": "corp",
+      "type": "ice",
+      "faction": "jinteki",
+      "wave": 3,
+      "dependencies": [
+        "clicks",
+        "swap",
+        "private-look",
+        "strength"
+      ],
+      "requiredScenarios": [
+        "Click ability swaps with another installed ice",
+        "optional top-to-bottom R&D look respects privacy/empty deck",
+        "global plus-one strength lasts this run only."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-ice-complete.cjs"
+      ]
+    },
+    {
+      "id": "36040",
+      "title": "Knowledge Seeker",
+      "side": "corp",
+      "type": "ice",
+      "faction": "jinteki",
+      "wave": 3,
+      "dependencies": [
+        "encounter-end",
+        "purge",
+        "private-reorder"
+      ],
+      "requiredScenarios": [
+        "Own hosted virus threshold tested at encounter end",
+        "purge all virus counters then derez",
+        "host-program counters do not count as ice counters",
+        "top-four reorder handles short deck."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-ice-complete.cjs",
+        "tests/vantage-boundaries.cjs"
+      ]
+    },
+    {
+      "id": "36041",
+      "title": "Lionsmane",
+      "side": "corp",
+      "type": "ice",
+      "faction": "jinteki",
+      "wave": 2,
+      "dependencies": [
+        "damage",
+        "choices",
+        "subroutines"
+      ],
+      "requiredScenarios": [
+        "Each of three net-damage subs tested",
+        "Runner pay-three alternative and jack-out alternative",
+        "prevention, insufficient funds and terminal stops before later effects."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-wave2.cjs"
+      ]
+    },
+    {
+      "id": "36042",
+      "title": "Vicsek",
+      "side": "corp",
+      "type": "ice",
+      "faction": "jinteki",
+      "wave": 2,
+      "dependencies": [
+        "tags",
+        "damage",
+        "self-trash"
+      ],
+      "requiredScenarios": [
+        "First sub uses initial tag count X for both damage and tags",
+        "zero X",
+        "prevention/flatline ordering",
+        "second gives tag then trashes ice without corrupting encounter."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-wave3.cjs"
+      ]
+    },
+    {
+      "id": "36043",
+      "title": "Cultivate",
+      "side": "corp",
+      "type": "operation",
+      "faction": "jinteki",
+      "wave": 3,
+      "dependencies": [
+        "private-reorder",
+        "trash",
+        "draw"
+      ],
+      "requiredScenarios": [
+        "Top-five bounded by remaining R&D",
+        "distinct trash and HQ choice",
+        "order remaining cards",
+        "private choices",
+        "empty/one-card piles and terminal timing."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-ice-complete.cjs"
+      ]
+    },
+    {
+      "id": "36044",
+      "title": "Unleash",
+      "side": "corp",
+      "type": "operation",
+      "faction": "jinteki",
+      "wave": 2,
+      "dependencies": [
+        "additional-tag-cost",
+        "rez",
+        "remote-subroutine"
+      ],
+      "requiredScenarios": [
+        "Remove one tag as additional cost",
+        "installed ice rezzed ignoring all costs",
+        "optional subroutine out of encounter",
+        "target/context-sensitive subroutines",
+        "no eligible tag/ice."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-ice-complete.cjs"
+      ]
+    },
+    {
+      "id": "36045",
+      "title": "The Red Room",
+      "side": "corp",
+      "type": "upgrade",
+      "faction": "jinteki",
+      "wave": 2,
+      "dependencies": [
+        "central-only",
+        "agenda-history",
+        "remote-end-run"
+      ],
+      "requiredScenarios": [
+        "Central-server install restriction",
+        "first score/steal each turn gives one counter",
+        "counter ends run only at another server",
+        "prevention and no-current-run guard."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-corp-advanced.cjs"
+      ]
+    },
+    {
+      "id": "36046",
+      "title": "Editorial Division: Ad Nihilum",
+      "side": "corp",
+      "type": "identity",
+      "faction": "nbn",
+      "wave": 4,
+      "dependencies": [
+        "bad-publicity",
+        "search",
+        "once-per-turn"
+      ],
+      "requiredScenarios": [
+        "First actual bad-publicity gain per turn",
+        "optional non-agenda black/gray/liability search",
+        "reveal then shuffle and HQ",
+        "prevention, no targets and reset."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-corp-advanced.cjs"
+      ]
+    },
+    {
+      "id": "36047",
+      "title": "Witch Hunt",
+      "side": "corp",
+      "type": "agenda",
+      "faction": "nbn",
+      "wave": 2,
+      "dependencies": [
+        "score",
+        "steal",
+        "bad-publicity",
+        "action-end"
+      ],
+      "requiredScenarios": [
+        "Bad publicity on score or steal",
+        "only Corp scoring this turn sets action-end remove-all then three tags",
+        "stolen copy not active",
+        "prevention and multiple copies."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-corp-state.cjs",
+        "tests/vantage-boundaries.cjs"
+      ]
+    },
+    {
+      "id": "36048",
+      "title": "Magistrate Revontulet",
+      "side": "corp",
+      "type": "asset",
+      "faction": "nbn",
+      "wave": 2,
+      "dependencies": [
+        "steal-cost",
+        "score",
+        "credit-loss"
+      ],
+      "requiredScenarios": [
+        "Each active copy adds three-credit steal cost",
+        "score loses three pool credits only",
+        "insufficient credits, ignored steal costs and stacked costs."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-corp-state.cjs"
+      ]
+    },
+    {
+      "id": "36049",
+      "title": "Nihilo Agent",
+      "side": "corp",
+      "type": "asset",
+      "faction": "nbn",
+      "wave": 2,
+      "dependencies": [
+        "rez",
+        "turn-begins",
+        "discard-end",
+        "tags",
+        "bad-publicity"
+      ],
+      "requiredScenarios": [
+        "Load exactly three on rez",
+        "turn-start remove up to one tag/pub",
+        "discard-end tag then pub then remove counter",
+        "empty trash, prevention and fresh rez reset."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-corp-state.cjs",
+        "tests/vantage-boundaries.cjs"
+      ]
+    },
+    {
+      "id": "36050",
+      "title": "Grubber",
+      "side": "corp",
+      "type": "ice",
+      "faction": "nbn",
+      "wave": 2,
+      "dependencies": [
+        "rez",
+        "bad-publicity",
+        "unless-payment"
+      ],
+      "requiredScenarios": [
+        "Rez on central takes bad publicity, remote does not",
+        "each sub end-run unless Runner pays three from eligible sources",
+        "exact funds, decline and prevention."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-wave2.cjs"
+      ]
+    },
+    {
+      "id": "36051",
+      "title": "Lethe",
+      "side": "corp",
+      "type": "ice",
+      "faction": "nbn",
+      "wave": 2,
+      "dependencies": [
+        "bypass",
+        "fully-broken",
+        "tags",
+        "recursion",
+        "bounce"
+      ],
+      "requiredScenarios": [
+        "Tag when bypassed or fully broken",
+        "no duplicate tag on pass",
+        "optional Archives top/bottom selection",
+        "installed Runner card bounce with hosted-card cleanup."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-ice-complete.cjs"
+      ]
+    },
+    {
+      "id": "36052",
+      "title": "Paywall",
+      "side": "corp",
+      "type": "ice",
+      "faction": "nbn",
+      "wave": 1,
+      "dependencies": [
+        "encounter",
+        "credit-loss",
+        "unless-payment"
+      ],
+      "requiredScenarios": [
+        "Encounter loses one pool credit only",
+        "sub end-run unless pay one using eligible fund/hosted/pool",
+        "no funds and decline",
+        "encounter repeats trigger again."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-foundation.cjs"
+      ]
+    },
+    {
+      "id": "36053",
+      "title": "Flood the Market",
+      "side": "corp",
+      "type": "operation",
+      "faction": "nbn",
+      "wave": 2,
+      "dependencies": [
+        "additional-click-cost",
+        "advancement",
+        "remote-state"
+      ],
+      "requiredScenarios": [
+        "Extra click",
+        "one advanceable installed target",
+        "count only remotes with root card and protecting ice",
+        "zero count, nonadvanceable target and no-credit advancement costs."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-corp-state.cjs"
+      ]
+    },
+    {
+      "id": "36054",
+      "title": "Scapegoat",
+      "side": "corp",
+      "type": "operation",
+      "faction": "nbn",
+      "wave": 2,
+      "dependencies": [
+        "opponent-choice",
+        "bad-publicity",
+        "shuffle"
+      ],
+      "requiredScenarios": [
+        "Runner chooses remove two pub or Corp-selected installed Runner shuffle",
+        "fewer than two pub",
+        "no installed target",
+        "unique host and hidden shuffle cleanup."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-corp-state.cjs"
+      ]
+    },
+    {
+      "id": "36055",
+      "title": "Hype Machine",
+      "side": "corp",
+      "type": "upgrade",
+      "faction": "nbn",
+      "wave": 2,
+      "dependencies": [
+        "rez-cost",
+        "agenda-history",
+        "advancement"
+      ],
+      "requiredScenarios": [
+        "Six-credit rez reduction after any score/steal this turn including before install",
+        "floors zero",
+        "trash cost then advancement only advanceable card in same root",
+        "no target."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-corp-state.cjs"
+      ]
+    },
+    {
+      "id": "36056",
+      "title": "Sacrifice Zone Expansion",
+      "side": "corp",
+      "type": "agenda",
+      "faction": "weyland-consortium",
+      "wave": 2,
+      "dependencies": [
+        "faceup-install",
+        "advance",
+        "run-success",
+        "damage"
+      ],
+      "requiredScenarios": [
+        "Install only faceup, neither rezzed nor unrezzed",
+        "first advance each turn gains three",
+        "once/turn another-server success may spend counter for meat damage",
+        "zero counters and prevention."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-corp-state.cjs"
+      ]
+    },
+    {
+      "id": "36057",
+      "title": "Luana Campos",
+      "side": "corp",
+      "type": "asset",
+      "faction": "weyland-consortium",
+      "wave": 2,
+      "dependencies": [
+        "bad-publicity",
+        "hosting",
+        "interrupt-uninstall"
+      ],
+      "requiredScenarios": [
+        "Optional turn-start host one actual pub then gain/draw",
+        "hosted pub excluded from run funds",
+        "all hosted pub returned before any uninstall, including trash/bounce",
+        "prevention/terminal timing."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-corp-state.cjs"
+      ]
+    },
+    {
+      "id": "36058",
+      "title": "Event Horizon",
+      "side": "corp",
+      "type": "ice",
+      "faction": "weyland-consortium",
+      "wave": 2,
+      "dependencies": [
+        "paid-ability",
+        "subroutines",
+        "trash"
+      ],
+      "requiredScenarios": [
+        "Trash-to-end-run only while running this server",
+        "program trash unless pay three",
+        "separate end-run unless pay three",
+        "target absence/prevention and encounter state after self-trash."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-ice-complete.cjs"
+      ]
+    },
+    {
+      "id": "36059",
+      "title": "Flywheel",
+      "side": "corp",
+      "type": "ice",
+      "faction": "weyland-consortium",
+      "wave": 2,
+      "dependencies": [
+        "gain",
+        "draw",
+        "subroutines"
+      ],
+      "requiredScenarios": [
+        "Each of two subs gains one then optionally draws one",
+        "decline retains gain",
+        "empty R&D and terminal ordering before second sub."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-wave2.cjs"
+      ]
+    },
+    {
+      "id": "36060",
+      "title": "Tocsin",
+      "side": "corp",
+      "type": "ice",
+      "faction": "weyland-consortium",
+      "wave": 3,
+      "dependencies": [
+        "hq-ability",
+        "search",
+        "subroutines"
+      ],
+      "requiredScenarios": [
+        "HQ-only click/credit/reveal/trash additional costs",
+        "up to one distinct barrier and sentry, shuffle then HQ",
+        "optional zero/one targets",
+        "lose-two and two end-run subs."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-ice-complete.cjs"
+      ]
+    },
+    {
+      "id": "36061",
+      "title": "Myōshu",
+      "side": "corp",
+      "type": "operation",
+      "faction": "weyland-consortium",
+      "wave": 3,
+      "dependencies": [
+        "score-history",
+        "install-history",
+        "score-area"
+      ],
+      "requiredScenarios": [
+        "Only after scoring agenda not installed this turn",
+        "operation becomes two-point agenda",
+        "victory timing",
+        "stolen agendas or fast-advanced scores do not enable."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-corp-state.cjs",
+        "tests/vantage-boundaries.cjs"
+      ]
+    },
+    {
+      "id": "36062",
+      "title": "Reanimation Protocol",
+      "side": "corp",
+      "type": "operation",
+      "faction": "weyland-consortium",
+      "wave": 2,
+      "dependencies": [
+        "archives-install",
+        "rez",
+        "shared-discount",
+        "bad-publicity"
+      ],
+      "requiredScenarios": [
+        "One ice from Archives",
+        "ten-credit total discount shared across install/rez",
+        "non-liability bad publicity only after actual rez",
+        "additional costs, failed install/rez, liability exemption."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-corp-advanced.cjs"
+      ]
+    },
+    {
+      "id": "36063",
+      "title": "Vulture Fund",
+      "side": "corp",
+      "type": "operation",
+      "faction": "weyland-consortium",
+      "wave": 1,
+      "dependencies": [
+        "gain",
+        "bad-publicity"
+      ],
+      "requiredScenarios": [
+        "Pay seven then gain fourteen and take one bad publicity",
+        "insufficient initial money",
+        "credit-source choice, prevention and gain-trigger ordering."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-foundation.cjs"
+      ]
+    },
+    {
+      "id": "36064",
+      "title": "Flagship",
+      "side": "corp",
+      "type": "upgrade",
+      "faction": "weyland-consortium",
+      "wave": 3,
+      "dependencies": [
+        "central-only",
+        "run-success",
+        "access-cap",
+        "persistent"
+      ],
+      "requiredScenarios": [
+        "HQ/R&D-only",
+        "successful declaration suppressed without declaring unsuccessful",
+        "persistent cap one other card even unrezzed",
+        "multiaccess, root upgrades and replacement breaches."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-corp-advanced.cjs",
+        "tests/vantage-boundaries.cjs"
+      ]
+    },
+    {
+      "id": "36065",
+      "title": "Shackleton Grid",
+      "side": "corp",
+      "type": "upgrade",
+      "faction": "weyland-consortium",
+      "wave": 2,
+      "dependencies": [
+        "outside-pool-payment",
+        "once-per-turn",
+        "damage"
+      ],
+      "requiredScenarios": [
+        "First qualifying external-credit spend against this server may cause four meat damage",
+        "pool payment excluded",
+        "split payments same cost trigger once",
+        "optional/prevented damage and region limit."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-corp-advanced.cjs",
+        "tests/vantage-boundaries.cjs"
+      ]
+    },
+    {
+      "id": "36066",
+      "title": "Let Them Dream",
+      "side": "corp",
+      "type": "agenda",
+      "faction": "neutral-corp",
+      "wave": 3,
+      "dependencies": [
+        "score",
+        "search",
+        "agenda-points"
+      ],
+      "requiredScenarios": [
+        "Optional search HQ/R&D/Archives for agenda",
+        "reveal then legal HQ/bottom destination and R&D shuffle",
+        "own card eligible or not by zone",
+        "worth one less only in Runner score area."
+      ],
+      "rulesStatus": "partial-native-evidence",
+      "uiStatus": "not-tested",
+      "aiStatus": "not-audited",
+      "evidence": [
+        "tests/vantage-corp-state.cjs",
+        "tests/vantage-boundaries.cjs"
+      ]
+    }
+  ]
+}

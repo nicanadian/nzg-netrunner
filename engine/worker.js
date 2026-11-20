@@ -15,8 +15,12 @@ importScripts(
   "deck-catalog.js",
   "card-catalog.js",
   "deck-document.js",
-  "adapter.js",
 );
+const coreScripts=['../vendor/chiriboga-elevation/sets/elevation.js','core-decks.js','elevation-compat.js','elevation-transactions.js','elevation-local.js','elevation-hosting.js','elevation-economy.js','core-events.js','core-private.js','core-operations.js','core-rez.js','core-audit-fixes.js'];
+if(self.NR_VANTAGE_WORKER){
+  importScripts('vantage-catalog.js','vantage-profile.js','deck-document.js',...coreScripts,'vantage-rules.js','vantage-complete.js','vantage-policy.js');
+}
+importScripts('pressure-policy.js','adapter.js');
 let busy = false;
 async function advanceToDecision(observe = null) {
   let state = await NR.advance(300, observe);
@@ -47,7 +51,7 @@ onmessage = async ({ data }) => {
         postMessage({type: "opponent-step", before, state: after});
     } : null;
     if (data.type === "start") {
-      if(data.config?.cardPool==='core-v1')importScripts('../vendor/chiriboga-elevation/sets/elevation.js','core-decks.js','elevation-compat.js','elevation-transactions.js','elevation-local.js','elevation-hosting.js','elevation-economy.js','core-events.js','core-private.js','core-operations.js','core-rez.js');
+      if(data.config?.cardPool==='core-v1'&&!self.NR_VANTAGE_WORKER)importScripts(...coreScripts);
       NR.boot(data.config);
       await advanceToDecision();
       for (const choice of data.replay || []) {

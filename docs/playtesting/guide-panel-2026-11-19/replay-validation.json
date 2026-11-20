@@ -1,0 +1,297 @@
+[
+  {
+    "name": "runner-game",
+    "pool": "vantage-preview-v1",
+    "construction": [
+      {
+        "side": "corp",
+        "name": "Restoring Humanity · Ambushes",
+        "valid": true,
+        "totals": {
+          "size": 44,
+          "influence": 9,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 18,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "nearestBundledSnapshot": {
+          "id": "jinteki-vantage-pilot-v1",
+          "delta": []
+        }
+      },
+      {
+        "side": "runner",
+        "name": "Panel Runner 19Nov",
+        "valid": true,
+        "totals": {
+          "size": 40,
+          "influence": 7,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 0,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "nearestBundledSnapshot": {
+          "id": "loup-vantage-tailor-v1",
+          "delta": [
+            {
+              "id": "36003",
+              "before": 1,
+              "after": 2
+            },
+            {
+              "id": "36016",
+              "before": 1,
+              "after": 0
+            }
+          ]
+        }
+      }
+    ],
+    "decisions": 89,
+    "terminal": {
+      "reason": "Corp reached 7 agenda points.",
+      "winner": "corp"
+    },
+    "points": {
+      "corp": 7,
+      "runner": 0
+    },
+    "version": 547,
+    "diagnostics": [],
+    "replayPassed": true
+  },
+  {
+    "name": "corp-game",
+    "pool": "vantage-preview-v1",
+    "construction": [
+      {
+        "side": "corp",
+        "name": "Panel Corp 19Nov",
+        "valid": true,
+        "totals": {
+          "size": 40,
+          "influence": 14,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 18,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "nearestBundledSnapshot": {
+          "id": "weyland-vantage-tools-v2",
+          "delta": [
+            {
+              "id": "30063",
+              "before": 2,
+              "after": 1
+            },
+            {
+              "id": "30071",
+              "before": 2,
+              "after": 3
+            },
+            {
+              "id": "30073",
+              "before": 2,
+              "after": 3
+            },
+            {
+              "id": "36063",
+              "before": 3,
+              "after": 2
+            }
+          ]
+        }
+      },
+      {
+        "side": "runner",
+        "name": "Vic · central pressure",
+        "valid": true,
+        "totals": {
+          "size": 45,
+          "influence": 13,
+          "influenceLimit": 15,
+          "minimumSize": 45,
+          "agenda": 0,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "nearestBundledSnapshot": {
+          "id": "vic-play-v1",
+          "delta": []
+        }
+      }
+    ],
+    "decisions": 48,
+    "terminal": {
+      "reason": "Runner reached 8 agenda points.",
+      "winner": "runner"
+    },
+    "points": {
+      "corp": 3,
+      "runner": 8
+    },
+    "version": 759,
+    "diagnostics": [],
+    "replayPassed": true
+  },
+  {
+    "name": "experiment-game",
+    "pool": "vantage-preview-v1",
+    "construction": [
+      {
+        "side": "corp",
+        "name": "Restoring Humanity · Ambushes",
+        "valid": true,
+        "totals": {
+          "size": 44,
+          "influence": 9,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 18,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "nearestBundledSnapshot": {
+          "id": "jinteki-vantage-pilot-v1",
+          "delta": []
+        }
+      },
+      {
+        "side": "runner",
+        "name": "Panel Experiment 19Nov",
+        "valid": true,
+        "totals": {
+          "size": 45,
+          "influence": 9,
+          "influenceLimit": 15,
+          "minimumSize": 45,
+          "agenda": 0,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "nearestBundledSnapshot": {
+          "id": "hiram-play-v1",
+          "delta": [
+            {
+              "id": "36019",
+              "before": 3,
+              "after": 1
+            },
+            {
+              "id": "36023",
+              "before": 3,
+              "after": 2
+            },
+            {
+              "id": "30028",
+              "before": 0,
+              "after": 2
+            },
+            {
+              "id": "30031",
+              "before": 0,
+              "after": 1
+            }
+          ]
+        }
+      }
+    ],
+    "decisions": 66,
+    "terminal": {
+      "damage": {
+        "amount": 8,
+        "gripBefore": 5,
+        "type": "meat"
+      },
+      "reason": "Runner flatlined",
+      "winner": "corp"
+    },
+    "points": {
+      "corp": 0,
+      "runner": 2
+    },
+    "version": 458,
+    "diagnostics": [],
+    "replayPassed": true
+  },
+  {
+    "name": "experiment-followup-game",
+    "pool": "vantage-preview-v1",
+    "construction": [
+      {
+        "side": "corp",
+        "name": "Restoring Humanity · Ambushes",
+        "valid": true,
+        "totals": {
+          "size": 44,
+          "influence": 9,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 18,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "nearestBundledSnapshot": {
+          "id": "jinteki-vantage-pilot-v1",
+          "delta": []
+        }
+      },
+      {
+        "side": "runner",
+        "name": "Panel Experiment 19Nov",
+        "valid": true,
+        "totals": {
+          "size": 45,
+          "influence": 9,
+          "influenceLimit": 15,
+          "minimumSize": 45,
+          "agenda": 0,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "nearestBundledSnapshot": {
+          "id": "hiram-play-v1",
+          "delta": [
+            {
+              "id": "36019",
+              "before": 3,
+              "after": 1
+            },
+            {
+              "id": "36023",
+              "before": 3,
+              "after": 2
+            },
+            {
+              "id": "30028",
+              "before": 0,
+              "after": 2
+            },
+            {
+              "id": "30031",
+              "before": 0,
+              "after": 1
+            }
+          ]
+        }
+      }
+    ],
+    "decisions": 203,
+    "terminal": {
+      "reason": "Corp reached 8 agenda points.",
+      "winner": "corp"
+    },
+    "points": {
+      "corp": 8,
+      "runner": 0
+    },
+    "version": 812,
+    "diagnostics": [],
+    "replayPassed": true
+  }
+]

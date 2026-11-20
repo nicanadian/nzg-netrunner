@@ -1,0 +1,197 @@
+[
+  {
+    "name": "beginner-game",
+    "pool": "vantage-preview-v1",
+    "construction": [
+      {
+        "side": "runner",
+        "name": "Suite Beginner 19Nov",
+        "valid": true,
+        "totals": {
+          "size": 45,
+          "influence": 13,
+          "influenceLimit": 15,
+          "minimumSize": 45,
+          "agenda": 0,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "nearestBundledSnapshot": {
+          "id": "vic-play-v1",
+          "delta": [
+            {
+              "id": "30013",
+              "before": 2,
+              "after": 3
+            },
+            {
+              "id": "30016",
+              "before": 3,
+              "after": 2
+            }
+          ]
+        }
+      },
+      {
+        "side": "corp",
+        "name": "Built to Last · defensive economy",
+        "valid": true,
+        "totals": {
+          "size": 40,
+          "influence": 14,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 18,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "nearestBundledSnapshot": {
+          "id": "weyland-vantage-tools-v2",
+          "delta": []
+        }
+      }
+    ],
+    "decisions": 385,
+    "terminal": {
+      "winner": "runner",
+      "reason": "Runner reached 8 agenda points."
+    },
+    "points": {
+      "corp": 5,
+      "runner": 8
+    },
+    "version": 1093,
+    "diagnostics": [],
+    "replayPassed": true
+  },
+  {
+    "name": "constraints-game",
+    "pool": "gateway-v1",
+    "construction": [
+      {
+        "side": "corp",
+        "name": "Suite Constraints 19Nov",
+        "valid": true,
+        "totals": {
+          "size": 44,
+          "influence": 8,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 18,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "nearestBundledSnapshot": {
+          "id": "reality-plus-v2",
+          "delta": [
+            {
+              "id": "30065",
+              "before": 3,
+              "after": 2
+            },
+            {
+              "id": "30050",
+              "before": 0,
+              "after": 1
+            }
+          ]
+        }
+      },
+      {
+        "side": "runner",
+        "name": "Tāo Salonga",
+        "valid": true,
+        "totals": {
+          "size": 40,
+          "influence": 12,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 0,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "nearestBundledSnapshot": {
+          "id": "tao-v1",
+          "delta": []
+        }
+      }
+    ],
+    "decisions": 58,
+    "terminal": {
+      "reason": "Corp reached 8 agenda points.",
+      "winner": "corp"
+    },
+    "points": {
+      "corp": 8,
+      "runner": 6
+    },
+    "version": 511,
+    "diagnostics": [],
+    "replayPassed": true
+  },
+  {
+    "name": "dependency-game",
+    "pool": "vantage-preview-v1",
+    "construction": [
+      {
+        "side": "corp",
+        "name": "Precision Design · Tempo and recycling",
+        "valid": true,
+        "totals": {
+          "size": 40,
+          "influence": 6,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 18,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "nearestBundledSnapshot": {
+          "id": "hb-vantage-tempo-v1",
+          "delta": []
+        }
+      },
+      {
+        "side": "runner",
+        "name": "Suite Dependency 19Nov",
+        "valid": true,
+        "totals": {
+          "size": 40,
+          "influence": 8,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 0,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "nearestBundledSnapshot": {
+          "id": "tao-vantage-pilot-v1",
+          "delta": [
+            {
+              "id": "30022",
+              "before": 2,
+              "after": 3
+            },
+            {
+              "id": "30023",
+              "before": 2,
+              "after": 1
+            }
+          ]
+        }
+      }
+    ],
+    "decisions": 377,
+    "terminal": {
+      "reason": "Runner reached 7 agenda points.",
+      "winner": "runner"
+    },
+    "points": {
+      "corp": 6,
+      "runner": 7
+    },
+    "version": 1172,
+    "diagnostics": [],
+    "replayPassed": true
+  }
+]

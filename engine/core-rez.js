@@ -1,11 +1,12 @@
 /* Core revision 2 additional rez costs and printed-subroutine restrictions. */
 (function(){
 'use strict';const enabled=()=>globalThis.NRCoreRulesVersion==='26.03-core-2';
+const forfeitable=()=>globalThis.NRForfeitableAgendas?NRForfeitableAgendas():corp.scoreArea;
 const full=FullCheckRez;
 FullCheckRez=function(card,types=['upgrade','asset','ice']){
  if(!enabled())return full.apply(this,arguments);
- if(card.additionalRezCostForfeitOrTrashThree&&corp.scoreArea.length===0&&corp.HQ.cards.length<3)return false;
- if(card.optionalForfeitRezReduction&&corp.scoreArea.length&&CheckRez(card,types)&&CheckCredits(corp,Math.max(0,RezCost(card)-card.optionalForfeitRezReduction),'rezzing',card))return true;
+ if(card.additionalRezCostForfeitOrTrashThree&&forfeitable().length===0&&corp.HQ.cards.length<3)return false;
+ if(card.optionalForfeitRezReduction&&forfeitable().length&&CheckRez(card,types)&&CheckCredits(corp,Math.max(0,RezCost(card)-card.optionalForfeitRezReduction),'rezzing',card))return true;
  return full.apply(this,arguments);
 };
 const rez=Rez;
@@ -14,7 +15,7 @@ Rez=function(card,ignoreAllCosts=false,onRezResolve=null,context=null,allowCance
  const previous=currentPhase,active=activePlayer,price=RezCost(card);
  const cancel=allowCancel?()=>{ChangePhase(previous,true);activePlayer=active;Cancel();}:undefined;
  const finish=cost=>SpendCredits(corp,cost,'rezzing',card,()=>rez(card,true,onRezResolve,context),context);
- const options=corp.scoreArea.map(agenda=>({card:agenda,action:'forfeit',label:'Forfeit '+agenda.title}));
+ const options=forfeitable().map(agenda=>({card:agenda,action:'forfeit',label:'Forfeit '+agenda.title}));
  if(card.optionalForfeitRezReduction){if(CheckCredits(corp,price,'rezzing',card))options.push({action:'pay',label:'Pay full rez cost',button:'Pay '+price+' credits'});}
  else if(corp.HQ.cards.length>=3)options.push({action:'trash',label:'Reveal and trash 3 cards from HQ',button:'Choose 3 cards from HQ'});
  if(!options.length){if(cancel)cancel();return;}

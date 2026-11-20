@@ -1,0 +1,579 @@
+{
+  "spec": {
+    "schemaVersion": 1,
+    "kind": "netrunner-matrix",
+    "engineHash": "f13f5fe6482206473d79bda8ebfb3dbcf9228b369de9136ad452fb8599248ba9",
+    "runners": [
+      {
+        "label": "Vic · central pressure",
+        "deck": {
+          "schemaVersion": 1,
+          "name": "Vic · central pressure",
+          "side": "runner",
+          "identity": "36009",
+          "pool": "vantage-preview-v1",
+          "cards": [
+            {
+              "id": "30005",
+              "count": 3
+            },
+            {
+              "id": "30006",
+              "count": 2
+            },
+            {
+              "id": "30011",
+              "count": 3
+            },
+            {
+              "id": "30012",
+              "count": 3
+            },
+            {
+              "id": "30013",
+              "count": 2
+            },
+            {
+              "id": "30014",
+              "count": 2
+            },
+            {
+              "id": "30015",
+              "count": 3
+            },
+            {
+              "id": "30016",
+              "count": 3
+            },
+            {
+              "id": "30017",
+              "count": 2
+            },
+            {
+              "id": "30018",
+              "count": 3
+            },
+            {
+              "id": "30027",
+              "count": 3
+            },
+            {
+              "id": "30028",
+              "count": 3
+            },
+            {
+              "id": "30029",
+              "count": 3
+            },
+            {
+              "id": "30030",
+              "count": 3
+            },
+            {
+              "id": "30034",
+              "count": 2
+            },
+            {
+              "id": "36012",
+              "count": 3
+            },
+            {
+              "id": "36013",
+              "count": 2
+            }
+          ]
+        }
+      },
+      {
+        "label": "Hiram · funded rig",
+        "deck": {
+          "schemaVersion": 1,
+          "name": "Hiram · funded rig",
+          "side": "runner",
+          "identity": "36017",
+          "pool": "vantage-preview-v1",
+          "cards": [
+            {
+              "id": "30006",
+              "count": 3
+            },
+            {
+              "id": "30020",
+              "count": 3
+            },
+            {
+              "id": "30021",
+              "count": 3
+            },
+            {
+              "id": "30025",
+              "count": 3
+            },
+            {
+              "id": "30026",
+              "count": 3
+            },
+            {
+              "id": "30027",
+              "count": 3
+            },
+            {
+              "id": "30030",
+              "count": 3
+            },
+            {
+              "id": "36018",
+              "count": 3
+            },
+            {
+              "id": "36019",
+              "count": 3
+            },
+            {
+              "id": "36020",
+              "count": 3
+            },
+            {
+              "id": "36021",
+              "count": 3
+            },
+            {
+              "id": "36022",
+              "count": 3
+            },
+            {
+              "id": "36023",
+              "count": 3
+            },
+            {
+              "id": "36024",
+              "count": 3
+            },
+            {
+              "id": "36025",
+              "count": 3
+            }
+          ]
+        }
+      }
+    ],
+    "corps": [
+      {
+        "label": "Editorial · campaigns & tags",
+        "deck": {
+          "schemaVersion": 1,
+          "name": "Editorial · campaigns & tags",
+          "side": "corp",
+          "identity": "36046",
+          "pool": "vantage-preview-v1",
+          "cards": [
+            {
+              "id": "30037",
+              "count": 3
+            },
+            {
+              "id": "30049",
+              "count": 1
+            },
+            {
+              "id": "30053",
+              "count": 3
+            },
+            {
+              "id": "30056",
+              "count": 3
+            },
+            {
+              "id": "30067",
+              "count": 3
+            },
+            {
+              "id": "30070",
+              "count": 2
+            },
+            {
+              "id": "30075",
+              "count": 3
+            },
+            {
+              "id": "36047",
+              "count": 3
+            },
+            {
+              "id": "36048",
+              "count": 3
+            },
+            {
+              "id": "36049",
+              "count": 3
+            },
+            {
+              "id": "36050",
+              "count": 3
+            },
+            {
+              "id": "36051",
+              "count": 3
+            },
+            {
+              "id": "36052",
+              "count": 3
+            },
+            {
+              "id": "36053",
+              "count": 3
+            },
+            {
+              "id": "36054",
+              "count": 3
+            },
+            {
+              "id": "36066",
+              "count": 3
+            }
+          ]
+        }
+      },
+      {
+        "label": "Méliès U · campaign control",
+        "deck": {
+          "schemaVersion": 1,
+          "name": "Méliès U · campaign control",
+          "side": "corp",
+          "identity": "36036",
+          "pool": "vantage-preview-v1",
+          "cards": [
+            {
+              "id": "30037",
+              "count": 3
+            },
+            {
+              "id": "30042",
+              "count": 1
+            },
+            {
+              "id": "30048",
+              "count": 3
+            },
+            {
+              "id": "30053",
+              "count": 3
+            },
+            {
+              "id": "30067",
+              "count": 3
+            },
+            {
+              "id": "30070",
+              "count": 2
+            },
+            {
+              "id": "30075",
+              "count": 3
+            },
+            {
+              "id": "36037",
+              "count": 3
+            },
+            {
+              "id": "36039",
+              "count": 3
+            },
+            {
+              "id": "36040",
+              "count": 3
+            },
+            {
+              "id": "36041",
+              "count": 3
+            },
+            {
+              "id": "36042",
+              "count": 3
+            },
+            {
+              "id": "36043",
+              "count": 3
+            },
+            {
+              "id": "36044",
+              "count": 3
+            },
+            {
+              "id": "36045",
+              "count": 3
+            },
+            {
+              "id": "36066",
+              "count": 3
+            }
+          ]
+        }
+      }
+    ],
+    "gamesPerMatchup": 8,
+    "seed": "pressure-paired-2026-11-16",
+    "wallMs": 60000,
+    "decisions": 30000,
+    "traceEvery": 100,
+    "mode": "fast",
+    "aiPolicy": "pressure-v1",
+    "experimentHash": "62faf566442fc09f94a3322e2a7bc62df181bffa2375ff40a7d2f2244060ed69",
+    "workers": 4
+  },
+  "summary": {
+    "schemaVersion": 1,
+    "experimentHash": "62faf566442fc09f94a3322e2a7bc62df181bffa2375ff40a7d2f2244060ed69",
+    "matchups": [
+      {
+        "runner": "Vic · central pressure",
+        "corp": "Editorial · campaigns & tags",
+        "directory": "matchup-0-0",
+        "jobs": 8,
+        "statuses": {
+          "completed": 8
+        },
+        "wins": {
+          "corp": 2,
+          "runner": 6
+        },
+        "runnerWinRate": 0.75,
+        "runnerWilson95": [
+          0.40926987910258916,
+          0.9285223111419724
+        ],
+        "p50Ms": 690,
+        "p95Ms": 3312,
+        "aiSummary": {
+          "totals": {
+            "runner": {
+              "actions": 920,
+              "gain": 107,
+              "draw": 139,
+              "install": 73,
+              "play": 48,
+              "run": 110,
+              "advance": 0,
+              "score": 0,
+              "overrides": 4,
+              "idleWithAgenda": 0,
+              "scoreOffered": 0,
+              "scoreTaken": 0,
+              "runs": 166,
+              "probesConsidered": 142,
+              "probesRejected": 138
+            },
+            "corp": {
+              "actions": 531,
+              "gain": 294,
+              "draw": 15,
+              "install": 91,
+              "play": 30,
+              "run": 0,
+              "advance": 58,
+              "score": 12,
+              "overrides": 19,
+              "idleWithAgenda": 284,
+              "scoreOffered": 12,
+              "scoreTaken": 12,
+              "runs": 0,
+              "probesConsidered": 0,
+              "probesRejected": 0
+            }
+          },
+          "averageRunnerRuns": 20.75,
+          "lowPressureGames": 0
+        },
+        "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+        "experimentHash": "3b879b545bc8abe43574b911447799f5e39d1edd6a48c3badc30fea21aec5597"
+      },
+      {
+        "runner": "Vic · central pressure",
+        "corp": "Méliès U · campaign control",
+        "directory": "matchup-0-1",
+        "jobs": 8,
+        "statuses": {
+          "completed": 8
+        },
+        "wins": {
+          "corp": 2,
+          "runner": 6
+        },
+        "runnerWinRate": 0.75,
+        "runnerWilson95": [
+          0.40926987910258916,
+          0.9285223111419724
+        ],
+        "p50Ms": 352,
+        "p95Ms": 771,
+        "aiSummary": {
+          "totals": {
+            "runner": {
+              "actions": 510,
+              "gain": 59,
+              "draw": 99,
+              "install": 51,
+              "play": 42,
+              "run": 59,
+              "advance": 0,
+              "score": 0,
+              "overrides": 9,
+              "idleWithAgenda": 0,
+              "scoreOffered": 0,
+              "scoreTaken": 0,
+              "runs": 104,
+              "probesConsidered": 82,
+              "probesRejected": 73
+            },
+            "corp": {
+              "actions": 338,
+              "gain": 47,
+              "draw": 21,
+              "install": 115,
+              "play": 28,
+              "run": 0,
+              "advance": 97,
+              "score": 19,
+              "overrides": 27,
+              "idleWithAgenda": 55,
+              "scoreOffered": 19,
+              "scoreTaken": 19,
+              "runs": 0,
+              "probesConsidered": 0,
+              "probesRejected": 0
+            }
+          },
+          "averageRunnerRuns": 13,
+          "lowPressureGames": 0
+        },
+        "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+        "experimentHash": "387aed253b927971faf69dc8cf4ba14accdf3c8cfb5263e8b5b2645ae133b0ff"
+      },
+      {
+        "runner": "Hiram · funded rig",
+        "corp": "Editorial · campaigns & tags",
+        "directory": "matchup-1-0",
+        "jobs": 8,
+        "statuses": {
+          "completed": 8
+        },
+        "wins": {
+          "corp": 4,
+          "runner": 4
+        },
+        "runnerWinRate": 0.5,
+        "runnerWilson95": [
+          0.21521252682444186,
+          0.7847874731755582
+        ],
+        "p50Ms": 529,
+        "p95Ms": 1408,
+        "aiSummary": {
+          "totals": {
+            "runner": {
+              "actions": 627,
+              "gain": 192,
+              "draw": 114,
+              "install": 66,
+              "play": 18,
+              "run": 145,
+              "advance": 0,
+              "score": 0,
+              "overrides": 10,
+              "idleWithAgenda": 0,
+              "scoreOffered": 0,
+              "scoreTaken": 0,
+              "runs": 145,
+              "probesConsidered": 97,
+              "probesRejected": 87
+            },
+            "corp": {
+              "actions": 479,
+              "gain": 248,
+              "draw": 9,
+              "install": 88,
+              "play": 29,
+              "run": 0,
+              "advance": 76,
+              "score": 17,
+              "overrides": 21,
+              "idleWithAgenda": 236,
+              "scoreOffered": 17,
+              "scoreTaken": 17,
+              "runs": 0,
+              "probesConsidered": 0,
+              "probesRejected": 0
+            }
+          },
+          "averageRunnerRuns": 18.125,
+          "lowPressureGames": 0
+        },
+        "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+        "experimentHash": "367d088b9f3a8ace0a8f8bb5e33e8f3b9d775d4a001bba857df7fc19435eec9a"
+      },
+      {
+        "runner": "Hiram · funded rig",
+        "corp": "Méliès U · campaign control",
+        "directory": "matchup-1-1",
+        "jobs": 8,
+        "statuses": {
+          "completed": 8
+        },
+        "wins": {
+          "corp": 4,
+          "runner": 4
+        },
+        "runnerWinRate": 0.5,
+        "runnerWilson95": [
+          0.21521252682444186,
+          0.7847874731755582
+        ],
+        "p50Ms": 370,
+        "p95Ms": 1287,
+        "aiSummary": {
+          "totals": {
+            "runner": {
+              "actions": 477,
+              "gain": 85,
+              "draw": 122,
+              "install": 59,
+              "play": 15,
+              "run": 111,
+              "advance": 0,
+              "score": 0,
+              "overrides": 0,
+              "idleWithAgenda": 0,
+              "scoreOffered": 0,
+              "scoreTaken": 0,
+              "runs": 111,
+              "probesConsidered": 73,
+              "probesRejected": 73
+            },
+            "corp": {
+              "actions": 378,
+              "gain": 100,
+              "draw": 25,
+              "install": 109,
+              "play": 30,
+              "run": 0,
+              "advance": 83,
+              "score": 19,
+              "overrides": 17,
+              "idleWithAgenda": 114,
+              "scoreOffered": 19,
+              "scoreTaken": 19,
+              "runs": 0,
+              "probesConsidered": 0,
+              "probesRejected": 0
+            }
+          },
+          "averageRunnerRuns": 13.875,
+          "lowPressureGames": 0
+        },
+        "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+        "experimentHash": "54f659cfe9ad7b3532e05cf1a4f4d6d5ac5306962dead7f4c40dd884603de99a"
+      }
+    ],
+    "complete": true
+  }
+}

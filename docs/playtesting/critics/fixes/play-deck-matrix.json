@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "runners": [
+    "tao-vantage-pilot-v1",
+    "loup-vantage-tailor-v1",
+    "vic-play-v1",
+    "hiram-play-v1"
+  ],
+  "corps": [
+    "weyland-vantage-tools-v1",
+    "jinteki-vantage-pilot-v1",
+    "hb-vantage-tempo-v1",
+    "melies-play-v1",
+    "editorial-play-v1"
+  ],
+  "gamesPerMatchup": 5,
+  "workers": 4,
+  "seed": "critics-play-decks-1",
+  "wallMs": 60000,
+  "decisions": 6000,
+  "traceEvery": 5
+}

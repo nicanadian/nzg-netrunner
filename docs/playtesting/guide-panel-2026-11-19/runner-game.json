@@ -1,0 +1,1465 @@
+{
+  "final": {
+    "diagnostics": [],
+    "points": {
+      "corp": 7,
+      "runner": 0
+    },
+    "terminal": {
+      "reason": "Corp reached 7 agenda points.",
+      "winner": "corp"
+    },
+    "turn": 17,
+    "version": 547
+  },
+  "history": [
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"Do 1 net damage.\" on Tithe protecting HQ at position 1:",
+      "turn": 6
+    },
+    {
+      "damage": {
+        "amount": 1,
+        "card": {
+          "id": "c31",
+          "number": 30073,
+          "title": "Tithe"
+        },
+        "gripBefore": 2,
+        "type": "net"
+      },
+      "side": "runner",
+      "text": "Runner takes 1 net damage",
+      "turn": 6
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Cleaver trashed",
+      "turn": 6
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"Gain 1 credit.\" on Tithe protecting HQ at position 1:",
+      "turn": 6
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Corp gained one credit",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Approaching next piece of ice protecting HQ",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Palisade protecting HQ at position 0",
+      "turn": 6
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"End the run.\" on Palisade protecting HQ at position 0:",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 6
+    },
+    {
+      "draw": {
+        "kind": "action"
+      },
+      "side": "runner",
+      "text": "Runner drew a card",
+      "turn": 6
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 7
+    },
+    {
+      "side": "corp",
+      "text": "Corp created a new remote server",
+      "turn": 7
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 7
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed ice protecting a remote server",
+      "turn": 7
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 7
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed a card in root of a remote server",
+      "turn": 7
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 7
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 7
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 7
+    },
+    {
+      "side": "corp",
+      "text": "When your discard phase ends triggered",
+      "turn": 7
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained one credit",
+      "turn": 7
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 8
+    },
+    {
+      "draw": {
+        "kind": "action"
+      },
+      "side": "runner",
+      "text": "Runner drew a card",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 8
+    },
+    {
+      "draw": {
+        "kind": "action"
+      },
+      "side": "runner",
+      "text": "Runner drew a card",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Played \"Jailbreak\"",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking HQ",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting HQ",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Diviner protecting HQ at position 2",
+      "turn": 8
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"Do 1 net damage. If you trash a card with a printed play or install cost that is an odd number, end the run.\" on Diviner protecting HQ at position 2:",
+      "turn": 8
+    },
+    {
+      "damage": {
+        "amount": 1,
+        "card": {
+          "id": "c5",
+          "number": 30046,
+          "title": "Diviner"
+        },
+        "gripBefore": 3,
+        "type": "net"
+      },
+      "side": "runner",
+      "text": "Runner takes 1 net damage",
+      "turn": 8
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Botulus trashed",
+      "turn": 8
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Botulus has a printed cost of 2",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Approaching next piece of ice protecting HQ",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Tithe protecting HQ at position 1",
+      "turn": 8
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"Do 1 net damage.\" on Tithe protecting HQ at position 1:",
+      "turn": 8
+    },
+    {
+      "damage": {
+        "amount": 1,
+        "card": {
+          "id": "c31",
+          "number": 30073,
+          "title": "Tithe"
+        },
+        "gripBefore": 2,
+        "type": "net"
+      },
+      "side": "runner",
+      "text": "Runner takes 1 net damage",
+      "turn": 8
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Jailbreak trashed",
+      "turn": 8
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"Gain 1 credit.\" on Tithe protecting HQ at position 1:",
+      "turn": 8
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Corp gained one credit",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Approaching next piece of ice protecting HQ",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Palisade protecting HQ at position 0",
+      "turn": 8
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"End the run.\" on Palisade protecting HQ at position 0:",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 8
+    },
+    {
+      "draw": {
+        "kind": "action"
+      },
+      "side": "runner",
+      "text": "Runner drew a card",
+      "turn": 8
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 9
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 9
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 9
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 9
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 9
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 9
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 9
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 9
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 9
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 9
+    },
+    {
+      "side": "corp",
+      "text": "When your discard phase ends triggered",
+      "turn": 9
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained one credit",
+      "turn": 9
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 10
+    },
+    {
+      "draw": {
+        "kind": "action"
+      },
+      "side": "runner",
+      "text": "Runner drew a card",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 10
+    },
+    {
+      "draw": {
+        "kind": "action"
+      },
+      "side": "runner",
+      "text": "Runner drew a card",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking Archives",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Approaching Archives",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "1 virus counter placed on Leech",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Hansei Review accessed",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Clearinghouse accessed",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 10
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 11
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 11
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 11
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 11
+    },
+    {
+      "side": "corp",
+      "text": "Send a Message scored",
+      "turn": 11
+    },
+    {
+      "side": "corp",
+      "text": "You may rez 1 installed piece of ice, ignoring all costs triggered",
+      "turn": 11
+    },
+    {
+      "side": "corp",
+      "text": "Corp rezzed Palisade protecting Remote 0 at position 0",
+      "turn": 11
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 11
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 11
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed ice protecting a remote server",
+      "turn": 11
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 11
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed a card in root of a remote server",
+      "turn": 11
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 12
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 1 credit from credit pool",
+      "turn": 12
+    },
+    {
+      "side": "runner",
+      "text": "Runner installed Fermenter",
+      "turn": 12
+    },
+    {
+      "side": "runner",
+      "text": "1 virus counter placed on Fermenter",
+      "turn": 12
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 12
+    },
+    {
+      "draw": {
+        "kind": "action"
+      },
+      "side": "runner",
+      "text": "Runner drew a card",
+      "turn": 12
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 12
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 12
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 12
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 12
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 13
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 13
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 13
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 13
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 13
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 13
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 13
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 13
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 13
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 13
+    },
+    {
+      "side": "runner",
+      "text": "1 virus counter placed on Fermenter",
+      "turn": 14
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 14
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 14
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 14
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 3 credits from credit pool",
+      "turn": 14
+    },
+    {
+      "side": "runner",
+      "text": "Runner installed Verbal Plasticity",
+      "turn": 14
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 14
+    },
+    {
+      "draw": {
+        "kind": "action"
+      },
+      "side": "runner",
+      "text": "Runner drew 2 cards",
+      "turn": 14
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 14
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 14
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 15
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 15
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 15
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 15
+    },
+    {
+      "side": "corp",
+      "text": "Offworld Office scored",
+      "turn": 15
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained 7 credits",
+      "turn": 15
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 15
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed a card in root of a remote server",
+      "turn": 15
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 15
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 15
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 15
+    },
+    {
+      "side": "runner",
+      "text": "1 virus counter placed on Fermenter",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Using Fermenter:",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Fermenter trashed",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained 6 credits",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 5 credits from credit pool",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Played \"Sure Gamble\"",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained 9 credits",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 4 credits from credit pool",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Runner installed Buzzsaw",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 16
+    },
+    {
+      "draw": {
+        "kind": "action"
+      },
+      "side": "runner",
+      "text": "Runner drew 2 cards",
+      "turn": 16
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Longevity Serum scored",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Corp reached 7 agenda points.",
+      "turn": 17
+    }
+  ],
+  "session": {
+    "choices": [
+      {
+        "command": "n",
+        "index": 0,
+        "version": 2
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 37
+      },
+      {
+        "command": "install",
+        "index": 0,
+        "version": 40
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 42
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 43
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 44
+      },
+      {
+        "command": "install",
+        "index": 1,
+        "version": 45
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 46
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 47
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 51
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 56
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 61
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 64
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 67
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 71
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 76
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 81
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 85
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 86
+      },
+      {
+        "command": "install",
+        "index": 1,
+        "version": 87
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 89
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 90
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 91
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 92
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 93
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 94
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 96
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 99
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 100
+      },
+      {
+        "command": "pay",
+        "index": 2,
+        "version": 102
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 103
+      },
+      {
+        "command": "pay",
+        "index": 2,
+        "version": 105
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 106
+      },
+      {
+        "command": "pay",
+        "index": 1,
+        "version": 108
+      },
+      {
+        "command": "pay",
+        "index": 0,
+        "version": 109
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 121
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 175
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 177
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 179
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 180
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 197
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 213
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 228
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 268
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 270
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 272
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 273
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 288
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 304
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 319
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 357
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 359
+      },
+      {
+        "command": "run",
+        "index": 2,
+        "version": 361
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 364
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 371
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 375
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 382
+      },
+      {
+        "command": "install",
+        "index": 1,
+        "version": 426
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 427
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 429
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 431
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 433
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 434
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 438
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 443
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 448
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 451
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 454
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 457
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 462
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 465
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 469
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 470
+      },
+      {
+        "command": "install",
+        "index": 1,
+        "version": 471
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 474
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 476
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 516
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 520
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 521
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 523
+      },
+      {
+        "command": "install",
+        "index": 1,
+        "version": 524
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 525
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 526
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 527
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 528
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 532
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 537
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 542
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 545
+      }
+    ],
+    "conceded": false,
+    "config": {
+      "aiPolicy": "pressure-v1",
+      "cardPool": "vantage-preview-v1",
+      "deckDocuments": {
+        "corp": {
+          "cards": [
+            {
+              "count": 1,
+              "id": "30044"
+            },
+            {
+              "count": 3,
+              "id": "30046"
+            },
+            {
+              "count": 3,
+              "id": "30048"
+            },
+            {
+              "count": 2,
+              "id": "30049"
+            },
+            {
+              "count": 2,
+              "id": "30050"
+            },
+            {
+              "count": 3,
+              "id": "30053"
+            },
+            {
+              "count": 2,
+              "id": "30061"
+            },
+            {
+              "count": 3,
+              "id": "30067"
+            },
+            {
+              "count": 2,
+              "id": "30068"
+            },
+            {
+              "count": 2,
+              "id": "30069"
+            },
+            {
+              "count": 3,
+              "id": "30071"
+            },
+            {
+              "count": 3,
+              "id": "30072"
+            },
+            {
+              "count": 3,
+              "id": "30073"
+            },
+            {
+              "count": 3,
+              "id": "30074"
+            },
+            {
+              "count": 3,
+              "id": "30075"
+            },
+            {
+              "count": 3,
+              "id": "36038"
+            },
+            {
+              "count": 3,
+              "id": "36041"
+            }
+          ],
+          "identity": "30043",
+          "name": "Restoring Humanity · Ambushes",
+          "pool": "vantage-preview-v1",
+          "schemaVersion": 1,
+          "side": "corp"
+        },
+        "runner": {
+          "cards": [
+            {
+              "count": 3,
+              "id": "30002"
+            },
+            {
+              "count": 1,
+              "id": "30003"
+            },
+            {
+              "count": 3,
+              "id": "30004"
+            },
+            {
+              "count": 3,
+              "id": "30005"
+            },
+            {
+              "count": 3,
+              "id": "30006"
+            },
+            {
+              "count": 3,
+              "id": "30007"
+            },
+            {
+              "count": 3,
+              "id": "30008"
+            },
+            {
+              "count": 3,
+              "id": "30015"
+            },
+            {
+              "count": 3,
+              "id": "30028"
+            },
+            {
+              "count": 3,
+              "id": "30029"
+            },
+            {
+              "count": 3,
+              "id": "30030"
+            },
+            {
+              "count": 1,
+              "id": "30031"
+            },
+            {
+              "count": 2,
+              "id": "30033"
+            },
+            {
+              "count": 3,
+              "id": "30034"
+            },
+            {
+              "count": 2,
+              "id": "36003"
+            },
+            {
+              "count": 1,
+              "id": "36011"
+            }
+          ],
+          "identity": "30001",
+          "name": "Panel Runner 19Nov",
+          "pool": "vantage-preview-v1",
+          "schemaVersion": 1,
+          "side": "runner"
+        }
+      },
+      "rulesVersion": "26.03-vantage-3",
+      "seed": "fb5f6dd8-6e34-4c04-9484-1068273d1ba3",
+      "side": "runner"
+    },
+    "engine": "local-vantage-preview-3"
+  }
+}

@@ -1,0 +1,1872 @@
+{
+  "method": "All mutations actual rendered DOM buttons/inputs. Public localTable.state used for strategy; session read only after terminal. Snapshot timed out; DOM-only, no visual certification.",
+  "events": [
+    {
+      "event": "first-impression",
+      "text": "Gateway lobby role controls clear. Corp guide carries role, pool and own Precision baseline. DOM-only: initial snapshot timeout."
+    },
+    {
+      "event": "recipe",
+      "text": "Tao-v1 / Reality Plus-v2 Corp tune opened no game. Legal exact -1 Retribution/+1 Anoetic Void saved Retest Corp 19Nov, 44/8 influence/18 agenda. Tradeoff and support understandable."
+    },
+    {
+      "event": "opening",
+      "text": "Kept Hedge Fund/Palisade/economy/agendas. Played Hedge; Palisade HQ, Funhouse R&D. T2 exposed Regolith, rezzed, drew Hansei, discarded Send a Message to Hansei (strategic mistake: unprotected Archives), gaining funds. Runner trashed Regolith; now HQ approach, rez Palisade to stop no-breaker Runner."
+    },
+    {
+      "event": "score-and-reinforce",
+      "text": "Offworld scored UI turn4,2–0; Tao swap changed scoring protection. Orbital stolen turn5,2–2. Used Spin Doctor to recover discarded Send a Message and Hedge; installed Whitespace scoring remote and Tithe HQ instead of banking endlessly."
+    },
+    {
+      "event": "support-and-tradeoff",
+      "text": "Anoetic drawn/installed UI turn7; did not force activation. Public Trail turn9 tagged Runner, Reality Plus draw2, remaining Retribution trashed Cleaver. Actual effect demonstrates value of removed slot. Guide's HQ and credit reserve reminder used throughout."
+    },
+    {
+      "event": "later-scoring",
+      "text": "Offworld scored turn11,4–2 after Whitespace stopped remote run. Orbital scored turn13,6–2. Reassessed Tao swaps, played Hedge and reinforced scoring lane with second Whitespace, then installed Send a Message turn14."
+    },
+    {
+      "event": "anoetic-window",
+      "text": "Turn14 Runner wealthy enough to pass Whitespace; rezzed Tithe, fired effects, used Funhouse trigger and Reality Plus draw2. At movement-before-server rezzed Anoetic Void0. At approach triggered, paid2, trashed Funhouse and Hansei Review, ended run protecting Send a Message. Payment progress clear. Next turn chose Planogram income before advancing to retain defense budget."
+    },
+    {
+      "event": "completed",
+      "text": "Turn16 advanced Send a Message to5 and scored, Corp9 Runner2; natural agenda win, no concede/undo/restart, diagnostics[]. Notes updated under custom deck."
+    }
+  ],
+  "history": [
+    {
+      "side": "runner",
+      "text": "Runner spent 1 credit from credit pool",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Played \"Creative Commission\"",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained 5 credits",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Runner lost 1 click",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 5 credits from credit pool",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Played \"Sure Gamble\"",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained 9 credits",
+      "turn": 24
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Orbital Superiority scored",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Do 4 meat damage or give the Runner 1 tag triggered",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "1 tag added",
+      "turn": 25
+    },
+    {
+      "draw": {
+        "kind": "effect",
+        "source": "NBN: Reality Plus"
+      },
+      "side": "corp",
+      "text": "Corp drew 2 cards",
+      "turn": 25
+    },
+    {
+      "actor": "runner",
+      "side": "corp",
+      "text": "Tāo Salonga: Swap 2 installed pieces of ice triggered",
+      "turn": 25
+    },
+    {
+      "actor": "runner",
+      "effect": {
+        "card": {
+          "id": "c46",
+          "number": 30019,
+          "title": "Tāo Salonga: Telepresence Magician"
+        },
+        "kind": "swap",
+        "targets": [
+          {
+            "id": "c36",
+            "location": "Remote 1 · ice 2 from outside"
+          },
+          {
+            "id": "c9",
+            "location": "R&D · ice 1 from outside"
+          }
+        ]
+      },
+      "side": "corp",
+      "text": "Tāo Salonga swaps Remote 1 · ice 2 from outside ↔ R&D · ice 1 from outside",
+      "turn": 25
+    },
+    {
+      "actor": "runner",
+      "side": "corp",
+      "text": "Pantograph: Gain 1 credit, you may install 1 card triggered",
+      "turn": 25
+    },
+    {
+      "actor": "runner",
+      "side": "corp",
+      "text": "Runner gained one credit",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Played \"Predictive Planogram\"",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained 3 credits",
+      "turn": 25
+    },
+    {
+      "draw": {
+        "kind": "effect",
+        "source": "Predictive Planogram"
+      },
+      "side": "corp",
+      "text": "Corp drew 3 cards",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Corp discarded \"Regolith Mining License\"",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Corp discarded \"Hansei Review\"",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Corp discarded \"Funhouse\"",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Corp discarded \"AMAZE Amusements\"",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Corp discarded \"Hedge Fund\"",
+      "turn": 25
+    },
+    {
+      "side": "runner",
+      "text": "1 credit taken from Smartware Distributor",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 2 credits from credit pool",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "1 tag removed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking Archives",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Approaching Archives",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Hedge Fund accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "AMAZE Amusements accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Funhouse accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Hansei Review accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Regolith Mining License accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Predictive Planogram accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Palisade accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Tithe accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Tithe accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Predictive Planogram accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Ping accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "AMAZE Amusements accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Retribution accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Public Trail accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Hedge Fund accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Ping accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Ping accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Retribution accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Regolith Mining License accessed",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 26
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 26
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 27
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 27
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 5 credits from credit pool",
+      "turn": 27
+    },
+    {
+      "side": "corp",
+      "text": "Played \"Hedge Fund\"",
+      "turn": 27
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained 9 credits",
+      "turn": 27
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 27
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 2 credits from credit pool",
+      "turn": 27
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed ice protecting a remote server",
+      "turn": 27
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 27
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed a card in root of a remote server",
+      "turn": 27
+    },
+    {
+      "side": "runner",
+      "text": "1 credit taken from Smartware Distributor",
+      "turn": 28
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 28
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking Remote 1",
+      "turn": 28
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting Remote 1",
+      "turn": 28
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting Remote 1",
+      "turn": 28
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Corp spent 2 credits from credit pool",
+      "turn": 28
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Corp rezzed Whitespace protecting Remote 1 at position 2",
+      "turn": 28
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Whitespace protecting Remote 1 at position 2",
+      "turn": 28
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"The Runner loses 3 credit.\" on Whitespace protecting Remote 1 at position 2:",
+      "turn": 28
+    },
+    {
+      "side": "runner",
+      "text": "Runner lost 3 credits",
+      "turn": 28
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"If the Runner has 6 credit or less, end the run.\" on Whitespace protecting Remote 1 at position 2:",
+      "turn": 28
+    },
+    {
+      "side": "runner",
+      "text": "Approaching next piece of ice protecting Remote 1",
+      "turn": 28
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 28
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Corp rezzed Tithe protecting Remote 1 at position 1",
+      "turn": 28
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Tithe protecting Remote 1 at position 1",
+      "turn": 28
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"Do 1 net damage.\" on Tithe protecting Remote 1 at position 1:",
+      "turn": 28
+    },
+    {
+      "damage": {
+        "amount": 1,
+        "card": {
+          "id": "c38",
+          "number": 30073,
+          "title": "Tithe"
+        },
+        "gripBefore": 5,
+        "type": "net"
+      },
+      "side": "runner",
+      "text": "Runner takes 1 net damage",
+      "turn": 28
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Echelon trashed",
+      "turn": 28
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"Gain 1 credit.\" on Tithe protecting Remote 1 at position 1:",
+      "turn": 28
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Corp gained one credit",
+      "turn": 28
+    },
+    {
+      "side": "runner",
+      "text": "Approaching next piece of ice protecting Remote 1",
+      "turn": 28
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Funhouse protecting Remote 1 at position 0",
+      "turn": 28
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "1 tag added",
+      "turn": 28
+    },
+    {
+      "actor": "corp",
+      "draw": {
+        "kind": "effect",
+        "source": "NBN: Reality Plus"
+      },
+      "side": "runner",
+      "text": "Corp drew 2 cards",
+      "turn": 28
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"Give the Runner 1 tag unless they pay 4 credit.\" on Funhouse protecting Remote 1 at position 0:",
+      "turn": 28
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "1 tag added",
+      "turn": 28
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Corp rezzed Anoetic Void",
+      "turn": 28
+    },
+    {
+      "side": "runner",
+      "text": "Approaching Remote 1",
+      "turn": 28
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Whenever the Runner approaches this server triggered",
+      "turn": 28
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Corp spent 2 credits from credit pool",
+      "turn": 28
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Funhouse trashed",
+      "turn": 28
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Hansei Review trashed",
+      "turn": 28
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 28
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 28
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 2 credits from credit pool",
+      "turn": 28
+    },
+    {
+      "side": "runner",
+      "text": "1 tag removed",
+      "turn": 28
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 28
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 2 credits from credit pool",
+      "turn": 28
+    },
+    {
+      "side": "runner",
+      "text": "1 tag removed",
+      "turn": 28
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 28
+    },
+    {
+      "draw": {
+        "kind": "action"
+      },
+      "side": "runner",
+      "text": "Runner drew 2 cards",
+      "turn": 28
+    },
+    {
+      "side": "runner",
+      "text": "Runner discarded \"Conduit\"",
+      "turn": 28
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 29
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 29
+    },
+    {
+      "side": "corp",
+      "text": "Played \"Predictive Planogram\"",
+      "turn": 29
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained 3 credits",
+      "turn": 29
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 29
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 29
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 29
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 29
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 29
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 29
+    },
+    {
+      "side": "runner",
+      "text": "1 credit taken from Smartware Distributor",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 30
+    },
+    {
+      "draw": {
+        "kind": "action"
+      },
+      "side": "runner",
+      "text": "Runner drew 2 cards",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Using Smartware Distributor:",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "3 credits placed on Smartware Distributor",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Runner installed Smartware Distributor",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Using Smartware Distributor:",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "3 credits placed on Smartware Distributor",
+      "turn": 30
+    },
+    {
+      "side": "runner",
+      "text": "Runner discarded \"Overclock\"",
+      "turn": 30
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 31
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 31
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 31
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 31
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 31
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 31
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 31
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 31
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 31
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 31
+    },
+    {
+      "side": "corp",
+      "text": "Send a Message scored",
+      "turn": 31
+    },
+    {
+      "side": "corp",
+      "text": "Corp reached 9 agenda points.",
+      "turn": 31
+    }
+  ],
+  "choices": [
+    {
+      "command": "n",
+      "index": 0,
+      "version": 1
+    },
+    {
+      "command": "play",
+      "index": 0,
+      "version": 8
+    },
+    {
+      "command": "install",
+      "index": 3,
+      "version": 10
+    },
+    {
+      "command": "install",
+      "index": 5,
+      "version": 12
+    },
+    {
+      "command": "install",
+      "index": 0,
+      "version": 44
+    },
+    {
+      "command": "rez",
+      "index": 0,
+      "version": 46
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "version": 47
+    },
+    {
+      "command": "play",
+      "index": 0,
+      "version": 48
+    },
+    {
+      "command": "discard",
+      "index": 2,
+      "version": 49
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 79
+    },
+    {
+      "command": "rez",
+      "index": 0,
+      "version": 81
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 86
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 96
+    },
+    {
+      "command": "rez",
+      "index": 0,
+      "version": 98
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 102
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 106
+    },
+    {
+      "command": "continue",
+      "index": 1,
+      "version": 107
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 112
+    },
+    {
+      "command": "install",
+      "index": 6,
+      "version": 143
+    },
+    {
+      "command": "install",
+      "index": 1,
+      "version": 145
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 147
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 179
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 180
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 181
+    },
+    {
+      "command": "score",
+      "index": 0,
+      "version": 182
+    },
+    {
+      "command": "install",
+      "index": 1,
+      "version": 221
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 223
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 224
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 244
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 248
+    },
+    {
+      "command": "continue",
+      "index": 1,
+      "version": 249
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 254
+    },
+    {
+      "command": "install",
+      "index": 10,
+      "version": 298
+    },
+    {
+      "command": "rez",
+      "index": 0,
+      "version": 300
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 301
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 305
+    },
+    {
+      "command": "continue",
+      "index": 1,
+      "version": 307
+    },
+    {
+      "command": "continue",
+      "index": 0,
+      "version": 308
+    },
+    {
+      "command": "play",
+      "index": 0,
+      "version": 309
+    },
+    {
+      "command": "install",
+      "index": 21,
+      "version": 311
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 312
+    },
+    {
+      "command": "discard",
+      "index": 0,
+      "version": 315
+    },
+    {
+      "command": "install",
+      "index": 21,
+      "version": 398
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "version": 400
+    },
+    {
+      "command": "install",
+      "index": 20,
+      "version": 401
+    },
+    {
+      "command": "rez",
+      "index": 1,
+      "version": 403
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 404
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 408
+    },
+    {
+      "command": "discard",
+      "index": 1,
+      "version": 410
+    },
+    {
+      "command": "discard",
+      "index": 2,
+      "version": 411
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 413
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 418
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 431
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 433
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 440
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 447
+    },
+    {
+      "command": "continue",
+      "index": 2,
+      "version": 449
+    },
+    {
+      "command": "continue",
+      "index": 0,
+      "version": 450
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 453
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 465
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 468
+    },
+    {
+      "command": "install",
+      "index": 15,
+      "version": 473
+    },
+    {
+      "command": "rez",
+      "index": 1,
+      "version": 475
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 476
+    },
+    {
+      "command": "install",
+      "index": 3,
+      "version": 480
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 481
+    },
+    {
+      "command": "play",
+      "index": 1,
+      "version": 482
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 484
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 487
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 492
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 505
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 507
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 508
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 528
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 531
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "version": 536
+    },
+    {
+      "command": "play",
+      "index": 0,
+      "version": 537
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 540
+    },
+    {
+      "command": "continue",
+      "index": 1,
+      "version": 541
+    },
+    {
+      "command": "play",
+      "index": 0,
+      "version": 544
+    },
+    {
+      "command": "continue",
+      "index": 0,
+      "version": 545
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 546
+    },
+    {
+      "command": "discard",
+      "index": 0,
+      "version": 548
+    },
+    {
+      "command": "discard",
+      "index": 0,
+      "version": 549
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 551
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 556
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 572
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 575
+    },
+    {
+      "command": "play",
+      "index": 1,
+      "version": 580
+    },
+    {
+      "command": "continue",
+      "index": 1,
+      "version": 581
+    },
+    {
+      "command": "install",
+      "index": 31,
+      "version": 582
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 583
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 584
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 585
+    },
+    {
+      "command": "discard",
+      "index": 4,
+      "version": 587
+    },
+    {
+      "command": "discard",
+      "index": 4,
+      "version": 588
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 590
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 595
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 605
+    },
+    {
+      "command": "rez",
+      "index": 1,
+      "version": 607
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 611
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 615
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 616
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 617
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 627
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 629
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 630
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 666
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 669
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 674
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 675
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 676
+    },
+    {
+      "command": "score",
+      "index": 0,
+      "version": 677
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 685
+    },
+    {
+      "command": "discard",
+      "index": 5,
+      "version": 687
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 689
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 694
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 710
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 713
+    },
+    {
+      "command": "install",
+      "index": 16,
+      "version": 718
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 719
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 720
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 721
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 722
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 725
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 730
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 743
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 746
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 751
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 752
+    },
+    {
+      "command": "score",
+      "index": 0,
+      "version": 753
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 754
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 756
+    },
+    {
+      "command": "continue",
+      "index": 1,
+      "version": 757
+    },
+    {
+      "command": "play",
+      "index": 0,
+      "version": 767
+    },
+    {
+      "command": "continue",
+      "index": 2,
+      "version": 768
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 769
+    },
+    {
+      "command": "discard",
+      "index": 0,
+      "version": 771
+    },
+    {
+      "command": "discard",
+      "index": 0,
+      "version": 772
+    },
+    {
+      "command": "discard",
+      "index": 0,
+      "version": 773
+    },
+    {
+      "command": "discard",
+      "index": 1,
+      "version": 774
+    },
+    {
+      "command": "discard",
+      "index": 1,
+      "version": 775
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 777
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 782
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 789
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 791
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 792
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 844
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 847
+    },
+    {
+      "command": "play",
+      "index": 0,
+      "version": 852
+    },
+    {
+      "command": "install",
+      "index": 1,
+      "version": 854
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 855
+    },
+    {
+      "command": "install",
+      "index": 1,
+      "version": 856
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 857
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 858
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 861
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 866
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 871
+    },
+    {
+      "command": "rez",
+      "index": 1,
+      "version": 873
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 877
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 881
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 882
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 883
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 890
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 891
+    },
+    {
+      "command": "rez",
+      "index": 1,
+      "version": 893
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 897
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 901
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 902
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 903
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 910
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 911
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 913
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 915
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 919
+    },
+    {
+      "command": "continue",
+      "index": 1,
+      "version": 920
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 924
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 925
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 935
+    },
+    {
+      "command": "rez",
+      "index": 0,
+      "version": 936
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 939
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 942
+    },
+    {
+      "command": "continue",
+      "index": 0,
+      "version": 944
+    },
+    {
+      "command": "discard",
+      "index": 2,
+      "version": 945
+    },
+    {
+      "command": "discard",
+      "index": 2,
+      "version": 946
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 961
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 964
+    },
+    {
+      "command": "play",
+      "index": 0,
+      "version": 969
+    },
+    {
+      "command": "continue",
+      "index": 0,
+      "version": 970
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 971
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 972
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 973
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 976
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 981
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 998
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 1001
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 1006
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 1007
+    },
+    {
+      "command": "advance",
+      "index": 0,
+      "version": 1008
+    },
+    {
+      "command": "score",
+      "index": 0,
+      "version": 1009
+    }
+  ]
+}

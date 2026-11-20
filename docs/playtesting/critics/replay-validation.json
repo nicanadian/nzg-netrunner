@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-16",
+  "results": [
+    {
+      "reviewer": "runner",
+      "choices": 109,
+      "winner": "corp",
+      "reason": "Corp reached 8 agenda points.",
+      "version": 898,
+      "exactTerminalAndVersion": true
+    },
+    {
+      "reviewer": "corp",
+      "choices": 69,
+      "winner": "runner",
+      "reason": "Runner reached 8 agenda points.",
+      "version": 656,
+      "exactTerminalAndVersion": true
+    },
+    {
+      "reviewer": "experienced",
+      "choices": 304,
+      "version": 1057,
+      "runnerPoints": 3,
+      "corpPoints": 2,
+      "exactPreConcessionVersionAndScores": true,
+      "completion": "Intentional browser UI concession; native decision replay independently checked up to the concession."
+    }
+  ]
+}

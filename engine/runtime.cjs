@@ -3,8 +3,8 @@
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
 const {performance}=require('node:perf_hooks');
 const ROOT=path.resolve(__dirname,'..'),compiled=new Map();
-const CORE_SCRIPTS=Object.freeze(['vendor/chiriboga-elevation/sets/elevation.js','engine/core-decks.js','engine/elevation-compat.js','engine/elevation-transactions.js','engine/elevation-local.js','engine/elevation-hosting.js','engine/elevation-economy.js','engine/core-events.js','engine/core-private.js','engine/core-operations.js','engine/core-rez.js']);
-function createGame({vendor='vendor/chiriboga',extraScripts=[],core=false,verbose=false,searchOptimizations} = {}) {
+const CORE_SCRIPTS=Object.freeze(['vendor/chiriboga-elevation/sets/elevation.js','engine/core-decks.js','engine/elevation-compat.js','engine/elevation-transactions.js','engine/elevation-local.js','engine/elevation-hosting.js','engine/elevation-economy.js','engine/core-events.js','engine/core-private.js','engine/core-operations.js','engine/core-rez.js','engine/core-audit-fixes.js']);
+function createGame({vendor='vendor/chiriboga',extraScripts=[],core=false,vantage=false,verbose=false,searchOptimizations} = {}) {
   const timers = new Set();
   const errors = [];
   const sandbox = {
@@ -50,9 +50,12 @@ function createGame({vendor='vendor/chiriboga',extraScripts=[],core=false,verbos
   for (const file of ['decks', 'runcalculator', 'ai_corp', 'ai_runner']) load(`${vendor}/${file}.js`);
   load('engine/deck-catalog.js');
   load('engine/card-catalog.js');
+  if(vantage){load('engine/vantage-catalog.js');load('engine/vantage-profile.js');}
   load('engine/deck-document.js');
-  if(core)for(const file of CORE_SCRIPTS)load(file);
+  if(core||vantage)for(const file of CORE_SCRIPTS)load(file);
+  if(vantage){load('engine/vantage-rules.js');load('engine/vantage-complete.js');load('engine/vantage-policy.js');}
   for (const file of extraScripts) load(file);
+  load('engine/pressure-policy.js');
   load('engine/adapter.js');
   sandbox.NRSearchOptimizationSettings = {
     cache:searchOptimizations !== false && searchOptimizations?.cache !== false,

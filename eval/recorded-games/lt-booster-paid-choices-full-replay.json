@@ -1099,7 +1099,7 @@
     },
     {
       "turn": "R1",
-      "label": "Resolve Jailbreak",
+      "label": "Resolve Jailbreak · draw 1 card and access 1 additional card",
       "before": {
         "phase": "Run 5.1",
         "active": "runner"
@@ -1645,7 +1645,7 @@
     },
     {
       "turn": "R3",
-      "label": "Resolve Jailbreak",
+      "label": "Resolve Jailbreak · draw 1 card and access 1 additional card",
       "before": {
         "phase": "Run 5.1",
         "active": "runner"
@@ -8571,7 +8571,7 @@
                 {
                   "text": "Gain 1 credit.",
                   "broken": false,
-                  "fired": true
+                  "fired": false
                 }
               ]
             },

@@ -1,0 +1,2873 @@
+{
+  "errors": [],
+  "postgame": {
+    "priorityHidden": true,
+    "receiptHidden": true
+  },
+  "session": {
+    "choices": [
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1
+      },
+      {
+        "command": "install",
+        "index": 4,
+        "version": 8
+      },
+      {
+        "command": "install",
+        "index": 1,
+        "version": 10
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 12
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 41
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 42
+      },
+      {
+        "command": "install",
+        "index": 3,
+        "version": 104
+      },
+      {
+        "command": "install",
+        "index": 2,
+        "version": 106
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 108
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 140
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 141
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 142
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 156
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 176
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 177
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 178
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 214
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 215
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 216
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 247
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 248
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 249
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 252
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 283
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 284
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 285
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 288
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 320
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 321
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 322
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 325
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 337
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 356
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 357
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 358
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 361
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 381
+      },
+      {
+        "command": "rez",
+        "index": 0,
+        "version": 383
+      }
+    ],
+    "conceded": false,
+    "config": {
+      "deckIds": {
+        "corp": "precision-design-v2",
+        "runner": "loup-v1"
+      },
+      "rulesVersion": "26.03-local-2",
+      "seed": "98bc2af0-36e8-4597-95de-2361a4740983",
+      "side": "corp"
+    },
+    "engine": "chiriboga-77c80b1-local-1"
+  },
+  "state": {
+    "access": null,
+    "active": "runner",
+    "agendaPointTarget": 7,
+    "assistance": null,
+    "corp": {
+      "badPublicity": 0,
+      "clicks": 0,
+      "credits": 23,
+      "deck": 28,
+      "discard": [
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c43",
+          "installed": false,
+          "number": 30056,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Transaction"
+          ],
+          "subroutines": [],
+          "title": "Predictive Planogram",
+          "type": "operation"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c15",
+          "installed": false,
+          "number": 30038,
+          "rezzed": false,
+          "side": "corp",
+          "strength": 4,
+          "subTypes": [
+            "Sentry",
+            "Bioroid",
+            "Destroyer"
+          ],
+          "subroutines": [
+            {
+              "broken": false,
+              "fired": false,
+              "text": "Trash 1 installed Runner card."
+            },
+            {
+              "broken": false,
+              "fired": false,
+              "text": "You may install 1 card from HQ or Archives."
+            },
+            {
+              "broken": false,
+              "fired": false,
+              "text": "The Runner cannot steal or trash Corp cards for the remainder of this run."
+            }
+          ],
+          "title": "Ansel 1.0",
+          "type": "ice"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c31",
+          "installed": false,
+          "number": 30074,
+          "rezzed": false,
+          "side": "corp",
+          "strength": 0,
+          "subTypes": [
+            "Code Gate"
+          ],
+          "subroutines": [
+            {
+              "broken": false,
+              "fired": false,
+              "text": "The Runner loses 3 credit."
+            },
+            {
+              "broken": false,
+              "fired": false,
+              "text": "If the Runner has 6 credit or less, end the run."
+            }
+          ],
+          "title": "Whitespace",
+          "type": "ice"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c22",
+          "installed": false,
+          "number": 30042,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [],
+          "subroutines": [],
+          "title": "Manegarm Skunkworks",
+          "type": "upgrade"
+        }
+      ],
+      "hand": [
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c45",
+          "installed": false,
+          "number": 30041,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [],
+          "subroutines": [],
+          "title": "Sprint",
+          "type": "operation"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c29",
+          "installed": false,
+          "number": 30073,
+          "rezzed": false,
+          "side": "corp",
+          "strength": 1,
+          "subTypes": [
+            "Sentry",
+            "AP"
+          ],
+          "subroutines": [
+            {
+              "broken": false,
+              "fired": false,
+              "text": "Do 1 net damage."
+            },
+            {
+              "broken": false,
+              "fired": false,
+              "text": "Gain 1 credit."
+            }
+          ],
+          "title": "Tithe",
+          "type": "ice"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c20",
+          "installed": false,
+          "number": 30040,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [],
+          "subroutines": [],
+          "title": "Seamless Launch",
+          "type": "operation"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c21",
+          "installed": false,
+          "number": 30040,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [],
+          "subroutines": [],
+          "title": "Seamless Launch",
+          "type": "operation"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c38",
+          "installed": false,
+          "number": 30053,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Character"
+          ],
+          "subroutines": [],
+          "title": "Spin Doctor",
+          "type": "asset"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c10",
+          "installed": false,
+          "number": 30037,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Advertisement"
+          ],
+          "subroutines": [],
+          "title": "Nico Campaign",
+          "type": "asset"
+        }
+      ],
+      "identity": {
+        "advancement": 0,
+        "advancementRequirement": null,
+        "canScore": false,
+        "counters": {},
+        "faceUp": true,
+        "hidden": false,
+        "hosted": [],
+        "id": "c1",
+        "installed": false,
+        "number": 30035,
+        "rezzed": false,
+        "side": "corp",
+        "strength": null,
+        "subTypes": [
+          "Megacorp"
+        ],
+        "subroutines": [],
+        "title": "Haas-Bioroid: Precision Design",
+        "type": "identity"
+      },
+      "maxHand": 6,
+      "points": 0,
+      "resolving": [],
+      "score": [],
+      "servers": [
+        {
+          "central": true,
+          "ice": [
+            {
+              "advancement": 0,
+              "advancementRequirement": null,
+              "canScore": false,
+              "counters": {},
+              "faceUp": false,
+              "hidden": false,
+              "hosted": [],
+              "id": "c30",
+              "installed": true,
+              "number": 30073,
+              "rezzed": false,
+              "side": "corp",
+              "strength": 1,
+              "subTypes": [
+                "Sentry",
+                "AP"
+              ],
+              "subroutines": [
+                {
+                  "broken": false,
+                  "fired": false,
+                  "text": "Do 1 net damage."
+                },
+                {
+                  "broken": false,
+                  "fired": false,
+                  "text": "Gain 1 credit."
+                }
+              ],
+              "title": "Tithe",
+              "type": "ice"
+            }
+          ],
+          "name": "HQ",
+          "root": []
+        },
+        {
+          "central": true,
+          "ice": [
+            {
+              "advancement": 0,
+              "advancementRequirement": null,
+              "canScore": false,
+              "counters": {},
+              "faceUp": true,
+              "hidden": false,
+              "hosted": [],
+              "id": "c25",
+              "installed": true,
+              "number": 30072,
+              "rezzed": true,
+              "side": "corp",
+              "strength": 2,
+              "subTypes": [
+                "Barrier"
+              ],
+              "subroutines": [
+                {
+                  "broken": true,
+                  "fired": false,
+                  "text": "End the run."
+                }
+              ],
+              "title": "Palisade",
+              "type": "ice"
+            }
+          ],
+          "name": "R&D",
+          "root": []
+        },
+        {
+          "central": true,
+          "ice": [],
+          "name": "Archives",
+          "root": []
+        },
+        {
+          "central": false,
+          "ice": [
+            {
+              "advancement": 0,
+              "advancementRequirement": null,
+              "canScore": false,
+              "counters": {},
+              "faceUp": false,
+              "hidden": false,
+              "hosted": [],
+              "id": "c13",
+              "installed": true,
+              "number": 30038,
+              "rezzed": false,
+              "side": "corp",
+              "strength": 4,
+              "subTypes": [
+                "Sentry",
+                "Bioroid",
+                "Destroyer"
+              ],
+              "subroutines": [
+                {
+                  "broken": false,
+                  "fired": false,
+                  "text": "Trash 1 installed Runner card."
+                },
+                {
+                  "broken": false,
+                  "fired": false,
+                  "text": "You may install 1 card from HQ or Archives."
+                },
+                {
+                  "broken": false,
+                  "fired": false,
+                  "text": "The Runner cannot steal or trash Corp cards for the remainder of this run."
+                }
+              ],
+              "title": "Ansel 1.0",
+              "type": "ice"
+            }
+          ],
+          "name": "Remote 0",
+          "root": []
+        }
+      ],
+      "side": "corp"
+    },
+    "decision": null,
+    "diagnostics": [],
+    "history": [
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 5
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained one credit",
+        "turn": 5
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 5
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained one credit",
+        "turn": 5
+      },
+      {
+        "side": "runner",
+        "text": "1 virus counter placed on Fermenter",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 2 credits from credit pool",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Played \"Wildcat Strike\"",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained 6 credits",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 6
+      },
+      {
+        "draw": {
+          "kind": "action"
+        },
+        "side": "runner",
+        "text": "Runner drew 2 cards",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Runner installed Smartware Distributor",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Using Smartware Distributor:",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 6
+      },
+      {
+        "side": "runner",
+        "text": "3 credits placed on Smartware Distributor",
+        "turn": 6
+      },
+      {
+        "draw": {
+          "kind": "mandatory"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 7
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 7
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained one credit",
+        "turn": 7
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 7
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained one credit",
+        "turn": 7
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 7
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained one credit",
+        "turn": 7
+      },
+      {
+        "side": "runner",
+        "text": "1 virus counter placed on Fermenter",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "1 credit taken from Smartware Distributor",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 8
+      },
+      {
+        "draw": {
+          "kind": "action"
+        },
+        "side": "runner",
+        "text": "Runner drew 2 cards",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Using Fermenter:",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Fermenter trashed",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained 6 credits",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 5 credits from credit pool",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Runner installed Carmen",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Using Smartware Distributor:",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "3 credits placed on Smartware Distributor",
+        "turn": 8
+      },
+      {
+        "side": "runner",
+        "text": "Runner discarded \"Verbal Plasticity\"",
+        "turn": 8
+      },
+      {
+        "draw": {
+          "kind": "mandatory"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 9
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 9
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained one credit",
+        "turn": 9
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 9
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained one credit",
+        "turn": 9
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 9
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained one credit",
+        "turn": 9
+      },
+      {
+        "side": "runner",
+        "text": "1 credit taken from Smartware Distributor",
+        "turn": 10
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 10
+      },
+      {
+        "draw": {
+          "kind": "action"
+        },
+        "side": "runner",
+        "text": "Runner drew 2 cards",
+        "turn": 10
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 10
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 2 credits from credit pool",
+        "turn": 10
+      },
+      {
+        "side": "runner",
+        "text": "Runner installed T400 Memory Diamond",
+        "turn": 10
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 10
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained one credit",
+        "turn": 10
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 10
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained one credit",
+        "turn": 10
+      },
+      {
+        "draw": {
+          "kind": "mandatory"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 11
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 11
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained one credit",
+        "turn": 11
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 11
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained one credit",
+        "turn": 11
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 11
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained one credit",
+        "turn": 11
+      },
+      {
+        "side": "corp",
+        "text": "Corp discarded \"Predictive Planogram\"",
+        "turn": 11
+      },
+      {
+        "side": "runner",
+        "text": "1 credit taken from Smartware Distributor",
+        "turn": 12
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 12
+      },
+      {
+        "draw": {
+          "kind": "action"
+        },
+        "side": "runner",
+        "text": "Runner drew 2 cards",
+        "turn": 12
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 12
+      },
+      {
+        "side": "runner",
+        "text": "Runner installed Smartware Distributor",
+        "turn": 12
+      },
+      {
+        "side": "runner",
+        "text": "Using Smartware Distributor:",
+        "turn": 12
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 12
+      },
+      {
+        "side": "runner",
+        "text": "3 credits placed on Smartware Distributor",
+        "turn": 12
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 12
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained one credit",
+        "turn": 12
+      },
+      {
+        "side": "runner",
+        "text": "Runner discarded \"Leech\"",
+        "turn": 12
+      },
+      {
+        "draw": {
+          "kind": "mandatory"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 13
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 13
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained one credit",
+        "turn": 13
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 13
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained one credit",
+        "turn": 13
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 13
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained one credit",
+        "turn": 13
+      },
+      {
+        "side": "corp",
+        "text": "Corp discarded \"Ansel 1.0\"",
+        "turn": 13
+      },
+      {
+        "side": "runner",
+        "text": "1 credit taken from Smartware Distributor",
+        "turn": 14
+      },
+      {
+        "side": "runner",
+        "text": "1 credit taken from Smartware Distributor",
+        "turn": 14
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 14
+      },
+      {
+        "draw": {
+          "kind": "action"
+        },
+        "side": "runner",
+        "text": "Runner drew 2 cards",
+        "turn": 14
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 14
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 3 credits from credit pool",
+        "turn": 14
+      },
+      {
+        "side": "runner",
+        "text": "Runner installed Cleaver",
+        "turn": 14
+      },
+      {
+        "side": "runner",
+        "text": "Using Smartware Distributor:",
+        "turn": 14
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 14
+      },
+      {
+        "side": "runner",
+        "text": "3 credits placed on Smartware Distributor",
+        "turn": 14
+      },
+      {
+        "side": "runner",
+        "text": "Using Smartware Distributor:",
+        "turn": 14
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 14
+      },
+      {
+        "side": "runner",
+        "text": "3 credits placed on Smartware Distributor",
+        "turn": 14
+      },
+      {
+        "side": "runner",
+        "text": "Runner discarded \"Cleaver\"",
+        "turn": 14
+      },
+      {
+        "draw": {
+          "kind": "mandatory"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 15
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 15
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained one credit",
+        "turn": 15
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 15
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained one credit",
+        "turn": 15
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 15
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained one credit",
+        "turn": 15
+      },
+      {
+        "side": "corp",
+        "text": "Corp discarded \"Whitespace\"",
+        "turn": 15
+      },
+      {
+        "side": "runner",
+        "text": "1 credit taken from Smartware Distributor",
+        "turn": 16
+      },
+      {
+        "side": "runner",
+        "text": "1 credit taken from Smartware Distributor",
+        "turn": 16
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 16
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 2 credits from credit pool",
+        "turn": 16
+      },
+      {
+        "side": "runner",
+        "text": "Played \"Wildcat Strike\"",
+        "turn": 16
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained 6 credits",
+        "turn": 16
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 16
+      },
+      {
+        "draw": {
+          "kind": "action"
+        },
+        "side": "runner",
+        "text": "Runner drew 2 cards",
+        "turn": 16
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 16
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 2 credits from credit pool",
+        "turn": 16
+      },
+      {
+        "side": "runner",
+        "text": "Runner installed T400 Memory Diamond",
+        "turn": 16
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 16
+      },
+      {
+        "draw": {
+          "kind": "action"
+        },
+        "side": "runner",
+        "text": "Runner drew a card",
+        "turn": 16
+      },
+      {
+        "draw": {
+          "kind": "mandatory"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 17
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 17
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained one credit",
+        "turn": 17
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 17
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained one credit",
+        "turn": 17
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 17
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained one credit",
+        "turn": 17
+      },
+      {
+        "side": "corp",
+        "text": "Corp discarded \"Manegarm Skunkworks\"",
+        "turn": 17
+      },
+      {
+        "side": "runner",
+        "text": "1 credit taken from Smartware Distributor",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "1 credit taken from Smartware Distributor",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 18
+      },
+      {
+        "draw": {
+          "kind": "action"
+        },
+        "side": "runner",
+        "text": "Runner drew 2 cards",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 4 credits from credit pool",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Runner installed Buzzsaw",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 4 credits from credit pool",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Runner installed Carnivore",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Run initiated attacking R&D",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Approaching outermost piece of ice protecting R&D",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Approaching outermost piece of ice protecting R&D",
+        "turn": 18
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Corp spent 3 credits from credit pool",
+        "turn": 18
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Corp rezzed Palisade protecting R&D at position 0",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Encountering Palisade protecting R&D at position 0",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Using Cleaver:",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 1 credit from credit pool",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Subroutine \"End the run.\" broken",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Approaching R&D",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Run successful",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "hidden card accessed",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Luminal Transubstantiation stolen",
+        "turn": 18
+      },
+      {
+        "side": "runner",
+        "text": "Runner reached 7 agenda points.",
+        "turn": 18
+      }
+    ],
+    "historyCount": 213,
+    "installation": null,
+    "phase": {
+      "identifier": "Run Accessing",
+      "source": null,
+      "title": "Run: Access"
+    },
+    "playerTurn": "runner",
+    "quietWindow": false,
+    "rulesVersion": "26.03-local-2",
+    "run": {
+      "card": null,
+      "encountering": false,
+      "ice": -1,
+      "movement": false,
+      "restrictions": [],
+      "server": "R&D",
+      "tools": []
+    },
+    "runner": {
+      "clicks": 0,
+      "coreDamage": 0,
+      "credits": 7,
+      "deck": 18,
+      "discard": [
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c48",
+          "installed": false,
+          "number": 30002,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [],
+          "subroutines": [],
+          "title": "Wildcat Strike",
+          "type": "event"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c62",
+          "installed": false,
+          "number": 30007,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [
+            "Virus"
+          ],
+          "subroutines": [],
+          "title": "Fermenter",
+          "type": "program"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c84",
+          "installed": false,
+          "number": 30034,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [
+            "Genetics"
+          ],
+          "subroutines": [],
+          "title": "Verbal Plasticity",
+          "type": "resource"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c64",
+          "installed": false,
+          "number": 30008,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [
+            "Virus"
+          ],
+          "subroutines": [],
+          "title": "Leech",
+          "type": "program"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c59",
+          "installed": false,
+          "number": 30006,
+          "rezzed": false,
+          "side": "runner",
+          "strength": 3,
+          "subTypes": [
+            "Icebreaker",
+            "Fracter"
+          ],
+          "subroutines": [],
+          "title": "Cleaver",
+          "type": "program"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c49",
+          "installed": false,
+          "number": 30002,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [],
+          "subroutines": [],
+          "title": "Wildcat Strike",
+          "type": "event"
+        }
+      ],
+      "hand": [
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c70",
+          "installed": false,
+          "rezzed": false,
+          "side": "runner"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c52",
+          "installed": false,
+          "rezzed": false,
+          "side": "runner"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c68",
+          "installed": false,
+          "rezzed": false,
+          "side": "runner"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c65",
+          "installed": false,
+          "rezzed": false,
+          "side": "runner"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c56",
+          "installed": false,
+          "rezzed": false,
+          "side": "runner"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c66",
+          "installed": false,
+          "rezzed": false,
+          "side": "runner"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c47",
+          "installed": false,
+          "rezzed": false,
+          "side": "runner"
+        }
+      ],
+      "identity": {
+        "advancement": 0,
+        "advancementRequirement": null,
+        "canScore": false,
+        "counters": {},
+        "faceUp": true,
+        "hidden": false,
+        "hosted": [],
+        "id": "c46",
+        "installed": false,
+        "number": 30001,
+        "rezzed": false,
+        "side": "runner",
+        "strength": null,
+        "subTypes": [],
+        "subroutines": [],
+        "title": "René \"Loup\" Arcemont: Party Animal",
+        "type": "identity"
+      },
+      "maxHand": 7,
+      "memory": 7,
+      "memoryUsed": 3,
+      "points": 7,
+      "resolving": [],
+      "rig": {
+        "hardware": [
+          {
+            "advancement": 0,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "faceUp": true,
+            "hidden": false,
+            "hosted": [],
+            "id": "c79",
+            "installed": true,
+            "number": 30031,
+            "rezzed": false,
+            "side": "runner",
+            "strength": null,
+            "subTypes": [
+              "Chip"
+            ],
+            "subroutines": [],
+            "title": "T400 Memory Diamond",
+            "type": "hardware"
+          },
+          {
+            "advancement": 0,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "faceUp": true,
+            "hidden": false,
+            "hosted": [],
+            "id": "c80",
+            "installed": true,
+            "number": 30031,
+            "rezzed": false,
+            "side": "runner",
+            "strength": null,
+            "subTypes": [
+              "Chip"
+            ],
+            "subroutines": [],
+            "title": "T400 Memory Diamond",
+            "type": "hardware"
+          },
+          {
+            "advancement": 0,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "faceUp": true,
+            "hidden": false,
+            "hosted": [],
+            "id": "c50",
+            "installed": true,
+            "number": 30003,
+            "rezzed": false,
+            "side": "runner",
+            "strength": null,
+            "subTypes": [
+              "Console"
+            ],
+            "subroutines": [],
+            "title": "Carnivore",
+            "type": "hardware"
+          }
+        ],
+        "programs": [
+          {
+            "advancement": 0,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "faceUp": true,
+            "hidden": false,
+            "hosted": [],
+            "id": "c67",
+            "installed": true,
+            "number": 30015,
+            "rezzed": false,
+            "side": "runner",
+            "strength": 2,
+            "subTypes": [
+              "Icebreaker",
+              "Killer"
+            ],
+            "subroutines": [],
+            "title": "Carmen",
+            "type": "program"
+          },
+          {
+            "advancement": 0,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "faceUp": true,
+            "hidden": false,
+            "hosted": [],
+            "id": "c60",
+            "installed": true,
+            "number": 30006,
+            "rezzed": false,
+            "side": "runner",
+            "strength": 3,
+            "subTypes": [
+              "Icebreaker",
+              "Fracter"
+            ],
+            "subroutines": [],
+            "title": "Cleaver",
+            "type": "program"
+          },
+          {
+            "advancement": 0,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "faceUp": true,
+            "hidden": false,
+            "hosted": [],
+            "id": "c57",
+            "installed": true,
+            "number": 30005,
+            "rezzed": false,
+            "side": "runner",
+            "strength": 3,
+            "subTypes": [
+              "Icebreaker",
+              "Decoder"
+            ],
+            "subroutines": [],
+            "title": "Buzzsaw",
+            "type": "program"
+          }
+        ],
+        "resources": [
+          {
+            "advancement": 0,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "faceUp": true,
+            "hidden": false,
+            "hosted": [],
+            "id": "c86",
+            "installed": true,
+            "number": 30034,
+            "rezzed": false,
+            "side": "runner",
+            "strength": null,
+            "subTypes": [
+              "Genetics"
+            ],
+            "subroutines": [],
+            "title": "Verbal Plasticity",
+            "type": "resource"
+          },
+          {
+            "advancement": 0,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {
+              "credits": 3
+            },
+            "faceUp": true,
+            "hidden": false,
+            "hosted": [],
+            "id": "c83",
+            "installed": true,
+            "number": 30033,
+            "rezzed": false,
+            "side": "runner",
+            "strength": null,
+            "subTypes": [
+              "Connection"
+            ],
+            "subroutines": [],
+            "title": "Smartware Distributor",
+            "type": "resource"
+          },
+          {
+            "advancement": 0,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {
+              "credits": 3
+            },
+            "faceUp": true,
+            "hidden": false,
+            "hosted": [],
+            "id": "c81",
+            "installed": true,
+            "number": 30033,
+            "rezzed": false,
+            "side": "runner",
+            "strength": null,
+            "subTypes": [
+              "Connection"
+            ],
+            "subroutines": [],
+            "title": "Smartware Distributor",
+            "type": "resource"
+          }
+        ]
+      },
+      "score": [
+        {
+          "advancement": 0,
+          "advancementRequirement": 5,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c6",
+          "installed": false,
+          "number": 30069,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Security"
+          ],
+          "subroutines": [],
+          "title": "Send a Message",
+          "type": "agenda"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": 4,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c4",
+          "installed": false,
+          "number": 30067,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Expansion"
+          ],
+          "subroutines": [],
+          "title": "Offworld Office",
+          "type": "agenda"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": 3,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c2",
+          "installed": false,
+          "number": 30036,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Research"
+          ],
+          "subroutines": [],
+          "title": "Luminal Transubstantiation",
+          "type": "agenda"
+        }
+      ],
+      "side": "runner",
+      "tags": 0,
+      "temporaryCredits": 0
+    },
+    "seed": "98bc2af0-36e8-4597-95de-2361a4740983",
+    "side": "corp",
+    "steps": 404,
+    "terminal": {
+      "reason": "Runner reached 7 agenda points.",
+      "winner": "runner"
+    },
+    "turn": 18,
+    "version": 404
+  },
+  "viewport": [
+    1280,
+    800
+  ],
+  "uiSteps": [
+    {
+      "version": 1,
+      "turn": 1,
+      "phase": {
+        "identifier": "Corp Mulligan",
+        "source": null,
+        "title": "Corporation's Mulligan"
+      },
+      "text": "Keep this hand→",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 8,
+      "turn": 1,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Install1 click17 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c13 c6 c30 c25 c15",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 8,
+      "turn": 1,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Send a Message1 click · 0 creditsInstall facedownInstall → New remote",
+      "data": {
+        "installCard": "c6",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 10,
+      "turn": 1,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Install1 click20 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c13 c30 c25 c15",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 10,
+      "turn": 1,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Ansel 1.0 ×2 copies5 legal destinations",
+      "data": {
+        "installCard": "c13",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 10,
+      "turn": 1,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Remote 11 click · 0 creditsKeep existing ice",
+      "data": {
+        "command": "install",
+        "option": "1",
+        "relatedCards": "c13",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 12,
+      "turn": 1,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Advance1 click · 1 creditSend a Message→",
+      "data": {
+        "command": "advance",
+        "group": "",
+        "relatedCards": "c6",
+        "vantageProbe": "8"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 25,
+      "turn": 2,
+      "phase": {
+        "identifier": "Run 1.5",
+        "source": null,
+        "title": "Run: Initiation"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 29,
+      "turn": 2,
+      "phase": {
+        "identifier": "Run 4.1",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Understood · continue the run",
+      "data": {
+        "rezReviewContinue": "",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 42,
+      "turn": 2,
+      "phase": {
+        "identifier": "Stolen",
+        "source": "Send a Message",
+        "title": "You may rez 1 installed piece of ice, ignoring all costs"
+      },
+      "text": "Decline free rez",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "relatedCards": "c6",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 45,
+      "turn": 2,
+      "phase": {
+        "identifier": "Run 6.4",
+        "source": null,
+        "title": "Run: End"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 104,
+      "turn": 3,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Install1 click20 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c25 c30 c15 c31",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 104,
+      "turn": 3,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Palisade5 legal destinations",
+      "data": {
+        "installCard": "c25",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 104,
+      "turn": 3,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "R&D1 click · 0 creditsKeep existing ice",
+      "data": {
+        "command": "install",
+        "option": "3",
+        "relatedCards": "c25",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 106,
+      "turn": 3,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Install1 click15 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c30 c15 c31",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 106,
+      "turn": 3,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Tithe5 legal destinations",
+      "data": {
+        "installCard": "c30",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 106,
+      "turn": 3,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "HQ1 click · 0 creditsKeep existing ice",
+      "data": {
+        "command": "install",
+        "option": "2",
+        "relatedCards": "c30",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 108,
+      "turn": 3,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 122,
+      "turn": 4,
+      "phase": {
+        "identifier": "Runner 1.3*",
+        "source": null,
+        "title": "Runner's Action Phase: Post Action"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 140,
+      "turn": 5,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 141,
+      "turn": 5,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 142,
+      "turn": 5,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 152,
+      "turn": 6,
+      "phase": {
+        "identifier": "Runner 1.2",
+        "source": null,
+        "title": "Runner's Turn Begins"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 156,
+      "turn": 6,
+      "phase": {
+        "identifier": "Runner 1.3*",
+        "source": "Wildcat Strike",
+        "title": "Wildcat Strike"
+      },
+      "text": "Runner gains 6 credit",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "relatedCards": "c48",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 159,
+      "turn": 6,
+      "phase": {
+        "identifier": "Runner 1.3*",
+        "source": null,
+        "title": "Runner's Action Phase: Post Action"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 176,
+      "turn": 7,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 177,
+      "turn": 7,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 178,
+      "turn": 7,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 188,
+      "turn": 8,
+      "phase": {
+        "identifier": "Runner 1.2",
+        "source": null,
+        "title": "Runner's Turn Begins"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 214,
+      "turn": 9,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 215,
+      "turn": 9,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 216,
+      "turn": 9,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 229,
+      "turn": 10,
+      "phase": {
+        "identifier": "Runner 1.3*",
+        "source": null,
+        "title": "Runner's Action Phase: Post Action"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 247,
+      "turn": 11,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 248,
+      "turn": 11,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 249,
+      "turn": 11,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 252,
+      "turn": 11,
+      "phase": {
+        "identifier": "Corp 3.1",
+        "source": null,
+        "title": "Corporation's Discard Phase"
+      },
+      "text": "Predictive Planogram",
+      "data": {
+        "command": "discard",
+        "option": "0",
+        "relatedCards": "c43",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 263,
+      "turn": 12,
+      "phase": {
+        "identifier": "Runner 1.3*",
+        "source": null,
+        "title": "Runner's Action Phase: Post Action"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 283,
+      "turn": 13,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 284,
+      "turn": 13,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 285,
+      "turn": 13,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 288,
+      "turn": 13,
+      "phase": {
+        "identifier": "Corp 3.1",
+        "source": null,
+        "title": "Corporation's Discard Phase"
+      },
+      "text": "Ansel 1.0",
+      "data": {
+        "command": "discard",
+        "option": "0",
+        "relatedCards": "c15",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 299,
+      "turn": 14,
+      "phase": {
+        "identifier": "Runner 1.3*",
+        "source": null,
+        "title": "Runner's Action Phase: Post Action"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 320,
+      "turn": 15,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 321,
+      "turn": 15,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 322,
+      "turn": 15,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 325,
+      "turn": 15,
+      "phase": {
+        "identifier": "Corp 3.1",
+        "source": null,
+        "title": "Corporation's Discard Phase"
+      },
+      "text": "Whitespace",
+      "data": {
+        "command": "discard",
+        "option": "0",
+        "relatedCards": "c31",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 337,
+      "turn": 16,
+      "phase": {
+        "identifier": "Runner 1.3*",
+        "source": "Wildcat Strike",
+        "title": "Wildcat Strike"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 337,
+      "turn": 16,
+      "phase": {
+        "identifier": "Runner 1.3*",
+        "source": "Wildcat Strike",
+        "title": "Wildcat Strike"
+      },
+      "text": "Runner gains 6 credit",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "relatedCards": "c49",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 340,
+      "turn": 16,
+      "phase": {
+        "identifier": "Runner 1.3*",
+        "source": null,
+        "title": "Runner's Action Phase: Post Action"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 356,
+      "turn": 17,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 357,
+      "turn": 17,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 358,
+      "turn": 17,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 361,
+      "turn": 17,
+      "phase": {
+        "identifier": "Corp 3.1",
+        "source": null,
+        "title": "Corporation's Discard Phase"
+      },
+      "text": "Manegarm Skunkworks",
+      "data": {
+        "command": "discard",
+        "option": "0",
+        "relatedCards": "c22",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 383,
+      "turn": 18,
+      "phase": {
+        "identifier": "Run 2.1",
+        "source": null,
+        "title": "Run: Approach Ice"
+      },
+      "text": "Rez Palisade · R&D · ice 1 from outside3 credits",
+      "data": {
+        "command": "rez",
+        "option": "0",
+        "relatedCards": "c25",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 388,
+      "turn": 18,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": "Cleaver",
+        "title": "Break up to 2 barrier subroutines"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    }
+  ]
+}

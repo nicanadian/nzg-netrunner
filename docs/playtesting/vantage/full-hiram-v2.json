@@ -1,0 +1,2742 @@
+{
+  "overflow": false,
+  "session": {
+    "choices": [
+      {
+        "command": "n",
+        "index": 0,
+        "version": 2
+      },
+      {
+        "command": "install",
+        "index": 1,
+        "version": 36
+      },
+      {
+        "command": "install",
+        "index": 0,
+        "version": 41
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 46
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 48
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 49
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 50
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 52
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 65
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 67
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 116
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 118
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 119
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 120
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 122
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 124
+      },
+      {
+        "command": "pay",
+        "index": 3,
+        "version": 126
+      },
+      {
+        "command": "pay",
+        "index": 1,
+        "version": 127
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 138
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 139
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 140
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 141
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 143
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 145
+      },
+      {
+        "command": "pay",
+        "index": 3,
+        "version": 147
+      },
+      {
+        "command": "pay",
+        "index": 1,
+        "version": 148
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 194
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 198
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 199
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 200
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 202
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 204
+      },
+      {
+        "command": "pay",
+        "index": 3,
+        "version": 206
+      },
+      {
+        "command": "pay",
+        "index": 1,
+        "version": 207
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 218
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 219
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 220
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 221
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 223
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 225
+      },
+      {
+        "command": "pay",
+        "index": 3,
+        "version": 227
+      },
+      {
+        "command": "pay",
+        "index": 1,
+        "version": 228
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 279
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 281
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 282
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 283
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 284
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 286
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 288
+      },
+      {
+        "command": "pay",
+        "index": 3,
+        "version": 290
+      },
+      {
+        "command": "pay",
+        "index": 1,
+        "version": 291
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 302
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 341
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 342
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 343
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 344
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 346
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 348
+      },
+      {
+        "command": "pay",
+        "index": 3,
+        "version": 350
+      },
+      {
+        "command": "pay",
+        "index": 1,
+        "version": 351
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 362
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 364
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 365
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 369
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 374
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 379
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 385
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 388
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 391
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 396
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 399
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 403
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 404
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 406
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 408
+      },
+      {
+        "command": "pay",
+        "index": 3,
+        "version": 410
+      },
+      {
+        "command": "pay",
+        "index": 1,
+        "version": 411
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 422
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 424
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 425
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 426
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 427
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 429
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 431
+      },
+      {
+        "command": "pay",
+        "index": 3,
+        "version": 433
+      },
+      {
+        "command": "pay",
+        "index": 1,
+        "version": 434
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 482
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 484
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 485
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 486
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 487
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 489
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 491
+      },
+      {
+        "command": "pay",
+        "index": 3,
+        "version": 493
+      },
+      {
+        "command": "pay",
+        "index": 1,
+        "version": 494
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 505
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 542
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 543
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 544
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 545
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 547
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 549
+      },
+      {
+        "command": "pay",
+        "index": 3,
+        "version": 551
+      },
+      {
+        "command": "pay",
+        "index": 1,
+        "version": 552
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 563
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 565
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 566
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 570
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 575
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 580
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 583
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 598
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 604
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 612
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 615
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 619
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 620
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 622
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 624
+      },
+      {
+        "command": "pay",
+        "index": 4,
+        "version": 626
+      },
+      {
+        "command": "pay",
+        "index": 0,
+        "version": 627
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 638
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 639
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 640
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 641
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 643
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 645
+      },
+      {
+        "command": "pay",
+        "index": 4,
+        "version": 647
+      },
+      {
+        "command": "pay",
+        "index": 0,
+        "version": 648
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 659
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 660
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 664
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 669
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 674
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 680
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 683
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 686
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 691
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 694
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 698
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 699
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 701
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 703
+      },
+      {
+        "command": "pay",
+        "index": 4,
+        "version": 705
+      },
+      {
+        "command": "pay",
+        "index": 0,
+        "version": 706
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 717
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 718
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 719
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 720
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 722
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 724
+      },
+      {
+        "command": "pay",
+        "index": 4,
+        "version": 726
+      },
+      {
+        "command": "pay",
+        "index": 0,
+        "version": 727
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 738
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 739
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 743
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 748
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 753
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 756
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 759
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 768
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 774
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 777
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 781
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 782
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 784
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 786
+      },
+      {
+        "command": "pay",
+        "index": 4,
+        "version": 788
+      },
+      {
+        "command": "pay",
+        "index": 0,
+        "version": 789
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 800
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 801
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 802
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 803
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 805
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 807
+      },
+      {
+        "command": "pay",
+        "index": 4,
+        "version": 809
+      },
+      {
+        "command": "pay",
+        "index": 0,
+        "version": 810
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 821
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 822
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 826
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 831
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 836
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 840
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 844
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 850
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 859
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 862
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 866
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 867
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 869
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 871
+      },
+      {
+        "command": "pay",
+        "index": 4,
+        "version": 873
+      },
+      {
+        "command": "pay",
+        "index": 0,
+        "version": 874
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 885
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 886
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 887
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 888
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 890
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 892
+      },
+      {
+        "command": "pay",
+        "index": 4,
+        "version": 894
+      },
+      {
+        "command": "pay",
+        "index": 0,
+        "version": 895
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 906
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 907
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 911
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 916
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 921
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 924
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 928
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 931
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 936
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 939
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 943
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 944
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 946
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 948
+      },
+      {
+        "command": "pay",
+        "index": 4,
+        "version": 950
+      },
+      {
+        "command": "pay",
+        "index": 0,
+        "version": 951
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 962
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 963
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 964
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 965
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 967
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 969
+      },
+      {
+        "command": "pay",
+        "index": 4,
+        "version": 971
+      },
+      {
+        "command": "pay",
+        "index": 0,
+        "version": 972
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 983
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 984
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 988
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 993
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 998
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1001
+      }
+    ],
+    "conceded": false,
+    "config": {
+      "cardPool": "vantage-preview-v1",
+      "deckDocuments": {
+        "corp": {
+          "cards": [
+            {
+              "count": 1,
+              "id": "30049"
+            },
+            {
+              "count": 3,
+              "id": "30053"
+            },
+            {
+              "count": 3,
+              "id": "30056"
+            },
+            {
+              "count": 3,
+              "id": "30067"
+            },
+            {
+              "count": 2,
+              "id": "30070"
+            },
+            {
+              "count": 3,
+              "id": "30075"
+            },
+            {
+              "count": 3,
+              "id": "36047"
+            },
+            {
+              "count": 3,
+              "id": "36048"
+            },
+            {
+              "count": 3,
+              "id": "36049"
+            },
+            {
+              "count": 3,
+              "id": "36050"
+            },
+            {
+              "count": 3,
+              "id": "36051"
+            },
+            {
+              "count": 3,
+              "id": "36052"
+            },
+            {
+              "count": 3,
+              "id": "36053"
+            },
+            {
+              "count": 3,
+              "id": "36054"
+            },
+            {
+              "count": 3,
+              "id": "36055"
+            },
+            {
+              "count": 3,
+              "id": "36066"
+            }
+          ],
+          "identity": "36046",
+          "name": "Editorial Division · Vantage interactions",
+          "pool": "vantage-preview-v1",
+          "schemaVersion": 1,
+          "side": "corp"
+        },
+        "runner": {
+          "cards": [
+            {
+              "count": 3,
+              "id": "30005"
+            },
+            {
+              "count": 3,
+              "id": "30020"
+            },
+            {
+              "count": 3,
+              "id": "30021"
+            },
+            {
+              "count": 3,
+              "id": "30025"
+            },
+            {
+              "count": 3,
+              "id": "30026"
+            },
+            {
+              "count": 3,
+              "id": "30027"
+            },
+            {
+              "count": 3,
+              "id": "30030"
+            },
+            {
+              "count": 3,
+              "id": "36018"
+            },
+            {
+              "count": 3,
+              "id": "36019"
+            },
+            {
+              "count": 3,
+              "id": "36020"
+            },
+            {
+              "count": 3,
+              "id": "36021"
+            },
+            {
+              "count": 3,
+              "id": "36022"
+            },
+            {
+              "count": 3,
+              "id": "36023"
+            },
+            {
+              "count": 3,
+              "id": "36024"
+            },
+            {
+              "count": 3,
+              "id": "36025"
+            }
+          ],
+          "identity": "36017",
+          "name": "Hiram · Vantage interactions",
+          "pool": "vantage-preview-v1",
+          "schemaVersion": 1,
+          "side": "runner"
+        }
+      },
+      "rulesVersion": "26.03-vantage-2",
+      "seed": "0580e430-cff5-46e3-a64a-33e94af0d9b9",
+      "side": "runner"
+    },
+    "engine": "local-vantage-preview-2"
+  },
+  "state": {
+    "access": null,
+    "active": "corp",
+    "agendaPointTarget": 7,
+    "assistance": null,
+    "corp": {
+      "badPublicity": 2,
+      "clicks": 1,
+      "credits": 12,
+      "deck": 16,
+      "discard": [
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c5",
+          "installed": false,
+          "rezzed": false,
+          "side": "corp"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c35",
+          "installed": false,
+          "rezzed": false,
+          "side": "corp"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c38",
+          "installed": false,
+          "rezzed": false,
+          "side": "corp"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c41",
+          "installed": false,
+          "rezzed": false,
+          "side": "corp"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c6",
+          "installed": false,
+          "number": 30056,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Transaction"
+          ],
+          "subroutines": [],
+          "title": "Predictive Planogram",
+          "type": "operation"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c7",
+          "installed": false,
+          "number": 30056,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Transaction"
+          ],
+          "subroutines": [],
+          "title": "Predictive Planogram",
+          "type": "operation"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c14",
+          "installed": false,
+          "rezzed": false,
+          "side": "corp"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c23",
+          "installed": false,
+          "rezzed": false,
+          "side": "corp"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c24",
+          "installed": false,
+          "rezzed": false,
+          "side": "corp"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c20",
+          "installed": false,
+          "rezzed": false,
+          "side": "corp"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c15",
+          "installed": false,
+          "number": 30075,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Transaction"
+          ],
+          "subroutines": [],
+          "title": "Hedge Fund",
+          "type": "operation"
+        }
+      ],
+      "hand": [
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c39",
+          "installed": false,
+          "rezzed": false,
+          "side": "corp"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c40",
+          "installed": false,
+          "rezzed": false,
+          "side": "corp"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c36",
+          "installed": false,
+          "rezzed": false,
+          "side": "corp"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c19",
+          "installed": false,
+          "rezzed": false,
+          "side": "corp"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c22",
+          "installed": false,
+          "rezzed": false,
+          "side": "corp"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c2",
+          "installed": false,
+          "rezzed": false,
+          "side": "corp"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c25",
+          "installed": false,
+          "rezzed": false,
+          "side": "corp"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c10",
+          "installed": false,
+          "rezzed": false,
+          "side": "corp"
+        }
+      ],
+      "identity": {
+        "advancement": 0,
+        "advancementRequirement": null,
+        "canScore": false,
+        "counters": {},
+        "faceUp": true,
+        "hidden": false,
+        "hosted": [],
+        "id": "c1",
+        "installed": false,
+        "number": 36046,
+        "rezzed": false,
+        "side": "corp",
+        "strength": null,
+        "subTypes": [
+          "Division"
+        ],
+        "subroutines": [],
+        "title": "Editorial Division: Ad Nihilum",
+        "type": "identity"
+      },
+      "maxHand": 7,
+      "points": 7,
+      "resolving": [],
+      "score": [
+        {
+          "advancement": 0,
+          "advancementRequirement": 4,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c11",
+          "installed": false,
+          "number": 30067,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Expansion"
+          ],
+          "subroutines": [],
+          "title": "Offworld Office",
+          "type": "agenda"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": 4,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c18",
+          "installed": false,
+          "number": 36047,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Initiative",
+            "Liability"
+          ],
+          "subroutines": [],
+          "title": "Witch Hunt",
+          "type": "agenda"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": 3,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c13",
+          "installed": false,
+          "number": 30070,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Expansion"
+          ],
+          "subroutines": [],
+          "title": "Superconducting Hub",
+          "type": "agenda"
+        },
+        {
+          "advancement": 4,
+          "advancementRequirement": 4,
+          "canScore": false,
+          "counters": {
+            "advancement": 4
+          },
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c44",
+          "installed": false,
+          "number": 36066,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Initiative"
+          ],
+          "subroutines": [],
+          "title": "Let Them Dream",
+          "type": "agenda"
+        }
+      ],
+      "servers": [
+        {
+          "central": true,
+          "ice": [],
+          "name": "HQ",
+          "root": []
+        },
+        {
+          "central": true,
+          "ice": [
+            {
+              "advancement": 0,
+              "advancementRequirement": null,
+              "canScore": false,
+              "counters": {},
+              "faceUp": true,
+              "hidden": false,
+              "hosted": [],
+              "id": "c26",
+              "installed": true,
+              "number": 36050,
+              "rezzed": true,
+              "side": "corp",
+              "strength": 5,
+              "subTypes": [
+                "Barrier",
+                "Liability"
+              ],
+              "subroutines": [
+                {
+                  "broken": false,
+                  "fired": true,
+                  "text": "End the run unless the Runner pays 3credit."
+                },
+                {
+                  "broken": false,
+                  "fired": false,
+                  "text": "End the run unless the Runner pays 3credit."
+                }
+              ],
+              "title": "Grubber",
+              "type": "ice"
+            }
+          ],
+          "name": "R&D",
+          "root": []
+        },
+        {
+          "central": true,
+          "ice": [
+            {
+              "advancement": 0,
+              "faceUp": false,
+              "hidden": true,
+              "hosted": [],
+              "id": "c30",
+              "installed": true,
+              "rezzed": false,
+              "side": "corp"
+            }
+          ],
+          "name": "Archives",
+          "root": []
+        },
+        {
+          "central": false,
+          "ice": [
+            {
+              "advancement": 0,
+              "faceUp": false,
+              "hidden": true,
+              "hosted": [],
+              "id": "c32",
+              "installed": true,
+              "rezzed": false,
+              "side": "corp"
+            },
+            {
+              "advancement": 0,
+              "faceUp": false,
+              "hidden": true,
+              "hosted": [],
+              "id": "c33",
+              "installed": true,
+              "rezzed": false,
+              "side": "corp"
+            },
+            {
+              "advancement": 0,
+              "faceUp": false,
+              "hidden": true,
+              "hosted": [],
+              "id": "c27",
+              "installed": true,
+              "rezzed": false,
+              "side": "corp"
+            }
+          ],
+          "name": "Remote 0",
+          "root": [
+            {
+              "advancement": 0,
+              "faceUp": false,
+              "hidden": true,
+              "hosted": [],
+              "id": "c43",
+              "installed": true,
+              "rezzed": false,
+              "side": "corp"
+            }
+          ]
+        }
+      ],
+      "side": "corp"
+    },
+    "decision": null,
+    "diagnostics": [],
+    "history": [
+      {
+        "side": "runner",
+        "text": "Approaching outermost piece of ice protecting R&D",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Encountering Grubber protecting R&D at position 0",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Using Echelon:",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 2 credits from bad publicity",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 1 credit from credit pool",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Echelon gets +2 strength",
+        "turn": 20
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Firing \"End the run unless the Runner pays 3credit.\" on Grubber protecting R&D at position 0:",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Run ends",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained one credit",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Run initiated attacking R&D",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained 2 credits from bad publicity",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Approaching outermost piece of ice protecting R&D",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Encountering Grubber protecting R&D at position 0",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Using Echelon:",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 2 credits from bad publicity",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 1 credit from credit pool",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Echelon gets +2 strength",
+        "turn": 20
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Firing \"End the run unless the Runner pays 3credit.\" on Grubber protecting R&D at position 0:",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Run ends",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 20
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained one credit",
+        "turn": 20
+      },
+      {
+        "draw": {
+          "kind": "mandatory"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 21
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 21
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 1 credit from credit pool",
+        "turn": 21
+      },
+      {
+        "side": "corp",
+        "text": "Card advanced",
+        "turn": 21
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 21
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 1 credit from credit pool",
+        "turn": 21
+      },
+      {
+        "side": "corp",
+        "text": "Card advanced",
+        "turn": 21
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 21
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 1 credit from credit pool",
+        "turn": 21
+      },
+      {
+        "side": "corp",
+        "text": "Card advanced",
+        "turn": 21
+      },
+      {
+        "side": "corp",
+        "text": "Superconducting Hub scored",
+        "turn": 21
+      },
+      {
+        "side": "corp",
+        "text": "You may draw 2 cards triggered",
+        "turn": 21
+      },
+      {
+        "draw": {
+          "kind": "effect",
+          "source": "Superconducting Hub"
+        },
+        "side": "corp",
+        "text": "Corp drew 2 cards",
+        "turn": 21
+      },
+      {
+        "side": "corp",
+        "text": "Corp discarded \"hidden card\"",
+        "turn": 21
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Run initiated attacking R&D",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained 2 credits from bad publicity",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Approaching outermost piece of ice protecting R&D",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Encountering Grubber protecting R&D at position 0",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Using Echelon:",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 2 credits from bad publicity",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 1 credit from credit pool",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Echelon gets +2 strength",
+        "turn": 22
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Firing \"End the run unless the Runner pays 3credit.\" on Grubber protecting R&D at position 0:",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Run ends",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained one credit",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Run initiated attacking R&D",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained 2 credits from bad publicity",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Approaching outermost piece of ice protecting R&D",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Encountering Grubber protecting R&D at position 0",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Using Echelon:",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 2 credits from bad publicity",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 1 credit from credit pool",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Echelon gets +2 strength",
+        "turn": 22
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Firing \"End the run unless the Runner pays 3credit.\" on Grubber protecting R&D at position 0:",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Run ends",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 22
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained one credit",
+        "turn": 22
+      },
+      {
+        "draw": {
+          "kind": "mandatory"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 23
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 23
+      },
+      {
+        "side": "corp",
+        "text": "Played \"Predictive Planogram\"",
+        "turn": 23
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained 3 credits",
+        "turn": 23
+      },
+      {
+        "draw": {
+          "kind": "effect",
+          "source": "Predictive Planogram"
+        },
+        "side": "corp",
+        "text": "Corp drew 3 cards",
+        "turn": 23
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 23
+      },
+      {
+        "side": "corp",
+        "text": "Played \"Predictive Planogram\"",
+        "turn": 23
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained 3 credits",
+        "turn": 23
+      },
+      {
+        "draw": {
+          "kind": "effect",
+          "source": "Predictive Planogram"
+        },
+        "side": "corp",
+        "text": "Corp drew 3 cards",
+        "turn": 23
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 23
+      },
+      {
+        "side": "corp",
+        "text": "Corp installed a card in root of a remote server",
+        "turn": 23
+      },
+      {
+        "side": "corp",
+        "text": "Corp discarded \"hidden card\"",
+        "turn": 23
+      },
+      {
+        "side": "corp",
+        "text": "Corp discarded \"hidden card\"",
+        "turn": 23
+      },
+      {
+        "side": "corp",
+        "text": "Corp discarded \"hidden card\"",
+        "turn": 23
+      },
+      {
+        "side": "corp",
+        "text": "Corp discarded \"hidden card\"",
+        "turn": 23
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 24
+      },
+      {
+        "side": "runner",
+        "text": "Run initiated attacking R&D",
+        "turn": 24
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained 2 credits from bad publicity",
+        "turn": 24
+      },
+      {
+        "side": "runner",
+        "text": "Approaching outermost piece of ice protecting R&D",
+        "turn": 24
+      },
+      {
+        "side": "runner",
+        "text": "Encountering Grubber protecting R&D at position 0",
+        "turn": 24
+      },
+      {
+        "side": "runner",
+        "text": "Using Echelon:",
+        "turn": 24
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 2 credits from bad publicity",
+        "turn": 24
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 1 credit from credit pool",
+        "turn": 24
+      },
+      {
+        "side": "runner",
+        "text": "Echelon gets +2 strength",
+        "turn": 24
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Firing \"End the run unless the Runner pays 3credit.\" on Grubber protecting R&D at position 0:",
+        "turn": 24
+      },
+      {
+        "side": "runner",
+        "text": "Run ends",
+        "turn": 24
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 24
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained one credit",
+        "turn": 24
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 24
+      },
+      {
+        "side": "runner",
+        "text": "Run initiated attacking R&D",
+        "turn": 24
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained 2 credits from bad publicity",
+        "turn": 24
+      },
+      {
+        "side": "runner",
+        "text": "Approaching outermost piece of ice protecting R&D",
+        "turn": 24
+      },
+      {
+        "side": "runner",
+        "text": "Encountering Grubber protecting R&D at position 0",
+        "turn": 24
+      },
+      {
+        "side": "runner",
+        "text": "Using Echelon:",
+        "turn": 24
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 2 credits from bad publicity",
+        "turn": 24
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 1 credit from credit pool",
+        "turn": 24
+      },
+      {
+        "side": "runner",
+        "text": "Echelon gets +2 strength",
+        "turn": 24
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Firing \"End the run unless the Runner pays 3credit.\" on Grubber protecting R&D at position 0:",
+        "turn": 24
+      },
+      {
+        "side": "runner",
+        "text": "Run ends",
+        "turn": 24
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 24
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained one credit",
+        "turn": 24
+      },
+      {
+        "draw": {
+          "kind": "mandatory"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 25
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 25
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 1 credit from credit pool",
+        "turn": 25
+      },
+      {
+        "side": "corp",
+        "text": "Card advanced",
+        "turn": 25
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 25
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 5 credits from credit pool",
+        "turn": 25
+      },
+      {
+        "side": "corp",
+        "text": "Played \"Hedge Fund\"",
+        "turn": 25
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained 9 credits",
+        "turn": 25
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 25
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 1 credit from credit pool",
+        "turn": 25
+      },
+      {
+        "side": "corp",
+        "text": "Card advanced",
+        "turn": 25
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Run initiated attacking R&D",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained 2 credits from bad publicity",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Approaching outermost piece of ice protecting R&D",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Encountering Grubber protecting R&D at position 0",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Using Echelon:",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 2 credits from bad publicity",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 1 credit from credit pool",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Echelon gets +2 strength",
+        "turn": 26
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Firing \"End the run unless the Runner pays 3credit.\" on Grubber protecting R&D at position 0:",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Run ends",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained one credit",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Run initiated attacking R&D",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained 2 credits from bad publicity",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Approaching outermost piece of ice protecting R&D",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Encountering Grubber protecting R&D at position 0",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Using Echelon:",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 2 credits from bad publicity",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 1 credit from credit pool",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Echelon gets +2 strength",
+        "turn": 26
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Firing \"End the run unless the Runner pays 3credit.\" on Grubber protecting R&D at position 0:",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Run ends",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained one credit",
+        "turn": 26
+      },
+      {
+        "draw": {
+          "kind": "mandatory"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 27
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 27
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 1 credit from credit pool",
+        "turn": 27
+      },
+      {
+        "side": "corp",
+        "text": "Card advanced",
+        "turn": 27
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 27
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 1 credit from credit pool",
+        "turn": 27
+      },
+      {
+        "side": "corp",
+        "text": "Card advanced",
+        "turn": 27
+      },
+      {
+        "side": "corp",
+        "text": "Let Them Dream scored",
+        "turn": 27
+      },
+      {
+        "side": "corp",
+        "text": "Corp reached 7 agenda points.",
+        "turn": 27
+      }
+    ],
+    "historyCount": 446,
+    "installation": null,
+    "phase": {
+      "identifier": "Scored",
+      "source": null,
+      "title": "Scored"
+    },
+    "playerTurn": "corp",
+    "quietWindow": false,
+    "rulesVersion": "26.03-vantage-2",
+    "run": null,
+    "runner": {
+      "clicks": 0,
+      "coreDamage": 0,
+      "credits": 3,
+      "deck": 40,
+      "discard": [
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c63",
+          "installed": false,
+          "number": 30027,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [
+            "Job"
+          ],
+          "subroutines": [],
+          "title": "Telework Contract",
+          "type": "resource"
+        }
+      ],
+      "hand": [
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c70",
+          "installed": false,
+          "number": 36018,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [
+            "Run",
+            "Stealth"
+          ],
+          "subroutines": [],
+          "title": "Aircheck",
+          "type": "event"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c51",
+          "installed": false,
+          "number": 30020,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [],
+          "subroutines": [],
+          "title": "Creative Commission",
+          "type": "event"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c71",
+          "installed": false,
+          "number": 36018,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [
+            "Run",
+            "Stealth"
+          ],
+          "subroutines": [],
+          "title": "Aircheck",
+          "type": "event"
+        }
+      ],
+      "identity": {
+        "advancement": 0,
+        "advancementRequirement": null,
+        "canScore": false,
+        "counters": {},
+        "faceUp": true,
+        "hidden": false,
+        "hosted": [],
+        "id": "c47",
+        "installed": false,
+        "number": 36017,
+        "rezzed": false,
+        "side": "runner",
+        "strength": null,
+        "subTypes": [
+          "Natural"
+        ],
+        "subroutines": [],
+        "title": "Hiram “0mission” Svensson: Shadow of the Past",
+        "type": "identity"
+      },
+      "maxHand": 5,
+      "memory": 4,
+      "memoryUsed": 1,
+      "points": 0,
+      "resolving": [],
+      "rig": {
+        "hardware": [],
+        "programs": [
+          {
+            "advancement": 0,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "faceUp": true,
+            "hidden": false,
+            "hosted": [],
+            "id": "c58",
+            "installed": true,
+            "number": 30025,
+            "rezzed": false,
+            "side": "runner",
+            "strength": 1,
+            "subTypes": [
+              "Icebreaker",
+              "Killer"
+            ],
+            "subroutines": [],
+            "title": "Echelon",
+            "type": "program"
+          }
+        ],
+        "resources": []
+      },
+      "score": [],
+      "side": "runner",
+      "tags": 3,
+      "temporaryCredits": 0
+    },
+    "seed": "0580e430-cff5-46e3-a64a-33e94af0d9b9",
+    "side": "runner",
+    "steps": 1003,
+    "terminal": {
+      "reason": "Corp reached 7 agenda points.",
+      "winner": "corp"
+    },
+    "turn": 27,
+    "version": 1003
+  },
+  "viewport": {
+    "height": 800,
+    "width": 1280
+  }
+}

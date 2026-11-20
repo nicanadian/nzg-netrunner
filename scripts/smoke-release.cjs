@@ -21,9 +21,11 @@ async function smoke(executable, args = [], expectedBuild = require('../package.
     const health=await (await fetch(`${origin}/_local-table/health`)).json();assert.equal(health.appId,'nzg-netrunner-local-table');
     const launch=await (await fetch(result.url)).text();assert.match(launch,/Quit game/);
     const token=launch.match(/'X-Local-Table-Token':"([a-f0-9]+)"/)?.[1];assert(token);
-    for(const file of ['/','/app/table.js','/app/ready-made-decks.mjs','/app/deck-builder.mjs','/app/table.css','/engine/worker.js','/vendor/chiriboga/mechanics.js','/assets/cards-display/30001-743.webp','/assets/cards-hires/30001.png','/assets/cards-display/35023-743.webp','/assets/cards-display/35057-0-743.webp','/assets/playmat.png','/assets/card-data.json','/README.md']) {
+    for(const file of ['/','/app/table.js','/app/ready-made-decks.mjs','/app/deck-builder.mjs','/app/table.css','/app/pairing-guide.html','/app/pairing-guide.mjs','/app/pairing-guide.css','/app/guide-flow.mjs','/engine/worker.js','/engine/vantage-worker.js','/engine/vantage-profile.js','/engine/vantage-rules.js','/vendor/chiriboga/mechanics.js','/assets/cards-display/30001-743.webp','/assets/cards-hires/30001.png','/assets/cards-display/35023-743.webp','/assets/cards-display/35057-0-743.webp','/assets/cards-display/36021-743.webp','/assets/cards-display/36036-2-743.webp','/assets/cards-hires/36021.png','/assets/playmat.png','/assets/card-data.json','/README.md']) {
       const response=await fetch(origin+file);assert.equal(response.status,200,file);assert((await response.arrayBuffer()).byteLength>0,file);
     }
+    const guide=await(await fetch(origin+'/app/pairing-guide-data.json')).json();assert.equal(guide.pairs.length,281);assert(guide.decks.some(d=>d.pool==='vantage-preview-v1'));
+    const recipes=await(await fetch(origin+'/app/guide-recipes.json')).json();assert.equal(recipes.length,8);
     const status=await(await fetch(origin+'/api/helper')).json();assert.equal(status.configured,false);
     const help=await fetch(origin+'/api/helper',{method:'POST',headers:{'Content-Type':'application/json',Origin:origin},body:JSON.stringify({question:'What does Cleaver do?',context:{}})});assert.equal(help.status,200);assert.match(await help.text(),/Cleaver/i);
     assert.equal((await fetch(origin+'/.env.local')).status,403);

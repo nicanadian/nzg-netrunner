@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-11-16T07:13:23.186Z",
+  "scope": "All 66 Vantage cards represented across seven legal full-set decks; 3 Runner decks x 4 Corp decks x 100 shared seeds",
+  "rulesVersion": "26.03-vantage-3",
+  "policy": "Native baseline with Vantage legal-choice bridges; strategic competence and hidden-information policy use are not certified",
+  "sourceDirectory": "tmp/vantage-validation-complete",
+  "engineHashes": [
+    "32308d3533619fb79c9a37bbe576043bbf6969c2a338da78a0de925f18842cb4"
+  ],
+  "experimentHash": "2c44a05378a96b1d47935b2d14659d05eb87468b4937c23b471d663d37eaedd7",
+  "configuration": {
+    "workers": 4,
+    "gamesPerMatchup": 100,
+    "parentWallLimitMs": 60000
+  },
+  "totals": {
+    "games": 1200,
+    "statuses": {
+      "completed": 1200
+    },
+    "elapsedWallSeconds": 243,
+    "gamesPerSecond": 4.94,
+    "p50GameMs": 545,
+    "p95GameMs": 2084,
+    "maxGameMs": 23867,
+    "p50Decisions": 1267,
+    "p95Decisions": 2156,
+    "terminalReasons": {
+      "agenda points": 1077,
+      "Corp deck exhausted": 105,
+      "flatline": 18
+    }
+  },
+  "matchups": [
+    {
+      "runner": "Loup · Vantage interactions",
+      "corp": "Precision Design · Vantage interactions",
+      "games": 100,
+      "statuses": {
+        "completed": 100
+      },
+      "wins": {
+        "corp": 44,
+        "runner": 56
+      },
+      "p50Ms": 939,
+      "p95Ms": 4856
+    },
+    {
+      "runner": "Loup · Vantage interactions",
+      "corp": "Méliès U · Vantage interactions",
+      "games": 100,
+      "statuses": {
+        "completed": 100
+      },
+      "wins": {
+        "corp": 44,
+        "runner": 56
+      },
+      "p50Ms": 681,
+      "p95Ms": 3258
+    },
+    {
+      "runner": "Loup · Vantage interactions",
+      "corp": "Editorial Division · Vantage interactions",
+      "games": 100,
+      "statuses": {
+        "completed": 100
+      },
+      "wins": {
+        "corp": 31,
+        "runner": 69
+      },
+      "p50Ms": 847,
+      "p95Ms": 1898
+    },
+    {
+      "runner": "Loup · Vantage interactions",
+      "corp": "Built to Last · Vantage interactions",
+      "games": 100,
+      "statuses": {
+        "completed": 100
+      },
+      "wins": {
+        "corp": 14,
+        "runner": 86
+      },
+      "p50Ms": 474,
+      "p95Ms": 1445
+    },
+    {
+      "runner": "Vic · Vantage interactions",
+      "corp": "Precision Design · Vantage interactions",
+      "games": 100,
+      "statuses": {
+        "completed": 100
+      },
+      "wins": {
+        "corp": 49,
+        "runner": 51
+      },
+      "p50Ms": 720,
+      "p95Ms": 2574
+    },
+    {
+      "runner": "Vic · Vantage interactions",
+      "corp": "Méliès U · Vantage interactions",
+      "games": 100,
+      "statuses": {
+        "completed": 100
+      },
+      "wins": {
+        "corp": 43,
+        "runner": 57
+      },
+      "p50Ms": 360,
+      "p95Ms": 1477
+    },
+    {
+      "runner": "Vic · Vantage interactions",
+      "corp": "Editorial Division · Vantage interactions",
+      "games": 100,
+      "statuses": {
+        "completed": 100
+      },
+      "wins": {
+        "corp": 26,
+        "runner": 74
+      },
+      "p50Ms": 411,
+      "p95Ms": 1285
+    },
+    {
+      "runner": "Vic · Vantage interactions",
+      "corp": "Built to Last · Vantage interactions",
+      "games": 100,
+      "statuses": {
+        "completed": 100
+      },
+      "wins": {
+        "corp": 21,
+        "runner": 79
+      },
+      "p50Ms": 277,
+      "p95Ms": 1143
+    },
+    {
+      "runner": "Hiram · Vantage interactions",
+      "corp": "Precision Design · Vantage interactions",
+      "games": 100,
+      "statuses": {
+        "completed": 100
+      },
+      "wins": {
+        "corp": 53,
+        "runner": 47
+      },
+      "p50Ms": 622,
+      "p95Ms": 2023
+    },
+    {
+      "runner": "Hiram · Vantage interactions",
+      "corp": "Méliès U · Vantage interactions",
+      "games": 100,
+      "statuses": {
+        "completed": 100
+      },
+      "wins": {
+        "corp": 35,
+        "runner": 65
+      },
+      "p50Ms": 525,
+      "p95Ms": 1991
+    },
+    {
+      "runner": "Hiram · Vantage interactions",
+      "corp": "Editorial Division · Vantage interactions",
+      "games": 100,
+      "statuses": {
+        "completed": 100
+      },
+      "wins": {
+        "corp": 29,
+        "runner": 71
+      },
+      "p50Ms": 584,
+      "p95Ms": 1736
+    },
+    {
+      "runner": "Hiram · Vantage interactions",
+      "corp": "Built to Last · Vantage interactions",
+      "games": 100,
+      "statuses": {
+        "completed": 100
+      },
+      "wins": {
+        "corp": 7,
+        "runner": 93
+      },
+      "p50Ms": 474,
+      "p95Ms": 1009
+    }
+  ],
+  "performanceContext": "Local run with other regression work active; wall time and per-game latency are observations, not an isolated throughput microbenchmark."
+}

@@ -1,0 +1,151 @@
+{
+  "reviewer": "AI tester, independent new-player-oriented Runner critique",
+  "date": "2026-11-16",
+  "overallRating": 7.2,
+  "ratingScale": "10 = polished, self-explanatory solo card-game experience; score is subjective and based on one full Gateway game, not balance certification.",
+  "categories": {
+    "learnability": 5.5,
+    "clarity": 7,
+    "flow": 6.5,
+    "visualCohesion": 8,
+    "stability": 9
+  },
+  "ratingRationale": "The game looks coherent, provides excellent card inspection and legal cost quotes, and completed reliably. It still expects the player to infer why runs fail from card rules, and repeats tactical UI work that could be grouped. Equal-weight category average is 7.2/10.",
+  "method": "Actual shared-browser tab at localhost:5173, 1280x800 CSS viewport. Read-only public localTable snapshots informed decisions; buttons, input/change events and rendered controls performed every action. No engine API, direct choice injection, hidden-card data, source edits, or global preference changes. Initial turns were inspected manually; later routine choices used bounded DOM-click scripts with public-state heuristics. This is an AI review, not a human novice study.",
+  "matchup": {
+    "runner": "René Loup Arcemont · Trash & viruses (loup-v1)",
+    "corp": "Haas-Bioroid Precision Design · Build & score (precision-design-v2)",
+    "pool": "System Gateway",
+    "seed": "44c63774-37dd-4100-a690-ddf9105bc650",
+    "engine": "chiriboga-77c80b1-local-1"
+  },
+  "result": {
+    "terminal": {
+      "reason": "Corp reached 8 agenda points.",
+      "winner": "corp"
+    },
+    "engineTurn": 27,
+    "displayRound": 14,
+    "runnerPoints": 0,
+    "corpPoints": 8,
+    "recordedChoices": 109,
+    "finalVersion": 898,
+    "diagnostics": [],
+    "browserErrors": []
+  },
+  "exploration": [
+    "Lobby deck and identity selection",
+    "Read identity ability",
+    "View decks and card counts",
+    "Tune deck without saving",
+    "Deckbuilding basics disclosure",
+    "Search Cleaver and inspect faction/influence per-copy and contribution",
+    "Full-resolution Cleaver artwork loaded at743px",
+    "Opening hand keep control",
+    "Inspect/install Cleaver with authoritative quote",
+    "Economy/draw and installing Leech, Smartware Distributor, Verbal Plasticity",
+    "Jailbreak HQ/R&D targeting",
+    "Cleaver quoted Break all",
+    "Run movement, multiple-card access reveal/finish",
+    "Bioroid click-breaking and discards",
+    "Terminal score and rematch/change-decks controls"
+  ],
+  "representativeSequences": [
+    {
+      "context": "First Runner turn",
+      "sequence": [
+        "Read Cleaver in grip",
+        "Install · 1 click · 3 credits",
+        "Gain1credit",
+        "Play Jailbreak",
+        "Choose R&D",
+        "Break all · 1 credits (Palisade, actual cost1)",
+        "Continue the run",
+        "Jailbreak trigger button",
+        "Finish accessing Ansel1.0",
+        "Select next Facedown card",
+        "Finish accessing Sprint"
+      ],
+      "observation": "Install and break quotes made costs clear. The successful-run trigger was an extra bare card-name action, followed by separate reveal/finish steps for each access."
+    },
+    {
+      "context": "Late run on Remote2, engine turn26",
+      "sequence": [
+        "Ansel1.0 · Break1subroutine on this ice · 1click",
+        "Select subroutine1",
+        "Repeat ability and select subroutine2",
+        "Repeat ability and select subroutine3",
+        "Continue the run",
+        "Finish accessing"
+      ],
+      "observation": "Three distinct game click costs are correct. Six interface clicks to select the three breaks feels repetitive; a batch selector with an explicit total could preserve every rules choice."
+    }
+  ],
+  "strengths": [
+    "Atmospheric cyan/gold/coral palette and recognizable card artwork; real table layout is readable once familiar.",
+    "Identity/card inspection and743px full artwork worked; faction-relative influence and deck membership are explicit in tuning.",
+    "Break-all quotations explain type, strength and total credits; installation resolved without the old extra commit trap in this test.",
+    "Own/opponent hand counts, credits, agenda points, and resource/counter badges are exposed.",
+    "Completed27 engine turns and109 recorded choices with no app errors or diagnostics; rematch controls are clear."
+  ],
+  "findings": [
+    {
+      "id": "R1",
+      "severity": "medium",
+      "type": "learning/wording friction",
+      "title": "Mandatory run triggers are still bare card-name buttons",
+      "reproduce": "Play Jailbreak, choose R&D, break ice, Continue the run. At Run:Successful the primary content is Card abilities > Jailbreak →.",
+      "impact": "A new player must reread the event to know whether clicking is required and what it does. The run feels like it stopped unexpectedly.",
+      "recommendation": "Label the action with the effect, such as Jailbreak: draw1 and access+1; resolve automatically when no meaningful choice remains."
+    },
+    {
+      "id": "R2",
+      "severity": "medium",
+      "type": "interaction pacing",
+      "title": "Bioroid breaking repeats the same two-step interaction",
+      "reproduce": "Encounter Ansel1.0 with clicks available. Click Break1subroutine ability, choose a subroutine, then reopen the same ability for each additional break.",
+      "impact": "The game-resource tradeoff is interesting, but repeating ability-open/target-selection makes it feel more like operating a form than resolving a tactical plan.",
+      "recommendation": "Offer a subroutine checklist with total click cost and one confirm action; preserve the ability to break selectively."
+    },
+    {
+      "id": "R3",
+      "severity": "medium",
+      "type": "learnability/rules explanation",
+      "title": "Consequences of known ice are explained too late",
+      "reproduce": "After Ansel is already rezzed on R&D, initiate another run without a sentry answer and pass unbroken subs. The trash and cannot-steal effects resolve correctly; why the run has become unproductive requires reading card text/history.",
+      "impact": "This is a legitimate rules loss, not an observed rules bug. A novice can burn repeated clicks on a run without understanding the missing capability.",
+      "recommendation": "When selecting a server, summarize public known ice and likely consequences, or offer a compact optional run-readiness hint. Never reveal hidden ice."
+    },
+    {
+      "id": "R4",
+      "severity": "low",
+      "type": "postgame UX",
+      "title": "Loss screen retains irrelevant control chrome and teaches little",
+      "reproduce": "Reach terminal Corp8points. Hold priority and the last confirmed Finish accessing receipt remain alongside the loss panel.",
+      "impact": "The loss state is obvious but feels unfinished; there is no short explanation of the turning point or what to try next.",
+      "recommendation": "Hide in-game priority controls at terminal and offer Review last scoring turn, key run outcome, or a brief personal match summary."
+    },
+    {
+      "id": "R5",
+      "severity": "low",
+      "type": "readability/discoverability",
+      "title": "Lobby deck guidance is small and the primary action is close to the fold",
+      "reproduce": "Open lobby at1280x800; matchup descriptions/metrics and Read identity ability use small text while decorative identity cards occupy much of the right half.",
+      "impact": "The page feels polished but information needed to choose a deck receives less prominence than the art. Starting and learning are visually separated.",
+      "recommendation": "Increase deck-copy type modestly and make the selected matchup/start area easier to scan without enlarging the whole page."
+    }
+  ],
+  "bugsObserved": [],
+  "limitations": [
+    "Single game and weak heuristic play do not support deck balance or opponent-strength claims; the8–0 loss was partly caused by poor decisions.",
+    "No mobile evaluation in this review.",
+    "Two bounded automation calls needed selector/timing corrections; these were tool-driver issues, not observed failed user controls."
+  ],
+  "screenshots": [
+    "/Users/nicanadian/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mwjfdbor-4710b821.png"
+  ],
+  "evidenceFiles": {
+    "replay": "docs/playtesting/critics/runner-game-replay.json",
+    "trace": "docs/playtesting/critics/runner-ui-trace.json"
+  }
+}

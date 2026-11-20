@@ -1,0 +1,6703 @@
+{
+  "schemaVersion": 1,
+  "experimentHash": "aafb4bc28c51af41abb446f0a250820bb337fb9b7655d456a50db7ed121e2960",
+  "matchups": [
+    {
+      "runner": "phoenix-core-v1",
+      "corp": "precision-design-core-v1",
+      "directory": "matchup-0-0",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 4,
+        "runner": 2
+      },
+      "runnerWinRate": 0.3333333333333333,
+      "runnerWilson95": [
+        0.09676933255921683,
+        0.7000116786584712
+      ],
+      "p50Ms": 5462,
+      "p95Ms": 13585,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 411,
+            "gain": 78,
+            "draw": 79,
+            "install": 61,
+            "play": 28,
+            "run": 63,
+            "advance": 0,
+            "score": 0,
+            "overrides": 3,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 79,
+            "probesConsidered": 78,
+            "probesRejected": 75
+          },
+          "corp": {
+            "actions": 353,
+            "gain": 39,
+            "draw": 28,
+            "install": 115,
+            "play": 15,
+            "run": 0,
+            "advance": 62,
+            "score": 15,
+            "overrides": 14,
+            "idleWithAgenda": 17,
+            "scoreOffered": 15,
+            "scoreTaken": 15,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 13.166666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "2092a6dec43ca0156c4a12be74c985d4b38031307d676cd166d4055205bc7425"
+    },
+    {
+      "runner": "phoenix-core-v1",
+      "corp": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f",
+      "directory": "matchup-0-1",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 2,
+        "runner": 4
+      },
+      "runnerWinRate": 0.6666666666666666,
+      "runnerWilson95": [
+        0.29998832134152864,
+        0.9032306674407831
+      ],
+      "p50Ms": 360,
+      "p95Ms": 2248,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 289,
+            "gain": 49,
+            "draw": 62,
+            "install": 46,
+            "play": 21,
+            "run": 44,
+            "advance": 0,
+            "score": 0,
+            "overrides": 1,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 57,
+            "probesConsidered": 63,
+            "probesRejected": 62
+          },
+          "corp": {
+            "actions": 211,
+            "gain": 61,
+            "draw": 23,
+            "install": 60,
+            "play": 6,
+            "run": 0,
+            "advance": 50,
+            "score": 8,
+            "overrides": 36,
+            "idleWithAgenda": 50,
+            "scoreOffered": 8,
+            "scoreTaken": 8,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 9.5,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "68dcd68fb89f784281db23489c934a96b38ebb7d56176d2e328f423054b1a664"
+    },
+    {
+      "runner": "phoenix-core-v1",
+      "corp": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91",
+      "directory": "matchup-0-2",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 2,
+        "runner": 4
+      },
+      "runnerWinRate": 0.6666666666666666,
+      "runnerWilson95": [
+        0.29998832134152864,
+        0.9032306674407831
+      ],
+      "p50Ms": 2681,
+      "p95Ms": 20394,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 493,
+            "gain": 106,
+            "draw": 84,
+            "install": 69,
+            "play": 41,
+            "run": 74,
+            "advance": 0,
+            "score": 0,
+            "overrides": 11,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 98,
+            "probesConsidered": 128,
+            "probesRejected": 117
+          },
+          "corp": {
+            "actions": 373,
+            "gain": 138,
+            "draw": 28,
+            "install": 104,
+            "play": 14,
+            "run": 0,
+            "advance": 71,
+            "score": 16,
+            "overrides": 41,
+            "idleWithAgenda": 107,
+            "scoreOffered": 16,
+            "scoreTaken": 16,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 16.333333333333332,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "166041284e36d66e7e28470e0b81d88c5f69e3fcc455a20276254ddbf6f191b8"
+    },
+    {
+      "runner": "phoenix-core-v1",
+      "corp": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad",
+      "directory": "matchup-0-3",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 5,
+        "runner": 1
+      },
+      "runnerWinRate": 0.16666666666666666,
+      "runnerWilson95": [
+        0.03005258587173032,
+        0.563509436563646
+      ],
+      "p50Ms": 1288,
+      "p95Ms": 10807,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 407,
+            "gain": 60,
+            "draw": 109,
+            "install": 57,
+            "play": 38,
+            "run": 40,
+            "advance": 0,
+            "score": 0,
+            "overrides": 1,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 57,
+            "probesConsidered": 76,
+            "probesRejected": 75
+          },
+          "corp": {
+            "actions": 338,
+            "gain": 26,
+            "draw": 28,
+            "install": 91,
+            "play": 20,
+            "run": 0,
+            "advance": 88,
+            "score": 21,
+            "overrides": 31,
+            "idleWithAgenda": 18,
+            "scoreOffered": 21,
+            "scoreTaken": 21,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 9.5,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "b81a232f4c3f07af66e053341baddca6fea3618303fe86da28a7f8a46e0889c6"
+    },
+    {
+      "runner": "phoenix-core-v1",
+      "corp": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4",
+      "directory": "matchup-0-4",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 857,
+      "p95Ms": 3265,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 377,
+            "gain": 54,
+            "draw": 96,
+            "install": 57,
+            "play": 31,
+            "run": 41,
+            "advance": 0,
+            "score": 0,
+            "overrides": 4,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 61,
+            "probesConsidered": 96,
+            "probesRejected": 92
+          },
+          "corp": {
+            "actions": 269,
+            "gain": 101,
+            "draw": 16,
+            "install": 74,
+            "play": 11,
+            "run": 0,
+            "advance": 53,
+            "score": 10,
+            "overrides": 34,
+            "idleWithAgenda": 73,
+            "scoreOffered": 10,
+            "scoreTaken": 10,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 10.166666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "2bb68f047f227ff5c06b49b54ec75ff6a99e83079de3eb1e3374bb4b17bed3dc"
+    },
+    {
+      "runner": "phoenix-core-v1",
+      "corp": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e",
+      "directory": "matchup-0-5",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 2,
+        "runner": 4
+      },
+      "runnerWinRate": 0.6666666666666666,
+      "runnerWilson95": [
+        0.29998832134152864,
+        0.9032306674407831
+      ],
+      "p50Ms": 285,
+      "p95Ms": 415,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 248,
+            "gain": 31,
+            "draw": 60,
+            "install": 28,
+            "play": 27,
+            "run": 49,
+            "advance": 0,
+            "score": 0,
+            "overrides": 3,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 66,
+            "probesConsidered": 45,
+            "probesRejected": 42
+          },
+          "corp": {
+            "actions": 199,
+            "gain": 13,
+            "draw": 13,
+            "install": 69,
+            "play": 14,
+            "run": 0,
+            "advance": 36,
+            "score": 8,
+            "overrides": 11,
+            "idleWithAgenda": 18,
+            "scoreOffered": 8,
+            "scoreTaken": 8,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 11,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "4e93e2a07395907b9bc39e131146415d40afe2a6a66fb4df42bf0baf9e77db7b"
+    },
+    {
+      "runner": "phoenix-core-v1",
+      "corp": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285",
+      "directory": "matchup-0-6",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 465,
+      "p95Ms": 2000,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 515,
+            "gain": 123,
+            "draw": 111,
+            "install": 56,
+            "play": 35,
+            "run": 61,
+            "advance": 0,
+            "score": 0,
+            "overrides": 0,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 79,
+            "probesConsidered": 48,
+            "probesRejected": 48
+          },
+          "corp": {
+            "actions": 477,
+            "gain": 164,
+            "draw": 11,
+            "install": 87,
+            "play": 15,
+            "run": 0,
+            "advance": 58,
+            "score": 11,
+            "overrides": 25,
+            "idleWithAgenda": 147,
+            "scoreOffered": 11,
+            "scoreTaken": 11,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 13.166666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "f4672d873ec41341b1e19a835cb1781bea846cbf12c82d001429dc5a245a0f63"
+    },
+    {
+      "runner": "phoenix-core-v1",
+      "corp": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11",
+      "directory": "matchup-0-7",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 4,
+        "runner": 2
+      },
+      "runnerWinRate": 0.3333333333333333,
+      "runnerWilson95": [
+        0.09676933255921683,
+        0.7000116786584712
+      ],
+      "p50Ms": 446,
+      "p95Ms": 582,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 317,
+            "gain": 67,
+            "draw": 75,
+            "install": 51,
+            "play": 30,
+            "run": 30,
+            "advance": 0,
+            "score": 0,
+            "overrides": 2,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 47,
+            "probesConsidered": 92,
+            "probesRejected": 90
+          },
+          "corp": {
+            "actions": 253,
+            "gain": 48,
+            "draw": 18,
+            "install": 79,
+            "play": 13,
+            "run": 0,
+            "advance": 68,
+            "score": 13,
+            "overrides": 36,
+            "idleWithAgenda": 43,
+            "scoreOffered": 13,
+            "scoreTaken": 13,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 7.833333333333333,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "385bd97ec4986890956a217e9878125d9d205c10c0e7e43bf646b8e28e78eff9"
+    },
+    {
+      "runner": "phoenix-core-v1",
+      "corp": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652",
+      "directory": "matchup-0-8",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 1,
+        "runner": 5
+      },
+      "runnerWinRate": 0.8333333333333334,
+      "runnerWilson95": [
+        0.43649056343635395,
+        0.9699474141282697
+      ],
+      "p50Ms": 529,
+      "p95Ms": 10805,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 378,
+            "gain": 59,
+            "draw": 76,
+            "install": 46,
+            "play": 31,
+            "run": 67,
+            "advance": 0,
+            "score": 0,
+            "overrides": 4,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 86,
+            "probesConsidered": 42,
+            "probesRejected": 38
+          },
+          "corp": {
+            "actions": 291,
+            "gain": 53,
+            "draw": 28,
+            "install": 75,
+            "play": 16,
+            "run": 0,
+            "advance": 60,
+            "score": 13,
+            "overrides": 25,
+            "idleWithAgenda": 38,
+            "scoreOffered": 13,
+            "scoreTaken": 13,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 14.333333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "58d59d83f96956991aa7da0d1a592753ac3957b2ede20417728fc5ca929c3db6"
+    },
+    {
+      "runner": "phoenix-core-v1",
+      "corp": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c",
+      "directory": "matchup-0-9",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 1,
+        "runner": 5
+      },
+      "runnerWinRate": 0.8333333333333334,
+      "runnerWilson95": [
+        0.43649056343635395,
+        0.9699474141282697
+      ],
+      "p50Ms": 713,
+      "p95Ms": 3211,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 350,
+            "gain": 53,
+            "draw": 80,
+            "install": 62,
+            "play": 28,
+            "run": 42,
+            "advance": 0,
+            "score": 0,
+            "overrides": 2,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 55,
+            "probesConsidered": 77,
+            "probesRejected": 75
+          },
+          "corp": {
+            "actions": 272,
+            "gain": 83,
+            "draw": 13,
+            "install": 66,
+            "play": 17,
+            "run": 0,
+            "advance": 58,
+            "score": 8,
+            "overrides": 19,
+            "idleWithAgenda": 51,
+            "scoreOffered": 10,
+            "scoreTaken": 8,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 9.166666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "165bd80c8aca75277ef6d9240c17842448b914d4bc8ff61ea67aa0d3bf6159bc"
+    },
+    {
+      "runner": "phoenix-core-v1",
+      "corp": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a",
+      "directory": "matchup-0-10",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 4,
+        "runner": 2
+      },
+      "runnerWinRate": 0.3333333333333333,
+      "runnerWilson95": [
+        0.09676933255921683,
+        0.7000116786584712
+      ],
+      "p50Ms": 724,
+      "p95Ms": 2247,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 395,
+            "gain": 69,
+            "draw": 92,
+            "install": 50,
+            "play": 27,
+            "run": 67,
+            "advance": 0,
+            "score": 0,
+            "overrides": 1,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 84,
+            "probesConsidered": 75,
+            "probesRejected": 74
+          },
+          "corp": {
+            "actions": 296,
+            "gain": 72,
+            "draw": 23,
+            "install": 78,
+            "play": 8,
+            "run": 0,
+            "advance": 64,
+            "score": 14,
+            "overrides": 36,
+            "idleWithAgenda": 37,
+            "scoreOffered": 17,
+            "scoreTaken": 14,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 14,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "b87e13b53627fb209a5e0e592c2303669523e085415b07f6769d68ea3cf81d6c"
+    },
+    {
+      "runner": "phoenix-core-v1",
+      "corp": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28",
+      "directory": "matchup-0-11",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 5662,
+      "p95Ms": 10182,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 384,
+            "gain": 62,
+            "draw": 89,
+            "install": 59,
+            "play": 28,
+            "run": 54,
+            "advance": 0,
+            "score": 0,
+            "overrides": 1,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 72,
+            "probesConsidered": 84,
+            "probesRejected": 83
+          },
+          "corp": {
+            "actions": 285,
+            "gain": 78,
+            "draw": 20,
+            "install": 85,
+            "play": 11,
+            "run": 0,
+            "advance": 80,
+            "score": 17,
+            "overrides": 22,
+            "idleWithAgenda": 54,
+            "scoreOffered": 23,
+            "scoreTaken": 17,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 12,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "f3daa5132641aeb18d06c6dca55f496013633a6b2c63702796de8d73d0239e97"
+    },
+    {
+      "runner": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303",
+      "corp": "precision-design-core-v1",
+      "directory": "matchup-1-0",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 5,
+        "runner": 1
+      },
+      "runnerWinRate": 0.16666666666666666,
+      "runnerWilson95": [
+        0.03005258587173032,
+        0.563509436563646
+      ],
+      "p50Ms": 228,
+      "p95Ms": 728,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 301,
+            "gain": 69,
+            "draw": 60,
+            "install": 58,
+            "play": 22,
+            "run": 52,
+            "advance": 0,
+            "score": 0,
+            "overrides": 3,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 60,
+            "probesConsidered": 68,
+            "probesRejected": 65
+          },
+          "corp": {
+            "actions": 268,
+            "gain": 42,
+            "draw": 21,
+            "install": 78,
+            "play": 10,
+            "run": 0,
+            "advance": 76,
+            "score": 21,
+            "overrides": 26,
+            "idleWithAgenda": 44,
+            "scoreOffered": 21,
+            "scoreTaken": 21,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 10,
+        "lowPressureGames": 1
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "bf8a640e959193129faf46f945f029ae7a4293014d7d60e29f58f1961de8c320"
+    },
+    {
+      "runner": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303",
+      "corp": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f",
+      "directory": "matchup-1-1",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 1,
+        "runner": 5
+      },
+      "runnerWinRate": 0.8333333333333334,
+      "runnerWilson95": [
+        0.43649056343635395,
+        0.9699474141282697
+      ],
+      "p50Ms": 842,
+      "p95Ms": 3638,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 388,
+            "gain": 46,
+            "draw": 79,
+            "install": 90,
+            "play": 28,
+            "run": 81,
+            "advance": 0,
+            "score": 0,
+            "overrides": 1,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 89,
+            "probesConsidered": 71,
+            "probesRejected": 70
+          },
+          "corp": {
+            "actions": 289,
+            "gain": 113,
+            "draw": 25,
+            "install": 71,
+            "play": 10,
+            "run": 0,
+            "advance": 55,
+            "score": 9,
+            "overrides": 38,
+            "idleWithAgenda": 73,
+            "scoreOffered": 9,
+            "scoreTaken": 9,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 14.833333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "9705d3dab67c024cc74888bf0c9ecca16ddab048ae2ef03d57795bfc2e9827b5"
+    },
+    {
+      "runner": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303",
+      "corp": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91",
+      "directory": "matchup-1-2",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 1,
+        "runner": 5
+      },
+      "runnerWinRate": 0.8333333333333334,
+      "runnerWilson95": [
+        0.43649056343635395,
+        0.9699474141282697
+      ],
+      "p50Ms": 2343,
+      "p95Ms": 3946,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 337,
+            "gain": 55,
+            "draw": 63,
+            "install": 77,
+            "play": 23,
+            "run": 62,
+            "advance": 0,
+            "score": 0,
+            "overrides": 3,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 69,
+            "probesConsidered": 81,
+            "probesRejected": 78
+          },
+          "corp": {
+            "actions": 277,
+            "gain": 68,
+            "draw": 41,
+            "install": 83,
+            "play": 15,
+            "run": 0,
+            "advance": 53,
+            "score": 13,
+            "overrides": 21,
+            "idleWithAgenda": 43,
+            "scoreOffered": 13,
+            "scoreTaken": 13,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 11.5,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "d4ae70f23f29eff052fc5e8a54f82bd8f8fb3117e4a7c4013e85cbe5eb6dbee9"
+    },
+    {
+      "runner": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303",
+      "corp": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad",
+      "directory": "matchup-1-3",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 5,
+        "runner": 1
+      },
+      "runnerWinRate": 0.16666666666666666,
+      "runnerWilson95": [
+        0.03005258587173032,
+        0.563509436563646
+      ],
+      "p50Ms": 229,
+      "p95Ms": 4990,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 309,
+            "gain": 56,
+            "draw": 85,
+            "install": 60,
+            "play": 15,
+            "run": 49,
+            "advance": 0,
+            "score": 0,
+            "overrides": 2,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 55,
+            "probesConsidered": 72,
+            "probesRejected": 70
+          },
+          "corp": {
+            "actions": 280,
+            "gain": 34,
+            "draw": 21,
+            "install": 72,
+            "play": 21,
+            "run": 0,
+            "advance": 70,
+            "score": 18,
+            "overrides": 19,
+            "idleWithAgenda": 17,
+            "scoreOffered": 18,
+            "scoreTaken": 18,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 9.166666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "be9a1794927005ae089290ed87da75f2532f70999817db55aff209367d0362b6"
+    },
+    {
+      "runner": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303",
+      "corp": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4",
+      "directory": "matchup-1-4",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 275,
+      "p95Ms": 779,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 284,
+            "gain": 33,
+            "draw": 68,
+            "install": 70,
+            "play": 21,
+            "run": 45,
+            "advance": 0,
+            "score": 0,
+            "overrides": 1,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 51,
+            "probesConsidered": 67,
+            "probesRejected": 66
+          },
+          "corp": {
+            "actions": 222,
+            "gain": 69,
+            "draw": 29,
+            "install": 54,
+            "play": 13,
+            "run": 0,
+            "advance": 43,
+            "score": 11,
+            "overrides": 19,
+            "idleWithAgenda": 60,
+            "scoreOffered": 11,
+            "scoreTaken": 11,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 8.5,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "7b49050ecaa9f363c1f9ddc22cb8089e14b103b75ce0f9f2d094d5b6a7e95b2d"
+    },
+    {
+      "runner": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303",
+      "corp": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e",
+      "directory": "matchup-1-5",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 2,
+        "runner": 4
+      },
+      "runnerWinRate": 0.6666666666666666,
+      "runnerWilson95": [
+        0.29998832134152864,
+        0.9032306674407831
+      ],
+      "p50Ms": 323,
+      "p95Ms": 741,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 360,
+            "gain": 54,
+            "draw": 81,
+            "install": 78,
+            "play": 24,
+            "run": 63,
+            "advance": 0,
+            "score": 0,
+            "overrides": 3,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 70,
+            "probesConsidered": 105,
+            "probesRejected": 102
+          },
+          "corp": {
+            "actions": 278,
+            "gain": 69,
+            "draw": 13,
+            "install": 80,
+            "play": 13,
+            "run": 0,
+            "advance": 67,
+            "score": 16,
+            "overrides": 25,
+            "idleWithAgenda": 80,
+            "scoreOffered": 16,
+            "scoreTaken": 16,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 11.666666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "deb0bd469027c2f7e41718d46600bd9c38b10e6b1c38fbe52f900d0c9f52e83e"
+    },
+    {
+      "runner": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303",
+      "corp": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285",
+      "directory": "matchup-1-6",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 2,
+        "runner": 4
+      },
+      "runnerWinRate": 0.6666666666666666,
+      "runnerWilson95": [
+        0.29998832134152864,
+        0.9032306674407831
+      ],
+      "p50Ms": 340,
+      "p95Ms": 570,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 387,
+            "gain": 95,
+            "draw": 78,
+            "install": 62,
+            "play": 17,
+            "run": 68,
+            "advance": 0,
+            "score": 0,
+            "overrides": 0,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 75,
+            "probesConsidered": 71,
+            "probesRejected": 71
+          },
+          "corp": {
+            "actions": 346,
+            "gain": 152,
+            "draw": 8,
+            "install": 58,
+            "play": 18,
+            "run": 0,
+            "advance": 37,
+            "score": 9,
+            "overrides": 8,
+            "idleWithAgenda": 150,
+            "scoreOffered": 9,
+            "scoreTaken": 9,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 12.5,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "96770bd987417aa4628d99300d57714e8b57e51ac4be4e65cae36ca6c82c20d1"
+    },
+    {
+      "runner": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303",
+      "corp": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11",
+      "directory": "matchup-1-7",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 2,
+        "runner": 4
+      },
+      "runnerWinRate": 0.6666666666666666,
+      "runnerWilson95": [
+        0.29998832134152864,
+        0.9032306674407831
+      ],
+      "p50Ms": 202,
+      "p95Ms": 560,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 298,
+            "gain": 45,
+            "draw": 59,
+            "install": 67,
+            "play": 26,
+            "run": 39,
+            "advance": 0,
+            "score": 0,
+            "overrides": 0,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 47,
+            "probesConsidered": 58,
+            "probesRejected": 58
+          },
+          "corp": {
+            "actions": 239,
+            "gain": 38,
+            "draw": 18,
+            "install": 71,
+            "play": 14,
+            "run": 0,
+            "advance": 64,
+            "score": 13,
+            "overrides": 32,
+            "idleWithAgenda": 16,
+            "scoreOffered": 13,
+            "scoreTaken": 13,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 7.833333333333333,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "97b9b6d343c74715268d1dab50f62026c9b4570e42bd08f164ac969f8b75f02e"
+    },
+    {
+      "runner": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303",
+      "corp": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652",
+      "directory": "matchup-1-8",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 190,
+      "p95Ms": 1750,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 288,
+            "gain": 39,
+            "draw": 57,
+            "install": 64,
+            "play": 22,
+            "run": 42,
+            "advance": 0,
+            "score": 0,
+            "overrides": 2,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 48,
+            "probesConsidered": 74,
+            "probesRejected": 72
+          },
+          "corp": {
+            "actions": 254,
+            "gain": 37,
+            "draw": 16,
+            "install": 62,
+            "play": 14,
+            "run": 0,
+            "advance": 57,
+            "score": 12,
+            "overrides": 23,
+            "idleWithAgenda": 24,
+            "scoreOffered": 13,
+            "scoreTaken": 12,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 8,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "e0557c46cbe58d91b891fedbeb5669f5e027f177616260ba680247e402d2b4a0"
+    },
+    {
+      "runner": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303",
+      "corp": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c",
+      "directory": "matchup-1-9",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 5,
+        "runner": 1
+      },
+      "runnerWinRate": 0.16666666666666666,
+      "runnerWilson95": [
+        0.03005258587173032,
+        0.563509436563646
+      ],
+      "p50Ms": 1944,
+      "p95Ms": 5298,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 409,
+            "gain": 80,
+            "draw": 91,
+            "install": 88,
+            "play": 34,
+            "run": 55,
+            "advance": 0,
+            "score": 0,
+            "overrides": 0,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 65,
+            "probesConsidered": 87,
+            "probesRejected": 87
+          },
+          "corp": {
+            "actions": 336,
+            "gain": 46,
+            "draw": 25,
+            "install": 85,
+            "play": 16,
+            "run": 0,
+            "advance": 101,
+            "score": 17,
+            "overrides": 13,
+            "idleWithAgenda": 24,
+            "scoreOffered": 21,
+            "scoreTaken": 17,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 10.833333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "fd0a1364e4bee9a685b29e58dd707592bd59b767fc320d68cdc3c9abb3aef96c"
+    },
+    {
+      "runner": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303",
+      "corp": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a",
+      "directory": "matchup-1-10",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 4,
+        "runner": 2
+      },
+      "runnerWinRate": 0.3333333333333333,
+      "runnerWilson95": [
+        0.09676933255921683,
+        0.7000116786584712
+      ],
+      "p50Ms": 558,
+      "p95Ms": 9919,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 382,
+            "gain": 65,
+            "draw": 75,
+            "install": 75,
+            "play": 29,
+            "run": 77,
+            "advance": 0,
+            "score": 0,
+            "overrides": 6,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 86,
+            "probesConsidered": 81,
+            "probesRejected": 75
+          },
+          "corp": {
+            "actions": 289,
+            "gain": 72,
+            "draw": 24,
+            "install": 64,
+            "play": 12,
+            "run": 0,
+            "advance": 79,
+            "score": 16,
+            "overrides": 18,
+            "idleWithAgenda": 40,
+            "scoreOffered": 17,
+            "scoreTaken": 16,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 14.333333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "818e75c528cec61a739691f55969ef404698da1ae7c8c018b9a0c00bab50ed37"
+    },
+    {
+      "runner": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303",
+      "corp": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28",
+      "directory": "matchup-1-11",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 1962,
+      "p95Ms": 5752,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 336,
+            "gain": 54,
+            "draw": 71,
+            "install": 81,
+            "play": 25,
+            "run": 52,
+            "advance": 0,
+            "score": 0,
+            "overrides": 0,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 59,
+            "probesConsidered": 100,
+            "probesRejected": 100
+          },
+          "corp": {
+            "actions": 258,
+            "gain": 74,
+            "draw": 20,
+            "install": 80,
+            "play": 5,
+            "run": 0,
+            "advance": 71,
+            "score": 19,
+            "overrides": 48,
+            "idleWithAgenda": 54,
+            "scoreOffered": 25,
+            "scoreTaken": 19,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 9.833333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "228c6d680114382b6d2939d82588adbec4474b790ca3b2edd3b207bc0581c81d"
+    },
+    {
+      "runner": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd",
+      "corp": "precision-design-core-v1",
+      "directory": "matchup-2-0",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 5,
+        "runner": 1
+      },
+      "runnerWinRate": 0.16666666666666666,
+      "runnerWilson95": [
+        0.03005258587173032,
+        0.563509436563646
+      ],
+      "p50Ms": 1110,
+      "p95Ms": 2824,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 335,
+            "gain": 42,
+            "draw": 74,
+            "install": 61,
+            "play": 25,
+            "run": 52,
+            "advance": 0,
+            "score": 0,
+            "overrides": 0,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 62,
+            "probesConsidered": 68,
+            "probesRejected": 68
+          },
+          "corp": {
+            "actions": 303,
+            "gain": 29,
+            "draw": 23,
+            "install": 93,
+            "play": 18,
+            "run": 0,
+            "advance": 66,
+            "score": 17,
+            "overrides": 18,
+            "idleWithAgenda": 25,
+            "scoreOffered": 17,
+            "scoreTaken": 17,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 10.333333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "e9e5ea4099ad9b910a7dd013367f2865c6b67e46b1272ca25d58d47eb105ef6e"
+    },
+    {
+      "runner": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd",
+      "corp": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f",
+      "directory": "matchup-2-1",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 0,
+        "runner": 6
+      },
+      "runnerWinRate": 1,
+      "runnerWilson95": [
+        0.6096569663469354,
+        0.9999999999999999
+      ],
+      "p50Ms": 517,
+      "p95Ms": 698,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 300,
+            "gain": 33,
+            "draw": 58,
+            "install": 59,
+            "play": 17,
+            "run": 54,
+            "advance": 0,
+            "score": 0,
+            "overrides": 4,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 61,
+            "probesConsidered": 68,
+            "probesRejected": 64
+          },
+          "corp": {
+            "actions": 219,
+            "gain": 57,
+            "draw": 17,
+            "install": 67,
+            "play": 6,
+            "run": 0,
+            "advance": 49,
+            "score": 8,
+            "overrides": 30,
+            "idleWithAgenda": 40,
+            "scoreOffered": 8,
+            "scoreTaken": 8,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 10.166666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "605a124983319c9b04877a23d475fb2de0ae968c841088b95dd7979ceac1ef42"
+    },
+    {
+      "runner": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd",
+      "corp": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91",
+      "directory": "matchup-2-2",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 1569,
+      "p95Ms": 13632,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 409,
+            "gain": 28,
+            "draw": 87,
+            "install": 77,
+            "play": 23,
+            "run": 77,
+            "advance": 0,
+            "score": 0,
+            "overrides": 7,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 86,
+            "probesConsidered": 81,
+            "probesRejected": 74
+          },
+          "corp": {
+            "actions": 306,
+            "gain": 101,
+            "draw": 28,
+            "install": 87,
+            "play": 11,
+            "run": 0,
+            "advance": 65,
+            "score": 15,
+            "overrides": 30,
+            "idleWithAgenda": 88,
+            "scoreOffered": 15,
+            "scoreTaken": 15,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 14.333333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "4412ab31c7cd562ab47e2e644b7e64f89c9f0b824581d6ac173e2c5172262515"
+    },
+    {
+      "runner": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd",
+      "corp": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad",
+      "directory": "matchup-2-3",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 6,
+        "runner": 0
+      },
+      "runnerWinRate": 0,
+      "runnerWilson95": [
+        0,
+        0.3903430336530645
+      ],
+      "p50Ms": 261,
+      "p95Ms": 14775,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 336,
+            "gain": 65,
+            "draw": 77,
+            "install": 64,
+            "play": 24,
+            "run": 37,
+            "advance": 0,
+            "score": 0,
+            "overrides": 4,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 46,
+            "probesConsidered": 105,
+            "probesRejected": 101
+          },
+          "corp": {
+            "actions": 290,
+            "gain": 30,
+            "draw": 12,
+            "install": 74,
+            "play": 17,
+            "run": 0,
+            "advance": 81,
+            "score": 20,
+            "overrides": 22,
+            "idleWithAgenda": 34,
+            "scoreOffered": 20,
+            "scoreTaken": 20,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 7.666666666666667,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "128d12eee8b9518ae2b6b41eabb4b8b7af6e704a7c57904fcec99401d613646f"
+    },
+    {
+      "runner": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd",
+      "corp": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4",
+      "directory": "matchup-2-4",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 2,
+        "runner": 4
+      },
+      "runnerWinRate": 0.6666666666666666,
+      "runnerWilson95": [
+        0.29998832134152864,
+        0.9032306674407831
+      ],
+      "p50Ms": 396,
+      "p95Ms": 3784,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 309,
+            "gain": 33,
+            "draw": 73,
+            "install": 63,
+            "play": 19,
+            "run": 32,
+            "advance": 0,
+            "score": 0,
+            "overrides": 2,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 41,
+            "probesConsidered": 75,
+            "probesRejected": 73
+          },
+          "corp": {
+            "actions": 213,
+            "gain": 93,
+            "draw": 7,
+            "install": 61,
+            "play": 7,
+            "run": 0,
+            "advance": 37,
+            "score": 8,
+            "overrides": 23,
+            "idleWithAgenda": 74,
+            "scoreOffered": 8,
+            "scoreTaken": 8,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 6.833333333333333,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "6e1a104e5258e69d53e0e19c9f76c9b108a4a5d35843c8d498f893125f478a33"
+    },
+    {
+      "runner": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd",
+      "corp": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e",
+      "directory": "matchup-2-5",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 1,
+        "runner": 5
+      },
+      "runnerWinRate": 0.8333333333333334,
+      "runnerWilson95": [
+        0.43649056343635395,
+        0.9699474141282697
+      ],
+      "p50Ms": 426,
+      "p95Ms": 860,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 368,
+            "gain": 56,
+            "draw": 77,
+            "install": 63,
+            "play": 15,
+            "run": 76,
+            "advance": 0,
+            "score": 0,
+            "overrides": 2,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 82,
+            "probesConsidered": 62,
+            "probesRejected": 60
+          },
+          "corp": {
+            "actions": 296,
+            "gain": 34,
+            "draw": 19,
+            "install": 93,
+            "play": 21,
+            "run": 0,
+            "advance": 71,
+            "score": 15,
+            "overrides": 25,
+            "idleWithAgenda": 31,
+            "scoreOffered": 15,
+            "scoreTaken": 15,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 13.666666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "f95bb5dd66468b5052f2beb073503b0c06bf903e15750d176228d078c86f9b09"
+    },
+    {
+      "runner": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd",
+      "corp": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285",
+      "directory": "matchup-2-6",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 4,
+        "runner": 2
+      },
+      "runnerWinRate": 0.3333333333333333,
+      "runnerWilson95": [
+        0.09676933255921683,
+        0.7000116786584712
+      ],
+      "p50Ms": 594,
+      "p95Ms": 2296,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 513,
+            "gain": 83,
+            "draw": 108,
+            "install": 74,
+            "play": 32,
+            "run": 70,
+            "advance": 0,
+            "score": 0,
+            "overrides": 0,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 83,
+            "probesConsidered": 83,
+            "probesRejected": 83
+          },
+          "corp": {
+            "actions": 460,
+            "gain": 164,
+            "draw": 11,
+            "install": 85,
+            "play": 14,
+            "run": 0,
+            "advance": 57,
+            "score": 13,
+            "overrides": 23,
+            "idleWithAgenda": 144,
+            "scoreOffered": 13,
+            "scoreTaken": 13,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 13.833333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "ef99055f3460eaf48ba50a9b1ca5e4e1fed65a7c4d779644fc366ed2d041f059"
+    },
+    {
+      "runner": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd",
+      "corp": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11",
+      "directory": "matchup-2-7",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 811,
+      "p95Ms": 2854,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 328,
+            "gain": 33,
+            "draw": 86,
+            "install": 65,
+            "play": 24,
+            "run": 33,
+            "advance": 0,
+            "score": 0,
+            "overrides": 2,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 43,
+            "probesConsidered": 85,
+            "probesRejected": 83
+          },
+          "corp": {
+            "actions": 257,
+            "gain": 59,
+            "draw": 14,
+            "install": 77,
+            "play": 13,
+            "run": 0,
+            "advance": 68,
+            "score": 15,
+            "overrides": 28,
+            "idleWithAgenda": 14,
+            "scoreOffered": 15,
+            "scoreTaken": 15,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 7.166666666666667,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "c90a0948a422f45ad893c7991455a8f0db5260bd8a8d742acd4a4e0a44e77775"
+    },
+    {
+      "runner": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd",
+      "corp": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652",
+      "directory": "matchup-2-8",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 5016,
+      "p95Ms": 8873,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 464,
+            "gain": 56,
+            "draw": 90,
+            "install": 74,
+            "play": 22,
+            "run": 77,
+            "advance": 0,
+            "score": 0,
+            "overrides": 1,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 87,
+            "probesConsidered": 58,
+            "probesRejected": 57
+          },
+          "corp": {
+            "actions": 370,
+            "gain": 72,
+            "draw": 16,
+            "install": 90,
+            "play": 24,
+            "run": 0,
+            "advance": 68,
+            "score": 13,
+            "overrides": 36,
+            "idleWithAgenda": 24,
+            "scoreOffered": 15,
+            "scoreTaken": 13,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 14.5,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "92e89584d3e993fe685785b52aada121fe80b06e5ecd857bc2c30a5cbf6a1bac"
+    },
+    {
+      "runner": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd",
+      "corp": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c",
+      "directory": "matchup-2-9",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 4,
+        "runner": 2
+      },
+      "runnerWinRate": 0.3333333333333333,
+      "runnerWilson95": [
+        0.09676933255921683,
+        0.7000116786584712
+      ],
+      "p50Ms": 382,
+      "p95Ms": 2761,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 331,
+            "gain": 35,
+            "draw": 77,
+            "install": 63,
+            "play": 27,
+            "run": 45,
+            "advance": 0,
+            "score": 0,
+            "overrides": 1,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 53,
+            "probesConsidered": 65,
+            "probesRejected": 64
+          },
+          "corp": {
+            "actions": 260,
+            "gain": 54,
+            "draw": 14,
+            "install": 64,
+            "play": 18,
+            "run": 0,
+            "advance": 81,
+            "score": 16,
+            "overrides": 28,
+            "idleWithAgenda": 24,
+            "scoreOffered": 20,
+            "scoreTaken": 16,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 8.833333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "431f70a926a8f6ef0effa6f9168135beefd5274ba8828689d5d89887969fef3a"
+    },
+    {
+      "runner": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd",
+      "corp": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a",
+      "directory": "matchup-2-10",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 5,
+        "runner": 1
+      },
+      "runnerWinRate": 0.16666666666666666,
+      "runnerWilson95": [
+        0.03005258587173032,
+        0.563509436563646
+      ],
+      "p50Ms": 3977,
+      "p95Ms": 11324,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 512,
+            "gain": 54,
+            "draw": 86,
+            "install": 83,
+            "play": 30,
+            "run": 103,
+            "advance": 0,
+            "score": 0,
+            "overrides": 1,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 116,
+            "probesConsidered": 67,
+            "probesRejected": 66
+          },
+          "corp": {
+            "actions": 375,
+            "gain": 97,
+            "draw": 15,
+            "install": 91,
+            "play": 13,
+            "run": 0,
+            "advance": 89,
+            "score": 18,
+            "overrides": 28,
+            "idleWithAgenda": 59,
+            "scoreOffered": 24,
+            "scoreTaken": 18,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 19.333333333333332,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "d4571c39856d5695ef9d4aa76862626df32f905d0f63870684487f5f2df235c6"
+    },
+    {
+      "runner": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd",
+      "corp": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28",
+      "directory": "matchup-2-11",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 11830,
+      "p95Ms": 37933,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 499,
+            "gain": 32,
+            "draw": 101,
+            "install": 89,
+            "play": 40,
+            "run": 75,
+            "advance": 0,
+            "score": 0,
+            "overrides": 6,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 91,
+            "probesConsidered": 101,
+            "probesRejected": 95
+          },
+          "corp": {
+            "actions": 354,
+            "gain": 117,
+            "draw": 19,
+            "install": 102,
+            "play": 12,
+            "run": 0,
+            "advance": 89,
+            "score": 21,
+            "overrides": 30,
+            "idleWithAgenda": 91,
+            "scoreOffered": 26,
+            "scoreTaken": 21,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 15.166666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "265479ce489b7dae1b0c6c951d0b7b45ba4fa71c8ce37ad85ee88415544f3397"
+    },
+    {
+      "runner": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5",
+      "corp": "precision-design-core-v1",
+      "directory": "matchup-3-0",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 4,
+        "runner": 2
+      },
+      "runnerWinRate": 0.3333333333333333,
+      "runnerWilson95": [
+        0.09676933255921683,
+        0.7000116786584712
+      ],
+      "p50Ms": 288,
+      "p95Ms": 22804,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 286,
+            "gain": 10,
+            "draw": 45,
+            "install": 35,
+            "play": 32,
+            "run": 34,
+            "advance": 0,
+            "score": 0,
+            "overrides": 1,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 54,
+            "probesConsidered": 40,
+            "probesRejected": 39
+          },
+          "corp": {
+            "actions": 227,
+            "gain": 39,
+            "draw": 18,
+            "install": 56,
+            "play": 16,
+            "run": 0,
+            "advance": 45,
+            "score": 15,
+            "overrides": 19,
+            "idleWithAgenda": 25,
+            "scoreOffered": 15,
+            "scoreTaken": 15,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 9,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "95e2997f524ddb1a1ec671a1257795929a0be7e8d8ad35ddb464e3b5dc7a1e55"
+    },
+    {
+      "runner": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5",
+      "corp": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f",
+      "directory": "matchup-3-1",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 0,
+        "runner": 6
+      },
+      "runnerWinRate": 1,
+      "runnerWilson95": [
+        0.6096569663469354,
+        0.9999999999999999
+      ],
+      "p50Ms": 191,
+      "p95Ms": 427,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 236,
+            "gain": 29,
+            "draw": 46,
+            "install": 40,
+            "play": 31,
+            "run": 31,
+            "advance": 0,
+            "score": 0,
+            "overrides": 0,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 64,
+            "probesConsidered": 38,
+            "probesRejected": 38
+          },
+          "corp": {
+            "actions": 164,
+            "gain": 69,
+            "draw": 12,
+            "install": 48,
+            "play": 5,
+            "run": 0,
+            "advance": 25,
+            "score": 3,
+            "overrides": 14,
+            "idleWithAgenda": 49,
+            "scoreOffered": 3,
+            "scoreTaken": 3,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 10.666666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "42c95d2b727490711fda3e995e6b60fcdfcc2a3aa6fef8c05856c82f0559d44f"
+    },
+    {
+      "runner": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5",
+      "corp": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91",
+      "directory": "matchup-3-2",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 2,
+        "runner": 4
+      },
+      "runnerWinRate": 0.6666666666666666,
+      "runnerWilson95": [
+        0.29998832134152864,
+        0.9032306674407831
+      ],
+      "p50Ms": 1301,
+      "p95Ms": 7055,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 389,
+            "gain": 68,
+            "draw": 86,
+            "install": 54,
+            "play": 46,
+            "run": 51,
+            "advance": 0,
+            "score": 0,
+            "overrides": 2,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 83,
+            "probesConsidered": 65,
+            "probesRejected": 63
+          },
+          "corp": {
+            "actions": 283,
+            "gain": 113,
+            "draw": 21,
+            "install": 69,
+            "play": 14,
+            "run": 0,
+            "advance": 52,
+            "score": 13,
+            "overrides": 23,
+            "idleWithAgenda": 69,
+            "scoreOffered": 13,
+            "scoreTaken": 13,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 13.833333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "43439171e4587ac58a202b118af8cbeaf72d2e5dcf54e26ca88364c1683ec59b"
+    },
+    {
+      "runner": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5",
+      "corp": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad",
+      "directory": "matchup-3-3",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 4,
+        "runner": 2
+      },
+      "runnerWinRate": 0.3333333333333333,
+      "runnerWilson95": [
+        0.09676933255921683,
+        0.7000116786584712
+      ],
+      "p50Ms": 2130,
+      "p95Ms": 11696,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 374,
+            "gain": 25,
+            "draw": 67,
+            "install": 42,
+            "play": 40,
+            "run": 44,
+            "advance": 0,
+            "score": 0,
+            "overrides": 0,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 64,
+            "probesConsidered": 51,
+            "probesRejected": 51
+          },
+          "corp": {
+            "actions": 309,
+            "gain": 30,
+            "draw": 18,
+            "install": 86,
+            "play": 23,
+            "run": 0,
+            "advance": 64,
+            "score": 16,
+            "overrides": 19,
+            "idleWithAgenda": 27,
+            "scoreOffered": 16,
+            "scoreTaken": 16,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 10.666666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "600859e010cdfafea4e198cfbe913e6881191bc4129edd834645d28ec3c5d04b"
+    },
+    {
+      "runner": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5",
+      "corp": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4",
+      "directory": "matchup-3-4",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 390,
+      "p95Ms": 1057,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 338,
+            "gain": 19,
+            "draw": 69,
+            "install": 47,
+            "play": 45,
+            "run": 52,
+            "advance": 0,
+            "score": 0,
+            "overrides": 2,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 82,
+            "probesConsidered": 58,
+            "probesRejected": 56
+          },
+          "corp": {
+            "actions": 218,
+            "gain": 63,
+            "draw": 30,
+            "install": 59,
+            "play": 11,
+            "run": 0,
+            "advance": 42,
+            "score": 10,
+            "overrides": 31,
+            "idleWithAgenda": 40,
+            "scoreOffered": 10,
+            "scoreTaken": 10,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 13.666666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "578ff26c877fb804f477274c6677cc14b8e417521b8bbc122096b96b08c5b3c5"
+    },
+    {
+      "runner": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5",
+      "corp": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e",
+      "directory": "matchup-3-5",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 2,
+        "runner": 4
+      },
+      "runnerWinRate": 0.6666666666666666,
+      "runnerWilson95": [
+        0.29998832134152864,
+        0.9032306674407831
+      ],
+      "p50Ms": 445,
+      "p95Ms": 833,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 354,
+            "gain": 36,
+            "draw": 65,
+            "install": 40,
+            "play": 40,
+            "run": 52,
+            "advance": 0,
+            "score": 0,
+            "overrides": 1,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 87,
+            "probesConsidered": 43,
+            "probesRejected": 42
+          },
+          "corp": {
+            "actions": 245,
+            "gain": 67,
+            "draw": 17,
+            "install": 69,
+            "play": 14,
+            "run": 0,
+            "advance": 44,
+            "score": 8,
+            "overrides": 26,
+            "idleWithAgenda": 56,
+            "scoreOffered": 8,
+            "scoreTaken": 8,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 14.5,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "25a39d445ce95ee2887995c419f08ae4a9e979c32ac05bffffce4a9d7c2c71f9"
+    },
+    {
+      "runner": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5",
+      "corp": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285",
+      "directory": "matchup-3-6",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 707,
+      "p95Ms": 1804,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 533,
+            "gain": 50,
+            "draw": 85,
+            "install": 50,
+            "play": 43,
+            "run": 49,
+            "advance": 0,
+            "score": 0,
+            "overrides": 0,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 71,
+            "probesConsidered": 62,
+            "probesRejected": 62
+          },
+          "corp": {
+            "actions": 447,
+            "gain": 147,
+            "draw": 5,
+            "install": 72,
+            "play": 22,
+            "run": 0,
+            "advance": 56,
+            "score": 12,
+            "overrides": 21,
+            "idleWithAgenda": 138,
+            "scoreOffered": 12,
+            "scoreTaken": 12,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 11.833333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "3bfa08e6e8983743d531902c7c441f3ac9d716eea97b9f6a795f62f5d0220156"
+    },
+    {
+      "runner": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5",
+      "corp": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11",
+      "directory": "matchup-3-7",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 230,
+      "p95Ms": 508,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 238,
+            "gain": 27,
+            "draw": 56,
+            "install": 36,
+            "play": 30,
+            "run": 35,
+            "advance": 0,
+            "score": 0,
+            "overrides": 2,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 51,
+            "probesConsidered": 53,
+            "probesRejected": 51
+          },
+          "corp": {
+            "actions": 190,
+            "gain": 24,
+            "draw": 13,
+            "install": 59,
+            "play": 13,
+            "run": 0,
+            "advance": 51,
+            "score": 12,
+            "overrides": 27,
+            "idleWithAgenda": 12,
+            "scoreOffered": 12,
+            "scoreTaken": 12,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 8.5,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "fd152a2bfe7c4c62dae7d0a8ecbc88eeb29698b026c7ec783092ed3733fe270f"
+    },
+    {
+      "runner": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5",
+      "corp": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652",
+      "directory": "matchup-3-8",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 2,
+        "runner": 4
+      },
+      "runnerWinRate": 0.6666666666666666,
+      "runnerWilson95": [
+        0.29998832134152864,
+        0.9032306674407831
+      ],
+      "p50Ms": 268,
+      "p95Ms": 3679,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 289,
+            "gain": 36,
+            "draw": 57,
+            "install": 37,
+            "play": 36,
+            "run": 38,
+            "advance": 0,
+            "score": 0,
+            "overrides": 1,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 62,
+            "probesConsidered": 45,
+            "probesRejected": 44
+          },
+          "corp": {
+            "actions": 223,
+            "gain": 43,
+            "draw": 18,
+            "install": 50,
+            "play": 12,
+            "run": 0,
+            "advance": 49,
+            "score": 9,
+            "overrides": 31,
+            "idleWithAgenda": 31,
+            "scoreOffered": 11,
+            "scoreTaken": 9,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 10.333333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "0437840f9ef27b5338025c86f1d812d118f223430df0fc812ecc0f17def91c5b"
+    },
+    {
+      "runner": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5",
+      "corp": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c",
+      "directory": "matchup-3-9",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 170,
+      "p95Ms": 2616,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 309,
+            "gain": 22,
+            "draw": 55,
+            "install": 37,
+            "play": 28,
+            "run": 37,
+            "advance": 0,
+            "score": 0,
+            "overrides": 0,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 53,
+            "probesConsidered": 38,
+            "probesRejected": 38
+          },
+          "corp": {
+            "actions": 194,
+            "gain": 51,
+            "draw": 13,
+            "install": 50,
+            "play": 9,
+            "run": 0,
+            "advance": 58,
+            "score": 10,
+            "overrides": 22,
+            "idleWithAgenda": 33,
+            "scoreOffered": 10,
+            "scoreTaken": 10,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 8.833333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "1318de8c59114336b9489bba0e75ca25908250fa743a813ce0fefb7361720a7d"
+    },
+    {
+      "runner": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5",
+      "corp": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a",
+      "directory": "matchup-3-10",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 356,
+      "p95Ms": 4928,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 482,
+            "gain": 62,
+            "draw": 83,
+            "install": 50,
+            "play": 46,
+            "run": 72,
+            "advance": 0,
+            "score": 0,
+            "overrides": 2,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 100,
+            "probesConsidered": 57,
+            "probesRejected": 55
+          },
+          "corp": {
+            "actions": 331,
+            "gain": 100,
+            "draw": 25,
+            "install": 70,
+            "play": 11,
+            "run": 0,
+            "advance": 70,
+            "score": 12,
+            "overrides": 32,
+            "idleWithAgenda": 57,
+            "scoreOffered": 12,
+            "scoreTaken": 12,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 16.666666666666668,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "cb0d164383f5fde785547d23fdf7991415f9b4c0f1ea005dc1f5f2aa7b0b7c0e"
+    },
+    {
+      "runner": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5",
+      "corp": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28",
+      "directory": "matchup-3-11",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 752,
+      "p95Ms": 7502,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 313,
+            "gain": 54,
+            "draw": 67,
+            "install": 42,
+            "play": 38,
+            "run": 44,
+            "advance": 0,
+            "score": 0,
+            "overrides": 6,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 70,
+            "probesConsidered": 60,
+            "probesRejected": 54
+          },
+          "corp": {
+            "actions": 236,
+            "gain": 66,
+            "draw": 12,
+            "install": 75,
+            "play": 8,
+            "run": 0,
+            "advance": 65,
+            "score": 18,
+            "overrides": 28,
+            "idleWithAgenda": 49,
+            "scoreOffered": 22,
+            "scoreTaken": 18,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 11.666666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "82e6a74032a3100bef34a6ad20dfeda54c76f9fdba955d0a527bd2796f3719a2"
+    },
+    {
+      "runner": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd",
+      "corp": "precision-design-core-v1",
+      "directory": "matchup-4-0",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 5,
+        "runner": 1
+      },
+      "runnerWinRate": 0.16666666666666666,
+      "runnerWilson95": [
+        0.03005258587173032,
+        0.563509436563646
+      ],
+      "p50Ms": 540,
+      "p95Ms": 2980,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 320,
+            "gain": 63,
+            "draw": 55,
+            "install": 41,
+            "play": 34,
+            "run": 35,
+            "advance": 0,
+            "score": 0,
+            "overrides": 4,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 58,
+            "probesConsidered": 78,
+            "probesRejected": 74
+          },
+          "corp": {
+            "actions": 278,
+            "gain": 16,
+            "draw": 14,
+            "install": 87,
+            "play": 17,
+            "run": 0,
+            "advance": 61,
+            "score": 17,
+            "overrides": 18,
+            "idleWithAgenda": 15,
+            "scoreOffered": 17,
+            "scoreTaken": 17,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 9.666666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "afde3d5da15943afb44af030de664348d0ac077dcd51aabbc126f11209537857"
+    },
+    {
+      "runner": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd",
+      "corp": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f",
+      "directory": "matchup-4-1",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 1,
+        "runner": 5
+      },
+      "runnerWinRate": 0.8333333333333334,
+      "runnerWilson95": [
+        0.43649056343635395,
+        0.9699474141282697
+      ],
+      "p50Ms": 1456,
+      "p95Ms": 12998,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 380,
+            "gain": 14,
+            "draw": 72,
+            "install": 45,
+            "play": 54,
+            "run": 71,
+            "advance": 0,
+            "score": 0,
+            "overrides": 4,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 103,
+            "probesConsidered": 58,
+            "probesRejected": 54
+          },
+          "corp": {
+            "actions": 242,
+            "gain": 86,
+            "draw": 15,
+            "install": 66,
+            "play": 10,
+            "run": 0,
+            "advance": 42,
+            "score": 8,
+            "overrides": 23,
+            "idleWithAgenda": 59,
+            "scoreOffered": 8,
+            "scoreTaken": 8,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 17.166666666666668,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "e5a895a36c0966728f5b0ca570f18343d06cd8b395d0abe7cec181477cceaf3c"
+    },
+    {
+      "runner": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd",
+      "corp": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91",
+      "directory": "matchup-4-2",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 1438,
+      "p95Ms": 4386,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 448,
+            "gain": 22,
+            "draw": 83,
+            "install": 54,
+            "play": 57,
+            "run": 55,
+            "advance": 0,
+            "score": 0,
+            "overrides": 1,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 90,
+            "probesConsidered": 81,
+            "probesRejected": 80
+          },
+          "corp": {
+            "actions": 294,
+            "gain": 104,
+            "draw": 21,
+            "install": 81,
+            "play": 9,
+            "run": 0,
+            "advance": 67,
+            "score": 14,
+            "overrides": 40,
+            "idleWithAgenda": 100,
+            "scoreOffered": 14,
+            "scoreTaken": 14,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 15,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "3d21e5c9b2a83c05a248ff15ac5ac537e3ff041184c4837735899682405e39cb"
+    },
+    {
+      "runner": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd",
+      "corp": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad",
+      "directory": "matchup-4-3",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 4,
+        "runner": 2
+      },
+      "runnerWinRate": 0.3333333333333333,
+      "runnerWilson95": [
+        0.09676933255921683,
+        0.7000116786584712
+      ],
+      "p50Ms": 2085,
+      "p95Ms": 13833,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 415,
+            "gain": 60,
+            "draw": 81,
+            "install": 43,
+            "play": 34,
+            "run": 28,
+            "advance": 0,
+            "score": 0,
+            "overrides": 1,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 48,
+            "probesConsidered": 132,
+            "probesRejected": 131
+          },
+          "corp": {
+            "actions": 299,
+            "gain": 53,
+            "draw": 20,
+            "install": 81,
+            "play": 20,
+            "run": 0,
+            "advance": 69,
+            "score": 16,
+            "overrides": 40,
+            "idleWithAgenda": 21,
+            "scoreOffered": 16,
+            "scoreTaken": 16,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 8,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "14709af58d63f23ec693237373393d98d2f78c05f084fdc14c9d6fc09585fb8a"
+    },
+    {
+      "runner": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd",
+      "corp": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4",
+      "directory": "matchup-4-4",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 2,
+        "runner": 4
+      },
+      "runnerWinRate": 0.6666666666666666,
+      "runnerWilson95": [
+        0.29998832134152864,
+        0.9032306674407831
+      ],
+      "p50Ms": 443,
+      "p95Ms": 7423,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 466,
+            "gain": 17,
+            "draw": 87,
+            "install": 44,
+            "play": 60,
+            "run": 47,
+            "advance": 0,
+            "score": 0,
+            "overrides": 9,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 91,
+            "probesConsidered": 58,
+            "probesRejected": 49
+          },
+          "corp": {
+            "actions": 272,
+            "gain": 122,
+            "draw": 12,
+            "install": 61,
+            "play": 8,
+            "run": 0,
+            "advance": 58,
+            "score": 12,
+            "overrides": 31,
+            "idleWithAgenda": 76,
+            "scoreOffered": 12,
+            "scoreTaken": 12,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 15.166666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "3b5aa4ab7f6acee3bd1e87f5b6df6344f78ef4c7599afaaae5cf160d40150fc9"
+    },
+    {
+      "runner": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd",
+      "corp": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e",
+      "directory": "matchup-4-5",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 2,
+        "runner": 4
+      },
+      "runnerWinRate": 0.6666666666666666,
+      "runnerWilson95": [
+        0.29998832134152864,
+        0.9032306674407831
+      ],
+      "p50Ms": 311,
+      "p95Ms": 609,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 358,
+            "gain": 7,
+            "draw": 62,
+            "install": 35,
+            "play": 50,
+            "run": 49,
+            "advance": 0,
+            "score": 0,
+            "overrides": 1,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 82,
+            "probesConsidered": 31,
+            "probesRejected": 30
+          },
+          "corp": {
+            "actions": 242,
+            "gain": 22,
+            "draw": 10,
+            "install": 78,
+            "play": 13,
+            "run": 0,
+            "advance": 62,
+            "score": 14,
+            "overrides": 16,
+            "idleWithAgenda": 24,
+            "scoreOffered": 14,
+            "scoreTaken": 14,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 13.666666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "09bb2e9f29b75fbea06c7b4953638d26dfefc4583767e7ad4c0fbd0999065aff"
+    },
+    {
+      "runner": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd",
+      "corp": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285",
+      "directory": "matchup-4-6",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 4,
+        "runner": 2
+      },
+      "runnerWinRate": 0.3333333333333333,
+      "runnerWilson95": [
+        0.09676933255921683,
+        0.7000116786584712
+      ],
+      "p50Ms": 618,
+      "p95Ms": 3421,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 512,
+            "gain": 88,
+            "draw": 82,
+            "install": 46,
+            "play": 36,
+            "run": 54,
+            "advance": 0,
+            "score": 0,
+            "overrides": 2,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 78,
+            "probesConsidered": 58,
+            "probesRejected": 56
+          },
+          "corp": {
+            "actions": 436,
+            "gain": 141,
+            "draw": 10,
+            "install": 77,
+            "play": 14,
+            "run": 0,
+            "advance": 70,
+            "score": 15,
+            "overrides": 22,
+            "idleWithAgenda": 91,
+            "scoreOffered": 15,
+            "scoreTaken": 15,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 13,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "25f1fa139af65f4cf1768549af79c86fa44c57ed30d8026446ef91dfdce3dbc7"
+    },
+    {
+      "runner": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd",
+      "corp": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11",
+      "directory": "matchup-4-7",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 4,
+        "runner": 2
+      },
+      "runnerWinRate": 0.3333333333333333,
+      "runnerWilson95": [
+        0.09676933255921683,
+        0.7000116786584712
+      ],
+      "p50Ms": 2418,
+      "p95Ms": 16157,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 517,
+            "gain": 28,
+            "draw": 117,
+            "install": 60,
+            "play": 79,
+            "run": 34,
+            "advance": 0,
+            "score": 0,
+            "overrides": 5,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 83,
+            "probesConsidered": 123,
+            "probesRejected": 118
+          },
+          "corp": {
+            "actions": 321,
+            "gain": 97,
+            "draw": 19,
+            "install": 89,
+            "play": 12,
+            "run": 0,
+            "advance": 77,
+            "score": 17,
+            "overrides": 34,
+            "idleWithAgenda": 39,
+            "scoreOffered": 17,
+            "scoreTaken": 17,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 13.833333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "acfddfa50fe7227270055ec6b58bcda6c52b62e8bd4aefbb97d11bde9194f102"
+    },
+    {
+      "runner": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd",
+      "corp": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652",
+      "directory": "matchup-4-8",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 2,
+        "runner": 4
+      },
+      "runnerWinRate": 0.6666666666666666,
+      "runnerWilson95": [
+        0.29998832134152864,
+        0.9032306674407831
+      ],
+      "p50Ms": 567,
+      "p95Ms": 25855,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 517,
+            "gain": 27,
+            "draw": 92,
+            "install": 52,
+            "play": 55,
+            "run": 65,
+            "advance": 0,
+            "score": 0,
+            "overrides": 4,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 99,
+            "probesConsidered": 63,
+            "probesRejected": 59
+          },
+          "corp": {
+            "actions": 355,
+            "gain": 85,
+            "draw": 17,
+            "install": 82,
+            "play": 21,
+            "run": 0,
+            "advance": 70,
+            "score": 16,
+            "overrides": 35,
+            "idleWithAgenda": 23,
+            "scoreOffered": 17,
+            "scoreTaken": 16,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 16.5,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "284f22bca8d52298d8d47dd857463f825a988d353f2abc6c83ace6f0ae6ed212"
+    },
+    {
+      "runner": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd",
+      "corp": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c",
+      "directory": "matchup-4-9",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 2499,
+      "p95Ms": 6557,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 533,
+            "gain": 75,
+            "draw": 102,
+            "install": 56,
+            "play": 61,
+            "run": 50,
+            "advance": 0,
+            "score": 0,
+            "overrides": 0,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 88,
+            "probesConsidered": 91,
+            "probesRejected": 91
+          },
+          "corp": {
+            "actions": 349,
+            "gain": 101,
+            "draw": 15,
+            "install": 82,
+            "play": 18,
+            "run": 0,
+            "advance": 100,
+            "score": 15,
+            "overrides": 31,
+            "idleWithAgenda": 43,
+            "scoreOffered": 20,
+            "scoreTaken": 15,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 14.666666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "99c84de454504b1413148c045ce42373e5a5d5f700c20b539e3ebfc5384d496a"
+    },
+    {
+      "runner": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd",
+      "corp": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a",
+      "directory": "matchup-4-10",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 0,
+        "runner": 6
+      },
+      "runnerWinRate": 1,
+      "runnerWilson95": [
+        0.6096569663469354,
+        0.9999999999999999
+      ],
+      "p50Ms": 277,
+      "p95Ms": 3728,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 377,
+            "gain": 14,
+            "draw": 62,
+            "install": 37,
+            "play": 45,
+            "run": 46,
+            "advance": 0,
+            "score": 0,
+            "overrides": 5,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 75,
+            "probesConsidered": 38,
+            "probesRejected": 33
+          },
+          "corp": {
+            "actions": 233,
+            "gain": 92,
+            "draw": 16,
+            "install": 56,
+            "play": 9,
+            "run": 0,
+            "advance": 39,
+            "score": 6,
+            "overrides": 21,
+            "idleWithAgenda": 63,
+            "scoreOffered": 7,
+            "scoreTaken": 6,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 12.5,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "640f8dd37c843de7141c2c2b9580476c23ec1ea8bbd05e32eb3a61c14c6b3f95"
+    },
+    {
+      "runner": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd",
+      "corp": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28",
+      "directory": "matchup-4-11",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 1,
+        "runner": 5
+      },
+      "runnerWinRate": 0.8333333333333334,
+      "runnerWilson95": [
+        0.43649056343635395,
+        0.9699474141282697
+      ],
+      "p50Ms": 3035,
+      "p95Ms": 16560,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 472,
+            "gain": 18,
+            "draw": 108,
+            "install": 55,
+            "play": 73,
+            "run": 43,
+            "advance": 0,
+            "score": 0,
+            "overrides": 0,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 94,
+            "probesConsidered": 108,
+            "probesRejected": 108
+          },
+          "corp": {
+            "actions": 303,
+            "gain": 121,
+            "draw": 13,
+            "install": 88,
+            "play": 10,
+            "run": 0,
+            "advance": 61,
+            "score": 12,
+            "overrides": 31,
+            "idleWithAgenda": 58,
+            "scoreOffered": 14,
+            "scoreTaken": 12,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 15.666666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "31e43a98f88ac12d218a18fa57bac3166a0870d50b5ae18ab97d8551f4389da2"
+    },
+    {
+      "runner": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96",
+      "corp": "precision-design-core-v1",
+      "directory": "matchup-5-0",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 5,
+        "runner": 1
+      },
+      "runnerWinRate": 0.16666666666666666,
+      "runnerWilson95": [
+        0.03005258587173032,
+        0.563509436563646
+      ],
+      "p50Ms": 2826,
+      "p95Ms": 5516,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 326,
+            "gain": 82,
+            "draw": 86,
+            "install": 52,
+            "play": 18,
+            "run": 38,
+            "advance": 0,
+            "score": 0,
+            "overrides": 1,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 60,
+            "probesConsidered": 93,
+            "probesRejected": 92
+          },
+          "corp": {
+            "actions": 301,
+            "gain": 29,
+            "draw": 18,
+            "install": 95,
+            "play": 17,
+            "run": 0,
+            "advance": 63,
+            "score": 18,
+            "overrides": 21,
+            "idleWithAgenda": 7,
+            "scoreOffered": 18,
+            "scoreTaken": 18,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 10,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "c13f94d9ef64a7b379a8a45d0a9e53472ba560e956261e8a33d895ae2f1f0bc3"
+    },
+    {
+      "runner": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96",
+      "corp": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f",
+      "directory": "matchup-5-1",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 1,
+        "runner": 5
+      },
+      "runnerWinRate": 0.8333333333333334,
+      "runnerWilson95": [
+        0.43649056343635395,
+        0.9699474141282697
+      ],
+      "p50Ms": 1049,
+      "p95Ms": 4276,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 346,
+            "gain": 49,
+            "draw": 93,
+            "install": 52,
+            "play": 26,
+            "run": 42,
+            "advance": 0,
+            "score": 0,
+            "overrides": 0,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 81,
+            "probesConsidered": 86,
+            "probesRejected": 86
+          },
+          "corp": {
+            "actions": 256,
+            "gain": 67,
+            "draw": 16,
+            "install": 67,
+            "play": 9,
+            "run": 0,
+            "advance": 56,
+            "score": 11,
+            "overrides": 36,
+            "idleWithAgenda": 53,
+            "scoreOffered": 11,
+            "scoreTaken": 11,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 13.5,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "5fd96076f15149cdcaf2f5fe9c19d0b59f3cb43e3c28d0d59788dfd5e4cef4a0"
+    },
+    {
+      "runner": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96",
+      "corp": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91",
+      "directory": "matchup-5-2",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 2,
+        "runner": 4
+      },
+      "runnerWinRate": 0.6666666666666666,
+      "runnerWilson95": [
+        0.29998832134152864,
+        0.9032306674407831
+      ],
+      "p50Ms": 1399,
+      "p95Ms": 5273,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 339,
+            "gain": 35,
+            "draw": 62,
+            "install": 49,
+            "play": 22,
+            "run": 61,
+            "advance": 0,
+            "score": 0,
+            "overrides": 0,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 115,
+            "probesConsidered": 74,
+            "probesRejected": 74
+          },
+          "corp": {
+            "actions": 235,
+            "gain": 93,
+            "draw": 18,
+            "install": 59,
+            "play": 9,
+            "run": 0,
+            "advance": 45,
+            "score": 10,
+            "overrides": 21,
+            "idleWithAgenda": 85,
+            "scoreOffered": 10,
+            "scoreTaken": 10,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 19.166666666666668,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "310f1407e8cab6b4bb01822a395b8760b742b0cfb4d110f66b41b5a01817ef08"
+    },
+    {
+      "runner": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96",
+      "corp": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad",
+      "directory": "matchup-5-3",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 5,
+        "runner": 1
+      },
+      "runnerWinRate": 0.16666666666666666,
+      "runnerWilson95": [
+        0.03005258587173032,
+        0.563509436563646
+      ],
+      "p50Ms": 387,
+      "p95Ms": 3909,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 279,
+            "gain": 32,
+            "draw": 81,
+            "install": 38,
+            "play": 21,
+            "run": 20,
+            "advance": 0,
+            "score": 0,
+            "overrides": 2,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 55,
+            "probesConsidered": 85,
+            "probesRejected": 83
+          },
+          "corp": {
+            "actions": 217,
+            "gain": 29,
+            "draw": 16,
+            "install": 55,
+            "play": 15,
+            "run": 0,
+            "advance": 65,
+            "score": 15,
+            "overrides": 27,
+            "idleWithAgenda": 18,
+            "scoreOffered": 15,
+            "scoreTaken": 15,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 9.166666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "e11982122a8b96d8f5b5cb323e3375b20bf4254f987a9cab60ed79dc82cb80a0"
+    },
+    {
+      "runner": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96",
+      "corp": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4",
+      "directory": "matchup-5-4",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 5,
+        "runner": 1
+      },
+      "runnerWinRate": 0.16666666666666666,
+      "runnerWilson95": [
+        0.03005258587173032,
+        0.563509436563646
+      ],
+      "p50Ms": 1561,
+      "p95Ms": 2872,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 438,
+            "gain": 52,
+            "draw": 125,
+            "install": 61,
+            "play": 30,
+            "run": 28,
+            "advance": 0,
+            "score": 0,
+            "overrides": 6,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 99,
+            "probesConsidered": 87,
+            "probesRejected": 81
+          },
+          "corp": {
+            "actions": 293,
+            "gain": 127,
+            "draw": 12,
+            "install": 70,
+            "play": 11,
+            "run": 0,
+            "advance": 62,
+            "score": 17,
+            "overrides": 37,
+            "idleWithAgenda": 96,
+            "scoreOffered": 17,
+            "scoreTaken": 17,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 16.5,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "3ef3b2cc1cfd18d574c518f2af1635f55af6d90ede51aa2a7cbeac4c65ca33a6"
+    },
+    {
+      "runner": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96",
+      "corp": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e",
+      "directory": "matchup-5-5",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 2,
+        "runner": 4
+      },
+      "runnerWinRate": 0.6666666666666666,
+      "runnerWilson95": [
+        0.29998832134152864,
+        0.9032306674407831
+      ],
+      "p50Ms": 1882,
+      "p95Ms": 3221,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 412,
+            "gain": 68,
+            "draw": 99,
+            "install": 51,
+            "play": 28,
+            "run": 59,
+            "advance": 0,
+            "score": 0,
+            "overrides": 0,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 108,
+            "probesConsidered": 77,
+            "probesRejected": 77
+          },
+          "corp": {
+            "actions": 313,
+            "gain": 56,
+            "draw": 14,
+            "install": 98,
+            "play": 19,
+            "run": 0,
+            "advance": 62,
+            "score": 13,
+            "overrides": 26,
+            "idleWithAgenda": 49,
+            "scoreOffered": 13,
+            "scoreTaken": 13,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 18,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "2bb584ea91d196ba0aa6f278db866f4d6d07f55ad7761dc9789b064d8da45d7f"
+    },
+    {
+      "runner": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96",
+      "corp": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285",
+      "directory": "matchup-5-6",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 1544,
+      "p95Ms": 2590,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 493,
+            "gain": 131,
+            "draw": 116,
+            "install": 51,
+            "play": 24,
+            "run": 55,
+            "advance": 0,
+            "score": 0,
+            "overrides": 0,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 91,
+            "probesConsidered": 105,
+            "probesRejected": 105
+          },
+          "corp": {
+            "actions": 446,
+            "gain": 131,
+            "draw": 10,
+            "install": 84,
+            "play": 13,
+            "run": 0,
+            "advance": 73,
+            "score": 14,
+            "overrides": 25,
+            "idleWithAgenda": 111,
+            "scoreOffered": 14,
+            "scoreTaken": 14,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 15.166666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "fdd21498f1636a4492e32afb2aa7b0d23e4a077138bde77f2f8aaa798f6bbd99"
+    },
+    {
+      "runner": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96",
+      "corp": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11",
+      "directory": "matchup-5-7",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 4,
+        "runner": 2
+      },
+      "runnerWinRate": 0.3333333333333333,
+      "runnerWilson95": [
+        0.09676933255921683,
+        0.7000116786584712
+      ],
+      "p50Ms": 1443,
+      "p95Ms": 1959,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 323,
+            "gain": 52,
+            "draw": 72,
+            "install": 48,
+            "play": 20,
+            "run": 38,
+            "advance": 0,
+            "score": 0,
+            "overrides": 1,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 75,
+            "probesConsidered": 55,
+            "probesRejected": 54
+          },
+          "corp": {
+            "actions": 239,
+            "gain": 64,
+            "draw": 10,
+            "install": 71,
+            "play": 13,
+            "run": 0,
+            "advance": 62,
+            "score": 13,
+            "overrides": 28,
+            "idleWithAgenda": 26,
+            "scoreOffered": 13,
+            "scoreTaken": 13,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 12.5,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "c03a6a6c4cf8cf851c524e371bc49640b5ea7ed50367ac5519c3481f5f49688c"
+    },
+    {
+      "runner": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96",
+      "corp": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652",
+      "directory": "matchup-5-8",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 2,
+        "runner": 4
+      },
+      "runnerWinRate": 0.6666666666666666,
+      "runnerWilson95": [
+        0.29998832134152864,
+        0.9032306674407831
+      ],
+      "p50Ms": 1289,
+      "p95Ms": 5833,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 394,
+            "gain": 82,
+            "draw": 87,
+            "install": 54,
+            "play": 26,
+            "run": 51,
+            "advance": 0,
+            "score": 0,
+            "overrides": 1,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 85,
+            "probesConsidered": 59,
+            "probesRejected": 58
+          },
+          "corp": {
+            "actions": 334,
+            "gain": 85,
+            "draw": 14,
+            "install": 71,
+            "play": 23,
+            "run": 0,
+            "advance": 52,
+            "score": 11,
+            "overrides": 29,
+            "idleWithAgenda": 19,
+            "scoreOffered": 15,
+            "scoreTaken": 11,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 14.166666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "e3a06c5cad3ea2e1ee2ac4cc65d605480e63eceb68e69fd534f606a0300c17dc"
+    },
+    {
+      "runner": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96",
+      "corp": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c",
+      "directory": "matchup-5-9",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 991,
+      "p95Ms": 1918,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 338,
+            "gain": 60,
+            "draw": 97,
+            "install": 52,
+            "play": 27,
+            "run": 34,
+            "advance": 0,
+            "score": 0,
+            "overrides": 1,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 64,
+            "probesConsidered": 120,
+            "probesRejected": 119
+          },
+          "corp": {
+            "actions": 256,
+            "gain": 44,
+            "draw": 15,
+            "install": 68,
+            "play": 19,
+            "run": 0,
+            "advance": 80,
+            "score": 14,
+            "overrides": 36,
+            "idleWithAgenda": 26,
+            "scoreOffered": 20,
+            "scoreTaken": 14,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 10.666666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "170e995167ae14f0337b4ef0752f4f2a675b2ed784ce0d9054843f5f4b51845a"
+    },
+    {
+      "runner": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96",
+      "corp": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a",
+      "directory": "matchup-5-10",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 1822,
+      "p95Ms": 6151,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 538,
+            "gain": 111,
+            "draw": 142,
+            "install": 68,
+            "play": 33,
+            "run": 78,
+            "advance": 0,
+            "score": 0,
+            "overrides": 5,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 122,
+            "probesConsidered": 143,
+            "probesRejected": 138
+          },
+          "corp": {
+            "actions": 397,
+            "gain": 143,
+            "draw": 21,
+            "install": 90,
+            "play": 13,
+            "run": 0,
+            "advance": 90,
+            "score": 18,
+            "overrides": 38,
+            "idleWithAgenda": 128,
+            "scoreOffered": 21,
+            "scoreTaken": 18,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 20.333333333333332,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "b64ac2dc1e7f5ac112ec15b8f4dfd2d16ef747796cf2546e3d4b204b12f4a9f6"
+    },
+    {
+      "runner": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96",
+      "corp": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28",
+      "directory": "matchup-5-11",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 2,
+        "runner": 4
+      },
+      "runnerWinRate": 0.6666666666666666,
+      "runnerWilson95": [
+        0.29998832134152864,
+        0.9032306674407831
+      ],
+      "p50Ms": 5421,
+      "p95Ms": 8644,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 469,
+            "gain": 52,
+            "draw": 124,
+            "install": 71,
+            "play": 42,
+            "run": 54,
+            "advance": 0,
+            "score": 0,
+            "overrides": 12,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 112,
+            "probesConsidered": 103,
+            "probesRejected": 91
+          },
+          "corp": {
+            "actions": 359,
+            "gain": 115,
+            "draw": 11,
+            "install": 101,
+            "play": 16,
+            "run": 0,
+            "advance": 99,
+            "score": 22,
+            "overrides": 40,
+            "idleWithAgenda": 49,
+            "scoreOffered": 31,
+            "scoreTaken": 22,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 18.666666666666668,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "78f46713e308f92db3d60417bb84bdf9ae6847a0385367237882566d6c89024b"
+    },
+    {
+      "runner": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18",
+      "corp": "precision-design-core-v1",
+      "directory": "matchup-6-0",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 4,
+        "runner": 2
+      },
+      "runnerWinRate": 0.3333333333333333,
+      "runnerWilson95": [
+        0.09676933255921683,
+        0.7000116786584712
+      ],
+      "p50Ms": 1741,
+      "p95Ms": 16295,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 398,
+            "gain": 34,
+            "draw": 72,
+            "install": 55,
+            "play": 37,
+            "run": 55,
+            "advance": 0,
+            "score": 0,
+            "overrides": 9,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 68,
+            "probesConsidered": 86,
+            "probesRejected": 77
+          },
+          "corp": {
+            "actions": 306,
+            "gain": 65,
+            "draw": 20,
+            "install": 84,
+            "play": 13,
+            "run": 0,
+            "advance": 69,
+            "score": 19,
+            "overrides": 25,
+            "idleWithAgenda": 41,
+            "scoreOffered": 19,
+            "scoreTaken": 19,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 11.333333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "529ac0d4b028c223cbdadd5d726b8ec18f3be0ff1293977eb35770b3d2cdd9d7"
+    },
+    {
+      "runner": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18",
+      "corp": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f",
+      "directory": "matchup-6-1",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 0,
+        "runner": 6
+      },
+      "runnerWinRate": 1,
+      "runnerWilson95": [
+        0.6096569663469354,
+        0.9999999999999999
+      ],
+      "p50Ms": 489,
+      "p95Ms": 1887,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 349,
+            "gain": 11,
+            "draw": 70,
+            "install": 44,
+            "play": 37,
+            "run": 62,
+            "advance": 0,
+            "score": 0,
+            "overrides": 5,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 86,
+            "probesConsidered": 70,
+            "probesRejected": 65
+          },
+          "corp": {
+            "actions": 220,
+            "gain": 78,
+            "draw": 14,
+            "install": 63,
+            "play": 10,
+            "run": 0,
+            "advance": 42,
+            "score": 5,
+            "overrides": 31,
+            "idleWithAgenda": 62,
+            "scoreOffered": 5,
+            "scoreTaken": 5,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 14.333333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "eb5f66d2126de5975398b69b07b6c6f1c96ea573419dfad352d1b5272ef9cb8b"
+    },
+    {
+      "runner": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18",
+      "corp": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91",
+      "directory": "matchup-6-2",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 2813,
+      "p95Ms": 6785,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 463,
+            "gain": 33,
+            "draw": 92,
+            "install": 62,
+            "play": 40,
+            "run": 62,
+            "advance": 0,
+            "score": 0,
+            "overrides": 3,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 75,
+            "probesConsidered": 99,
+            "probesRejected": 96
+          },
+          "corp": {
+            "actions": 315,
+            "gain": 103,
+            "draw": 28,
+            "install": 92,
+            "play": 15,
+            "run": 0,
+            "advance": 62,
+            "score": 14,
+            "overrides": 25,
+            "idleWithAgenda": 67,
+            "scoreOffered": 14,
+            "scoreTaken": 14,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 12.5,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "e8461128750c1c838ebaeab5a5c0e8baeded891de1d22dbd06a9067e2f084f8c"
+    },
+    {
+      "runner": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18",
+      "corp": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad",
+      "directory": "matchup-6-3",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 4,
+        "runner": 2
+      },
+      "runnerWinRate": 0.3333333333333333,
+      "runnerWilson95": [
+        0.09676933255921683,
+        0.7000116786584712
+      ],
+      "p50Ms": 834,
+      "p95Ms": 5311,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 312,
+            "gain": 37,
+            "draw": 67,
+            "install": 40,
+            "play": 33,
+            "run": 36,
+            "advance": 0,
+            "score": 0,
+            "overrides": 2,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 47,
+            "probesConsidered": 77,
+            "probesRejected": 75
+          },
+          "corp": {
+            "actions": 256,
+            "gain": 22,
+            "draw": 23,
+            "install": 76,
+            "play": 20,
+            "run": 0,
+            "advance": 52,
+            "score": 12,
+            "overrides": 19,
+            "idleWithAgenda": 12,
+            "scoreOffered": 12,
+            "scoreTaken": 12,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 7.833333333333333,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "93f940b70d183031fa31fec37f501059ab9acd388c9591325b24a9db73e24428"
+    },
+    {
+      "runner": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18",
+      "corp": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4",
+      "directory": "matchup-6-4",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 4,
+        "runner": 2
+      },
+      "runnerWinRate": 0.3333333333333333,
+      "runnerWilson95": [
+        0.09676933255921683,
+        0.7000116786584712
+      ],
+      "p50Ms": 1289,
+      "p95Ms": 1822,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 399,
+            "gain": 25,
+            "draw": 97,
+            "install": 59,
+            "play": 38,
+            "run": 60,
+            "advance": 0,
+            "score": 0,
+            "overrides": 0,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 71,
+            "probesConsidered": 72,
+            "probesRejected": 72
+          },
+          "corp": {
+            "actions": 274,
+            "gain": 91,
+            "draw": 17,
+            "install": 70,
+            "play": 16,
+            "run": 0,
+            "advance": 63,
+            "score": 16,
+            "overrides": 23,
+            "idleWithAgenda": 85,
+            "scoreOffered": 16,
+            "scoreTaken": 16,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 11.833333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "a6fd07713a9801357555f2f0a519f36393a308893d6685f4566789c9cc562f56"
+    },
+    {
+      "runner": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18",
+      "corp": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e",
+      "directory": "matchup-6-5",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 4,
+        "runner": 2
+      },
+      "runnerWinRate": 0.3333333333333333,
+      "runnerWilson95": [
+        0.09676933255921683,
+        0.7000116786584712
+      ],
+      "p50Ms": 948,
+      "p95Ms": 4208,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 479,
+            "gain": 24,
+            "draw": 91,
+            "install": 50,
+            "play": 41,
+            "run": 72,
+            "advance": 0,
+            "score": 0,
+            "overrides": 3,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 91,
+            "probesConsidered": 72,
+            "probesRejected": 69
+          },
+          "corp": {
+            "actions": 314,
+            "gain": 91,
+            "draw": 9,
+            "install": 87,
+            "play": 15,
+            "run": 0,
+            "advance": 72,
+            "score": 18,
+            "overrides": 20,
+            "idleWithAgenda": 86,
+            "scoreOffered": 18,
+            "scoreTaken": 18,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 15.166666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "ea885427de82d569473066a0bf50f757a42984b06601c5b0c9dce27286c01df7"
+    },
+    {
+      "runner": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18",
+      "corp": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285",
+      "directory": "matchup-6-6",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 3540,
+      "p95Ms": 16669,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 634,
+            "gain": 149,
+            "draw": 103,
+            "install": 70,
+            "play": 45,
+            "run": 57,
+            "advance": 0,
+            "score": 0,
+            "overrides": 0,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 74,
+            "probesConsidered": 113,
+            "probesRejected": 113
+          },
+          "corp": {
+            "actions": 560,
+            "gain": 237,
+            "draw": 4,
+            "install": 79,
+            "play": 19,
+            "run": 0,
+            "advance": 53,
+            "score": 13,
+            "overrides": 19,
+            "idleWithAgenda": 231,
+            "scoreOffered": 13,
+            "scoreTaken": 13,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 12.333333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "adc98df073cadbdd58d796043b7c15d1a5561d7bd7eab52579b6b5008fb9788a"
+    },
+    {
+      "runner": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18",
+      "corp": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11",
+      "directory": "matchup-6-7",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 5,
+        "runner": 1
+      },
+      "runnerWinRate": 0.16666666666666666,
+      "runnerWilson95": [
+        0.03005258587173032,
+        0.563509436563646
+      ],
+      "p50Ms": 1557,
+      "p95Ms": 1936,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 454,
+            "gain": 16,
+            "draw": 83,
+            "install": 56,
+            "play": 45,
+            "run": 55,
+            "advance": 0,
+            "score": 0,
+            "overrides": 1,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 70,
+            "probesConsidered": 57,
+            "probesRejected": 56
+          },
+          "corp": {
+            "actions": 308,
+            "gain": 75,
+            "draw": 14,
+            "install": 80,
+            "play": 15,
+            "run": 0,
+            "advance": 72,
+            "score": 15,
+            "overrides": 32,
+            "idleWithAgenda": 51,
+            "scoreOffered": 15,
+            "scoreTaken": 15,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 11.666666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "04c8c767cb4839b8f94e4f82fedcb0bd861465f20b675c722e3da3ea1d46ac6b"
+    },
+    {
+      "runner": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18",
+      "corp": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652",
+      "directory": "matchup-6-8",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 804,
+      "p95Ms": 4519,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 379,
+            "gain": 48,
+            "draw": 69,
+            "install": 42,
+            "play": 28,
+            "run": 44,
+            "advance": 0,
+            "score": 0,
+            "overrides": 4,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 61,
+            "probesConsidered": 39,
+            "probesRejected": 35
+          },
+          "corp": {
+            "actions": 299,
+            "gain": 77,
+            "draw": 14,
+            "install": 57,
+            "play": 16,
+            "run": 0,
+            "advance": 47,
+            "score": 10,
+            "overrides": 19,
+            "idleWithAgenda": 11,
+            "scoreOffered": 12,
+            "scoreTaken": 10,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 10.166666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "9becaba73f09001807801801e7abd7e3fb5a12baff91de0e3004e002eca51506"
+    },
+    {
+      "runner": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18",
+      "corp": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c",
+      "directory": "matchup-6-9",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 4,
+        "runner": 2
+      },
+      "runnerWinRate": 0.3333333333333333,
+      "runnerWilson95": [
+        0.09676933255921683,
+        0.7000116786584712
+      ],
+      "p50Ms": 1097,
+      "p95Ms": 1417,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 446,
+            "gain": 27,
+            "draw": 80,
+            "install": 58,
+            "play": 40,
+            "run": 45,
+            "advance": 0,
+            "score": 0,
+            "overrides": 0,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 61,
+            "probesConsidered": 86,
+            "probesRejected": 86
+          },
+          "corp": {
+            "actions": 293,
+            "gain": 60,
+            "draw": 14,
+            "install": 76,
+            "play": 13,
+            "run": 0,
+            "advance": 89,
+            "score": 16,
+            "overrides": 23,
+            "idleWithAgenda": 46,
+            "scoreOffered": 19,
+            "scoreTaken": 16,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 10.166666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "0cb7389af56f2eb953e46cc8b37429e6f0680dec09c97c028f20e7f06ea44c4d"
+    },
+    {
+      "runner": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18",
+      "corp": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a",
+      "directory": "matchup-6-10",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 2,
+        "runner": 4
+      },
+      "runnerWinRate": 0.6666666666666666,
+      "runnerWilson95": [
+        0.29998832134152864,
+        0.9032306674407831
+      ],
+      "p50Ms": 1473,
+      "p95Ms": 6183,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 466,
+            "gain": 25,
+            "draw": 83,
+            "install": 46,
+            "play": 36,
+            "run": 73,
+            "advance": 0,
+            "score": 0,
+            "overrides": 2,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 89,
+            "probesConsidered": 33,
+            "probesRejected": 31
+          },
+          "corp": {
+            "actions": 321,
+            "gain": 74,
+            "draw": 20,
+            "install": 76,
+            "play": 14,
+            "run": 0,
+            "advance": 70,
+            "score": 10,
+            "overrides": 33,
+            "idleWithAgenda": 30,
+            "scoreOffered": 12,
+            "scoreTaken": 10,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 14.833333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "ed62b8a1a8429354cd5c989c79f35861ed0c59683e8309cfe49593119d12175b"
+    },
+    {
+      "runner": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18",
+      "corp": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28",
+      "directory": "matchup-6-11",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 2,
+        "runner": 4
+      },
+      "runnerWinRate": 0.6666666666666666,
+      "runnerWilson95": [
+        0.29998832134152864,
+        0.9032306674407831
+      ],
+      "p50Ms": 1018,
+      "p95Ms": 1800,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 324,
+            "gain": 30,
+            "draw": 68,
+            "install": 42,
+            "play": 35,
+            "run": 38,
+            "advance": 0,
+            "score": 0,
+            "overrides": 1,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 55,
+            "probesConsidered": 55,
+            "probesRejected": 54
+          },
+          "corp": {
+            "actions": 221,
+            "gain": 80,
+            "draw": 12,
+            "install": 71,
+            "play": 3,
+            "run": 0,
+            "advance": 52,
+            "score": 13,
+            "overrides": 34,
+            "idleWithAgenda": 76,
+            "scoreOffered": 16,
+            "scoreTaken": 13,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 9.166666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "508264bfa80800ae4dd7ff855be66151abf02662f551800dab3ef9a1e5d68061"
+    },
+    {
+      "runner": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442",
+      "corp": "precision-design-core-v1",
+      "directory": "matchup-7-0",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 4,
+        "runner": 2
+      },
+      "runnerWinRate": 0.3333333333333333,
+      "runnerWilson95": [
+        0.09676933255921683,
+        0.7000116786584712
+      ],
+      "p50Ms": 3207,
+      "p95Ms": 6806,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 466,
+            "gain": 34,
+            "draw": 129,
+            "install": 96,
+            "play": 40,
+            "run": 51,
+            "advance": 0,
+            "score": 0,
+            "overrides": 6,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 67,
+            "probesConsidered": 178,
+            "probesRejected": 172
+          },
+          "corp": {
+            "actions": 426,
+            "gain": 41,
+            "draw": 26,
+            "install": 129,
+            "play": 18,
+            "run": 0,
+            "advance": 86,
+            "score": 20,
+            "overrides": 26,
+            "idleWithAgenda": 18,
+            "scoreOffered": 20,
+            "scoreTaken": 20,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 11.166666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "b195823a99fed9ecec8778b650df117f2b5c5be3e023d63e5564ee8854fa9038"
+    },
+    {
+      "runner": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442",
+      "corp": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f",
+      "directory": "matchup-7-1",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 1,
+        "runner": 5
+      },
+      "runnerWinRate": 0.8333333333333334,
+      "runnerWilson95": [
+        0.43649056343635395,
+        0.9699474141282697
+      ],
+      "p50Ms": 1041,
+      "p95Ms": 1563,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 373,
+            "gain": 3,
+            "draw": 95,
+            "install": 68,
+            "play": 34,
+            "run": 59,
+            "advance": 0,
+            "score": 0,
+            "overrides": 5,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 87,
+            "probesConsidered": 75,
+            "probesRejected": 70
+          },
+          "corp": {
+            "actions": 258,
+            "gain": 87,
+            "draw": 10,
+            "install": 70,
+            "play": 8,
+            "run": 0,
+            "advance": 63,
+            "score": 10,
+            "overrides": 45,
+            "idleWithAgenda": 57,
+            "scoreOffered": 10,
+            "scoreTaken": 10,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 14.5,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "a2a040c986798ef4508bf09477535a912ee7905b17234c084f181d30c1dc1ef9"
+    },
+    {
+      "runner": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442",
+      "corp": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91",
+      "directory": "matchup-7-2",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 902,
+      "p95Ms": 1187,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 288,
+            "gain": 6,
+            "draw": 74,
+            "install": 52,
+            "play": 24,
+            "run": 52,
+            "advance": 0,
+            "score": 0,
+            "overrides": 12,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 67,
+            "probesConsidered": 101,
+            "probesRejected": 89
+          },
+          "corp": {
+            "actions": 237,
+            "gain": 67,
+            "draw": 18,
+            "install": 72,
+            "play": 7,
+            "run": 0,
+            "advance": 66,
+            "score": 19,
+            "overrides": 29,
+            "idleWithAgenda": 71,
+            "scoreOffered": 19,
+            "scoreTaken": 19,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 11.166666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "f680c63d2c64ab42d2e78f43a6b6f81f5de64d0f891dde835abde893ebaa757a"
+    },
+    {
+      "runner": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442",
+      "corp": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad",
+      "directory": "matchup-7-3",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 4,
+        "runner": 2
+      },
+      "runnerWinRate": 0.3333333333333333,
+      "runnerWilson95": [
+        0.09676933255921683,
+        0.7000116786584712
+      ],
+      "p50Ms": 1920,
+      "p95Ms": 5203,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 340,
+            "gain": 24,
+            "draw": 94,
+            "install": 64,
+            "play": 29,
+            "run": 42,
+            "advance": 0,
+            "score": 0,
+            "overrides": 2,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 57,
+            "probesConsidered": 90,
+            "probesRejected": 88
+          },
+          "corp": {
+            "actions": 276,
+            "gain": 37,
+            "draw": 18,
+            "install": 73,
+            "play": 20,
+            "run": 0,
+            "advance": 78,
+            "score": 16,
+            "overrides": 36,
+            "idleWithAgenda": 22,
+            "scoreOffered": 16,
+            "scoreTaken": 16,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 9.5,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "50606a6e357ecc43522b7184e07514a6dc0d8357aad6306cec913ffedf1eb6ee"
+    },
+    {
+      "runner": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442",
+      "corp": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4",
+      "directory": "matchup-7-4",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 4,
+        "runner": 2
+      },
+      "runnerWinRate": 0.3333333333333333,
+      "runnerWilson95": [
+        0.09676933255921683,
+        0.7000116786584712
+      ],
+      "p50Ms": 1686,
+      "p95Ms": 3846,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 518,
+            "gain": 50,
+            "draw": 152,
+            "install": 97,
+            "play": 40,
+            "run": 44,
+            "advance": 0,
+            "score": 0,
+            "overrides": 2,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 72,
+            "probesConsidered": 145,
+            "probesRejected": 143
+          },
+          "corp": {
+            "actions": 353,
+            "gain": 144,
+            "draw": 18,
+            "install": 94,
+            "play": 15,
+            "run": 0,
+            "advance": 66,
+            "score": 18,
+            "overrides": 29,
+            "idleWithAgenda": 113,
+            "scoreOffered": 18,
+            "scoreTaken": 18,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 12,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "a66660f0e970b4144ac511a61d9ce4764106ede189fa0f0db500fde5f46c0875"
+    },
+    {
+      "runner": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442",
+      "corp": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e",
+      "directory": "matchup-7-5",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 4,
+        "runner": 2
+      },
+      "runnerWinRate": 0.3333333333333333,
+      "runnerWilson95": [
+        0.09676933255921683,
+        0.7000116786584712
+      ],
+      "p50Ms": 1247,
+      "p95Ms": 3014,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 416,
+            "gain": 15,
+            "draw": 109,
+            "install": 72,
+            "play": 38,
+            "run": 71,
+            "advance": 0,
+            "score": 0,
+            "overrides": 0,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 90,
+            "probesConsidered": 79,
+            "probesRejected": 79
+          },
+          "corp": {
+            "actions": 316,
+            "gain": 52,
+            "draw": 14,
+            "install": 95,
+            "play": 20,
+            "run": 0,
+            "advance": 70,
+            "score": 17,
+            "overrides": 16,
+            "idleWithAgenda": 39,
+            "scoreOffered": 17,
+            "scoreTaken": 17,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 15,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "c37e1f7c2315c384100b7b886e69db7b26c049e740ec2567468cf60a34f637c0"
+    },
+    {
+      "runner": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442",
+      "corp": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285",
+      "directory": "matchup-7-6",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 6,
+        "runner": 0
+      },
+      "runnerWinRate": 0,
+      "runnerWilson95": [
+        0,
+        0.3903430336530645
+      ],
+      "p50Ms": 1281,
+      "p95Ms": 2319,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 459,
+            "gain": 63,
+            "draw": 108,
+            "install": 71,
+            "play": 38,
+            "run": 57,
+            "advance": 0,
+            "score": 0,
+            "overrides": 2,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 69,
+            "probesConsidered": 109,
+            "probesRejected": 107
+          },
+          "corp": {
+            "actions": 413,
+            "gain": 95,
+            "draw": 13,
+            "install": 90,
+            "play": 21,
+            "run": 0,
+            "advance": 81,
+            "score": 20,
+            "overrides": 15,
+            "idleWithAgenda": 87,
+            "scoreOffered": 20,
+            "scoreTaken": 20,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 11.5,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "29786e25555907439d0975d60113a6dde1e9a138679e09620944dc0ce54a2971"
+    },
+    {
+      "runner": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442",
+      "corp": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11",
+      "directory": "matchup-7-7",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 5,
+        "runner": 1
+      },
+      "runnerWinRate": 0.16666666666666666,
+      "runnerWilson95": [
+        0.03005258587173032,
+        0.563509436563646
+      ],
+      "p50Ms": 1665,
+      "p95Ms": 9030,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 459,
+            "gain": 31,
+            "draw": 111,
+            "install": 92,
+            "play": 42,
+            "run": 50,
+            "advance": 0,
+            "score": 0,
+            "overrides": 2,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 77,
+            "probesConsidered": 115,
+            "probesRejected": 113
+          },
+          "corp": {
+            "actions": 324,
+            "gain": 89,
+            "draw": 9,
+            "install": 94,
+            "play": 14,
+            "run": 0,
+            "advance": 84,
+            "score": 18,
+            "overrides": 44,
+            "idleWithAgenda": 45,
+            "scoreOffered": 18,
+            "scoreTaken": 18,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 12.833333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "3f0bb946b28dc22868fa96c26144d20d84256ff88a004eadaeafc943acf17e79"
+    },
+    {
+      "runner": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442",
+      "corp": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652",
+      "directory": "matchup-7-8",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 507,
+      "p95Ms": 5751,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 372,
+            "gain": 22,
+            "draw": 89,
+            "install": 65,
+            "play": 28,
+            "run": 40,
+            "advance": 0,
+            "score": 0,
+            "overrides": 1,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 57,
+            "probesConsidered": 113,
+            "probesRejected": 112
+          },
+          "corp": {
+            "actions": 281,
+            "gain": 55,
+            "draw": 23,
+            "install": 73,
+            "play": 15,
+            "run": 0,
+            "advance": 61,
+            "score": 15,
+            "overrides": 22,
+            "idleWithAgenda": 9,
+            "scoreOffered": 16,
+            "scoreTaken": 15,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 9.5,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "856d37ebf5367a74beeec67023e9c98473edbff2757f1769d089243e2eaf7319"
+    },
+    {
+      "runner": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442",
+      "corp": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c",
+      "directory": "matchup-7-9",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 6,
+        "runner": 0
+      },
+      "runnerWinRate": 0,
+      "runnerWilson95": [
+        0,
+        0.3903430336530645
+      ],
+      "p50Ms": 1970,
+      "p95Ms": 4315,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 584,
+            "gain": 95,
+            "draw": 162,
+            "install": 113,
+            "play": 45,
+            "run": 43,
+            "advance": 0,
+            "score": 0,
+            "overrides": 1,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 71,
+            "probesConsidered": 198,
+            "probesRejected": 197
+          },
+          "corp": {
+            "actions": 421,
+            "gain": 107,
+            "draw": 15,
+            "install": 95,
+            "play": 18,
+            "run": 0,
+            "advance": 134,
+            "score": 19,
+            "overrides": 25,
+            "idleWithAgenda": 65,
+            "scoreOffered": 25,
+            "scoreTaken": 19,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 11.833333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "13e91fc6ff846075dd7328ebcafe34a649cde3d5d31ad60d0607de920be9619b"
+    },
+    {
+      "runner": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442",
+      "corp": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a",
+      "directory": "matchup-7-10",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 4,
+        "runner": 2
+      },
+      "runnerWinRate": 0.3333333333333333,
+      "runnerWilson95": [
+        0.09676933255921683,
+        0.7000116786584712
+      ],
+      "p50Ms": 1088,
+      "p95Ms": 1443,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 375,
+            "gain": 13,
+            "draw": 110,
+            "install": 72,
+            "play": 35,
+            "run": 54,
+            "advance": 0,
+            "score": 0,
+            "overrides": 5,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 68,
+            "probesConsidered": 141,
+            "probesRejected": 136
+          },
+          "corp": {
+            "actions": 275,
+            "gain": 91,
+            "draw": 13,
+            "install": 57,
+            "play": 9,
+            "run": 0,
+            "advance": 60,
+            "score": 13,
+            "overrides": 28,
+            "idleWithAgenda": 83,
+            "scoreOffered": 15,
+            "scoreTaken": 13,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 11.333333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "45a5abe1be750e04547ef8a9df46009d5f2bf2e393a6d1d8948eab87dd004062"
+    },
+    {
+      "runner": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442",
+      "corp": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28",
+      "directory": "matchup-7-11",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 1,
+        "runner": 5
+      },
+      "runnerWinRate": 0.8333333333333334,
+      "runnerWilson95": [
+        0.43649056343635395,
+        0.9699474141282697
+      ],
+      "p50Ms": 2224,
+      "p95Ms": 3044,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 439,
+            "gain": 11,
+            "draw": 141,
+            "install": 85,
+            "play": 41,
+            "run": 58,
+            "advance": 0,
+            "score": 0,
+            "overrides": 1,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 75,
+            "probesConsidered": 141,
+            "probesRejected": 140
+          },
+          "corp": {
+            "actions": 308,
+            "gain": 94,
+            "draw": 15,
+            "install": 96,
+            "play": 16,
+            "run": 0,
+            "advance": 70,
+            "score": 16,
+            "overrides": 23,
+            "idleWithAgenda": 60,
+            "scoreOffered": 19,
+            "scoreTaken": 16,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 12.5,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "eb41ce7b64243be07c4ad8a1f66cdc22c636b218e3726a25b203579a115480a2"
+    },
+    {
+      "runner": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd",
+      "corp": "precision-design-core-v1",
+      "directory": "matchup-8-0",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 5,
+        "runner": 1
+      },
+      "runnerWinRate": 0.16666666666666666,
+      "runnerWilson95": [
+        0.03005258587173032,
+        0.563509436563646
+      ],
+      "p50Ms": 511,
+      "p95Ms": 7585,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 315,
+            "gain": 35,
+            "draw": 63,
+            "install": 47,
+            "play": 23,
+            "run": 54,
+            "advance": 0,
+            "score": 0,
+            "overrides": 4,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 58,
+            "probesConsidered": 69,
+            "probesRejected": 65
+          },
+          "corp": {
+            "actions": 294,
+            "gain": 48,
+            "draw": 20,
+            "install": 86,
+            "play": 25,
+            "run": 0,
+            "advance": 52,
+            "score": 18,
+            "overrides": 30,
+            "idleWithAgenda": 24,
+            "scoreOffered": 18,
+            "scoreTaken": 18,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 9.666666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "95d172497d3fb2118cd7441fc7f1c22d72dcb7a75c8ded6231007910bb1c231b"
+    },
+    {
+      "runner": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd",
+      "corp": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f",
+      "directory": "matchup-8-1",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 1,
+        "runner": 5
+      },
+      "runnerWinRate": 0.8333333333333334,
+      "runnerWilson95": [
+        0.43649056343635395,
+        0.9699474141282697
+      ],
+      "p50Ms": 315,
+      "p95Ms": 808,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 356,
+            "gain": 40,
+            "draw": 63,
+            "install": 49,
+            "play": 33,
+            "run": 76,
+            "advance": 0,
+            "score": 0,
+            "overrides": 0,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 81,
+            "probesConsidered": 67,
+            "probesRejected": 67
+          },
+          "corp": {
+            "actions": 242,
+            "gain": 95,
+            "draw": 13,
+            "install": 74,
+            "play": 9,
+            "run": 0,
+            "advance": 41,
+            "score": 7,
+            "overrides": 34,
+            "idleWithAgenda": 41,
+            "scoreOffered": 7,
+            "scoreTaken": 7,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 13.5,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "30d17c8d3f4b327894e97663dbbcd71a5ba6cb3130457e21f33037a8b7b5c72c"
+    },
+    {
+      "runner": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd",
+      "corp": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91",
+      "directory": "matchup-8-2",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 2,
+        "runner": 4
+      },
+      "runnerWinRate": 0.6666666666666666,
+      "runnerWilson95": [
+        0.29998832134152864,
+        0.9032306674407831
+      ],
+      "p50Ms": 697,
+      "p95Ms": 1147,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 328,
+            "gain": 15,
+            "draw": 75,
+            "install": 57,
+            "play": 26,
+            "run": 59,
+            "advance": 0,
+            "score": 0,
+            "overrides": 2,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 61,
+            "probesConsidered": 76,
+            "probesRejected": 74
+          },
+          "corp": {
+            "actions": 252,
+            "gain": 75,
+            "draw": 26,
+            "install": 78,
+            "play": 10,
+            "run": 0,
+            "advance": 51,
+            "score": 15,
+            "overrides": 33,
+            "idleWithAgenda": 58,
+            "scoreOffered": 15,
+            "scoreTaken": 15,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 10.166666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "8d84639211b4e2ab53ca36e6bbd5f52c3de3216bc56a34e89286a46b7d016d4b"
+    },
+    {
+      "runner": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd",
+      "corp": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad",
+      "directory": "matchup-8-3",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 4,
+        "runner": 2
+      },
+      "runnerWinRate": 0.3333333333333333,
+      "runnerWilson95": [
+        0.09676933255921683,
+        0.7000116786584712
+      ],
+      "p50Ms": 243,
+      "p95Ms": 3757,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 309,
+            "gain": 29,
+            "draw": 73,
+            "install": 43,
+            "play": 20,
+            "run": 54,
+            "advance": 0,
+            "score": 0,
+            "overrides": 6,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 57,
+            "probesConsidered": 89,
+            "probesRejected": 83
+          },
+          "corp": {
+            "actions": 244,
+            "gain": 36,
+            "draw": 19,
+            "install": 61,
+            "play": 15,
+            "run": 0,
+            "advance": 73,
+            "score": 17,
+            "overrides": 27,
+            "idleWithAgenda": 37,
+            "scoreOffered": 17,
+            "scoreTaken": 17,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 9.5,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "d36e916c04fc98fff4b95e1c795a920f88a8d2198a70c6b308345683a15e853c"
+    },
+    {
+      "runner": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd",
+      "corp": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4",
+      "directory": "matchup-8-4",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 516,
+      "p95Ms": 1758,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 343,
+            "gain": 31,
+            "draw": 76,
+            "install": 55,
+            "play": 28,
+            "run": 50,
+            "advance": 0,
+            "score": 0,
+            "overrides": 1,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 54,
+            "probesConsidered": 65,
+            "probesRejected": 64
+          },
+          "corp": {
+            "actions": 236,
+            "gain": 99,
+            "draw": 17,
+            "install": 59,
+            "play": 10,
+            "run": 0,
+            "advance": 41,
+            "score": 10,
+            "overrides": 25,
+            "idleWithAgenda": 103,
+            "scoreOffered": 10,
+            "scoreTaken": 10,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 9,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "a9c031aaf3c75e08f80380ee55fa411eadef4552898e3dac2488edd726c4ddba"
+    },
+    {
+      "runner": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd",
+      "corp": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e",
+      "directory": "matchup-8-5",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 2,
+        "runner": 4
+      },
+      "runnerWinRate": 0.6666666666666666,
+      "runnerWilson95": [
+        0.29998832134152864,
+        0.9032306674407831
+      ],
+      "p50Ms": 545,
+      "p95Ms": 989,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 352,
+            "gain": 25,
+            "draw": 85,
+            "install": 39,
+            "play": 35,
+            "run": 75,
+            "advance": 0,
+            "score": 0,
+            "overrides": 0,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 79,
+            "probesConsidered": 83,
+            "probesRejected": 83
+          },
+          "corp": {
+            "actions": 279,
+            "gain": 28,
+            "draw": 16,
+            "install": 86,
+            "play": 15,
+            "run": 0,
+            "advance": 67,
+            "score": 16,
+            "overrides": 12,
+            "idleWithAgenda": 19,
+            "scoreOffered": 16,
+            "scoreTaken": 16,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 13.166666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "aa130f466f8386c41045bf0b3ad71253d1827d5838da4ba61b97f3782d201d2e"
+    },
+    {
+      "runner": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd",
+      "corp": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285",
+      "directory": "matchup-8-6",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 4,
+        "runner": 2
+      },
+      "runnerWinRate": 0.3333333333333333,
+      "runnerWilson95": [
+        0.09676933255921683,
+        0.7000116786584712
+      ],
+      "p50Ms": 658,
+      "p95Ms": 1360,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 519,
+            "gain": 71,
+            "draw": 98,
+            "install": 65,
+            "play": 36,
+            "run": 57,
+            "advance": 0,
+            "score": 0,
+            "overrides": 1,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 63,
+            "probesConsidered": 106,
+            "probesRejected": 105
+          },
+          "corp": {
+            "actions": 464,
+            "gain": 148,
+            "draw": 8,
+            "install": 82,
+            "play": 11,
+            "run": 0,
+            "advance": 71,
+            "score": 17,
+            "overrides": 23,
+            "idleWithAgenda": 141,
+            "scoreOffered": 17,
+            "scoreTaken": 17,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 10.5,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "5aee77fcaf9a202af892fa19cc3fb2f89e724bdb5bc5abcb550a422ce6dd73ec"
+    },
+    {
+      "runner": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd",
+      "corp": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11",
+      "directory": "matchup-8-7",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 948,
+      "p95Ms": 4133,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 439,
+            "gain": 29,
+            "draw": 98,
+            "install": 57,
+            "play": 34,
+            "run": 87,
+            "advance": 0,
+            "score": 0,
+            "overrides": 4,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 92,
+            "probesConsidered": 91,
+            "probesRejected": 87
+          },
+          "corp": {
+            "actions": 302,
+            "gain": 91,
+            "draw": 13,
+            "install": 90,
+            "play": 13,
+            "run": 0,
+            "advance": 74,
+            "score": 17,
+            "overrides": 48,
+            "idleWithAgenda": 25,
+            "scoreOffered": 17,
+            "scoreTaken": 17,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 15.333333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "04a2b79419e7f19d1ecd53ac401d2cdfb7bc9ef2b87c50c204b8ec2534cc8fbc"
+    },
+    {
+      "runner": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd",
+      "corp": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652",
+      "directory": "matchup-8-8",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 3,
+        "runner": 3
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.18761280689940868,
+        0.8123871931005913
+      ],
+      "p50Ms": 541,
+      "p95Ms": 899,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 354,
+            "gain": 30,
+            "draw": 78,
+            "install": 47,
+            "play": 21,
+            "run": 66,
+            "advance": 0,
+            "score": 0,
+            "overrides": 1,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 68,
+            "probesConsidered": 71,
+            "probesRejected": 70
+          },
+          "corp": {
+            "actions": 267,
+            "gain": 70,
+            "draw": 13,
+            "install": 62,
+            "play": 18,
+            "run": 0,
+            "advance": 58,
+            "score": 13,
+            "overrides": 32,
+            "idleWithAgenda": 34,
+            "scoreOffered": 16,
+            "scoreTaken": 13,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 11.333333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "436dd156635d1d3e60e9012447e40b41d7c3b97df75733ecb94fddbe51866430"
+    },
+    {
+      "runner": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd",
+      "corp": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c",
+      "directory": "matchup-8-9",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 2,
+        "runner": 4
+      },
+      "runnerWinRate": 0.6666666666666666,
+      "runnerWilson95": [
+        0.29998832134152864,
+        0.9032306674407831
+      ],
+      "p50Ms": 909,
+      "p95Ms": 6087,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 456,
+            "gain": 79,
+            "draw": 87,
+            "install": 60,
+            "play": 32,
+            "run": 73,
+            "advance": 0,
+            "score": 0,
+            "overrides": 7,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 80,
+            "probesConsidered": 157,
+            "probesRejected": 150
+          },
+          "corp": {
+            "actions": 326,
+            "gain": 94,
+            "draw": 17,
+            "install": 75,
+            "play": 22,
+            "run": 0,
+            "advance": 71,
+            "score": 10,
+            "overrides": 24,
+            "idleWithAgenda": 44,
+            "scoreOffered": 11,
+            "scoreTaken": 10,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 13.333333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "f717dc3199c016d9a1cbd70355bed164a21d4c02e26c22371bcd144ace473ef1"
+    },
+    {
+      "runner": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd",
+      "corp": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a",
+      "directory": "matchup-8-10",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 4,
+        "runner": 2
+      },
+      "runnerWinRate": 0.3333333333333333,
+      "runnerWilson95": [
+        0.09676933255921683,
+        0.7000116786584712
+      ],
+      "p50Ms": 545,
+      "p95Ms": 2682,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 489,
+            "gain": 26,
+            "draw": 89,
+            "install": 59,
+            "play": 37,
+            "run": 125,
+            "advance": 0,
+            "score": 0,
+            "overrides": 4,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 128,
+            "probesConsidered": 90,
+            "probesRejected": 86
+          },
+          "corp": {
+            "actions": 325,
+            "gain": 132,
+            "draw": 16,
+            "install": 62,
+            "play": 10,
+            "run": 0,
+            "advance": 85,
+            "score": 19,
+            "overrides": 36,
+            "idleWithAgenda": 86,
+            "scoreOffered": 21,
+            "scoreTaken": 19,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 21.333333333333332,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "e79889e3f315d6b29ee1e9a53f971ce0d48dd032dfa5c390b016d2f31a8de536"
+    },
+    {
+      "runner": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd",
+      "corp": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28",
+      "directory": "matchup-8-11",
+      "jobs": 6,
+      "statuses": {
+        "completed": 6
+      },
+      "wins": {
+        "corp": 1,
+        "runner": 5
+      },
+      "runnerWinRate": 0.8333333333333334,
+      "runnerWilson95": [
+        0.43649056343635395,
+        0.9699474141282697
+      ],
+      "p50Ms": 452,
+      "p95Ms": 1162,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 353,
+            "gain": 24,
+            "draw": 80,
+            "install": 48,
+            "play": 35,
+            "run": 65,
+            "advance": 0,
+            "score": 0,
+            "overrides": 7,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 71,
+            "probesConsidered": 82,
+            "probesRejected": 75
+          },
+          "corp": {
+            "actions": 237,
+            "gain": 73,
+            "draw": 10,
+            "install": 79,
+            "play": 8,
+            "run": 0,
+            "advance": 57,
+            "score": 13,
+            "overrides": 19,
+            "idleWithAgenda": 49,
+            "scoreOffered": 16,
+            "scoreTaken": 13,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 11.833333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "78d62eff3bbaf55689f81cb724be22a7238ba0eadadcad4286784236afdae90f"
+    }
+  ],
+  "complete": true
+}

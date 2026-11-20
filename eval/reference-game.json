@@ -3334,7 +3334,7 @@
                     {
                       "text": "End the run.",
                       "broken": false,
-                      "fired": true
+                      "fired": false
                     }
                   ]
                 }
@@ -3976,7 +3976,7 @@
                     {
                       "text": "End the run.",
                       "broken": false,
-                      "fired": true
+                      "fired": false
                     }
                   ]
                 }
@@ -4688,7 +4688,7 @@
                     {
                       "text": "End the run.",
                       "broken": false,
-                      "fired": true
+                      "fired": false
                     }
                   ]
                 }
@@ -6275,6 +6275,17 @@
               "boostTotal": 2,
               "breakTotal": 1,
               "availableCredits": 6,
+              "funding": {
+                "sources": [
+                  {
+                    "sourceId": "creditPool",
+                    "label": "credit pool",
+                    "available": 6,
+                    "expiring": false
+                  }
+                ],
+                "manualReason": null
+              },
               "unbroken": 1
             }
           ],
@@ -7463,6 +7474,17 @@
               "boostTotal": 0,
               "breakTotal": 1,
               "availableCredits": 4,
+              "funding": {
+                "sources": [
+                  {
+                    "sourceId": "creditPool",
+                    "label": "credit pool",
+                    "available": 4,
+                    "expiring": false
+                  }
+                ],
+                "manualReason": null
+              },
               "unbroken": 1
             }
           ],
@@ -11052,6 +11074,17 @@
               "boostTotal": 0,
               "breakTotal": 1,
               "availableCredits": 2,
+              "funding": {
+                "sources": [
+                  {
+                    "sourceId": "creditPool",
+                    "label": "credit pool",
+                    "available": 2,
+                    "expiring": false
+                  }
+                ],
+                "manualReason": null
+              },
               "unbroken": 1
             }
           ],

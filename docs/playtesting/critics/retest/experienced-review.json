@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "title": "Independent experienced card-game AI playtest — Vantage Point preview",
+  "perspective": {
+    "type": "AI playtester",
+    "notHumanExpert": true,
+    "approach": "Experienced digital-card-game evaluation perspective applied through one complete real-browser game.",
+    "blind": true,
+    "priorReviewArtifactsReadBeforeRating": false,
+    "scoreCommitted": "6.5/10 sent to parent before reading any other assessment."
+  },
+  "assessmentDate": "2026-11-16 America/Denver",
+  "overall": 6.5,
+  "ratingScale": 10,
+  "overallRationale": "A usable, visually coherent local Netrunner table with unusually helpful cost and encounter guidance. I could make meaningful tactical choices and finish a real game without a stall or crash. As an experienced card-game experience, however, it lost tension: the AI never developed a remote root or scored in ten turns, repeatedly banked credits/discarded, and left a route to fresh R&D accesses that remained viable with zero pool credits. The late game felt procedural. Payment/access interaction overhead and a reproducible stale run explanation further reduced confidence and momentum. This is an assessment of this preview and this observed matchup, not a balance conclusion from one win.",
+  "categoryScores": {
+    "learnability": {
+      "score": 6.5,
+      "rationale": "Deck-plan blurbs, readable identity previews, gold action outlines, source-card reading, exact costs and explicit run windows help. Terms such as MU, rez, paid abilities, central, and priority still presume knowledge; technical audit language also appears in setup/tuner. How to play and helper were visible but not exhaustively evaluated."
+    },
+    "clarity": {
+      "score": 6.5,
+      "rationale": "Good actionable cost math and current ICE/subroutine presentation, but stale Fired status and false explanation on a skipped unrezzed Lethe, generic waiting text after the player's own action, and disappearing unaffordable trash choices create ambiguity."
+    },
+    "flow": {
+      "score": 5.5,
+      "rationale": "Skip to decision and replay controls are valuable. One six-credit Break all required repeated source confirmations; sequential access and finish-access steps add friction. Long stretches of AI economy/discard turns and my economy recovery interrupted the early momentum."
+    },
+    "visualCohesion": {
+      "score": 8,
+      "rationale": "Consistent dark teal/gold table, compact resource rails, card art and strong current-action highlighting give it a recognizable identity. At 1280x800 the dense sidebar, small card text, and vertical movement make simultaneous board/action scanning harder."
+    },
+    "stability": {
+      "score": 9,
+      "rationale": "One full natural-terminal game completed with no app crash, deadlock, rejected engine choice, or public diagnostic. Initial successful snapshots had empty consoleEntries and no failed network requests. Later screenshot-tool timeouts are recorded separately; no evidence they were an app runtime fault."
+    },
+    "agency": {
+      "score": 7,
+      "rationale": "Meaningful decisions included Sure Gamble versus tempo, Docklands HQ pressure, allowing Lethe's bounce versus paying to break, temporary-credit source selection, trashing Magistrate, tag cleanup with Vic, and Tranquilizer targeting. Agency narrowed later because the AI offered little scoring threat."
+    },
+    "opponentEngagement": {
+      "score": 4.5,
+      "rationale": "The AI protected centrals, rezzed ice, chose disruptive Lethe bounce targets, and punished an exposed tag by trashing Red Team. It supplied no agenda race or remote contest in this game despite ending with 15 credits."
+    }
+  },
+  "matchup": {
+    "pool": "vantage-preview-v1",
+    "runner": "Vic · central pressure",
+    "runnerDeckId": "vic-play-v1",
+    "corporation": "Editorial · campaigns & tags",
+    "corpDeckId": "editorial-play-v1",
+    "sidePlayed": "runner",
+    "engine": "local-vantage-preview-3",
+    "rulesVersion": "26.03-vantage-3"
+  },
+  "game": {
+    "seed": "c80a6a07-9d52-4057-a4b3-06151d1104e7",
+    "result": "Runner wins by reaching 7 agenda points",
+    "runnerPoints": 7,
+    "corpPoints": 0,
+    "displayedTurn": 10,
+    "stateTurn": 20,
+    "nativeChoiceCount": 147,
+    "uiActivationCount": null,
+    "uiActivationCountNote": "Not instrumented. Do not treat the 147 native replay choices as all UI activations.",
+    "naturalTerminal": true,
+    "conceded": false,
+    "passOnlyDeckoutFarming": false,
+    "publicDiagnostics": [],
+    "finalVersion": 802,
+    "historyCount": 358,
+    "exposedFinalHistoryEntries": 150
+  },
+  "exploration": [
+    "Opened a new owned incognito tab at the Vantage preview URL.",
+    "Confirmed Runner side, vic-play-v1 and editorial-play-v1 from rendered setup selectors.",
+    "Read both identities in the card preview: Vic's click/credit draw-and-tag-removal ability and Editorial's bad-publicity search ability.",
+    "Opened Tune deck and inspected ready-to-play status, 45 cards, 13/15 influence, counts, curve, search/type/faction/replacement controls. Closed without adding/removing cards or saving.",
+    "Used rendered card previews during play, including Magistrate Revontulet and Borrowed Goods; used Game log after the terminal.",
+    "No deck library writes, import tests, settings/preference changes, or localStorage clearing/restoring."
+  ],
+  "sessionNarrative": [
+    {
+      "turn": 1,
+      "decision": "Kept Telework Contract, Cleaver, Docklands Pass, Carmen, Sure Gamble. Played Sure Gamble, installed Telework and Docklands, ran open HQ. Stole Superconducting Hub and Witch Hunt for three points.",
+      "assessment": "Clear opening plan and gratifying reward for correctly choosing pressure."
+    },
+    {
+      "turn": 2,
+      "decision": "Took Telework credits, installed Cleaver and Carmen, drew a card.",
+      "assessment": "A reasonable rig/economy commitment, though investing before scouting eventually proved expensive."
+    },
+    {
+      "turn": 3,
+      "decision": "Used Telework and Tread Lightly on HQ. Lethe rezzed; insufficient credits to fully break, so accepted the subroutines. Cleaver returned to hand, then HQ accesses showed operations.",
+      "assessment": "Encounter guidance explained affordability precisely. A real choice to trade tempo for accesses."
+    },
+    {
+      "turn": 4,
+      "decision": "Finished Telework, installed Red Team, earned its successful Archives-run payout, then used Overclock on HQ. Broke all Lethe subroutines for six credits using five Overclock credits and one bad-publicity credit. Trashed Magistrate Revontulet for three credits.",
+      "assessment": "Payment-source control was useful but required repeated confirmations. A tag remained, and AI trashed Red Team next turn. My risk/overcommitment contributed to the recovery stretch."
+    },
+    {
+      "turn": 5,
+      "decision": "Gained one credit, used Vic to draw and remove the tag, drew, and used Jailbreak on HQ; accepted Lethe bouncing Carmen. Three accesses showed operations.",
+      "assessment": "Vic's identity mattered. The tag's consequence was real and visible in the log."
+    },
+    {
+      "turn": 6,
+      "decision": "Drew Borrowed Goods, read it, declined the unnecessary tag/MU tradeoff, recovered three credits.",
+      "assessment": "The game allowed recovery, but momentum was low."
+    },
+    {
+      "turn": 7,
+      "decision": "Probed R&D, revealing Paywall. Paid its subroutine with bad publicity, accessed Spin Doctor, left it, then drew and hosted Tranquilizer on HQ Lethe.",
+      "assessment": "Useful destination labels for hosted installs; interaction was easy to understand once scouted."
+    },
+    {
+      "turn": 8,
+      "decision": "Drew, gained a credit, used Overclock on R&D, stole Let Them Dream for one point, then ran the newly exposed next card and found Predictive Planogram.",
+      "assessment": "Bad publicity covered Paywall's payment; at zero pool credits its encounter loss was zero, leaving R&D accessible without a rig."
+    },
+    {
+      "turn": 9,
+      "decision": "Tranquilizer reached three counters and derezzed HQ Lethe. Ran HQ for two accesses. Ran Archives to inspect newly discarded hidden cards; another Lethe bounced the Tranquilizer. No agendas there. Probed new R&D top and drew.",
+      "assessment": "The HQ movement panel incorrectly retained Fired subroutines and said they had fired even though the Corp did not rez this ice. The AI still had no remote root or agenda points."
+    },
+    {
+      "turn": 10,
+      "decision": "Drew twice, ran R&D and stole Let Them Dream for one point, then ran the newly exposed R&D top and stole Witch Hunt for two, reaching seven.",
+      "assessment": "Natural terminal. The final line was sensible fresh-card pressure, but little opponent pressure made it feel routine."
+    }
+  ],
+  "strengths": [
+    {
+      "area": "Encounter decision support",
+      "evidence": "T3 Lethe panel marked Cleaver as Wrong ice type, Carmen as needing +4 strength, and calculated six credits for a full break against only four available.",
+      "whyItMatters": "Makes difficult Netrunner arithmetic inspectable before committing."
+    },
+    {
+      "area": "Costs and outcomes",
+      "evidence": "Action labels exposed click/credit costs; last confirmed choice and resource deltas showed hand, pool, click and hosted-credit changes.",
+      "whyItMatters": "Reduces uncertainty about whether an action applied."
+    },
+    {
+      "area": "Strategic interactions",
+      "evidence": "AI trashed tagged Red Team; Vic cleared the tag; Lethe bounced Cleaver, Carmen and a hosted Tranquilizer; Tranquilizer derezzed its host.",
+      "whyItMatters": "The match contained recognizably interactive card-game decisions."
+    },
+    {
+      "area": "Deck/setup reading",
+      "evidence": "Selected matchup summaries explain central pressure and campaigns/tags; identity reading works before starting; tuner exposes legality, influence and replacement metadata.",
+      "whyItMatters": "The player can form a plan without leaving the app."
+    },
+    {
+      "area": "Presentation and control",
+      "evidence": "Consistent teal/gold styling, original card art, action outlines, skip-to-decision and review-turn/watch-again controls.",
+      "whyItMatters": "Coherent table presentation and agency over playback speed."
+    }
+  ],
+  "reproducedIssues": [
+    {
+      "id": "EXP-01",
+      "severity": "high for engagement",
+      "type": "Observed opponent behavior; not asserted universal AI bug",
+      "title": "No remote/scoring pressure across the complete game",
+      "evidence": "Remote 1 was created with one ice on Corp turn 3 and remained EMPTY ROOT at game end. Corp scored zero. Corp turns 4, 8, 9 and 10 visibly relied heavily on gaining credits; later turns included hidden-card discards. Final Corp credits: 15; R&D remained protected only by Paywall.",
+      "reproduction": "Play/reconstruct the recorded seed and choices. Review Corp turn summaries and the terminal public state. Deterministic replay verification was not performed by this critic.",
+      "impact": "The player can recover from significant economy mistakes without facing an agenda clock. Central accesses become the only pressure axis.",
+      "suggestion": "Audit AI install/score decisions and campaign deployment in this recommended matchup using replay evidence. Do not tune balance from this outcome alone."
+    },
+    {
+      "id": "EXP-02",
+      "severity": "medium",
+      "type": "Reproduced UI clarity bug",
+      "title": "Skipped derezzed Lethe shows stale fired subroutines and false movement explanation",
+      "evidence": "At displayed T9 HQ movement, public decision version 629, the Corp had not rezzed HQ Lethe after Tranquilizer derezzed it. The panel nevertheless showed both subroutines as Fired and said: 'Unbroken subroutines have fired. Review their effects, then continue or jack out.' The status line said 'Corp did not rez ice'.",
+      "reproduction": "In this replay reach T9, allow Tranquilizer's third counter to derez HQ Lethe, then run HQ and inspect movement before continuing. Earlier Lethe encounter flags were still displayed.",
+      "impact": "Suggests consequences happened when the ice was skipped; undermines trust in run resolution.",
+      "suggestion": "Scope displayed subroutine status to the current encounter, and use skipped-ice movement guidance when no encounter occurred."
+    },
+    {
+      "id": "EXP-03",
+      "severity": "medium",
+      "type": "Interaction friction",
+      "title": "Break all still needs repeated temporary-credit confirmations",
+      "evidence": "T4 Break all · 6 credits queued Carmen boosts and breaks. I then clicked Confirm from Overclock three times and Confirm from bad publicity once to complete the six-credit plan.",
+      "reproduction": "Reach the T4 HQ Overclock encounter with three pool credits, five Overclock credits, one bad-publicity credit and Carmen at strength two against Lethe six. Select the full-break plan.",
+      "impact": "A convenient aggregate action expands into a sequence of payment windows, obscuring the rhythm of the encounter.",
+      "suggestion": "Consider an explicit opt-in preference or per-plan confirmation for spending expiring run credits first, while preserving manual source control."
+    },
+    {
+      "id": "EXP-04",
+      "severity": "low to medium",
+      "type": "Transient wording ambiguity",
+      "title": "Own automatic resolution is described as opponent consideration",
+      "evidence": "After installing Cleaver at T2 and after stealing agendas at T1, the sidebar briefly said 'Your opponent is considering the position' while showing a Runner resolving state/automatic continuation.",
+      "reproduction": "Install a runner program or steal an agenda and inspect the short resolving window before the next decision.",
+      "impact": "The player may wonder whether a response, network delay or input is pending.",
+      "suggestion": "Use action-specific automatic-resolution text when the remaining continuation is forced."
+    },
+    {
+      "id": "EXP-05",
+      "severity": "low to medium",
+      "type": "Discoverability",
+      "title": "Unaffordable trash choice disappears instead of explaining the missing cost",
+      "evidence": "T9 Spin Doctor HQ access at zero pool plus one bad-publicity credit showed generic steal/trash guidance and only Finish accessing; no disabled two-credit trash choice appeared. Earlier with enough credits its trash action was visible.",
+      "reproduction": "Access Spin Doctor with less than two eligible credits, then compare to access with at least two.",
+      "impact": "A player learning the game must open the card or infer affordability to know why trashing is absent.",
+      "suggestion": "Show the unavailable trash cost and a concise affordability reason."
+    },
+    {
+      "id": "EXP-06",
+      "severity": "low",
+      "type": "Setup labeling",
+      "title": "Closely named Vic options are hard to distinguish in the selector",
+      "evidence": "The Runner selector included 'Vic · central pressure' and 'Vic · Central pressure' alongside interaction pilots, while the selected recommended deck's explanatory badge lived outside the selector.",
+      "reproduction": "Open the Vantage Runner deck selector.",
+      "impact": "Players may pick a nearly identical label without understanding which is recommended.",
+      "suggestion": "Include recommended/pilot status or a more distinctive plan label within option text."
+    }
+  ],
+  "diagnostics": {
+    "publicFinalState": [],
+    "appCrashesObserved": 0,
+    "gameDeadlocksObserved": 0,
+    "initialConsoleEntries": [],
+    "initialFailedNetworkRequests": [],
+    "laterConsoleMonitoring": "Unavailable because later preview_snapshot calls timed out. No page error was visibly observed during play.",
+    "automationLimitations": [
+      "Several overly literal button-text selectors or short render waits failed before actions were retried. These are test-harness interaction errors, not recorded product failures.",
+      "Four early repeated Scapegoat card clicks opened its inspector instead of selecting the sidebar access; corrected by targeting rendered action-button controls. No native choice was injected.",
+      "Midgame/final screenshot attempts timed out at the preview automation layer; final error was PreviewAutomationTimeoutError, snapshot operation."
+    ],
+    "sourceFilesRead": [],
+    "appSourceFilesModified": [],
+    "nativeHiddenStateInspected": false
+  },
+  "artifacts": {
+    "replay": "docs/playtesting/critics/retest/experienced-game-replay.json",
+    "screenshots": [
+      {
+        "file": "docs/playtesting/critics/retest/experienced-deckTuner.png",
+        "description": "Deck tuner viewed without saving.",
+        "original": "/Users/nicanadian/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mwjxnyo0-4ea44fe8.png"
+      },
+      {
+        "file": "docs/playtesting/critics/retest/experienced-earlyBoard.png",
+        "description": "Early Corp action playback and opening grip at 1280x800.",
+        "original": "/Users/nicanadian/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mwjxorcz-e7f53bbb.png"
+      }
+    ],
+    "historyLimitation": "Final public state exposes 150 recent history entries of 358. Replay file preserves the actual complete session configuration and all 147 native recorded choices, plus the complete final public state as exposed.",
+    "finalScreenshot": "Not available due to preview snapshot timeout."
+  },
+  "limitations": [
+    "One seed and one recommended Runner-versus-AI matchup only.",
+    "AI evaluation perspective, not a human expert usability session or competitive balance study.",
+    "Desktop 1280x800 only; no mobile/accessibility keyboard audit.",
+    "Reading public read-only state and session made planning and exact evidence capture easier than ordinary human play.",
+    "No engine/source inspection, engine.choose calls, injected worker messages, preference mutation, or deck-library saves.",
+    "Some strategic choices were deliberately imperfect or expensive, notably rig investment before scouting and leaving the T4 tag exposed; the review does not blame all economy recovery on the product.",
+    "No prior scores or sibling reports were consulted before the score was committed."
+  ],
+  "priorities": [
+    "Verify the recommended Corp AI can produce credible scoring and campaign pressure across multiple seeds.",
+    "Correct stale skipped-ice/subroutine guidance.",
+    "Reduce routine payment/access interaction overhead while preserving strategic source choice.",
+    "Explain disabled choices and distinguish recommended decks more clearly."
+  ],
+  "cleanup": {
+    "ownedTab": "tab_j_8325d3a1-a0be-4685-9ccc-b65089f2df75",
+    "closed": true,
+    "sharedPreferencesChanged": false,
+    "decksSaved": false,
+    "localStorageCleared": false,
+    "confirmation": "Closed only owned tab_j_8325d3a1-a0be-4685-9ccc-b65089f2df75 through preview close; subsequent preview status no longer lists it."
+  }
+}

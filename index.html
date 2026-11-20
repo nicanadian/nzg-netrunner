@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/app/polish.css" />
     <link rel="stylesheet" href="/app/helper.css" />
     <link rel="stylesheet" href="/app/run-drawer.css" />
-  <link rel="stylesheet" href="/app/interaction.css"><link rel="stylesheet" href="/app/deck-builder.css">
+  <link rel="stylesheet" href="/app/interaction.css"><link rel="stylesheet" href="/app/deck-builder.css"><link rel="stylesheet" href="/app/pairing-guide.css">
   </head>
   <body>
     <header class="topbar">
@@ -119,7 +119,7 @@
           A corporation with something to hide.<br />A runner with nothing to
           lose. Your move.
         </p>
-        <div class="pool-picker"><label for="card-pool">Card pool</label><select id="card-pool" aria-describedby="pool-help"><option value="gateway-v1">System Gateway · 15 ready-made decks</option><option value="core-v1">Gateway + Elevation · 21 decks · experimental</option></select><p id="pool-help">Pick a deck to choose its character. Tune it here, then save and use it in your next game.</p></div>
+        <div class="pool-picker"><label for="card-pool">Card sets</label><select id="card-pool" aria-describedby="pool-help"><option value="gateway-v1">System Gateway · 15 ready-made decks</option><option value="core-v1">Gateway + Elevation · 21 decks · experimental</option><option value="vantage-preview-v1">Gateway + Elevation + Vantage Point · early preview</option></select><p id="pool-help">Choose the card sets for both decks, then pick your matchup below.</p></div>
         <div class="role-picker" role="group" aria-label="Choose your side">
           <button class="role active" data-side="runner" aria-pressed="true">
             <span>RUNNER</span><strong>Break the system.</strong
@@ -130,17 +130,27 @@
           </button>
         </div>
         <div id="character-picker" class="character-picker">
-          <section><label id="your-character-label" for="your-deck">Your Runner deck</label><select id="your-deck" aria-describedby="your-deck-count"></select><p id="your-deck-count" class="deck-count"></p><div id="your-character-summary" class="character-summary"></div><button id="tune-your-deck" class="secondary">Tune this deck</button></section>
-          <section><label id="opponent-character-label" for="opponent-deck">AI Corporation deck</label><select id="opponent-deck" aria-describedby="opponent-deck-count"></select><p id="opponent-deck-count" class="deck-count"></p><div id="opponent-character-summary" class="character-summary"></div><button id="tune-opponent-deck" class="quiet">Tune AI deck</button></section>
+          <section aria-labelledby="your-character-label">
+            <div class="deck-panel-heading"><p id="your-character-label">Your Runner deck</p><button id="tune-your-deck" class="quiet">Tune deck</button></div>
+            <div id="your-character-summary" class="character-summary"></div>
+            <label for="your-deck">Change your deck</label><select id="your-deck" aria-describedby="your-deck-count"></select><p id="your-deck-count" class="deck-count"></p>
+          </section>
+          <section aria-labelledby="opponent-character-label">
+            <div class="deck-panel-heading"><p id="opponent-character-label">AI Corporation deck</p><button id="tune-opponent-deck" class="quiet">Tune AI deck</button></div>
+            <div id="opponent-character-summary" class="character-summary"></div>
+            <label for="opponent-deck">Change AI deck</label><select id="opponent-deck" aria-describedby="opponent-deck-count"></select><p id="opponent-deck-count" class="deck-count"></p>
+          </section>
         </div>
         <div class="lobby-actions">
           <button class="primary" id="start-button">
             Jack in <span>→</span></button
           ><button id="resume-button" class="secondary" hidden>
-            Resume game</button
+            Resume saved game</button
           ><button id="deck-button" class="quiet">View decks</button><button id="build-deck-button" class="secondary">My decks &amp; imports</button>
         </div>
+        <p class="lobby-reference"><a id="pairing-guide-link" href="/app/pairing-guide.html" target="_blank" rel="noopener" aria-label="Pairing and learning guide (opens in a new tab)">Pairing &amp; learning guide ↗</a></p>
         <p id="resume-context" class="saved-context" hidden></p>
+        <p id="resume-help" class="saved-context" hidden>Deck changes apply to a new game. Resume restores your saved matchup; Jack in replaces it.</p>
         <div class="lobby-foot">
           <span class="live-dot"></span>LOCAL PLAY · AI OPPONENT · SYSTEM
           GATEWAY
@@ -186,7 +196,7 @@
         <button id="matchup-decks-button" class="secondary">View matchup decks</button>
         <button id="undo-button" class="secondary">
           Undo your last decision</button
-        ><button id="new-button" class="secondary">Return to lobby</button
+        ><button id="new-button" class="secondary">Change decks for a new game…</button
         ><button id="export-button" class="secondary">Export game replay</button
         ><button id="import-button" class="secondary">Import game replay</button><input
             id="import-input"

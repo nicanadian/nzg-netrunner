@@ -1,0 +1,2529 @@
+{
+  "overflow": false,
+  "session": {
+    "choices": [
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 8
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 9
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 10
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 15
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 103
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 104
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 105
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 165
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 166
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 167
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 172
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 247
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 248
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 249
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 254
+      },
+      {
+        "command": "play",
+        "index": 3,
+        "version": 320
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 322
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 323
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 373
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 374
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 375
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 380
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 424
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 425
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 426
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 431
+      },
+      {
+        "command": "install",
+        "index": 7,
+        "version": 490
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 494
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 495
+      },
+      {
+        "command": "rez",
+        "index": 0,
+        "version": 518
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 523
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 524
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 525
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 526
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 527
+      },
+      {
+        "command": "install",
+        "index": 6,
+        "version": 563
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 567
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 568
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 608
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 609
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 610
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 615
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 692
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 693
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 694
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 699
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 730
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 731
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 732
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 737
+      },
+      {
+        "command": "install",
+        "index": 6,
+        "version": 771
+      },
+      {
+        "command": "install",
+        "index": 3,
+        "version": 775
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 779
+      },
+      {
+        "command": "rez",
+        "index": 0,
+        "version": 799
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 804
+      },
+      {
+        "command": "play",
+        "index": 1,
+        "version": 848
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 850
+      },
+      {
+        "command": "install",
+        "index": 4,
+        "version": 851
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 909
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 910
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 911
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 949
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 950
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 951
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 956
+      },
+      {
+        "command": "install",
+        "index": 6,
+        "version": 1032
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 1036
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 1037
+      },
+      {
+        "command": "install",
+        "index": 6,
+        "version": 1096
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 1100
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 1101
+      }
+    ],
+    "conceded": false,
+    "config": {
+      "cardPool": "vantage-preview-v1",
+      "deckDocuments": {
+        "corp": {
+          "cards": [
+            {
+              "count": 1,
+              "id": "30049"
+            },
+            {
+              "count": 3,
+              "id": "30053"
+            },
+            {
+              "count": 3,
+              "id": "30056"
+            },
+            {
+              "count": 3,
+              "id": "30067"
+            },
+            {
+              "count": 2,
+              "id": "30070"
+            },
+            {
+              "count": 3,
+              "id": "30075"
+            },
+            {
+              "count": 3,
+              "id": "36047"
+            },
+            {
+              "count": 3,
+              "id": "36048"
+            },
+            {
+              "count": 3,
+              "id": "36049"
+            },
+            {
+              "count": 3,
+              "id": "36050"
+            },
+            {
+              "count": 3,
+              "id": "36051"
+            },
+            {
+              "count": 3,
+              "id": "36052"
+            },
+            {
+              "count": 3,
+              "id": "36053"
+            },
+            {
+              "count": 3,
+              "id": "36054"
+            },
+            {
+              "count": 3,
+              "id": "36055"
+            },
+            {
+              "count": 3,
+              "id": "36066"
+            }
+          ],
+          "identity": "36046",
+          "name": "Editorial Division · Vantage interactions",
+          "pool": "vantage-preview-v1",
+          "schemaVersion": 1,
+          "side": "corp"
+        },
+        "runner": {
+          "cards": [
+            {
+              "count": 3,
+              "id": "30005"
+            },
+            {
+              "count": 3,
+              "id": "30020"
+            },
+            {
+              "count": 3,
+              "id": "30021"
+            },
+            {
+              "count": 3,
+              "id": "30025"
+            },
+            {
+              "count": 3,
+              "id": "30026"
+            },
+            {
+              "count": 3,
+              "id": "30027"
+            },
+            {
+              "count": 3,
+              "id": "30030"
+            },
+            {
+              "count": 3,
+              "id": "36018"
+            },
+            {
+              "count": 3,
+              "id": "36019"
+            },
+            {
+              "count": 3,
+              "id": "36020"
+            },
+            {
+              "count": 3,
+              "id": "36021"
+            },
+            {
+              "count": 3,
+              "id": "36022"
+            },
+            {
+              "count": 3,
+              "id": "36023"
+            },
+            {
+              "count": 3,
+              "id": "36024"
+            },
+            {
+              "count": 3,
+              "id": "36025"
+            }
+          ],
+          "identity": "36017",
+          "name": "Hiram · Vantage interactions",
+          "pool": "vantage-preview-v1",
+          "schemaVersion": 1,
+          "side": "runner"
+        }
+      },
+      "rulesVersion": "26.03-vantage-3",
+      "seed": "2bf8c0b3-1bfd-40fc-b17f-637a1b2ecd71",
+      "side": "corp"
+    },
+    "engine": "local-vantage-preview-3"
+  },
+  "state": {
+    "access": null,
+    "active": "runner",
+    "agendaPointTarget": 7,
+    "assistance": null,
+    "corp": {
+      "badPublicity": 0,
+      "clicks": 0,
+      "credits": 37,
+      "deck": 17,
+      "discard": [
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c23",
+          "installed": false,
+          "number": 36049,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Enforcer",
+            "Liability"
+          ],
+          "subroutines": [],
+          "title": "Nihilo Agent",
+          "type": "asset"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c43",
+          "installed": false,
+          "number": 36055,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Advertisement"
+          ],
+          "subroutines": [],
+          "title": "Hype Machine",
+          "type": "upgrade"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c24",
+          "installed": false,
+          "number": 36049,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Enforcer",
+            "Liability"
+          ],
+          "subroutines": [],
+          "title": "Nihilo Agent",
+          "type": "asset"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c3",
+          "installed": false,
+          "number": 30053,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Character"
+          ],
+          "subroutines": [],
+          "title": "Spin Doctor",
+          "type": "asset"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c39",
+          "installed": false,
+          "number": 36054,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Gray Ops"
+          ],
+          "subroutines": [],
+          "title": "Scapegoat",
+          "type": "operation"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c14",
+          "installed": false,
+          "number": 30075,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Transaction"
+          ],
+          "subroutines": [],
+          "title": "Hedge Fund",
+          "type": "operation"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c38",
+          "installed": false,
+          "number": 36054,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Gray Ops"
+          ],
+          "subroutines": [],
+          "title": "Scapegoat",
+          "type": "operation"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c36",
+          "installed": false,
+          "number": 36053,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Double"
+          ],
+          "subroutines": [],
+          "title": "Flood the Market",
+          "type": "operation"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c5",
+          "installed": false,
+          "number": 30053,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Character"
+          ],
+          "subroutines": [],
+          "title": "Spin Doctor",
+          "type": "asset"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c40",
+          "installed": false,
+          "number": 36054,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Gray Ops"
+          ],
+          "subroutines": [],
+          "title": "Scapegoat",
+          "type": "operation"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c8",
+          "installed": false,
+          "number": 30056,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Transaction"
+          ],
+          "subroutines": [],
+          "title": "Predictive Planogram",
+          "type": "operation"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c41",
+          "installed": false,
+          "number": 36055,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Advertisement"
+          ],
+          "subroutines": [],
+          "title": "Hype Machine",
+          "type": "upgrade"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c16",
+          "installed": false,
+          "number": 30075,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Transaction"
+          ],
+          "subroutines": [],
+          "title": "Hedge Fund",
+          "type": "operation"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c2",
+          "installed": false,
+          "number": 30049,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Grey Ops"
+          ],
+          "subroutines": [],
+          "title": "Neurospike",
+          "type": "operation"
+        }
+      ],
+      "hand": [
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c20",
+          "installed": false,
+          "number": 36048,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Executive"
+          ],
+          "subroutines": [],
+          "title": "Magistrate Revontulet",
+          "type": "asset"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c6",
+          "installed": false,
+          "number": 30056,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Transaction"
+          ],
+          "subroutines": [],
+          "title": "Predictive Planogram",
+          "type": "operation"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c25",
+          "installed": false,
+          "number": 36049,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Enforcer",
+            "Liability"
+          ],
+          "subroutines": [],
+          "title": "Nihilo Agent",
+          "type": "asset"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c7",
+          "installed": false,
+          "number": 30056,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Transaction"
+          ],
+          "subroutines": [],
+          "title": "Predictive Planogram",
+          "type": "operation"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": false,
+          "hidden": false,
+          "hosted": [],
+          "id": "c22",
+          "installed": false,
+          "number": 36048,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Executive"
+          ],
+          "subroutines": [],
+          "title": "Magistrate Revontulet",
+          "type": "asset"
+        }
+      ],
+      "identity": {
+        "advancement": 0,
+        "advancementRequirement": null,
+        "canScore": false,
+        "counters": {},
+        "faceUp": true,
+        "hidden": false,
+        "hosted": [],
+        "id": "c1",
+        "installed": false,
+        "number": 36046,
+        "rezzed": false,
+        "side": "corp",
+        "strength": null,
+        "subTypes": [
+          "Division"
+        ],
+        "subroutines": [],
+        "title": "Editorial Division: Ad Nihilum",
+        "type": "identity"
+      },
+      "maxHand": 5,
+      "points": 0,
+      "resolving": [],
+      "score": [],
+      "servers": [
+        {
+          "central": true,
+          "ice": [
+            {
+              "advancement": 0,
+              "advancementRequirement": null,
+              "canScore": false,
+              "counters": {},
+              "faceUp": false,
+              "hidden": false,
+              "hosted": [],
+              "id": "c28",
+              "installed": true,
+              "number": 36050,
+              "rezzed": false,
+              "side": "corp",
+              "strength": 5,
+              "subTypes": [
+                "Barrier",
+                "Liability"
+              ],
+              "subroutines": [
+                {
+                  "broken": false,
+                  "fired": false,
+                  "text": "End the run unless the Runner pays 3credit."
+                },
+                {
+                  "broken": false,
+                  "fired": false,
+                  "text": "End the run unless the Runner pays 3credit."
+                }
+              ],
+              "title": "Grubber",
+              "type": "ice"
+            }
+          ],
+          "name": "HQ",
+          "root": []
+        },
+        {
+          "central": true,
+          "ice": [
+            {
+              "advancement": 0,
+              "advancementRequirement": null,
+              "canScore": false,
+              "counters": {},
+              "faceUp": true,
+              "hidden": false,
+              "hosted": [
+                {
+                  "advancement": 0,
+                  "advancementRequirement": null,
+                  "canScore": false,
+                  "counters": {},
+                  "faceUp": true,
+                  "hidden": false,
+                  "hosted": [],
+                  "id": "c89",
+                  "installed": true,
+                  "number": 36024,
+                  "rezzed": false,
+                  "side": "runner",
+                  "strength": null,
+                  "subTypes": [
+                    "Trojan"
+                  ],
+                  "subroutines": [],
+                  "title": "Stowaway",
+                  "type": "program"
+                }
+              ],
+              "id": "c29",
+              "installed": true,
+              "number": 36051,
+              "rezzed": true,
+              "side": "corp",
+              "strength": 6,
+              "subTypes": [
+                "Sentry",
+                "Observer"
+              ],
+              "subroutines": [
+                {
+                  "broken": false,
+                  "fired": true,
+                  "text": "You may add a card from Archives to the top or bottom of R&D."
+                },
+                {
+                  "broken": false,
+                  "fired": true,
+                  "text": "Add 1 installed Runner card to the grip."
+                }
+              ],
+              "title": "Lethe",
+              "type": "ice"
+            }
+          ],
+          "name": "R&D",
+          "root": []
+        },
+        {
+          "central": true,
+          "ice": [],
+          "name": "Archives",
+          "root": []
+        },
+        {
+          "central": false,
+          "ice": [
+            {
+              "advancement": 0,
+              "advancementRequirement": null,
+              "canScore": false,
+              "counters": {},
+              "faceUp": true,
+              "hidden": false,
+              "hosted": [],
+              "id": "c32",
+              "installed": true,
+              "number": 36052,
+              "rezzed": true,
+              "side": "corp",
+              "strength": 1,
+              "subTypes": [
+                "Barrier"
+              ],
+              "subroutines": [
+                {
+                  "broken": false,
+                  "fired": true,
+                  "text": "End the run unless the Runner pays 1credit."
+                }
+              ],
+              "title": "Paywall",
+              "type": "ice"
+            }
+          ],
+          "name": "Remote 0",
+          "root": []
+        }
+      ],
+      "side": "corp"
+    },
+    "decision": null,
+    "diagnostics": [],
+    "history": [
+      {
+        "side": "corp",
+        "text": "Corp installed a card in root of a remote server",
+        "turn": 25
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 25
+      },
+      {
+        "side": "corp",
+        "text": "Corp installed ice protecting a remote server",
+        "turn": 25
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 25
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 1 credit from credit pool",
+        "turn": 25
+      },
+      {
+        "side": "corp",
+        "text": "Card advanced",
+        "turn": 25
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Run initiated attacking Remote 0",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Approaching outermost piece of ice protecting Remote 0",
+        "turn": 26
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Corp spent 1 credit from credit pool",
+        "turn": 26
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Corp rezzed Paywall protecting Remote 0 at position 0",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Encountering Paywall protecting Remote 0 at position 0",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Runner lost 1 credit",
+        "turn": 26
+      },
+      {
+        "actor": "corp",
+        "side": "runner",
+        "text": "Firing \"End the run unless the Runner pays 1credit.\" on Paywall protecting Remote 0 at position 0:",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 1 credit from credit pool",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Approaching Remote 0",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Run successful",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Let Them Dream accessed",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Let Them Dream stolen",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Run ends",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 26
+      },
+      {
+        "draw": {
+          "kind": "action"
+        },
+        "side": "runner",
+        "text": "Runner drew a card",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Runner installed Stowaway",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 1 credit from credit pool",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Played \"Creative Commission\"",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained 5 credits",
+        "turn": 26
+      },
+      {
+        "side": "runner",
+        "text": "Runner lost no clicks",
+        "turn": 26
+      },
+      {
+        "draw": {
+          "kind": "mandatory"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 27
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 27
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 5 credits from credit pool",
+        "turn": 27
+      },
+      {
+        "side": "corp",
+        "text": "Played \"Hedge Fund\"",
+        "turn": 27
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained 9 credits",
+        "turn": 27
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 27
+      },
+      {
+        "draw": {
+          "kind": "action"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 27
+      },
+      {
+        "side": "corp",
+        "text": "Corp created a new remote server",
+        "turn": 27
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 27
+      },
+      {
+        "side": "corp",
+        "text": "Corp installed a card in root of a remote server",
+        "turn": 27
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 28
+      },
+      {
+        "side": "runner",
+        "text": "Run initiated attacking Remote 1",
+        "turn": 28
+      },
+      {
+        "side": "runner",
+        "text": "Approaching Remote 1",
+        "turn": 28
+      },
+      {
+        "side": "runner",
+        "text": "Run successful",
+        "turn": 28
+      },
+      {
+        "side": "runner",
+        "text": "Let Them Dream accessed",
+        "turn": 28
+      },
+      {
+        "side": "runner",
+        "text": "Let Them Dream stolen",
+        "turn": 28
+      },
+      {
+        "side": "runner",
+        "text": "Run ends",
+        "turn": 28
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 28
+      },
+      {
+        "draw": {
+          "kind": "action"
+        },
+        "side": "runner",
+        "text": "Runner drew a card",
+        "turn": 28
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 28
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 1 credit from credit pool",
+        "turn": 28
+      },
+      {
+        "side": "runner",
+        "text": "Runner installed Sipa",
+        "turn": 28
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 28
+      },
+      {
+        "draw": {
+          "kind": "action"
+        },
+        "side": "runner",
+        "text": "Runner drew a card",
+        "turn": 28
+      },
+      {
+        "draw": {
+          "kind": "mandatory"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 29
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 29
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained one credit",
+        "turn": 29
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 29
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained one credit",
+        "turn": 29
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 29
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained one credit",
+        "turn": 29
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 30
+      },
+      {
+        "draw": {
+          "kind": "action"
+        },
+        "side": "runner",
+        "text": "Runner drew a card",
+        "turn": 30
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 30
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 1 credit from credit pool",
+        "turn": 30
+      },
+      {
+        "side": "runner",
+        "text": "Runner installed Telework Contract",
+        "turn": 30
+      },
+      {
+        "side": "runner",
+        "text": "9 credits loaded onto Telework Contract",
+        "turn": 30
+      },
+      {
+        "side": "runner",
+        "text": "Using Telework Contract:",
+        "turn": 30
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 30
+      },
+      {
+        "side": "runner",
+        "text": "3 credits taken from Telework Contract",
+        "turn": 30
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 30
+      },
+      {
+        "side": "runner",
+        "text": "Runner gained one credit",
+        "turn": 30
+      },
+      {
+        "draw": {
+          "kind": "mandatory"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 31
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 31
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained one credit",
+        "turn": 31
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 31
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained one credit",
+        "turn": 31
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 31
+      },
+      {
+        "side": "corp",
+        "text": "Corp gained one credit",
+        "turn": 31
+      },
+      {
+        "side": "corp",
+        "text": "Corp discarded \"Neurospike\"",
+        "turn": 31
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 32
+      },
+      {
+        "side": "runner",
+        "text": "Run initiated attacking Archives",
+        "turn": 32
+      },
+      {
+        "side": "runner",
+        "text": "You may trash a hardware from grip to place 2 credits on Methuselah triggered",
+        "turn": 32
+      },
+      {
+        "side": "runner",
+        "text": "Approaching Archives",
+        "turn": 32
+      },
+      {
+        "side": "runner",
+        "text": "Run successful",
+        "turn": 32
+      },
+      {
+        "side": "runner",
+        "text": "Neurospike accessed",
+        "turn": 32
+      },
+      {
+        "side": "runner",
+        "text": "Hedge Fund accessed",
+        "turn": 32
+      },
+      {
+        "side": "runner",
+        "text": "Hype Machine accessed",
+        "turn": 32
+      },
+      {
+        "side": "runner",
+        "text": "Predictive Planogram accessed",
+        "turn": 32
+      },
+      {
+        "side": "runner",
+        "text": "Scapegoat accessed",
+        "turn": 32
+      },
+      {
+        "side": "runner",
+        "text": "Spin Doctor accessed",
+        "turn": 32
+      },
+      {
+        "side": "runner",
+        "text": "Flood the Market accessed",
+        "turn": 32
+      },
+      {
+        "side": "runner",
+        "text": "Scapegoat accessed",
+        "turn": 32
+      },
+      {
+        "side": "runner",
+        "text": "Hedge Fund accessed",
+        "turn": 32
+      },
+      {
+        "side": "runner",
+        "text": "Scapegoat accessed",
+        "turn": 32
+      },
+      {
+        "side": "runner",
+        "text": "Spin Doctor accessed",
+        "turn": 32
+      },
+      {
+        "side": "runner",
+        "text": "Nihilo Agent accessed",
+        "turn": 32
+      },
+      {
+        "side": "runner",
+        "text": "Hype Machine accessed",
+        "turn": 32
+      },
+      {
+        "side": "runner",
+        "text": "Nihilo Agent accessed",
+        "turn": 32
+      },
+      {
+        "side": "runner",
+        "text": "Run ends",
+        "turn": 32
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 32
+      },
+      {
+        "draw": {
+          "kind": "action"
+        },
+        "side": "runner",
+        "text": "Runner drew a card",
+        "turn": 32
+      },
+      {
+        "side": "runner",
+        "text": "Using Telework Contract:",
+        "turn": 32
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 32
+      },
+      {
+        "side": "runner",
+        "text": "3 credits taken from Telework Contract",
+        "turn": 32
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 32
+      },
+      {
+        "draw": {
+          "kind": "action"
+        },
+        "side": "runner",
+        "text": "Runner drew a card",
+        "turn": 32
+      },
+      {
+        "side": "runner",
+        "text": "Runner discarded \"Word on the Street\"",
+        "turn": 32
+      },
+      {
+        "side": "runner",
+        "text": "Runner discarded \"Methuselah\"",
+        "turn": 32
+      },
+      {
+        "draw": {
+          "kind": "mandatory"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 33
+      },
+      {
+        "side": "corp",
+        "text": "Corp created a new remote server",
+        "turn": 33
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 33
+      },
+      {
+        "side": "corp",
+        "text": "Corp installed a card in root of a remote server",
+        "turn": 33
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 33
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 1 credit from credit pool",
+        "turn": 33
+      },
+      {
+        "side": "corp",
+        "text": "Card advanced",
+        "turn": 33
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 33
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 1 credit from credit pool",
+        "turn": 33
+      },
+      {
+        "side": "corp",
+        "text": "Card advanced",
+        "turn": 33
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 34
+      },
+      {
+        "side": "runner",
+        "text": "Run initiated attacking Remote 2",
+        "turn": 34
+      },
+      {
+        "side": "runner",
+        "text": "Approaching Remote 2",
+        "turn": 34
+      },
+      {
+        "side": "runner",
+        "text": "Run successful",
+        "turn": 34
+      },
+      {
+        "side": "runner",
+        "text": "Superconducting Hub accessed",
+        "turn": 34
+      },
+      {
+        "side": "runner",
+        "text": "Superconducting Hub stolen",
+        "turn": 34
+      },
+      {
+        "side": "runner",
+        "text": "Run ends",
+        "turn": 34
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 34
+      },
+      {
+        "draw": {
+          "kind": "action"
+        },
+        "side": "runner",
+        "text": "Runner drew a card",
+        "turn": 34
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 34
+      },
+      {
+        "draw": {
+          "kind": "action"
+        },
+        "side": "runner",
+        "text": "Runner drew a card",
+        "turn": 34
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 34
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent 2 credits from credit pool",
+        "turn": 34
+      },
+      {
+        "side": "runner",
+        "text": "Runner installed Touchstone",
+        "turn": 34
+      },
+      {
+        "side": "runner",
+        "text": "Runner discarded \"Beta Build\"",
+        "turn": 34
+      },
+      {
+        "draw": {
+          "kind": "mandatory"
+        },
+        "side": "corp",
+        "text": "Corp drew a card",
+        "turn": 35
+      },
+      {
+        "side": "corp",
+        "text": "Corp created a new remote server",
+        "turn": 35
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 35
+      },
+      {
+        "side": "corp",
+        "text": "Corp installed a card in root of a remote server",
+        "turn": 35
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 35
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 1 credit from credit pool",
+        "turn": 35
+      },
+      {
+        "side": "corp",
+        "text": "Card advanced",
+        "turn": 35
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent one click",
+        "turn": 35
+      },
+      {
+        "side": "corp",
+        "text": "Corp spent 1 credit from credit pool",
+        "turn": 35
+      },
+      {
+        "side": "corp",
+        "text": "Card advanced",
+        "turn": 35
+      },
+      {
+        "side": "runner",
+        "text": "Runner spent one click",
+        "turn": 36
+      },
+      {
+        "side": "runner",
+        "text": "Run initiated attacking Remote 3",
+        "turn": 36
+      },
+      {
+        "side": "runner",
+        "text": "Approaching Remote 3",
+        "turn": 36
+      },
+      {
+        "side": "runner",
+        "text": "Run successful",
+        "turn": 36
+      },
+      {
+        "side": "runner",
+        "text": "Offworld Office accessed",
+        "turn": 36
+      },
+      {
+        "side": "runner",
+        "text": "Offworld Office stolen",
+        "turn": 36
+      },
+      {
+        "side": "runner",
+        "text": "Runner reached 8 agenda points.",
+        "turn": 36
+      }
+    ],
+    "historyCount": 463,
+    "installation": null,
+    "phase": {
+      "identifier": "Stolen",
+      "source": null,
+      "title": "Stolen"
+    },
+    "playerTurn": "runner",
+    "quietWindow": false,
+    "rulesVersion": "26.03-vantage-3",
+    "run": {
+      "card": null,
+      "encountering": false,
+      "ice": -1,
+      "movement": false,
+      "restrictions": [],
+      "server": "Remote 3",
+      "tools": []
+    },
+    "runner": {
+      "clicks": 3,
+      "coreDamage": 0,
+      "credits": 13,
+      "deck": 21,
+      "discard": [
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c78",
+          "installed": false,
+          "number": 36021,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [
+            "Stealth"
+          ],
+          "subroutines": [],
+          "title": "Touchstone",
+          "type": "hardware"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c66",
+          "installed": false,
+          "number": 30030,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [],
+          "subroutines": [],
+          "title": "Sure Gamble",
+          "type": "event"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c83",
+          "installed": false,
+          "number": 36022,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [],
+          "subroutines": [],
+          "title": "Read-Write Share",
+          "type": "program"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c82",
+          "installed": false,
+          "number": 36022,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [],
+          "subroutines": [],
+          "title": "Read-Write Share",
+          "type": "program"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c55",
+          "installed": false,
+          "number": 30021,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [],
+          "subroutines": [],
+          "title": "VRcation",
+          "type": "event"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c53",
+          "installed": false,
+          "number": 30020,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [],
+          "subroutines": [],
+          "title": "Creative Commission",
+          "type": "event"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c71",
+          "installed": false,
+          "number": 36018,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [
+            "Run",
+            "Stealth"
+          ],
+          "subroutines": [],
+          "title": "Aircheck",
+          "type": "event"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c68",
+          "installed": false,
+          "number": 30030,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [],
+          "subroutines": [],
+          "title": "Sure Gamble",
+          "type": "event"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c52",
+          "installed": false,
+          "number": 30020,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [],
+          "subroutines": [],
+          "title": "Creative Commission",
+          "type": "event"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c92",
+          "installed": false,
+          "number": 36025,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [],
+          "subroutines": [],
+          "title": "Word on the Street",
+          "type": "resource"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c75",
+          "installed": false,
+          "number": 36020,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [
+            "Console",
+            "Stealth"
+          ],
+          "subroutines": [],
+          "title": "Methuselah",
+          "type": "hardware"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": null,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c72",
+          "installed": false,
+          "number": 36019,
+          "rezzed": false,
+          "side": "runner",
+          "strength": null,
+          "subTypes": [
+            "Run"
+          ],
+          "subroutines": [],
+          "title": "Beta Build",
+          "type": "event"
+        }
+      ],
+      "hand": [
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c49",
+          "installed": false,
+          "rezzed": false,
+          "side": "runner"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c51",
+          "installed": false,
+          "rezzed": false,
+          "side": "runner"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c69",
+          "installed": false,
+          "rezzed": false,
+          "side": "runner"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c60",
+          "installed": false,
+          "rezzed": false,
+          "side": "runner"
+        },
+        {
+          "advancement": 0,
+          "faceUp": false,
+          "hidden": true,
+          "hosted": [],
+          "id": "c73",
+          "installed": false,
+          "rezzed": false,
+          "side": "runner"
+        }
+      ],
+      "identity": {
+        "advancement": 0,
+        "advancementRequirement": null,
+        "canScore": false,
+        "counters": {},
+        "faceUp": true,
+        "hidden": false,
+        "hosted": [],
+        "id": "c47",
+        "installed": false,
+        "number": 36017,
+        "rezzed": false,
+        "side": "runner",
+        "strength": null,
+        "subTypes": [
+          "Natural"
+        ],
+        "subroutines": [],
+        "title": "Hiram “0mission” Svensson: Shadow of the Past",
+        "type": "identity"
+      },
+      "maxHand": 5,
+      "memory": 5,
+      "memoryUsed": 4,
+      "points": 8,
+      "resolving": [],
+      "rig": {
+        "hardware": [
+          {
+            "advancement": 0,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "faceUp": true,
+            "hidden": false,
+            "hosted": [],
+            "id": "c77",
+            "installed": true,
+            "number": 36020,
+            "rezzed": false,
+            "side": "runner",
+            "strength": null,
+            "subTypes": [
+              "Console",
+              "Stealth"
+            ],
+            "subroutines": [],
+            "title": "Methuselah",
+            "type": "hardware"
+          },
+          {
+            "advancement": 0,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "faceUp": true,
+            "hidden": false,
+            "hosted": [],
+            "id": "c79",
+            "installed": true,
+            "number": 36021,
+            "rezzed": false,
+            "side": "runner",
+            "strength": null,
+            "subTypes": [
+              "Stealth"
+            ],
+            "subroutines": [],
+            "title": "Touchstone",
+            "type": "hardware"
+          }
+        ],
+        "programs": [
+          {
+            "advancement": 0,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "faceUp": true,
+            "hidden": false,
+            "hosted": [],
+            "id": "c50",
+            "installed": true,
+            "number": 30005,
+            "rezzed": false,
+            "side": "runner",
+            "strength": 3,
+            "subTypes": [
+              "Icebreaker",
+              "Decoder"
+            ],
+            "subroutines": [],
+            "title": "Buzzsaw",
+            "type": "program"
+          },
+          {
+            "advancement": 0,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "faceUp": true,
+            "hidden": false,
+            "hosted": [],
+            "id": "c86",
+            "installed": true,
+            "number": 36023,
+            "rezzed": false,
+            "side": "runner",
+            "strength": null,
+            "subTypes": [],
+            "subroutines": [],
+            "title": "Sipa",
+            "type": "program"
+          }
+        ],
+        "resources": [
+          {
+            "advancement": 0,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {},
+            "faceUp": true,
+            "hidden": false,
+            "hosted": [],
+            "id": "c90",
+            "installed": true,
+            "number": 36025,
+            "rezzed": false,
+            "side": "runner",
+            "strength": null,
+            "subTypes": [],
+            "subroutines": [],
+            "title": "Word on the Street",
+            "type": "resource"
+          },
+          {
+            "advancement": 0,
+            "advancementRequirement": null,
+            "canScore": false,
+            "counters": {
+              "credits": 3
+            },
+            "faceUp": true,
+            "hidden": false,
+            "hosted": [],
+            "id": "c63",
+            "installed": true,
+            "number": 30027,
+            "rezzed": false,
+            "side": "runner",
+            "strength": null,
+            "subTypes": [
+              "Job"
+            ],
+            "subroutines": [],
+            "title": "Telework Contract",
+            "type": "resource"
+          }
+        ]
+      },
+      "score": [
+        {
+          "advancement": 0,
+          "advancementRequirement": 4,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c11",
+          "installed": false,
+          "number": 30067,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Expansion"
+          ],
+          "subroutines": [],
+          "title": "Offworld Office",
+          "type": "agenda"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": 3,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c12",
+          "installed": false,
+          "number": 30070,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Expansion"
+          ],
+          "subroutines": [],
+          "title": "Superconducting Hub",
+          "type": "agenda"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": 4,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c46",
+          "installed": false,
+          "number": 36066,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Initiative"
+          ],
+          "subroutines": [],
+          "title": "Let Them Dream",
+          "type": "agenda"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": 4,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c44",
+          "installed": false,
+          "number": 36066,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Initiative"
+          ],
+          "subroutines": [],
+          "title": "Let Them Dream",
+          "type": "agenda"
+        },
+        {
+          "advancement": 0,
+          "advancementRequirement": 3,
+          "canScore": false,
+          "counters": {},
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c13",
+          "installed": false,
+          "number": 30070,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Expansion"
+          ],
+          "subroutines": [],
+          "title": "Superconducting Hub",
+          "type": "agenda"
+        },
+        {
+          "advancement": 2,
+          "advancementRequirement": 4,
+          "canScore": false,
+          "counters": {
+            "advancement": 2
+          },
+          "faceUp": true,
+          "hidden": false,
+          "hosted": [],
+          "id": "c10",
+          "installed": false,
+          "number": 30067,
+          "rezzed": false,
+          "side": "corp",
+          "strength": null,
+          "subTypes": [
+            "Expansion"
+          ],
+          "subroutines": [],
+          "title": "Offworld Office",
+          "type": "agenda"
+        }
+      ],
+      "side": "runner",
+      "tags": 0,
+      "temporaryCredits": 0
+    },
+    "seed": "2bf8c0b3-1bfd-40fc-b17f-637a1b2ecd71",
+    "side": "corp",
+    "steps": 1128,
+    "terminal": {
+      "reason": "Runner reached 8 agenda points.",
+      "winner": "runner"
+    },
+    "turn": 36,
+    "version": 1128
+  },
+  "viewport": {
+    "height": 800,
+    "width": 1280
+  }
+}

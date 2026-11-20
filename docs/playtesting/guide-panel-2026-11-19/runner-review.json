@@ -1,0 +1,99 @@
+{
+  "reviewer": "Independent AI tester: Gateway-graduate Runner perspective",
+  "date": "2026-11-19",
+  "method": "Actual shared-browser incognito tab, rendered DOM button clicks and input/change events. Public localTable snapshots only during play. Routine actions used a bounded public-information heuristic driver, with manual opening choice and adjustments. No engine choices injected, hidden cards inspected, source edits, headless browser, or claims of human novice evidence. No screenshot-based visual audit performed.",
+  "guideChoice": {
+    "runner": "Loup · Tailored economy",
+    "corp": "Restoring Humanity · Ambushes",
+    "guideRecord": "28/54 Runner wins (52%)",
+    "reason": "Familiar identities and a small new-card package; fit the guide's first-Vantage learning path."
+  },
+  "crafting": {
+    "name": "Panel Runner 19Nov",
+    "base": "loup-vantage-tailor-v1",
+    "swaps": [
+      {
+        "remove": "1 Underdome Irregulars",
+        "add": "1 The Tungsten Tailor"
+      }
+    ],
+    "size": 40,
+    "influence": 7,
+    "limit": 15,
+    "rationale": "Focus on the named Tailor learning goal by increasing the probability of drawing it; remove a conditional out-of-faction resource. The second Tailor is unique and can be a dead duplicate, an explicit consistency tradeoff. This was a test hypothesis, not an optimization claim.",
+    "ui": "Tune deck opened from selected list, counted +/- changes live, showed40cards7/15 influence and Ready to play, and Save & use selected the local list. Game embedded the exact custom document.",
+    "limitation": "Guide gives pairing/learning goals but no candidate swaps, package dependencies, copy-count advice, or explanation of which benchmark observations still apply after changes."
+  },
+  "result": {
+    "diagnostics": [],
+    "points": {
+      "corp": 7,
+      "runner": 0
+    },
+    "terminal": {
+      "reason": "Corp reached 7 agenda points.",
+      "winner": "corp"
+    },
+    "turn": 17,
+    "version": 547
+  },
+  "ratings": {
+    "guideUsefulness": 7,
+    "guideDeckCraftingSupport": 4.5,
+    "deckbuildingClarity": 8,
+    "gameplayEnjoyment": 5.5,
+    "scale": "Subjective AI tester impressions out of10, based on one full game; not aggregate human ratings."
+  },
+  "worked": [
+    "The separate learning paths made the next goal concrete without changing identity.",
+    "Runner-win direction, sample counts, and preliminary labels were unambiguous.",
+    "The guide explicitly says custom decks are not benchmarked; important after tuning.",
+    "Changes summary, faction/influence totals and Save & use made one legal swap straightforward.",
+    "Tailor installed during game; weakened ice was visible, including Tithe at0 strength. Full game reached terminal with no diagnostic."
+  ],
+  "findings": [
+    {
+      "priority": "P1",
+      "finding": "Guide helps select a list but barely helps craft one.",
+      "evidence": "Its concrete advice is a named deck/pairing and a card to learn; to decide an actual swap I supplied my own understanding of uniqueness, conditional resources and consistency.",
+      "recommendation": "Add a small 'Try one change' recipe for each learning path: suggested cut/add, why, legal totals, expected tradeoff, and dependency warning."
+    },
+    {
+      "priority": "P1",
+      "finding": "Learning goal is not translated into a turn-by-turn plan.",
+      "evidence": "I installed Tailor but attacked HQ before completing my breaker rig, took repeated net damage and lost0–7. Driver choice is the main confound, but the guide did not supply a starting-hand checklist or first-run safety prompts.",
+      "recommendation": "Add compact mulligan priorities, minimum grip against damage, breaker/economy setup, and what to watch when the lesson triggers."
+    },
+    {
+      "priority": "P2",
+      "finding": "Guide-to-lobby handoff requires remembering exact deck names.",
+      "evidence": "I read the recommended pairing, clicked Back to lobby, then separately chose Runner and Corp in dropdowns. There is no Use this pairing action.",
+      "recommendation": "Add explicit Use this pairing links which populate both selected lists and preserve the return path, without auto-starting a game."
+    },
+    {
+      "priority": "P2",
+      "finding": "The page remains Runner-centric for opponent exploration.",
+      "evidence": "The only perspective selector is Your Runner deck and results always use Runner percentages. This was clear for my role, but does not directly help a Corp player choose an opponent.",
+      "recommendation": "Allow Corp perspective with explicit win-rate direction."
+    },
+    {
+      "priority": "P2",
+      "finding": "Vantage card inspector provenance is mislabeled.",
+      "evidence": "After the game I clicked installed The Tungsten Tailor. Rules/title were correct but the inspector footer said 'Art by Si F Sweetman · System Gateway #3'.",
+      "recommendation": "Use the actual expansion name from card metadata in inspector attribution."
+    }
+  ],
+  "gameplayNotes": [
+    "The first hand had Sure Gamble,Overclock,Cleaver,Jailbreak,Cleaver; kept because it provided income plus an initial breaker.",
+    "Tailor came online early, so the swap's learning target was actually seen.",
+    "The bounded driver overvalued HQ events and setup; it hit Diviner/Tithe before a complete rig, then became conservative about raw runs. This is a testing-policy weakness, not a demonstrated balance defect.",
+    "Corp scored7points in round9. The guide's52% describes AI averages for the original list; this one custom-list loss does not contradict it.",
+    "No blocked installation, endless mandatory paid ability, missing Keep button or crash was observed."
+  ],
+  "artifacts": {
+    "game": "runner-game.json",
+    "deck": "runner-deck.json",
+    "trace": "runner-ui-trace.json"
+  },
+  "overall": "Useful as a next-matchup chooser and learning syllabus; incomplete as a deck-crafting guide. The deckbuilder itself made the legal one-card experiment easy."
+}

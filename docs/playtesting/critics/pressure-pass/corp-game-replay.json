@@ -1,0 +1,487 @@
+{
+  "final": {
+    "diagnostics": [],
+    "points": {
+      "corp": 1,
+      "runner": 7
+    },
+    "terminal": {
+      "reason": "Runner reached 7 agenda points.",
+      "winner": "runner"
+    },
+    "turn": 46,
+    "version": 1538
+  },
+  "gameover": "RUNNER WINS\nAnother run awaits.\n\nRunner reached 7 agenda points.\n\nPlay again · same decks →\nChange decks",
+  "session": {
+    "choices": [
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1
+      },
+      {
+        "command": "install",
+        "index": 2,
+        "version": 8
+      },
+      {
+        "command": "install",
+        "index": 1,
+        "version": 10
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 12
+      },
+      {
+        "command": "install",
+        "index": 9,
+        "version": 43
+      },
+      {
+        "command": "install",
+        "index": 3,
+        "version": 45
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 47
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 79
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 80
+      },
+      {
+        "command": "score",
+        "index": 0,
+        "version": 81
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 82
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 84
+      },
+      {
+        "command": "install",
+        "index": 7,
+        "version": 87
+      },
+      {
+        "command": "install",
+        "index": 5,
+        "version": 120
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 122
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 123
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 139
+      },
+      {
+        "command": "rez",
+        "index": 0,
+        "version": 141
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 146
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 149
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 165
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 166
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 187
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 188
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 189
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 222
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 223
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 224
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 257
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 258
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 259
+      },
+      {
+        "command": "play",
+        "index": 2,
+        "version": 291
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 293
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 294
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 316
+      },
+      {
+        "command": "rez",
+        "index": 0,
+        "version": 318
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 361
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 362
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 363
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 512
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 513
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 514
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 604
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 605
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 606
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 699
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 700
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 701
+      },
+      {
+        "command": "install",
+        "index": 12,
+        "version": 735
+      },
+      {
+        "command": "install",
+        "index": 3,
+        "version": 737
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 739
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 753
+      },
+      {
+        "command": "rez",
+        "index": 0,
+        "version": 755
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 788
+      },
+      {
+        "command": "rez",
+        "index": 0,
+        "version": 790
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 834
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 846
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 847
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 848
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 908
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 909
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 910
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 967
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 968
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 969
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 1076
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 1077
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 1078
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 1081
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 1144
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 1145
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 1146
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 1203
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 1204
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 1205
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 1208
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 1240
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 1241
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 1242
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 1245
+      },
+      {
+        "command": "play",
+        "index": 5,
+        "version": 1374
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 1376
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 1377
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 1442
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 1443
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 1444
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 1447
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 1497
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 1498
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 1499
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 1502
+      }
+    ],
+    "conceded": false,
+    "config": {
+      "aiPolicy": "pressure-v1",
+      "deckIds": {
+        "corp": "precision-design-v2",
+        "runner": "loup-v1"
+      },
+      "rulesVersion": "26.03-local-2",
+      "seed": "03dbc3ec-3b28-4232-a071-2984601d141e",
+      "side": "corp"
+    },
+    "engine": "chiriboga-77c80b1-local-1"
+  }
+}

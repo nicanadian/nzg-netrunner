@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-16",
+  "scope": "Critic recommendations implemented in development code; release 0.2.1 downloads unchanged.",
+  "changes": [
+    "Vantage: nine recommended play decks separated from eleven interaction test pilots. Four new supported play lists; frozen existing lists and IDs retained. Deck-health hints identify missing breaker types and unsupported Baker/stealth combinations.",
+    "Lobby actions remain in normal document flow and no longer overlay deck selectors.",
+    "Corp install picker groups equivalent physical copies and asks for a destination after the card; single-destination choices retain a direct quoted action. Differently priced copies remain separate.",
+    "Optional-effect decline and hidden-access zone labels are explicit without exposing card identity. Jailbreak's mandatory successful-run trigger is named and streamlined.",
+    "Unavailable breaker cards use compact explanations. Bioroid break-all uses a bounded series of current native choices and stops when costs, subroutines, priority, or the encounter change.",
+    "Installation confirmation lives in one modal; the sidebar only reopens it. Postgame hides priority and stale receipts. Printed click symbols render accessibly in card text."
+  ],
+  "browser": {
+    "method": "Actual shared-browser DOM controls, no engine choice injection. Targeted checkpoints restored using Paste game replay.",
+    "desktopViewport": [
+      1280,
+      800
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "lobbyOverlapResolved": true,
+    "installPicker": {
+      "nativeOptions": 13,
+      "cardRows": 3,
+      "destinationChosen": "Tithe → HQ",
+      "finishedWithoutExtraManualConfirmation": true
+    },
+    "batch": {
+      "after": {
+        "allBroken": true,
+        "clicks": 0,
+        "phase": {
+          "identifier": "Run 4.3",
+          "source": null,
+          "title": "Run: Movement"
+        }
+      },
+      "before": {
+        "choices": 101,
+        "clicks": 3
+      },
+      "errors": [],
+      "ui": ""
+    },
+    "singleInstallConfirmation": {
+      "errors": [],
+      "footerHidden": true,
+      "modal": true,
+      "modalConfirmationCount": 1,
+      "sidebar": "Finish the installation in the installation dialog.\n\nReview installation →",
+      "sidebarConfirmButtons": 0
+    },
+    "cardTypography": {
+      "card": "Luminal Transubstantiation",
+      "accessibleClickSymbols": 3
+    },
+    "mobile": {
+      "dialogWidth": 366,
+      "noHorizontalOverflow": true
+    },
+    "freshGames": [
+      {
+        "side": "runner",
+        "choices": 557,
+        "terminal": {
+          "reason": "Corp reached 8 agenda points.",
+          "winner": "corp"
+        },
+        "points": {
+          "corp": 8,
+          "runner": 6
+        },
+        "errors": [],
+        "postgame": {
+          "priorityHidden": true,
+          "receiptHidden": true
+        }
+      },
+      {
+        "side": "corp",
+        "choices": 38,
+        "terminal": {
+          "reason": "Runner reached 7 agenda points.",
+          "winner": "runner"
+        },
+        "points": {
+          "corp": 0,
+          "runner": 7
+        },
+        "errors": [],
+        "postgame": {
+          "priorityHidden": true,
+          "receiptHidden": true
+        }
+      }
+    ],
+    "replayValidation": "replay-validation.json"
+  },
+  "validation": {
+    "fullDevelopmentSuite": "npm run check:dev passed (tmp/critics-ship-check.log)",
+    "focusedNative": "tests/critics-polish.cjs covers real recorded decisions, 3-click Ansel 1.0 batch and 4-click Ansel 2.0 batch, funded/legal recommended decks, install grouping, privacy and optional copy",
+    "frontend": "tests/frontend-audit.cjs passed",
+    "syntaxAndWhitespace": true,
+    "engineSmoke": "play-deck-results.json: all 100 games across 20 recommended-deck matchups completed; not balance/strategic AI certification"
+  }
+}

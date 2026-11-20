@@ -1,0 +1,132 @@
+{
+  "reviewer": "dependency",
+  "date": "2026-11-19",
+  "method": {
+    "browser": "Own incognito tab_x only",
+    "snapshot": "Timed out at 15000ms. DOM-only review; no visual-layout conclusions.",
+    "automation": "Bounded routines clicked rendered DOM controls for economy, draw, options, payment and Skip to decision. Strategically adaptive decisions used only localTable.state. No headless simulation, engine/worker methods or private card information. localTable.session read only after terminal.",
+    "scope": "Artifacts only; no product source edits; no storage cleared or restored."
+  },
+  "tasks": [
+    {
+      "id": "D1",
+      "status": "completed",
+      "actions": [
+        "Opened lobby Pairing & learning guide in own tab; changed guide pool to Vantage and runner to Tao stealth foundation.",
+        "Read exact Tao-vs-HB recommended pairing (27/54, 50%).",
+        "Read lobby synopsis plus Touchstone and Corsair full card text from builder.",
+        "Post-game expanded Deckbuilding basics to confirm its scope."
+      ],
+      "guideKnowledge": [
+        "Recommendation explicitly says learn stealth credits, practice Touchstone and Corsair.",
+        "Lobby synopsis explicitly links Touchstone stealth credits to Corsair weakening barriers.",
+        "Pairing guide warns that AI results are list-specific and custom decks are unbenchmarked.",
+        "Builder basics explains size, influence and one-for-one swapping."
+      ],
+      "ownKnowledge": [
+        "Operational dependency: Touchstone needs an event before it has a credit; Corsair strength reduction needs stealth specifically, while breaking can use normal run credits.",
+        "Need enough stealth credits for repeated reductions; barrier subtype and strength must be checked per encounter."
+      ],
+      "evidence": [
+        "Guide rendered text: Practice Touchstone and Corsair while keeping familiar identities.",
+        "Lobby: Build stealth credits with Touchstone, then use Corsair to weaken barriers.",
+        "Touchstone card text: first event each turn loads 1; hosted credits spendable during runs.",
+        "Corsair card text: -3 strength ability spends credits only from stealth cards."
+      ],
+      "friction": [
+        {
+          "severity": "medium",
+          "finding": "Recommendation names the package but does not teach the dependency chain, event-loading timing, stealth-only cost, or preservation when tuning."
+        },
+        {
+          "severity": "low",
+          "finding": "Guide recommendations are plain text rather than launch actions; pool and exact deck/opponent must be selected again in lobby."
+        }
+      ],
+      "improvement": "Add a short dependency lesson beside recommended pairing and carry exact pairing to lobby.",
+      "acceptanceTest": "New reader can explain event → Touchstone credit → Corsair reduction → barrier break; follow a pairing action that selects exact Tao/HB lists."
+    },
+    {
+      "id": "D2",
+      "status": "completed",
+      "actions": [
+        "Tune deck on Tao stealth foundation. Removed all 3 Touchstones with − buttons, then added 3 Smartware Distributors through Add replacements.",
+        "Observed 40 cards · 8/15 influence · Ready to play and changes -3 Touchstone +3 Smartware Distributor; no coherence warning.",
+        "Removed all Smartware replacements and restored all 3 Touchstones before saving or starting game.",
+        "Made final 1-slot substitution: -1 Pantograph +1 DZMZ Optimizer; named Suite Dependency 19Nov; Save & use; Jack in."
+      ],
+      "guideKnowledge": [
+        "Builder legality checks catch deck minimum (37 cards Needs changes) and show count/influence.",
+        "Deckbuilding basics gives legality rules and mechanics but no functional-package guidance."
+      ],
+      "ownKnowledge": [
+        "Without Touchstone or another stealth source, three Corsairs cannot lower positive-strength barriers even though list is legal.",
+        "Final revision increases chance of MU/install-discount hardware for breaker rig plus Conduit; costs a Pantograph draw/install opportunity after agenda acquisition."
+      ],
+      "evidence": [
+        "Actual builder transition: 37 cards needs changes → 40 cards Ready to play after unrelated additions.",
+        "Session embedded exact named revised list: DZMZ count3, Pantograph count1, Touchstone count3, Corsair count3."
+      ],
+      "friction": [
+        {
+          "severity": "high",
+          "finding": "Ready to play conflates rules legality with functional coherence: zero stealth sources left, Corsair package still green."
+        }
+      ],
+      "improvement": "Show nonblocking coherence advice separate from legality: Corsair is present but no stealth-credit source is present; link to cards and explain legal versus functional.",
+      "acceptanceTest": "Remove last Touchstone while retaining Corsair and replacing size with ordinary economy. Legal remains saveable but a clearly separate advisory names the missing dependency; restoring Touchstone clears it."
+    },
+    {
+      "id": "D3",
+      "status": "completed",
+      "actions": [
+        "Played full natural game with revised Tao against exact HB Tempo and recycling; kept economical opener and built rig/drew toward stealth.",
+        "Loaded Touchstone using Creative Commission, VRcation, Jailbreak, Overclock and Sure Gamble events.",
+        "UI turn8: explicitly confirmed payment from Touchstone for Echelon breaking Tithe's net damage; allowed 1-credit subroutine.",
+        "UI turn9/internal18: Overclock run on UI Remote2; Palisade str4 lowered twice via Corsair using two Touchstone credits; broke ETR with Overclock funds; Echelon broke inner Tithe damage with Overclock; stole Offworld Office.",
+        "Later used Unity against Sleipnir code gate; Echelon against Ansel sentry; clicked bioroid subroutines when preserving pool made sense.",
+        "UI turn15/internal30: complete R&D run traversed Bran, Palisade, Sleipnir, Ansel and Tithe; stole Superconducting Hub then Offworld Office to win 7–6."
+      ],
+      "guideKnowledge": [
+        "Learning goal identifies Touchstone/Corsair as the package.",
+        "Lobby HB synopsis alerts to Vertigo last-click and Vicsek tag escalation."
+      ],
+      "ownKnowledge": [
+        "Specific threats dictated breaks: preserve rig against Ansel trash and preserve steal permission; accept installation subroutine when saving resources; let Tithe net damage through only with disposable hand buffer.",
+        "Early Vicsek with zero tags caused no first-sub damage; accepted one tag, jacked out before inner unknown last-click ice and removed tag next turn.",
+        "Named credits are finite and held for Corsair when appropriate; Overclock was chosen for ordinary run costs."
+      ],
+      "evidence": [
+        "dependency-game.json terminal Runner reached 7 agenda points; corp6 runner7, version1172, internal turn30, diagnostics[].",
+        "Public history records two Touchstone-paid Corsair reductions against str4 remote Palisade, subsequent barrier break, and Offworld Office steal.",
+        "Session config contains exact custom list and replay choices; session read only after terminal."
+      ],
+      "friction": [
+        {
+          "severity": "medium",
+          "finding": "Full card text plus payment UI made lesson actionable, but learning depended on own rules knowledge and sequential inspection beyond guide recommendation."
+        },
+        {
+          "severity": "low",
+          "finding": "Automated DOM routine over-continued one later run and allowed Sleipnir ETR, ending that run; this is reviewer automation error, not a product defect. No wrong-breaker boosting used."
+        }
+      ],
+      "improvement": "Include worked Palisade example: strength4 needs two stealth credits to reduce to0 and one ordinary credit to break; warn that stealth spent elsewhere reduces barrier capacity.",
+      "acceptanceTest": "Learner can plan named-source payments before a run and demonstrate Corsair reduction with Touchstone, then break with ordinary run funds; empty stealth case explains why reduction is unavailable."
+    }
+  ],
+  "conclusion": "Learning goal succeeded in actual play, but neither pairing guide nor builder protects the package during legal tuning. One game does not establish improvement or equality with bundled benchmark.",
+  "result": {
+    "diagnostics": [],
+    "points": {
+      "corp": 6,
+      "runner": 7
+    },
+    "terminal": {
+      "reason": "Runner reached 7 agenda points.",
+      "winner": "runner"
+    },
+    "turn": 30,
+    "version": 1172
+  }
+}

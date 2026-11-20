@@ -10,7 +10,7 @@ export function runDrawerModel(state, busy = false) {
     : run.encountering ? 'Encounter' : run.movement ? 'Movement'
     : phase.identifier === 'Run 1.5' ? 'Initiation' : run.ice >= 0 ? 'Approach' : 'Breach';
   const card = state.viewed?.card || state.access || run.card;
-  const subroutines = card && !card.hidden ? card.subroutines || [] : [];
+  const subroutines = card && !card.hidden && run.iceOutcome!=='passed-unrezzed' ? card.subroutines || [] : [];
   const remaining = subroutines.filter(s => !s.broken && !s.fired).length;
   const commands = busy ? [] : state.decision?.commands || [];
   const controls = commands.filter(c => ['n','jack'].includes(c.command) && c.options.length === 1 &&
@@ -24,7 +24,7 @@ export function runDrawerModel(state, busy = false) {
       detail = phase.identifier === 'Run 3.1'
         ? (remaining ? 'If both players pass, unbroken subroutines resolve in order.' : 'Pass this window. Pending responses finish before you move past this ice.')
         : 'Allow responses. The run advances when both players pass.';
-    } else if (phase.identifier === 'Run 4.3') {label='Continue the run';detail='Move to the next run window, or jack out to end the run.';}
+    } else if (phase.identifier === 'Run 4.3') {label='Continue the run';detail=run.iceOutcome==='removed'?'The approached ice left its position. Continue inward, or jack out.':run.iceOutcome==='passed-unrezzed'?'The Corp left this ice inactive. No encounter or subroutines resolved.':'Move to the next run window, or jack out to end the run.';}
     const warning=iceRezWarning(state);
     if(c.command==='n' && warning){label=warning.label;detail='Review the warning before allowing the Runner past this inactive ice.';}
     return {command:c.command,index:c.options[0].index,label,detail,cost:c.cost};

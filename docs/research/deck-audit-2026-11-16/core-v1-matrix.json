@@ -1,0 +1,2143 @@
+{
+  "schemaVersion": 1,
+  "kind": "netrunner-matrix",
+  "engineHash": "d8ca9a11d7e9724aa0636b608763aa8c7265d22404dbcb0467dd721496b10dbd",
+  "runners": [
+    {
+      "label": "phoenix-core-v1",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "Ryō “Phoenix” Ōno: Out of the Ashes",
+        "side": "runner",
+        "identity": "35001",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 2
+          },
+          {
+            "id": "30015",
+            "count": 2
+          },
+          {
+            "id": "30026",
+            "count": 2
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 2
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 2
+          },
+          {
+            "id": "30034",
+            "count": 2
+          },
+          {
+            "id": "35003",
+            "count": 2
+          },
+          {
+            "id": "35004",
+            "count": 2
+          },
+          {
+            "id": "35005",
+            "count": 3
+          },
+          {
+            "id": "35009",
+            "count": 3
+          },
+          {
+            "id": "35011",
+            "count": 3
+          },
+          {
+            "id": "35015",
+            "count": 3
+          },
+          {
+            "id": "35018",
+            "count": 2
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "url": "https://netrunnerdb.com/en/decklist/074c32b0-6429-49ec-91c1-46dcddba9e4b/-nsg-core-dashing-mad"
+        }
+      }
+    },
+    {
+      "label": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Bowel Movements",
+        "side": "runner",
+        "identity": "30001",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30003",
+            "count": 3
+          },
+          {
+            "id": "30004",
+            "count": 2
+          },
+          {
+            "id": "30005",
+            "count": 1
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 2
+          },
+          {
+            "id": "30009",
+            "count": 2
+          },
+          {
+            "id": "30013",
+            "count": 1
+          },
+          {
+            "id": "30022",
+            "count": 1
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 2
+          },
+          {
+            "id": "35004",
+            "count": 3
+          },
+          {
+            "id": "35007",
+            "count": 3
+          },
+          {
+            "id": "35008",
+            "count": 1
+          },
+          {
+            "id": "35009",
+            "count": 3
+          },
+          {
+            "id": "35010",
+            "count": 3
+          },
+          {
+            "id": "35011",
+            "count": 2
+          },
+          {
+            "id": "35016",
+            "count": 2
+          },
+          {
+            "id": "35026",
+            "count": 2
+          },
+          {
+            "id": "35029",
+            "count": 1
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/81c60189-b0b9-429b-83a8-0cd6611fcff1",
+          "externalId": "81c60189-b0b9-429b-83a8-0cd6611fcff1",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:13:32+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.029Z",
+          "originalTitle": "[NSG Core] Bowel Movements"
+        }
+      }
+    },
+    {
+      "label": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Prick Thyself",
+        "side": "runner",
+        "identity": "35002",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 2
+          },
+          {
+            "id": "30012",
+            "count": 1
+          },
+          {
+            "id": "30021",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 1
+          },
+          {
+            "id": "30025",
+            "count": 1
+          },
+          {
+            "id": "30026",
+            "count": 1
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 3
+          },
+          {
+            "id": "35003",
+            "count": 1
+          },
+          {
+            "id": "35004",
+            "count": 3
+          },
+          {
+            "id": "35005",
+            "count": 2
+          },
+          {
+            "id": "35006",
+            "count": 3
+          },
+          {
+            "id": "35007",
+            "count": 2
+          },
+          {
+            "id": "35009",
+            "count": 3
+          },
+          {
+            "id": "35011",
+            "count": 3
+          },
+          {
+            "id": "35025",
+            "count": 1
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/bbcf997a-3ec6-4728-9813-82df335db2f3",
+          "externalId": "bbcf997a-3ec6-4728-9813-82df335db2f3",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:13:58+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.021Z",
+          "originalTitle": "[NSG Core] Prick Thyself"
+        }
+      }
+    },
+    {
+      "label": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5",
+      "deck": {
+        "schemaVersion": 1,
+        "name": " [NSG Core] Tickets, please",
+        "side": "runner",
+        "identity": "30010",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30008",
+            "count": 2
+          },
+          {
+            "id": "30011",
+            "count": 2
+          },
+          {
+            "id": "30012",
+            "count": 2
+          },
+          {
+            "id": "30013",
+            "count": 2
+          },
+          {
+            "id": "30014",
+            "count": 2
+          },
+          {
+            "id": "30015",
+            "count": 1
+          },
+          {
+            "id": "30016",
+            "count": 3
+          },
+          {
+            "id": "30024",
+            "count": 1
+          },
+          {
+            "id": "30026",
+            "count": 1
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "35004",
+            "count": 1
+          },
+          {
+            "id": "35009",
+            "count": 1
+          },
+          {
+            "id": "35014",
+            "count": 3
+          },
+          {
+            "id": "35015",
+            "count": 3
+          },
+          {
+            "id": "35016",
+            "count": 2
+          },
+          {
+            "id": "35022",
+            "count": 3
+          },
+          {
+            "id": "35026",
+            "count": 1
+          },
+          {
+            "id": "35027",
+            "count": 1
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/96ef311d-5a55-43e3-be41-28b072994e30",
+          "externalId": "96ef311d-5a55-43e3-be41-28b072994e30",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:14:06+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.041Z",
+          "originalTitle": " [NSG Core] Tickets, please"
+        }
+      }
+    },
+    {
+      "label": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd",
+      "deck": {
+        "schemaVersion": 1,
+        "name": " [NSG Core] Shootin' 'n' Lootin'",
+        "side": "runner",
+        "identity": "35013",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30008",
+            "count": 2
+          },
+          {
+            "id": "30011",
+            "count": 1
+          },
+          {
+            "id": "30012",
+            "count": 2
+          },
+          {
+            "id": "30013",
+            "count": 1
+          },
+          {
+            "id": "30014",
+            "count": 2
+          },
+          {
+            "id": "30016",
+            "count": 3
+          },
+          {
+            "id": "30025",
+            "count": 2
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "35005",
+            "count": 2
+          },
+          {
+            "id": "35009",
+            "count": 1
+          },
+          {
+            "id": "35014",
+            "count": 3
+          },
+          {
+            "id": "35016",
+            "count": 2
+          },
+          {
+            "id": "35017",
+            "count": 3
+          },
+          {
+            "id": "35020",
+            "count": 2
+          },
+          {
+            "id": "35022",
+            "count": 3
+          },
+          {
+            "id": "35026",
+            "count": 3
+          },
+          {
+            "id": "35029",
+            "count": 1
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/a9c9e074-d20a-40ca-8030-f5d0d1ce677f",
+          "externalId": "a9c9e074-d20a-40ca-8030-f5d0d1ce677f",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:14:18+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.235Z",
+          "originalTitle": " [NSG Core] Shootin' 'n' Lootin'"
+        }
+      }
+    },
+    {
+      "label": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Professional Opportunities",
+        "side": "runner",
+        "identity": "35012",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30008",
+            "count": 1
+          },
+          {
+            "id": "30011",
+            "count": 2
+          },
+          {
+            "id": "30013",
+            "count": 1
+          },
+          {
+            "id": "30015",
+            "count": 2
+          },
+          {
+            "id": "30016",
+            "count": 3
+          },
+          {
+            "id": "30017",
+            "count": 2
+          },
+          {
+            "id": "30018",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 1
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "35009",
+            "count": 1
+          },
+          {
+            "id": "35014",
+            "count": 3
+          },
+          {
+            "id": "35015",
+            "count": 3
+          },
+          {
+            "id": "35019",
+            "count": 3
+          },
+          {
+            "id": "35020",
+            "count": 2
+          },
+          {
+            "id": "35021",
+            "count": 2
+          },
+          {
+            "id": "35022",
+            "count": 3
+          },
+          {
+            "id": "35028",
+            "count": 2
+          },
+          {
+            "id": "35030",
+            "count": 2
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/aca8a765-6c5b-4f3a-81c8-16c4dde32fdd",
+          "externalId": "aca8a765-6c5b-4f3a-81c8-16c4dde32fdd",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:14:36+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.235Z",
+          "originalTitle": "[NSG Core] Professional Opportunities"
+        }
+      }
+    },
+    {
+      "label": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Flow and Ebb",
+        "side": "runner",
+        "identity": "30019",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30005",
+            "count": 2
+          },
+          {
+            "id": "30008",
+            "count": 2
+          },
+          {
+            "id": "30011",
+            "count": 1
+          },
+          {
+            "id": "30012",
+            "count": 2
+          },
+          {
+            "id": "30014",
+            "count": 2
+          },
+          {
+            "id": "30020",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 1
+          },
+          {
+            "id": "30024",
+            "count": 1
+          },
+          {
+            "id": "30025",
+            "count": 2
+          },
+          {
+            "id": "30027",
+            "count": 3
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 2
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 2
+          },
+          {
+            "id": "35026",
+            "count": 3
+          },
+          {
+            "id": "35027",
+            "count": 1
+          },
+          {
+            "id": "35030",
+            "count": 2
+          },
+          {
+            "id": "35032",
+            "count": 2
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/1bf875a5-4138-40d3-87f0-de874f63135e",
+          "externalId": "1bf875a5-4138-40d3-87f0-de874f63135e",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:14:44+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.247Z",
+          "originalTitle": "[NSG Core] Flow and Ebb"
+        }
+      }
+    },
+    {
+      "label": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442",
+      "deck": {
+        "schemaVersion": 1,
+        "name": " [NSG Core] Enthusiasm",
+        "side": "runner",
+        "identity": "35023",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30018",
+            "count": 2
+          },
+          {
+            "id": "30020",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 2
+          },
+          {
+            "id": "30025",
+            "count": 1
+          },
+          {
+            "id": "30026",
+            "count": 1
+          },
+          {
+            "id": "30027",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30032",
+            "count": 3
+          },
+          {
+            "id": "35004",
+            "count": 1
+          },
+          {
+            "id": "35022",
+            "count": 2
+          },
+          {
+            "id": "35025",
+            "count": 2
+          },
+          {
+            "id": "35026",
+            "count": 3
+          },
+          {
+            "id": "35027",
+            "count": 1
+          },
+          {
+            "id": "35028",
+            "count": 2
+          },
+          {
+            "id": "35029",
+            "count": 1
+          },
+          {
+            "id": "35030",
+            "count": 2
+          },
+          {
+            "id": "35031",
+            "count": 3
+          },
+          {
+            "id": "35032",
+            "count": 1
+          },
+          {
+            "id": "35033",
+            "count": 3
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/14966eb5-a65c-4578-83bb-345e566df203",
+          "externalId": "14966eb5-a65c-4578-83bb-345e566df203",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:14:52+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.269Z",
+          "originalTitle": " [NSG Core] Enthusiasm"
+        }
+      }
+    },
+    {
+      "label": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd",
+      "deck": {
+        "schemaVersion": 1,
+        "name": " [NSG Core] Sabbatical",
+        "side": "runner",
+        "identity": "35024",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 2
+          },
+          {
+            "id": "30007",
+            "count": 2
+          },
+          {
+            "id": "30012",
+            "count": 3
+          },
+          {
+            "id": "30020",
+            "count": 3
+          },
+          {
+            "id": "30021",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 2
+          },
+          {
+            "id": "30023",
+            "count": 2
+          },
+          {
+            "id": "30025",
+            "count": 2
+          },
+          {
+            "id": "30026",
+            "count": 2
+          },
+          {
+            "id": "30027",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 1
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 2
+          },
+          {
+            "id": "35004",
+            "count": 2
+          },
+          {
+            "id": "35026",
+            "count": 3
+          },
+          {
+            "id": "35027",
+            "count": 1
+          },
+          {
+            "id": "35029",
+            "count": 1
+          },
+          {
+            "id": "35031",
+            "count": 3
+          },
+          {
+            "id": "35032",
+            "count": 2
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/9727f883-4edd-4f1a-aabc-e1f94fd63834",
+          "externalId": "9727f883-4edd-4f1a-aabc-e1f94fd63834",
+          "author": "Girometics",
+          "updatedAt": "2026-11-06T20:03:51+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.475Z",
+          "originalTitle": " [NSG Core] Sabbatical"
+        }
+      }
+    }
+  ],
+  "corps": [
+    {
+      "label": "precision-design-core-v1",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "Haas-Bioroid: Precision Design",
+        "side": "corp",
+        "identity": "30035",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30038",
+            "count": 1
+          },
+          {
+            "id": "30039",
+            "count": 2
+          },
+          {
+            "id": "30040",
+            "count": 3
+          },
+          {
+            "id": "30042",
+            "count": 3
+          },
+          {
+            "id": "30050",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 1
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30071",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35038",
+            "count": 2
+          },
+          {
+            "id": "35039",
+            "count": 2
+          },
+          {
+            "id": "35041",
+            "count": 3
+          },
+          {
+            "id": "35042",
+            "count": 2
+          },
+          {
+            "id": "35045",
+            "count": 2
+          },
+          {
+            "id": "35075",
+            "count": 3
+          },
+          {
+            "id": "35079",
+            "count": 2
+          },
+          {
+            "id": "35082",
+            "count": 2
+          }
+        ],
+        "source": {
+          "url": "https://netrunnerdb.com/en/decklist/b441510e-00e7-42b7-a559-a7eba52b31a4/-nsg-core-brutal-efficiency"
+        }
+      }
+    },
+    {
+      "label": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Agency",
+        "side": "corp",
+        "identity": "35035",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30038",
+            "count": 2
+          },
+          {
+            "id": "30039",
+            "count": 3
+          },
+          {
+            "id": "30040",
+            "count": 1
+          },
+          {
+            "id": "30041",
+            "count": 1
+          },
+          {
+            "id": "30042",
+            "count": 3
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30071",
+            "count": 1
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35038",
+            "count": 3
+          },
+          {
+            "id": "35040",
+            "count": 3
+          },
+          {
+            "id": "35041",
+            "count": 3
+          },
+          {
+            "id": "35042",
+            "count": 1
+          },
+          {
+            "id": "35043",
+            "count": 1
+          },
+          {
+            "id": "35045",
+            "count": 3
+          },
+          {
+            "id": "35054",
+            "count": 3
+          },
+          {
+            "id": "35076",
+            "count": 3
+          },
+          {
+            "id": "35079",
+            "count": 1
+          },
+          {
+            "id": "35081",
+            "count": 3
+          },
+          {
+            "id": "35082",
+            "count": 2
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/8b2c2754-48c2-4375-a124-e1eebba9a95e",
+          "externalId": "8b2c2754-48c2-4375-a124-e1eebba9a95e",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:15:14+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.457Z",
+          "originalTitle": "[NSG Core] Agency"
+        }
+      }
+    },
+    {
+      "label": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Fashion Lab",
+        "side": "corp",
+        "identity": "35036",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30037",
+            "count": 3
+          },
+          {
+            "id": "30038",
+            "count": 1
+          },
+          {
+            "id": "30039",
+            "count": 1
+          },
+          {
+            "id": "30040",
+            "count": 1
+          },
+          {
+            "id": "30042",
+            "count": 1
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 1
+          },
+          {
+            "id": "30069",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 2
+          },
+          {
+            "id": "35037",
+            "count": 3
+          },
+          {
+            "id": "35038",
+            "count": 3
+          },
+          {
+            "id": "35039",
+            "count": 3
+          },
+          {
+            "id": "35040",
+            "count": 3
+          },
+          {
+            "id": "35041",
+            "count": 3
+          },
+          {
+            "id": "35042",
+            "count": 3
+          },
+          {
+            "id": "35043",
+            "count": 2
+          },
+          {
+            "id": "35044",
+            "count": 1
+          },
+          {
+            "id": "35045",
+            "count": 2
+          },
+          {
+            "id": "35053",
+            "count": 1
+          },
+          {
+            "id": "35072",
+            "count": 3
+          },
+          {
+            "id": "35075",
+            "count": 3
+          },
+          {
+            "id": "35082",
+            "count": 2
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/8d182470-77e1-4d5e-b55e-19f08dc44470",
+          "externalId": "8d182470-77e1-4d5e-b55e-19f08dc44470",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:15:21+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.507Z",
+          "originalTitle": "[NSG Core] Fashion Lab"
+        }
+      }
+    },
+    {
+      "label": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Hidden Funds",
+        "side": "corp",
+        "identity": "30043",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30039",
+            "count": 3
+          },
+          {
+            "id": "30048",
+            "count": 3
+          },
+          {
+            "id": "30050",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35048",
+            "count": 3
+          },
+          {
+            "id": "35049",
+            "count": 3
+          },
+          {
+            "id": "35052",
+            "count": 3
+          },
+          {
+            "id": "35053",
+            "count": 2
+          },
+          {
+            "id": "35054",
+            "count": 2
+          },
+          {
+            "id": "35055",
+            "count": 2
+          },
+          {
+            "id": "35056",
+            "count": 1
+          },
+          {
+            "id": "35063",
+            "count": 3
+          },
+          {
+            "id": "35079",
+            "count": 3
+          },
+          {
+            "id": "35081",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/fd9af10d-4c0f-4b70-ad5d-83aa51903a16",
+          "externalId": "fd9af10d-4c0f-4b70-ad5d-83aa51903a16",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:15:30+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.703Z",
+          "originalTitle": "[NSG Core] Hidden Funds"
+        }
+      }
+    },
+    {
+      "label": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Peculiarity",
+        "side": "corp",
+        "identity": "35047",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30042",
+            "count": 1
+          },
+          {
+            "id": "30044",
+            "count": 1
+          },
+          {
+            "id": "30045",
+            "count": 2
+          },
+          {
+            "id": "30047",
+            "count": 3
+          },
+          {
+            "id": "30048",
+            "count": 3
+          },
+          {
+            "id": "30050",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30061",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30072",
+            "count": 2
+          },
+          {
+            "id": "30074",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 2
+          },
+          {
+            "id": "35048",
+            "count": 3
+          },
+          {
+            "id": "35049",
+            "count": 3
+          },
+          {
+            "id": "35052",
+            "count": 2
+          },
+          {
+            "id": "35053",
+            "count": 2
+          },
+          {
+            "id": "35054",
+            "count": 3
+          },
+          {
+            "id": "35055",
+            "count": 3
+          },
+          {
+            "id": "35056",
+            "count": 2
+          },
+          {
+            "id": "35079",
+            "count": 1
+          },
+          {
+            "id": "35081",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/568d1eb8-340c-4bb1-bf77-54c21b514833",
+          "externalId": "568d1eb8-340c-4bb1-bf77-54c21b514833",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:15:38+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.671Z",
+          "originalTitle": "[NSG Core] Peculiarity"
+        }
+      }
+    },
+    {
+      "label": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Glyph of Warding",
+        "side": "corp",
+        "identity": "35046",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30044",
+            "count": 1
+          },
+          {
+            "id": "30048",
+            "count": 3
+          },
+          {
+            "id": "30050",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30068",
+            "count": 3
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30074",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35049",
+            "count": 3
+          },
+          {
+            "id": "35050",
+            "count": 2
+          },
+          {
+            "id": "35051",
+            "count": 3
+          },
+          {
+            "id": "35052",
+            "count": 2
+          },
+          {
+            "id": "35054",
+            "count": 3
+          },
+          {
+            "id": "35078",
+            "count": 3
+          },
+          {
+            "id": "35079",
+            "count": 1
+          },
+          {
+            "id": "35080",
+            "count": 3
+          },
+          {
+            "id": "35081",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/da28fae5-8c7c-4354-8ed3-6ce6e5769cec",
+          "externalId": "da28fae5-8c7c-4354-8ed3-6ce6e5769cec",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:15:45+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.717Z",
+          "originalTitle": "[NSG Core] Glyph of Warding"
+        }
+      }
+    },
+    {
+      "label": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Fine Print",
+        "side": "corp",
+        "identity": "30051",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30052",
+            "count": 1
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30054",
+            "count": 2
+          },
+          {
+            "id": "30055",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 3
+          },
+          {
+            "id": "30057",
+            "count": 2
+          },
+          {
+            "id": "30058",
+            "count": 2
+          },
+          {
+            "id": "30067",
+            "count": 2
+          },
+          {
+            "id": "30071",
+            "count": 2
+          },
+          {
+            "id": "35040",
+            "count": 3
+          },
+          {
+            "id": "35042",
+            "count": 1
+          },
+          {
+            "id": "35050",
+            "count": 2
+          },
+          {
+            "id": "35059",
+            "count": 3
+          },
+          {
+            "id": "35060",
+            "count": 2
+          },
+          {
+            "id": "35061",
+            "count": 2
+          },
+          {
+            "id": "35062",
+            "count": 3
+          },
+          {
+            "id": "35063",
+            "count": 3
+          },
+          {
+            "id": "35065",
+            "count": 2
+          },
+          {
+            "id": "35066",
+            "count": 1
+          },
+          {
+            "id": "35082",
+            "count": 2
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/abc6721f-4680-40fe-b189-cdf19f416bd1",
+          "externalId": "abc6721f-4680-40fe-b189-cdf19f416bd1",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:15:52+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.736Z",
+          "originalTitle": "[NSG Core] Fine Print"
+        }
+      }
+    },
+    {
+      "label": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Not so subtle",
+        "side": "corp",
+        "identity": "35057",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30052",
+            "count": 1
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30055",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30071",
+            "count": 1
+          },
+          {
+            "id": "30073",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35054",
+            "count": 3
+          },
+          {
+            "id": "35055",
+            "count": 3
+          },
+          {
+            "id": "35059",
+            "count": 3
+          },
+          {
+            "id": "35060",
+            "count": 2
+          },
+          {
+            "id": "35063",
+            "count": 3
+          },
+          {
+            "id": "35064",
+            "count": 3
+          },
+          {
+            "id": "35065",
+            "count": 1
+          },
+          {
+            "id": "35067",
+            "count": 2
+          },
+          {
+            "id": "35073",
+            "count": 2
+          },
+          {
+            "id": "35079",
+            "count": 1
+          },
+          {
+            "id": "35080",
+            "count": 2
+          },
+          {
+            "id": "35081",
+            "count": 3
+          },
+          {
+            "id": "35082",
+            "count": 2
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/170f1c2f-e063-415a-ab06-7ef49763da04",
+          "externalId": "170f1c2f-e063-415a-ab06-7ef49763da04",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:15:59+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.950Z",
+          "originalTitle": "[NSG Core] Not so subtle"
+        }
+      }
+    },
+    {
+      "label": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Gimbatul",
+        "side": "corp",
+        "identity": "35058",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30042",
+            "count": 2
+          },
+          {
+            "id": "30049",
+            "count": 1
+          },
+          {
+            "id": "30052",
+            "count": 1
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30054",
+            "count": 2
+          },
+          {
+            "id": "30055",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 3
+          },
+          {
+            "id": "30057",
+            "count": 1
+          },
+          {
+            "id": "30058",
+            "count": 2
+          },
+          {
+            "id": "30066",
+            "count": 2
+          },
+          {
+            "id": "30068",
+            "count": 3
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35059",
+            "count": 3
+          },
+          {
+            "id": "35060",
+            "count": 2
+          },
+          {
+            "id": "35063",
+            "count": 3
+          },
+          {
+            "id": "35064",
+            "count": 3
+          },
+          {
+            "id": "35065",
+            "count": 1
+          },
+          {
+            "id": "35066",
+            "count": 1
+          },
+          {
+            "id": "35067",
+            "count": 3
+          },
+          {
+            "id": "35080",
+            "count": 1
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/19db2c28-8521-4b86-a45e-e46cb9830243",
+          "externalId": "19db2c28-8521-4b86-a45e-e46cb9830243",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:16:07+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.907Z",
+          "originalTitle": "[NSG Core] Gimbatul"
+        }
+      }
+    },
+    {
+      "label": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c",
+      "deck": {
+        "schemaVersion": 1,
+        "name": " [NSG Core] Brick Stack",
+        "side": "corp",
+        "identity": "30059",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30041",
+            "count": 1
+          },
+          {
+            "id": "30050",
+            "count": 1
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30060",
+            "count": 1
+          },
+          {
+            "id": "30062",
+            "count": 2
+          },
+          {
+            "id": "30063",
+            "count": 3
+          },
+          {
+            "id": "30064",
+            "count": 2
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30071",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35041",
+            "count": 3
+          },
+          {
+            "id": "35061",
+            "count": 2
+          },
+          {
+            "id": "35071",
+            "count": 2
+          },
+          {
+            "id": "35075",
+            "count": 3
+          },
+          {
+            "id": "35076",
+            "count": 3
+          },
+          {
+            "id": "35077",
+            "count": 3
+          },
+          {
+            "id": "35079",
+            "count": 2
+          },
+          {
+            "id": "35081",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/51804cff-8a01-4b85-b1cc-a140935cf81c",
+          "externalId": "51804cff-8a01-4b85-b1cc-a140935cf81c",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:16:15+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.955Z",
+          "originalTitle": " [NSG Core] Brick Stack"
+        }
+      }
+    },
+    {
+      "label": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Pork Chops",
+        "side": "corp",
+        "identity": "35068",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30060",
+            "count": 1
+          },
+          {
+            "id": "30061",
+            "count": 1
+          },
+          {
+            "id": "30063",
+            "count": 2
+          },
+          {
+            "id": "30064",
+            "count": 1
+          },
+          {
+            "id": "30065",
+            "count": 1
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30068",
+            "count": 3
+          },
+          {
+            "id": "30071",
+            "count": 2
+          },
+          {
+            "id": "30073",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35041",
+            "count": 2
+          },
+          {
+            "id": "35050",
+            "count": 2
+          },
+          {
+            "id": "35054",
+            "count": 3
+          },
+          {
+            "id": "35067",
+            "count": 1
+          },
+          {
+            "id": "35071",
+            "count": 3
+          },
+          {
+            "id": "35072",
+            "count": 3
+          },
+          {
+            "id": "35074",
+            "count": 1
+          },
+          {
+            "id": "35076",
+            "count": 3
+          },
+          {
+            "id": "35078",
+            "count": 3
+          },
+          {
+            "id": "35079",
+            "count": 1
+          },
+          {
+            "id": "35081",
+            "count": 3
+          },
+          {
+            "id": "35082",
+            "count": 2
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/f315fb7f-798b-4b4a-b515-675590b3f258",
+          "externalId": "f315fb7f-798b-4b4a-b515-675590b3f258",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:16:23+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.946Z",
+          "originalTitle": "[NSG Core] Pork Chops"
+        }
+      }
+    },
+    {
+      "label": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28",
+      "deck": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Quick Returns",
+        "side": "corp",
+        "identity": "35069",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30039",
+            "count": 3
+          },
+          {
+            "id": "30040",
+            "count": 1
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30060",
+            "count": 1
+          },
+          {
+            "id": "30064",
+            "count": 1
+          },
+          {
+            "id": "30066",
+            "count": 2
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 1
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35055",
+            "count": 2
+          },
+          {
+            "id": "35070",
+            "count": 3
+          },
+          {
+            "id": "35071",
+            "count": 3
+          },
+          {
+            "id": "35073",
+            "count": 3
+          },
+          {
+            "id": "35074",
+            "count": 2
+          },
+          {
+            "id": "35075",
+            "count": 3
+          },
+          {
+            "id": "35076",
+            "count": 3
+          },
+          {
+            "id": "35077",
+            "count": 3
+          },
+          {
+            "id": "35079",
+            "count": 2
+          },
+          {
+            "id": "35081",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/1f9d8054-4993-4a09-91ba-4fca5fff3747",
+          "externalId": "1f9d8054-4993-4a09-91ba-4fca5fff3747",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:16:32+00:00",
+          "fetchedAt": "2026-11-13T23:20:36.169Z",
+          "originalTitle": "[NSG Core] Quick Returns"
+        }
+      }
+    }
+  ],
+  "gamesPerMatchup": 6,
+  "seed": "all-decks-2026-11-16",
+  "wallMs": 60000,
+  "decisions": 30000,
+  "traceEvery": 1,
+  "mode": "fast",
+  "aiPolicy": "pressure-v1",
+  "experimentHash": "aafb4bc28c51af41abb446f0a250820bb337fb9b7655d456a50db7ed121e2960",
+  "workers": 4
+}

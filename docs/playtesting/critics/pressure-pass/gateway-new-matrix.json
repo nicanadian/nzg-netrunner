@@ -1,0 +1,591 @@
+{
+  "spec": {
+    "schemaVersion": 1,
+    "kind": "netrunner-matrix",
+    "engineHash": "f13f5fe6482206473d79bda8ebfb3dbcf9228b369de9136ad452fb8599248ba9",
+    "runners": [
+      {
+        "label": "René “Loup” Arcemont",
+        "deck": {
+          "schemaVersion": 1,
+          "name": "René “Loup” Arcemont",
+          "side": "runner",
+          "identity": "30001",
+          "pool": "gateway-v1",
+          "cards": [
+            {
+              "id": "30002",
+              "count": 3
+            },
+            {
+              "id": "30003",
+              "count": 2
+            },
+            {
+              "id": "30004",
+              "count": 3
+            },
+            {
+              "id": "30005",
+              "count": 3
+            },
+            {
+              "id": "30006",
+              "count": 3
+            },
+            {
+              "id": "30007",
+              "count": 3
+            },
+            {
+              "id": "30008",
+              "count": 3
+            },
+            {
+              "id": "30015",
+              "count": 3
+            },
+            {
+              "id": "30028",
+              "count": 3
+            },
+            {
+              "id": "30029",
+              "count": 3
+            },
+            {
+              "id": "30030",
+              "count": 3
+            },
+            {
+              "id": "30031",
+              "count": 2
+            },
+            {
+              "id": "30033",
+              "count": 3
+            },
+            {
+              "id": "30034",
+              "count": 3
+            }
+          ]
+        }
+      },
+      {
+        "label": "Zahya Sadeghi",
+        "deck": {
+          "schemaVersion": 1,
+          "name": "Zahya Sadeghi",
+          "side": "runner",
+          "identity": "30010",
+          "pool": "gateway-v1",
+          "cards": [
+            {
+              "id": "30004",
+              "count": 1
+            },
+            {
+              "id": "30005",
+              "count": 2
+            },
+            {
+              "id": "30011",
+              "count": 3
+            },
+            {
+              "id": "30012",
+              "count": 3
+            },
+            {
+              "id": "30013",
+              "count": 2
+            },
+            {
+              "id": "30014",
+              "count": 3
+            },
+            {
+              "id": "30015",
+              "count": 2
+            },
+            {
+              "id": "30016",
+              "count": 2
+            },
+            {
+              "id": "30017",
+              "count": 2
+            },
+            {
+              "id": "30018",
+              "count": 3
+            },
+            {
+              "id": "30021",
+              "count": 3
+            },
+            {
+              "id": "30027",
+              "count": 2
+            },
+            {
+              "id": "30028",
+              "count": 3
+            },
+            {
+              "id": "30029",
+              "count": 3
+            },
+            {
+              "id": "30030",
+              "count": 3
+            },
+            {
+              "id": "30033",
+              "count": 1
+            },
+            {
+              "id": "30034",
+              "count": 2
+            }
+          ]
+        }
+      }
+    ],
+    "corps": [
+      {
+        "label": "Haas-Bioroid: Precision Design",
+        "deck": {
+          "schemaVersion": 1,
+          "name": "Haas-Bioroid: Precision Design",
+          "side": "corp",
+          "identity": "30035",
+          "pool": "gateway-v1",
+          "cards": [
+            {
+              "id": "30036",
+              "count": 1
+            },
+            {
+              "id": "30037",
+              "count": 3
+            },
+            {
+              "id": "30038",
+              "count": 3
+            },
+            {
+              "id": "30039",
+              "count": 3
+            },
+            {
+              "id": "30040",
+              "count": 3
+            },
+            {
+              "id": "30041",
+              "count": 2
+            },
+            {
+              "id": "30042",
+              "count": 2
+            },
+            {
+              "id": "30048",
+              "count": 2
+            },
+            {
+              "id": "30053",
+              "count": 2
+            },
+            {
+              "id": "30056",
+              "count": 3
+            },
+            {
+              "id": "30067",
+              "count": 3
+            },
+            {
+              "id": "30069",
+              "count": 3
+            },
+            {
+              "id": "30070",
+              "count": 1
+            },
+            {
+              "id": "30071",
+              "count": 1
+            },
+            {
+              "id": "30072",
+              "count": 3
+            },
+            {
+              "id": "30073",
+              "count": 3
+            },
+            {
+              "id": "30074",
+              "count": 3
+            },
+            {
+              "id": "30075",
+              "count": 3
+            }
+          ]
+        }
+      },
+      {
+        "label": "Weyland Consortium: Built to Last",
+        "deck": {
+          "schemaVersion": 1,
+          "name": "Weyland Consortium: Built to Last",
+          "side": "corp",
+          "identity": "30059",
+          "pool": "gateway-v1",
+          "cards": [
+            {
+              "id": "30053",
+              "count": 3
+            },
+            {
+              "id": "30055",
+              "count": 3
+            },
+            {
+              "id": "30060",
+              "count": 1
+            },
+            {
+              "id": "30061",
+              "count": 2
+            },
+            {
+              "id": "30062",
+              "count": 2
+            },
+            {
+              "id": "30063",
+              "count": 2
+            },
+            {
+              "id": "30064",
+              "count": 1
+            },
+            {
+              "id": "30065",
+              "count": 1
+            },
+            {
+              "id": "30066",
+              "count": 1
+            },
+            {
+              "id": "30067",
+              "count": 3
+            },
+            {
+              "id": "30068",
+              "count": 2
+            },
+            {
+              "id": "30069",
+              "count": 1
+            },
+            {
+              "id": "30070",
+              "count": 3
+            },
+            {
+              "id": "30071",
+              "count": 3
+            },
+            {
+              "id": "30072",
+              "count": 3
+            },
+            {
+              "id": "30073",
+              "count": 3
+            },
+            {
+              "id": "30074",
+              "count": 3
+            },
+            {
+              "id": "30075",
+              "count": 3
+            }
+          ]
+        }
+      }
+    ],
+    "gamesPerMatchup": 8,
+    "seed": "pressure-paired-2026-11-16",
+    "wallMs": 60000,
+    "decisions": 30000,
+    "traceEvery": 100,
+    "mode": "fast",
+    "aiPolicy": "pressure-v1",
+    "experimentHash": "00d057c70259dc93ffea2b71c6ffc9a1e5481ed043e2da39318686bab047aab0",
+    "workers": 4
+  },
+  "summary": {
+    "schemaVersion": 1,
+    "experimentHash": "00d057c70259dc93ffea2b71c6ffc9a1e5481ed043e2da39318686bab047aab0",
+    "matchups": [
+      {
+        "runner": "René “Loup” Arcemont",
+        "corp": "Haas-Bioroid: Precision Design",
+        "directory": "matchup-0-0",
+        "jobs": 8,
+        "statuses": {
+          "completed": 8
+        },
+        "wins": {
+          "corp": 4,
+          "runner": 4
+        },
+        "runnerWinRate": 0.5,
+        "runnerWilson95": [
+          0.21521252682444186,
+          0.7847874731755582
+        ],
+        "p50Ms": 1870,
+        "p95Ms": 5128,
+        "aiSummary": {
+          "totals": {
+            "runner": {
+              "actions": 451,
+              "gain": 70,
+              "draw": 82,
+              "install": 74,
+              "play": 34,
+              "run": 67,
+              "advance": 0,
+              "score": 0,
+              "overrides": 4,
+              "idleWithAgenda": 0,
+              "scoreOffered": 0,
+              "scoreTaken": 0,
+              "runs": 77,
+              "probesConsidered": 65,
+              "probesRejected": 61
+            },
+            "corp": {
+              "actions": 390,
+              "gain": 17,
+              "draw": 26,
+              "install": 134,
+              "play": 55,
+              "run": 0,
+              "advance": 93,
+              "score": 23,
+              "overrides": 22,
+              "idleWithAgenda": 19,
+              "scoreOffered": 23,
+              "scoreTaken": 23,
+              "runs": 0,
+              "probesConsidered": 0,
+              "probesRejected": 0
+            }
+          },
+          "averageRunnerRuns": 9.625,
+          "lowPressureGames": 0
+        },
+        "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+        "experimentHash": "3d8e853596a3953258d3aa5349bca7f31f213983b07b02ee20daae8ef3317ec6"
+      },
+      {
+        "runner": "René “Loup” Arcemont",
+        "corp": "Weyland Consortium: Built to Last",
+        "directory": "matchup-0-1",
+        "jobs": 8,
+        "statuses": {
+          "completed": 8
+        },
+        "wins": {
+          "corp": 1,
+          "runner": 7
+        },
+        "runnerWinRate": 0.875,
+        "runnerWilson95": [
+          0.5291051942301386,
+          0.9775830911367038
+        ],
+        "p50Ms": 1174,
+        "p95Ms": 5083,
+        "aiSummary": {
+          "totals": {
+            "runner": {
+              "actions": 571,
+              "gain": 82,
+              "draw": 116,
+              "install": 83,
+              "play": 47,
+              "run": 73,
+              "advance": 0,
+              "score": 0,
+              "overrides": 6,
+              "idleWithAgenda": 0,
+              "scoreOffered": 0,
+              "scoreTaken": 0,
+              "runs": 90,
+              "probesConsidered": 74,
+              "probesRejected": 68
+            },
+            "corp": {
+              "actions": 406,
+              "gain": 32,
+              "draw": 19,
+              "install": 124,
+              "play": 17,
+              "run": 0,
+              "advance": 122,
+              "score": 16,
+              "overrides": 38,
+              "idleWithAgenda": 30,
+              "scoreOffered": 21,
+              "scoreTaken": 16,
+              "runs": 0,
+              "probesConsidered": 0,
+              "probesRejected": 0
+            }
+          },
+          "averageRunnerRuns": 11.25,
+          "lowPressureGames": 0
+        },
+        "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+        "experimentHash": "b33c383fe19cf895b40636d0b65c359277e51ce566ed661c723444e3fd194345"
+      },
+      {
+        "runner": "Zahya Sadeghi",
+        "corp": "Haas-Bioroid: Precision Design",
+        "directory": "matchup-1-0",
+        "jobs": 8,
+        "statuses": {
+          "completed": 8
+        },
+        "wins": {
+          "corp": 3,
+          "runner": 5
+        },
+        "runnerWinRate": 0.625,
+        "runnerWilson95": [
+          0.30573785458380187,
+          0.863158240538479
+        ],
+        "p50Ms": 643,
+        "p95Ms": 4203,
+        "aiSummary": {
+          "totals": {
+            "runner": {
+              "actions": 402,
+              "gain": 20,
+              "draw": 58,
+              "install": 40,
+              "play": 38,
+              "run": 58,
+              "advance": 0,
+              "score": 0,
+              "overrides": 16,
+              "idleWithAgenda": 0,
+              "scoreOffered": 0,
+              "scoreTaken": 0,
+              "runs": 114,
+              "probesConsidered": 49,
+              "probesRejected": 33
+            },
+            "corp": {
+              "actions": 359,
+              "gain": 26,
+              "draw": 17,
+              "install": 119,
+              "play": 51,
+              "run": 0,
+              "advance": 66,
+              "score": 17,
+              "overrides": 10,
+              "idleWithAgenda": 12,
+              "scoreOffered": 17,
+              "scoreTaken": 17,
+              "runs": 0,
+              "probesConsidered": 0,
+              "probesRejected": 0
+            }
+          },
+          "averageRunnerRuns": 14.25,
+          "lowPressureGames": 0
+        },
+        "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+        "experimentHash": "ddd69e72d9e6f0e82636f3a02089df624130a152e329a2b06328eee76389b2ea"
+      },
+      {
+        "runner": "Zahya Sadeghi",
+        "corp": "Weyland Consortium: Built to Last",
+        "directory": "matchup-1-1",
+        "jobs": 8,
+        "statuses": {
+          "completed": 8
+        },
+        "wins": {
+          "corp": 3,
+          "runner": 5
+        },
+        "runnerWinRate": 0.625,
+        "runnerWilson95": [
+          0.30573785458380187,
+          0.863158240538479
+        ],
+        "p50Ms": 545,
+        "p95Ms": 892,
+        "aiSummary": {
+          "totals": {
+            "runner": {
+              "actions": 522,
+              "gain": 22,
+              "draw": 90,
+              "install": 53,
+              "play": 45,
+              "run": 56,
+              "advance": 0,
+              "score": 0,
+              "overrides": 16,
+              "idleWithAgenda": 0,
+              "scoreOffered": 0,
+              "scoreTaken": 0,
+              "runs": 109,
+              "probesConsidered": 80,
+              "probesRejected": 64
+            },
+            "corp": {
+              "actions": 341,
+              "gain": 40,
+              "draw": 11,
+              "install": 100,
+              "play": 13,
+              "run": 0,
+              "advance": 101,
+              "score": 15,
+              "overrides": 29,
+              "idleWithAgenda": 17,
+              "scoreOffered": 16,
+              "scoreTaken": 15,
+              "runs": 0,
+              "probesConsidered": 0,
+              "probesRejected": 0
+            }
+          },
+          "averageRunnerRuns": 13.625,
+          "lowPressureGames": 0
+        },
+        "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+        "experimentHash": "4118423e43de12c6fc643605be9c55e1e3e4eba791ea943f7bf2056937b04b5b"
+      }
+    ],
+    "complete": true
+  }
+}

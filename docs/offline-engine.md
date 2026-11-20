@@ -17,6 +17,22 @@ In the repository, `npm run engine -- …` is equivalent. `npm run build:engine`
 
 The shared `engine/deck-document.js` validator checks identity, quantities, aliases, side, copy limits, minimum deck size, influence, agenda factions and agenda totals for the actual deck size. Unknown cards and missing definitions fail before a game starts. Core games default to `26.03-core-2`; older Core revision 1 and Gateway save profiles retain their routes. All 82 Elevation definitions and initial per-card ability fixtures exist, but the full rules/UI/AI audit remains open. Core lists explicitly remain experimental.
 
+## Vantage Point development preview
+
+The separate `vantage-preview-v1` pool uses rules profile `26.03-vantage-3`; revisions 1 and 2 remain available for saved replays. All 66 Vantage cards, including all four identities, have native definitions and executable rules evidence. Existing Gateway/Core validators and game profiles remain isolated. `npm run coverage:vantage` reports implementation and audit status separately.
+
+There are 22 local Vantage decks: nine recommended play decks and thirteen interaction test pilots. Seven frozen full-set lists still cover every Vantage card for reproducible benchmarks. Recommended Runner decks have basic fracter/decoder/killer coverage and matching support for their stealth abilities; this is a playability check, not competitive or strategic AI certification. The same rules run in the browser worker and offline engine:
+
+```sh
+node scripts/netrunner.cjs validate hiram-full-vp-v1
+node scripts/netrunner.cjs simulate --runner hiram-full-vp-v1 --corp editorial-full-vp-v1 --out tmp/vantage-example
+node scripts/netrunner.cjs bench docs/research/vantage-point/benchmark-matrix.json --out tmp/vantage-validation
+```
+
+The checked matrix uses 100 common seeds across 12 matchups (1,200 games) and four workers. Its source fingerprint, completion counts, timing distribution, outcomes and policy limitations are recorded in [benchmark-validation.json](research/vantage-point/benchmark-validation.json). Earlier failures and their reproductions remain in the local experiment directories. A completed game is not proof of a strong deck or strategically competent AI.
+
+The preview is available at `/?vantage-preview=1`. All 66 fronts and three alternate Méliès U faces have locally bundled artwork. Nine complete shared-browser games have retained decision traces and replay regressions, including games using Hiram, Vic, Méliès U and Editorial Division. The existing Chrome access host and shared-browser snapshots were unavailable; DOM interactions, mobile geometry, loaded images and replay import were checked through the authorized shared browser. Full visual/keyboard qualification in the user’s Chrome and strategic AI audits remain separate work. The detailed implementation record is [Vantage Point implementation and testing](plans/vantage-point.md).
+
 ## Matrices and variants
 
 Save a specification beside exported variant decks, then run:
@@ -76,3 +92,21 @@ npm run build:engine
 ```
 
 `check:dev` runs engine, validation/import, Core mechanics, retained actual-Chrome replay, simulator/matrix and network-denied package tests. It does not launch headless Chrome. New browser playtests use the user's existing extension-backed Chrome and are recorded separately in `docs/playtesting/elevation/`.
+
+## Versioned opponent pressure
+
+New browser games opt into `pressure-v1`. Replays without an `aiPolicy` field keep the native opponent; restoring a game never silently changes its policy. Offline runs default to `native-v1` for continuity. Select either explicitly when comparing decks:
+
+```sh
+node scripts/netrunner.cjs bench --runner loup-v1 --corp precision-design-v2 --ai-policy pressure-v1 --games 100 --workers 4 --seed pressure-comparison --out results/pressure
+```
+
+Matrix JSON also accepts `aiPolicy`. Manifests, frozen jobs and replay retain it. Each job includes `aiAudit`: action counts, runs, scoring opportunities, override reasons, and the latest 80 action decisions with baseline choice and legal-option counts. These diagnostics belong to offline analysis and are not sent to the opponent's UI. `idleWithAgenda` counts basic gain/draw actions while holding an agenda; it does not by itself prove a better legal scoring opportunity existed.
+
+The pressure policy preserves constructive native choices and replaces selected idle actions: affordable Runner probes calculated by the native path search, Corp agenda advancement, defended scoring routes, and affordable central reinforcement. It remains a heuristic opponent. The matched-seed implementation evidence is in [the pressure pass report](playtesting/critics/pressure-pass/report.md).
+
+### Full bundled-deck screen
+
+The [16 November all-deck audit](research/deck-audit-2026-11-16/report.md) retains construction checks, per-deck measurements, failure investigations, a controlled economy comparison, and three shared-browser game replays. `node scripts/audit-all-decks.cjs` validates every selectable list and writes within-pool matrix specs under `tmp/all-decks-2026-11-16/`; set `NR_DECK_AUDIT_RUNS` to choose another run root. Run each spec with `node scripts/netrunner.cjs bench <spec.json> --out <new-directory>`, then use `--summarize`. `node scripts/report-deck-audit.cjs` regenerates the dated report from its saved baseline/tuning artifacts and completed final matrices. Bot outcomes screen runtime and policy behavior; they do not certify human balance or enjoyment.
+
+The [matchup pairing guide](research/matchup-guide-2026-11-16/guide.md) combines this audit with a 960-game follow-up: each recommended Vantage pairing has 54 games. It offers an overview matrix and per-Runner opponent charts, with separate preliminary labels for six-game Gateway, Elevation and test-pilot pairings. Regenerate with `node scripts/build-matchup-guide.cjs` after completing its saved follow-up matrix spec.

@@ -1,0 +1,72 @@
+{
+  "reviewer": "Fresh AI returning-player lens",
+  "date": "2026-11-19",
+  "origin": "http://localhost:5174",
+  "result": "PASS for requested guide/deck/revisit flows; natural Runner win9–0, displayedturn14",
+  "firstImpressions": "Opened new incognito tab at localhost:5174 guide. First impression: approachable learning cards, clear AI denominator caveat and returning deck disclosure. Initial selection inherited Loup Vantage; chose Gateway + Elevation to find requested Phoenix. Snapshot timed out; DOM text used.",
+  "tasks": {
+    "findExactPhoenixPairing": "pass: Dashing Mad vs [NSG Core] Fine Print",
+    "recipe": "pass: -Charm +Leech legal45cards17/17",
+    "twoSaveBaselinePersistence": "pass: all4cumulative changes persisted after reload",
+    "customContext": "pass: guide custom notice and unbenchmarked warnings; custom notes correct scope",
+    "originalSetupCorpReturn": "pass: Corp side and both exact lists restored",
+    "postgameRunnerReturn": "pass: Runner/custom/FinePrint retained",
+    "savedGameResume": "pass: finished9pointgame restored",
+    "fullNaturalGame": "pass:202publicchoices, no injectedactions",
+    "postgameNotes": "pass:5textareas persisted afterreload"
+  },
+  "terminal": {
+    "diagnostics": [],
+    "points": {
+      "corp": 0,
+      "runner": 9
+    },
+    "terminal": {
+      "reason": "Runner reached 9 agenda points.",
+      "winner": "runner"
+    },
+    "turn": 28,
+    "version": 1005
+  },
+  "changedCardsObserved": {
+    "Leech": "Never drawn or used; added-copy benefit/duplicates untested",
+    "SmartwareDistributor": "Opening grip, installed, loaded3 once, trashed by AI afterPublicTrail T2 before payout",
+    "CharmOffensive": "Not drawn or used; missed-event opportunity untested",
+    "Scrounge": "Not drawn or used; recursion opportunity untested"
+  },
+  "concreteReproIssues": [],
+  "preferences": [
+    {
+      "severity": "P3",
+      "topic": "Phoenix guide lesson could be more explicit",
+      "detail": "Guide tells returning player to read Phoenix/virus tools; lobby and card reader supply actual trigger. A concise safe-subroutine example would accelerate return; current correct wording is usable."
+    },
+    {
+      "severity": "P3",
+      "topic": "Note capture after custom save",
+      "detail": "Baseline note and custom note scopes are distinct and correctly labeled. An explicit copy-baseline-note action would reduce manual rewrite; not data loss."
+    }
+  ],
+  "acceptanceTests": [
+    "Keep existing exact title mapping Dashing Mad/FinePrint.",
+    "Two separate saved edits then reload: session Changes empty, cumulative Compared with baseline retains all4.",
+    "Corp original-setup return retains human side and both exact selections includingcustomRunner.",
+    "Custom guide context never attributes bundled3/6 to revision; notes label customdeck and persist reload.",
+    "Resume savedgame preserves terminal and embedded final45carddeck."
+  ],
+  "strategyCaveats": [
+    "AI reviewer has priorNetrunnerknowledge; not evidence of newhumancomprehension.",
+    "One game versus experimentalpressureAI; somecredit-onlyearlyturns enablednakedcentralaccesses. Human strength/balance unmeasured.",
+    "No Leech seen, no Smartwarepayout; win doesnotestedit hypotheses.",
+    "No damage taken; prevented Doomscroll damage, reassessed advancedremote.",
+    "Some routine render-control actions batched; no blindstrategypolicy or hiddenstate used."
+  ],
+  "artifacts": {
+    "game": "returning-game.json",
+    "deck": "returning-final-deck.json",
+    "trace": "returning-ui-trace.json",
+    "notes": "returning-notes.json"
+  },
+  "screenshots": "Unavailable: actual-browser preview_snapshot timed out twice",
+  "cleanup": "Closed owned tab 1g and guide popups 1k, 1l and 1m. Left storage and global preferences untouched."
+}

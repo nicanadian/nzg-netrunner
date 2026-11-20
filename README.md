@@ -10,6 +10,8 @@ Launch **LocalTable.exe**, **Local Table.app**, or **./LocalTable** after extrac
 
 [Previous releases: 0.2.0](https://github.com/nicanadian/nzg-netrunner/releases/tag/v0.2.0) · [0.1.0](https://github.com/nicanadian/nzg-netrunner/releases/tag/alpha-build-1), formerly Alpha Build 1, remains available with its original download URLs and checksums. Its source is also tagged `v0.1.0`.
 
+**Next build: 0.3.0 is in release qualification.** [Candidate notes and launch instructions](builds/0.3.0/README.md). The published downloads above remain 0.2.1 until qualification and publication finish.
+
 A playable, offline-first System Gateway game: choose Runner or Corporation and play against Chiriboga's AI. The interface is a new tabletop presentation with illustrated blue/red mats, legal actions, magnified cards, and local replay saves.
 
 ## Play
@@ -70,9 +72,11 @@ Every Corp deck has the agenda points required for its deck size. The seven list
 
 The shared catalog is `engine/deck-catalog.js`. Saves retain versioned deck IDs for both sides. Keep published lists immutable under those IDs; future list revisions should use new IDs. Old saves without IDs retain the exact original Loup/Precision Design lists and shuffled order. Unknown or wrong-side deck IDs fail visibly instead of silently substituting a character.
 
-## Development: Elevation, deck building and offline experiments
+## Development: expansion cards, deck building and offline experiments
 
 Choose **Tune this deck** beside your selected deck to edit a copy. Remove cards with **−** and add replacements with **+**; the editor shows your changes, deck size and influence. **Save & use this deck** returns to setup with your edited deck selected, ready for **Jack in**. Use **My decks & imports** to create a deck from scratch, import public NetrunnerDB URLs or text/JSON, and export a library backup. Each card shows its influence per copy for the selected identity, its faction relationship and the influence used by copies already in the deck. The influence filter uses this identity-specific cost. Thumbnails and **Read full card** open high-resolution artwork and readable rules text, then return to the editor. Invalid lists remain saved drafts with actionable construction errors. Games embed exact custom deck snapshots so later edits/deletion cannot alter their replays.
+
+Open **[Vantage Point preview](http://localhost:5173/?vantage-preview=1)** for Gateway + Elevation + all **66 Vantage cards**, including all four new identities. There are 9 recommended play decks and 13 clearly labeled interaction test pilots, a deck builder, offline card art, versioned saves, and a reproducible 1,200-game benchmark matrix. Rules fixtures cover every card; broader rules/UI/AI certification remains pending. See the [implementation record](docs/plans/vantage-point.md) and [benchmark results](docs/research/vantage-point/benchmark-validation.json). This is current development code; the downloads above remain release 0.2.1.
 
 Open **[Core Sets development preview](http://localhost:5173/?core-preview=1)** for Gateway + all 82 Elevation cards and 21 attributed official NSG sample lists. Definitions, printed fields, art and initial per-card ability fixtures are present. **The full rules/UI/AI audit is still open; this is an experimental preview.** New Core games use revision 2; retained revision 1 games still reconstruct.
 

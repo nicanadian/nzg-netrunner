@@ -12,7 +12,7 @@ const plain=x=>JSON.parse(JSON.stringify(x));
  const source=fs.readFileSync('app/table.js','utf8');
  function ui(list,defaults,preview=false){
   const elements=new Map(),$=id=>{if(!elements.has(id))elements.set(id,{innerHTML:'',value:'',textContent:''});return elements.get(id);};
-  const context=vm.createContext({$: $,DATA:data,esc:String,selectedDeckIds:{...defaults},role:'runner',NR_CORE_PREVIEW:preview,NRCoreDecks:core,NRDeckDocument:docs,deckBuilder:{list:()=>list,document:d=>d.document||docs.normalize({...d,pool:preview?'core-v1':'gateway-v1'})}});
+  const context=vm.createContext({URLSearchParams,activePool:preview?'core-v1':'gateway-v1',$: $,DATA:data,esc:String,selectedDeckIds:{...defaults},role:'runner',NR_CORE_PREVIEW:preview,NRCoreDecks:core,NRDeckDocument:docs,deckBuilder:{list:()=>list,document:d=>d.document||docs.normalize({...d,pool:preview?'core-v1':'gateway-v1'})}});
   context.resolveDecks=ids=>Object.fromEntries(['runner','corp'].map(side=>[side,list.find(d=>d.id===ids[side])]));
   vm.runInContext(source.slice(source.indexOf('function deckStats('),source.indexOf('\nfunction viewDecks()')),context);
   return {context,$};

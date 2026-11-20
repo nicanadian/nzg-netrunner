@@ -1,6 +1,6 @@
 {
   "name": "netrunner-local-table",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "private": true,
   "license": "GPL-3.0-only",
   "repository": {
@@ -29,11 +29,13 @@
     "test:core-browser": "node tests/core-worker-browser.cjs && node tests/core-ui-browser.cjs",
     "test:core-replays": "node tests/core-chrome-replays.cjs",
     "engine": "node scripts/netrunner.cjs",
-    "test:decks": "node tests/deck-documents.cjs && node tests/deck-import.cjs && node tests/net-decks.cjs && node tests/deck-loadouts.cjs && node tests/deck-tuning.cjs",
+    "test:decks": "node tests/deck-documents.cjs && node tests/deck-import.cjs && node tests/net-decks.cjs && node tests/deck-loadouts.cjs && node tests/deck-tuning.cjs && node tests/lobby-deck-flow.cjs && node tests/critics-polish.cjs && node tests/pressure-pass.cjs && node tests/deck-audit-fixes.cjs && node tests/deck-audit-browser.cjs && node tests/pairing-guide.cjs && node tests/guide-improvements.cjs",
     "test:simulation": "node tests/simulation.cjs && node tests/matrix.cjs && npm run test:search",
     "coverage:elevation": "node scripts/elevation-coverage.cjs",
+    "test:vantage": "node tests/vantage-printed.cjs && node tests/vantage-foundation.cjs && node tests/vantage-wave2.cjs && node tests/vantage-wave3.cjs && node tests/vantage-wave4.cjs && node tests/vantage-corp-state.cjs && node tests/vantage-corp-advanced.cjs && node tests/vantage-identity-forms.cjs && node tests/vantage-ice-complete.cjs && node tests/vantage-runner-complete.cjs && node tests/vantage-boundaries.cjs && node tests/vantage-ui-contracts.cjs && node tests/vantage-ui-replays.cjs && node tests/vantage-full-parity.cjs && node tests/vantage-simulation.cjs",
+    "coverage:vantage": "node scripts/vantage-coverage.cjs",
     "build:engine": "node scripts/build-engine-package.cjs",
-    "check:dev": "npm test && npm run test:decks && npm run test:core-foundation && npm run test:core-replays && npm run test:simulation && npm run coverage:elevation && npm run test:offline-package",
+    "check:dev": "npm test && npm run test:decks && npm run test:vantage && npm run test:core-foundation && npm run test:core-replays && npm run test:simulation && npm run coverage:elevation && npm run coverage:vantage && npm run test:offline-package",
     "test:offline-package": "node tests/offline-package.cjs",
     "test:search": "node tests/search-optimizations.cjs && node tests/simulation-search-parity.cjs"
   },

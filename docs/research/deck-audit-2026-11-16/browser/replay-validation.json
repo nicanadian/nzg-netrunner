@@ -1,0 +1,44 @@
+[
+  {
+    "name": "weyland-game",
+    "choices": 67,
+    "version": 761,
+    "points": {
+      "corp": 8,
+      "runner": 6
+    },
+    "terminal": {
+      "reason": "Corp reached 8 agenda points.",
+      "winner": "corp"
+    },
+    "passed": true
+  },
+  {
+    "name": "editorial-game",
+    "choices": 332,
+    "version": 1144,
+    "points": {
+      "corp": 0,
+      "runner": 8
+    },
+    "terminal": {
+      "reason": "Runner reached 8 agenda points.",
+      "winner": "runner"
+    },
+    "passed": true
+  },
+  {
+    "name": "core-game",
+    "choices": 12,
+    "version": 227,
+    "points": {
+      "corp": 0,
+      "runner": 7
+    },
+    "terminal": {
+      "reason": "Runner reached 7 agenda points.",
+      "winner": "runner"
+    },
+    "passed": true
+  }
+]

@@ -1,0 +1,1198 @@
+{
+  "final": {
+    "diagnostics": [],
+    "points": {
+      "corp": 3,
+      "runner": 8
+    },
+    "terminal": {
+      "reason": "Runner reached 8 agenda points.",
+      "winner": "runner"
+    },
+    "turn": 20,
+    "version": 759
+  },
+  "history": [
+    {
+      "side": "runner",
+      "text": "Using Red Team:",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit from bad publicity",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Palisade protecting R&D at position 0",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Using Cleaver:",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 1 credit from bad publicity",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Subroutine \"End the run.\" broken",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Approaching R&D",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "3 credits taken from Red Team",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "hidden card accessed",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 2 credits from credit pool",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Spin Doctor trashed",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 2 credits from credit pool",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Runner installed Docklands Pass",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Using Red Team:",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking HQ",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit from bad publicity",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting HQ",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Palisade protecting HQ at position 0",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Using Cleaver:",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 1 credit from bad publicity",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Subroutine \"End the run.\" broken",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Approaching HQ",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "3 credits taken from Red Team",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Red Team trashed",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Paywall accessed",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Clearinghouse accessed",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 3 credits from credit pool",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Clearinghouse trashed",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit from bad publicity",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Palisade protecting R&D at position 0",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Using Cleaver:",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 1 credit from bad publicity",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Subroutine \"End the run.\" broken",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Approaching R&D",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "hidden card accessed",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 16
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 5 credits from credit pool",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Played \"Hedge Fund\"",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained 9 credits",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Using Regolith Mining License:",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "3 credits taken from Regolith Mining License",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Regolith Mining License trashed",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed a card in root of a remote server",
+      "turn": 17
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking HQ",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit from bad publicity",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting HQ",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Palisade protecting HQ at position 0",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Using Cleaver:",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 1 credit from bad publicity",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Subroutine \"End the run.\" broken",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Approaching HQ",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Paywall accessed",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Pharos accessed",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit from bad publicity",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Palisade protecting R&D at position 0",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Using Cleaver:",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 1 credit from bad publicity",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Subroutine \"End the run.\" broken",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Approaching R&D",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "hidden card accessed",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Orbital Superiority stolen",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit from bad publicity",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Palisade protecting R&D at position 0",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Using Cleaver:",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 1 credit from bad publicity",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Subroutine \"End the run.\" broken",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Approaching R&D",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "hidden card accessed",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking HQ",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit from bad publicity",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting HQ",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Palisade protecting HQ at position 0",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Using Cleaver:",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 1 credit from bad publicity",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Subroutine \"End the run.\" broken",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Approaching HQ",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Paywall accessed",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 18
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained 2 credits",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Superconducting Hub scored",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "You may draw 2 cards triggered",
+      "turn": 19
+    },
+    {
+      "draw": {
+        "kind": "effect",
+        "source": "Superconducting Hub"
+      },
+      "side": "corp",
+      "text": "Corp drew 2 cards",
+      "turn": 19
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit from bad publicity",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Palisade protecting R&D at position 0",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Using Cleaver:",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 1 credit from bad publicity",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Subroutine \"End the run.\" broken",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Approaching R&D",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "hidden card accessed",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Offworld Office stolen",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking R&D",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit from bad publicity",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting R&D",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Palisade protecting R&D at position 0",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Using Cleaver:",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 1 credit from bad publicity",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Subroutine \"End the run.\" broken",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Approaching R&D",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "hidden card accessed",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Orbital Superiority stolen",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Runner reached 8 agenda points.",
+      "turn": 20
+    }
+  ],
+  "session": {
+    "choices": [
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 8
+      },
+      {
+        "command": "install",
+        "index": 6,
+        "version": 10
+      },
+      {
+        "command": "install",
+        "index": 6,
+        "version": 12
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 50
+      },
+      {
+        "command": "install",
+        "index": 0,
+        "version": 53
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 55
+      },
+      {
+        "command": "rez",
+        "index": 0,
+        "version": 76
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 81
+      },
+      {
+        "command": "install",
+        "index": 8,
+        "version": 106
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 108
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 109
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 147
+      },
+      {
+        "command": "score",
+        "index": 0,
+        "version": 148
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 149
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 151
+      },
+      {
+        "command": "install",
+        "index": 13,
+        "version": 154
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 156
+      },
+      {
+        "command": "rez",
+        "index": 0,
+        "version": 180
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 185
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 220
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 221
+      },
+      {
+        "command": "install",
+        "index": 27,
+        "version": 222
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 260
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 261
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 262
+      },
+      {
+        "command": "score",
+        "index": 0,
+        "version": 263
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 264
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 266
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 273
+      },
+      {
+        "command": "rez",
+        "index": 0,
+        "version": 296
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 301
+      },
+      {
+        "command": "install",
+        "index": 26,
+        "version": 321
+      },
+      {
+        "command": "rez",
+        "index": 0,
+        "version": 323
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 324
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 326
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 419
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 421
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 423
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 544
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 546
+      },
+      {
+        "command": "install",
+        "index": 28,
+        "version": 548
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 686
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 687
+      },
+      {
+        "command": "advance",
+        "index": 0,
+        "version": 688
+      },
+      {
+        "command": "score",
+        "index": 0,
+        "version": 689
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 690
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 692
+      }
+    ],
+    "conceded": false,
+    "config": {
+      "aiPolicy": "pressure-v1",
+      "cardPool": "vantage-preview-v1",
+      "deckDocuments": {
+        "corp": {
+          "cards": [
+            {
+              "count": 3,
+              "id": "30053"
+            },
+            {
+              "count": 1,
+              "id": "30060"
+            },
+            {
+              "count": 2,
+              "id": "30061"
+            },
+            {
+              "count": 1,
+              "id": "30062"
+            },
+            {
+              "count": 1,
+              "id": "30063"
+            },
+            {
+              "count": 1,
+              "id": "30065"
+            },
+            {
+              "count": 3,
+              "id": "30067"
+            },
+            {
+              "count": 2,
+              "id": "30068"
+            },
+            {
+              "count": 1,
+              "id": "30069"
+            },
+            {
+              "count": 3,
+              "id": "30070"
+            },
+            {
+              "count": 3,
+              "id": "30071"
+            },
+            {
+              "count": 3,
+              "id": "30072"
+            },
+            {
+              "count": 3,
+              "id": "30073"
+            },
+            {
+              "count": 3,
+              "id": "30075"
+            },
+            {
+              "count": 2,
+              "id": "36029"
+            },
+            {
+              "count": 1,
+              "id": "36041"
+            },
+            {
+              "count": 1,
+              "id": "36050"
+            },
+            {
+              "count": 3,
+              "id": "36052"
+            },
+            {
+              "count": 1,
+              "id": "36059"
+            },
+            {
+              "count": 2,
+              "id": "36063"
+            }
+          ],
+          "identity": "30059",
+          "name": "Panel Corp 19Nov",
+          "pool": "vantage-preview-v1",
+          "schemaVersion": 1,
+          "side": "corp"
+        },
+        "runner": {
+          "cards": [
+            {
+              "count": 3,
+              "id": "30005"
+            },
+            {
+              "count": 3,
+              "id": "30011"
+            },
+            {
+              "count": 3,
+              "id": "30012"
+            },
+            {
+              "count": 2,
+              "id": "30013"
+            },
+            {
+              "count": 2,
+              "id": "30014"
+            },
+            {
+              "count": 3,
+              "id": "30015"
+            },
+            {
+              "count": 3,
+              "id": "30016"
+            },
+            {
+              "count": 2,
+              "id": "30017"
+            },
+            {
+              "count": 3,
+              "id": "30018"
+            },
+            {
+              "count": 3,
+              "id": "30027"
+            },
+            {
+              "count": 3,
+              "id": "30028"
+            },
+            {
+              "count": 3,
+              "id": "30029"
+            },
+            {
+              "count": 3,
+              "id": "30030"
+            },
+            {
+              "count": 2,
+              "id": "30034"
+            },
+            {
+              "count": 3,
+              "id": "36012"
+            },
+            {
+              "count": 2,
+              "id": "36013"
+            },
+            {
+              "count": 2,
+              "id": "30006"
+            }
+          ],
+          "identity": "36009",
+          "name": "Vic · central pressure",
+          "pool": "vantage-preview-v1",
+          "schemaVersion": 1,
+          "side": "runner"
+        }
+      },
+      "rulesVersion": "26.03-vantage-3",
+      "seed": "f4f1bd23-577b-4467-b9e3-6cb4df3143c1",
+      "side": "corp"
+    },
+    "engine": "local-vantage-preview-3"
+  }
+}

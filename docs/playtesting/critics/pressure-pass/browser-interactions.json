@@ -1,0 +1,7491 @@
+{
+  "manual": {
+    "after": {
+      "decision": "SPEND IN-GAME CREDITS\n2 credits left to pay\nPayment details\ncredit pool\n1 credits available toward this payment\n1\nConfirm from credit pool\nbad publicity\n1 credits available toward this payment\n1\nConfirm from bad publicity\nOverclock\n5 credits available toward this payment\n1\n2\nConfirm from Overclock\nStop queued plan · finish this committed payment manually",
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 2,
+          "sourceId": "c64",
+          "total": 2
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "pool": 1,
+      "receiptCollapsed": true,
+      "temporary": 1,
+      "version": 268
+    },
+    "before": {
+      "buttons": [
+        {
+          "left": 28,
+          "right": 336,
+          "text": "Confirm from credit pool"
+        },
+        {
+          "left": 28,
+          "right": 336,
+          "text": "Confirm from bad publicity"
+        },
+        {
+          "left": 28,
+          "right": 336,
+          "text": "Confirm from Overclock"
+        },
+        {
+          "left": 17,
+          "right": 347,
+          "text": "Stop queued plan · finish this committed payment manually"
+        }
+      ],
+      "overflow": false,
+      "payment": [
+        {
+          "amount": 1,
+          "available": 3,
+          "source": "credit pool",
+          "sourceId": "creditPool"
+        },
+        {
+          "amount": 2,
+          "available": 3,
+          "source": "credit pool",
+          "sourceId": "creditPool"
+        },
+        {
+          "amount": 1,
+          "available": 1,
+          "source": "bad publicity",
+          "sourceId": "temporaryCredits"
+        },
+        {
+          "amount": 1,
+          "available": 5,
+          "source": "Overclock",
+          "sourceId": "c82"
+        },
+        {
+          "amount": 2,
+          "available": 5,
+          "source": "Overclock",
+          "sourceId": "c82"
+        }
+      ],
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 2,
+          "sourceId": "c64",
+          "total": 2
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "pool": 3,
+      "temporary": 1,
+      "text": "SPEND IN-GAME CREDITS\n2 credits left to pay\nPayment details\ncredit pool\n3 credits available toward this payment\n1\n2\nConfirm from credit pool\nbad publicity\n1 credits available toward this payment\n1\nConfirm from bad publicity\nOverclock\n5 credits available toward this payment\n1\n2\nConfirm from Overclock\nStop queued plan · finish this committed payment manually",
+      "version": 265,
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  },
+  "mobile": {
+    "after": {
+      "broken": [
+        true,
+        true
+      ],
+      "overclock": 0,
+      "overflow": false,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "pool": 3,
+      "receiptCollapsed": true,
+      "temporary": 0,
+      "version": 283,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    "before": {
+      "pool": 3,
+      "quote": "Uses 1 bad publicity + 5 Overclock",
+      "version": 263
+    }
+  },
+  "runnerClicks": [
+    {
+      "version": 2,
+      "turn": 1,
+      "phase": {
+        "identifier": "Runner Mulligan",
+        "source": null,
+        "title": "Runner's Mulligan"
+      },
+      "text": "Keep this hand→",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 8,
+      "turn": 1,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 32,
+      "turn": 2,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Install1 click3 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c66 c59 c64",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 32,
+      "turn": 2,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Install Carmen into program row1 click · 5 credits",
+      "data": {
+        "command": "install",
+        "option": "2",
+        "relatedCards": "c64",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 35,
+      "turn": 2,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "4"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 37,
+      "turn": 2,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 39,
+      "turn": 2,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Play1 clickCost shown when choosing a card2 choices ›",
+      "data": {
+        "command": "play",
+        "group": "",
+        "relatedCards": "c88 c53",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 39,
+      "turn": 2,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Tailgate1 click · 2 credits",
+      "data": {
+        "command": "play",
+        "option": "0",
+        "relatedCards": "c88",
+        "vantageProbe": "4"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 40,
+      "turn": 2,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": "Tailgate",
+        "title": "Playing Tailgate"
+      },
+      "text": "Run HQ1 click · 2 credits→",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 45,
+      "turn": 2,
+      "phase": {
+        "identifier": "Run 2.1",
+        "source": null,
+        "title": "Run: Approach Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 59,
+      "turn": 2,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 66,
+      "turn": 2,
+      "phase": {
+        "identifier": "Run 5.2",
+        "source": null,
+        "title": "Run: Breach"
+      },
+      "text": "Random card from HQ",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c45",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 67,
+      "turn": 2,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Steal agenda0 credits→",
+      "data": {
+        "command": "steal",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 71,
+      "turn": 2,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Random card from HQ",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c8",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 72,
+      "turn": 2,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Finish accessingFinish resolving this card’s access.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 73,
+      "turn": 2,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Random card from HQ",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c23",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 74,
+      "turn": 2,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Finish accessingFinish resolving this card’s access.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 90,
+      "turn": 3,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 112,
+      "turn": 4,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "4"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 114,
+      "turn": 4,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 116,
+      "turn": 4,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 118,
+      "turn": 4,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D ›",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 121,
+      "turn": 4,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 129,
+      "turn": 4,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Finish accessingFinish resolving this card’s access.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 145,
+      "turn": 5,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 168,
+      "turn": 6,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D ›",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 171,
+      "turn": 6,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 179,
+      "turn": 6,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Steal agenda0 credits→",
+      "data": {
+        "command": "steal",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 186,
+      "turn": 6,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Install1 click3 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c66 c59 c64",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 186,
+      "turn": 6,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Install Carmen into program row1 click · 3 credits",
+      "data": {
+        "command": "install",
+        "option": "2",
+        "relatedCards": "c64",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 189,
+      "turn": 6,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "4"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 191,
+      "turn": 6,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Virtual Intelligence, P.I.: “You Can Call Me Vic” · Click, 1credit: Draw 1 card and remove 1 tag. Once per turn.1 click · 1 credit→",
+      "data": {
+        "abilityKind": "",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c47",
+        "sourceId": "c47",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 207,
+      "turn": 7,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 230,
+      "turn": 8,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "4"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 232,
+      "turn": 8,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 234,
+      "turn": 8,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 236,
+      "turn": 8,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D ›",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 239,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Carmen · +3 strength.2 credits→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c64",
+        "sourceId": "c64",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 241,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 249,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Finish accessingFinish resolving this card’s access.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 265,
+      "turn": 9,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 288,
+      "turn": 10,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 290,
+      "turn": 10,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 292,
+      "turn": 10,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D ›",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 295,
+      "turn": 10,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Carmen · +3 strength.2 credits→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c64",
+        "sourceId": "c64",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 297,
+      "turn": 10,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 305,
+      "turn": 10,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Finish accessingFinish resolving this card’s access.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 309,
+      "turn": 10,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 323,
+      "turn": 11,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 326,
+      "turn": 11,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 329,
+      "turn": 11,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 332,
+      "turn": 11,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 346,
+      "turn": 12,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 348,
+      "turn": 12,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D ›",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 351,
+      "turn": 12,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Carmen · +3 strength.2 credits→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c64",
+        "sourceId": "c64",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 353,
+      "turn": 12,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 361,
+      "turn": 12,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Finish accessingFinish resolving this card’s access.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 365,
+      "turn": 12,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 367,
+      "turn": 12,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 381,
+      "turn": 13,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 384,
+      "turn": 13,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 387,
+      "turn": 13,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 390,
+      "turn": 13,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 404,
+      "turn": 14,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D ›",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 407,
+      "turn": 14,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Carmen · +3 strength.2 credits→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c64",
+        "sourceId": "c64",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 409,
+      "turn": 14,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 417,
+      "turn": 14,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Steal agenda0 credits→",
+      "data": {
+        "command": "steal",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 424,
+      "turn": 14,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 426,
+      "turn": 14,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 428,
+      "turn": 14,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D ›",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 431,
+      "turn": 14,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Carmen · +3 strength.2 credits→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c64",
+        "sourceId": "c64",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 433,
+      "turn": 14,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 441,
+      "turn": 14,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Steal agenda0 credits→",
+      "data": {
+        "command": "steal",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 469,
+      "turn": 15,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 493,
+      "turn": 16,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 495,
+      "turn": 16,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 497,
+      "turn": 16,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D › · 1 ICE",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 502,
+      "turn": 16,
+      "phase": {
+        "identifier": "Rez",
+        "source": null,
+        "title": "Rez"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 515,
+      "turn": 16,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Carmen · +3 strength.2 credits→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c64",
+        "sourceId": "c64",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 517,
+      "turn": 16,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 2,
+          "sourceId": "c64",
+          "total": 2
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from bad publicity",
+      "data": {
+        "paySource": "credit-source-1",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 518,
+      "turn": 16,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 1,
+          "sourceId": "c64",
+          "total": 2
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from credit pool",
+      "data": {
+        "paySource": "credit-source-0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 519,
+      "turn": 16,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Carmen · +3 strength.2 credits→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c64",
+        "sourceId": "c64",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 521,
+      "turn": 16,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 531,
+      "turn": 16,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 545,
+      "turn": 17,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 569,
+      "turn": 18,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 571,
+      "turn": 18,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 573,
+      "turn": 18,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D › · 1 ICE",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 578,
+      "turn": 18,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Carmen · +3 strength.2 credits→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c64",
+        "sourceId": "c64",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 580,
+      "turn": 18,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 2,
+          "sourceId": "c64",
+          "total": 2
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from bad publicity",
+      "data": {
+        "paySource": "credit-source-1",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 581,
+      "turn": 18,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Carmen · +3 strength.2 credits→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c64",
+        "sourceId": "c64",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 583,
+      "turn": 18,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 593,
+      "turn": 18,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 607,
+      "turn": 19,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 611,
+      "turn": 19,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 615,
+      "turn": 19,
+      "phase": {
+        "identifier": "Corp Install",
+        "source": null,
+        "title": "Trash Before Install"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 632,
+      "turn": 20,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 634,
+      "turn": 20,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D › · 2 ICE",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 639,
+      "turn": 20,
+      "phase": {
+        "identifier": "Rez",
+        "source": null,
+        "title": "Rez"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 643,
+      "turn": 20,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Carmen · +3 strength.2 credits→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c64",
+        "sourceId": "c64",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 645,
+      "turn": 20,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 2,
+          "sourceId": "c64",
+          "total": 2
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from bad publicity",
+      "data": {
+        "paySource": "credit-source-1",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 646,
+      "turn": 20,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Carmen · +3 strength.2 credits→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c64",
+        "sourceId": "c64",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 648,
+      "turn": 20,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Carmen · Break 1 sentry subroutine.1 credit→",
+      "data": {
+        "abilityKind": "break",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c64",
+        "sourceId": "c64",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 649,
+      "turn": 20,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": "Carmen",
+        "title": "Break 1 sentry subroutine."
+      },
+      "text": "Break subroutine 1: You may add a card from Archives to the top or bottom of R&D.1 credit",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "relatedCards": "c64 c34",
+        "targetSubroutine": "1",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 650,
+      "turn": 20,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 659,
+      "turn": 20,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 664,
+      "turn": 20,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 674,
+      "turn": 20,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 676,
+      "turn": 20,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 690,
+      "turn": 21,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 720,
+      "turn": 22,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 722,
+      "turn": 22,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D › · 2 ICE",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 727,
+      "turn": 22,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 738,
+      "turn": 22,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 743,
+      "turn": 22,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 746,
+      "turn": 22,
+      "phase": {
+        "identifier": "Run Subroutines",
+        "source": "Grubber",
+        "title": "Grubber"
+      },
+      "text": "Pay 3 credits",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "relatedCards": "c31",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 747,
+      "turn": 22,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 3,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from bad publicity",
+      "data": {
+        "paySource": "credit-source-1",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 748,
+      "turn": 22,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 1,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from credit pool",
+      "data": {
+        "paySource": "credit-source-0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 750,
+      "turn": 22,
+      "phase": {
+        "identifier": "Run EncounterEnd",
+        "source": null,
+        "title": "Run: End of Encounter"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 757,
+      "turn": 22,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 759,
+      "turn": 22,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D › · 2 ICE",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 764,
+      "turn": 22,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 775,
+      "turn": 22,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 780,
+      "turn": 22,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 783,
+      "turn": 22,
+      "phase": {
+        "identifier": "Run Subroutines",
+        "source": "Grubber",
+        "title": "Grubber"
+      },
+      "text": "Pay 3 credits",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "relatedCards": "c31",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 784,
+      "turn": 22,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 3,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from bad publicity",
+      "data": {
+        "paySource": "credit-source-1",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 785,
+      "turn": 22,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 1,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from credit pool",
+      "data": {
+        "paySource": "credit-source-0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 787,
+      "turn": 22,
+      "phase": {
+        "identifier": "Run EncounterEnd",
+        "source": null,
+        "title": "Run: End of Encounter"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 831,
+      "turn": 24,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 833,
+      "turn": 24,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D › · 2 ICE",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 838,
+      "turn": 24,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 849,
+      "turn": 24,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 854,
+      "turn": 24,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 857,
+      "turn": 24,
+      "phase": {
+        "identifier": "Run Subroutines",
+        "source": "Grubber",
+        "title": "Grubber"
+      },
+      "text": "Pay 3 credits",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "relatedCards": "c31",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 858,
+      "turn": 24,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 3,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from bad publicity",
+      "data": {
+        "paySource": "credit-source-1",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 859,
+      "turn": 24,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 1,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from credit pool",
+      "data": {
+        "paySource": "credit-source-0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 861,
+      "turn": 24,
+      "phase": {
+        "identifier": "Run EncounterEnd",
+        "source": null,
+        "title": "Run: End of Encounter"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 868,
+      "turn": 24,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 870,
+      "turn": 24,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D › · 2 ICE",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 875,
+      "turn": 24,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 886,
+      "turn": 24,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 891,
+      "turn": 24,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 894,
+      "turn": 24,
+      "phase": {
+        "identifier": "Run Subroutines",
+        "source": "Grubber",
+        "title": "Grubber"
+      },
+      "text": "Pay 3 credits",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "relatedCards": "c31",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 895,
+      "turn": 24,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 3,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from bad publicity",
+      "data": {
+        "paySource": "credit-source-1",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 896,
+      "turn": 24,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 1,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from credit pool",
+      "data": {
+        "paySource": "credit-source-0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 898,
+      "turn": 24,
+      "phase": {
+        "identifier": "Run EncounterEnd",
+        "source": null,
+        "title": "Run: End of Encounter"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 939,
+      "turn": 26,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 941,
+      "turn": 26,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D › · 2 ICE",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 946,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 957,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 962,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 965,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run Subroutines",
+        "source": "Grubber",
+        "title": "Grubber"
+      },
+      "text": "Pay 3 credits",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "relatedCards": "c31",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 966,
+      "turn": 26,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 3,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from bad publicity",
+      "data": {
+        "paySource": "credit-source-1",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 967,
+      "turn": 26,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 1,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from credit pool",
+      "data": {
+        "paySource": "credit-source-0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 969,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run EncounterEnd",
+        "source": null,
+        "title": "Run: End of Encounter"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 976,
+      "turn": 26,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 978,
+      "turn": 26,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D › · 2 ICE",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 983,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 994,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 999,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1002,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run Subroutines",
+        "source": "Grubber",
+        "title": "Grubber"
+      },
+      "text": "Pay 3 credits",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "relatedCards": "c31",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1003,
+      "turn": 26,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 3,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from bad publicity",
+      "data": {
+        "paySource": "credit-source-1",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1004,
+      "turn": 26,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 1,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from credit pool",
+      "data": {
+        "paySource": "credit-source-0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1006,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run EncounterEnd",
+        "source": null,
+        "title": "Run: End of Encounter"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1055,
+      "turn": 28,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1057,
+      "turn": 28,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D › · 2 ICE",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1062,
+      "turn": 28,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1073,
+      "turn": 28,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1078,
+      "turn": 28,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1081,
+      "turn": 28,
+      "phase": {
+        "identifier": "Run Subroutines",
+        "source": "Grubber",
+        "title": "Grubber"
+      },
+      "text": "Pay 3 credits",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "relatedCards": "c31",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1082,
+      "turn": 28,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 3,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from bad publicity",
+      "data": {
+        "paySource": "credit-source-1",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1083,
+      "turn": 28,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 1,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from credit pool",
+      "data": {
+        "paySource": "credit-source-0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1085,
+      "turn": 28,
+      "phase": {
+        "identifier": "Run EncounterEnd",
+        "source": null,
+        "title": "Run: End of Encounter"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1092,
+      "turn": 28,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1094,
+      "turn": 28,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D › · 2 ICE",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1099,
+      "turn": 28,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1110,
+      "turn": 28,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1115,
+      "turn": 28,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1118,
+      "turn": 28,
+      "phase": {
+        "identifier": "Run Subroutines",
+        "source": "Grubber",
+        "title": "Grubber"
+      },
+      "text": "Pay 3 credits",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "relatedCards": "c31",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1119,
+      "turn": 28,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 3,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from bad publicity",
+      "data": {
+        "paySource": "credit-source-1",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1120,
+      "turn": 28,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 1,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from credit pool",
+      "data": {
+        "paySource": "credit-source-0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1122,
+      "turn": 28,
+      "phase": {
+        "identifier": "Run EncounterEnd",
+        "source": null,
+        "title": "Run: End of Encounter"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1165,
+      "turn": 30,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1167,
+      "turn": 30,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D › · 2 ICE",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1172,
+      "turn": 30,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1183,
+      "turn": 30,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1188,
+      "turn": 30,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1191,
+      "turn": 30,
+      "phase": {
+        "identifier": "Run Subroutines",
+        "source": "Grubber",
+        "title": "Grubber"
+      },
+      "text": "Pay 3 credits",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "relatedCards": "c31",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1192,
+      "turn": 30,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 3,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from bad publicity",
+      "data": {
+        "paySource": "credit-source-1",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1193,
+      "turn": 30,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 1,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from credit pool",
+      "data": {
+        "paySource": "credit-source-0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1195,
+      "turn": 30,
+      "phase": {
+        "identifier": "Run EncounterEnd",
+        "source": null,
+        "title": "Run: End of Encounter"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1202,
+      "turn": 30,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1204,
+      "turn": 30,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D › · 2 ICE",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1209,
+      "turn": 30,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1219,
+      "turn": 30,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1224,
+      "turn": 30,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1227,
+      "turn": 30,
+      "phase": {
+        "identifier": "Run Subroutines",
+        "source": "Grubber",
+        "title": "Grubber"
+      },
+      "text": "Pay 3 credits",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "relatedCards": "c31",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1228,
+      "turn": 30,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 3,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from bad publicity",
+      "data": {
+        "paySource": "credit-source-1",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1229,
+      "turn": 30,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 1,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from credit pool",
+      "data": {
+        "paySource": "credit-source-0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1231,
+      "turn": 30,
+      "phase": {
+        "identifier": "Run EncounterEnd",
+        "source": null,
+        "title": "Run: End of Encounter"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1275,
+      "turn": 32,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1277,
+      "turn": 32,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D › · 2 ICE",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1282,
+      "turn": 32,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1292,
+      "turn": 32,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1297,
+      "turn": 32,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1300,
+      "turn": 32,
+      "phase": {
+        "identifier": "Run Subroutines",
+        "source": "Grubber",
+        "title": "Grubber"
+      },
+      "text": "Pay 3 credits",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "relatedCards": "c31",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1301,
+      "turn": 32,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 3,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from bad publicity",
+      "data": {
+        "paySource": "credit-source-1",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1302,
+      "turn": 32,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 1,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from credit pool",
+      "data": {
+        "paySource": "credit-source-0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1304,
+      "turn": 32,
+      "phase": {
+        "identifier": "Run EncounterEnd",
+        "source": null,
+        "title": "Run: End of Encounter"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1311,
+      "turn": 32,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1313,
+      "turn": 32,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D › · 2 ICE",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1318,
+      "turn": 32,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1328,
+      "turn": 32,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1333,
+      "turn": 32,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1336,
+      "turn": 32,
+      "phase": {
+        "identifier": "Run Subroutines",
+        "source": "Grubber",
+        "title": "Grubber"
+      },
+      "text": "Pay 3 credits",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "relatedCards": "c31",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1337,
+      "turn": 32,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 3,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from bad publicity",
+      "data": {
+        "paySource": "credit-source-1",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1338,
+      "turn": 32,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 1,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from credit pool",
+      "data": {
+        "paySource": "credit-source-0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1340,
+      "turn": 32,
+      "phase": {
+        "identifier": "Run EncounterEnd",
+        "source": null,
+        "title": "Run: End of Encounter"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1382,
+      "turn": 34,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1384,
+      "turn": 34,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D › · 2 ICE",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1389,
+      "turn": 34,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1400,
+      "turn": 34,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1405,
+      "turn": 34,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1408,
+      "turn": 34,
+      "phase": {
+        "identifier": "Run Subroutines",
+        "source": "Grubber",
+        "title": "Grubber"
+      },
+      "text": "Pay 3 credits",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "relatedCards": "c31",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1409,
+      "turn": 34,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 3,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from bad publicity",
+      "data": {
+        "paySource": "credit-source-1",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1410,
+      "turn": 34,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 1,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from credit pool",
+      "data": {
+        "paySource": "credit-source-0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1412,
+      "turn": 34,
+      "phase": {
+        "identifier": "Run EncounterEnd",
+        "source": null,
+        "title": "Run: End of Encounter"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1419,
+      "turn": 34,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1421,
+      "turn": 34,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D › · 2 ICE",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1426,
+      "turn": 34,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1436,
+      "turn": 34,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1441,
+      "turn": 34,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1444,
+      "turn": 34,
+      "phase": {
+        "identifier": "Run Subroutines",
+        "source": "Grubber",
+        "title": "Grubber"
+      },
+      "text": "Pay 3 credits",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "relatedCards": "c31",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1445,
+      "turn": 34,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 3,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from bad publicity",
+      "data": {
+        "paySource": "credit-source-1",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1446,
+      "turn": 34,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 1,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from credit pool",
+      "data": {
+        "paySource": "credit-source-0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1448,
+      "turn": 34,
+      "phase": {
+        "identifier": "Run EncounterEnd",
+        "source": null,
+        "title": "Run: End of Encounter"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1490,
+      "turn": 36,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1492,
+      "turn": 36,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D › · 2 ICE",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1497,
+      "turn": 36,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1508,
+      "turn": 36,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1513,
+      "turn": 36,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1516,
+      "turn": 36,
+      "phase": {
+        "identifier": "Run Subroutines",
+        "source": "Grubber",
+        "title": "Grubber"
+      },
+      "text": "Pay 3 credits",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "relatedCards": "c31",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1517,
+      "turn": 36,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 3,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from bad publicity",
+      "data": {
+        "paySource": "credit-source-1",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1518,
+      "turn": 36,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 1,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from credit pool",
+      "data": {
+        "paySource": "credit-source-0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1520,
+      "turn": 36,
+      "phase": {
+        "identifier": "Run EncounterEnd",
+        "source": null,
+        "title": "Run: End of Encounter"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1527,
+      "turn": 36,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1529,
+      "turn": 36,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "R&D › · 2 ICE",
+      "data": {
+        "serverAction": "R&D",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1534,
+      "turn": 36,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1544,
+      "turn": 36,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1549,
+      "turn": 36,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1552,
+      "turn": 36,
+      "phase": {
+        "identifier": "Run Subroutines",
+        "source": "Grubber",
+        "title": "Grubber"
+      },
+      "text": "Pay 3 credits",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "relatedCards": "c31",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1553,
+      "turn": 36,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 3,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from bad publicity",
+      "data": {
+        "paySource": "credit-source-1",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1554,
+      "turn": 36,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 1,
+          "sourceId": "c31",
+          "total": 3
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from credit pool",
+      "data": {
+        "paySource": "credit-source-0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1556,
+      "turn": 36,
+      "phase": {
+        "identifier": "Run EncounterEnd",
+        "source": null,
+        "title": "Run: End of Encounter"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1598,
+      "turn": 38,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1600,
+      "turn": 38,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Install1 click7 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c66 c59 c69 c31 c34 c33 c35 c30",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1600,
+      "turn": 38,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Marjanah1 click · 0 creditsInstall → Install Marjanah into program row",
+      "data": {
+        "installCard": "c66",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1603,
+      "turn": 38,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Archives ›",
+      "data": {
+        "serverAction": "Archives",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1606,
+      "turn": 38,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Marjanah · +1 strength.1 credit→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c66",
+        "sourceId": "c66",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1608,
+      "turn": 38,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 1,
+          "sourceId": "c66",
+          "total": 1
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from bad publicity",
+      "data": {
+        "paySource": "credit-source-1",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1609,
+      "turn": 38,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Marjanah · +1 strength.1 credit→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c66",
+        "sourceId": "c66",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1611,
+      "turn": 38,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 1,
+          "sourceId": "c66",
+          "total": 1
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from bad publicity",
+      "data": {
+        "paySource": "credit-source-1",
+        "vantageProbe": "1"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1612,
+      "turn": 38,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Marjanah · +1 strength.1 credit→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c66",
+        "sourceId": "c66",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1614,
+      "turn": 38,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Marjanah · +1 strength.1 credit→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c66",
+        "sourceId": "c66",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1616,
+      "turn": 38,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Marjanah · +1 strength.1 credit→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c66",
+        "sourceId": "c66",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1618,
+      "turn": 38,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1630,
+      "turn": 38,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Archives ›",
+      "data": {
+        "serverAction": "Archives",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1633,
+      "turn": 38,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Marjanah · +1 strength.1 credit→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c66",
+        "sourceId": "c66",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1635,
+      "turn": 38,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Marjanah · +1 strength.1 credit→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c66",
+        "sourceId": "c66",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1637,
+      "turn": 38,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1661,
+      "turn": 39,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1684,
+      "turn": 40,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Archives ›",
+      "data": {
+        "serverAction": "Archives",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1687,
+      "turn": 40,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Marjanah · +1 strength.1 credit→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c66",
+        "sourceId": "c66",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1689,
+      "turn": 40,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Marjanah · +1 strength.1 credit→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c66",
+        "sourceId": "c66",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1691,
+      "turn": 40,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1698,
+      "turn": 40,
+      "phase": {
+        "identifier": "Run 5.2",
+        "source": null,
+        "title": "Run: Breach"
+      },
+      "text": "Flood the Market",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c38",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1700,
+      "turn": 40,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Hedge Fund",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c18",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1705,
+      "turn": 40,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Archives ›",
+      "data": {
+        "serverAction": "Archives",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1708,
+      "turn": 40,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Marjanah · +1 strength.1 credit→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c66",
+        "sourceId": "c66",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1710,
+      "turn": 40,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Marjanah · +1 strength.1 credit→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c66",
+        "sourceId": "c66",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1712,
+      "turn": 40,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1719,
+      "turn": 40,
+      "phase": {
+        "identifier": "Run 5.2",
+        "source": null,
+        "title": "Run: Breach"
+      },
+      "text": "Flood the Market",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c38",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1721,
+      "turn": 40,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Hedge Fund",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c18",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1726,
+      "turn": 40,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Archives ›",
+      "data": {
+        "serverAction": "Archives",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1729,
+      "turn": 40,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Marjanah · +1 strength.1 credit→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c66",
+        "sourceId": "c66",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1731,
+      "turn": 40,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Marjanah · +1 strength.1 credit→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c66",
+        "sourceId": "c66",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1733,
+      "turn": 40,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1740,
+      "turn": 40,
+      "phase": {
+        "identifier": "Run 5.2",
+        "source": null,
+        "title": "Run: Breach"
+      },
+      "text": "Flood the Market",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c38",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1742,
+      "turn": 40,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Hedge Fund",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c18",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1747,
+      "turn": 40,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Archives ›",
+      "data": {
+        "serverAction": "Archives",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1750,
+      "turn": 40,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Marjanah · +1 strength.1 credit→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c66",
+        "sourceId": "c66",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1752,
+      "turn": 40,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Marjanah · +1 strength.1 credit→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c66",
+        "sourceId": "c66",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1754,
+      "turn": 40,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1761,
+      "turn": 40,
+      "phase": {
+        "identifier": "Run 5.2",
+        "source": null,
+        "title": "Run: Breach"
+      },
+      "text": "Flood the Market",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c38",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1763,
+      "turn": 40,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Hedge Fund",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c18",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1780,
+      "turn": 41,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1803,
+      "turn": 42,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1805,
+      "turn": 42,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1807,
+      "turn": 42,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1809,
+      "turn": 42,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1823,
+      "turn": 43,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1827,
+      "turn": 43,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1846,
+      "turn": 44,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1848,
+      "turn": 44,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Install1 click8 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c59 c69 c31 c34 c33 c35 c29 c30 c64",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1848,
+      "turn": 44,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Carmen1 click · 5 creditsInstall → Install Carmen into program row",
+      "data": {
+        "installCard": "c64",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1851,
+      "turn": 44,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1853,
+      "turn": 44,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Virtual Intelligence, P.I.: “You Can Call Me Vic” · Click, 1credit: Draw 1 card and remove 1 tag. Once per turn.1 click · 1 credit→",
+      "data": {
+        "abilityKind": "",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c47",
+        "sourceId": "c47",
+        "vantageProbe": "4"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1869,
+      "turn": 45,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    }
+  ],
+  "corpClicks": [
+    {
+      "version": 1,
+      "turn": 1,
+      "phase": {
+        "identifier": "Corp Mulligan",
+        "source": null,
+        "title": "Corporation's Mulligan"
+      },
+      "text": "Keep this hand→",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 8,
+      "turn": 1,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Install1 click17 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c17 c32 c37 c33 c28",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 8,
+      "turn": 1,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Brân 1.04 legal destinations",
+      "data": {
+        "installCard": "c17",
+        "vantageProbe": "4"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 8,
+      "turn": 1,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "R&D1 click · 0 creditsKeep existing ice",
+      "data": {
+        "command": "install",
+        "option": "2",
+        "relatedCards": "c17",
+        "vantageProbe": "8"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 10,
+      "turn": 1,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Install1 click13 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c32 c37 c33 c28",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 10,
+      "turn": 1,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Whitespace ×2 copies4 legal destinations",
+      "data": {
+        "installCard": "c32",
+        "vantageProbe": "4"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 10,
+      "turn": 1,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "HQ1 click · 0 creditsKeep existing ice",
+      "data": {
+        "command": "install",
+        "option": "1",
+        "relatedCards": "c32",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 12,
+      "turn": 1,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "4"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 25,
+      "turn": 2,
+      "phase": {
+        "identifier": "Runner 1.3*",
+        "source": null,
+        "title": "Runner's Action Phase: Post Action"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 43,
+      "turn": 3,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Install1 click10 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c37 c33 c28 c9",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 43,
+      "turn": 3,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Superconducting Hub1 click · 0 creditsInstall facedownInstall → New remote",
+      "data": {
+        "installCard": "c9",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 45,
+      "turn": 3,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Install1 click12 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c37 c33 c28",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 45,
+      "turn": 3,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Whitespace5 legal destinations",
+      "data": {
+        "installCard": "c33",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 45,
+      "turn": 3,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Remote 11 click · 0 creditsKeep existing ice",
+      "data": {
+        "command": "install",
+        "option": "3",
+        "relatedCards": "c33",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 47,
+      "turn": 3,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Advance1 click · 1 creditSuperconducting Hub→",
+      "data": {
+        "command": "advance",
+        "group": "",
+        "relatedCards": "c9",
+        "vantageProbe": "8"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 61,
+      "turn": 4,
+      "phase": {
+        "identifier": "Runner 1.3*",
+        "source": null,
+        "title": "Runner's Action Phase: Post Action"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 79,
+      "turn": 5,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Advance1 click · 1 creditSuperconducting Hub→",
+      "data": {
+        "command": "advance",
+        "group": "",
+        "relatedCards": "c9",
+        "vantageProbe": "8"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 80,
+      "turn": 5,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Advance1 click · 1 creditSuperconducting Hub→",
+      "data": {
+        "command": "advance",
+        "group": "",
+        "relatedCards": "c9",
+        "vantageProbe": "8"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 81,
+      "turn": 5,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Score agendaSuperconducting Hub→",
+      "data": {
+        "command": "score",
+        "group": "",
+        "relatedCards": "c9",
+        "vantageProbe": "4"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 82,
+      "turn": 5,
+      "phase": {
+        "identifier": "Scored",
+        "source": null,
+        "title": "Scored"
+      },
+      "text": "Superconducting Hub · You may draw 2 cards→",
+      "data": {
+        "abilityKind": "",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c9",
+        "sourceId": "c9",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 84,
+      "turn": 5,
+      "phase": {
+        "identifier": "Scored",
+        "source": "Superconducting Hub",
+        "title": "Superconducting Hub"
+      },
+      "text": "Draw 2 cards",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "relatedCards": "c9",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 87,
+      "turn": 5,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Install1 click14 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c37 c28 c6 c13",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 87,
+      "turn": 5,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Send a Message2 legal destinations",
+      "data": {
+        "installCard": "c6",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 87,
+      "turn": 5,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "New remote1 click · 0 creditsInstall facedown",
+      "data": {
+        "command": "install",
+        "option": "7",
+        "relatedCards": "c6",
+        "vantageProbe": "5"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 101,
+      "turn": 6,
+      "phase": {
+        "identifier": "Runner 1.3*",
+        "source": null,
+        "title": "Runner's Action Phase: Post Action"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 120,
+      "turn": 7,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Install1 click21 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c37 c28 c13 c30",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 120,
+      "turn": 7,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Tithe ×2 copies6 legal destinations",
+      "data": {
+        "installCard": "c28",
+        "vantageProbe": "8"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 120,
+      "turn": 7,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Remote 21 click · 0 creditsKeep existing ice",
+      "data": {
+        "command": "install",
+        "option": "5",
+        "relatedCards": "c28",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 122,
+      "turn": 7,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Advance1 click · 1 creditSend a Message→",
+      "data": {
+        "command": "advance",
+        "group": "",
+        "relatedCards": "c6",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 123,
+      "turn": 7,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Advance1 click · 1 creditSend a Message→",
+      "data": {
+        "command": "advance",
+        "group": "",
+        "relatedCards": "c6",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 136,
+      "turn": 8,
+      "phase": {
+        "identifier": "Runner 1.3*",
+        "source": null,
+        "title": "Runner's Action Phase: Post Action"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 141,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run 2.1",
+        "source": null,
+        "title": "Run: Approach Ice"
+      },
+      "text": "Rez Tithe · Remote 2 · ice 1 from outside1 credit",
+      "data": {
+        "command": "rez",
+        "option": "0",
+        "relatedCards": "c28",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 160,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run 5.1",
+        "source": null,
+        "title": "Run: Successful"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 166,
+      "turn": 8,
+      "phase": {
+        "identifier": "Stolen",
+        "source": "Send a Message",
+        "title": "You may rez 1 installed piece of ice, ignoring all costs"
+      },
+      "text": "Decline free rez",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "relatedCards": "c6",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 169,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run 6.4",
+        "source": null,
+        "title": "Run: End"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 187,
+      "turn": 9,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 188,
+      "turn": 9,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 189,
+      "turn": 9,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 202,
+      "turn": 10,
+      "phase": {
+        "identifier": "Runner 1.3*",
+        "source": null,
+        "title": "Runner's Action Phase: Post Action"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 222,
+      "turn": 11,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 223,
+      "turn": 11,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 224,
+      "turn": 11,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 237,
+      "turn": 12,
+      "phase": {
+        "identifier": "Runner 1.3*",
+        "source": null,
+        "title": "Runner's Action Phase: Post Action"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 257,
+      "turn": 13,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 258,
+      "turn": 13,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 259,
+      "turn": 13,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 272,
+      "turn": 14,
+      "phase": {
+        "identifier": "Runner 1.3*",
+        "source": null,
+        "title": "Runner's Action Phase: Post Action"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 291,
+      "turn": 15,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Play1 click3 choices ›",
+      "data": {
+        "command": "play",
+        "group": "",
+        "relatedCards": "c43 c44 c34",
+        "vantageProbe": "8"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 291,
+      "turn": 15,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Hedge Fund1 click · 5 credits",
+      "data": {
+        "command": "play",
+        "option": "2",
+        "relatedCards": "c34",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 293,
+      "turn": 15,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 294,
+      "turn": 15,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 307,
+      "turn": 16,
+      "phase": {
+        "identifier": "Runner 1.3*",
+        "source": null,
+        "title": "Runner's Action Phase: Post Action"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 318,
+      "turn": 16,
+      "phase": {
+        "identifier": "Run 2.1",
+        "source": null,
+        "title": "Run: Approach Ice"
+      },
+      "text": "Rez Whitespace · HQ · ice 1 from outside2 credits",
+      "data": {
+        "command": "rez",
+        "option": "0",
+        "relatedCards": "c32",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 323,
+      "turn": 16,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": "Buzzsaw",
+        "title": "Break up to 2 code gate subroutines"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 361,
+      "turn": 17,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 362,
+      "turn": 17,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 363,
+      "turn": 17,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 377,
+      "turn": 18,
+      "phase": {
+        "identifier": "Run 1.5",
+        "source": null,
+        "title": "Run: Initiation"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 512,
+      "turn": 19,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 513,
+      "turn": 19,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 514,
+      "turn": 19,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 528,
+      "turn": 20,
+      "phase": {
+        "identifier": "Runner 1.3*",
+        "source": null,
+        "title": "Runner's Action Phase: Post Action"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 604,
+      "turn": 21,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 605,
+      "turn": 21,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 606,
+      "turn": 21,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 616,
+      "turn": 22,
+      "phase": {
+        "identifier": "Runner 1.2",
+        "source": null,
+        "title": "Runner's Turn Begins"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 699,
+      "turn": 23,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 700,
+      "turn": 23,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 701,
+      "turn": 23,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 711,
+      "turn": 24,
+      "phase": {
+        "identifier": "Runner 1.2",
+        "source": null,
+        "title": "Runner's Turn Begins"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 735,
+      "turn": 25,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Install1 click15 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c27 c13 c4",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 735,
+      "turn": 25,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Offworld Office3 legal destinations",
+      "data": {
+        "installCard": "c4",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 735,
+      "turn": 25,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "New remote1 click · 0 creditsInstall facedown",
+      "data": {
+        "command": "install",
+        "option": "12",
+        "relatedCards": "c4",
+        "vantageProbe": "6"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 737,
+      "turn": 25,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Install1 click14 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c27 c13",
+        "vantageProbe": "8"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 737,
+      "turn": 25,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Palisade7 legal destinations",
+      "data": {
+        "installCard": "c27",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 737,
+      "turn": 25,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Remote 31 click · 0 creditsKeep existing ice",
+      "data": {
+        "command": "install",
+        "option": "3",
+        "relatedCards": "c27",
+        "vantageProbe": "13"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 739,
+      "turn": 25,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Advance1 click · 1 creditOffworld Office→",
+      "data": {
+        "command": "advance",
+        "group": "",
+        "relatedCards": "c4",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 752,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run 1.5",
+        "source": null,
+        "title": "Run: Initiation"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 755,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run 2.1",
+        "source": null,
+        "title": "Run: Approach Ice"
+      },
+      "text": "Rez Palisade · Remote 3 · ice 1 from outside3 credits",
+      "data": {
+        "command": "rez",
+        "option": "0",
+        "relatedCards": "c27",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 760,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 790,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run 2.1",
+        "source": null,
+        "title": "Run: Approach Ice"
+      },
+      "text": "Rez Brân 1.0 · R&D · ice 1 from outside6 credits",
+      "data": {
+        "command": "rez",
+        "option": "0",
+        "relatedCards": "c17",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 795,
+      "turn": 26,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 834,
+      "turn": 26,
+      "phase": {
+        "identifier": "Runner 1.3*",
+        "source": "Wildcat Strike",
+        "title": "Wildcat Strike"
+      },
+      "text": "Runner gains 6 credit",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "relatedCards": "c48",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 846,
+      "turn": 27,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 847,
+      "turn": 27,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 848,
+      "turn": 27,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 861,
+      "turn": 28,
+      "phase": {
+        "identifier": "Run 1.5",
+        "source": null,
+        "title": "Run: Initiation"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 908,
+      "turn": 29,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 909,
+      "turn": 29,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 910,
+      "turn": 29,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 923,
+      "turn": 30,
+      "phase": {
+        "identifier": "Run 1.5",
+        "source": null,
+        "title": "Run: Initiation"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 967,
+      "turn": 31,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 968,
+      "turn": 31,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 969,
+      "turn": 31,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 982,
+      "turn": 32,
+      "phase": {
+        "identifier": "Run 1.5",
+        "source": null,
+        "title": "Run: Initiation"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1076,
+      "turn": 33,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1077,
+      "turn": 33,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1078,
+      "turn": 33,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1081,
+      "turn": 33,
+      "phase": {
+        "identifier": "Corp 3.1",
+        "source": null,
+        "title": "Corporation's Discard Phase"
+      },
+      "text": "Ansel 1.0",
+      "data": {
+        "command": "discard",
+        "option": "0",
+        "relatedCards": "c13",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1093,
+      "turn": 34,
+      "phase": {
+        "identifier": "Runner 1.3*",
+        "source": null,
+        "title": "Runner's Action Phase: Post Action"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1144,
+      "turn": 35,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1145,
+      "turn": 35,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1146,
+      "turn": 35,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1156,
+      "turn": 36,
+      "phase": {
+        "identifier": "Runner 1.2",
+        "source": null,
+        "title": "Runner's Turn Begins"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1203,
+      "turn": 37,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1204,
+      "turn": 37,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1205,
+      "turn": 37,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1208,
+      "turn": 37,
+      "phase": {
+        "identifier": "Corp 3.1",
+        "source": null,
+        "title": "Corporation's Discard Phase"
+      },
+      "text": "Manegarm Skunkworks",
+      "data": {
+        "command": "discard",
+        "option": "0",
+        "relatedCards": "c23",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1216,
+      "turn": 38,
+      "phase": {
+        "identifier": "Runner 1.2",
+        "source": null,
+        "title": "Runner's Turn Begins"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1240,
+      "turn": 39,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1241,
+      "turn": 39,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1242,
+      "turn": 39,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1245,
+      "turn": 39,
+      "phase": {
+        "identifier": "Corp 3.1",
+        "source": null,
+        "title": "Corporation's Discard Phase"
+      },
+      "text": "Predictive Planogram",
+      "data": {
+        "command": "discard",
+        "option": "0",
+        "relatedCards": "c42",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1257,
+      "turn": 40,
+      "phase": {
+        "identifier": "Runner 1.3*",
+        "source": null,
+        "title": "Runner's Action Phase: Post Action"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1257,
+      "turn": 40,
+      "phase": {
+        "identifier": "Runner 1.3*",
+        "source": null,
+        "title": "Runner's Action Phase: Post Action"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "3"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1374,
+      "turn": 41,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Play1 click6 choices ›",
+      "data": {
+        "command": "play",
+        "group": "",
+        "relatedCards": "c40 c19 c41 c20 c39 c36",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1374,
+      "turn": 41,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Hedge Fund1 click · 5 credits",
+      "data": {
+        "command": "play",
+        "option": "5",
+        "relatedCards": "c36",
+        "vantageProbe": "17"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1376,
+      "turn": 41,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1377,
+      "turn": 41,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1390,
+      "turn": 42,
+      "phase": {
+        "identifier": "Run 1.5",
+        "source": null,
+        "title": "Run: Initiation"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1442,
+      "turn": 43,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1443,
+      "turn": 43,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1444,
+      "turn": 43,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1447,
+      "turn": 43,
+      "phase": {
+        "identifier": "Corp 3.1",
+        "source": null,
+        "title": "Corporation's Discard Phase"
+      },
+      "text": "Hansei Review",
+      "data": {
+        "command": "discard",
+        "option": "0",
+        "relatedCards": "c40",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1458,
+      "turn": 44,
+      "phase": {
+        "identifier": "Run 1.5",
+        "source": null,
+        "title": "Run: Initiation"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1497,
+      "turn": 45,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1498,
+      "turn": 45,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1499,
+      "turn": 45,
+      "phase": {
+        "identifier": "Corp 2.2",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1502,
+      "turn": 45,
+      "phase": {
+        "identifier": "Corp 3.1",
+        "source": null,
+        "title": "Corporation's Discard Phase"
+      },
+      "text": "Seamless Launch",
+      "data": {
+        "command": "discard",
+        "option": "0",
+        "relatedCards": "c19",
+        "vantageProbe": "0"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 1513,
+      "turn": 46,
+      "phase": {
+        "identifier": "Run 1.5",
+        "source": null,
+        "title": "Run: Initiation"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "2"
+      },
+      "interaction": "DOM button click"
+    }
+  ],
+  "method": "Shared T3 browser; public DTO reads and actual DOM button clicks. No headless browser, engine injection or worker-message actions.",
+  "snapshotLimitation": "preview_snapshot timed out; responsive fit verified from rendered DOM geometry."
+}

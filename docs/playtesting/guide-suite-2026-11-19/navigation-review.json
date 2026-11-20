@@ -1,0 +1,159 @@
+{
+  "reviewer": "navigation",
+  "date": "2026-11-19",
+  "suite": "expanded deckbuilding guide",
+  "independentFirstImpression": {
+    "reviewer": "navigation",
+    "savedBeforeOtherReviews": true,
+    "firstImpression": "The first learning choice is immediately understandable: Familiar identities, Loup Tailored economy vs Restoring Humanity Ambushes. The page foregrounds learning goals and Runner win records. I can choose the familiar option without knowing advanced cards. It is not yet clear whether selecting a learning card configures the lobby; the cards have no visible action in the DOM controls. Initial pool remains Gateway although Vantage recommendations are at top.",
+    "method": "Actual shared preview; screenshot snapshot timed out. First guide DOM read still reported 1280px immediately after resize; await confirmed 390px before mobile findings.",
+    "priorKnowledge": "General software interaction and basic Netrunner vocabulary; no earlier panel reviews read."
+  },
+  "environment": {
+    "origin": "http://127.0.0.1:5173",
+    "browser": "actual shared preview",
+    "profile": "incognito",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "tabsOpened": [
+      "tab_10",
+      "tab_11 (popup)",
+      "tab_12 (popup)"
+    ],
+    "allOpenedTabsClosed": true
+  },
+  "constraints": {
+    "productCodeEdited": false,
+    "engineInjection": false,
+    "directStorageWrites": false,
+    "decksSaved": false,
+    "gamesStarted": false,
+    "screenshots": "Unavailable: preview_snapshot timed out. No headless or manufactured images.",
+    "certification": "DOM observations and sampled native-key interactions only; no visual or accessibility certification.",
+    "scope": "N1 N2 N3 navigation and comprehension; no full game."
+  },
+  "tasks": [
+    {
+      "id": "N1",
+      "status": "completed",
+      "keyboardCoverage": "partial, sampled",
+      "steps": [
+        "Opened lobby at 127.0.0.1 in a new incognito preview; resized to 390×844; opened labeled guide link (new tab).",
+        "Chose Familiar identities: Loup · Tailored economy vs Restoring Humanity · Ambushes from rendered learning text.",
+        "Native Tab moved BODY → Back to lobby → First Vantage games → Explore matchups → How to read the results. Native Enter activated #reading and scrolled to it.",
+        "Clicked the pool select; native End then Enter did not change its value in this host. Used the rendered native-select operation to choose Vantage.",
+        "Native Tab moved pool → Runner select → test-pilot checkbox. Native Space checked and later unchecked the checkbox."
+      ],
+      "observed": [
+        "Learning choice has a clear goal and exact list names; it is descriptive article content without a configure action.",
+        "At confirmed 390px viewport, document scrollWidth was 390 and DOM overflow scan found no element extending horizontally outside the viewport.",
+        "Navigation links were 14px text with 23.09px-high boxes. Pool and Runner selects were 354×44px. Checkbox itself was 18×18px inside a 354×44px label.",
+        "Focused section links had computed 2px solid outlines. Activating #reading left activeElement BODY, with reading section top 230px at document's lower scroll limit.",
+        "Native keyboard was available. Native-select End/Enter behavior remained unverified; no synthetic keyboard events were used."
+      ],
+      "guideHelp": "The familiar-identity recommendation and one-new-idea framing were sufficient to choose a first path. No prior card knowledge was needed.",
+      "limits": "No screenshot inspection, screen reader test, touch-device test, or exhaustive keyboard traversal. DOM metrics cannot certify perceived readability."
+    },
+    {
+      "id": "N2",
+      "status": "completed",
+      "steps": [
+        "Read first pairing record and How to read the results section.",
+        "Compared Vantage explorer with interaction pilots off and on using native Space.",
+        "Read per-row Runner/Corp counts and sample badges."
+      ],
+      "answers": {
+        "runner28of54": "28 Runner wins out of 54 AI games implies 26 Corp wins, about 48% Corp wins. 52% is the Runner percentage; it is close in this sample, not proof of balance.",
+        "sixGames": "No reliable counter conclusion. Six-game records are preliminary; a single game moves the rate about 17 points. They suggest a matchup to try, and represent AI on both sides rather than human tournament strength.",
+        "afterEdit": "The benchmark does not carry to an edited deck. The guide says custom decks have not been benchmarked and exact bundled list names matter."
+      },
+      "observed": [
+        "Vantage off: four Runner choices, five opponents, 54 games per pairing.",
+        "Vantage on: nine Runner choices, thirteen opponents, summary '6 or 54 games per pairing'; added Runner options explicitly say TEST PILOT; added Corp rows say interaction test pilot and Preliminary sample with 6-game counts.",
+        "The recommended 'Stealth foundation pilot' name contains pilot but remains in the default population; TEST PILOT labels and count distinctions still made the populations understandable."
+      ],
+      "guideHelp": "All three answers came from visible guide explanations plus simple subtraction, not assumed Netrunner strength knowledge."
+    },
+    {
+      "id": "N3",
+      "status": "completed",
+      "steps": [
+        "Changed guide pool Gateway → Vantage and selected Loup Tailored economy; clicked Back to lobby.",
+        "Observed original Gateway pool/default Loup vs Precision Design; manually selected Vantage, Corp, Jinteki Restoring Humanity Ambushes, AI Loup Tailored economy.",
+        "Clicked Tune deck; confirmed Corp identity Jinteki and Vantage pool. Opened Esca using its Read Esca full card control.",
+        "Native Escape closed Esca preview and restored focus to Read Esca full card. Removed one Esca using the rendered Remove Esca button.",
+        "Opened Deckbuilding basics; read swap, size, influence, agenda and save/use instructions. Closed builder without saving.",
+        "Reopened guide from configured Corp lobby. Entry used Vantage and Loup; changed guide pool to Gateway+Elevation, then Back to lobby.",
+        "Closed both script-opened popup tabs with window.close fallback and original owned preview with close tool."
+      ],
+      "observed": [
+        "First return ignored changed guide pool and Runner selection: lobby remained Gateway, Runner Loup Trash & viruses vs Precision Design Build & score.",
+        "Manual pairing configuration was feasible, with recommended decks grouped in lobby selects.",
+        "Esca showed full rules text and 0 influence. Draft changed 44 → 43 cards, kept 9/15 influence and 18 agenda points, and displayed 'Changes: -1 Esca'. No save or start action was taken.",
+        "Closing unsaved editor retained Vantage, Corp, Jinteki selected and AI Loup selected.",
+        "Second guide return kept Vantage despite guide filter changing to core, but human side became Runner: your Loup Tailored, opponent Jinteki Ambushes. Same two lists, reversed human-side intent.",
+        "Builder help was relevant and easy to find beside deck validation. It did not repeat the guide's custom-deck benchmark limitation after the edit."
+      ],
+      "guideHelp": "Guide supplied the intended exact pairing and evidence caveat; lobby supplied side/list configuration and builder supplied card rules and deck limits. Manual translation was needed."
+    }
+  ],
+  "findings": [
+    {
+      "id": "NAV-1",
+      "severity": "medium",
+      "taskIds": [
+        "N1",
+        "N3"
+      ],
+      "title": "Guide return does not preserve the user's browsing/setup intent",
+      "evidence": "Gateway→Vantage guide filter returned to Gateway lobby. Later configured Corp Jinteki vs AI Loup reopened guide; after changing its filter and returning, lobby used Runner Loup vs AI Jinteki. Both are observed browser outcomes; no source-level cause claimed.",
+      "impact": "A learner must reconstruct the pool and pairing, and can accidentally play the other side.",
+      "improvement": "Offer a keyboard-operable Use this pairing action carrying exact pool/list identifiers and selected human side. Preserve the invoking side on Back to lobby, and make clear whether explorer filters affect setup.",
+      "acceptanceTest": "Configure Corp Jinteki Ambushes vs AI Loup Tailored in Vantage. Open guide, browse another pool, return: human side and exact lists remain as configured. From Gateway guide, Use familiar pairing with Corp selected returns Vantage, human Jinteki, AI Loup without further selection."
+    },
+    {
+      "id": "NAV-2",
+      "severity": "low",
+      "taskIds": [
+        "N1"
+      ],
+      "title": "Section navigation links have small measured target height",
+      "evidence": "At 390px the three section links were 23.09px high; selects and checkbox label measured 44px high.",
+      "impact": "Narrow-screen section navigation may be less forgiving for touch input; actual touch accuracy was not tested.",
+      "improvement": "Give section and back links vertical padding for at least 44px target height while retaining wrapping.",
+      "acceptanceTest": "At 390×844 each section/back link has a target box at least 44px high; document width remains 390 with no horizontal overflow, and Tab/Enter still reaches and activates each link."
+    },
+    {
+      "id": "NAV-3",
+      "severity": "low",
+      "taskIds": [
+        "N2",
+        "N3"
+      ],
+      "title": "The editor does not surface the benchmark consequence of a custom edit",
+      "evidence": "Guide explicitly says custom decks are unbenchmarked. After -1 Esca the editor showed draft changes and expansion audit note, without an equivalent benchmark reminder.",
+      "impact": "A learner returning from a guide recommendation may remember the pairing's percentage after changing the list.",
+      "improvement": "Show a concise 'Custom edits have not been benchmarked' note near draft changes, with a link to evidence reading help.",
+      "acceptanceTest": "Open a benchmarked bundled list, change a count, and verify the custom-edit benchmark note appears beside changes; restoring original counts clears the note, without implying AI certification."
+    }
+  ],
+  "strengths": [
+    "Clear learning goals for first Vantage pairings.",
+    "Consistent Runner-perspective percentages and explicit Corp explanation.",
+    "Per-row sample counts and preliminary labels make mixed populations understandable.",
+    "Esca preview Escape correctly restored focus; editor retained selected pool, identity and draft validation."
+  ],
+  "artifactPaths": [
+    "docs/playtesting/guide-suite-2026-11-19/navigation-first-impression.json",
+    "docs/playtesting/guide-suite-2026-11-19/navigation-review.json",
+    "docs/playtesting/guide-suite-2026-11-19/navigation-review.md",
+    "docs/playtesting/guide-suite-2026-11-19/navigation-trace.json"
+  ],
+  "cleanup": {
+    "openedTabsClosed": true,
+    "originPreferences": "Left for parent to restore as instructed. Last observed origin lobby pool Vantage, Runner Loup Tailored vs Jinteki Ambushes.",
+    "persistedDecksCreated": 0
+  }
+}

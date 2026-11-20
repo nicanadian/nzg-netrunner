@@ -1,0 +1,1303 @@
+{
+  "final": {
+    "diagnostics": [],
+    "points": {
+      "corp": 0,
+      "runner": 2
+    },
+    "terminal": {
+      "damage": {
+        "amount": 8,
+        "gripBefore": 5,
+        "type": "meat"
+      },
+      "reason": "Runner flatlined",
+      "winner": "corp"
+    },
+    "turn": 11,
+    "version": 458
+  },
+  "history": [
+    {
+      "side": "corp",
+      "text": "Corp created a new remote server",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed ice protecting a remote server",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 5 credits from credit pool",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Played \"Hedge Fund\"",
+      "turn": 1
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained 9 credits",
+      "turn": 1
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 2 credits from credit pool",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Runner installed T400 Memory Diamond",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 2
+    },
+    {
+      "draw": {
+        "kind": "action"
+      },
+      "side": "runner",
+      "text": "Runner drew a card",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 3 credits from credit pool",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Runner installed Unity",
+      "turn": 2
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 2
+    },
+    {
+      "draw": {
+        "kind": "action"
+      },
+      "side": "runner",
+      "text": "Runner drew a card",
+      "turn": 2
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 5 credits from credit pool",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Played \"Hedge Fund\"",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained 9 credits",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 3
+    },
+    {
+      "draw": {
+        "kind": "action"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 3
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed ice protecting a remote server",
+      "turn": 3
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Runner installed Stowaway",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 4
+    },
+    {
+      "draw": {
+        "kind": "action"
+      },
+      "side": "runner",
+      "text": "Runner drew a card",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking HQ",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Approaching HQ",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Spin Doctor accessed",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking HQ",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Approaching HQ",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Regolith Mining License accessed",
+      "turn": 4
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 4
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed a card in root of a remote server",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 5
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 5
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking HQ",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Approaching HQ",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Regolith Mining License accessed",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking HQ",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Approaching HQ",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Regolith Mining License accessed",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking HQ",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Approaching HQ",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Spin Doctor accessed",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking HQ",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Approaching HQ",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Spin Doctor accessed",
+      "turn": 6
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 6
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 7
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 7
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 7
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 7
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 7
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 7
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 7
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 7
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 7
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 7
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking HQ",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Approaching HQ",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Orbital Superiority accessed",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Orbital Superiority stolen",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking HQ",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Approaching HQ",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Regolith Mining License accessed",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking HQ",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Approaching HQ",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Spin Doctor accessed",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking HQ",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Approaching HQ",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Regolith Mining License accessed",
+      "turn": 8
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 8
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 9
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 9
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 9
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 9
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 9
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 9
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 9
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 9
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 9
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 9
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking HQ",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Approaching HQ",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Regolith Mining License accessed",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking HQ",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Approaching HQ",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Spin Doctor accessed",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking HQ",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Approaching HQ",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Regolith Mining License accessed",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking HQ",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Approaching HQ",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Regolith Mining License accessed",
+      "turn": 10
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 10
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Corp rezzed Clearinghouse",
+      "turn": 10
+    },
+    {
+      "side": "corp",
+      "text": "Trash Clearinghouse to do meat damage triggered",
+      "turn": 11
+    },
+    {
+      "side": "corp",
+      "text": "Clearinghouse trashed",
+      "turn": 11
+    },
+    {
+      "actor": "runner",
+      "damage": {
+        "amount": 8,
+        "gripBefore": 5,
+        "type": "meat"
+      },
+      "side": "corp",
+      "text": "Runner takes 8 meat damage",
+      "turn": 11
+    },
+    {
+      "actor": "runner",
+      "side": "corp",
+      "text": "Runner flatlined",
+      "turn": 11
+    }
+  ],
+  "session": {
+    "choices": [
+      {
+        "command": "n",
+        "index": 0,
+        "version": 2
+      },
+      {
+        "command": "install",
+        "index": 4,
+        "version": 37
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 39
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 41
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 45
+      },
+      {
+        "command": "install",
+        "index": 4,
+        "version": 47
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 52
+      },
+      {
+        "command": "install",
+        "index": 0,
+        "version": 92
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 93
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 97
+      },
+      {
+        "command": "run",
+        "index": 0,
+        "version": 99
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 102
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 109
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 112
+      },
+      {
+        "command": "run",
+        "index": 0,
+        "version": 116
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 119
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 126
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 129
+      },
+      {
+        "command": "run",
+        "index": 0,
+        "version": 170
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 173
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 180
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 183
+      },
+      {
+        "command": "run",
+        "index": 0,
+        "version": 187
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 190
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 197
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 200
+      },
+      {
+        "command": "run",
+        "index": 0,
+        "version": 204
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 207
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 214
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 217
+      },
+      {
+        "command": "run",
+        "index": 0,
+        "version": 221
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 224
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 231
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 234
+      },
+      {
+        "command": "run",
+        "index": 0,
+        "version": 272
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 275
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 282
+      },
+      {
+        "command": "steal",
+        "index": 0,
+        "version": 285
+      },
+      {
+        "command": "run",
+        "index": 0,
+        "version": 290
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 293
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 300
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 303
+      },
+      {
+        "command": "run",
+        "index": 0,
+        "version": 307
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 310
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 317
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 320
+      },
+      {
+        "command": "run",
+        "index": 0,
+        "version": 324
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 327
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 334
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 337
+      },
+      {
+        "command": "run",
+        "index": 0,
+        "version": 375
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 378
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 385
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 388
+      },
+      {
+        "command": "run",
+        "index": 0,
+        "version": 392
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 395
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 402
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 405
+      },
+      {
+        "command": "run",
+        "index": 0,
+        "version": 409
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 412
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 419
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 422
+      },
+      {
+        "command": "run",
+        "index": 0,
+        "version": 426
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 429
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 436
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 439
+      }
+    ],
+    "conceded": false,
+    "config": {
+      "aiPolicy": "pressure-v1",
+      "cardPool": "vantage-preview-v1",
+      "deckDocuments": {
+        "corp": {
+          "cards": [
+            {
+              "count": 1,
+              "id": "30044"
+            },
+            {
+              "count": 3,
+              "id": "30046"
+            },
+            {
+              "count": 3,
+              "id": "30048"
+            },
+            {
+              "count": 2,
+              "id": "30049"
+            },
+            {
+              "count": 2,
+              "id": "30050"
+            },
+            {
+              "count": 3,
+              "id": "30053"
+            },
+            {
+              "count": 2,
+              "id": "30061"
+            },
+            {
+              "count": 3,
+              "id": "30067"
+            },
+            {
+              "count": 2,
+              "id": "30068"
+            },
+            {
+              "count": 2,
+              "id": "30069"
+            },
+            {
+              "count": 3,
+              "id": "30071"
+            },
+            {
+              "count": 3,
+              "id": "30072"
+            },
+            {
+              "count": 3,
+              "id": "30073"
+            },
+            {
+              "count": 3,
+              "id": "30074"
+            },
+            {
+              "count": 3,
+              "id": "30075"
+            },
+            {
+              "count": 3,
+              "id": "36038"
+            },
+            {
+              "count": 3,
+              "id": "36041"
+            }
+          ],
+          "identity": "30043",
+          "name": "Restoring Humanity · Ambushes",
+          "pool": "vantage-preview-v1",
+          "schemaVersion": 1,
+          "side": "corp"
+        },
+        "runner": {
+          "cards": [
+            {
+              "count": 3,
+              "id": "30006"
+            },
+            {
+              "count": 3,
+              "id": "30020"
+            },
+            {
+              "count": 3,
+              "id": "30021"
+            },
+            {
+              "count": 3,
+              "id": "30025"
+            },
+            {
+              "count": 3,
+              "id": "30026"
+            },
+            {
+              "count": 3,
+              "id": "30027"
+            },
+            {
+              "count": 2,
+              "id": "30028"
+            },
+            {
+              "count": 3,
+              "id": "30030"
+            },
+            {
+              "count": 1,
+              "id": "30031"
+            },
+            {
+              "count": 3,
+              "id": "36018"
+            },
+            {
+              "count": 1,
+              "id": "36019"
+            },
+            {
+              "count": 3,
+              "id": "36020"
+            },
+            {
+              "count": 3,
+              "id": "36021"
+            },
+            {
+              "count": 3,
+              "id": "36022"
+            },
+            {
+              "count": 2,
+              "id": "36023"
+            },
+            {
+              "count": 3,
+              "id": "36024"
+            },
+            {
+              "count": 3,
+              "id": "36025"
+            }
+          ],
+          "identity": "36017",
+          "name": "Panel Experiment 19Nov",
+          "pool": "vantage-preview-v1",
+          "schemaVersion": 1,
+          "side": "runner"
+        }
+      },
+      "rulesVersion": "26.03-vantage-3",
+      "seed": "23eb8bef-6300-4e8d-9b46-ca3f0880b113",
+      "side": "runner"
+    },
+    "engine": "local-vantage-preview-3"
+  }
+}

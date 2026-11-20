@@ -1,0 +1,1223 @@
+{
+  "final": {
+    "diagnostics": [],
+    "points": {
+      "corp": 0,
+      "runner": 9
+    },
+    "terminal": {
+      "reason": "Runner reached 9 agenda points.",
+      "winner": "runner"
+    },
+    "turn": 28,
+    "version": 1005
+  },
+  "session": {
+    "choices": [
+      {
+        "command": "n",
+        "index": 0,
+        "version": 2
+      },
+      {
+        "command": "install",
+        "index": 3,
+        "version": 31
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 36
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 39
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 40
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 43
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 48
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 52
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 53
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 54
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 55
+      },
+      {
+        "command": "install",
+        "index": 1,
+        "version": 59
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 80
+      },
+      {
+        "command": "remove",
+        "index": 0,
+        "version": 108
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 110
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 113
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 120
+      },
+      {
+        "command": "steal",
+        "index": 0,
+        "version": 121
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 128
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 131
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 138
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 142
+      },
+      {
+        "command": "trash",
+        "index": 0,
+        "version": 146
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 153
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 192
+      },
+      {
+        "command": "install",
+        "index": 0,
+        "version": 194
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 199
+      },
+      {
+        "command": "run",
+        "index": 0,
+        "version": 201
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 204
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 211
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 212
+      },
+      {
+        "command": "run",
+        "index": 2,
+        "version": 251
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 254
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 261
+      },
+      {
+        "command": "access",
+        "index": 1,
+        "version": 263
+      },
+      {
+        "command": "access",
+        "index": 1,
+        "version": 265
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 267
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 274
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 277
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 284
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 285
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 286
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 287
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 291
+      },
+      {
+        "command": "run",
+        "index": 0,
+        "version": 293
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 296
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 303
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 304
+      },
+      {
+        "command": "run",
+        "index": 1,
+        "version": 343
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 346
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 353
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 354
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 355
+      },
+      {
+        "command": "trash",
+        "index": 0,
+        "version": 356
+      },
+      {
+        "command": "install",
+        "index": 1,
+        "version": 363
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 368
+      },
+      {
+        "command": "play",
+        "index": 1,
+        "version": 370
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 371
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 374
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 379
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 383
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 384
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 385
+      },
+      {
+        "command": "steal",
+        "index": 0,
+        "version": 386
+      },
+      {
+        "command": "discard",
+        "index": 2,
+        "version": 401
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 439
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 441
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 443
+      },
+      {
+        "command": "play",
+        "index": 1,
+        "version": 445
+      },
+      {
+        "command": "remove",
+        "index": 0,
+        "version": 488
+      },
+      {
+        "command": "run",
+        "index": 3,
+        "version": 490
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 493
+      },
+      {
+        "command": "install",
+        "index": 1,
+        "version": 509
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 513
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 514
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 515
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 519
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 524
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 529
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 535
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 541
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 547
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 552
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 555
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 559
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 561
+      },
+      {
+        "command": "run",
+        "index": 3,
+        "version": 563
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 566
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 573
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 574
+      },
+      {
+        "command": "run",
+        "index": 4,
+        "version": 578
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 581
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 588
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 589
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 595
+      },
+      {
+        "command": "discard",
+        "index": 2,
+        "version": 596
+      },
+      {
+        "command": "install",
+        "index": 0,
+        "version": 633
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 634
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 638
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 639
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 640
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 641
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 642
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 643
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 647
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 652
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 657
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 661
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 667
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 670
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 676
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 679
+      },
+      {
+        "command": "install",
+        "index": 0,
+        "version": 683
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 684
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 688
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 689
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 690
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 691
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 692
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 693
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 697
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 702
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 707
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 710
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 713
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 716
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 722
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 725
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 729
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 730
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 731
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 732
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 733
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 734
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 735
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 737
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 740
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 741
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 743
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 744
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 745
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 746
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 747
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 755
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 760
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 765
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 769
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 770
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 771
+      },
+      {
+        "command": "steal",
+        "index": 0,
+        "version": 772
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 778
+      },
+      {
+        "command": "install",
+        "index": 2,
+        "version": 779
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 780
+      },
+      {
+        "command": "run",
+        "index": 4,
+        "version": 821
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 824
+      },
+      {
+        "command": "run",
+        "index": 2,
+        "version": 840
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 843
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 850
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 852
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 854
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 856
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 858
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 862
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 867
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 868
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 869
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 870
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 874
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 879
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 884
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 890
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 896
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 902
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 907
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 910
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 914
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 916
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 917
+      },
+      {
+        "command": "install",
+        "index": 0,
+        "version": 918
+      },
+      {
+        "cancel": true,
+        "command": "trash",
+        "index": 0,
+        "version": 919
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 920
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 921
+      },
+      {
+        "command": "install",
+        "index": 6,
+        "version": 922
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 970
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 971
+      },
+      {
+        "command": "play",
+        "index": 1,
+        "version": 972
+      },
+      {
+        "command": "continue",
+        "index": 3,
+        "version": 973
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 974
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 976
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 979
+      },
+      {
+        "command": "trigger",
+        "index": 2,
+        "version": 980
+      },
+      {
+        "command": "trigger",
+        "index": 2,
+        "version": 982
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 983
+      },
+      {
+        "command": "trigger",
+        "index": 2,
+        "version": 984
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 985
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 986
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 993
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 997
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 1002
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 1003
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 1004
+      },
+      {
+        "command": "steal",
+        "index": 0,
+        "version": 1005
+      }
+    ],
+    "conceded": false,
+    "config": {
+      "aiPolicy": "pressure-v1",
+      "cardPool": "core-v1",
+      "deckDocuments": {
+        "corp": {
+          "cards": [
+            {
+              "count": 1,
+              "id": "30052"
+            },
+            {
+              "count": 3,
+              "id": "30053"
+            },
+            {
+              "count": 2,
+              "id": "30054"
+            },
+            {
+              "count": 3,
+              "id": "30055"
+            },
+            {
+              "count": 3,
+              "id": "30056"
+            },
+            {
+              "count": 2,
+              "id": "30057"
+            },
+            {
+              "count": 2,
+              "id": "30058"
+            },
+            {
+              "count": 2,
+              "id": "30067"
+            },
+            {
+              "count": 2,
+              "id": "30071"
+            },
+            {
+              "count": 3,
+              "id": "35040"
+            },
+            {
+              "count": 1,
+              "id": "35042"
+            },
+            {
+              "count": 2,
+              "id": "35050"
+            },
+            {
+              "count": 3,
+              "id": "35059"
+            },
+            {
+              "count": 2,
+              "id": "35060"
+            },
+            {
+              "count": 2,
+              "id": "35061"
+            },
+            {
+              "count": 3,
+              "id": "35062"
+            },
+            {
+              "count": 3,
+              "id": "35063"
+            },
+            {
+              "count": 2,
+              "id": "35065"
+            },
+            {
+              "count": 1,
+              "id": "35066"
+            },
+            {
+              "count": 2,
+              "id": "35082"
+            }
+          ],
+          "identity": "30051",
+          "name": "[NSG Core] Fine Print",
+          "pool": "core-v1",
+          "schemaVersion": 1,
+          "side": "corp",
+          "source": {
+            "author": "Girometics",
+            "externalId": "abc6721f-4680-40fe-b189-cdf19f416bd1",
+            "fetchedAt": "2026-11-13T23:20:35.736Z",
+            "originalTitle": "[NSG Core] Fine Print",
+            "provider": "NetrunnerDB v2 public",
+            "updatedAt": "2026-10-27T10:15:52+00:00",
+            "url": "https://netrunnerdb.com/en/decklist/abc6721f-4680-40fe-b189-cdf19f416bd1"
+          }
+        },
+        "runner": {
+          "cards": [
+            {
+              "count": 3,
+              "id": "30004"
+            },
+            {
+              "count": 3,
+              "id": "30007"
+            },
+            {
+              "count": 3,
+              "id": "30008"
+            },
+            {
+              "count": 2,
+              "id": "30015"
+            },
+            {
+              "count": 2,
+              "id": "30026"
+            },
+            {
+              "count": 3,
+              "id": "30028"
+            },
+            {
+              "count": 2,
+              "id": "30029"
+            },
+            {
+              "count": 3,
+              "id": "30030"
+            },
+            {
+              "count": 3,
+              "id": "30033"
+            },
+            {
+              "count": 2,
+              "id": "30034"
+            },
+            {
+              "count": 1,
+              "id": "35003"
+            },
+            {
+              "count": 1,
+              "id": "35004"
+            },
+            {
+              "count": 3,
+              "id": "35005"
+            },
+            {
+              "count": 3,
+              "id": "35009"
+            },
+            {
+              "count": 3,
+              "id": "35011"
+            },
+            {
+              "count": 3,
+              "id": "35015"
+            },
+            {
+              "count": 2,
+              "id": "35018"
+            },
+            {
+              "count": 3,
+              "id": "35034"
+            }
+          ],
+          "identity": "35001",
+          "name": "Retest Returning 19Nov",
+          "pool": "core-v1",
+          "schemaVersion": 1,
+          "side": "runner",
+          "source": {
+            "url": "https://netrunnerdb.com/en/decklist/074c32b0-6429-49ec-91c1-46dcddba9e4b/-nsg-core-dashing-mad"
+          }
+        }
+      },
+      "rulesVersion": "26.03-core-2",
+      "seed": "910d03b8-cd27-47f4-b67d-03616c70aff8",
+      "side": "runner"
+    },
+    "engine": "chiriboga-core-c863f5a-local-2"
+  }
+}

@@ -1,0 +1,2058 @@
+{
+  "final": {
+    "diagnostics": [],
+    "points": {
+      "corp": 8,
+      "runner": 0
+    },
+    "terminal": {
+      "reason": "Corp reached 8 agenda points.",
+      "winner": "corp"
+    },
+    "turn": 25,
+    "version": 812
+  },
+  "history": [
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "3 credits taken from Telework Contract",
+      "turn": 16
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 16
+    },
+    {
+      "draw": {
+        "kind": "action"
+      },
+      "side": "runner",
+      "text": "Runner drew a card",
+      "turn": 16
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "hidden card trashed",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed a card in root of a remote server",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "When your discard phase ends triggered",
+      "turn": 17
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained one credit",
+      "turn": 17
+    },
+    {
+      "side": "runner",
+      "text": "Using Telework Contract:",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "3 credits taken from Telework Contract",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 3 credits from credit pool",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Runner installed Unity",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 18
+    },
+    {
+      "draw": {
+        "kind": "action"
+      },
+      "side": "runner",
+      "text": "Runner drew a card",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 1 credit from credit pool",
+      "turn": 18
+    },
+    {
+      "side": "runner",
+      "text": "Runner installed Sipa",
+      "turn": 18
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Send a Message scored",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "You may rez 1 installed piece of ice, ignoring all costs triggered",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "When your discard phase ends triggered",
+      "turn": 19
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained one credit",
+      "turn": 19
+    },
+    {
+      "side": "runner",
+      "text": "Using Telework Contract:",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "3 credits taken from Telework Contract",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Telework Contract trashed",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 20
+    },
+    {
+      "draw": {
+        "kind": "action"
+      },
+      "side": "runner",
+      "text": "Runner drew a card",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Sipa trashed",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 3 credits from credit pool",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Runner installed Echelon",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 1 credit from credit pool",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Played \"Aircheck\"",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "1 credit placed on Touchstone",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "4 credits placed on Aircheck",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking HQ",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting HQ",
+      "turn": 20
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Corp spent 2 credits from credit pool",
+      "turn": 20
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Corp rezzed Whitespace protecting HQ at position 0",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Whitespace protecting HQ at position 0",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Using Unity:",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 1 credit from Aircheck",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Subroutine \"If the Runner has 6 credit or less, end the run.\" broken",
+      "turn": 20
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"The Runner loses 3 credit.\" on Whitespace protecting HQ at position 0:",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Runner lost 0 credits",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Approaching HQ",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Run successful",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Esca accessed",
+      "turn": 20
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Lose 1 credit; if tagged, suffer 1 net damage triggered",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Runner lost 0 credits",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 3 credits from Aircheck",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Esca trashed",
+      "turn": 20
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 20
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 21
+    },
+    {
+      "side": "corp",
+      "text": "Corp created a new remote server",
+      "turn": 21
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 21
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed a card in root of a remote server",
+      "turn": 21
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 21
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 21
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed ice protecting HQ",
+      "turn": 21
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 21
+    },
+    {
+      "side": "corp",
+      "text": "Corp installed a card in root of a remote server",
+      "turn": 21
+    },
+    {
+      "side": "corp",
+      "text": "When your discard phase ends triggered",
+      "turn": 21
+    },
+    {
+      "side": "corp",
+      "text": "Corp gained one credit",
+      "turn": 21
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 22
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking Remote 2",
+      "turn": 22
+    },
+    {
+      "actor": "corp",
+      "effect": {
+        "card": {
+          "id": "c15",
+          "number": 30053,
+          "title": "Spin Doctor"
+        },
+        "kind": "rez",
+        "server": "Remote 2"
+      },
+      "side": "runner",
+      "text": "Corp rezzed Spin Doctor",
+      "turn": 22
+    },
+    {
+      "actor": "corp",
+      "draw": {
+        "kind": "effect",
+        "source": "Spin Doctor"
+      },
+      "side": "runner",
+      "text": "Corp drew 2 cards",
+      "turn": 22
+    },
+    {
+      "actor": "corp",
+      "effect": {
+        "card": {
+          "id": "c15",
+          "number": 30053,
+          "title": "Spin Doctor"
+        },
+        "kind": "ability",
+        "server": "Remote 2"
+      },
+      "side": "runner",
+      "text": "Using Spin Doctor:",
+      "turn": 22
+    },
+    {
+      "actor": "corp",
+      "effect": {
+        "card": {
+          "id": "c15",
+          "number": 30053,
+          "title": "Spin Doctor"
+        },
+        "kind": "remove",
+        "rootEmpty": true,
+        "server": "Remote 2"
+      },
+      "side": "runner",
+      "text": "Spin Doctor removed from the game",
+      "turn": 22
+    },
+    {
+      "actor": "corp",
+      "effect": {
+        "card": {
+          "id": "c15",
+          "number": 30053,
+          "title": "Spin Doctor"
+        },
+        "kind": "shuffle",
+        "server": "Remote 2"
+      },
+      "side": "runner",
+      "text": "hidden card shuffled into R&D from Archives",
+      "turn": 22
+    },
+    {
+      "actor": "corp",
+      "effect": {
+        "card": {
+          "id": "c15",
+          "number": 30053,
+          "title": "Spin Doctor"
+        },
+        "kind": "shuffle",
+        "server": "Remote 2"
+      },
+      "side": "runner",
+      "text": "Hedge Fund shuffled into R&D from Archives",
+      "turn": 22
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 22
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 22
+    },
+    {
+      "draw": {
+        "kind": "action"
+      },
+      "side": "runner",
+      "text": "Runner drew a card",
+      "turn": 22
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 22
+    },
+    {
+      "draw": {
+        "kind": "action"
+      },
+      "side": "runner",
+      "text": "Runner drew a card",
+      "turn": 22
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 22
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 22
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 23
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 23
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 23
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 23
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 23
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 23
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 23
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 23
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 23
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 23
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Runner gained one credit",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent one click",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Run initiated attacking Remote 0",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Approaching outermost piece of ice protecting Remote 0",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Lionsmane protecting Remote 0 at position 1",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Using Echelon:",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 3 credits from credit pool",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Echelon gets +2 strength",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Using Echelon:",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 1 credit from Touchstone",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Subroutine \"Do 2 net damage unless the Runner jacks out.\" broken",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Using Echelon:",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Runner spent 1 credit from credit pool",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Subroutine \"Do 2 net damage.\" broken",
+      "turn": 24
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"Do 2 net damage unless the Runner pays 3credit.\" on Lionsmane protecting Remote 0 at position 1:",
+      "turn": 24
+    },
+    {
+      "damage": {
+        "amount": 2,
+        "card": {
+          "id": "c43",
+          "number": 36041,
+          "title": "Lionsmane"
+        },
+        "gripBefore": 5,
+        "type": "net"
+      },
+      "side": "runner",
+      "text": "Runner takes 2 net damage",
+      "turn": 24
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Jailbreak trashed",
+      "turn": 24
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Touchstone trashed",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Approaching next piece of ice protecting Remote 0",
+      "turn": 24
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Corp spent 2 credits from credit pool",
+      "turn": 24
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Corp rezzed Whitespace protecting Remote 0 at position 0",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Encountering Whitespace protecting Remote 0 at position 0",
+      "turn": 24
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"The Runner loses 3 credit.\" on Whitespace protecting Remote 0 at position 0:",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Runner lost 1 credit",
+      "turn": 24
+    },
+    {
+      "actor": "corp",
+      "side": "runner",
+      "text": "Firing \"If the Runner has 6 credit or less, end the run.\" on Whitespace protecting Remote 0 at position 0:",
+      "turn": 24
+    },
+    {
+      "side": "runner",
+      "text": "Run ends",
+      "turn": 24
+    },
+    {
+      "draw": {
+        "kind": "mandatory"
+      },
+      "side": "corp",
+      "text": "Corp drew a card",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent one click",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Corp spent 1 credit from credit pool",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Card advanced",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Send a Message scored",
+      "turn": 25
+    },
+    {
+      "side": "corp",
+      "text": "Corp reached 8 agenda points.",
+      "turn": 25
+    }
+  ],
+  "session": {
+    "choices": [
+      {
+        "command": "m",
+        "index": 0,
+        "version": 2
+      },
+      {
+        "command": "install",
+        "index": 1,
+        "version": 36
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 38
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 40
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 44
+      },
+      {
+        "command": "install",
+        "index": 1,
+        "version": 46
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 51
+      },
+      {
+        "command": "install",
+        "index": 0,
+        "version": 93
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 94
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 95
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 97
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 100
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 105
+      },
+      {
+        "command": "install",
+        "index": 0,
+        "version": 107
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 108
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 109
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 111
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 114
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 119
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 158
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 160
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 161
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 162
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 163
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 164
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 165
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 169
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 174
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 179
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 185
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 191
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 197
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 202
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 205
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 209
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 210
+      },
+      {
+        "command": "play",
+        "index": 1,
+        "version": 211
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 213
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 214
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 215
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 216
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 218
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 221
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 222
+      },
+      {
+        "command": "discard",
+        "index": 0,
+        "version": 223
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 225
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 230
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 235
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 239
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 245
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 248
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 253
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 256
+      },
+      {
+        "command": "play",
+        "index": 3,
+        "version": 260
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 262
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 263
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 265
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 266
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 267
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 271
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 276
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 281
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 284
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 288
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 291
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 296
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 299
+      },
+      {
+        "command": "run",
+        "index": 3,
+        "version": 303
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 304
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 306
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 309
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 310
+      },
+      {
+        "command": "pay",
+        "index": 3,
+        "version": 312
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 313
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 315
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 317
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 319
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 321
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 323
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 325
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 327
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 335
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 337
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 341
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 349
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 351
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 353
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 395
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 397
+      },
+      {
+        "command": "run",
+        "index": 4,
+        "version": 399
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 402
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 409
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 412
+      },
+      {
+        "command": "run",
+        "index": 4,
+        "version": 416
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 419
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 426
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 429
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 472
+      },
+      {
+        "command": "install",
+        "index": 0,
+        "version": 474
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 479
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 481
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 482
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 483
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 487
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 492
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 497
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 506
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 509
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 512
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 517
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 522
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 526
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 528
+      },
+      {
+        "command": "install",
+        "index": 0,
+        "version": 529
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 530
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 533
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 534
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 535
+      },
+      {
+        "command": "install",
+        "index": 1,
+        "version": 536
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 537
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 540
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 544
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 549
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 554
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 557
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 560
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 569
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 574
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 579
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 583
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 587
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 588
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 589
+      },
+      {
+        "command": "install",
+        "index": 1,
+        "version": 590
+      },
+      {
+        "command": "trash",
+        "index": 2,
+        "version": 591
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 594
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 597
+      },
+      {
+        "command": "play",
+        "index": 0,
+        "version": 598
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 599
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 600
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 602
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 605
+      },
+      {
+        "command": "trigger",
+        "index": 1,
+        "version": 606
+      },
+      {
+        "command": "continue",
+        "index": 1,
+        "version": 607
+      },
+      {
+        "command": "pay",
+        "index": 1,
+        "version": 608
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 609
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 617
+      },
+      {
+        "command": "access",
+        "index": 0,
+        "version": 624
+      },
+      {
+        "command": "trash",
+        "index": 0,
+        "version": 629
+      },
+      {
+        "command": "pay",
+        "index": 3,
+        "version": 630
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 634
+      },
+      {
+        "command": "continue",
+        "index": 1,
+        "version": 636
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 639
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 643
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 648
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 653
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 659
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 665
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 671
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 676
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 681
+      },
+      {
+        "command": "run",
+        "index": 4,
+        "version": 685
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 686
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 688
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 700
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 703
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 704
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 705
+      },
+      {
+        "command": "draw",
+        "index": 0,
+        "version": 706
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 707
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 708
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 709
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 713
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 718
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 723
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 726
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 729
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 732
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 737
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 740
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 744
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 745
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 746
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 747
+      },
+      {
+        "command": "gain",
+        "index": 0,
+        "version": 748
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 749
+      },
+      {
+        "command": "run",
+        "index": 3,
+        "version": 750
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 751
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 753
+      },
+      {
+        "command": "trigger",
+        "index": 2,
+        "version": 755
+      },
+      {
+        "command": "pay",
+        "index": 2,
+        "version": 757
+      },
+      {
+        "command": "trigger",
+        "index": 2,
+        "version": 758
+      },
+      {
+        "command": "continue",
+        "index": 2,
+        "version": 759
+      },
+      {
+        "command": "pay",
+        "index": 1,
+        "version": 760
+      },
+      {
+        "command": "trigger",
+        "index": 2,
+        "version": 761
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 762
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 763
+      },
+      {
+        "command": "trigger",
+        "index": 0,
+        "version": 766
+      },
+      {
+        "command": "continue",
+        "index": 0,
+        "version": 768
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 776
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 779
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 782
+      },
+      {
+        "command": "n",
+        "index": 0,
+        "version": 783
+      }
+    ],
+    "conceded": false,
+    "config": {
+      "aiPolicy": "pressure-v1",
+      "cardPool": "vantage-preview-v1",
+      "deckDocuments": {
+        "corp": {
+          "cards": [
+            {
+              "count": 1,
+              "id": "30044"
+            },
+            {
+              "count": 3,
+              "id": "30046"
+            },
+            {
+              "count": 3,
+              "id": "30048"
+            },
+            {
+              "count": 2,
+              "id": "30049"
+            },
+            {
+              "count": 2,
+              "id": "30050"
+            },
+            {
+              "count": 3,
+              "id": "30053"
+            },
+            {
+              "count": 2,
+              "id": "30061"
+            },
+            {
+              "count": 3,
+              "id": "30067"
+            },
+            {
+              "count": 2,
+              "id": "30068"
+            },
+            {
+              "count": 2,
+              "id": "30069"
+            },
+            {
+              "count": 3,
+              "id": "30071"
+            },
+            {
+              "count": 3,
+              "id": "30072"
+            },
+            {
+              "count": 3,
+              "id": "30073"
+            },
+            {
+              "count": 3,
+              "id": "30074"
+            },
+            {
+              "count": 3,
+              "id": "30075"
+            },
+            {
+              "count": 3,
+              "id": "36038"
+            },
+            {
+              "count": 3,
+              "id": "36041"
+            }
+          ],
+          "identity": "30043",
+          "name": "Restoring Humanity · Ambushes",
+          "pool": "vantage-preview-v1",
+          "schemaVersion": 1,
+          "side": "corp"
+        },
+        "runner": {
+          "cards": [
+            {
+              "count": 3,
+              "id": "30006"
+            },
+            {
+              "count": 3,
+              "id": "30020"
+            },
+            {
+              "count": 3,
+              "id": "30021"
+            },
+            {
+              "count": 3,
+              "id": "30025"
+            },
+            {
+              "count": 3,
+              "id": "30026"
+            },
+            {
+              "count": 3,
+              "id": "30027"
+            },
+            {
+              "count": 2,
+              "id": "30028"
+            },
+            {
+              "count": 3,
+              "id": "30030"
+            },
+            {
+              "count": 1,
+              "id": "30031"
+            },
+            {
+              "count": 3,
+              "id": "36018"
+            },
+            {
+              "count": 1,
+              "id": "36019"
+            },
+            {
+              "count": 3,
+              "id": "36020"
+            },
+            {
+              "count": 3,
+              "id": "36021"
+            },
+            {
+              "count": 3,
+              "id": "36022"
+            },
+            {
+              "count": 2,
+              "id": "36023"
+            },
+            {
+              "count": 3,
+              "id": "36024"
+            },
+            {
+              "count": 3,
+              "id": "36025"
+            }
+          ],
+          "identity": "36017",
+          "name": "Panel Experiment 19Nov",
+          "pool": "vantage-preview-v1",
+          "schemaVersion": 1,
+          "side": "runner"
+        }
+      },
+      "rulesVersion": "26.03-vantage-3",
+      "seed": "bae7267d-b82d-4547-94bc-7e6ba1ce208e",
+      "side": "runner"
+    },
+    "engine": "local-vantage-preview-3"
+  }
+}

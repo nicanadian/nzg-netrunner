@@ -1,0 +1,64 @@
+<style>
+#netrunner-matchup-guide {color:var(--foreground);font-family:var(--font-sans);display:grid;gap:calc(var(--font-size-base,14px)*1.1)}
+#netrunner-matchup-guide .heading {display:grid;gap:calc(var(--font-size-base,14px)*.35);padding-right:90px}
+#netrunner-matchup-guide .controls {display:flex;flex-wrap:wrap;gap:calc(var(--font-size-base,14px)*.8)}
+#netrunner-matchup-guide .field {display:grid;gap:calc(var(--font-size-base,14px)*.3);flex:1 1 230px;min-width:0}
+#netrunner-matchup-guide select {max-width:100%}
+#netrunner-matchup-guide .checks {display:flex;flex-wrap:wrap;align-items:center;gap:calc(var(--font-size-base,14px)*.8)}
+#netrunner-matchup-guide .reading {display:flex;flex-wrap:wrap;gap:calc(var(--font-size-base,14px)*.65);justify-content:space-between}
+#netrunner-matchup-guide .suggestions {display:grid;gap:calc(var(--font-size-base,14px)*.6)}
+#netrunner-matchup-guide .pair {display:grid;gap:calc(var(--font-size-base,14px)*.2)}
+#netrunner-matchup-guide details>div {margin-top:calc(var(--font-size-base,14px)*.75)}
+#netrunner-matchup-guide ul {margin:0;padding-left:calc(var(--font-size-base,14px)*1.4)}
+#netrunner-matchup-guide .key {display:grid;gap:calc(var(--font-size-base,14px)*.35)}
+#netrunner-matchup-guide [data-viz-container] {min-width:0}
+</style>
+<section id="netrunner-matchup-guide" data-viz-composition>
+ <div class="heading"><h2>Which decks make a good matchup?</h2><p class="text-small text-muted">Fixed-policy AI results · exact deck lists · 16 November 2026</p></div>
+ <div class="controls">
+  <label class="field form-label">Card sets<select class="form-select" id="matchup-pool" disabled><option value="vantage-preview-v1">Gateway + Elevation + Vantage</option><option value="gateway-v1">System Gateway</option><option value="core-v1">Gateway + Elevation</option></select></label>
+  <label class="field form-label">Runner deck<select class="form-select" id="matchup-runner" disabled><option value="all">All Runner decks</option></select></label>
+ </div>
+ <div class="checks"><label class="form-check"><input type="checkbox" class="form-check-input" id="matchup-tests" disabled><span class="form-check-label">Include card-testing snapshots</span></label><span class="text-small text-muted" id="matchup-count"></span></div>
+ <p class="text-small" id="matchup-evidence" aria-live="polite"></p>
+ <div class="reading text-small"><span>0% = Corp wins every game</span><span>50% = equal wins</span><span>100% = Runner wins every game</span></div>
+ <div data-viz-container aria-label="Matchup heatmap"></div>
+ <div class="suggestions" aria-live="polite">
+  <h3>Pairings to try</h3>
+  <div class="pair"><span>Closer results · 40–60% Runner wins</span><ul id="matchup-close"></ul></div>
+  <div class="pair"><span id="matchup-corp-label">Harder for the Runner</span><p id="matchup-corp" class="text-small"></p></div>
+  <div class="pair"><span id="matchup-runner-label">Harder for the Corp</span><p id="matchup-runner-heavy" class="text-small"></p></div>
+ </div>
+ <p class="text-small text-muted">Observed results under pressure-v1. A close record is a pairing to try, not proof of human balance. Different deck variants of one identity can behave differently.</p>
+ <details><summary>Exact deck names</summary><div id="matchup-key" class="key text-small"></div></details>
+ <script type="application/json" id="matchup-data">@@DATA@@</script>
+ <script type="application/json" data-viz-chart>@@INITIAL_CHART@@</script>
+</section>
+<script type="module">
+import {mountChart} from 'https://persistent.oaistatic.com/plugins/visualize/charts/1.2.3/element.js';
+@@MODEL@@
+const root=document.getElementById('netrunner-matchup-guide');
+const data=JSON.parse(root.querySelector('#matchup-data').textContent);
+const pool=root.querySelector('#matchup-pool'),runner=root.querySelector('#matchup-runner'),tests=root.querySelector('#matchup-tests');
+const defaults={pool:'vantage-preview-v1',runner:window.innerWidth<560?'loup-vantage-tailor-v1':'all',includeTests:false};
+let state={...defaults},chart;
+const percent=value=>new Intl.NumberFormat(undefined,{style:'percent',maximumFractionDigits:0}).format(value);
+function validState(raw){const s={...defaults,...raw};if(!data.decks.some(d=>d.pool===s.pool))s.pool=defaults.pool;s.includeTests=s.includeTests===true;if(s.runner!=='all'&&!data.decks.some(d=>d.id===s.runner&&d.pool===s.pool&&d.side==='runner'&&(s.includeTests||d.purpose==='play')))s.runner='all';return {pool:s.pool,runner:s.runner,includeTests:s.includeTests};}
+function fillRunner(){runner.replaceChildren(new Option('All Runner decks','all'));for(const d of selectedDecks(data,{...state,runner:'all'}).filter(d=>d.side==='runner'))runner.add(new Option(d.label,d.id));runner.value=state.runner;}
+function pairText(p){if(!p)return 'No pairing in this direction in the selected sample.';const r=data.decks.find(d=>d.id===p.runner),c=data.decks.find(d=>d.id===p.corp);return r.label+' vs '+c.label+' · Runner '+p.runnerWins+'/'+p.completed+' ('+percent(p.runnerWins/p.completed)+')'+(p.completed<30?' · preliminary':'')+((r.purpose==='interaction'||c.purpose==='interaction')?' · test snapshot':'');}
+function render(){pool.value=state.pool;tests.checked=state.includeTests;fillRunner();const config=buildChart(data,state);if(chart)chart.config=config;else chart=mountChart(root.querySelector('[data-viz-container]'),config);
+ const pairs=selectedPairs(data,state),sizes=[...new Set(pairs.map(p=>p.completed))].sort((a,b)=>a-b),early=pairs.filter(p=>p.completed<30).length;
+ root.querySelector('#matchup-count').textContent=pairs.length+' matchups · '+pairs.reduce((n,p)=>n+p.completed,0)+' completed games';
+ root.querySelector('#matchup-evidence').textContent=(sizes.length===1?sizes[0]+' games per pairing':sizes.join(' or ')+' games per pairing')+(early?' · '+early+' pairing'+(early===1?' is':'s are')+' a six-game preliminary screen.':' · Expanded Vantage screen: six audit games plus 48 fresh seeds.');
+ const suggestions=pairingSuggestions(data,state),list=root.querySelector('#matchup-close');list.replaceChildren();for(const p of suggestions.close){const li=document.createElement('li');li.textContent=pairText(p);list.append(li);}if(!suggestions.close.length){const li=document.createElement('li');li.textContent='No pairing finished in the 40–60% window. Try another Runner selection.';list.append(li);}
+ root.querySelector('#matchup-corp').textContent=pairText(suggestions.corp);root.querySelector('#matchup-runner-heavy').textContent=pairText(suggestions.runner);
+ const key=root.querySelector('#matchup-key');key.replaceChildren();for(const d of selectedDecks(data,state)){const p=document.createElement('p');p.textContent=d.label+' — '+d.name+' ('+d.identity+')'+(d.purpose==='interaction'?' · card-testing snapshot':'');key.append(p);}
+}
+function save(){window.openai?.setWidgetState?.({modelContent:{pool:state.pool,runner:state.runner,includeTests:state.includeTests},privateContent:{matchupGuideVersion:1}})?.catch(()=>{});}
+const saved=window.openai?.widgetState;if(saved?.privateContent?.matchupGuideVersion===1)state=validState(saved.modelContent);
+render();for(const e of [pool,runner,tests])e.disabled=false;
+pool.addEventListener('change',()=>{const first=data.decks.find(d=>d.pool===pool.value&&d.side==='runner'&&d.purpose==='play');state=validState({...state,pool:pool.value,runner:window.innerWidth<560?first.id:'all'});render();save();});
+runner.addEventListener('change',()=>{state=validState({...state,runner:runner.value});render();save();});
+tests.addEventListener('change',()=>{state=validState({...state,includeTests:tests.checked});render();save();});
+window.addEventListener('openai:set_globals',event=>{const s=event.detail?.globals?.widgetState;if(s?.privateContent?.matchupGuideVersion===1){state=validState(s.modelContent);render();}});
+</script>

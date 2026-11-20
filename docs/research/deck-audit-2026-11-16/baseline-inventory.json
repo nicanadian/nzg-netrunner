@@ -1,0 +1,8212 @@
+{
+  "engineHash": "f13f5fe6482206473d79bda8ebfb3dbcf9228b369de9136ad452fb8599248ba9",
+  "policy": "pressure-v1",
+  "seedsPerPairing": 6,
+  "rows": [
+    {
+      "id": "loup-v1",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "René “Loup” Arcemont",
+      "side": "runner",
+      "identity": "René “Loup” Arcemont: Party Animal",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "René “Loup” Arcemont",
+        "side": "runner",
+        "identity": "30001",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30002",
+            "count": 3
+          },
+          {
+            "id": "30003",
+            "count": 2
+          },
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30005",
+            "count": 3
+          },
+          {
+            "id": "30006",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 3
+          },
+          {
+            "id": "30015",
+            "count": 3
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30031",
+            "count": 2
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 3
+          }
+        ]
+      },
+      "revision": "a84a09d6eb7cf5b2ac776bf9c596af4831d575a6e5ca2622a40ea832339c3aeb",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 40,
+          "influence": 6,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 0,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 40,
+      "typeCounts": {
+        "event": 12,
+        "hardware": 4,
+        "program": 18,
+        "resource": 6
+      },
+      "breakers": {
+        "Fracter": 3,
+        "Decoder": 3,
+        "Killer": 3,
+        "AI": 0
+      },
+      "economy": 15,
+      "accessibleEconomy": 9,
+      "drawSelection": 6,
+      "ice": 0,
+      "cheapIce": 0,
+      "stoppingIce": 0,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.0807436991647518,
+      "openingNoAccessibleEconomy": 0.2582202647992122,
+      "firstEightNoCheapIce": null,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "zahya-v2",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "Zahya Sadeghi",
+      "side": "runner",
+      "identity": "Zahya Sadeghi: Versatile Smuggler",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Zahya Sadeghi",
+        "side": "runner",
+        "identity": "30010",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 1
+          },
+          {
+            "id": "30005",
+            "count": 2
+          },
+          {
+            "id": "30011",
+            "count": 3
+          },
+          {
+            "id": "30012",
+            "count": 3
+          },
+          {
+            "id": "30013",
+            "count": 2
+          },
+          {
+            "id": "30014",
+            "count": 3
+          },
+          {
+            "id": "30015",
+            "count": 2
+          },
+          {
+            "id": "30016",
+            "count": 2
+          },
+          {
+            "id": "30017",
+            "count": 2
+          },
+          {
+            "id": "30018",
+            "count": 3
+          },
+          {
+            "id": "30021",
+            "count": 3
+          },
+          {
+            "id": "30027",
+            "count": 2
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 1
+          },
+          {
+            "id": "30034",
+            "count": 2
+          }
+        ]
+      },
+      "revision": "1d3c1d853e086688384d905c684a5a25e6d66f637ff965759591316446f9b07c",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 40,
+          "influence": 15,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 0,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 40,
+      "typeCounts": {
+        "program": 9,
+        "event": 18,
+        "hardware": 5,
+        "resource": 8
+      },
+      "breakers": {
+        "Fracter": 2,
+        "Decoder": 2,
+        "Killer": 2,
+        "AI": 0
+      },
+      "economy": 15,
+      "accessibleEconomy": 3,
+      "drawSelection": 8,
+      "ice": 0,
+      "cheapIce": 0,
+      "stoppingIce": 0,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.0807436991647518,
+      "openingNoAccessibleEconomy": 0.6624493927125507,
+      "firstEightNoCheapIce": null,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "tao-v1",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "Tāo Salonga",
+      "side": "runner",
+      "identity": "Tāo Salonga: Telepresence Magician",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Tāo Salonga",
+        "side": "runner",
+        "identity": "30019",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 2
+          },
+          {
+            "id": "30006",
+            "count": 3
+          },
+          {
+            "id": "30020",
+            "count": 3
+          },
+          {
+            "id": "30021",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 2
+          },
+          {
+            "id": "30023",
+            "count": 2
+          },
+          {
+            "id": "30024",
+            "count": 2
+          },
+          {
+            "id": "30025",
+            "count": 3
+          },
+          {
+            "id": "30026",
+            "count": 3
+          },
+          {
+            "id": "30027",
+            "count": 3
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 2
+          }
+        ]
+      },
+      "revision": "a9ae3ac5592e5067d4fcea4517ea9e18dc2b2487f96e364c408727cec9bcd9c1",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 40,
+          "influence": 12,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 0,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 40,
+      "typeCounts": {
+        "program": 13,
+        "event": 15,
+        "hardware": 4,
+        "resource": 8
+      },
+      "breakers": {
+        "Fracter": 3,
+        "Decoder": 3,
+        "Killer": 3,
+        "AI": 0
+      },
+      "economy": 15,
+      "accessibleEconomy": 9,
+      "drawSelection": 5,
+      "ice": 0,
+      "cheapIce": 0,
+      "stoppingIce": 0,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.0807436991647518,
+      "openingNoAccessibleEconomy": 0.2582202647992122,
+      "firstEightNoCheapIce": null,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "precision-design-v2",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "Haas-Bioroid: Precision Design",
+      "side": "corp",
+      "identity": "Haas-Bioroid: Precision Design",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Haas-Bioroid: Precision Design",
+        "side": "corp",
+        "identity": "30035",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30037",
+            "count": 3
+          },
+          {
+            "id": "30038",
+            "count": 3
+          },
+          {
+            "id": "30039",
+            "count": 3
+          },
+          {
+            "id": "30040",
+            "count": 3
+          },
+          {
+            "id": "30041",
+            "count": 2
+          },
+          {
+            "id": "30042",
+            "count": 2
+          },
+          {
+            "id": "30048",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 2
+          },
+          {
+            "id": "30056",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 3
+          },
+          {
+            "id": "30070",
+            "count": 1
+          },
+          {
+            "id": "30071",
+            "count": 1
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30074",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          }
+        ]
+      },
+      "revision": "4b7ddf2c5f2416980e570b2ab91929beb9d4eb99cc3b1ab0889c24cd5b2e1365",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 44,
+          "influence": 7,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 18,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 44,
+      "typeCounts": {
+        "agenda": 8,
+        "asset": 6,
+        "ice": 15,
+        "operation": 13,
+        "upgrade": 2
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 12,
+      "accessibleEconomy": 7,
+      "drawSelection": 10,
+      "ice": 15,
+      "cheapIce": 9,
+      "stoppingIce": 9,
+      "cheapStoppingIce": 6,
+      "openingNoEconomy": 0.18542773165575208,
+      "openingNoAccessibleEconomy": 0.40137549631310265,
+      "firstEightNoCheapIce": 0.13279620348910137,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "restoring-humanity-v2",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "Jinteki: Restoring Humanity",
+      "side": "corp",
+      "identity": "Jinteki: Restoring Humanity",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Jinteki: Restoring Humanity",
+        "side": "corp",
+        "identity": "30043",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30044",
+            "count": 1
+          },
+          {
+            "id": "30045",
+            "count": 3
+          },
+          {
+            "id": "30046",
+            "count": 3
+          },
+          {
+            "id": "30047",
+            "count": 3
+          },
+          {
+            "id": "30048",
+            "count": 3
+          },
+          {
+            "id": "30049",
+            "count": 2
+          },
+          {
+            "id": "30050",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30061",
+            "count": 2
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30068",
+            "count": 2
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30074",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          }
+        ]
+      },
+      "revision": "c569b9c0c29281b58c3757c733b7b7e61fb109c85b44b40f16020af90f8dfac2",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 44,
+          "influence": 9,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 18,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 44,
+      "typeCounts": {
+        "agenda": 8,
+        "asset": 11,
+        "ice": 15,
+        "operation": 8,
+        "upgrade": 2
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 9,
+      "accessibleEconomy": 3,
+      "drawSelection": 3,
+      "ice": 15,
+      "cheapIce": 12,
+      "stoppingIce": 9,
+      "cheapStoppingIce": 9,
+      "openingNoEconomy": 0.29892229154849687,
+      "openingNoAccessibleEconomy": 0.690048323769254,
+      "firstEightNoCheapIce": 0.05934742478313544,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "reality-plus-v2",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "NBN: Reality Plus",
+      "side": "corp",
+      "identity": "NBN: Reality Plus",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "NBN: Reality Plus",
+        "side": "corp",
+        "identity": "30051",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30048",
+            "count": 2
+          },
+          {
+            "id": "30052",
+            "count": 1
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30054",
+            "count": 3
+          },
+          {
+            "id": "30055",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 3
+          },
+          {
+            "id": "30057",
+            "count": 2
+          },
+          {
+            "id": "30058",
+            "count": 2
+          },
+          {
+            "id": "30065",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30068",
+            "count": 2
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30074",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          }
+        ]
+      },
+      "revision": "fb5695786bb05ae8e95464a918736e8d34839fdeb0deb42ca69b8baff41d11d0",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 44,
+          "influence": 5,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 18,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 44,
+      "typeCounts": {
+        "operation": 13,
+        "agenda": 8,
+        "asset": 6,
+        "ice": 15,
+        "upgrade": 2
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 11,
+      "accessibleEconomy": 6,
+      "drawSelection": 6,
+      "ice": 15,
+      "cheapIce": 12,
+      "stoppingIce": 12,
+      "cheapStoppingIce": 9,
+      "openingNoEconomy": 0.21853982659427923,
+      "openingNoAccessibleEconomy": 0.4621899654514516,
+      "firstEightNoCheapIce": 0.05934742478313544,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "built-to-last-v2",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "Weyland Consortium: Built to Last",
+      "side": "corp",
+      "identity": "Weyland Consortium: Built to Last",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Weyland Consortium: Built to Last",
+        "side": "corp",
+        "identity": "30059",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30055",
+            "count": 3
+          },
+          {
+            "id": "30060",
+            "count": 1
+          },
+          {
+            "id": "30061",
+            "count": 2
+          },
+          {
+            "id": "30062",
+            "count": 2
+          },
+          {
+            "id": "30063",
+            "count": 2
+          },
+          {
+            "id": "30064",
+            "count": 1
+          },
+          {
+            "id": "30065",
+            "count": 1
+          },
+          {
+            "id": "30066",
+            "count": 1
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30068",
+            "count": 2
+          },
+          {
+            "id": "30069",
+            "count": 1
+          },
+          {
+            "id": "30070",
+            "count": 3
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30074",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          }
+        ]
+      },
+      "revision": "735d86379fca644bee8a1e92ec030ad4707184921430b8af7a2044f88c265707",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 40,
+          "influence": 9,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 18,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 40,
+      "typeCounts": {
+        "asset": 8,
+        "ice": 16,
+        "agenda": 10,
+        "operation": 5,
+        "upgrade": 1
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 7,
+      "accessibleEconomy": 3,
+      "drawSelection": 3,
+      "ice": 16,
+      "cheapIce": 12,
+      "stoppingIce": 13,
+      "cheapStoppingIce": 9,
+      "openingNoEconomy": 0.36068862384651856,
+      "openingNoAccessibleEconomy": 0.6624493927125507,
+      "firstEightNoCheapIce": 0.0404150280311271,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "tao-burst-v1",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "Tāo Salonga — burst income",
+      "side": "runner",
+      "identity": "Tāo Salonga: Telepresence Magician",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Tāo Salonga — burst income",
+        "side": "runner",
+        "identity": "30019",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30002",
+            "count": 2
+          },
+          {
+            "id": "30004",
+            "count": 2
+          },
+          {
+            "id": "30006",
+            "count": 3
+          },
+          {
+            "id": "30020",
+            "count": 3
+          },
+          {
+            "id": "30021",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 2
+          },
+          {
+            "id": "30023",
+            "count": 2
+          },
+          {
+            "id": "30024",
+            "count": 2
+          },
+          {
+            "id": "30025",
+            "count": 3
+          },
+          {
+            "id": "30026",
+            "count": 3
+          },
+          {
+            "id": "30027",
+            "count": 1
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 2
+          }
+        ]
+      },
+      "revision": "29d78e399c0f5506afec9042256f1d32b007e785dc65b44eeebfcdf8fab0dcc7",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 40,
+          "influence": 14,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 0,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 40,
+      "typeCounts": {
+        "event": 17,
+        "program": 13,
+        "hardware": 4,
+        "resource": 6
+      },
+      "breakers": {
+        "Fracter": 3,
+        "Decoder": 3,
+        "Killer": 3,
+        "AI": 0
+      },
+      "economy": 15,
+      "accessibleEconomy": 9,
+      "drawSelection": 7,
+      "ice": 0,
+      "cheapIce": 0,
+      "stoppingIce": 0,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.0807436991647518,
+      "openingNoAccessibleEconomy": 0.2582202647992122,
+      "firstEightNoCheapIce": null,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "tao-mayfly-v1",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "Tāo Salonga — two Mayflies",
+      "side": "runner",
+      "identity": "Tāo Salonga: Telepresence Magician",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Tāo Salonga — two Mayflies",
+        "side": "runner",
+        "identity": "30019",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 2
+          },
+          {
+            "id": "30006",
+            "count": 3
+          },
+          {
+            "id": "30020",
+            "count": 3
+          },
+          {
+            "id": "30021",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 2
+          },
+          {
+            "id": "30023",
+            "count": 2
+          },
+          {
+            "id": "30024",
+            "count": 2
+          },
+          {
+            "id": "30025",
+            "count": 3
+          },
+          {
+            "id": "30026",
+            "count": 3
+          },
+          {
+            "id": "30027",
+            "count": 1
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30032",
+            "count": 2
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 2
+          }
+        ]
+      },
+      "revision": "9a3e08750be35cdfd5a105016179d3a222446540985b46f6ea9c8a68fa9693e4",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 40,
+          "influence": 12,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 0,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 40,
+      "typeCounts": {
+        "program": 15,
+        "event": 15,
+        "hardware": 4,
+        "resource": 6
+      },
+      "breakers": {
+        "Fracter": 3,
+        "Decoder": 3,
+        "Killer": 3,
+        "AI": 2
+      },
+      "economy": 13,
+      "accessibleEconomy": 7,
+      "drawSelection": 5,
+      "ice": 0,
+      "cheapIce": 0,
+      "stoppingIce": 0,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.12268847795163584,
+      "openingNoAccessibleEconomy": 0.36068862384651856,
+      "firstEightNoCheapIce": null,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "restoring-humanity-planogram-v1",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "restoring-humanity-v2 / Planogram instead of Clearinghouse",
+      "side": "corp",
+      "identity": "Jinteki: Restoring Humanity",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "restoring-humanity-v2 / Planogram instead of Clearinghouse",
+        "side": "corp",
+        "identity": "30043",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30044",
+            "count": 1
+          },
+          {
+            "id": "30045",
+            "count": 3
+          },
+          {
+            "id": "30046",
+            "count": 3
+          },
+          {
+            "id": "30047",
+            "count": 3
+          },
+          {
+            "id": "30048",
+            "count": 3
+          },
+          {
+            "id": "30049",
+            "count": 2
+          },
+          {
+            "id": "30050",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 2
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30068",
+            "count": 2
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30074",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          }
+        ]
+      },
+      "revision": "242e6f9ddce7f3018e20fb5b1869070509ebe7b1b4eeefebce6123eae03b03ea",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 44,
+          "influence": 5,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 18,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 44,
+      "typeCounts": {
+        "agenda": 8,
+        "asset": 9,
+        "ice": 15,
+        "operation": 10,
+        "upgrade": 2
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 11,
+      "accessibleEconomy": 5,
+      "drawSelection": 5,
+      "ice": 15,
+      "cheapIce": 12,
+      "stoppingIce": 9,
+      "cheapStoppingIce": 9,
+      "openingNoEconomy": 0.21853982659427923,
+      "openingNoAccessibleEconomy": 0.5301590780178415,
+      "firstEightNoCheapIce": 0.05934742478313544,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "loup-burst-v1",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "René “Loup” Arcemont — burst income",
+      "side": "runner",
+      "identity": "René “Loup” Arcemont: Party Animal",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "René “Loup” Arcemont — burst income",
+        "side": "runner",
+        "identity": "30001",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30002",
+            "count": 3
+          },
+          {
+            "id": "30003",
+            "count": 2
+          },
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30005",
+            "count": 3
+          },
+          {
+            "id": "30006",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 3
+          },
+          {
+            "id": "30015",
+            "count": 3
+          },
+          {
+            "id": "30020",
+            "count": 2
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30031",
+            "count": 2
+          },
+          {
+            "id": "30033",
+            "count": 1
+          },
+          {
+            "id": "30034",
+            "count": 3
+          }
+        ]
+      },
+      "revision": "fd5adc4a5c63995e32646329b6accf030ee4af6aaaf64a2d7864ee7d3e437cf2",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 40,
+          "influence": 10,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 0,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 40,
+      "typeCounts": {
+        "event": 14,
+        "hardware": 4,
+        "program": 18,
+        "resource": 4
+      },
+      "breakers": {
+        "Fracter": 3,
+        "Decoder": 3,
+        "Killer": 3,
+        "AI": 0
+      },
+      "economy": 15,
+      "accessibleEconomy": 9,
+      "drawSelection": 6,
+      "ice": 0,
+      "cheapIce": 0,
+      "stoppingIce": 0,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.0807436991647518,
+      "openingNoAccessibleEconomy": 0.2582202647992122,
+      "firstEightNoCheapIce": null,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "zahya-mayfly-v1",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "Zahya Sadeghi — two Mayflies",
+      "side": "runner",
+      "identity": "Zahya Sadeghi: Versatile Smuggler",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Zahya Sadeghi — two Mayflies",
+        "side": "runner",
+        "identity": "30010",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 1
+          },
+          {
+            "id": "30005",
+            "count": 2
+          },
+          {
+            "id": "30011",
+            "count": 3
+          },
+          {
+            "id": "30012",
+            "count": 3
+          },
+          {
+            "id": "30013",
+            "count": 2
+          },
+          {
+            "id": "30014",
+            "count": 3
+          },
+          {
+            "id": "30015",
+            "count": 2
+          },
+          {
+            "id": "30016",
+            "count": 2
+          },
+          {
+            "id": "30017",
+            "count": 2
+          },
+          {
+            "id": "30018",
+            "count": 3
+          },
+          {
+            "id": "30021",
+            "count": 3
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30032",
+            "count": 2
+          },
+          {
+            "id": "30033",
+            "count": 1
+          },
+          {
+            "id": "30034",
+            "count": 2
+          }
+        ]
+      },
+      "revision": "ac547d60b29b579e0224ba77e0fc5835fec75bbacd85049b1a842070e269be14",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 40,
+          "influence": 11,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 0,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 40,
+      "typeCounts": {
+        "program": 11,
+        "event": 18,
+        "hardware": 5,
+        "resource": 6
+      },
+      "breakers": {
+        "Fracter": 2,
+        "Decoder": 2,
+        "Killer": 2,
+        "AI": 2
+      },
+      "economy": 13,
+      "accessibleEconomy": 1,
+      "drawSelection": 8,
+      "ice": 0,
+      "cheapIce": 0,
+      "stoppingIce": 0,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.12268847795163584,
+      "openingNoAccessibleEconomy": 0.875,
+      "firstEightNoCheapIce": null,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "precision-design-large-agendas-v1",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "Haas-Bioroid: Precision Design — Bioroids & big agendas",
+      "side": "corp",
+      "identity": "Haas-Bioroid: Precision Design",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Haas-Bioroid: Precision Design — Bioroids & big agendas",
+        "side": "corp",
+        "identity": "30035",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30037",
+            "count": 3
+          },
+          {
+            "id": "30038",
+            "count": 3
+          },
+          {
+            "id": "30039",
+            "count": 3
+          },
+          {
+            "id": "30040",
+            "count": 3
+          },
+          {
+            "id": "30042",
+            "count": 2
+          },
+          {
+            "id": "30048",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 2
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30068",
+            "count": 2
+          },
+          {
+            "id": "30069",
+            "count": 1
+          },
+          {
+            "id": "30070",
+            "count": 3
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          }
+        ]
+      },
+      "revision": "fc342e40ebfb04e1ada131b906f77b70132d7b770e4b53b73d497ae38180babe",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 40,
+          "influence": 4,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 18,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 40,
+      "typeCounts": {
+        "agenda": 10,
+        "asset": 8,
+        "ice": 12,
+        "operation": 8,
+        "upgrade": 2
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 11,
+      "accessibleEconomy": 6,
+      "drawSelection": 5,
+      "ice": 12,
+      "cheapIce": 6,
+      "stoppingIce": 6,
+      "cheapStoppingIce": 3,
+      "openingNoEconomy": 0.1804765291607397,
+      "openingNoAccessibleEconomy": 0.4228763176131597,
+      "firstEightNoCheapIce": 0.236087099244994,
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        }
+      ],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "reality-plus-tag-and-score-v1",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "NBN: Reality Plus — Tag & score",
+      "side": "corp",
+      "identity": "NBN: Reality Plus",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "NBN: Reality Plus — Tag & score",
+        "side": "corp",
+        "identity": "30051",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30052",
+            "count": 1
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30054",
+            "count": 3
+          },
+          {
+            "id": "30055",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 3
+          },
+          {
+            "id": "30057",
+            "count": 2
+          },
+          {
+            "id": "30058",
+            "count": 2
+          },
+          {
+            "id": "30065",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30068",
+            "count": 2
+          },
+          {
+            "id": "30069",
+            "count": 1
+          },
+          {
+            "id": "30070",
+            "count": 3
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          }
+        ]
+      },
+      "revision": "9d5e27f4fc93abd75f2cbf1864189169b9a4e8f3a30349aba103e519201fdc87",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 40,
+          "influence": 3,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 18,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 40,
+      "typeCounts": {
+        "agenda": 10,
+        "asset": 6,
+        "ice": 11,
+        "operation": 11,
+        "upgrade": 2
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 9,
+      "accessibleEconomy": 6,
+      "drawSelection": 6,
+      "ice": 11,
+      "cheapIce": 8,
+      "stoppingIce": 9,
+      "cheapStoppingIce": 6,
+      "openingNoEconomy": 0.2582202647992122,
+      "openingNoAccessibleEconomy": 0.4228763176131597,
+      "firstEightNoCheapIce": 0.136770601166886,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "built-to-last-heavy-ice-v1",
+      "pool": "gateway-v1",
+      "poolLabel": "System Gateway",
+      "name": "Weyland Consortium: Built to Last — Heavy ice & threats",
+      "side": "corp",
+      "identity": "Weyland Consortium: Built to Last",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Weyland Consortium: Built to Last — Heavy ice & threats",
+        "side": "corp",
+        "identity": "30059",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30053",
+            "count": 2
+          },
+          {
+            "id": "30060",
+            "count": 1
+          },
+          {
+            "id": "30061",
+            "count": 3
+          },
+          {
+            "id": "30062",
+            "count": 3
+          },
+          {
+            "id": "30063",
+            "count": 3
+          },
+          {
+            "id": "30064",
+            "count": 3
+          },
+          {
+            "id": "30065",
+            "count": 2
+          },
+          {
+            "id": "30066",
+            "count": 2
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30068",
+            "count": 2
+          },
+          {
+            "id": "30069",
+            "count": 1
+          },
+          {
+            "id": "30070",
+            "count": 3
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30074",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          }
+        ]
+      },
+      "revision": "80a9e478b25c73b3d52adeb0de17008f520d07bc8544edd25f273709e11abaf0",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 40,
+          "influence": 2,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 18,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 40,
+      "typeCounts": {
+        "asset": 8,
+        "agenda": 10,
+        "ice": 12,
+        "operation": 8,
+        "upgrade": 2
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 9,
+      "accessibleEconomy": 3,
+      "drawSelection": 2,
+      "ice": 12,
+      "cheapIce": 6,
+      "stoppingIce": 12,
+      "cheapStoppingIce": 6,
+      "openingNoEconomy": 0.2582202647992122,
+      "openingNoAccessibleEconomy": 0.6624493927125507,
+      "firstEightNoCheapIce": 0.236087099244994,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "phoenix-core-v1",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "Ryō “Phoenix” Ōno: Out of the Ashes",
+      "side": "runner",
+      "identity": "Ryō “Phoenix” Ōno: Out of the Ashes",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Ryō “Phoenix” Ōno: Out of the Ashes",
+        "side": "runner",
+        "identity": "35001",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 2
+          },
+          {
+            "id": "30015",
+            "count": 2
+          },
+          {
+            "id": "30026",
+            "count": 2
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 2
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 2
+          },
+          {
+            "id": "30034",
+            "count": 2
+          },
+          {
+            "id": "35003",
+            "count": 2
+          },
+          {
+            "id": "35004",
+            "count": 2
+          },
+          {
+            "id": "35005",
+            "count": 3
+          },
+          {
+            "id": "35009",
+            "count": 3
+          },
+          {
+            "id": "35011",
+            "count": 3
+          },
+          {
+            "id": "35015",
+            "count": 3
+          },
+          {
+            "id": "35018",
+            "count": 2
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "url": "https://netrunnerdb.com/en/decklist/074c32b0-6429-49ec-91c1-46dcddba9e4b/-nsg-core-dashing-mad"
+        }
+      },
+      "revision": "fad58f268be2cc4e61bcf02e8dba8166bf9310453b62f790828d681d1acbd25c",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 45,
+          "influence": 17,
+          "influenceLimit": 17,
+          "minimumSize": 45,
+          "agenda": 0,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 45,
+      "typeCounts": {
+        "program": 15,
+        "event": 18,
+        "resource": 10,
+        "hardware": 2
+      },
+      "breakers": {
+        "Fracter": 3,
+        "Decoder": 2,
+        "Killer": 2,
+        "AI": 0
+      },
+      "economy": 16,
+      "accessibleEconomy": 11,
+      "drawSelection": 8,
+      "ice": 0,
+      "cheapIce": 0,
+      "stoppingIce": 0,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.09720002062599907,
+      "openingNoAccessibleEconomy": 0.22775031737028334,
+      "firstEightNoCheapIce": null,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "precision-design-core-v1",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "Haas-Bioroid: Precision Design",
+      "side": "corp",
+      "identity": "Haas-Bioroid: Precision Design",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Haas-Bioroid: Precision Design",
+        "side": "corp",
+        "identity": "30035",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30038",
+            "count": 1
+          },
+          {
+            "id": "30039",
+            "count": 2
+          },
+          {
+            "id": "30040",
+            "count": 3
+          },
+          {
+            "id": "30042",
+            "count": 3
+          },
+          {
+            "id": "30050",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 1
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30071",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35038",
+            "count": 2
+          },
+          {
+            "id": "35039",
+            "count": 2
+          },
+          {
+            "id": "35041",
+            "count": 3
+          },
+          {
+            "id": "35042",
+            "count": 2
+          },
+          {
+            "id": "35045",
+            "count": 2
+          },
+          {
+            "id": "35075",
+            "count": 3
+          },
+          {
+            "id": "35079",
+            "count": 2
+          },
+          {
+            "id": "35082",
+            "count": 2
+          }
+        ],
+        "source": {
+          "url": "https://netrunnerdb.com/en/decklist/b441510e-00e7-42b7-a559-a7eba52b31a4/-nsg-core-brutal-efficiency"
+        }
+      },
+      "revision": "d4a262e57b5b44abf063af33d192f675063221b73ccab3fb6529676f53432e76",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 44,
+          "influence": 15,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 18,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 44,
+      "typeCounts": {
+        "agenda": 8,
+        "ice": 13,
+        "operation": 7,
+        "upgrade": 9,
+        "asset": 7
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 8,
+      "accessibleEconomy": 5,
+      "drawSelection": 6,
+      "ice": 13,
+      "cheapIce": 10,
+      "stoppingIce": 9,
+      "cheapStoppingIce": 7,
+      "openingNoEconomy": 0.3471355643788996,
+      "openingNoAccessibleEconomy": 0.5301590780178415,
+      "firstEightNoCheapIce": 0.10244278554873533,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "[NSG Core] Bowel Movements",
+      "side": "runner",
+      "identity": "René “Loup” Arcemont: Party Animal",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Bowel Movements",
+        "side": "runner",
+        "identity": "30001",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30003",
+            "count": 3
+          },
+          {
+            "id": "30004",
+            "count": 2
+          },
+          {
+            "id": "30005",
+            "count": 1
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 2
+          },
+          {
+            "id": "30009",
+            "count": 2
+          },
+          {
+            "id": "30013",
+            "count": 1
+          },
+          {
+            "id": "30022",
+            "count": 1
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 2
+          },
+          {
+            "id": "35004",
+            "count": 3
+          },
+          {
+            "id": "35007",
+            "count": 3
+          },
+          {
+            "id": "35008",
+            "count": 1
+          },
+          {
+            "id": "35009",
+            "count": 3
+          },
+          {
+            "id": "35010",
+            "count": 3
+          },
+          {
+            "id": "35011",
+            "count": 2
+          },
+          {
+            "id": "35016",
+            "count": 2
+          },
+          {
+            "id": "35026",
+            "count": 2
+          },
+          {
+            "id": "35029",
+            "count": 1
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/81c60189-b0b9-429b-83a8-0cd6611fcff1",
+          "externalId": "81c60189-b0b9-429b-83a8-0cd6611fcff1",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:13:32+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.029Z",
+          "originalTitle": "[NSG Core] Bowel Movements"
+        }
+      },
+      "revision": "d12a743343036114d7f9ddcfba86716431ef5b92a93f747608acc56ee3f4be72",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 40,
+          "influence": 15,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 0,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 40,
+      "typeCounts": {
+        "hardware": 5,
+        "program": 16,
+        "resource": 9,
+        "event": 10
+      },
+      "breakers": {
+        "Fracter": 3,
+        "Decoder": 1,
+        "Killer": 1,
+        "AI": 0
+      },
+      "economy": 8,
+      "accessibleEconomy": 5,
+      "drawSelection": 7,
+      "ice": 0,
+      "cheapIce": 0,
+      "stoppingIce": 0,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.3060388323546218,
+      "openingNoAccessibleEconomy": 0.49335570388201966,
+      "firstEightNoCheapIce": null,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "[NSG Core] Prick Thyself",
+      "side": "runner",
+      "identity": "Topan: Ormas Leader",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Prick Thyself",
+        "side": "runner",
+        "identity": "35002",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 2
+          },
+          {
+            "id": "30012",
+            "count": 1
+          },
+          {
+            "id": "30021",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 1
+          },
+          {
+            "id": "30025",
+            "count": 1
+          },
+          {
+            "id": "30026",
+            "count": 1
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 3
+          },
+          {
+            "id": "35003",
+            "count": 1
+          },
+          {
+            "id": "35004",
+            "count": 3
+          },
+          {
+            "id": "35005",
+            "count": 2
+          },
+          {
+            "id": "35006",
+            "count": 3
+          },
+          {
+            "id": "35007",
+            "count": 2
+          },
+          {
+            "id": "35009",
+            "count": 3
+          },
+          {
+            "id": "35011",
+            "count": 3
+          },
+          {
+            "id": "35025",
+            "count": 1
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/bbcf997a-3ec6-4728-9813-82df335db2f3",
+          "externalId": "bbcf997a-3ec6-4728-9813-82df335db2f3",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:13:58+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.021Z",
+          "originalTitle": "[NSG Core] Prick Thyself"
+        }
+      },
+      "revision": "82f72cab02dd4cf67e7bb1c4522550625016b29d4336441059fcacc4bb846c52",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 45,
+          "influence": 15,
+          "influenceLimit": 15,
+          "minimumSize": 45,
+          "agenda": 0,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 45,
+      "typeCounts": {
+        "program": 15,
+        "event": 14,
+        "hardware": 4,
+        "resource": 12
+      },
+      "breakers": {
+        "Fracter": 3,
+        "Decoder": 1,
+        "Killer": 1,
+        "AI": 0
+      },
+      "economy": 15,
+      "accessibleEconomy": 12,
+      "drawSelection": 11,
+      "ice": 0,
+      "cheapIce": 0,
+      "stoppingIce": 0,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.11664002475119889,
+      "openingNoAccessibleEconomy": 0.1942576236393593,
+      "firstEightNoCheapIce": null,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": " [NSG Core] Tickets, please",
+      "side": "runner",
+      "identity": "Zahya Sadeghi: Versatile Smuggler",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": " [NSG Core] Tickets, please",
+        "side": "runner",
+        "identity": "30010",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30008",
+            "count": 2
+          },
+          {
+            "id": "30011",
+            "count": 2
+          },
+          {
+            "id": "30012",
+            "count": 2
+          },
+          {
+            "id": "30013",
+            "count": 2
+          },
+          {
+            "id": "30014",
+            "count": 2
+          },
+          {
+            "id": "30015",
+            "count": 1
+          },
+          {
+            "id": "30016",
+            "count": 3
+          },
+          {
+            "id": "30024",
+            "count": 1
+          },
+          {
+            "id": "30026",
+            "count": 1
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "35004",
+            "count": 1
+          },
+          {
+            "id": "35009",
+            "count": 1
+          },
+          {
+            "id": "35014",
+            "count": 3
+          },
+          {
+            "id": "35015",
+            "count": 3
+          },
+          {
+            "id": "35016",
+            "count": 2
+          },
+          {
+            "id": "35022",
+            "count": 3
+          },
+          {
+            "id": "35026",
+            "count": 1
+          },
+          {
+            "id": "35027",
+            "count": 1
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/96ef311d-5a55-43e3-be41-28b072994e30",
+          "externalId": "96ef311d-5a55-43e3-be41-28b072994e30",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:14:06+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.041Z",
+          "originalTitle": " [NSG Core] Tickets, please"
+        }
+      },
+      "revision": "8fe7914ef9c57a6c7cacc1905e461030f39452e5fd0cbbf0145d666515f360e2",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 40,
+          "influence": 15,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 0,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 40,
+      "typeCounts": {
+        "program": 9,
+        "event": 20,
+        "hardware": 5,
+        "resource": 6
+      },
+      "breakers": {
+        "Fracter": 4,
+        "Decoder": 1,
+        "Killer": 1,
+        "AI": 0
+      },
+      "economy": 14,
+      "accessibleEconomy": 6,
+      "drawSelection": 9,
+      "ice": 0,
+      "cheapIce": 0,
+      "stoppingIce": 0,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.09996838944207365,
+      "openingNoAccessibleEconomy": 0.4228763176131597,
+      "firstEightNoCheapIce": null,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": " [NSG Core] Shootin' 'n' Lootin'",
+      "side": "runner",
+      "identity": "MuslihaT: Multifarious Marketeer",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": " [NSG Core] Shootin' 'n' Lootin'",
+        "side": "runner",
+        "identity": "35013",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30008",
+            "count": 2
+          },
+          {
+            "id": "30011",
+            "count": 1
+          },
+          {
+            "id": "30012",
+            "count": 2
+          },
+          {
+            "id": "30013",
+            "count": 1
+          },
+          {
+            "id": "30014",
+            "count": 2
+          },
+          {
+            "id": "30016",
+            "count": 3
+          },
+          {
+            "id": "30025",
+            "count": 2
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "35005",
+            "count": 2
+          },
+          {
+            "id": "35009",
+            "count": 1
+          },
+          {
+            "id": "35014",
+            "count": 3
+          },
+          {
+            "id": "35016",
+            "count": 2
+          },
+          {
+            "id": "35017",
+            "count": 3
+          },
+          {
+            "id": "35020",
+            "count": 2
+          },
+          {
+            "id": "35022",
+            "count": 3
+          },
+          {
+            "id": "35026",
+            "count": 3
+          },
+          {
+            "id": "35029",
+            "count": 1
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/a9c9e074-d20a-40ca-8030-f5d0d1ce677f",
+          "externalId": "a9c9e074-d20a-40ca-8030-f5d0d1ce677f",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:14:18+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.235Z",
+          "originalTitle": " [NSG Core] Shootin' 'n' Lootin'"
+        }
+      },
+      "revision": "d0e02ddf32fdf4da7095526dcbf0b0c418570599d9b8f92bff0d3e334ceca090",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 45,
+          "influence": 15,
+          "influenceLimit": 15,
+          "minimumSize": 45,
+          "agenda": 0,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 45,
+      "typeCounts": {
+        "program": 11,
+        "event": 25,
+        "hardware": 3,
+        "resource": 6
+      },
+      "breakers": {
+        "Fracter": 4,
+        "Decoder": 2,
+        "Killer": 2,
+        "AI": 0
+      },
+      "economy": 20,
+      "accessibleEconomy": 6,
+      "drawSelection": 7,
+      "ice": 0,
+      "cheapIce": 0,
+      "stoppingIce": 0,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.04348648137644167,
+      "openingNoAccessibleEconomy": 0.47125251379363686,
+      "firstEightNoCheapIce": null,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "[NSG Core] Professional Opportunities",
+      "side": "runner",
+      "identity": "Barry “Baz” Wong: Tri-Maf Veteran",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Professional Opportunities",
+        "side": "runner",
+        "identity": "35012",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30008",
+            "count": 1
+          },
+          {
+            "id": "30011",
+            "count": 2
+          },
+          {
+            "id": "30013",
+            "count": 1
+          },
+          {
+            "id": "30015",
+            "count": 2
+          },
+          {
+            "id": "30016",
+            "count": 3
+          },
+          {
+            "id": "30017",
+            "count": 2
+          },
+          {
+            "id": "30018",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 1
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "35009",
+            "count": 1
+          },
+          {
+            "id": "35014",
+            "count": 3
+          },
+          {
+            "id": "35015",
+            "count": 3
+          },
+          {
+            "id": "35019",
+            "count": 3
+          },
+          {
+            "id": "35020",
+            "count": 2
+          },
+          {
+            "id": "35021",
+            "count": 2
+          },
+          {
+            "id": "35022",
+            "count": 3
+          },
+          {
+            "id": "35028",
+            "count": 2
+          },
+          {
+            "id": "35030",
+            "count": 2
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/aca8a765-6c5b-4f3a-81c8-16c4dde32fdd",
+          "externalId": "aca8a765-6c5b-4f3a-81c8-16c4dde32fdd",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:14:36+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.235Z",
+          "originalTitle": "[NSG Core] Professional Opportunities"
+        }
+      },
+      "revision": "4f24b5d58a962c0586726b6d41a8f23632208f9973cbd78f61d096ff0fb1f41c",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 45,
+          "influence": 15,
+          "influenceLimit": 15,
+          "minimumSize": 45,
+          "agenda": 0,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 45,
+      "typeCounts": {
+        "program": 13,
+        "event": 14,
+        "hardware": 7,
+        "resource": 11
+      },
+      "breakers": {
+        "Fracter": 4,
+        "Decoder": 2,
+        "Killer": 2,
+        "AI": 0
+      },
+      "economy": 18,
+      "accessibleEconomy": 6,
+      "drawSelection": 8,
+      "ice": 0,
+      "cheapIce": 0,
+      "stoppingIce": 0,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.06607686131225553,
+      "openingNoAccessibleEconomy": 0.47125251379363686,
+      "firstEightNoCheapIce": null,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "[NSG Core] Flow and Ebb",
+      "side": "runner",
+      "identity": "Tāo Salonga: Telepresence Magician",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Flow and Ebb",
+        "side": "runner",
+        "identity": "30019",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30005",
+            "count": 2
+          },
+          {
+            "id": "30008",
+            "count": 2
+          },
+          {
+            "id": "30011",
+            "count": 1
+          },
+          {
+            "id": "30012",
+            "count": 2
+          },
+          {
+            "id": "30014",
+            "count": 2
+          },
+          {
+            "id": "30020",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 1
+          },
+          {
+            "id": "30024",
+            "count": 1
+          },
+          {
+            "id": "30025",
+            "count": 2
+          },
+          {
+            "id": "30027",
+            "count": 3
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 2
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 2
+          },
+          {
+            "id": "35026",
+            "count": 3
+          },
+          {
+            "id": "35027",
+            "count": 1
+          },
+          {
+            "id": "35030",
+            "count": 2
+          },
+          {
+            "id": "35032",
+            "count": 2
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/1bf875a5-4138-40d3-87f0-de874f63135e",
+          "externalId": "1bf875a5-4138-40d3-87f0-de874f63135e",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:14:44+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.247Z",
+          "originalTitle": "[NSG Core] Flow and Ebb"
+        }
+      },
+      "revision": "9600c22ebf18ae39902168cc6bf8f23b7b0e3936f684958846f38117aa8336a1",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 40,
+          "influence": 15,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 0,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 40,
+      "typeCounts": {
+        "program": 11,
+        "event": 17,
+        "hardware": 4,
+        "resource": 8
+      },
+      "breakers": {
+        "Fracter": 2,
+        "Decoder": 2,
+        "Killer": 2,
+        "AI": 0
+      },
+      "economy": 16,
+      "accessibleEconomy": 9,
+      "drawSelection": 9,
+      "ice": 0,
+      "cheapIce": 0,
+      "stoppingIce": 0,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.06459495933180144,
+      "openingNoAccessibleEconomy": 0.2582202647992122,
+      "firstEightNoCheapIce": null,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": " [NSG Core] Enthusiasm",
+      "side": "runner",
+      "identity": "Dewi Subrotoputri: Pedagogical Dhalang",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": " [NSG Core] Enthusiasm",
+        "side": "runner",
+        "identity": "35023",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30018",
+            "count": 2
+          },
+          {
+            "id": "30020",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 2
+          },
+          {
+            "id": "30025",
+            "count": 1
+          },
+          {
+            "id": "30026",
+            "count": 1
+          },
+          {
+            "id": "30027",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30032",
+            "count": 3
+          },
+          {
+            "id": "35004",
+            "count": 1
+          },
+          {
+            "id": "35022",
+            "count": 2
+          },
+          {
+            "id": "35025",
+            "count": 2
+          },
+          {
+            "id": "35026",
+            "count": 3
+          },
+          {
+            "id": "35027",
+            "count": 1
+          },
+          {
+            "id": "35028",
+            "count": 2
+          },
+          {
+            "id": "35029",
+            "count": 1
+          },
+          {
+            "id": "35030",
+            "count": 2
+          },
+          {
+            "id": "35031",
+            "count": 3
+          },
+          {
+            "id": "35032",
+            "count": 1
+          },
+          {
+            "id": "35033",
+            "count": 3
+          },
+          {
+            "id": "35034",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/14966eb5-a65c-4578-83bb-345e566df203",
+          "externalId": "14966eb5-a65c-4578-83bb-345e566df203",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:14:52+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.269Z",
+          "originalTitle": " [NSG Core] Enthusiasm"
+        }
+      },
+      "revision": "44595697a44272f1137482581c59da32f012c4964b85bd931f8db7d26ed28cf7",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 45,
+          "influence": 15,
+          "influenceLimit": 15,
+          "minimumSize": 45,
+          "agenda": 0,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 45,
+      "typeCounts": {
+        "program": 15,
+        "resource": 13,
+        "event": 12,
+        "hardware": 5
+      },
+      "breakers": {
+        "Fracter": 1,
+        "Decoder": 1,
+        "Killer": 1,
+        "AI": 3
+      },
+      "economy": 22,
+      "accessibleEconomy": 14,
+      "drawSelection": 9,
+      "ice": 0,
+      "cheapIce": 0,
+      "stoppingIce": 0,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.027541438205079725,
+      "openingNoAccessibleEconomy": 0.13907079874181405,
+      "firstEightNoCheapIce": null,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": " [NSG Core] Sabbatical",
+      "side": "runner",
+      "identity": "Magdalene Keino-Chemutai: Cryptarchitect",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": " [NSG Core] Sabbatical",
+        "side": "runner",
+        "identity": "35024",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 2
+          },
+          {
+            "id": "30007",
+            "count": 2
+          },
+          {
+            "id": "30012",
+            "count": 3
+          },
+          {
+            "id": "30020",
+            "count": 3
+          },
+          {
+            "id": "30021",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 2
+          },
+          {
+            "id": "30023",
+            "count": 2
+          },
+          {
+            "id": "30025",
+            "count": 2
+          },
+          {
+            "id": "30026",
+            "count": 2
+          },
+          {
+            "id": "30027",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 1
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 2
+          },
+          {
+            "id": "35004",
+            "count": 2
+          },
+          {
+            "id": "35026",
+            "count": 3
+          },
+          {
+            "id": "35027",
+            "count": 1
+          },
+          {
+            "id": "35029",
+            "count": 1
+          },
+          {
+            "id": "35031",
+            "count": 3
+          },
+          {
+            "id": "35032",
+            "count": 2
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/9727f883-4edd-4f1a-aabc-e1f94fd63834",
+          "externalId": "9727f883-4edd-4f1a-aabc-e1f94fd63834",
+          "author": "Girometics",
+          "updatedAt": "2026-11-06T20:03:51+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.475Z",
+          "originalTitle": " [NSG Core] Sabbatical"
+        }
+      },
+      "revision": "94ba33b98abd145041d978da7f82ecf176bc38f34bfde605a577b12a0098882b",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 45,
+          "influence": 15,
+          "influenceLimit": 15,
+          "minimumSize": 45,
+          "agenda": 0,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 45,
+      "typeCounts": {
+        "program": 14,
+        "event": 18,
+        "hardware": 5,
+        "resource": 8
+      },
+      "breakers": {
+        "Fracter": 2,
+        "Decoder": 2,
+        "Killer": 2,
+        "AI": 0
+      },
+      "economy": 15,
+      "accessibleEconomy": 11,
+      "drawSelection": 8,
+      "ice": 0,
+      "cheapIce": 0,
+      "stoppingIce": 0,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.11664002475119889,
+      "openingNoAccessibleEconomy": 0.22775031737028334,
+      "firstEightNoCheapIce": null,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "[NSG Core] Agency",
+      "side": "corp",
+      "identity": "LEO Construction: Labor Solutions",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Agency",
+        "side": "corp",
+        "identity": "35035",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30038",
+            "count": 2
+          },
+          {
+            "id": "30039",
+            "count": 3
+          },
+          {
+            "id": "30040",
+            "count": 1
+          },
+          {
+            "id": "30041",
+            "count": 1
+          },
+          {
+            "id": "30042",
+            "count": 3
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30071",
+            "count": 1
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35038",
+            "count": 3
+          },
+          {
+            "id": "35040",
+            "count": 3
+          },
+          {
+            "id": "35041",
+            "count": 3
+          },
+          {
+            "id": "35042",
+            "count": 1
+          },
+          {
+            "id": "35043",
+            "count": 1
+          },
+          {
+            "id": "35045",
+            "count": 3
+          },
+          {
+            "id": "35054",
+            "count": 3
+          },
+          {
+            "id": "35076",
+            "count": 3
+          },
+          {
+            "id": "35079",
+            "count": 1
+          },
+          {
+            "id": "35081",
+            "count": 3
+          },
+          {
+            "id": "35082",
+            "count": 2
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/8b2c2754-48c2-4375-a124-e1eebba9a95e",
+          "externalId": "8b2c2754-48c2-4375-a124-e1eebba9a95e",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:15:14+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.457Z",
+          "originalTitle": "[NSG Core] Agency"
+        }
+      },
+      "revision": "6ff2c5f0596ff25fe3b5e21ecb0986e6a9a40ca748afae341e6e4183a55be637",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 49,
+          "influence": 15,
+          "influenceLimit": 15,
+          "minimumSize": 45,
+          "agenda": 20,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 49,
+      "typeCounts": {
+        "agenda": 9,
+        "ice": 16,
+        "operation": 9,
+        "upgrade": 8,
+        "asset": 7
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 10,
+      "accessibleEconomy": 4,
+      "drawSelection": 4,
+      "ice": 16,
+      "cheapIce": 8,
+      "stoppingIce": 8,
+      "cheapStoppingIce": 5,
+      "openingNoEconomy": 0.30193603805999736,
+      "openingNoAccessibleEconomy": 0.6407096603673847,
+      "firstEightNoCheapIce": 0.2118689404286904,
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        }
+      ],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "[NSG Core] Fashion Lab",
+      "side": "corp",
+      "identity": "Poétrï Luxury Brands: All the Rage",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Fashion Lab",
+        "side": "corp",
+        "identity": "35036",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30037",
+            "count": 3
+          },
+          {
+            "id": "30038",
+            "count": 1
+          },
+          {
+            "id": "30039",
+            "count": 1
+          },
+          {
+            "id": "30040",
+            "count": 1
+          },
+          {
+            "id": "30042",
+            "count": 1
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 1
+          },
+          {
+            "id": "30069",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 2
+          },
+          {
+            "id": "35037",
+            "count": 3
+          },
+          {
+            "id": "35038",
+            "count": 3
+          },
+          {
+            "id": "35039",
+            "count": 3
+          },
+          {
+            "id": "35040",
+            "count": 3
+          },
+          {
+            "id": "35041",
+            "count": 3
+          },
+          {
+            "id": "35042",
+            "count": 3
+          },
+          {
+            "id": "35043",
+            "count": 2
+          },
+          {
+            "id": "35044",
+            "count": 1
+          },
+          {
+            "id": "35045",
+            "count": 2
+          },
+          {
+            "id": "35053",
+            "count": 1
+          },
+          {
+            "id": "35072",
+            "count": 3
+          },
+          {
+            "id": "35075",
+            "count": 3
+          },
+          {
+            "id": "35082",
+            "count": 2
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/8d182470-77e1-4d5e-b55e-19f08dc44470",
+          "externalId": "8d182470-77e1-4d5e-b55e-19f08dc44470",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:15:21+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.507Z",
+          "originalTitle": "[NSG Core] Fashion Lab"
+        }
+      },
+      "revision": "041d76cb8e919c8de241a781348c34ac7d068ba283ba17577599b8e7c30deec7",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 49,
+          "influence": 15,
+          "influenceLimit": 15,
+          "minimumSize": 45,
+          "agenda": 20,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 49,
+      "typeCounts": {
+        "agenda": 10,
+        "asset": 15,
+        "ice": 12,
+        "operation": 7,
+        "upgrade": 5
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 15,
+      "accessibleEconomy": 10,
+      "drawSelection": 14,
+      "ice": 12,
+      "cheapIce": 9,
+      "stoppingIce": 7,
+      "cheapStoppingIce": 6,
+      "openingNoEconomy": 0.1459218284908783,
+      "openingNoAccessibleEconomy": 0.30193603805999736,
+      "firstEightNoCheapIce": 0.17052865936943373,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "[NSG Core] Hidden Funds",
+      "side": "corp",
+      "identity": "Jinteki: Restoring Humanity",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Hidden Funds",
+        "side": "corp",
+        "identity": "30043",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30039",
+            "count": 3
+          },
+          {
+            "id": "30048",
+            "count": 3
+          },
+          {
+            "id": "30050",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35048",
+            "count": 3
+          },
+          {
+            "id": "35049",
+            "count": 3
+          },
+          {
+            "id": "35052",
+            "count": 3
+          },
+          {
+            "id": "35053",
+            "count": 2
+          },
+          {
+            "id": "35054",
+            "count": 2
+          },
+          {
+            "id": "35055",
+            "count": 2
+          },
+          {
+            "id": "35056",
+            "count": 1
+          },
+          {
+            "id": "35063",
+            "count": 3
+          },
+          {
+            "id": "35079",
+            "count": 3
+          },
+          {
+            "id": "35081",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/fd9af10d-4c0f-4b70-ad5d-83aa51903a16",
+          "externalId": "fd9af10d-4c0f-4b70-ad5d-83aa51903a16",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:15:30+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.703Z",
+          "originalTitle": "[NSG Core] Hidden Funds"
+        }
+      },
+      "revision": "050a753f6aad4930ff18a87ea1d8f49ede83bce3782423c9b7cf7bf496698e7d",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 44,
+          "influence": 15,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 18,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 44,
+      "typeCounts": {
+        "ice": 16,
+        "operation": 11,
+        "upgrade": 3,
+        "asset": 6,
+        "agenda": 8
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 14,
+      "accessibleEconomy": 3,
+      "drawSelection": 5,
+      "ice": 16,
+      "cheapIce": 8,
+      "stoppingIce": 8,
+      "cheapStoppingIce": 5,
+      "openingNoEconomy": 0.13122002784509876,
+      "openingNoAccessibleEconomy": 0.690048323769254,
+      "firstEightNoCheapIce": 0.1707379759145589,
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        }
+      ],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "[NSG Core] Peculiarity",
+      "side": "corp",
+      "identity": "PT Untaian: Life's Building Blocks",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Peculiarity",
+        "side": "corp",
+        "identity": "35047",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30042",
+            "count": 1
+          },
+          {
+            "id": "30044",
+            "count": 1
+          },
+          {
+            "id": "30045",
+            "count": 2
+          },
+          {
+            "id": "30047",
+            "count": 3
+          },
+          {
+            "id": "30048",
+            "count": 3
+          },
+          {
+            "id": "30050",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30061",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30072",
+            "count": 2
+          },
+          {
+            "id": "30074",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 2
+          },
+          {
+            "id": "35048",
+            "count": 3
+          },
+          {
+            "id": "35049",
+            "count": 3
+          },
+          {
+            "id": "35052",
+            "count": 2
+          },
+          {
+            "id": "35053",
+            "count": 2
+          },
+          {
+            "id": "35054",
+            "count": 3
+          },
+          {
+            "id": "35055",
+            "count": 3
+          },
+          {
+            "id": "35056",
+            "count": 2
+          },
+          {
+            "id": "35079",
+            "count": 1
+          },
+          {
+            "id": "35081",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/568d1eb8-340c-4bb1-bf77-54c21b514833",
+          "externalId": "568d1eb8-340c-4bb1-bf77-54c21b514833",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:15:38+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.671Z",
+          "originalTitle": "[NSG Core] Peculiarity"
+        }
+      },
+      "revision": "48134ae006a4fa4f18acb25b0e1a3eb114e4e49499304f89f5cd755e80ccf9f9",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 49,
+          "influence": 15,
+          "influenceLimit": 15,
+          "minimumSize": 45,
+          "agenda": 20,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 49,
+      "typeCounts": {
+        "upgrade": 5,
+        "agenda": 9,
+        "asset": 8,
+        "ice": 16,
+        "operation": 11
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 11,
+      "accessibleEconomy": 0,
+      "drawSelection": 6,
+      "ice": 16,
+      "cheapIce": 9,
+      "stoppingIce": 9,
+      "cheapStoppingIce": 9,
+      "openingNoEconomy": 0.26322628959076694,
+      "openingNoAccessibleEconomy": 1,
+      "firstEightNoCheapIce": 0.17052865936943373,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "[NSG Core] Glyph of Warding",
+      "side": "corp",
+      "identity": "AU Co.: The Gold Standard in Clones",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Glyph of Warding",
+        "side": "corp",
+        "identity": "35046",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30044",
+            "count": 1
+          },
+          {
+            "id": "30048",
+            "count": 3
+          },
+          {
+            "id": "30050",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30068",
+            "count": 3
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30074",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35049",
+            "count": 3
+          },
+          {
+            "id": "35050",
+            "count": 2
+          },
+          {
+            "id": "35051",
+            "count": 3
+          },
+          {
+            "id": "35052",
+            "count": 2
+          },
+          {
+            "id": "35054",
+            "count": 3
+          },
+          {
+            "id": "35078",
+            "count": 3
+          },
+          {
+            "id": "35079",
+            "count": 1
+          },
+          {
+            "id": "35080",
+            "count": 3
+          },
+          {
+            "id": "35081",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/da28fae5-8c7c-4354-8ed3-6ce6e5769cec",
+          "externalId": "da28fae5-8c7c-4354-8ed3-6ce6e5769cec",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:15:45+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.717Z",
+          "originalTitle": "[NSG Core] Glyph of Warding"
+        }
+      },
+      "revision": "86a9e65d6b9eb6f6cf46e39b41ade2f3b79aaf5c921dcb1201fc813c593ad29a",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 49,
+          "influence": 15,
+          "influenceLimit": 15,
+          "minimumSize": 45,
+          "agenda": 20,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 49,
+      "typeCounts": {
+        "agenda": 10,
+        "operation": 12,
+        "upgrade": 2,
+        "asset": 11,
+        "ice": 14
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 12,
+      "accessibleEconomy": 3,
+      "drawSelection": 3,
+      "ice": 14,
+      "cheapIce": 12,
+      "stoppingIce": 9,
+      "cheapStoppingIce": 9,
+      "openingNoEconomy": 0.22859125148671863,
+      "openingNoAccessibleEconomy": 0.7188449848024316,
+      "firstEightNoCheapIce": 0.0856095294000396,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "[NSG Core] Fine Print",
+      "side": "corp",
+      "identity": "NBN: Reality Plus",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Fine Print",
+        "side": "corp",
+        "identity": "30051",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30052",
+            "count": 1
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30054",
+            "count": 2
+          },
+          {
+            "id": "30055",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 3
+          },
+          {
+            "id": "30057",
+            "count": 2
+          },
+          {
+            "id": "30058",
+            "count": 2
+          },
+          {
+            "id": "30067",
+            "count": 2
+          },
+          {
+            "id": "30071",
+            "count": 2
+          },
+          {
+            "id": "35040",
+            "count": 3
+          },
+          {
+            "id": "35042",
+            "count": 1
+          },
+          {
+            "id": "35050",
+            "count": 2
+          },
+          {
+            "id": "35059",
+            "count": 3
+          },
+          {
+            "id": "35060",
+            "count": 2
+          },
+          {
+            "id": "35061",
+            "count": 2
+          },
+          {
+            "id": "35062",
+            "count": 3
+          },
+          {
+            "id": "35063",
+            "count": 3
+          },
+          {
+            "id": "35065",
+            "count": 2
+          },
+          {
+            "id": "35066",
+            "count": 1
+          },
+          {
+            "id": "35082",
+            "count": 2
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/abc6721f-4680-40fe-b189-cdf19f416bd1",
+          "externalId": "abc6721f-4680-40fe-b189-cdf19f416bd1",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:15:52+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.736Z",
+          "originalTitle": "[NSG Core] Fine Print"
+        }
+      },
+      "revision": "96f1749f82858c7efe3b0cc892efd6767d44a272f171439fc1f7337efe694e1f",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 44,
+          "influence": 15,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 18,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 44,
+      "typeCounts": {
+        "agenda": 8,
+        "asset": 15,
+        "ice": 9,
+        "operation": 8,
+        "upgrade": 4
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 13,
+      "accessibleEconomy": 11,
+      "drawSelection": 6,
+      "ice": 9,
+      "cheapIce": 7,
+      "stoppingIce": 6,
+      "cheapStoppingIce": 4,
+      "openingNoEconomy": 0.1564546485845408,
+      "openingNoAccessibleEconomy": 0.21853982659427923,
+      "firstEightNoCheapIce": 0.21783810720133376,
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        },
+        {
+          "kind": "defense",
+          "message": "Low ice density; check whether the alternate win condition and opening defenses compensate."
+        }
+      ],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "[NSG Core] Not so subtle",
+      "side": "corp",
+      "identity": "Nebula Talent Management: Making Stars",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Not so subtle",
+        "side": "corp",
+        "identity": "35057",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30052",
+            "count": 1
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30055",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30071",
+            "count": 1
+          },
+          {
+            "id": "30073",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35054",
+            "count": 3
+          },
+          {
+            "id": "35055",
+            "count": 3
+          },
+          {
+            "id": "35059",
+            "count": 3
+          },
+          {
+            "id": "35060",
+            "count": 2
+          },
+          {
+            "id": "35063",
+            "count": 3
+          },
+          {
+            "id": "35064",
+            "count": 3
+          },
+          {
+            "id": "35065",
+            "count": 1
+          },
+          {
+            "id": "35067",
+            "count": 2
+          },
+          {
+            "id": "35073",
+            "count": 2
+          },
+          {
+            "id": "35079",
+            "count": 1
+          },
+          {
+            "id": "35080",
+            "count": 2
+          },
+          {
+            "id": "35081",
+            "count": 3
+          },
+          {
+            "id": "35082",
+            "count": 2
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/170f1c2f-e063-415a-ab06-7ef49763da04",
+          "externalId": "170f1c2f-e063-415a-ab06-7ef49763da04",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:15:59+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.950Z",
+          "originalTitle": "[NSG Core] Not so subtle"
+        }
+      },
+      "revision": "a4fecaddcb119d5d4120f82bcbb9ac8579b6ae8ca549e07241f1e2ad36e3b6e0",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 49,
+          "influence": 15,
+          "influenceLimit": 15,
+          "minimumSize": 45,
+          "agenda": 20,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 49,
+      "typeCounts": {
+        "agenda": 9,
+        "asset": 6,
+        "ice": 17,
+        "operation": 15,
+        "upgrade": 2
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 13,
+      "accessibleEconomy": 4,
+      "drawSelection": 9,
+      "ice": 17,
+      "cheapIce": 14,
+      "stoppingIce": 12,
+      "cheapStoppingIce": 9,
+      "openingNoEconomy": 0.19770054182635127,
+      "openingNoAccessibleEconomy": 0.6407096603673847,
+      "firstEightNoCheapIce": 0.05218839179642054,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "[NSG Core] Gimbatul",
+      "side": "corp",
+      "identity": "Synapse Global: Faster than Thought",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Gimbatul",
+        "side": "corp",
+        "identity": "35058",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30042",
+            "count": 2
+          },
+          {
+            "id": "30049",
+            "count": 1
+          },
+          {
+            "id": "30052",
+            "count": 1
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30054",
+            "count": 2
+          },
+          {
+            "id": "30055",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 3
+          },
+          {
+            "id": "30057",
+            "count": 1
+          },
+          {
+            "id": "30058",
+            "count": 2
+          },
+          {
+            "id": "30066",
+            "count": 2
+          },
+          {
+            "id": "30068",
+            "count": 3
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35059",
+            "count": 3
+          },
+          {
+            "id": "35060",
+            "count": 2
+          },
+          {
+            "id": "35063",
+            "count": 3
+          },
+          {
+            "id": "35064",
+            "count": 3
+          },
+          {
+            "id": "35065",
+            "count": 1
+          },
+          {
+            "id": "35066",
+            "count": 1
+          },
+          {
+            "id": "35067",
+            "count": 3
+          },
+          {
+            "id": "35080",
+            "count": 1
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/19db2c28-8521-4b86-a45e-e46cb9830243",
+          "externalId": "19db2c28-8521-4b86-a45e-e46cb9830243",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:16:07+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.907Z",
+          "originalTitle": "[NSG Core] Gimbatul"
+        }
+      },
+      "revision": "96783ec74652d76c475868f5c0ed3786b8b8641001c6cc0b6611166d4514f7bb",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 49,
+          "influence": 15,
+          "influenceLimit": 15,
+          "minimumSize": 45,
+          "agenda": 20,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 49,
+      "typeCounts": {
+        "upgrade": 6,
+        "operation": 13,
+        "agenda": 9,
+        "asset": 6,
+        "ice": 15
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 9,
+      "accessibleEconomy": 6,
+      "drawSelection": 6,
+      "ice": 15,
+      "cheapIce": 10,
+      "stoppingIce": 9,
+      "cheapStoppingIce": 4,
+      "openingNoEconomy": 0.34506975778285415,
+      "openingNoAccessibleEconomy": 0.5048015505924849,
+      "firstEightNoCheapIce": 0.136422927495547,
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        }
+      ],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": " [NSG Core] Brick Stack",
+      "side": "corp",
+      "identity": "Weyland Consortium: Built to Last",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": " [NSG Core] Brick Stack",
+        "side": "corp",
+        "identity": "30059",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30041",
+            "count": 1
+          },
+          {
+            "id": "30050",
+            "count": 1
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30060",
+            "count": 1
+          },
+          {
+            "id": "30062",
+            "count": 2
+          },
+          {
+            "id": "30063",
+            "count": 3
+          },
+          {
+            "id": "30064",
+            "count": 2
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30071",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35041",
+            "count": 3
+          },
+          {
+            "id": "35061",
+            "count": 2
+          },
+          {
+            "id": "35071",
+            "count": 2
+          },
+          {
+            "id": "35075",
+            "count": 3
+          },
+          {
+            "id": "35076",
+            "count": 3
+          },
+          {
+            "id": "35077",
+            "count": 3
+          },
+          {
+            "id": "35079",
+            "count": 2
+          },
+          {
+            "id": "35081",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/51804cff-8a01-4b85-b1cc-a140935cf81c",
+          "externalId": "51804cff-8a01-4b85-b1cc-a140935cf81c",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:16:15+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.955Z",
+          "originalTitle": " [NSG Core] Brick Stack"
+        }
+      },
+      "revision": "55e35bd8d37c7128ee6f0716f1c54fe6089f2a7c7dc5711c098bb32250c1ffa0",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 44,
+          "influence": 15,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 18,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 44,
+      "typeCounts": {
+        "operation": 12,
+        "upgrade": 1,
+        "asset": 7,
+        "agenda": 8,
+        "ice": 16
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 15,
+      "accessibleEconomy": 2,
+      "drawSelection": 7,
+      "ice": 16,
+      "cheapIce": 8,
+      "stoppingIce": 10,
+      "cheapStoppingIce": 5,
+      "openingNoEconomy": 0.10935002320424896,
+      "openingNoAccessibleEconomy": 0.7832980972515856,
+      "firstEightNoCheapIce": 0.1707379759145589,
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        }
+      ],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "[NSG Core] Pork Chops",
+      "side": "corp",
+      "identity": "BANGUN: When Disaster Strikes",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Pork Chops",
+        "side": "corp",
+        "identity": "35068",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30060",
+            "count": 1
+          },
+          {
+            "id": "30061",
+            "count": 1
+          },
+          {
+            "id": "30063",
+            "count": 2
+          },
+          {
+            "id": "30064",
+            "count": 1
+          },
+          {
+            "id": "30065",
+            "count": 1
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30068",
+            "count": 3
+          },
+          {
+            "id": "30071",
+            "count": 2
+          },
+          {
+            "id": "30073",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35041",
+            "count": 2
+          },
+          {
+            "id": "35050",
+            "count": 2
+          },
+          {
+            "id": "35054",
+            "count": 3
+          },
+          {
+            "id": "35067",
+            "count": 1
+          },
+          {
+            "id": "35071",
+            "count": 3
+          },
+          {
+            "id": "35072",
+            "count": 3
+          },
+          {
+            "id": "35074",
+            "count": 1
+          },
+          {
+            "id": "35076",
+            "count": 3
+          },
+          {
+            "id": "35078",
+            "count": 3
+          },
+          {
+            "id": "35079",
+            "count": 1
+          },
+          {
+            "id": "35081",
+            "count": 3
+          },
+          {
+            "id": "35082",
+            "count": 2
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/f315fb7f-798b-4b4a-b515-675590b3f258",
+          "externalId": "f315fb7f-798b-4b4a-b515-675590b3f258",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:16:23+00:00",
+          "fetchedAt": "2026-11-13T23:20:35.946Z",
+          "originalTitle": "[NSG Core] Pork Chops"
+        }
+      },
+      "revision": "cf497a01962a22a0a94b2e1b64f51e7b1da333ba1a6a38579a876ba8fca2690d",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 49,
+          "influence": 15,
+          "influenceLimit": 15,
+          "minimumSize": 45,
+          "agenda": 20,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 49,
+      "typeCounts": {
+        "asset": 11,
+        "agenda": 10,
+        "ice": 14,
+        "operation": 12,
+        "upgrade": 2
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 12,
+      "accessibleEconomy": 2,
+      "drawSelection": 6,
+      "ice": 14,
+      "cheapIce": 8,
+      "stoppingIce": 7,
+      "cheapStoppingIce": 4,
+      "openingNoEconomy": 0.22859125148671863,
+      "openingNoAccessibleEconomy": 0.8044217687074829,
+      "firstEightNoCheapIce": 0.2118689404286904,
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        }
+      ],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28",
+      "pool": "core-v1",
+      "poolLabel": "Gateway + Elevation",
+      "name": "[NSG Core] Quick Returns",
+      "side": "corp",
+      "identity": "The Zwicky Group: Invisible Hands",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "[NSG Core] Quick Returns",
+        "side": "corp",
+        "identity": "35069",
+        "pool": "core-v1",
+        "cards": [
+          {
+            "id": "30039",
+            "count": 3
+          },
+          {
+            "id": "30040",
+            "count": 1
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30060",
+            "count": 1
+          },
+          {
+            "id": "30064",
+            "count": 1
+          },
+          {
+            "id": "30066",
+            "count": 2
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30069",
+            "count": 1
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "35055",
+            "count": 2
+          },
+          {
+            "id": "35070",
+            "count": 3
+          },
+          {
+            "id": "35071",
+            "count": 3
+          },
+          {
+            "id": "35073",
+            "count": 3
+          },
+          {
+            "id": "35074",
+            "count": 2
+          },
+          {
+            "id": "35075",
+            "count": 3
+          },
+          {
+            "id": "35076",
+            "count": 3
+          },
+          {
+            "id": "35077",
+            "count": 3
+          },
+          {
+            "id": "35079",
+            "count": 2
+          },
+          {
+            "id": "35081",
+            "count": 3
+          }
+        ],
+        "source": {
+          "provider": "NetrunnerDB v2 public",
+          "url": "https://netrunnerdb.com/en/decklist/1f9d8054-4993-4a09-91ba-4fca5fff3747",
+          "externalId": "1f9d8054-4993-4a09-91ba-4fca5fff3747",
+          "author": "Girometics",
+          "updatedAt": "2026-10-27T10:16:32+00:00",
+          "fetchedAt": "2026-11-13T23:20:36.169Z",
+          "originalTitle": "[NSG Core] Quick Returns"
+        }
+      },
+      "revision": "5261146b1e283fd7b3b2e6dcb77fbfd66260df37f5e17e5feee33ff4bb1052c5",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 48,
+          "influence": 15,
+          "influenceLimit": 15,
+          "minimumSize": 45,
+          "agenda": 20,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 48,
+      "typeCounts": {
+        "ice": 16,
+        "operation": 13,
+        "asset": 6,
+        "agenda": 11,
+        "upgrade": 2
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 12,
+      "accessibleEconomy": 0,
+      "drawSelection": 8,
+      "ice": 16,
+      "cheapIce": 8,
+      "stoppingIce": 10,
+      "cheapStoppingIce": 5,
+      "openingNoEconomy": 0.22016651248843663,
+      "openingNoAccessibleEconomy": 1,
+      "firstEightNoCheapIce": 0.20380254412444518,
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        }
+      ],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "tao-vantage-pilot-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Tāo · Stealth foundation pilot",
+      "side": "runner",
+      "identity": "Tāo Salonga: Telepresence Magician",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Tāo · Stealth foundation pilot",
+        "side": "runner",
+        "identity": "30019",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30020",
+            "count": 3
+          },
+          {
+            "id": "30021",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 2
+          },
+          {
+            "id": "30023",
+            "count": 2
+          },
+          {
+            "id": "30024",
+            "count": 2
+          },
+          {
+            "id": "30025",
+            "count": 3
+          },
+          {
+            "id": "30026",
+            "count": 3
+          },
+          {
+            "id": "30027",
+            "count": 3
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "36004",
+            "count": 3
+          },
+          {
+            "id": "36013",
+            "count": 2
+          },
+          {
+            "id": "36021",
+            "count": 3
+          },
+          {
+            "id": "36024",
+            "count": 2
+          }
+        ]
+      },
+      "revision": "0bc002a85542a075aec027b38bfc079c2860b494eb9abcc4dde9e69bafec6dbb",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 40,
+          "influence": 8,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 0,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 40,
+      "typeCounts": {
+        "event": 15,
+        "hardware": 9,
+        "program": 13,
+        "resource": 3
+      },
+      "breakers": {
+        "Fracter": 3,
+        "Decoder": 3,
+        "Killer": 3,
+        "AI": 0
+      },
+      "economy": 17,
+      "accessibleEconomy": 6,
+      "drawSelection": 5,
+      "ice": 0,
+      "cheapIce": 0,
+      "stoppingIce": 0,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.051137676137676134,
+      "openingNoAccessibleEconomy": 0.4228763176131597,
+      "firstEightNoCheapIce": null,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "weyland-vantage-pilot-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Built to Last · Bad publicity pilot",
+      "side": "corp",
+      "identity": "Weyland Consortium: Built to Last",
+      "purpose": "interaction",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Built to Last · Bad publicity pilot",
+        "side": "corp",
+        "identity": "30059",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30060",
+            "count": 1
+          },
+          {
+            "id": "30061",
+            "count": 2
+          },
+          {
+            "id": "30062",
+            "count": 2
+          },
+          {
+            "id": "30063",
+            "count": 2
+          },
+          {
+            "id": "30064",
+            "count": 1
+          },
+          {
+            "id": "30065",
+            "count": 1
+          },
+          {
+            "id": "30066",
+            "count": 1
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30068",
+            "count": 2
+          },
+          {
+            "id": "30069",
+            "count": 1
+          },
+          {
+            "id": "30070",
+            "count": 3
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "36029",
+            "count": 3
+          },
+          {
+            "id": "36052",
+            "count": 3
+          },
+          {
+            "id": "36063",
+            "count": 3
+          }
+        ]
+      },
+      "revision": "95c21f475beb65e47c3d162e95419bbac944352d33c252eef4a8ba921be325e0",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 40,
+          "influence": 9,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 18,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 40,
+      "typeCounts": {
+        "asset": 8,
+        "agenda": 10,
+        "ice": 16,
+        "operation": 5,
+        "upgrade": 1
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 7,
+      "accessibleEconomy": 3,
+      "drawSelection": 3,
+      "ice": 16,
+      "cheapIce": 9,
+      "stoppingIce": 13,
+      "cheapStoppingIce": 6,
+      "openingNoEconomy": 0.36068862384651856,
+      "openingNoAccessibleEconomy": 0.6624493927125507,
+      "firstEightNoCheapIce": 0.1025779508751645,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "vic-vantage-pilot-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Vic · Central pressure",
+      "side": "runner",
+      "identity": "Virtual Intelligence, P.I.: “You Can Call Me Vic”",
+      "purpose": "interaction",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Vic · Central pressure",
+        "side": "runner",
+        "identity": "36009",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 2
+          },
+          {
+            "id": "30005",
+            "count": 3
+          },
+          {
+            "id": "30011",
+            "count": 3
+          },
+          {
+            "id": "30012",
+            "count": 3
+          },
+          {
+            "id": "30013",
+            "count": 2
+          },
+          {
+            "id": "30014",
+            "count": 2
+          },
+          {
+            "id": "30015",
+            "count": 3
+          },
+          {
+            "id": "30016",
+            "count": 3
+          },
+          {
+            "id": "30017",
+            "count": 2
+          },
+          {
+            "id": "30018",
+            "count": 3
+          },
+          {
+            "id": "30027",
+            "count": 3
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 2
+          },
+          {
+            "id": "36012",
+            "count": 3
+          },
+          {
+            "id": "36013",
+            "count": 2
+          }
+        ]
+      },
+      "revision": "5aebb64020e06d3d5983c3b41261d65f4d41600578c0b5f3b154ea98deecbc9e",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 45,
+          "influence": 15,
+          "influenceLimit": 15,
+          "minimumSize": 45,
+          "agenda": 0,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 45,
+      "typeCounts": {
+        "program": 13,
+        "event": 18,
+        "hardware": 6,
+        "resource": 8
+      },
+      "breakers": {
+        "Fracter": 3,
+        "Decoder": 3,
+        "Killer": 3,
+        "AI": 0
+      },
+      "economy": 14,
+      "accessibleEconomy": 3,
+      "drawSelection": 7,
+      "ice": 0,
+      "cheapIce": 0,
+      "stoppingIce": 0,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.13907079874181405,
+      "openingNoAccessibleEconomy": 0.6962649753347427,
+      "firstEightNoCheapIce": null,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "tao-vantage-stealth-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Tāo · Stealth console",
+      "side": "runner",
+      "identity": "Tāo Salonga: Telepresence Magician",
+      "purpose": "interaction",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Tāo · Stealth console",
+        "side": "runner",
+        "identity": "30019",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30020",
+            "count": 3
+          },
+          {
+            "id": "30021",
+            "count": 3
+          },
+          {
+            "id": "30022",
+            "count": 2
+          },
+          {
+            "id": "30023",
+            "count": 2
+          },
+          {
+            "id": "30025",
+            "count": 3
+          },
+          {
+            "id": "30026",
+            "count": 3
+          },
+          {
+            "id": "30027",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "36004",
+            "count": 3
+          },
+          {
+            "id": "36012",
+            "count": 3
+          },
+          {
+            "id": "36013",
+            "count": 2
+          },
+          {
+            "id": "36020",
+            "count": 2
+          },
+          {
+            "id": "36021",
+            "count": 3
+          },
+          {
+            "id": "36024",
+            "count": 2
+          }
+        ]
+      },
+      "revision": "d25d8c8bba7c01feb323fbfb2686bc8c3cca49f5713293b4c4fe422e5e7e29f1",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 40,
+          "influence": 14,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 0,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 40,
+      "typeCounts": {
+        "event": 15,
+        "hardware": 11,
+        "program": 11,
+        "resource": 3
+      },
+      "breakers": {
+        "Fracter": 3,
+        "Decoder": 3,
+        "Killer": 3,
+        "AI": 0
+      },
+      "economy": 19,
+      "accessibleEconomy": 6,
+      "drawSelection": 5,
+      "ice": 0,
+      "cheapIce": 0,
+      "stoppingIce": 0,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.030925155925155927,
+      "openingNoAccessibleEconomy": 0.4228763176131597,
+      "firstEightNoCheapIce": null,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "weyland-vantage-tools-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Built to Last · Defensive tools",
+      "side": "corp",
+      "identity": "Weyland Consortium: Built to Last",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Built to Last · Defensive tools",
+        "side": "corp",
+        "identity": "30059",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30060",
+            "count": 1
+          },
+          {
+            "id": "30061",
+            "count": 2
+          },
+          {
+            "id": "30062",
+            "count": 1
+          },
+          {
+            "id": "30063",
+            "count": 2
+          },
+          {
+            "id": "30064",
+            "count": 1
+          },
+          {
+            "id": "30065",
+            "count": 1
+          },
+          {
+            "id": "30066",
+            "count": 1
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30068",
+            "count": 2
+          },
+          {
+            "id": "30069",
+            "count": 1
+          },
+          {
+            "id": "30070",
+            "count": 3
+          },
+          {
+            "id": "30071",
+            "count": 2
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 2
+          },
+          {
+            "id": "36029",
+            "count": 2
+          },
+          {
+            "id": "36038",
+            "count": 1
+          },
+          {
+            "id": "36041",
+            "count": 1
+          },
+          {
+            "id": "36050",
+            "count": 1
+          },
+          {
+            "id": "36052",
+            "count": 3
+          },
+          {
+            "id": "36059",
+            "count": 1
+          },
+          {
+            "id": "36063",
+            "count": 3
+          }
+        ]
+      },
+      "revision": "298ab7e03b439d577ae7beccc9a1d8aa83076d3e54d61d89b77568764b405dac",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 40,
+          "influence": 15,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 18,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 40,
+      "typeCounts": {
+        "asset": 8,
+        "agenda": 10,
+        "ice": 16,
+        "operation": 5,
+        "upgrade": 1
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 6,
+      "accessibleEconomy": 2,
+      "drawSelection": 3,
+      "ice": 16,
+      "cheapIce": 9,
+      "stoppingIce": 12,
+      "cheapStoppingIce": 6,
+      "openingNoEconomy": 0.4228763176131597,
+      "openingNoAccessibleEconomy": 0.7628205128205128,
+      "firstEightNoCheapIce": 0.1025779508751645,
+      "hints": [
+        {
+          "kind": "economy",
+          "message": "Few explicitly classified economy copies; verify identity income, discounts and alternate economies."
+        }
+      ],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "jinteki-vantage-pilot-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Restoring Humanity · Ambushes",
+      "side": "corp",
+      "identity": "Jinteki: Restoring Humanity",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Restoring Humanity · Ambushes",
+        "side": "corp",
+        "identity": "30043",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30044",
+            "count": 1
+          },
+          {
+            "id": "30046",
+            "count": 3
+          },
+          {
+            "id": "30048",
+            "count": 3
+          },
+          {
+            "id": "30049",
+            "count": 2
+          },
+          {
+            "id": "30050",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30061",
+            "count": 2
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30068",
+            "count": 2
+          },
+          {
+            "id": "30069",
+            "count": 2
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30074",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "36038",
+            "count": 3
+          },
+          {
+            "id": "36041",
+            "count": 3
+          }
+        ]
+      },
+      "revision": "5c4fd8f3b42c8486d307d3ec7a1f1a76cb8e34e638c3f3fa64ac66e58ddaf951",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 44,
+          "influence": 9,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 18,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 44,
+      "typeCounts": {
+        "agenda": 8,
+        "ice": 15,
+        "operation": 8,
+        "upgrade": 2,
+        "asset": 11
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 9,
+      "accessibleEconomy": 3,
+      "drawSelection": 3,
+      "ice": 15,
+      "cheapIce": 12,
+      "stoppingIce": 9,
+      "cheapStoppingIce": 9,
+      "openingNoEconomy": 0.29892229154849687,
+      "openingNoAccessibleEconomy": 0.690048323769254,
+      "firstEightNoCheapIce": 0.05934742478313544,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "hb-vantage-tempo-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Precision Design · Tempo and recycling",
+      "side": "corp",
+      "identity": "Haas-Bioroid: Precision Design",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Precision Design · Tempo and recycling",
+        "side": "corp",
+        "identity": "30035",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30037",
+            "count": 3
+          },
+          {
+            "id": "30038",
+            "count": 2
+          },
+          {
+            "id": "30039",
+            "count": 2
+          },
+          {
+            "id": "30040",
+            "count": 3
+          },
+          {
+            "id": "30042",
+            "count": 1
+          },
+          {
+            "id": "30048",
+            "count": 1
+          },
+          {
+            "id": "30053",
+            "count": 2
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30068",
+            "count": 2
+          },
+          {
+            "id": "30069",
+            "count": 1
+          },
+          {
+            "id": "30070",
+            "count": 3
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "36030",
+            "count": 1
+          },
+          {
+            "id": "36031",
+            "count": 1
+          },
+          {
+            "id": "36032",
+            "count": 1
+          },
+          {
+            "id": "36042",
+            "count": 1
+          }
+        ]
+      },
+      "revision": "8d869032dba27d8eb0de81975473b5fa3cf1ea3e6f20844d53743217469d220f",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 40,
+          "influence": 6,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 18,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 40,
+      "typeCounts": {
+        "agenda": 10,
+        "asset": 8,
+        "ice": 13,
+        "operation": 8,
+        "upgrade": 1
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 11,
+      "accessibleEconomy": 7,
+      "drawSelection": 5,
+      "ice": 13,
+      "cheapIce": 8,
+      "stoppingIce": 6,
+      "cheapStoppingIce": 3,
+      "openingNoEconomy": 0.1804765291607397,
+      "openingNoAccessibleEconomy": 0.36068862384651856,
+      "firstEightNoCheapIce": 0.136770601166886,
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        }
+      ],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "loup-vantage-tailor-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Loup · Tailored economy",
+      "side": "runner",
+      "identity": "René “Loup” Arcemont: Party Animal",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Loup · Tailored economy",
+        "side": "runner",
+        "identity": "30001",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30002",
+            "count": 3
+          },
+          {
+            "id": "30003",
+            "count": 1
+          },
+          {
+            "id": "30004",
+            "count": 3
+          },
+          {
+            "id": "30005",
+            "count": 3
+          },
+          {
+            "id": "30006",
+            "count": 3
+          },
+          {
+            "id": "30007",
+            "count": 3
+          },
+          {
+            "id": "30008",
+            "count": 3
+          },
+          {
+            "id": "30015",
+            "count": 3
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30031",
+            "count": 1
+          },
+          {
+            "id": "30033",
+            "count": 2
+          },
+          {
+            "id": "30034",
+            "count": 3
+          },
+          {
+            "id": "36003",
+            "count": 1
+          },
+          {
+            "id": "36011",
+            "count": 1
+          },
+          {
+            "id": "36016",
+            "count": 1
+          }
+        ]
+      },
+      "revision": "24622020e77fd3b0166e81db3b38c8d205b2ad99c5b9a52f52000b32d640c48c",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 40,
+          "influence": 9,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 0,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 40,
+      "typeCounts": {
+        "event": 13,
+        "hardware": 3,
+        "program": 18,
+        "resource": 6
+      },
+      "breakers": {
+        "Fracter": 3,
+        "Decoder": 3,
+        "Killer": 3,
+        "AI": 0
+      },
+      "economy": 15,
+      "accessibleEconomy": 9,
+      "drawSelection": 7,
+      "ice": 0,
+      "cheapIce": 0,
+      "stoppingIce": 0,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.0807436991647518,
+      "openingNoAccessibleEconomy": 0.2582202647992122,
+      "firstEightNoCheapIce": null,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "hb-vantage-reallocation-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Precision Design · Reallocation",
+      "side": "corp",
+      "identity": "Haas-Bioroid: Precision Design",
+      "purpose": "interaction",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Precision Design · Reallocation",
+        "side": "corp",
+        "identity": "30035",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30037",
+            "count": 3
+          },
+          {
+            "id": "30038",
+            "count": 2
+          },
+          {
+            "id": "30039",
+            "count": 2
+          },
+          {
+            "id": "30040",
+            "count": 3
+          },
+          {
+            "id": "30048",
+            "count": 1
+          },
+          {
+            "id": "30053",
+            "count": 2
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30068",
+            "count": 2
+          },
+          {
+            "id": "30069",
+            "count": 1
+          },
+          {
+            "id": "30070",
+            "count": 3
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 2
+          },
+          {
+            "id": "36030",
+            "count": 1
+          },
+          {
+            "id": "36031",
+            "count": 1
+          },
+          {
+            "id": "36032",
+            "count": 1
+          },
+          {
+            "id": "36033",
+            "count": 1
+          },
+          {
+            "id": "36034",
+            "count": 1
+          },
+          {
+            "id": "36042",
+            "count": 1
+          }
+        ]
+      },
+      "revision": "353fb001fd9ad22a44c1debc5c7011f5c163c75c94f6ae344916d213808c3431",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 40,
+          "influence": 6,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 18,
+          "agendaMin": 18,
+          "agendaMax": 19
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 40,
+      "typeCounts": {
+        "agenda": 10,
+        "asset": 8,
+        "ice": 13,
+        "operation": 9
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 11,
+      "accessibleEconomy": 7,
+      "drawSelection": 5,
+      "ice": 13,
+      "cheapIce": 8,
+      "stoppingIce": 6,
+      "cheapStoppingIce": 3,
+      "openingNoEconomy": 0.1804765291607397,
+      "openingNoAccessibleEconomy": 0.36068862384651856,
+      "firstEightNoCheapIce": 0.136770601166886,
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        }
+      ],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "loup-full-vp-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Loup · Vantage interactions",
+      "side": "runner",
+      "identity": "René “Loup” Arcemont: Party Animal",
+      "purpose": "interaction",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Loup · Vantage interactions",
+        "side": "runner",
+        "identity": "30001",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30005",
+            "count": 3
+          },
+          {
+            "id": "30006",
+            "count": 3
+          },
+          {
+            "id": "30015",
+            "count": 3
+          },
+          {
+            "id": "30027",
+            "count": 3
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "36001",
+            "count": 3
+          },
+          {
+            "id": "36002",
+            "count": 3
+          },
+          {
+            "id": "36003",
+            "count": 3
+          },
+          {
+            "id": "36004",
+            "count": 3
+          },
+          {
+            "id": "36005",
+            "count": 3
+          },
+          {
+            "id": "36006",
+            "count": 3
+          },
+          {
+            "id": "36007",
+            "count": 3
+          },
+          {
+            "id": "36008",
+            "count": 3
+          }
+        ]
+      },
+      "revision": "c0993b0d6c9903aaa7ef2d9f327f9b5d64003722068adf32cc8b6c960580c19f",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 45,
+          "influence": 12,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 0,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 45,
+      "typeCounts": {
+        "program": 15,
+        "resource": 15,
+        "event": 12,
+        "hardware": 3
+      },
+      "breakers": {
+        "Fracter": 6,
+        "Decoder": 3,
+        "Killer": 3,
+        "AI": 0
+      },
+      "economy": 9,
+      "accessibleEconomy": 6,
+      "drawSelection": 0,
+      "ice": 0,
+      "cheapIce": 0,
+      "stoppingIce": 0,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.3085649461145774,
+      "openingNoAccessibleEconomy": 0.47125251379363686,
+      "firstEightNoCheapIce": null,
+      "hints": [
+        {
+          "kind": "support",
+          "message": "A stealth-dependent ability has no Stealth credit source."
+        }
+      ],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "vic-full-vp-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Vic · Vantage interactions",
+      "side": "runner",
+      "identity": "Virtual Intelligence, P.I.: “You Can Call Me Vic”",
+      "purpose": "interaction",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Vic · Vantage interactions",
+        "side": "runner",
+        "identity": "36009",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30006",
+            "count": 3
+          },
+          {
+            "id": "30015",
+            "count": 3
+          },
+          {
+            "id": "30016",
+            "count": 3
+          },
+          {
+            "id": "30027",
+            "count": 3
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30033",
+            "count": 3
+          },
+          {
+            "id": "36010",
+            "count": 3
+          },
+          {
+            "id": "36011",
+            "count": 3
+          },
+          {
+            "id": "36012",
+            "count": 3
+          },
+          {
+            "id": "36013",
+            "count": 3
+          },
+          {
+            "id": "36014",
+            "count": 3
+          },
+          {
+            "id": "36015",
+            "count": 3
+          },
+          {
+            "id": "36016",
+            "count": 3
+          }
+        ]
+      },
+      "revision": "36ee6e1bf83c6fc0580b0a2d83710e32cee69016db37f1ec80e00714211cd046",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 45,
+          "influence": 12,
+          "influenceLimit": 15,
+          "minimumSize": 45,
+          "agenda": 0,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 45,
+      "typeCounts": {
+        "program": 12,
+        "resource": 9,
+        "event": 18,
+        "hardware": 6
+      },
+      "breakers": {
+        "Fracter": 6,
+        "Decoder": 0,
+        "Killer": 3,
+        "AI": 0
+      },
+      "economy": 15,
+      "accessibleEconomy": 9,
+      "drawSelection": 6,
+      "ice": 0,
+      "cheapIce": 0,
+      "stoppingIce": 0,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.11664002475119889,
+      "openingNoAccessibleEconomy": 0.3085649461145774,
+      "firstEightNoCheapIce": null,
+      "hints": [
+        {
+          "kind": "coverage",
+          "message": "No dedicated Decoder; inspect AI breakers, hosted viruses, bypass and tutors before judging this list."
+        },
+        {
+          "kind": "support",
+          "message": "A stealth-dependent ability has no Stealth credit source."
+        }
+      ],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "hiram-full-vp-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Hiram · Vantage interactions",
+      "side": "runner",
+      "identity": "Hiram “0mission” Svensson: Shadow of the Past",
+      "purpose": "interaction",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Hiram · Vantage interactions",
+        "side": "runner",
+        "identity": "36017",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30005",
+            "count": 3
+          },
+          {
+            "id": "30020",
+            "count": 3
+          },
+          {
+            "id": "30021",
+            "count": 3
+          },
+          {
+            "id": "30025",
+            "count": 3
+          },
+          {
+            "id": "30026",
+            "count": 3
+          },
+          {
+            "id": "30027",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "36018",
+            "count": 3
+          },
+          {
+            "id": "36019",
+            "count": 3
+          },
+          {
+            "id": "36020",
+            "count": 3
+          },
+          {
+            "id": "36021",
+            "count": 3
+          },
+          {
+            "id": "36022",
+            "count": 3
+          },
+          {
+            "id": "36023",
+            "count": 3
+          },
+          {
+            "id": "36024",
+            "count": 3
+          },
+          {
+            "id": "36025",
+            "count": 3
+          }
+        ]
+      },
+      "revision": "e5f560209982419da1f8515b29c413248befcaca9d0f61eedfe82feb6fe6bef8",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 45,
+          "influence": 6,
+          "influenceLimit": 15,
+          "minimumSize": 45,
+          "agenda": 0,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 45,
+      "typeCounts": {
+        "program": 18,
+        "event": 15,
+        "resource": 6,
+        "hardware": 6
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 6,
+        "Killer": 3,
+        "AI": 0
+      },
+      "economy": 21,
+      "accessibleEconomy": 6,
+      "drawSelection": 6,
+      "ice": 0,
+      "cheapIce": 0,
+      "stoppingIce": 0,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.034789185101153336,
+      "openingNoAccessibleEconomy": 0.47125251379363686,
+      "firstEightNoCheapIce": null,
+      "hints": [
+        {
+          "kind": "coverage",
+          "message": "No dedicated Fracter; inspect AI breakers, hosted viruses, bypass and tutors before judging this list."
+        }
+      ],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "hb-full-vp-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Precision Design · Vantage interactions",
+      "side": "corp",
+      "identity": "Haas-Bioroid: Precision Design",
+      "purpose": "interaction",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Precision Design · Vantage interactions",
+        "side": "corp",
+        "identity": "30035",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30042",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 1
+          },
+          {
+            "id": "30070",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "36026",
+            "count": 3
+          },
+          {
+            "id": "36027",
+            "count": 3
+          },
+          {
+            "id": "36028",
+            "count": 3
+          },
+          {
+            "id": "36029",
+            "count": 3
+          },
+          {
+            "id": "36030",
+            "count": 3
+          },
+          {
+            "id": "36031",
+            "count": 3
+          },
+          {
+            "id": "36032",
+            "count": 3
+          },
+          {
+            "id": "36033",
+            "count": 3
+          },
+          {
+            "id": "36034",
+            "count": 3
+          },
+          {
+            "id": "36035",
+            "count": 3
+          },
+          {
+            "id": "36066",
+            "count": 3
+          }
+        ]
+      },
+      "revision": "7ef581c87ad052d0d88fb47e8292626b2866174542e349896cf801d5dcc1d8a6",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 45,
+          "influence": 6,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 20,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 45,
+      "typeCounts": {
+        "upgrade": 5,
+        "asset": 6,
+        "agenda": 10,
+        "operation": 12,
+        "ice": 12
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 9,
+      "accessibleEconomy": 3,
+      "drawSelection": 3,
+      "ice": 12,
+      "cheapIce": 3,
+      "stoppingIce": 9,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.3085649461145774,
+      "openingNoAccessibleEconomy": 0.6962649753347427,
+      "firstEightNoCheapIce": 0.547568710359408,
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        }
+      ],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "melies-full-vp-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Méliès U · Vantage interactions",
+      "side": "corp",
+      "identity": "Méliès U: Only the Brightest",
+      "purpose": "interaction",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Méliès U · Vantage interactions",
+        "side": "corp",
+        "identity": "36036",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30042",
+            "count": 1
+          },
+          {
+            "id": "30049",
+            "count": 3
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30070",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "36037",
+            "count": 3
+          },
+          {
+            "id": "36038",
+            "count": 3
+          },
+          {
+            "id": "36039",
+            "count": 3
+          },
+          {
+            "id": "36040",
+            "count": 3
+          },
+          {
+            "id": "36041",
+            "count": 3
+          },
+          {
+            "id": "36042",
+            "count": 3
+          },
+          {
+            "id": "36043",
+            "count": 3
+          },
+          {
+            "id": "36044",
+            "count": 3
+          },
+          {
+            "id": "36045",
+            "count": 3
+          },
+          {
+            "id": "36066",
+            "count": 3
+          }
+        ]
+      },
+      "revision": "a4aaa52a2cca41c8ae689b561ab712c1e05080a42d874cf0a4045996d61762a6",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 45,
+          "influence": 9,
+          "influenceLimit": 15,
+          "minimumSize": 45,
+          "agenda": 20,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 45,
+      "typeCounts": {
+        "upgrade": 4,
+        "operation": 12,
+        "asset": 6,
+        "agenda": 11,
+        "ice": 12
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 3,
+      "accessibleEconomy": 0,
+      "drawSelection": 6,
+      "ice": 12,
+      "cheapIce": 6,
+      "stoppingIce": 3,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.6962649753347427,
+      "openingNoAccessibleEconomy": 1,
+      "firstEightNoCheapIce": 0.2854225751559841,
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        },
+        {
+          "kind": "economy",
+          "message": "Few explicitly classified economy copies; verify identity income, discounts and alternate economies."
+        }
+      ],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "editorial-full-vp-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Editorial Division · Vantage interactions",
+      "side": "corp",
+      "identity": "Editorial Division: Ad Nihilum",
+      "purpose": "interaction",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Editorial Division · Vantage interactions",
+        "side": "corp",
+        "identity": "36046",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30049",
+            "count": 1
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30070",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "36047",
+            "count": 3
+          },
+          {
+            "id": "36048",
+            "count": 3
+          },
+          {
+            "id": "36049",
+            "count": 3
+          },
+          {
+            "id": "36050",
+            "count": 3
+          },
+          {
+            "id": "36051",
+            "count": 3
+          },
+          {
+            "id": "36052",
+            "count": 3
+          },
+          {
+            "id": "36053",
+            "count": 3
+          },
+          {
+            "id": "36054",
+            "count": 3
+          },
+          {
+            "id": "36055",
+            "count": 3
+          },
+          {
+            "id": "36066",
+            "count": 3
+          }
+        ]
+      },
+      "revision": "e5e0571a2233e444f4f50c1a65c1d0de408df0d0b24849d8dbc2acea7b0c23a5",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 45,
+          "influence": 6,
+          "influenceLimit": 15,
+          "minimumSize": 45,
+          "agenda": 20,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 45,
+      "typeCounts": {
+        "operation": 13,
+        "asset": 9,
+        "agenda": 11,
+        "ice": 9,
+        "upgrade": 3
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 6,
+      "accessibleEconomy": 3,
+      "drawSelection": 6,
+      "ice": 9,
+      "cheapIce": 3,
+      "stoppingIce": 6,
+      "cheapStoppingIce": 3,
+      "openingNoEconomy": 0.47125251379363686,
+      "openingNoAccessibleEconomy": 0.6962649753347427,
+      "firstEightNoCheapIce": 0.547568710359408,
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        },
+        {
+          "kind": "defense",
+          "message": "Low ice density; check whether the alternate win condition and opening defenses compensate."
+        },
+        {
+          "kind": "economy",
+          "message": "Few explicitly classified economy copies; verify identity income, discounts and alternate economies."
+        }
+      ],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "weyland-full-vp-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Built to Last · Vantage interactions",
+      "side": "corp",
+      "identity": "Weyland Consortium: Built to Last",
+      "purpose": "interaction",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Built to Last · Vantage interactions",
+        "side": "corp",
+        "identity": "30059",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30049",
+            "count": 1
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30070",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "36056",
+            "count": 3
+          },
+          {
+            "id": "36057",
+            "count": 3
+          },
+          {
+            "id": "36058",
+            "count": 3
+          },
+          {
+            "id": "36059",
+            "count": 3
+          },
+          {
+            "id": "36060",
+            "count": 3
+          },
+          {
+            "id": "36061",
+            "count": 3
+          },
+          {
+            "id": "36062",
+            "count": 3
+          },
+          {
+            "id": "36063",
+            "count": 3
+          },
+          {
+            "id": "36064",
+            "count": 3
+          },
+          {
+            "id": "36065",
+            "count": 3
+          },
+          {
+            "id": "36066",
+            "count": 3
+          }
+        ]
+      },
+      "revision": "8029b5f9bdeb571591e373ec7d4825ae239ffe7f4c035ea979bfca0b40bd2f38",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 45,
+          "influence": 9,
+          "influenceLimit": 15,
+          "minimumSize": 40,
+          "agenda": 20,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 45,
+      "typeCounts": {
+        "operation": 13,
+        "asset": 6,
+        "agenda": 11,
+        "ice": 9,
+        "upgrade": 6
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 9,
+      "accessibleEconomy": 0,
+      "drawSelection": 6,
+      "ice": 9,
+      "cheapIce": 3,
+      "stoppingIce": 6,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.3085649461145774,
+      "openingNoAccessibleEconomy": 1,
+      "firstEightNoCheapIce": 0.547568710359408,
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        },
+        {
+          "kind": "defense",
+          "message": "Low ice density; check whether the alternate win condition and opening defenses compensate."
+        }
+      ],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "vic-play-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Vic · central pressure",
+      "side": "runner",
+      "identity": "Virtual Intelligence, P.I.: “You Can Call Me Vic”",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Vic · central pressure",
+        "side": "runner",
+        "identity": "36009",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30005",
+            "count": 3
+          },
+          {
+            "id": "30006",
+            "count": 2
+          },
+          {
+            "id": "30011",
+            "count": 3
+          },
+          {
+            "id": "30012",
+            "count": 3
+          },
+          {
+            "id": "30013",
+            "count": 2
+          },
+          {
+            "id": "30014",
+            "count": 2
+          },
+          {
+            "id": "30015",
+            "count": 3
+          },
+          {
+            "id": "30016",
+            "count": 3
+          },
+          {
+            "id": "30017",
+            "count": 2
+          },
+          {
+            "id": "30018",
+            "count": 3
+          },
+          {
+            "id": "30027",
+            "count": 3
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 2
+          },
+          {
+            "id": "36012",
+            "count": 3
+          },
+          {
+            "id": "36013",
+            "count": 2
+          }
+        ]
+      },
+      "revision": "6ad5624bb4fc1ba15cc68a0af3e7051f95c3a78597707b30b4f7dc062369a2b9",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 45,
+          "influence": 13,
+          "influenceLimit": 15,
+          "minimumSize": 45,
+          "agenda": 0,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 45,
+      "typeCounts": {
+        "program": 13,
+        "event": 18,
+        "hardware": 6,
+        "resource": 8
+      },
+      "breakers": {
+        "Fracter": 5,
+        "Decoder": 3,
+        "Killer": 3,
+        "AI": 0
+      },
+      "economy": 14,
+      "accessibleEconomy": 3,
+      "drawSelection": 7,
+      "ice": 0,
+      "cheapIce": 0,
+      "stoppingIce": 0,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.13907079874181405,
+      "openingNoAccessibleEconomy": 0.6962649753347427,
+      "firstEightNoCheapIce": null,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "hiram-play-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Hiram · funded rig",
+      "side": "runner",
+      "identity": "Hiram “0mission” Svensson: Shadow of the Past",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Hiram · funded rig",
+        "side": "runner",
+        "identity": "36017",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30006",
+            "count": 3
+          },
+          {
+            "id": "30020",
+            "count": 3
+          },
+          {
+            "id": "30021",
+            "count": 3
+          },
+          {
+            "id": "30025",
+            "count": 3
+          },
+          {
+            "id": "30026",
+            "count": 3
+          },
+          {
+            "id": "30027",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "36018",
+            "count": 3
+          },
+          {
+            "id": "36019",
+            "count": 3
+          },
+          {
+            "id": "36020",
+            "count": 3
+          },
+          {
+            "id": "36021",
+            "count": 3
+          },
+          {
+            "id": "36022",
+            "count": 3
+          },
+          {
+            "id": "36023",
+            "count": 3
+          },
+          {
+            "id": "36024",
+            "count": 3
+          },
+          {
+            "id": "36025",
+            "count": 3
+          }
+        ]
+      },
+      "revision": "fe33c16059b0364423e77c3d41b51e74152984afc01021f2b9e6a8f65caf78c0",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 45,
+          "influence": 9,
+          "influenceLimit": 15,
+          "minimumSize": 45,
+          "agenda": 0,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 45,
+      "typeCounts": {
+        "program": 18,
+        "event": 15,
+        "resource": 6,
+        "hardware": 6
+      },
+      "breakers": {
+        "Fracter": 3,
+        "Decoder": 3,
+        "Killer": 3,
+        "AI": 0
+      },
+      "economy": 21,
+      "accessibleEconomy": 6,
+      "drawSelection": 6,
+      "ice": 0,
+      "cheapIce": 0,
+      "stoppingIce": 0,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.034789185101153336,
+      "openingNoAccessibleEconomy": 0.47125251379363686,
+      "firstEightNoCheapIce": null,
+      "hints": [],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "melies-play-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Méliès U · campaign control",
+      "side": "corp",
+      "identity": "Méliès U: Only the Brightest",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Méliès U · campaign control",
+        "side": "corp",
+        "identity": "36036",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30037",
+            "count": 3
+          },
+          {
+            "id": "30042",
+            "count": 1
+          },
+          {
+            "id": "30048",
+            "count": 3
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30070",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "36037",
+            "count": 3
+          },
+          {
+            "id": "36039",
+            "count": 3
+          },
+          {
+            "id": "36040",
+            "count": 3
+          },
+          {
+            "id": "36041",
+            "count": 3
+          },
+          {
+            "id": "36042",
+            "count": 3
+          },
+          {
+            "id": "36043",
+            "count": 3
+          },
+          {
+            "id": "36044",
+            "count": 3
+          },
+          {
+            "id": "36045",
+            "count": 3
+          },
+          {
+            "id": "36066",
+            "count": 3
+          }
+        ]
+      },
+      "revision": "9e18ef1fac7abbe84f30b819e21a55704e3e15a6d7160f4a7bd832741ac484e8",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 45,
+          "influence": 15,
+          "influenceLimit": 15,
+          "minimumSize": 45,
+          "agenda": 20,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 45,
+      "typeCounts": {
+        "asset": 6,
+        "upgrade": 4,
+        "operation": 12,
+        "agenda": 11,
+        "ice": 12
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 9,
+      "accessibleEconomy": 3,
+      "drawSelection": 9,
+      "ice": 12,
+      "cheapIce": 6,
+      "stoppingIce": 3,
+      "cheapStoppingIce": 0,
+      "openingNoEconomy": 0.3085649461145774,
+      "openingNoAccessibleEconomy": 0.6962649753347427,
+      "firstEightNoCheapIce": 0.2854225751559841,
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        }
+      ],
+      "missingHighResolutionArt": []
+    },
+    {
+      "id": "editorial-play-v1",
+      "pool": "vantage-preview-v1",
+      "poolLabel": "Gateway + Elevation + Vantage",
+      "name": "Editorial · campaigns & tags",
+      "side": "corp",
+      "identity": "Editorial Division: Ad Nihilum",
+      "purpose": "play",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Editorial · campaigns & tags",
+        "side": "corp",
+        "identity": "36046",
+        "pool": "vantage-preview-v1",
+        "cards": [
+          {
+            "id": "30037",
+            "count": 3
+          },
+          {
+            "id": "30049",
+            "count": 1
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30070",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          },
+          {
+            "id": "36047",
+            "count": 3
+          },
+          {
+            "id": "36048",
+            "count": 3
+          },
+          {
+            "id": "36049",
+            "count": 3
+          },
+          {
+            "id": "36050",
+            "count": 3
+          },
+          {
+            "id": "36051",
+            "count": 3
+          },
+          {
+            "id": "36052",
+            "count": 3
+          },
+          {
+            "id": "36053",
+            "count": 3
+          },
+          {
+            "id": "36054",
+            "count": 3
+          },
+          {
+            "id": "36066",
+            "count": 3
+          }
+        ]
+      },
+      "revision": "8b56f135e1c3bf3131f6f177b7275cf8a87a1a7625b6376533221575303b9122",
+      "validation": {
+        "valid": true,
+        "legal": true,
+        "implemented": true,
+        "totals": {
+          "size": 45,
+          "influence": 12,
+          "influenceLimit": 15,
+          "minimumSize": 45,
+          "agenda": 20,
+          "agendaMin": 20,
+          "agendaMax": 21
+        },
+        "errors": [],
+        "support": []
+      },
+      "size": 45,
+      "typeCounts": {
+        "asset": 12,
+        "operation": 13,
+        "agenda": 11,
+        "ice": 9
+      },
+      "breakers": {
+        "Fracter": 0,
+        "Decoder": 0,
+        "Killer": 0,
+        "AI": 0
+      },
+      "economy": 9,
+      "accessibleEconomy": 6,
+      "drawSelection": 9,
+      "ice": 9,
+      "cheapIce": 3,
+      "stoppingIce": 6,
+      "cheapStoppingIce": 3,
+      "openingNoEconomy": 0.3085649461145774,
+      "openingNoAccessibleEconomy": 0.47125251379363686,
+      "firstEightNoCheapIce": 0.547568710359408,
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        },
+        {
+          "kind": "defense",
+          "message": "Low ice density; check whether the alternate win condition and opening defenses compensate."
+        }
+      ],
+      "missingHighResolutionArt": []
+    }
+  ],
+  "aliases": [
+    {
+      "id": "nrdb-074c32b0-6429-49ec-91c1-46dcddba9e4b-fad58f268be2",
+      "canonical": "phoenix-core-v1",
+      "valid": true
+    },
+    {
+      "id": "nrdb-b441510e-00e7-42b7-a559-a7eba52b31a4-d4a262e57b5b",
+      "canonical": "precision-design-core-v1",
+      "valid": true
+    }
+  ],
+  "archived": [
+    {
+      "id": "precision-design-v1",
+      "side": "corp",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Haas-Bioroid: Precision Design",
+        "side": "corp",
+        "identity": "30035",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30036",
+            "count": 1
+          },
+          {
+            "id": "30037",
+            "count": 3
+          },
+          {
+            "id": "30038",
+            "count": 3
+          },
+          {
+            "id": "30039",
+            "count": 3
+          },
+          {
+            "id": "30040",
+            "count": 3
+          },
+          {
+            "id": "30042",
+            "count": 2
+          },
+          {
+            "id": "30048",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 2
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30068",
+            "count": 2
+          },
+          {
+            "id": "30069",
+            "count": 1
+          },
+          {
+            "id": "30070",
+            "count": 3
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          }
+        ]
+      },
+      "valid": true,
+      "errors": []
+    },
+    {
+      "id": "restoring-humanity-v1",
+      "side": "corp",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Jinteki: Restoring Humanity",
+        "side": "corp",
+        "identity": "30043",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30044",
+            "count": 1
+          },
+          {
+            "id": "30045",
+            "count": 3
+          },
+          {
+            "id": "30046",
+            "count": 3
+          },
+          {
+            "id": "30047",
+            "count": 3
+          },
+          {
+            "id": "30048",
+            "count": 3
+          },
+          {
+            "id": "30049",
+            "count": 2
+          },
+          {
+            "id": "30050",
+            "count": 2
+          },
+          {
+            "id": "30053",
+            "count": 2
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30068",
+            "count": 2
+          },
+          {
+            "id": "30069",
+            "count": 1
+          },
+          {
+            "id": "30070",
+            "count": 3
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 2
+          },
+          {
+            "id": "30074",
+            "count": 1
+          },
+          {
+            "id": "30075",
+            "count": 3
+          }
+        ]
+      },
+      "valid": true,
+      "errors": []
+    },
+    {
+      "id": "reality-plus-v1",
+      "side": "corp",
+      "document": {
+        "schemaVersion": 1,
+        "name": "NBN: Reality Plus",
+        "side": "corp",
+        "identity": "30051",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30052",
+            "count": 1
+          },
+          {
+            "id": "30053",
+            "count": 3
+          },
+          {
+            "id": "30054",
+            "count": 3
+          },
+          {
+            "id": "30055",
+            "count": 3
+          },
+          {
+            "id": "30056",
+            "count": 3
+          },
+          {
+            "id": "30057",
+            "count": 2
+          },
+          {
+            "id": "30058",
+            "count": 2
+          },
+          {
+            "id": "30065",
+            "count": 3
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30068",
+            "count": 2
+          },
+          {
+            "id": "30069",
+            "count": 1
+          },
+          {
+            "id": "30070",
+            "count": 3
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30073",
+            "count": 2
+          },
+          {
+            "id": "30075",
+            "count": 3
+          }
+        ]
+      },
+      "valid": true,
+      "errors": []
+    },
+    {
+      "id": "zahya-v1",
+      "side": "runner",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Zahya Sadeghi",
+        "side": "runner",
+        "identity": "30010",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30004",
+            "count": 2
+          },
+          {
+            "id": "30005",
+            "count": 3
+          },
+          {
+            "id": "30011",
+            "count": 3
+          },
+          {
+            "id": "30012",
+            "count": 3
+          },
+          {
+            "id": "30013",
+            "count": 2
+          },
+          {
+            "id": "30014",
+            "count": 2
+          },
+          {
+            "id": "30015",
+            "count": 3
+          },
+          {
+            "id": "30016",
+            "count": 3
+          },
+          {
+            "id": "30017",
+            "count": 2
+          },
+          {
+            "id": "30018",
+            "count": 3
+          },
+          {
+            "id": "30027",
+            "count": 3
+          },
+          {
+            "id": "30028",
+            "count": 3
+          },
+          {
+            "id": "30029",
+            "count": 3
+          },
+          {
+            "id": "30030",
+            "count": 3
+          },
+          {
+            "id": "30034",
+            "count": 2
+          }
+        ]
+      },
+      "valid": true,
+      "errors": []
+    },
+    {
+      "id": "built-to-last-v1",
+      "side": "corp",
+      "document": {
+        "schemaVersion": 1,
+        "name": "Weyland Consortium: Built to Last",
+        "side": "corp",
+        "identity": "30059",
+        "pool": "gateway-v1",
+        "cards": [
+          {
+            "id": "30053",
+            "count": 2
+          },
+          {
+            "id": "30060",
+            "count": 1
+          },
+          {
+            "id": "30061",
+            "count": 3
+          },
+          {
+            "id": "30062",
+            "count": 3
+          },
+          {
+            "id": "30063",
+            "count": 3
+          },
+          {
+            "id": "30064",
+            "count": 3
+          },
+          {
+            "id": "30065",
+            "count": 2
+          },
+          {
+            "id": "30066",
+            "count": 2
+          },
+          {
+            "id": "30067",
+            "count": 3
+          },
+          {
+            "id": "30068",
+            "count": 2
+          },
+          {
+            "id": "30069",
+            "count": 1
+          },
+          {
+            "id": "30070",
+            "count": 3
+          },
+          {
+            "id": "30071",
+            "count": 3
+          },
+          {
+            "id": "30072",
+            "count": 3
+          },
+          {
+            "id": "30074",
+            "count": 3
+          },
+          {
+            "id": "30075",
+            "count": 3
+          }
+        ]
+      },
+      "valid": true,
+      "errors": []
+    }
+  ],
+  "definitions": {
+    "economy": [
+      30002,
+      30007,
+      30014,
+      30018,
+      30020,
+      30027,
+      30029,
+      30030,
+      30033,
+      30037,
+      30048,
+      30056,
+      30064,
+      30071,
+      30075,
+      35011,
+      35014,
+      35017,
+      35022,
+      35033,
+      35034,
+      35039,
+      35040,
+      35055,
+      35061,
+      35062,
+      35072,
+      35077,
+      35081,
+      36011,
+      36018,
+      36020,
+      36021,
+      36024,
+      36032,
+      36033,
+      36057,
+      36063
+    ],
+    "accessibleEconomy": [
+      30002,
+      30007,
+      30020,
+      30027,
+      30033,
+      30037,
+      30056,
+      30071,
+      35011,
+      35022,
+      35034,
+      35039,
+      35040,
+      35062,
+      36011,
+      36032
+    ],
+    "drawSelection": [
+      30002,
+      30011,
+      30021,
+      30034,
+      30037,
+      30041,
+      30053,
+      30056,
+      35007,
+      35015,
+      35026,
+      35033,
+      35034,
+      35039,
+      35044,
+      35055,
+      35072,
+      35077,
+      36011,
+      36013,
+      36022,
+      36043,
+      36057
+    ],
+    "notes": "Static economy/draw roles are curated screening labels, not guaranteed payouts. Exact hypergeometric opening probabilities ignore mulligans, extra draws and identity effects. Printed end-the-run text includes conditional stopping ice; virus, AI, tutor and bypass strategies require manual review. AI benchmarks screen implementation and policy behavior, not human fun or competitive strength."
+  }
+}

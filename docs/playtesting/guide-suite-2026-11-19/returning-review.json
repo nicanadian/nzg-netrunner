@@ -1,0 +1,128 @@
+{
+  "reviewer": "Fresh AI reviewer #5 — returning player",
+  "date": "2026-11-19",
+  "origin": "http://localhost:5173",
+  "pool": "core-v1",
+  "deckName": "Suite Returning 19Nov",
+  "status": "completed",
+  "caveats": [
+    "DOM-only review: preview_snapshot timed out; no screenshot or visual-layout claim.",
+    "Shared incognito profile contains others' libraries and separate pool saves. No others' decks were edited or deleted. The core save existed initially and was replaced only by requested normal Jack in actions.",
+    "No full game requested or played. Two legal Gain 1 credit actions plus Keep hand were performed; public UI calls these turn 1 while engine checkpoint turn is 2.",
+    "Session configuration read only after action checkpoints, for final snapshot evidence; no hidden card strategy inspection."
+  ],
+  "tasks": [
+    {
+      "id": "R1",
+      "status": "completed",
+      "steps": [
+        "Choose Gateway + Elevation via card-pool select.",
+        "Open guide and read Core matchup section and interpretation caveats.",
+        "Tune Phoenix Dashing Mad, name Suite Returning 19Nov, remove 1 Charm Offensive and add 1 Leech.",
+        "Confirm Ready to play, 45 cards and 17/17 influence; Save & use this deck.",
+        "Reload page, reopen My decks & imports and own Edit; verify Leech 3 / Charm Offensive 1.",
+        "Separately inspect Dashing Mad baseline later without saving; baseline has Leech 2 / Charm Offensive 2; custom option has My deck label."
+      ],
+      "guideHelp": "Explains six-game Elevation results are preliminary, Runner-win orientation, and that custom lists are unbenchmarked. It does not teach library persistence or identify my custom deck.",
+      "priorKnowledge": "Selected a small same-faction swap to keep deck size and influence legal; this is returning-player knowledge rather than guide instruction.",
+      "builderHelp": "Ready to play, counts, influence, Changes delta, Save & use, My deck labels, separate ready-made vs My decks library.",
+      "evidence": [
+        "returning-ui-trace.json: R1 first legal edit, R1 reload, R1 library, baseline separately inspected",
+        "returning-original-deck.json"
+      ],
+      "severity": "P2 naming/discoverability; P3 baseline comparison",
+      "improvement": "Use exact bundled title Dashing Mad beside Phoenix in guide. Retain an explicit based-on baseline and cumulative comparison after a saved deck is reopened.",
+      "acceptanceTest": "From Core guide choose Phoenix Dashing Mad, find same exact title in lobby, save and reload custom copy; My deck badge plus a Compare to Dashing Mad view shows +1 Leech/-1 Charm Offensive."
+    },
+    {
+      "id": "R2",
+      "status": "completed",
+      "steps": [
+        "Jack in with own selected custom deck vs Brutal Efficiency.",
+        "Keep hand; use Skip to decision for opponent animation.",
+        "Gain 1 credit twice, leaving 7 credits and 2 clicks.",
+        "Capture original checkpoint and exact deck.",
+        "Menu > Change decks for a new game… returns lobby.",
+        "Tune own custom deck, remove 1 Scrounge and add 1 Smartware Distributor; Save & use."
+      ],
+      "guideHelp": "No direct help on game-save navigation. Guide offers matchup context and warns custom lists are not benchmarked.",
+      "priorKnowledge": "Menu is a plausible place to look for returning to deck selection; low-risk click-for-credit actions chosen from rendered UI.",
+      "builderHelp": "Menu states game saves after each decision; lobby says deck changes apply to a new game and Resume restores saved matchup. These messages were sufficient.",
+      "evidence": [
+        "returning-checkpoints.json: R2-original-after-two-credit-actions",
+        "returning-ui-trace.json: R2 checkpoint public UI, R2 return lobby, R2 later edit for future game"
+      ],
+      "severity": "P3 documentation opportunity; no persistence defect observed",
+      "improvement": "Add concise returning-player guide section: Menu > Change decks, edit and save for future games, Resume keeps snapshot, Jack in replaces saved game.",
+      "acceptanceTest": "From an active game return through normal menu, edit library deck, and confirm Resume still restores original choices/version/doc while future lobby selection shows edited counts."
+    },
+    {
+      "id": "R3",
+      "status": "completed",
+      "steps": [
+        "Click Resume saved game after saving later library edit.",
+        "Capture checkpoint; inspect Menu > View matchup decks: original Smartware 2 / Scrounge 2.",
+        "Confirm session and public checkpoint match original (version 41, turn 2, 0–0, diagnostics []).",
+        "Menu > Change decks, View decks in lobby: revised Smartware 3 / Scrounge 1.",
+        "Close loadout and Jack in fresh.",
+        "Capture new game opening checkpoint (version 2, turn 1, new seed, no human choices); inspect View matchup decks to confirm revised counts."
+      ],
+      "guideHelp": "Guide supplies no Resume/fresh-game instruction or revision labels. Its custom-deck caveat prevents treating baseline benchmark as proof for revised list.",
+      "priorKnowledge": "Used explicit lobby text to choose Resume versus Jack in; no implementation knowledge needed.",
+      "builderHelp": "Lobby persistence explanation plus in-game View matchup decks makes the exact snapshot inspectable.",
+      "evidence": [
+        "returning-checkpoints.json: R3-resumed-after-later-library-edit and R3-fresh-game-revised-list-opening-hand",
+        "returning-original-deck.json",
+        "returning-revised-deck.json",
+        "returning-ui-trace.json: R3 resumed matchup decks and R3 fresh matchup exact list"
+      ],
+      "severity": "P3 snapshot labeling; no persistence defect observed",
+      "improvement": "Label in-game list as game-start snapshot and future lobby list as current library revision, with count/date or revision indicator when names are identical.",
+      "acceptanceTest": "Save library edit under same name, Resume and see explicit snapshot label with old counts, then Jack in and see revised counts/new game. Replay validator reproduces both captured prefixes."
+    }
+  ],
+  "findings": [
+    {
+      "id": "RET-1",
+      "severity": "P2",
+      "title": "Guide omits exact Phoenix and Precision Design list names",
+      "evidence": "Core guide selector shows Ryō Phoenix identity while lobby/library names Dashing Mad; Corp bar shows Haas-Bioroid Precision Design while lobby selected list is Brutal Efficiency. Guide advises exact bundled names.",
+      "impact": "Returning player cannot follow the exact-list caveat by name for these two baseline entries; same identities can contain alternate/custom lists.",
+      "acceptanceTest": "All Core guide rows/options expose exact bundled list titles used by lobby, including Dashing Mad and Brutal Efficiency."
+    },
+    {
+      "id": "RET-2",
+      "severity": "P3",
+      "title": "Returning workflow learned from lobby/menu, absent from guide",
+      "evidence": "Guide is pairing and benchmark-focused; its Custom decks have not been benchmarked caveat is useful but no library/Resume steps are present.",
+      "impact": "Task succeeds thanks to lobby/menu copy; guide does not serve returning custom-deck workflow.",
+      "acceptanceTest": "A short guide passage explains saving, returning from game, Resume snapshot, and fresh Jack in replacing save."
+    },
+    {
+      "id": "RET-3",
+      "severity": "P3",
+      "title": "Saved custom baseline/delta is not persistent in builder presentation",
+      "evidence": "Reopened Suite Returning editor says No card changes yet after +Leech/-Charm was saved. Original source remains reachable but comparison requires separately opening baseline.",
+      "impact": "Name and My deck distinguish custom, but user must remember or manually compare exact card differences.",
+      "acceptanceTest": "Reopened custom list displays based-on Dashing Mad and a cumulative baseline delta without editing baseline."
+    }
+  ],
+  "snapshotComparison": {
+    "originalEqualsResume": true,
+    "originalFinalEqualsResume": true,
+    "freshHasNewSeed": true,
+    "originalCounts": {
+      "Leech": 3,
+      "CharmOffensive": 1,
+      "SmartwareDistributor": 2,
+      "Scrounge": 2
+    },
+    "revisedCounts": {
+      "Leech": 3,
+      "CharmOffensive": 1,
+      "SmartwareDistributor": 3,
+      "Scrounge": 1
+    }
+  },
+  "validation": "Both exact deck documents passed CLI validate: valid/legal/implemented true, size45 influence17/17, errors []. Core rules/AI audit remains pending (aiCertified false). Captured replay prefixes supplied for parent-suite deterministic validation."
+}

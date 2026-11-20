@@ -1,7 +1,7 @@
 'use strict';
 const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto'),os=require('node:os');
 const {Worker}=require('node:worker_threads');
-const documents=require('../deck-document.js');
+const {forPool}=require('../deck-profiles.cjs');
 const hash=x=>crypto.createHash('sha256').update(typeof x==='string'?x:JSON.stringify(x)).digest('hex');
 function fingerprint(root=path.resolve(__dirname,'../..')){
  const files=[];
@@ -41,16 +41,20 @@ function summarize(results){
  const complete=results.filter(r=>r.status==='completed'),wins={corp:0,runner:0};for(const r of complete)wins[r.terminal.winner]++;
  const n=complete.length,p=n?wins.runner/n:0,z=1.96,den=1+z*z/(n||1),center=(p+z*z/(2*(n||1)))/den,half=z*Math.sqrt(p*(1-p)/(n||1)+z*z/(4*(n||1)**2))/den;
  const times=results.map(r=>r.elapsedMs||0).sort((a,b)=>a-b);
- return {jobs:results.length,statuses:results.reduce((a,r)=>(a[r.status]=(a[r.status]||0)+1,a),{}),wins,runnerWinRate:n?p:null,runnerWilson95:n?[Math.max(0,center-half),Math.min(1,center+half)]:null,p50Ms:times[Math.floor(times.length*.5)]||0,p95Ms:times[Math.min(times.length-1,Math.floor(times.length*.95))]||0,policyNotice:'Legacy native policies; hidden-information behavior and Elevation AI coverage are not certified. Results describe these policies.'};
+ const aiTotals={runner:{},corp:{}};for(const r of complete)for(const side of ['runner','corp'])for(const [key,value]of Object.entries(r.aiAudit?.totals[side]||{}))aiTotals[side][key]=(aiTotals[side][key]||0)+value;
+ const aiSummary={totals:aiTotals,averageRunnerRuns:n?(aiTotals.runner.runs||0)/n:null,lowPressureGames:complete.filter(r=>(r.aiAudit?.totals.runner.runs??Infinity)<=1).length};
+ return {jobs:results.length,statuses:results.reduce((a,r)=>(a[r.status]=(a[r.status]||0)+1,a),{}),wins,runnerWinRate:n?p:null,runnerWilson95:n?[Math.max(0,center-half),Math.min(1,center+half)]:null,p50Ms:times[Math.floor(times.length*.5)]||0,p95Ms:times[Math.min(times.length-1,Math.floor(times.length*.95))]||0,aiSummary,policyNotice:'Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.'};
 }
-async function runBatch({runner,corp,games=1,workers=1,seed='1',out,wallMs=60000,decisions=100000,mode='fast',traceEvery=100,onProgress=()=>{}}){
+async function runBatch({runner,corp,games=1,workers=1,seed='1',out,wallMs=60000,decisions=100000,mode='fast',aiPolicy='native-v1',traceEvery=100,onProgress=()=>{}}){
+ const profile=forPool(runner.pool),documents=profile.documents;
  for(const [side,deck]of Object.entries({runner,corp})){const v=documents.validate(deck);if(!v.valid||deck.side!==side)throw Error(`${side}: ${[...v.errors,...v.support].map(e=>e.message).join('; ')||'wrong side'}`);}
  if(runner.pool!==corp.pool)throw Error('Deck pools must match.');
  if(!Number.isInteger(games)||games<1||games>1000000)throw Error('Games must be an integer from 1 to 1000000.');
  if(!Number.isInteger(workers)||workers<1||workers>64)throw Error('Workers must be an integer from 1 to 64.');
  for(const [label,n]of Object.entries({wallMs,decisions,traceEvery}))if(!Number.isSafeInteger(n)||n<1)throw Error(`${label} must be a positive integer.`);
  if(!['fast','reference'].includes(mode))throw Error('Mode must be fast or reference.');
- const spec={schemaVersion:1,rulesVersion:runner.pool==='core-v1'?'26.03-core-2':'26.03-local-2',engineHash:fingerprint(),policy:'chiriboga-native-unaudited-v1',runner:documents.normalize(runner),corp:documents.normalize(corp),runnerHash:await documents.revision(runner),corpHash:await documents.revision(corp),games,seed:String(seed),limits:{wallMs,decisions},mode,traceEvery};
+ if(!['native-v1','pressure-v1'].includes(aiPolicy))throw Error('Unsupported AI policy: '+aiPolicy);
+ const spec={schemaVersion:1,rulesVersion:profile.rulesVersion,engineHash:fingerprint(),policy:aiPolicy,aiPolicy,runner:documents.normalize(runner),corp:documents.normalize(corp),runnerHash:await documents.revision(runner),corpHash:await documents.revision(corp),games,seed:String(seed),limits:{wallMs,decisions},mode,traceEvery};
  const experimentHash=hash(spec);out=path.resolve(out);
  const sourceRoot=path.resolve(__dirname,'../..');
  if(out===sourceRoot||['engine','vendor'].some(dir=>out===path.join(sourceRoot,dir)||out.startsWith(path.join(sourceRoot,dir)+path.sep)))throw Error('Results must not overwrite engine source directories.');
@@ -63,7 +67,7 @@ async function runBatch({runner,corp,games=1,workers=1,seed='1',out,wallMs=60000
  const results=[],queue=[];let finished=0;
  for(let i=0;i<games;i++){
   const id=hash(experimentHash+':'+i).slice(0,24),file=path.join(out,'jobs',id+'.json');
-  const job={id,index:i,seed:`${seed}:${i}`,runner:spec.runner,corp:spec.corp,limits:spec.limits,mode,rulesVersion:spec.rulesVersion};
+  const job={id,index:i,seed:`${seed}:${i}`,runner:spec.runner,corp:spec.corp,limits:spec.limits,mode,aiPolicy,rulesVersion:spec.rulesVersion};
   if(fs.existsSync(file)){const result=JSON.parse(fs.readFileSync(file));if(result.jobId!==id||result.seed!==job.seed)throw Error('Corrupt resumed job '+id);results.push(result);finished++;}else queue.push(job);
  }
  await Promise.all(Array.from({length:Math.min(workers,queue.length)},async()=>{

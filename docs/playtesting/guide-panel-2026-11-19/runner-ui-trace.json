@@ -1,0 +1,1345 @@
+{
+  "opening": "Kept Sure Gamble,Overclock,Cleaver,Jailbreak,Cleaver via actual Keep button",
+  "choices": [
+    {
+      "version": 8,
+      "turn": 1,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "4"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 37,
+      "turn": 2,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Play1 clickCost shown when choosing a card3 choices ›",
+      "data": {
+        "command": "play",
+        "group": "",
+        "relatedCards": "c77 c72 c69",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 37,
+      "turn": 2,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Sure Gamble1 click · 5 credits",
+      "data": {
+        "command": "play",
+        "option": "0",
+        "relatedCards": "c77",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 40,
+      "turn": 2,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Install1 click2 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c58 c59",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 40,
+      "turn": 2,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Install Cleaver into program row1 click · 3 credits",
+      "data": {
+        "command": "install",
+        "option": "0",
+        "relatedCards": "c58",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 43,
+      "turn": 2,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Draw a card1 click→",
+      "data": {
+        "command": "draw",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 45,
+      "turn": 2,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Install1 click2 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c59 c63",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 45,
+      "turn": 2,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Install Leech into program row1 click · 1 credit",
+      "data": {
+        "command": "install",
+        "option": "1",
+        "relatedCards": "c63",
+        "vantageProbe": "13"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 60,
+      "turn": 3,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 63,
+      "turn": 3,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 66,
+      "turn": 3,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "9"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 70,
+      "turn": 3,
+      "phase": {
+        "identifier": "Corp 2.2*",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 79,
+      "turn": 3,
+      "phase": {
+        "identifier": "Corp 3.3",
+        "source": null,
+        "title": "Corporation's Discard Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 85,
+      "turn": 4,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Draw a card1 click→",
+      "data": {
+        "command": "draw",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 87,
+      "turn": 4,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Install1 click2 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c59 c85",
+        "vantageProbe": "13"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 87,
+      "turn": 4,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Install The Tungsten Tailor into hardware row1 click · 3 credits",
+      "data": {
+        "command": "install",
+        "option": "1",
+        "relatedCards": "c85",
+        "vantageProbe": "15"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 90,
+      "turn": 4,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Draw a card1 click→",
+      "data": {
+        "command": "draw",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "12"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 92,
+      "turn": 4,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Play1 clickCost shown when choosing a card2 choices ›",
+      "data": {
+        "command": "play",
+        "group": "",
+        "relatedCards": "c72 c69",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 92,
+      "turn": 4,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Overclock1 click · 1 credit",
+      "data": {
+        "command": "play",
+        "option": "0",
+        "relatedCards": "c72",
+        "vantageProbe": "13"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 93,
+      "turn": 4,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": "Overclock",
+        "title": "Playing Overclock"
+      },
+      "text": "HQ1 click · 1 credit",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "relatedCards": "c72",
+        "vantageProbe": "13"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 98,
+      "turn": 4,
+      "phase": {
+        "identifier": "Run 2.1",
+        "source": null,
+        "title": "Run: Approach Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "13"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 100,
+      "turn": 4,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Cleaver · +1 strength.2 credits→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c58",
+        "sourceId": "c58",
+        "vantageProbe": "12"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 102,
+      "turn": 4,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 2,
+          "sourceId": "c58",
+          "total": 2
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from Overclock",
+      "data": {
+        "paySource": "credit-source-1",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 103,
+      "turn": 4,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Cleaver · +1 strength.2 credits→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c58",
+        "sourceId": "c58",
+        "vantageProbe": "12"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 105,
+      "turn": 4,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 2,
+          "sourceId": "c58",
+          "total": 2
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from Overclock",
+      "data": {
+        "paySource": "credit-source-1",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 106,
+      "turn": 4,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Cleaver · +1 strength.2 credits→",
+      "data": {
+        "abilityKind": "boost",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c58",
+        "sourceId": "c58",
+        "vantageProbe": "12"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 108,
+      "turn": 4,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 2,
+          "sourceId": "c58",
+          "total": 2
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from Overclock",
+      "data": {
+        "paySource": "credit-source-1",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 109,
+      "turn": 4,
+      "phase": {
+        "guide": {
+          "doing": "using",
+          "kind": "credit-payment",
+          "remaining": 1,
+          "sourceId": "c58",
+          "total": 2
+        },
+        "identifier": "Pay credits",
+        "source": null,
+        "title": "Choose credit sources"
+      },
+      "text": "Confirm from credit pool",
+      "data": {
+        "paySource": "credit-source-0",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 110,
+      "turn": 4,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "13"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 121,
+      "turn": 4,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "10"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 126,
+      "turn": 4,
+      "phase": {
+        "identifier": "Run 2.1",
+        "source": null,
+        "title": "Run: Approach Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "13"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 175,
+      "turn": 6,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Draw a card1 click→",
+      "data": {
+        "command": "draw",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "13"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 177,
+      "turn": 6,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Draw a card1 click→",
+      "data": {
+        "command": "draw",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "13"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 179,
+      "turn": 6,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Play1 click · 0 credits2 choices ›",
+      "data": {
+        "command": "play",
+        "group": "",
+        "relatedCards": "c69 c71",
+        "vantageProbe": "15"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 179,
+      "turn": 6,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Jailbreak1 click · 0 credits",
+      "data": {
+        "command": "play",
+        "option": "0",
+        "relatedCards": "c69",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 180,
+      "turn": 6,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": "Jailbreak",
+        "title": "Playing Jailbreak"
+      },
+      "text": "HQ1 click · 0 credits",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "relatedCards": "c69",
+        "vantageProbe": "13"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 185,
+      "turn": 6,
+      "phase": {
+        "identifier": "Run 2.1",
+        "source": null,
+        "title": "Run: Approach Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 197,
+      "turn": 6,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 202,
+      "turn": 6,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 213,
+      "turn": 6,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "11"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 218,
+      "turn": 6,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 228,
+      "turn": 6,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Draw a card1 click→",
+      "data": {
+        "command": "draw",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "13"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 242,
+      "turn": 7,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "12"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 268,
+      "turn": 8,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Draw a card1 click→",
+      "data": {
+        "command": "draw",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "16"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 270,
+      "turn": 8,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Draw a card1 click→",
+      "data": {
+        "command": "draw",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "16"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 272,
+      "turn": 8,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Play1 click · 0 credits2 choices ›",
+      "data": {
+        "command": "play",
+        "group": "",
+        "relatedCards": "c71 c70",
+        "vantageProbe": "18"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 272,
+      "turn": 8,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Jailbreak1 click · 0 credits",
+      "data": {
+        "command": "play",
+        "option": "0",
+        "relatedCards": "c71",
+        "vantageProbe": "17"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 273,
+      "turn": 8,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": "Jailbreak",
+        "title": "Playing Jailbreak"
+      },
+      "text": "HQ1 click · 0 credits",
+      "data": {
+        "command": "continue",
+        "option": "0",
+        "relatedCards": "c71",
+        "vantageProbe": "15"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 278,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "16"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 288,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "13"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 293,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "16"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 304,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "13"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 309,
+      "turn": 8,
+      "phase": {
+        "identifier": "Run 3.1",
+        "source": null,
+        "title": "Run: Encounter Ice"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "16"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 319,
+      "turn": 8,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Draw a card1 click→",
+      "data": {
+        "command": "draw",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "16"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 333,
+      "turn": 9,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 357,
+      "turn": 10,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Draw a card1 click→",
+      "data": {
+        "command": "draw",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "16"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 359,
+      "turn": 10,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Draw a card1 click→",
+      "data": {
+        "command": "draw",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "16"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 361,
+      "turn": 10,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Archives ›",
+      "data": {
+        "serverAction": "Archives",
+        "vantageProbe": "7"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 364,
+      "turn": 10,
+      "phase": {
+        "identifier": "Run 4.3",
+        "source": null,
+        "title": "Run: Movement"
+      },
+      "text": "Continue the runMove to the next run window, or jack out to end the run.",
+      "data": {
+        "command": "n",
+        "option": "0",
+        "vantageProbe": "12"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 371,
+      "turn": 10,
+      "phase": {
+        "identifier": "Run 5.2",
+        "source": null,
+        "title": "Run: Breach"
+      },
+      "text": "Hansei Review",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c8",
+        "vantageProbe": "12"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 375,
+      "turn": 10,
+      "phase": {
+        "identifier": "Run Accessing",
+        "source": null,
+        "title": "Run: Access"
+      },
+      "text": "Clearinghouse",
+      "data": {
+        "command": "access",
+        "option": "0",
+        "relatedCards": "c16",
+        "vantageProbe": "12"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 382,
+      "turn": 10,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "17"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 396,
+      "turn": 11,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "14"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 426,
+      "turn": 12,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Install1 click2 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c65 c61",
+        "vantageProbe": "19"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 426,
+      "turn": 12,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Install Fermenter into program row1 click · 1 credit",
+      "data": {
+        "command": "install",
+        "option": "1",
+        "relatedCards": "c61",
+        "vantageProbe": "21"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 429,
+      "turn": 12,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Draw a card1 click→",
+      "data": {
+        "command": "draw",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "19"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 431,
+      "turn": 12,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "20"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 433,
+      "turn": 12,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "20"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 447,
+      "turn": 13,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "16"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 469,
+      "turn": 14,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "20"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 471,
+      "turn": 14,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Install1 click2 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c65 c81",
+        "vantageProbe": "21"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 471,
+      "turn": 14,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Install Verbal Plasticity into resource row1 click · 3 credits",
+      "data": {
+        "command": "install",
+        "option": "1",
+        "relatedCards": "c81",
+        "vantageProbe": "22"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 474,
+      "turn": 14,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Draw a card1 click→",
+      "data": {
+        "command": "draw",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "20"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 476,
+      "turn": 14,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Gain 1 credit1 click→",
+      "data": {
+        "command": "gain",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "21"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 490,
+      "turn": 15,
+      "phase": {
+        "identifier": "Corp 2.1",
+        "source": null,
+        "title": "Corporation's Action Phase"
+      },
+      "text": "Skip to decision",
+      "data": {
+        "opponentSkip": "",
+        "vantageProbe": "17"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 516,
+      "turn": 16,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Fermenter · Gain 2 credit for each hosted virus counter1 clickTrash this program→",
+      "data": {
+        "abilityKind": "",
+        "command": "trigger",
+        "option": "0",
+        "relatedCards": "c61",
+        "sourceId": "c61",
+        "vantageProbe": "19"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 521,
+      "turn": 16,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Play1 click · 5 creditsSure Gamble→",
+      "data": {
+        "command": "play",
+        "group": "",
+        "relatedCards": "c76",
+        "vantageProbe": "21"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 524,
+      "turn": 16,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Install1 click4 choices ›",
+      "data": {
+        "command": "install",
+        "group": "",
+        "relatedCards": "c65 c55 c79 c57",
+        "vantageProbe": "20"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 524,
+      "turn": 16,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Install Buzzsaw into program row1 click · 4 credits",
+      "data": {
+        "command": "install",
+        "option": "1",
+        "relatedCards": "c55",
+        "vantageProbe": "22"
+      },
+      "interaction": "DOM button click"
+    },
+    {
+      "version": 527,
+      "turn": 16,
+      "phase": {
+        "identifier": "Runner 1.3",
+        "source": null,
+        "title": "Runner's Action Phase"
+      },
+      "text": "Draw a card1 click→",
+      "data": {
+        "command": "draw",
+        "group": "",
+        "relatedCards": "",
+        "vantageProbe": "19"
+      },
+      "interaction": "DOM button click"
+    }
+  ]
+}

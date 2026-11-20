@@ -1,0 +1,163 @@
+{
+  "reviewer": {
+    "kind": "AI critic",
+    "perspective": "Corporation",
+    "humanParticipant": false,
+    "independent": true,
+    "priorReviewsRead": false
+  },
+  "reviewedAt": "2026-11-16",
+  "url": "http://localhost:5173/",
+  "browser": {
+    "profile": "incognito",
+    "ownedTab": "tab_i_8325d3a1-a0be-4685-9ccc-b65089f2df75",
+    "viewport": {
+      "width": 1280,
+      "height": 800
+    },
+    "headless": false
+  },
+  "match": {
+    "seed": "8772d65c-9194-43f4-89b1-adc1621a7f2e",
+    "corpDeck": "precision-design-v2",
+    "runnerDeck": "loup-v1",
+    "side": "corp",
+    "terminal": {
+      "reason": "Corp reached 9 agenda points.",
+      "winner": "corp"
+    },
+    "displayTurn": 9,
+    "dtoTurn": 17,
+    "score": {
+      "corp": 9,
+      "runner": 0
+    },
+    "nativeRecordedChoiceCount": 55,
+    "uiActivationCount": null,
+    "uiActivationCountReason": "No complete click/input instrumentation was installed; native replay choices are not UI activation counts.",
+    "engineSteps": 346,
+    "conceded": false
+  },
+  "method": {
+    "interaction": "Real UI through DOM clicks in a new owned preview tab. Only public read-only window.localTable DTO/session inspected. No engine APIs, hidden engine state, worker injection, source edits, storage clearing, global preference changes or custom-deck saves.",
+    "strategy": "Kept opening hand. Hansei Review funded central protection (Whitespace R&D, Ansel HQ). Built Brân remote, installed and advanced Offworld Office; rezzed Brân when attacked, then scored. Recovered Hansei and later Seamless Launch via Precision Design. Used Spin Doctor draw and shuffle, Nico Campaign income and Hedge Fund. Added Palisade to remote, replaced campaign with agenda, repeatedly used recovered Seamless Launch to score. Natural win by scoring Send a Message, with no concession, deckout farming, or pass-only game termination.",
+    "exploration": [
+      "Switched lobby to Corporation and reviewed bundled matchup descriptions.",
+      "Opened Precision Design identity ability text.",
+      "Opened Tune deck, inspected legality/influence/cost curve and card inventory; closed without saving or changing cards."
+    ],
+    "coverage": [
+      "Economy operations and asset income",
+      "HQ/R&D/remote installations",
+      "Defensive rez at approach ice",
+      "Bioroid encounter and opponent playback",
+      "Manual advancement and scoring",
+      "Precision Design optional Archives return",
+      "Spin Doctor optional shuffle",
+      "Seamless Launch targeting",
+      "Replacing an installed asset",
+      "Natural terminal victory"
+    ]
+  },
+  "scores": {
+    "learnability": {
+      "score": 7,
+      "reason": "Role and deck strategy descriptions, legal action outlines, read-card routes and resource costs help; the board and effect timing still assume substantial card-game literacy."
+    },
+    "clarity": {
+      "score": 7.5,
+      "reason": "Phase/priority, advancement requirements, subroutines, costs and last resource changes are strong; internal remote numbering leaks into player-facing confirmations and terminal resource feedback is stale."
+    },
+    "flow": {
+      "score": 7,
+      "reason": "Most decisions progress smoothly and playback can be skipped. Optional effects remain understandable, but nested action lists, independent scrolling and passive AI dilute pace and tension."
+    },
+    "visualCohesion": {
+      "score": 8.5,
+      "reason": "Dark teal/coral zones, restrained gold action emphasis, card artwork and strong typography feel coherent. At 1280x800 a populated rig becomes horizontally clipped and small card text requires inspection."
+    },
+    "stability": {
+      "score": 9,
+      "reason": "Completed 346 engine steps and 55 recorded choices with no observed game exception, freeze, diagnostic or failed action. This is one run, not a reliability claim."
+    },
+    "overall": {
+      "score": 7.4,
+      "reason": "A polished, usable local Netrunner table that supported a complete strategic Corp game. The main ceiling in this session was opposition quality: after one early run, the Runner allowed repeated remote scoring while developing its board. UI clarity details and dense scrolling also keep it below an excellent experience."
+    }
+  },
+  "strengths": [
+    "Lobby gives each deck a concrete playstyle and exposes identity abilities before play.",
+    "Costs distinguish installation from later rez; protective ice placement is understandable through server destinations.",
+    "Approach-ice decision explicitly offered a 6-credit Brân rez and explained the alternative of letting the Runner pass unrezzed.",
+    "Offworld Office scoring, its 7-credit payoff and Precision Design's optional return were visible and operable.",
+    "Opponent playback plus turn summaries made automated Runner actions inspectable; Skip to decision prevented routine playback from blocking play.",
+    "Resource changes, click counts, advancement overlays and full card inspection materially support play.",
+    "Natural end screen correctly reported Corp victory and 9 agenda points."
+  ],
+  "critiques": [
+    {
+      "id": "corp-ai-passivity",
+      "category": "AI strategy / play experience",
+      "severity": "medium",
+      "finding": "The AI made one early run on the scoring remote during Runner turn 2, then no further run before the Corp's turn-9 win. Turns 3–8 went into draws, Smartware economy, hardware and a small rig while the Corp scored repeatedly in the same remote. I felt little pressure after the first defense.",
+      "reproduction": "Replay seed and choices in corp-game-replay.json. Inspect Runner turn 2 Brân attack, then Runner turns 3–8; Corp scores Offworld Office on turns 3, 6 and 8, then Send a Message on turn 9.",
+      "caveat": "This is an observed strategy weakness in one matchup/seed, not evidence of deck balance or a rules defect. A single rezzed Brân can legitimately discourage early runs; the concern is the long absence of central pressure or later scoring-server probes."
+    },
+    {
+      "id": "remote-numbering-leak",
+      "category": "UI clarity",
+      "severity": "low",
+      "finding": "Player-facing board names Remote 1, but last-confirmed-choice/resource text sometimes names its location Remote 0 root. Internal DTO numbering is acceptable; exposing both conventions in the UI is confusing.",
+      "reproduction": "After turn-2 Advance Offworld Office, last confirmed choice includes 'Offworld Office · Remote 0 root · 1 advancement counter' while the board says REMOTE 1. A later turn-8 Send a Message confirmation also shows Remote 0 root.",
+      "suggestion": "Normalize server names consistently across confirmations, action labels, resource deltas and log location text."
+    },
+    {
+      "id": "terminal-resource-feedback",
+      "category": "UI feedback",
+      "severity": "low",
+      "finding": "The final scoreboard and win reason correctly show 9 points, but LAST RESOURCE CHANGE remains the preceding Advance Send a Message action (credit/click/advancement), not the decisive score.",
+      "reproduction": "At terminal after scoring Send a Message on Corp turn 9, read the right panel in corp-terminal.png.",
+      "suggestion": "Retain the winning score as the last resource change, including agenda points and movement to score area."
+    },
+    {
+      "id": "dense-board-scrolling",
+      "category": "UI layout",
+      "severity": "low",
+      "finding": "At 1280x800, the populated Runner rig is horizontally clipped around its second Smartware Distributor and multiple play-area/panel scroll regions coexist. The screen remains usable, but auditing the whole board takes extra navigation.",
+      "reproduction": "At the terminal state, observe Runner resources extending behind the stack/heap area and separate board/right-panel scrollbars.",
+      "suggestion": "Make overflow/navigation affordances more evident or reserve clearer layout space for resources and stack/heap."
+    }
+  ],
+  "rulesAssessment": "No confirmed rules defect observed. Bioroid click breaking, Palisade installation cost, Nico replacement trash, Precision Design optional return and seamless advancement behaved consistently with visible card text. I did not independently audit the complete rules engine.",
+  "diagnostics": {
+    "finalPublicDiagnostics": [],
+    "successfulSnapshotConsoleEntries": [],
+    "successfulSnapshotNetworkEntries": [],
+    "appErrorsObserved": [],
+    "automationIssues": [
+      "Initial preview_snapshot timed out after 15000ms; a later terminal snapshot also failed to yield screenshot metadata on the first attempt. Retrying worked. These are browser automation capture failures, not evidence of an app crash.",
+      "One immediate read attempted decision.commands while decision was transiently null during opponent resolution; retrying the read worked. This was reviewer tooling, not a user-visible app error."
+    ]
+  },
+  "artifacts": {
+    "replay": "corp-game-replay.json",
+    "screenshots": [
+      "corp-midgame.png",
+      "corp-terminal.png"
+    ],
+    "originalScreenshotPaths": [
+      "/Users/nicanadian/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mwjxqski-4c327410.png",
+      "/Users/nicanadian/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mwjxwg27-a424b72a.png"
+    ]
+  },
+  "limitations": [
+    "One strategically directed Corp game against one bundled opponent; no balance conclusion.",
+    "AI critic using browser automation, not a human participant or accessibility study.",
+    "Two desktop screenshots visually inspected; no mobile/responsive, sound or animation-quality audit.",
+    "Public final state contains its most recent 150 history events of 214; the complete recorded 55-choice session is retained for replay.",
+    "UI activation count unavailable; 55 is the recorded native session choice count."
+  ],
+  "cleanup": {
+    "ownedTabClosed": true
+  }
+}

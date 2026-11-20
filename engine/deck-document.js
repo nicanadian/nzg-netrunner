@@ -1,7 +1,7 @@
 /* Shared browser/worker/Node deck contract. Counts are never silently repaired. */
 (function(){
 'use strict';
-const catalog=typeof module!=='undefined'?require('./card-catalog.js'):globalThis.NRCardCatalog;
+function withCatalog(catalog){
 const {cards,aliases,coverage}=catalog;
 const issue=(code,message,card=null)=>({code,message,...(card?{card}:{} )});
 const canonical=id=>aliases[String(id)]||String(id);
@@ -18,7 +18,7 @@ function normalize(input){
  const identity=canonical(input.identity),side=input.side||cards[identity]?.side_code;
  if(!['runner','corp'].includes(side))throw Error('Choose Runner or Corp.');
  const pool=input.pool||'core-v1';
- if(!['gateway-v1','core-v1'].includes(pool))throw Error('Unsupported card pool.');
+ if(!(catalog.pools||['gateway-v1','core-v1']).includes(pool))throw Error('Unsupported card pool.');
  const result={schemaVersion:1,name:String(input.name||input.title||'Untitled deck').slice(0,200),side,identity,pool,cards:[...totals].sort((a,b)=>a[0].localeCompare(b[0])).map(([id,count])=>({id,count}))};
  if(input.source){if(typeof input.source==='string')result.source={url:input.source};else if(typeof input.source==='object'&&!Array.isArray(input.source))result.source=JSON.parse(JSON.stringify(input.source));}
  return result;
@@ -29,7 +29,7 @@ function validate(input,{requireDefinitions=true}={}){
  const errors=[],support=[],warnings=[];let deck;
  try{deck=normalize(input);}catch(e){return {valid:false,legal:false,implemented:false,errors:[issue('schema',e.message)],support:[],warnings:[],totals:null};}
  const identity=cards[deck.identity];let size=0,influence=0,agenda=0;
- const inPool=c=>c.pack_code==='sg'||deck.pool==='core-v1'&&c.pack_code==='elev';
+ const inPool=c=>c.pack_code==='sg'||['core-v1','vantage-preview-v1'].includes(deck.pool)&&c.pack_code==='elev'||deck.pool==='vantage-preview-v1'&&c.pack_code==='vp';
  if(!identity||identity.type_code!=='identity')errors.push(issue('identity','Choose a known identity.',deck.identity));
  else{
   if(identity.side_code!==deck.side)errors.push(issue('identity-side','Identity is on the wrong side.',deck.identity));
@@ -52,7 +52,7 @@ function validate(input,{requireDefinitions=true}={}){
  }
  for(const id of [deck.identity,...deck.cards.map(c=>c.id)]){
   if(!cards[id]||!coverage[id]?.definition)support.push(issue('missing-definition',`${cards[id]?.title||id} has no engine implementation yet.`,id));
-  else if(cards[id]?.pack_code==='elev')warnings.push(issue('audit-pending',`${cards[id].title}: card-by-card rules/AI audit is incomplete.`,id));
+  else if(['elev','vp'].includes(cards[id]?.pack_code))warnings.push(issue('audit-pending',`${cards[id].title}: card-by-card rules/AI audit is incomplete.`,id));
  }
  if(identity&&size<identity.minimum_deck_size)errors.push(issue('minimum-size',`Needs at least ${identity.minimum_deck_size} cards; currently ${size}.`));
  if(identity&&influence>identity.influence_limit)errors.push(issue('influence',`Uses ${influence}/${identity.influence_limit} influence.`));
@@ -77,5 +77,8 @@ function parseText(text,{identity,pool='core-v1',side,name='Imported deck'}={}){
  if(unresolved.length)throw Error('Unrecognized lines:\n'+unresolved.join('\n'));
  return normalize({name,identity:found,side,pool,cards:entries});
 }
-const api={normalize,validate,expand,revision,contentKey,canonical,parseText};globalThis.NRDeckDocument=api;if(typeof module!=='undefined')module.exports=api;
+return {normalize,validate,expand,revision,contentKey,canonical,parseText,withCatalog};
+}
+const api=withCatalog(typeof module!=='undefined'?require('./card-catalog.js'):globalThis.NRCardCatalog);
+globalThis.NRDeckDocument=api;if(typeof module!=='undefined')module.exports=api;
 })();

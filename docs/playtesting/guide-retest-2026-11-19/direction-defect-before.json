@@ -1,0 +1,13 @@
+{
+  "pair": {
+    "runner": "tao-vantage-pilot-v1",
+    "corp": "weyland-vantage-tools-v2",
+    "runnerWins": 21,
+    "corpWins": 33,
+    "games": 54
+  },
+  "selectedSide": "corp",
+  "correctRowDifficulty": "Harder for Runner",
+  "incorrectStaticCopy": "<li><strong>Below 40%:</strong> harder for the Runner in these tests. <strong>Above 60%:</strong> harder for the Corp.</li>",
+  "resolution": "After frozen playtests, replace static Runner/Corp threshold wording with selected-side/opponent wording and verify in Corp mode."
+}

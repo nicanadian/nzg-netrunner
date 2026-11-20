@@ -1,0 +1,1247 @@
+{
+  "schemaVersion": 1,
+  "experimentHash": "15b59a36c7a4d5fdabca05d92f8c15aef726b5d718682d1f56ffad131ad29e40",
+  "matchups": [
+    {
+      "runner": "tao-vantage-pilot-v1",
+      "corp": "weyland-vantage-tools-v2",
+      "directory": "matchup-0-0",
+      "jobs": 48,
+      "statuses": {
+        "completed": 48
+      },
+      "wins": {
+        "corp": 30,
+        "runner": 18
+      },
+      "runnerWinRate": 0.375,
+      "runnerWilson95": [
+        0.2521507240406812,
+        0.5163749387475043
+      ],
+      "p50Ms": 398,
+      "p95Ms": 1216,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 2733,
+            "gain": 395,
+            "draw": 675,
+            "install": 372,
+            "play": 211,
+            "run": 403,
+            "advance": 0,
+            "score": 0,
+            "overrides": 31,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 471,
+            "probesConsidered": 540,
+            "probesRejected": 509
+          },
+          "corp": {
+            "actions": 2053,
+            "gain": 297,
+            "draw": 65,
+            "install": 642,
+            "play": 65,
+            "run": 0,
+            "advance": 651,
+            "score": 133,
+            "overrides": 198,
+            "idleWithAgenda": 271,
+            "scoreOffered": 133,
+            "scoreTaken": 133,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 9.8125,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "956ad446539699f6d933815cf59e2360a6b7be8331bfc10af8fb9677fe1851e9"
+    },
+    {
+      "runner": "tao-vantage-pilot-v1",
+      "corp": "jinteki-vantage-pilot-v1",
+      "directory": "matchup-0-1",
+      "jobs": 48,
+      "statuses": {
+        "completed": 48
+      },
+      "wins": {
+        "corp": 33,
+        "runner": 15
+      },
+      "runnerWinRate": 0.3125,
+      "runnerWilson95": [
+        0.19945512167731494,
+        0.4533333725049633
+      ],
+      "p50Ms": 237,
+      "p95Ms": 1195,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 2520,
+            "gain": 337,
+            "draw": 703,
+            "install": 321,
+            "play": 207,
+            "run": 345,
+            "advance": 0,
+            "score": 0,
+            "overrides": 9,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 410,
+            "probesConsidered": 430,
+            "probesRejected": 421
+          },
+          "corp": {
+            "actions": 1946,
+            "gain": 235,
+            "draw": 172,
+            "install": 549,
+            "play": 142,
+            "run": 0,
+            "advance": 475,
+            "score": 79,
+            "overrides": 105,
+            "idleWithAgenda": 192,
+            "scoreOffered": 79,
+            "scoreTaken": 79,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 8.541666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "13a2e59ea67c53dc8eb9f06b7c79a2925032026a1d1d4273bccf429ef412c72c"
+    },
+    {
+      "runner": "tao-vantage-pilot-v1",
+      "corp": "hb-vantage-tempo-v1",
+      "directory": "matchup-0-2",
+      "jobs": 48,
+      "statuses": {
+        "completed": 48
+      },
+      "wins": {
+        "corp": 25,
+        "runner": 23
+      },
+      "runnerWinRate": 0.4791666666666667,
+      "runnerWilson95": [
+        0.34471090015787464,
+        0.6167100436401562
+      ],
+      "p50Ms": 563,
+      "p95Ms": 2612,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 2344,
+            "gain": 311,
+            "draw": 516,
+            "install": 309,
+            "play": 185,
+            "run": 479,
+            "advance": 0,
+            "score": 0,
+            "overrides": 62,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 544,
+            "probesConsidered": 479,
+            "probesRejected": 417
+          },
+          "corp": {
+            "actions": 2367,
+            "gain": 239,
+            "draw": 159,
+            "install": 773,
+            "play": 154,
+            "run": 0,
+            "advance": 480,
+            "score": 132,
+            "overrides": 148,
+            "idleWithAgenda": 314,
+            "scoreOffered": 132,
+            "scoreTaken": 132,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 11.333333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "de1116fbe38a1b2290cef3e8fc6fd5b2b8310fd04399858765f892d0c232c07b"
+    },
+    {
+      "runner": "tao-vantage-pilot-v1",
+      "corp": "melies-play-v1",
+      "directory": "matchup-0-3",
+      "jobs": 48,
+      "statuses": {
+        "completed": 48
+      },
+      "wins": {
+        "corp": 14,
+        "runner": 34
+      },
+      "runnerWinRate": 0.7083333333333334,
+      "runnerWilson95": [
+        0.5682047226383246,
+        0.8175858393813663
+      ],
+      "p50Ms": 356,
+      "p95Ms": 990,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 3075,
+            "gain": 435,
+            "draw": 732,
+            "install": 340,
+            "play": 246,
+            "run": 504,
+            "advance": 0,
+            "score": 0,
+            "overrides": 23,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 620,
+            "probesConsidered": 423,
+            "probesRejected": 400
+          },
+          "corp": {
+            "actions": 2265,
+            "gain": 396,
+            "draw": 190,
+            "install": 764,
+            "play": 199,
+            "run": 0,
+            "advance": 504,
+            "score": 111,
+            "overrides": 141,
+            "idleWithAgenda": 475,
+            "scoreOffered": 111,
+            "scoreTaken": 111,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 12.916666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "95bf60bcf8707f356f9438aa4b8870ce2d53f708437d852269ab1e960d393f9c"
+    },
+    {
+      "runner": "tao-vantage-pilot-v1",
+      "corp": "editorial-play-v2",
+      "directory": "matchup-0-4",
+      "jobs": 48,
+      "statuses": {
+        "completed": 48
+      },
+      "wins": {
+        "corp": 15,
+        "runner": 33
+      },
+      "runnerWinRate": 0.6875,
+      "runnerWilson95": [
+        0.5466666274950367,
+        0.800544878322685
+      ],
+      "p50Ms": 253,
+      "p95Ms": 587,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 2646,
+            "gain": 512,
+            "draw": 530,
+            "install": 320,
+            "play": 193,
+            "run": 449,
+            "advance": 0,
+            "score": 0,
+            "overrides": 18,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 532,
+            "probesConsidered": 350,
+            "probesRejected": 332
+          },
+          "corp": {
+            "actions": 2056,
+            "gain": 371,
+            "draw": 124,
+            "install": 600,
+            "play": 232,
+            "run": 0,
+            "advance": 488,
+            "score": 104,
+            "overrides": 218,
+            "idleWithAgenda": 409,
+            "scoreOffered": 104,
+            "scoreTaken": 104,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 11.083333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "b074fc633ebd5961f2b6fa0b3d23315e7b6275529bc11390f1cd7f0c5233d3df"
+    },
+    {
+      "runner": "loup-vantage-tailor-v1",
+      "corp": "weyland-vantage-tools-v2",
+      "directory": "matchup-1-0",
+      "jobs": 48,
+      "statuses": {
+        "completed": 48
+      },
+      "wins": {
+        "corp": 16,
+        "runner": 32
+      },
+      "runnerWinRate": 0.6666666666666666,
+      "runnerWilson95": [
+        0.5253984633247204,
+        0.783233986291032
+      ],
+      "p50Ms": 694,
+      "p95Ms": 6888,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 3110,
+            "gain": 551,
+            "draw": 580,
+            "install": 453,
+            "play": 229,
+            "run": 431,
+            "advance": 0,
+            "score": 0,
+            "overrides": 37,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 502,
+            "probesConsidered": 521,
+            "probesRejected": 484
+          },
+          "corp": {
+            "actions": 2197,
+            "gain": 240,
+            "draw": 81,
+            "install": 698,
+            "play": 64,
+            "run": 0,
+            "advance": 715,
+            "score": 122,
+            "overrides": 312,
+            "idleWithAgenda": 213,
+            "scoreOffered": 122,
+            "scoreTaken": 122,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 10.458333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "1871166d9d7b8850c7ce771cb73f36480da617cded26db2afd03d7af7f4d2cef"
+    },
+    {
+      "runner": "loup-vantage-tailor-v1",
+      "corp": "jinteki-vantage-pilot-v1",
+      "directory": "matchup-1-1",
+      "jobs": 48,
+      "statuses": {
+        "completed": 48
+      },
+      "wins": {
+        "corp": 24,
+        "runner": 24
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.36389098932037767,
+        0.6361090106796223
+      ],
+      "p50Ms": 299,
+      "p95Ms": 1769,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 2461,
+            "gain": 502,
+            "draw": 481,
+            "install": 325,
+            "play": 185,
+            "run": 355,
+            "advance": 0,
+            "score": 0,
+            "overrides": 14,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 420,
+            "probesConsidered": 313,
+            "probesRejected": 299
+          },
+          "corp": {
+            "actions": 1806,
+            "gain": 214,
+            "draw": 141,
+            "install": 554,
+            "play": 121,
+            "run": 0,
+            "advance": 446,
+            "score": 65,
+            "overrides": 149,
+            "idleWithAgenda": 181,
+            "scoreOffered": 65,
+            "scoreTaken": 65,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 8.75,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "96c811b3573c9cc360a45d6629e3e1b15689f8f06fd401817bc0ed3dca9323ec"
+    },
+    {
+      "runner": "loup-vantage-tailor-v1",
+      "corp": "hb-vantage-tempo-v1",
+      "directory": "matchup-1-2",
+      "jobs": 48,
+      "statuses": {
+        "completed": 48
+      },
+      "wins": {
+        "corp": 17,
+        "runner": 31
+      },
+      "runnerWinRate": 0.6458333333333334,
+      "runnerWilson95": [
+        0.5043879645406409,
+        0.7656654288731427
+      ],
+      "p50Ms": 1137,
+      "p95Ms": 9465,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 2527,
+            "gain": 438,
+            "draw": 489,
+            "install": 361,
+            "play": 205,
+            "run": 421,
+            "advance": 0,
+            "score": 0,
+            "overrides": 35,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 485,
+            "probesConsidered": 526,
+            "probesRejected": 491
+          },
+          "corp": {
+            "actions": 2195,
+            "gain": 212,
+            "draw": 151,
+            "install": 748,
+            "play": 157,
+            "run": 0,
+            "advance": 443,
+            "score": 117,
+            "overrides": 150,
+            "idleWithAgenda": 288,
+            "scoreOffered": 117,
+            "scoreTaken": 117,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 10.104166666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "77c4920a05dc40b038652e8ca7e7d22cd3eadded913dabfac1228bb70781b3c8"
+    },
+    {
+      "runner": "loup-vantage-tailor-v1",
+      "corp": "melies-play-v1",
+      "directory": "matchup-1-3",
+      "jobs": 48,
+      "statuses": {
+        "completed": 48
+      },
+      "wins": {
+        "corp": 26,
+        "runner": 22
+      },
+      "runnerWinRate": 0.4583333333333333,
+      "runnerWilson95": [
+        0.3257502185455351,
+        0.5970916690505266
+      ],
+      "p50Ms": 542,
+      "p95Ms": 6184,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 3414,
+            "gain": 665,
+            "draw": 609,
+            "install": 471,
+            "play": 245,
+            "run": 473,
+            "advance": 0,
+            "score": 0,
+            "overrides": 11,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 556,
+            "probesConsidered": 565,
+            "probesRejected": 554
+          },
+          "corp": {
+            "actions": 2401,
+            "gain": 443,
+            "draw": 167,
+            "install": 783,
+            "play": 179,
+            "run": 0,
+            "advance": 614,
+            "score": 130,
+            "overrides": 182,
+            "idleWithAgenda": 520,
+            "scoreOffered": 130,
+            "scoreTaken": 130,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 11.583333333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "af83fe86155775300eefd8235a34a561a694d90042b93e62590280c4d4af4f51"
+    },
+    {
+      "runner": "loup-vantage-tailor-v1",
+      "corp": "editorial-play-v2",
+      "directory": "matchup-1-4",
+      "jobs": 48,
+      "statuses": {
+        "completed": 48
+      },
+      "wins": {
+        "corp": 11,
+        "runner": 37
+      },
+      "runnerWinRate": 0.7708333333333334,
+      "runnerWilson95": [
+        0.6346046409154885,
+        0.8669230897101096
+      ],
+      "p50Ms": 376,
+      "p95Ms": 1841,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 3208,
+            "gain": 631,
+            "draw": 541,
+            "install": 444,
+            "play": 237,
+            "run": 464,
+            "advance": 0,
+            "score": 0,
+            "overrides": 13,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 547,
+            "probesConsidered": 474,
+            "probesRejected": 461
+          },
+          "corp": {
+            "actions": 2320,
+            "gain": 425,
+            "draw": 136,
+            "install": 698,
+            "play": 230,
+            "run": 0,
+            "advance": 568,
+            "score": 104,
+            "overrides": 234,
+            "idleWithAgenda": 448,
+            "scoreOffered": 104,
+            "scoreTaken": 104,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 11.395833333333334,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "cb0e3f5b491a216e3648cd3aaa2c6d2029b4fdda5e29bfd145aec4a7fe613d00"
+    },
+    {
+      "runner": "vic-play-v1",
+      "corp": "weyland-vantage-tools-v2",
+      "directory": "matchup-2-0",
+      "jobs": 48,
+      "statuses": {
+        "completed": 48
+      },
+      "wins": {
+        "corp": 24,
+        "runner": 24
+      },
+      "runnerWinRate": 0.5,
+      "runnerWilson95": [
+        0.36389098932037767,
+        0.6361090106796223
+      ],
+      "p50Ms": 326,
+      "p95Ms": 770,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 2912,
+            "gain": 409,
+            "draw": 527,
+            "install": 282,
+            "play": 205,
+            "run": 246,
+            "advance": 0,
+            "score": 0,
+            "overrides": 37,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 521,
+            "probesConsidered": 446,
+            "probesRejected": 409
+          },
+          "corp": {
+            "actions": 1895,
+            "gain": 280,
+            "draw": 73,
+            "install": 581,
+            "play": 58,
+            "run": 0,
+            "advance": 595,
+            "score": 113,
+            "overrides": 190,
+            "idleWithAgenda": 241,
+            "scoreOffered": 113,
+            "scoreTaken": 113,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 10.854166666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "4979d124072eb664699bc996cb8f8ec59aa49cc982c59f3b13e493c5de0f7303"
+    },
+    {
+      "runner": "vic-play-v1",
+      "corp": "jinteki-vantage-pilot-v1",
+      "directory": "matchup-2-1",
+      "jobs": 48,
+      "statuses": {
+        "completed": 48
+      },
+      "wins": {
+        "corp": 28,
+        "runner": 20
+      },
+      "runnerWinRate": 0.4166666666666667,
+      "runnerWilson95": [
+        0.28849459734577015,
+        0.5571891778463536
+      ],
+      "p50Ms": 311,
+      "p95Ms": 1119,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 2994,
+            "gain": 272,
+            "draw": 595,
+            "install": 288,
+            "play": 180,
+            "run": 296,
+            "advance": 0,
+            "score": 0,
+            "overrides": 26,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 578,
+            "probesConsidered": 342,
+            "probesRejected": 316
+          },
+          "corp": {
+            "actions": 1973,
+            "gain": 263,
+            "draw": 171,
+            "install": 557,
+            "play": 133,
+            "run": 0,
+            "advance": 480,
+            "score": 69,
+            "overrides": 154,
+            "idleWithAgenda": 228,
+            "scoreOffered": 69,
+            "scoreTaken": 69,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 12.041666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "fb539aa273656783ce23ba9dcf1d1c7bdd42a1449504581ed24abebc4f4ca720"
+    },
+    {
+      "runner": "vic-play-v1",
+      "corp": "hb-vantage-tempo-v1",
+      "directory": "matchup-2-2",
+      "jobs": 48,
+      "statuses": {
+        "completed": 48
+      },
+      "wins": {
+        "corp": 22,
+        "runner": 26
+      },
+      "runnerWinRate": 0.5416666666666666,
+      "runnerWilson95": [
+        0.4029083309494732,
+        0.6742497814544648
+      ],
+      "p50Ms": 668,
+      "p95Ms": 2806,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 2645,
+            "gain": 353,
+            "draw": 473,
+            "install": 262,
+            "play": 172,
+            "run": 333,
+            "advance": 0,
+            "score": 0,
+            "overrides": 47,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 572,
+            "probesConsidered": 339,
+            "probesRejected": 292
+          },
+          "corp": {
+            "actions": 2191,
+            "gain": 227,
+            "draw": 169,
+            "install": 726,
+            "play": 135,
+            "run": 0,
+            "advance": 394,
+            "score": 115,
+            "overrides": 120,
+            "idleWithAgenda": 292,
+            "scoreOffered": 115,
+            "scoreTaken": 115,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 11.916666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "c00f41f25df1c08f10a9d575c3e432136f6a19e63e9aad50fe6e97fd66d7dff9"
+    },
+    {
+      "runner": "vic-play-v1",
+      "corp": "melies-play-v1",
+      "directory": "matchup-2-3",
+      "jobs": 48,
+      "statuses": {
+        "completed": 48
+      },
+      "wins": {
+        "corp": 21,
+        "runner": 27
+      },
+      "runnerWinRate": 0.5625,
+      "runnerWilson95": [
+        0.4227477150100165,
+        0.6929894535958907
+      ],
+      "p50Ms": 358,
+      "p95Ms": 1539,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 3415,
+            "gain": 298,
+            "draw": 663,
+            "install": 327,
+            "play": 213,
+            "run": 361,
+            "advance": 0,
+            "score": 0,
+            "overrides": 17,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 632,
+            "probesConsidered": 531,
+            "probesRejected": 514
+          },
+          "corp": {
+            "actions": 2208,
+            "gain": 468,
+            "draw": 193,
+            "install": 689,
+            "play": 186,
+            "run": 0,
+            "advance": 467,
+            "score": 110,
+            "overrides": 121,
+            "idleWithAgenda": 538,
+            "scoreOffered": 110,
+            "scoreTaken": 110,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 13.166666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "98b679fcd2fa86fc6436b93bde0d3fcda073d7f6e2a0d82f336e58e2a1e09dd4"
+    },
+    {
+      "runner": "vic-play-v1",
+      "corp": "editorial-play-v2",
+      "directory": "matchup-2-4",
+      "jobs": 48,
+      "statuses": {
+        "completed": 48
+      },
+      "wins": {
+        "corp": 14,
+        "runner": 34
+      },
+      "runnerWinRate": 0.7083333333333334,
+      "runnerWilson95": [
+        0.5682047226383246,
+        0.8175858393813663
+      ],
+      "p50Ms": 393,
+      "p95Ms": 736,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 3233,
+            "gain": 420,
+            "draw": 527,
+            "install": 307,
+            "play": 204,
+            "run": 324,
+            "advance": 0,
+            "score": 0,
+            "overrides": 23,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 639,
+            "probesConsidered": 360,
+            "probesRejected": 337
+          },
+          "corp": {
+            "actions": 2139,
+            "gain": 366,
+            "draw": 149,
+            "install": 611,
+            "play": 236,
+            "run": 0,
+            "advance": 519,
+            "score": 102,
+            "overrides": 257,
+            "idleWithAgenda": 339,
+            "scoreOffered": 102,
+            "scoreTaken": 102,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 13.3125,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "bf58c3bf218f115d389a1c7255407977ec6a9799a0699a3b245e9c734fdee6c7"
+    },
+    {
+      "runner": "hiram-play-v1",
+      "corp": "weyland-vantage-tools-v2",
+      "directory": "matchup-3-0",
+      "jobs": 48,
+      "statuses": {
+        "completed": 48
+      },
+      "wins": {
+        "corp": 27,
+        "runner": 21
+      },
+      "runnerWinRate": 0.4375,
+      "runnerWilson95": [
+        0.3070105464041092,
+        0.5772522849899835
+      ],
+      "p50Ms": 283,
+      "p95Ms": 1148,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 2453,
+            "gain": 489,
+            "draw": 557,
+            "install": 302,
+            "play": 119,
+            "run": 561,
+            "advance": 0,
+            "score": 0,
+            "overrides": 15,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 561,
+            "probesConsidered": 416,
+            "probesRejected": 401
+          },
+          "corp": {
+            "actions": 1924,
+            "gain": 326,
+            "draw": 64,
+            "install": 583,
+            "play": 45,
+            "run": 0,
+            "advance": 591,
+            "score": 118,
+            "overrides": 202,
+            "idleWithAgenda": 274,
+            "scoreOffered": 118,
+            "scoreTaken": 118,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 11.6875,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "f36e60e0478809d25072b6b6466ae1d9eedaa965d8c602383dc7abad124d039a"
+    },
+    {
+      "runner": "hiram-play-v1",
+      "corp": "jinteki-vantage-pilot-v1",
+      "directory": "matchup-3-1",
+      "jobs": 48,
+      "statuses": {
+        "completed": 48
+      },
+      "wins": {
+        "corp": 38,
+        "runner": 10
+      },
+      "runnerWinRate": 0.20833333333333334,
+      "runnerWilson95": [
+        0.11730147795889813,
+        0.3425917352135348
+      ],
+      "p50Ms": 266,
+      "p95Ms": 1074,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 2728,
+            "gain": 406,
+            "draw": 802,
+            "install": 328,
+            "play": 163,
+            "run": 480,
+            "advance": 0,
+            "score": 0,
+            "overrides": 14,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 480,
+            "probesConsidered": 672,
+            "probesRejected": 658
+          },
+          "corp": {
+            "actions": 2153,
+            "gain": 273,
+            "draw": 178,
+            "install": 615,
+            "play": 156,
+            "run": 0,
+            "advance": 556,
+            "score": 97,
+            "overrides": 152,
+            "idleWithAgenda": 249,
+            "scoreOffered": 97,
+            "scoreTaken": 97,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 10,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "c1459069503411f5b9501140c1cda285b406664a5a8cdae66ab2275d22d40bf5"
+    },
+    {
+      "runner": "hiram-play-v1",
+      "corp": "hb-vantage-tempo-v1",
+      "directory": "matchup-3-2",
+      "jobs": 48,
+      "statuses": {
+        "completed": 48
+      },
+      "wins": {
+        "corp": 26,
+        "runner": 22
+      },
+      "runnerWinRate": 0.4583333333333333,
+      "runnerWilson95": [
+        0.3257502185455351,
+        0.5970916690505266
+      ],
+      "p50Ms": 736,
+      "p95Ms": 3485,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 2282,
+            "gain": 380,
+            "draw": 475,
+            "install": 269,
+            "play": 119,
+            "run": 635,
+            "advance": 0,
+            "score": 0,
+            "overrides": 49,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 635,
+            "probesConsidered": 402,
+            "probesRejected": 353
+          },
+          "corp": {
+            "actions": 2381,
+            "gain": 251,
+            "draw": 154,
+            "install": 803,
+            "play": 139,
+            "run": 0,
+            "advance": 442,
+            "score": 135,
+            "overrides": 136,
+            "idleWithAgenda": 302,
+            "scoreOffered": 135,
+            "scoreTaken": 135,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 13.229166666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "dd99c165d439ff08aac455d610d5b3e4a234a1b87a0820f47a0a2ca9a9a24166"
+    },
+    {
+      "runner": "hiram-play-v1",
+      "corp": "melies-play-v1",
+      "directory": "matchup-3-3",
+      "jobs": 48,
+      "statuses": {
+        "completed": 48
+      },
+      "wins": {
+        "corp": 19,
+        "runner": 29
+      },
+      "runnerWinRate": 0.6041666666666666,
+      "runnerWilson95": [
+        0.4631015459693511,
+        0.7297937350404942
+      ],
+      "p50Ms": 308,
+      "p95Ms": 1010,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 2972,
+            "gain": 525,
+            "draw": 731,
+            "install": 324,
+            "play": 143,
+            "run": 704,
+            "advance": 0,
+            "score": 0,
+            "overrides": 24,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 704,
+            "probesConsidered": 429,
+            "probesRejected": 405
+          },
+          "corp": {
+            "actions": 2295,
+            "gain": 490,
+            "draw": 162,
+            "install": 759,
+            "play": 164,
+            "run": 0,
+            "advance": 553,
+            "score": 122,
+            "overrides": 146,
+            "idleWithAgenda": 560,
+            "scoreOffered": 122,
+            "scoreTaken": 122,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 14.666666666666666,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "ff012dffe812510445d2aac77fd524118012c1d98f19f5e2a8d3c66731bf027e"
+    },
+    {
+      "runner": "hiram-play-v1",
+      "corp": "editorial-play-v2",
+      "directory": "matchup-3-4",
+      "jobs": 48,
+      "statuses": {
+        "completed": 48
+      },
+      "wins": {
+        "corp": 23,
+        "runner": 25
+      },
+      "runnerWinRate": 0.5208333333333334,
+      "runnerWilson95": [
+        0.3832899563598438,
+        0.6552890998421255
+      ],
+      "p50Ms": 325,
+      "p95Ms": 900,
+      "aiSummary": {
+        "totals": {
+          "runner": {
+            "actions": 2833,
+            "gain": 687,
+            "draw": 532,
+            "install": 328,
+            "play": 102,
+            "run": 696,
+            "advance": 0,
+            "score": 0,
+            "overrides": 10,
+            "idleWithAgenda": 0,
+            "scoreOffered": 0,
+            "scoreTaken": 0,
+            "runs": 696,
+            "probesConsidered": 368,
+            "probesRejected": 358
+          },
+          "corp": {
+            "actions": 2305,
+            "gain": 346,
+            "draw": 150,
+            "install": 679,
+            "play": 252,
+            "run": 0,
+            "advance": 626,
+            "score": 135,
+            "overrides": 319,
+            "idleWithAgenda": 354,
+            "scoreOffered": 135,
+            "scoreTaken": 135,
+            "runs": 0,
+            "probesConsidered": 0,
+            "probesRejected": 0
+          }
+        },
+        "averageRunnerRuns": 14.5,
+        "lowPressureGames": 0
+      },
+      "policyNotice": "Versioned native/pressure policies; hidden-information behavior and expansion AI coverage are not certified. Results describe the selected policy.",
+      "experimentHash": "bdee658e851780a7dc1dbdd88d3bd733c59f48c68e1386cff4ab00e0d433f96f"
+    }
+  ],
+  "complete": true
+}

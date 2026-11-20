@@ -1,8 +1,9 @@
 import {iceRezWarning} from './rez-warning.mjs';
+import {optionLabel} from './playtest-polish.mjs';
 // Public-state copy and hierarchy shared by the table and focused regressions.
 export const plural = (count, noun) => `${count} ${noun}${count === 1 ? '' : 's'}`;
 export function displayText(text) {
-  return String(text ?? '').replace(/Remote (\d+)/g, (_, n) => `Remote ${Number(n) + 1}`)
+  return String(text ?? '').replace(/\bSpend ((?:Click)+)\b/g,(_,icons)=>`Spend ${icons.length/5} click${icons.length===5?'':'s'}`).replace(/Remote (\d+)/g, (_, n) => `Remote ${Number(n) + 1}`)
     .replace(/ at position (\d+)/g, (_, n) => ` · ice ${Number(n) + 1}`);
 }
 export function phaseHeading(state) {
@@ -64,6 +65,8 @@ export function continuationModel(state) {
     !c.options[0].card&&!c.options[0].multi&&!c.options[0].subroutine);
   if(!group)return null;
   const base={command:group.command,index:group.options[0].index,cost:group.options[0].cost || group.cost};
+  const explicitLabel=optionLabel(group.options[0],state);
+  if(explicitLabel!==group.options[0].label)return {...base,kind:'pass',label:explicitLabel,detail:'Decline this optional effect and continue. No card is selected and no additional cost is paid. Earlier payments remain spent.'};
   if(state.phase.identifier.includes('Mulligan'))return {...base,kind:'opening-hand',label:'Keep this hand',
     detail:'Keep these five cards, or choose Mulligan to shuffle them back and draw a new opening hand.'};
   if(state.phase.title==='Trash Before Install')return {...base,kind:'install',label:'Confirm installation',

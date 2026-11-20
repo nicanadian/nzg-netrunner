@@ -1,0 +1,1552 @@
+{
+  "engineHash": "d8ca9a11d7e9724aa0636b608763aa8c7265d22404dbcb0467dd721496b10dbd",
+  "policy": "pressure-v1",
+  "planned": 1686,
+  "settled": 1686,
+  "statuses": {
+    "completed": 1686
+  },
+  "pools": [
+    {
+      "pool": "gateway-v1",
+      "complete": true,
+      "pairings": 56,
+      "engineHash": "d8ca9a11d7e9724aa0636b608763aa8c7265d22404dbcb0467dd721496b10dbd"
+    },
+    {
+      "pool": "core-v1",
+      "complete": true,
+      "pairings": 108,
+      "engineHash": "d8ca9a11d7e9724aa0636b608763aa8c7265d22404dbcb0467dd721496b10dbd"
+    },
+    {
+      "pool": "vantage-preview-v1",
+      "complete": true,
+      "pairings": 117,
+      "engineHash": "d8ca9a11d7e9724aa0636b608763aa8c7265d22404dbcb0467dd721496b10dbd"
+    }
+  ],
+  "decks": [
+    {
+      "id": "loup-v1",
+      "name": "René “Loup” Arcemont",
+      "side": "runner",
+      "pool": "gateway-v1",
+      "purpose": "play",
+      "games": 48,
+      "completed": 48,
+      "wins": 28,
+      "winRate": 0.5833333333333334,
+      "againstPlayDecks": {
+        "games": 48,
+        "wins": 28
+      },
+      "opponents": 8,
+      "meanRound": 14.958333333333334,
+      "p90Round": 21,
+      "meanBasicGainShare": 0.143007090364866,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 1,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "zahya-v2",
+      "name": "Zahya Sadeghi",
+      "side": "runner",
+      "pool": "gateway-v1",
+      "purpose": "play",
+      "games": 48,
+      "completed": 48,
+      "wins": 32,
+      "winRate": 0.6666666666666666,
+      "againstPlayDecks": {
+        "games": 48,
+        "wins": 32
+      },
+      "opponents": 8,
+      "meanRound": 12.979166666666666,
+      "p90Round": 19,
+      "meanBasicGainShare": 0.06062901486392234,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 0,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "tao-v1",
+      "name": "Tāo Salonga",
+      "side": "runner",
+      "pool": "gateway-v1",
+      "purpose": "play",
+      "games": 48,
+      "completed": 48,
+      "wins": 31,
+      "winRate": 0.6458333333333334,
+      "againstPlayDecks": {
+        "games": 48,
+        "wins": 31
+      },
+      "opponents": 8,
+      "meanRound": 13.25,
+      "p90Round": 18,
+      "meanBasicGainShare": 0.12454673997272635,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 0,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "precision-design-v2",
+      "name": "Haas-Bioroid: Precision Design",
+      "side": "corp",
+      "pool": "gateway-v1",
+      "purpose": "play",
+      "games": 42,
+      "completed": 42,
+      "wins": 24,
+      "winRate": 0.5714285714285714,
+      "againstPlayDecks": {
+        "games": 42,
+        "wins": 24
+      },
+      "opponents": 7,
+      "meanRound": 14.19047619047619,
+      "p90Round": 18,
+      "meanBasicGainShare": 0.060163803594098085,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 1,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "restoring-humanity-v2",
+      "name": "Jinteki: Restoring Humanity",
+      "side": "corp",
+      "pool": "gateway-v1",
+      "purpose": "play",
+      "games": 42,
+      "completed": 42,
+      "wins": 14,
+      "winRate": 0.3333333333333333,
+      "againstPlayDecks": {
+        "games": 42,
+        "wins": 14
+      },
+      "opponents": 7,
+      "meanRound": 14.166666666666666,
+      "p90Round": 18,
+      "meanBasicGainShare": 0.16428650930006286,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 0,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "reality-plus-v2",
+      "name": "NBN: Reality Plus",
+      "side": "corp",
+      "pool": "gateway-v1",
+      "purpose": "play",
+      "games": 42,
+      "completed": 42,
+      "wins": 21,
+      "winRate": 0.5,
+      "againstPlayDecks": {
+        "games": 42,
+        "wins": 21
+      },
+      "opponents": 7,
+      "meanRound": 16.738095238095237,
+      "p90Round": 22,
+      "meanBasicGainShare": 0.11821184076864914,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 1,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "built-to-last-v2",
+      "name": "Weyland Consortium: Built to Last",
+      "side": "corp",
+      "pool": "gateway-v1",
+      "purpose": "play",
+      "games": 42,
+      "completed": 42,
+      "wins": 18,
+      "winRate": 0.42857142857142855,
+      "againstPlayDecks": {
+        "games": 42,
+        "wins": 18
+      },
+      "opponents": 7,
+      "meanRound": 14.523809523809524,
+      "p90Round": 20,
+      "meanBasicGainShare": 0.12287652298194968,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 0,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "tao-burst-v1",
+      "name": "Tāo Salonga — burst income",
+      "side": "runner",
+      "pool": "gateway-v1",
+      "purpose": "play",
+      "games": 48,
+      "completed": 48,
+      "wins": 25,
+      "winRate": 0.5208333333333334,
+      "againstPlayDecks": {
+        "games": 48,
+        "wins": 25
+      },
+      "opponents": 8,
+      "meanRound": 14.666666666666666,
+      "p90Round": 21,
+      "meanBasicGainShare": 0.12078134600287238,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 1,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "tao-mayfly-v1",
+      "name": "Tāo Salonga — two Mayflies",
+      "side": "runner",
+      "pool": "gateway-v1",
+      "purpose": "play",
+      "games": 48,
+      "completed": 48,
+      "wins": 29,
+      "winRate": 0.6041666666666666,
+      "againstPlayDecks": {
+        "games": 48,
+        "wins": 29
+      },
+      "opponents": 8,
+      "meanRound": 14.166666666666666,
+      "p90Round": 22,
+      "meanBasicGainShare": 0.13954022990136053,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 2,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "restoring-humanity-planogram-v1",
+      "name": "restoring-humanity-v2 / Planogram instead of Clearinghouse",
+      "side": "corp",
+      "pool": "gateway-v1",
+      "purpose": "play",
+      "games": 42,
+      "completed": 42,
+      "wins": 8,
+      "winRate": 0.19047619047619047,
+      "againstPlayDecks": {
+        "games": 42,
+        "wins": 8
+      },
+      "opponents": 7,
+      "meanRound": 13.952380952380953,
+      "p90Round": 19,
+      "meanBasicGainShare": 0.1542254098287376,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 0,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "loup-burst-v1",
+      "name": "René “Loup” Arcemont — burst income",
+      "side": "runner",
+      "pool": "gateway-v1",
+      "purpose": "play",
+      "games": 48,
+      "completed": 48,
+      "wins": 32,
+      "winRate": 0.6666666666666666,
+      "againstPlayDecks": {
+        "games": 48,
+        "wins": 32
+      },
+      "opponents": 8,
+      "meanRound": 15.416666666666666,
+      "p90Round": 22,
+      "meanBasicGainShare": 0.18308241471575906,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 3,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "zahya-mayfly-v1",
+      "name": "Zahya Sadeghi — two Mayflies",
+      "side": "runner",
+      "pool": "gateway-v1",
+      "purpose": "play",
+      "games": 48,
+      "completed": 48,
+      "wins": 26,
+      "winRate": 0.5416666666666666,
+      "againstPlayDecks": {
+        "games": 48,
+        "wins": 26
+      },
+      "opponents": 8,
+      "meanRound": 14.354166666666666,
+      "p90Round": 20,
+      "meanBasicGainShare": 0.10497581238545978,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 0,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "precision-design-large-agendas-v1",
+      "name": "Haas-Bioroid: Precision Design — Bioroids & big agendas",
+      "side": "corp",
+      "pool": "gateway-v1",
+      "purpose": "play",
+      "games": 42,
+      "completed": 42,
+      "wins": 18,
+      "winRate": 0.42857142857142855,
+      "againstPlayDecks": {
+        "games": 42,
+        "wins": 18
+      },
+      "opponents": 7,
+      "meanRound": 12.976190476190476,
+      "p90Round": 20,
+      "meanBasicGainShare": 0.05395409390304643,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 0,
+      "failures": [],
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        }
+      ]
+    },
+    {
+      "id": "reality-plus-tag-and-score-v1",
+      "name": "NBN: Reality Plus — Tag & score",
+      "side": "corp",
+      "pool": "gateway-v1",
+      "purpose": "play",
+      "games": 42,
+      "completed": 42,
+      "wins": 16,
+      "winRate": 0.38095238095238093,
+      "againstPlayDecks": {
+        "games": 42,
+        "wins": 16
+      },
+      "opponents": 7,
+      "meanRound": 13.380952380952381,
+      "p90Round": 20,
+      "meanBasicGainShare": 0.1599235935163818,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 4,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "built-to-last-heavy-ice-v1",
+      "name": "Weyland Consortium: Built to Last — Heavy ice & threats",
+      "side": "corp",
+      "pool": "gateway-v1",
+      "purpose": "play",
+      "games": 42,
+      "completed": 42,
+      "wins": 14,
+      "winRate": 0.3333333333333333,
+      "againstPlayDecks": {
+        "games": 42,
+        "wins": 14
+      },
+      "opponents": 7,
+      "meanRound": 14.119047619047619,
+      "p90Round": 21,
+      "meanBasicGainShare": 0.15029572244723474,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 1,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "phoenix-core-v1",
+      "name": "Ryō “Phoenix” Ōno: Out of the Ashes",
+      "side": "runner",
+      "pool": "core-v1",
+      "purpose": "play",
+      "games": 72,
+      "completed": 72,
+      "wins": 38,
+      "winRate": 0.5277777777777778,
+      "againstPlayDecks": {
+        "games": 72,
+        "wins": 38
+      },
+      "opponents": 12,
+      "meanRound": 15.208333333333334,
+      "p90Round": 23,
+      "meanBasicGainShare": 0.17337729491005638,
+      "lowRunnerPressure": 0,
+      "longGames": 2,
+      "deckOuts": 2,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "precision-design-core-v1",
+      "name": "Haas-Bioroid: Precision Design",
+      "side": "corp",
+      "pool": "core-v1",
+      "purpose": "play",
+      "games": 54,
+      "completed": 54,
+      "wins": 41,
+      "winRate": 0.7592592592592593,
+      "againstPlayDecks": {
+        "games": 54,
+        "wins": 41
+      },
+      "opponents": 9,
+      "meanRound": 14.555555555555555,
+      "p90Round": 22,
+      "meanBasicGainShare": 0.12219411892387635,
+      "lowRunnerPressure": 1,
+      "longGames": 0,
+      "deckOuts": 0,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "nrdb-81c60189-b0b9-429b-83a8-0cd6611fcff1-d12a74334303",
+      "name": "[NSG Core] Bowel Movements",
+      "side": "runner",
+      "pool": "core-v1",
+      "purpose": "play",
+      "games": 72,
+      "completed": 72,
+      "wins": 36,
+      "winRate": 0.5,
+      "againstPlayDecks": {
+        "games": 72,
+        "wins": 36
+      },
+      "opponents": 12,
+      "meanRound": 14.375,
+      "p90Round": 20,
+      "meanBasicGainShare": 0.16115662339071413,
+      "lowRunnerPressure": 1,
+      "longGames": 0,
+      "deckOuts": 0,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "nrdb-bbcf997a-3ec6-4728-9813-82df335db2f3-82f72cab02dd",
+      "name": "[NSG Core] Prick Thyself",
+      "side": "runner",
+      "pool": "core-v1",
+      "purpose": "play",
+      "games": 72,
+      "completed": 72,
+      "wins": 33,
+      "winRate": 0.4583333333333333,
+      "againstPlayDecks": {
+        "games": 72,
+        "wins": 33
+      },
+      "opponents": 12,
+      "meanRound": 15.527777777777779,
+      "p90Round": 24,
+      "meanBasicGainShare": 0.11458865803632994,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 1,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "nrdb-96ef311d-5a55-43e3-be41-28b072994e30-8fe7914ef9c5",
+      "name": " [NSG Core] Tickets, please",
+      "side": "runner",
+      "pool": "core-v1",
+      "purpose": "play",
+      "games": 72,
+      "completed": 72,
+      "wins": 40,
+      "winRate": 0.5555555555555556,
+      "againstPlayDecks": {
+        "games": 72,
+        "wins": 40
+      },
+      "opponents": 12,
+      "meanRound": 12.625,
+      "p90Round": 20,
+      "meanBasicGainShare": 0.11279545514360101,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 0,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "nrdb-a9c9e074-d20a-40ca-8030-f5d0d1ce677f-d0e02ddf32fd",
+      "name": " [NSG Core] Shootin' 'n' Lootin'",
+      "side": "runner",
+      "pool": "core-v1",
+      "purpose": "play",
+      "games": 72,
+      "completed": 72,
+      "wins": 41,
+      "winRate": 0.5694444444444444,
+      "againstPlayDecks": {
+        "games": 72,
+        "wins": 41
+      },
+      "opponents": 12,
+      "meanRound": 15.152777777777779,
+      "p90Round": 22,
+      "meanBasicGainShare": 0.08301979566493618,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 0,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "nrdb-aca8a765-6c5b-4f3a-81c8-16c4dde32fdd-4f24b5d58a96",
+      "name": "[NSG Core] Professional Opportunities",
+      "side": "runner",
+      "pool": "core-v1",
+      "purpose": "play",
+      "games": 72,
+      "completed": 72,
+      "wins": 35,
+      "winRate": 0.4861111111111111,
+      "againstPlayDecks": {
+        "games": 72,
+        "wins": 35
+      },
+      "opponents": 12,
+      "meanRound": 15.097222222222221,
+      "p90Round": 23,
+      "meanBasicGainShare": 0.16000123334549635,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 1,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "nrdb-1bf875a5-4138-40d3-87f0-de874f63135e-9600c22ebf18",
+      "name": "[NSG Core] Flow and Ebb",
+      "side": "runner",
+      "pool": "core-v1",
+      "purpose": "play",
+      "games": 72,
+      "completed": 72,
+      "wins": 34,
+      "winRate": 0.4722222222222222,
+      "againstPlayDecks": {
+        "games": 72,
+        "wins": 34
+      },
+      "opponents": 12,
+      "meanRound": 15.125,
+      "p90Round": 22,
+      "meanBasicGainShare": 0.08642771344100665,
+      "lowRunnerPressure": 0,
+      "longGames": 2,
+      "deckOuts": 2,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "nrdb-14966eb5-a65c-4578-83bb-345e566df203-44595697a442",
+      "name": " [NSG Core] Enthusiasm",
+      "side": "runner",
+      "pool": "core-v1",
+      "purpose": "play",
+      "games": 72,
+      "completed": 72,
+      "wins": 27,
+      "winRate": 0.375,
+      "againstPlayDecks": {
+        "games": 72,
+        "wins": 27
+      },
+      "opponents": 12,
+      "meanRound": 16.26388888888889,
+      "p90Round": 23,
+      "meanBasicGainShare": 0.06201177449844032,
+      "lowRunnerPressure": 0,
+      "longGames": 1,
+      "deckOuts": 0,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "nrdb-9727f883-4edd-4f1a-aabc-e1f94fd63834-94ba33b98abd",
+      "name": " [NSG Core] Sabbatical",
+      "side": "runner",
+      "pool": "core-v1",
+      "purpose": "play",
+      "games": 72,
+      "completed": 72,
+      "wins": 38,
+      "winRate": 0.5277777777777778,
+      "againstPlayDecks": {
+        "games": 72,
+        "wins": 38
+      },
+      "opponents": 12,
+      "meanRound": 14.5,
+      "p90Round": 22,
+      "meanBasicGainShare": 0.09318063139610874,
+      "lowRunnerPressure": 0,
+      "longGames": 1,
+      "deckOuts": 1,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "nrdb-8b2c2754-48c2-4375-a124-e1eebba9a95e-6ff2c5f0596f",
+      "name": "[NSG Core] Agency",
+      "side": "corp",
+      "pool": "core-v1",
+      "purpose": "play",
+      "games": 54,
+      "completed": 54,
+      "wins": 7,
+      "winRate": 0.12962962962962962,
+      "againstPlayDecks": {
+        "games": 54,
+        "wins": 7
+      },
+      "opponents": 9,
+      "meanRound": 12.38888888888889,
+      "p90Round": 19,
+      "meanBasicGainShare": 0.3405023535089623,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 0,
+      "failures": [],
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        }
+      ]
+    },
+    {
+      "id": "nrdb-8d182470-77e1-4d5e-b55e-19f08dc44470-041d76cb8e91",
+      "name": "[NSG Core] Fashion Lab",
+      "side": "corp",
+      "pool": "core-v1",
+      "purpose": "play",
+      "games": 54,
+      "completed": 54,
+      "wins": 21,
+      "winRate": 0.3888888888888889,
+      "againstPlayDecks": {
+        "games": 54,
+        "wins": 21
+      },
+      "opponents": 9,
+      "meanRound": 15.074074074074074,
+      "p90Round": 22,
+      "meanBasicGainShare": 0.3245768105733455,
+      "lowRunnerPressure": 0,
+      "longGames": 1,
+      "deckOuts": 1,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "nrdb-fd9af10d-4c0f-4b70-ad5d-83aa51903a16-050a753f6aad",
+      "name": "[NSG Core] Hidden Funds",
+      "side": "corp",
+      "pool": "core-v1",
+      "purpose": "play",
+      "games": 54,
+      "completed": 54,
+      "wins": 41,
+      "winRate": 0.7592592592592593,
+      "againstPlayDecks": {
+        "games": 54,
+        "wins": 41
+      },
+      "opponents": 9,
+      "meanRound": 13.75925925925926,
+      "p90Round": 20,
+      "meanBasicGainShare": 0.11640136343141937,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 0,
+      "failures": [],
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        }
+      ]
+    },
+    {
+      "id": "nrdb-568d1eb8-340c-4bb1-bf77-54c21b514833-48134ae006a4",
+      "name": "[NSG Core] Peculiarity",
+      "side": "corp",
+      "pool": "core-v1",
+      "purpose": "play",
+      "games": 54,
+      "completed": 54,
+      "wins": 29,
+      "winRate": 0.5370370370370371,
+      "againstPlayDecks": {
+        "games": 54,
+        "wins": 29
+      },
+      "opponents": 9,
+      "meanRound": 14.203703703703704,
+      "p90Round": 19,
+      "meanBasicGainShare": 0.3736978624162841,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 0,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "nrdb-da28fae5-8c7c-4354-8ed3-6ce6e5769cec-86a9e65d6b9e",
+      "name": "[NSG Core] Glyph of Warding",
+      "side": "corp",
+      "pool": "core-v1",
+      "purpose": "play",
+      "games": 54,
+      "completed": 54,
+      "wins": 21,
+      "winRate": 0.3888888888888889,
+      "againstPlayDecks": {
+        "games": 54,
+        "wins": 21
+      },
+      "opponents": 9,
+      "meanRound": 13.74074074074074,
+      "p90Round": 20,
+      "meanBasicGainShare": 0.16907602481291478,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 3,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "nrdb-abc6721f-4680-40fe-b189-cdf19f416bd1-96f1749f8285",
+      "name": "[NSG Core] Fine Print",
+      "side": "corp",
+      "pool": "core-v1",
+      "purpose": "play",
+      "games": 54,
+      "completed": 54,
+      "wins": 32,
+      "winRate": 0.5925925925925926,
+      "againstPlayDecks": {
+        "games": 54,
+        "wins": 32
+      },
+      "opponents": 9,
+      "meanRound": 19.203703703703702,
+      "p90Round": 26,
+      "meanBasicGainShare": 0.3146049179347526,
+      "lowRunnerPressure": 0,
+      "longGames": 3,
+      "deckOuts": 2,
+      "failures": [],
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        },
+        {
+          "kind": "defense",
+          "message": "Low ice density; check whether the alternate win condition and opening defenses compensate."
+        }
+      ]
+    },
+    {
+      "id": "nrdb-170f1c2f-e063-415a-ab06-7ef49763da04-a4fecaddcb11",
+      "name": "[NSG Core] Not so subtle",
+      "side": "corp",
+      "pool": "core-v1",
+      "purpose": "play",
+      "games": 54,
+      "completed": 54,
+      "wins": 33,
+      "winRate": 0.6111111111111112,
+      "againstPlayDecks": {
+        "games": 54,
+        "wins": 33
+      },
+      "opponents": 9,
+      "meanRound": 13.907407407407407,
+      "p90Round": 21,
+      "meanBasicGainShare": 0.2266090022430731,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 0,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "nrdb-19db2c28-8521-4b86-a45e-e46cb9830243-96783ec74652",
+      "name": "[NSG Core] Gimbatul",
+      "side": "corp",
+      "pool": "core-v1",
+      "purpose": "play",
+      "games": 54,
+      "completed": 54,
+      "wins": 22,
+      "winRate": 0.4074074074074074,
+      "againstPlayDecks": {
+        "games": 54,
+        "wins": 22
+      },
+      "opponents": 9,
+      "meanRound": 14.11111111111111,
+      "p90Round": 23,
+      "meanBasicGainShare": 0.22885109718655677,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 0,
+      "failures": [],
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        }
+      ]
+    },
+    {
+      "id": "nrdb-51804cff-8a01-4b85-b1cc-a140935cf81c-55e35bd8d37c",
+      "name": " [NSG Core] Brick Stack",
+      "side": "corp",
+      "pool": "core-v1",
+      "purpose": "play",
+      "games": 54,
+      "completed": 54,
+      "wins": 31,
+      "winRate": 0.5740740740740741,
+      "againstPlayDecks": {
+        "games": 54,
+        "wins": 31
+      },
+      "opponents": 9,
+      "meanRound": 15.574074074074074,
+      "p90Round": 24,
+      "meanBasicGainShare": 0.26265074300249885,
+      "lowRunnerPressure": 0,
+      "longGames": 2,
+      "deckOuts": 1,
+      "failures": [],
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        }
+      ]
+    },
+    {
+      "id": "nrdb-f315fb7f-798b-4b4a-b515-675590b3f258-cf497a01962a",
+      "name": "[NSG Core] Pork Chops",
+      "side": "corp",
+      "pool": "core-v1",
+      "purpose": "play",
+      "games": 54,
+      "completed": 54,
+      "wins": 29,
+      "winRate": 0.5370370370370371,
+      "againstPlayDecks": {
+        "games": 54,
+        "wins": 29
+      },
+      "opponents": 9,
+      "meanRound": 16.51851851851852,
+      "p90Round": 26,
+      "meanBasicGainShare": 0.2938017637384639,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 0,
+      "failures": [],
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        }
+      ]
+    },
+    {
+      "id": "nrdb-1f9d8054-4993-4a09-91ba-4fca5fff3747-5261146b1e28",
+      "name": "[NSG Core] Quick Returns",
+      "side": "corp",
+      "pool": "core-v1",
+      "purpose": "play",
+      "games": 54,
+      "completed": 54,
+      "wins": 19,
+      "winRate": 0.35185185185185186,
+      "againstPlayDecks": {
+        "games": 54,
+        "wins": 19
+      },
+      "opponents": 9,
+      "meanRound": 15.462962962962964,
+      "p90Round": 21,
+      "meanBasicGainShare": 0.317130106108984,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 0,
+      "failures": [],
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        }
+      ]
+    },
+    {
+      "id": "tao-vantage-pilot-v1",
+      "name": "Tāo · Stealth foundation pilot",
+      "side": "runner",
+      "pool": "vantage-preview-v1",
+      "purpose": "play",
+      "games": 78,
+      "completed": 78,
+      "wins": 50,
+      "winRate": 0.6410256410256411,
+      "againstPlayDecks": {
+        "games": 30,
+        "wins": 13
+      },
+      "opponents": 13,
+      "meanRound": 15.333333333333334,
+      "p90Round": 23,
+      "meanBasicGainShare": 0.15449176170886256,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 3,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "weyland-vantage-pilot-v1",
+      "name": "Built to Last · Bad publicity pilot",
+      "side": "corp",
+      "pool": "vantage-preview-v1",
+      "purpose": "interaction",
+      "games": 54,
+      "completed": 54,
+      "wins": 35,
+      "winRate": 0.6481481481481481,
+      "againstPlayDecks": {
+        "games": 0,
+        "wins": 0
+      },
+      "opponents": 9,
+      "meanRound": 12.537037037037036,
+      "p90Round": 18,
+      "meanBasicGainShare": 0.15373459898497763,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 0,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "vic-vantage-pilot-v1",
+      "name": "Vic · Central pressure",
+      "side": "runner",
+      "pool": "vantage-preview-v1",
+      "purpose": "interaction",
+      "games": 78,
+      "completed": 78,
+      "wins": 52,
+      "winRate": 0.6666666666666666,
+      "againstPlayDecks": {
+        "games": 0,
+        "wins": 0
+      },
+      "opponents": 13,
+      "meanRound": 12.756410256410257,
+      "p90Round": 20,
+      "meanBasicGainShare": 0.16357354231247268,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 0,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "tao-vantage-stealth-v1",
+      "name": "Tāo · Stealth console",
+      "side": "runner",
+      "pool": "vantage-preview-v1",
+      "purpose": "interaction",
+      "games": 78,
+      "completed": 78,
+      "wins": 46,
+      "winRate": 0.5897435897435898,
+      "againstPlayDecks": {
+        "games": 0,
+        "wins": 0
+      },
+      "opponents": 13,
+      "meanRound": 14.974358974358974,
+      "p90Round": 22,
+      "meanBasicGainShare": 0.18418797023134256,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 3,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "weyland-vantage-tools-v1",
+      "name": "Built to Last · Defensive tools",
+      "side": "corp",
+      "pool": "vantage-preview-v1",
+      "purpose": "interaction",
+      "games": 54,
+      "completed": 54,
+      "wins": 20,
+      "winRate": 0.37037037037037035,
+      "againstPlayDecks": {
+        "games": 0,
+        "wins": 0
+      },
+      "opponents": 9,
+      "meanRound": 12.351851851851851,
+      "p90Round": 20,
+      "meanBasicGainShare": 0.23991444868512574,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 1,
+      "failures": [],
+      "hints": [
+        {
+          "kind": "economy",
+          "message": "Few explicitly classified economy copies; verify identity income, discounts and alternate economies."
+        }
+      ]
+    },
+    {
+      "id": "weyland-vantage-tools-v2",
+      "name": "Built to Last · defensive economy",
+      "side": "corp",
+      "pool": "vantage-preview-v1",
+      "purpose": "play",
+      "games": 54,
+      "completed": 54,
+      "wins": 37,
+      "winRate": 0.6851851851851852,
+      "againstPlayDecks": {
+        "games": 24,
+        "wins": 15
+      },
+      "opponents": 9,
+      "meanRound": 14.12962962962963,
+      "p90Round": 21,
+      "meanBasicGainShare": 0.19294748243183713,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 1,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "jinteki-vantage-pilot-v1",
+      "name": "Restoring Humanity · Ambushes",
+      "side": "corp",
+      "pool": "vantage-preview-v1",
+      "purpose": "play",
+      "games": 54,
+      "completed": 54,
+      "wins": 34,
+      "winRate": 0.6296296296296297,
+      "againstPlayDecks": {
+        "games": 24,
+        "wins": 14
+      },
+      "opponents": 9,
+      "meanRound": 12.38888888888889,
+      "p90Round": 21,
+      "meanBasicGainShare": 0.18606862508536987,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 0,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "hb-vantage-tempo-v1",
+      "name": "Precision Design · Tempo and recycling",
+      "side": "corp",
+      "pool": "vantage-preview-v1",
+      "purpose": "play",
+      "games": 54,
+      "completed": 54,
+      "wins": 36,
+      "winRate": 0.6666666666666666,
+      "againstPlayDecks": {
+        "games": 24,
+        "wins": 12
+      },
+      "opponents": 9,
+      "meanRound": 13.148148148148149,
+      "p90Round": 19,
+      "meanBasicGainShare": 0.09640052087863007,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 1,
+      "failures": [],
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        }
+      ]
+    },
+    {
+      "id": "loup-vantage-tailor-v1",
+      "name": "Loup · Tailored economy",
+      "side": "runner",
+      "pool": "vantage-preview-v1",
+      "purpose": "play",
+      "games": 78,
+      "completed": 78,
+      "wins": 54,
+      "winRate": 0.6923076923076923,
+      "againstPlayDecks": {
+        "games": 30,
+        "wins": 19
+      },
+      "opponents": 13,
+      "meanRound": 14.85897435897436,
+      "p90Round": 24,
+      "meanBasicGainShare": 0.14917489655604826,
+      "lowRunnerPressure": 0,
+      "longGames": 1,
+      "deckOuts": 3,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "hb-vantage-reallocation-v1",
+      "name": "Precision Design · Reallocation",
+      "side": "corp",
+      "pool": "vantage-preview-v1",
+      "purpose": "interaction",
+      "games": 54,
+      "completed": 54,
+      "wins": 30,
+      "winRate": 0.5555555555555556,
+      "againstPlayDecks": {
+        "games": 0,
+        "wins": 0
+      },
+      "opponents": 9,
+      "meanRound": 14.925925925925926,
+      "p90Round": 21,
+      "meanBasicGainShare": 0.10049785788682197,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 2,
+      "failures": [],
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        }
+      ]
+    },
+    {
+      "id": "loup-full-vp-v1",
+      "name": "Loup · Vantage interactions",
+      "side": "runner",
+      "pool": "vantage-preview-v1",
+      "purpose": "interaction",
+      "games": 78,
+      "completed": 78,
+      "wins": 48,
+      "winRate": 0.6153846153846154,
+      "againstPlayDecks": {
+        "games": 0,
+        "wins": 0
+      },
+      "opponents": 13,
+      "meanRound": 12.846153846153847,
+      "p90Round": 20,
+      "meanBasicGainShare": 0.09368008476510409,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 1,
+      "failures": [],
+      "hints": [
+        {
+          "kind": "support",
+          "message": "A stealth-dependent ability has no Stealth credit source."
+        }
+      ]
+    },
+    {
+      "id": "vic-full-vp-v1",
+      "name": "Vic · Vantage interactions",
+      "side": "runner",
+      "pool": "vantage-preview-v1",
+      "purpose": "interaction",
+      "games": 78,
+      "completed": 78,
+      "wins": 38,
+      "winRate": 0.48717948717948717,
+      "againstPlayDecks": {
+        "games": 0,
+        "wins": 0
+      },
+      "opponents": 13,
+      "meanRound": 13.41025641025641,
+      "p90Round": 19,
+      "meanBasicGainShare": 0.16895592530650783,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 1,
+      "failures": [],
+      "hints": [
+        {
+          "kind": "coverage",
+          "message": "No dedicated Decoder; inspect AI breakers, hosted viruses, bypass and tutors before judging this list."
+        },
+        {
+          "kind": "support",
+          "message": "A stealth-dependent ability has no Stealth credit source."
+        }
+      ]
+    },
+    {
+      "id": "hiram-full-vp-v1",
+      "name": "Hiram · Vantage interactions",
+      "side": "runner",
+      "pool": "vantage-preview-v1",
+      "purpose": "interaction",
+      "games": 78,
+      "completed": 78,
+      "wins": 31,
+      "winRate": 0.3974358974358974,
+      "againstPlayDecks": {
+        "games": 0,
+        "wins": 0
+      },
+      "opponents": 13,
+      "meanRound": 14.115384615384615,
+      "p90Round": 22,
+      "meanBasicGainShare": 0.16492314551327306,
+      "lowRunnerPressure": 0,
+      "longGames": 3,
+      "deckOuts": 4,
+      "failures": [],
+      "hints": [
+        {
+          "kind": "coverage",
+          "message": "No dedicated Fracter; inspect AI breakers, hosted viruses, bypass and tutors before judging this list."
+        }
+      ]
+    },
+    {
+      "id": "hb-full-vp-v1",
+      "name": "Precision Design · Vantage interactions",
+      "side": "corp",
+      "pool": "vantage-preview-v1",
+      "purpose": "interaction",
+      "games": 54,
+      "completed": 54,
+      "wins": 14,
+      "winRate": 0.25925925925925924,
+      "againstPlayDecks": {
+        "games": 0,
+        "wins": 0
+      },
+      "opponents": 9,
+      "meanRound": 13.88888888888889,
+      "p90Round": 20,
+      "meanBasicGainShare": 0.3007204928651839,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 1,
+      "failures": [],
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        }
+      ]
+    },
+    {
+      "id": "melies-full-vp-v1",
+      "name": "Méliès U · Vantage interactions",
+      "side": "corp",
+      "pool": "vantage-preview-v1",
+      "purpose": "interaction",
+      "games": 54,
+      "completed": 54,
+      "wins": 17,
+      "winRate": 0.3148148148148148,
+      "againstPlayDecks": {
+        "games": 0,
+        "wins": 0
+      },
+      "opponents": 9,
+      "meanRound": 14.833333333333334,
+      "p90Round": 23,
+      "meanBasicGainShare": 0.4138781348798626,
+      "lowRunnerPressure": 0,
+      "longGames": 1,
+      "deckOuts": 0,
+      "failures": [],
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        },
+        {
+          "kind": "economy",
+          "message": "Few explicitly classified economy copies; verify identity income, discounts and alternate economies."
+        }
+      ]
+    },
+    {
+      "id": "editorial-full-vp-v1",
+      "name": "Editorial Division · Vantage interactions",
+      "side": "corp",
+      "pool": "vantage-preview-v1",
+      "purpose": "interaction",
+      "games": 54,
+      "completed": 54,
+      "wins": 14,
+      "winRate": 0.25925925925925924,
+      "againstPlayDecks": {
+        "games": 0,
+        "wins": 0
+      },
+      "opponents": 9,
+      "meanRound": 15.277777777777779,
+      "p90Round": 23,
+      "meanBasicGainShare": 0.39941822125191273,
+      "lowRunnerPressure": 0,
+      "longGames": 2,
+      "deckOuts": 2,
+      "failures": [],
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        },
+        {
+          "kind": "defense",
+          "message": "Low ice density; check whether the alternate win condition and opening defenses compensate."
+        },
+        {
+          "kind": "economy",
+          "message": "Few explicitly classified economy copies; verify identity income, discounts and alternate economies."
+        }
+      ]
+    },
+    {
+      "id": "weyland-full-vp-v1",
+      "name": "Built to Last · Vantage interactions",
+      "side": "corp",
+      "pool": "vantage-preview-v1",
+      "purpose": "interaction",
+      "games": 54,
+      "completed": 54,
+      "wins": 10,
+      "winRate": 0.18518518518518517,
+      "againstPlayDecks": {
+        "games": 0,
+        "wins": 0
+      },
+      "opponents": 9,
+      "meanRound": 14.833333333333334,
+      "p90Round": 21,
+      "meanBasicGainShare": 0.40299782440812326,
+      "lowRunnerPressure": 0,
+      "longGames": 3,
+      "deckOuts": 7,
+      "failures": [],
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        },
+        {
+          "kind": "defense",
+          "message": "Low ice density; check whether the alternate win condition and opening defenses compensate."
+        }
+      ]
+    },
+    {
+      "id": "vic-play-v1",
+      "name": "Vic · central pressure",
+      "side": "runner",
+      "pool": "vantage-preview-v1",
+      "purpose": "play",
+      "games": 78,
+      "completed": 78,
+      "wins": 44,
+      "winRate": 0.5641025641025641,
+      "againstPlayDecks": {
+        "games": 30,
+        "wins": 15
+      },
+      "opponents": 13,
+      "meanRound": 13.41025641025641,
+      "p90Round": 19,
+      "meanBasicGainShare": 0.17124151327704565,
+      "lowRunnerPressure": 0,
+      "longGames": 2,
+      "deckOuts": 1,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "hiram-play-v1",
+      "name": "Hiram · funded rig",
+      "side": "runner",
+      "pool": "vantage-preview-v1",
+      "purpose": "play",
+      "games": 78,
+      "completed": 78,
+      "wins": 44,
+      "winRate": 0.5641025641025641,
+      "againstPlayDecks": {
+        "games": 30,
+        "wins": 15
+      },
+      "opponents": 13,
+      "meanRound": 13.14102564102564,
+      "p90Round": 20,
+      "meanBasicGainShare": 0.16582059845698577,
+      "lowRunnerPressure": 0,
+      "longGames": 2,
+      "deckOuts": 3,
+      "failures": [],
+      "hints": []
+    },
+    {
+      "id": "melies-play-v1",
+      "name": "Méliès U · campaign control",
+      "side": "corp",
+      "pool": "vantage-preview-v1",
+      "purpose": "play",
+      "games": 54,
+      "completed": 54,
+      "wins": 23,
+      "winRate": 0.42592592592592593,
+      "againstPlayDecks": {
+        "games": 24,
+        "wins": 10
+      },
+      "opponents": 9,
+      "meanRound": 15.314814814814815,
+      "p90Round": 22,
+      "meanBasicGainShare": 0.1724040842695456,
+      "lowRunnerPressure": 0,
+      "longGames": 2,
+      "deckOuts": 2,
+      "failures": [],
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        }
+      ]
+    },
+    {
+      "id": "editorial-play-v1",
+      "name": "Editorial · campaigns & tags",
+      "side": "corp",
+      "pool": "vantage-preview-v1",
+      "purpose": "interaction",
+      "games": 54,
+      "completed": 54,
+      "wins": 7,
+      "winRate": 0.12962962962962962,
+      "againstPlayDecks": {
+        "games": 0,
+        "wins": 0
+      },
+      "opponents": 9,
+      "meanRound": 13.018518518518519,
+      "p90Round": 21,
+      "meanBasicGainShare": 0.3691849813627251,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 0,
+      "failures": [],
+      "hints": [
+        {
+          "kind": "defense",
+          "message": "Fewer than six low-cost ice copies with printed end-the-run text; inspect taxing/damage defenses and opening consistency."
+        },
+        {
+          "kind": "defense",
+          "message": "Low ice density; check whether the alternate win condition and opening defenses compensate."
+        }
+      ]
+    },
+    {
+      "id": "editorial-play-v2",
+      "name": "Editorial · funded defenses",
+      "side": "corp",
+      "pool": "vantage-preview-v1",
+      "purpose": "play",
+      "games": 54,
+      "completed": 54,
+      "wins": 18,
+      "winRate": 0.3333333333333333,
+      "againstPlayDecks": {
+        "games": 24,
+        "wins": 7
+      },
+      "opponents": 9,
+      "meanRound": 13.685185185185185,
+      "p90Round": 21,
+      "meanBasicGainShare": 0.23507637986901433,
+      "lowRunnerPressure": 0,
+      "longGames": 0,
+      "deckOuts": 2,
+      "failures": [],
+      "hints": []
+    }
+  ],
+  "failures": []
+}

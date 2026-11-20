@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-16",
+  "policy": "pressure-v1",
+  "engineHash": "d8ca9a11d7e9724aa0636b608763aa8c7265d22404dbcb0467dd721496b10dbd",
+  "pairings": 281,
+  "games": 2646,
+  "followupGames": 960,
+  "followupFailures": 0,
+  "expandedPairings": 20,
+  "preliminaryPairings": 261,
+  "validChartStates": 12,
+  "controlCheck": "passed",
+  "presentationChecks": [
+    "728px overview matrix",
+    "390px individual Runner bar chart",
+    "390px Core individual Runner bar chart"
+  ],
+  "consoleErrors": 0
+}

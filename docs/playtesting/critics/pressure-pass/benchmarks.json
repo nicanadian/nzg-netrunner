@@ -1,0 +1,232 @@
+{
+  "seed": "pressure-paired-2026-11-16",
+  "pairedGames": 64,
+  "completedGames": 128,
+  "aggregates": [
+    {
+      "pool": "gateway",
+      "policy": "native-v1",
+      "engineHash": "f13f5fe6482206473d79bda8ebfb3dbcf9228b369de9136ad452fb8599248ba9",
+      "games": 32,
+      "statuses": {
+        "completed": 32
+      },
+      "wins": {
+        "corp": 15,
+        "runner": 17
+      },
+      "averageRound": 13.28125,
+      "runnerRunsPerTurn": 0.8484107579462102,
+      "corpBasicCreditShare": 0.13642659279778394,
+      "totals": {
+        "runner": {
+          "actions": 1906,
+          "gain": 209,
+          "draw": 334,
+          "install": 266,
+          "play": 152,
+          "run": 222,
+          "advance": 0,
+          "score": 0,
+          "overrides": 0,
+          "idleWithAgenda": 0,
+          "scoreOffered": 0,
+          "scoreTaken": 0,
+          "runs": 347,
+          "probesConsidered": 0,
+          "probesRejected": 0
+        },
+        "corp": {
+          "actions": 1444,
+          "gain": 197,
+          "draw": 74,
+          "install": 444,
+          "play": 132,
+          "run": 0,
+          "advance": 342,
+          "score": 72,
+          "overrides": 0,
+          "idleWithAgenda": 172,
+          "scoreOffered": 78,
+          "scoreTaken": 72,
+          "runs": 0,
+          "probesConsidered": 0,
+          "probesRejected": 0
+        }
+      },
+      "reasons": {}
+    },
+    {
+      "pool": "gateway",
+      "policy": "pressure-v1",
+      "engineHash": "f13f5fe6482206473d79bda8ebfb3dbcf9228b369de9136ad452fb8599248ba9",
+      "games": 32,
+      "statuses": {
+        "completed": 32
+      },
+      "wins": {
+        "runner": 21,
+        "corp": 11
+      },
+      "averageRound": 13.4375,
+      "runnerRunsPerTurn": 0.9307875894988067,
+      "corpBasicCreditShare": 0.0768716577540107,
+      "totals": {
+        "runner": {
+          "actions": 1946,
+          "gain": 194,
+          "draw": 346,
+          "install": 250,
+          "play": 164,
+          "run": 254,
+          "advance": 0,
+          "score": 0,
+          "overrides": 42,
+          "idleWithAgenda": 0,
+          "scoreOffered": 0,
+          "scoreTaken": 0,
+          "runs": 390,
+          "probesConsidered": 268,
+          "probesRejected": 226
+        },
+        "corp": {
+          "actions": 1496,
+          "gain": 115,
+          "draw": 73,
+          "install": 477,
+          "play": 136,
+          "run": 0,
+          "advance": 382,
+          "score": 71,
+          "overrides": 99,
+          "idleWithAgenda": 78,
+          "scoreOffered": 77,
+          "scoreTaken": 71,
+          "runs": 0,
+          "probesConsidered": 0,
+          "probesRejected": 0
+        }
+      },
+      "reasons": {
+        "use-defended-scoring-window": 16,
+        "advance-installed-agenda": 72,
+        "affordable-central-probe": 42,
+        "seek-scoring-support": 6,
+        "reinforce-affordable-central": 4,
+        "build-defended-scoring-lane": 1
+      }
+    },
+    {
+      "pool": "vantage",
+      "policy": "native-v1",
+      "engineHash": "f13f5fe6482206473d79bda8ebfb3dbcf9228b369de9136ad452fb8599248ba9",
+      "games": 32,
+      "statuses": {
+        "completed": 32
+      },
+      "wins": {
+        "runner": 20,
+        "corp": 12
+      },
+      "averageRound": 19.75,
+      "runnerRunsPerTurn": 0.9,
+      "corpBasicCreditShare": 0.42613065326633165,
+      "totals": {
+        "runner": {
+          "actions": 2966,
+          "gain": 497,
+          "draw": 566,
+          "install": 296,
+          "play": 147,
+          "run": 447,
+          "advance": 0,
+          "score": 0,
+          "overrides": 0,
+          "idleWithAgenda": 0,
+          "scoreOffered": 0,
+          "scoreTaken": 0,
+          "runs": 558,
+          "probesConsidered": 0,
+          "probesRejected": 0
+        },
+        "corp": {
+          "actions": 1990,
+          "gain": 848,
+          "draw": 86,
+          "install": 461,
+          "play": 132,
+          "run": 0,
+          "advance": 311,
+          "score": 70,
+          "overrides": 0,
+          "idleWithAgenda": 838,
+          "scoreOffered": 70,
+          "scoreTaken": 70,
+          "runs": 0,
+          "probesConsidered": 0,
+          "probesRejected": 0
+        }
+      },
+      "reasons": {}
+    },
+    {
+      "pool": "vantage",
+      "policy": "pressure-v1",
+      "engineHash": "f13f5fe6482206473d79bda8ebfb3dbcf9228b369de9136ad452fb8599248ba9",
+      "games": 32,
+      "statuses": {
+        "completed": 32
+      },
+      "wins": {
+        "corp": 12,
+        "runner": 20
+      },
+      "averageRound": 17.125,
+      "runnerRunsPerTurn": 0.9813432835820896,
+      "corpBasicCreditShare": 0.39918887601390496,
+      "totals": {
+        "runner": {
+          "actions": 2534,
+          "gain": 443,
+          "draw": 474,
+          "install": 249,
+          "play": 123,
+          "run": 425,
+          "advance": 0,
+          "score": 0,
+          "overrides": 23,
+          "idleWithAgenda": 0,
+          "scoreOffered": 0,
+          "scoreTaken": 0,
+          "runs": 526,
+          "probesConsidered": 394,
+          "probesRejected": 371
+        },
+        "corp": {
+          "actions": 1726,
+          "gain": 689,
+          "draw": 70,
+          "install": 403,
+          "play": 117,
+          "run": 0,
+          "advance": 314,
+          "score": 67,
+          "overrides": 84,
+          "idleWithAgenda": 689,
+          "scoreOffered": 67,
+          "scoreTaken": 67,
+          "runs": 0,
+          "probesConsidered": 0,
+          "probesRejected": 0
+        }
+      },
+      "reasons": {
+        "seek-scoring-support": 15,
+        "advance-installed-agenda": 46,
+        "use-defended-scoring-window": 22,
+        "affordable-central-probe": 23,
+        "reinforce-affordable-central": 1
+      }
+    }
+  ]
+}

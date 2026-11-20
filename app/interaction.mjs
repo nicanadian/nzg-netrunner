@@ -30,7 +30,46 @@ export function breakerPlan(state, cardId) {
     : 'This ability is unavailable in the current window. Use the offered choices or stop the plan.'};
   return {status:'ready',tool,next,cost,label:kind==='boost'?`+${tool.boostAmount} strength`:'Select the next subroutine',total:tool.boostTotal+tool.breakTotal};
 }
+// Approval covers an exact budget for this encounter. Persistent hosted and
+// stealth credits stay manual. Every payment still selects a native option.
+export function breakerFundingQuote(tool, total=tool.boostTotal+tool.breakTotal) {
+  if(!tool?.funding || tool.funding.manualReason)return null;
+  const all=tool.funding.sources;
+  if(new Set(all.map(s=>s.label)).size!==all.length)return null;
+  let remaining=total;
+  const sources=all.filter(s=>s.expiring || s.sourceId==='creditPool')
+    .sort((a,b)=>Number(b.expiring)-Number(a.expiring)).map(s=>{
+      const budget=Math.min(remaining,s.available);remaining-=budget;return {...s,budget,used:0};
+    });
+  return remaining?null:{sources,eligible:all.map(s=>s.sourceId).sort().join('|'),total};
+}
+export function approvedPaymentChoice(state, plan) {
+  const funding=plan?.funding, tool=state.run?.tools?.find(t=>t.card.id===plan.cardId);
+  if(!funding || !tool || plan.paused)return null;
+  if(state.run.card.strength!==plan.iceStrength || state.run.card.subroutines.map(s=>s.text).join('|')!==plan.iceText)
+    return {reason:'The ice changed. Review the encounter before approving another payment.'};
+  if(tool.funding?.manualReason)return {reason:tool.funding.manualReason};
+  for(const source of funding.sources){
+    const available=tool.funding?.sources.find(s=>s.sourceId===source.sourceId)?.available || 0;
+    if(available!==source.available-source.used)return {reason:'A credit source changed. Review the remaining payment manually.'};
+  }
+  if(tool.funding?.sources.some(s=>!funding.eligible.split('|').includes(s.sourceId)))return {reason:'A new credit source appeared. Review the remaining payment manually.'};
+  if(state.phase.guide?.kind!=='credit-payment')return null;
+  if(state.phase.guide.sourceId!==plan.cardId || state.phase.guide.doing!=='using')return {reason:'A different cost needs your attention. Choose its sources manually.'};
+  const options=state.decision?.commands.find(c=>c.command==='pay')?.options || [];
+  for(const source of funding.sources){
+    const amount=Math.min(source.budget-source.used,state.phase.guide.remaining);
+    if(amount<=0)continue;
+    const next=options.find(o=>o.payment?.sourceId===source.sourceId && o.payment.amount===amount);
+    return next?{next:{...next,command:'pay'}}:{reason:'The approved source is unavailable. Finish this payment manually.'};
+  }
+  return {reason:'This payment exceeds the approved source budget. Choose sources manually.'};
+}
 export function secondaryAbility(option, state) {
+  if(option.abilityKind==='ice-reduction'){
+    const tool=state.run?.tools?.find(t=>t.card.id===option.card?.id);
+    return !!tool&&(!tool.unbroken||!tool.gap);
+  }
   return option.secondary || option.abilityKind==='boost' || !!state.run?.encountering && option.abilityKind==='break' && state.run.tools?.find(t=>t.card.id===option.card?.id)?.unbroken===0;
 }
 export function assistedChoice(state, {skipBoostWindows=true, streamline=true, hold=false}={}) {

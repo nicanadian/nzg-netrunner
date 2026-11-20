@@ -1,0 +1,2244 @@
+[
+  {
+    "name": "runner",
+    "choices": 309,
+    "diagnostics": [],
+    "points": {
+      "corp": 8,
+      "runner": 6
+    },
+    "terminal": {
+      "reason": "Corp reached 8 agenda points.",
+      "winner": "corp"
+    },
+    "turn": 45,
+    "version": 1875,
+    "aiAudit": {
+      "policy": "pressure-v1",
+      "reasons": {
+        "use-defended-scoring-window": 3,
+        "advance-installed-agenda": 1
+      },
+      "totals": {
+        "runner": {
+          "actions": 0,
+          "gain": 0,
+          "draw": 0,
+          "install": 0,
+          "play": 0,
+          "run": 0,
+          "advance": 0,
+          "score": 0,
+          "overrides": 0,
+          "idleWithAgenda": 0,
+          "scoreOffered": 0,
+          "scoreTaken": 0,
+          "runs": 33,
+          "probesConsidered": 0,
+          "probesRejected": 0
+        },
+        "corp": {
+          "actions": 76,
+          "gain": 32,
+          "draw": 1,
+          "install": 11,
+          "play": 8,
+          "run": 0,
+          "advance": 16,
+          "score": 4,
+          "overrides": 4,
+          "idleWithAgenda": 22,
+          "scoreOffered": 4,
+          "scoreTaken": 4,
+          "runs": 0,
+          "probesConsidered": 0,
+          "probesRejected": 0
+        }
+      },
+      "recent": [
+        {
+          "turn": 1,
+          "side": "corp",
+          "baseline": "install",
+          "command": "install",
+          "reason": "native",
+          "credits": 5,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 8,
+            "play": 1,
+            "purge": 1
+          }
+        },
+        {
+          "turn": 1,
+          "side": "corp",
+          "baseline": "play",
+          "command": "play",
+          "reason": "native",
+          "credits": 5,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 4,
+            "play": 1
+          }
+        },
+        {
+          "turn": 1,
+          "side": "corp",
+          "baseline": "continue",
+          "command": "continue",
+          "reason": "native",
+          "credits": 5,
+          "offered": {
+            "continue": 1
+          }
+        },
+        {
+          "turn": 1,
+          "side": "corp",
+          "baseline": "draw",
+          "command": "draw",
+          "reason": "native",
+          "credits": 9,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 4
+          }
+        },
+        {
+          "turn": 3,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 0,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 4,
+            "purge": 1
+          }
+        },
+        {
+          "turn": 3,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 1,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 4
+          }
+        },
+        {
+          "turn": 3,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 2,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 4
+          }
+        },
+        {
+          "turn": 5,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 3,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 4,
+            "purge": 1
+          }
+        },
+        {
+          "turn": 5,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 4,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 4
+          }
+        },
+        {
+          "turn": 5,
+          "side": "corp",
+          "baseline": "play",
+          "command": "play",
+          "reason": "native",
+          "credits": 5,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 4,
+            "play": 1
+          }
+        },
+        {
+          "turn": 5,
+          "side": "corp",
+          "baseline": "continue",
+          "command": "continue",
+          "reason": "native",
+          "credits": 5,
+          "offered": {
+            "continue": 1
+          }
+        },
+        {
+          "turn": 7,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 9,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 5,
+            "purge": 1
+          }
+        },
+        {
+          "turn": 7,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 10,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 5
+          }
+        },
+        {
+          "turn": 7,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 11,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 5
+          }
+        },
+        {
+          "turn": 9,
+          "side": "corp",
+          "baseline": "install",
+          "command": "install",
+          "reason": "native",
+          "credits": 12,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "purge": 1
+          }
+        },
+        {
+          "turn": 9,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 12,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 10
+          }
+        },
+        {
+          "turn": 9,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 13,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 10
+          }
+        },
+        {
+          "turn": 11,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 14,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 10,
+            "play": 1,
+            "purge": 1
+          }
+        },
+        {
+          "turn": 11,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 15,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 10,
+            "play": 1
+          }
+        },
+        {
+          "turn": 11,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 16,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 10,
+            "play": 1
+          }
+        },
+        {
+          "turn": 13,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 17,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 10,
+            "purge": 1
+          }
+        },
+        {
+          "turn": 13,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 18,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 10
+          }
+        },
+        {
+          "turn": 13,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 19,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 10
+          }
+        },
+        {
+          "turn": 15,
+          "side": "corp",
+          "baseline": "install",
+          "command": "install",
+          "reason": "native",
+          "credits": 20,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 18,
+            "purge": 1
+          }
+        },
+        {
+          "turn": 15,
+          "side": "corp",
+          "baseline": "install",
+          "command": "install",
+          "reason": "native",
+          "credits": 20,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 13
+          }
+        },
+        {
+          "turn": 15,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 19,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 8
+          }
+        },
+        {
+          "turn": 17,
+          "side": "corp",
+          "baseline": "install",
+          "command": "install",
+          "reason": "native",
+          "credits": 15,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 13,
+            "play": 1,
+            "purge": 1
+          }
+        },
+        {
+          "turn": 17,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 15,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 8,
+            "play": 1
+          }
+        },
+        {
+          "turn": 17,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 16,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 8,
+            "play": 1
+          }
+        },
+        {
+          "turn": 19,
+          "side": "corp",
+          "baseline": "install",
+          "command": "install",
+          "reason": "native",
+          "credits": 17,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 13,
+            "play": 1,
+            "purge": 1
+          }
+        },
+        {
+          "turn": 19,
+          "side": "corp",
+          "baseline": "install",
+          "command": "install",
+          "reason": "native",
+          "credits": 16,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 8,
+            "play": 1
+          }
+        },
+        {
+          "turn": 19,
+          "side": "corp",
+          "baseline": "advance",
+          "command": "advance",
+          "reason": "native",
+          "credits": 16,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "play": 1,
+            "advance": 1
+          }
+        },
+        {
+          "turn": 21,
+          "side": "corp",
+          "baseline": "advance",
+          "command": "advance",
+          "reason": "native",
+          "credits": 6,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "play": 2,
+            "advance": 1,
+            "purge": 1
+          }
+        },
+        {
+          "turn": 21,
+          "side": "corp",
+          "baseline": "advance",
+          "command": "advance",
+          "reason": "native",
+          "credits": 5,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "play": 2,
+            "advance": 1
+          }
+        },
+        {
+          "turn": 21,
+          "side": "corp",
+          "baseline": "advance",
+          "command": "advance",
+          "reason": "native",
+          "credits": 4,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "play": 1,
+            "advance": 1
+          }
+        },
+        {
+          "turn": 23,
+          "side": "corp",
+          "baseline": "play",
+          "command": "play",
+          "reason": "native",
+          "credits": 3,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "play": 1,
+            "purge": 1
+          }
+        },
+        {
+          "turn": 23,
+          "side": "corp",
+          "baseline": "continue",
+          "command": "continue",
+          "reason": "native",
+          "credits": 3,
+          "offered": {
+            "continue": 2
+          }
+        },
+        {
+          "turn": 23,
+          "side": "corp",
+          "baseline": "play",
+          "command": "play",
+          "reason": "native",
+          "credits": 6,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "play": 1
+          }
+        },
+        {
+          "turn": 23,
+          "side": "corp",
+          "baseline": "continue",
+          "command": "continue",
+          "reason": "native",
+          "credits": 6,
+          "offered": {
+            "continue": 1
+          }
+        },
+        {
+          "turn": 23,
+          "side": "corp",
+          "baseline": "draw",
+          "command": "install",
+          "reason": "use-defended-scoring-window",
+          "credits": 10,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6
+          }
+        },
+        {
+          "turn": 25,
+          "side": "corp",
+          "baseline": "advance",
+          "command": "advance",
+          "reason": "native",
+          "credits": 10,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "play": 1,
+            "advance": 1,
+            "purge": 1
+          }
+        },
+        {
+          "turn": 25,
+          "side": "corp",
+          "baseline": "advance",
+          "command": "advance",
+          "reason": "native",
+          "credits": 9,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "play": 1,
+            "advance": 1
+          }
+        },
+        {
+          "turn": 25,
+          "side": "corp",
+          "baseline": "advance",
+          "command": "advance",
+          "reason": "native",
+          "credits": 8,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "advance": 1
+          }
+        },
+        {
+          "turn": 27,
+          "side": "corp",
+          "baseline": "advance",
+          "command": "advance",
+          "reason": "native",
+          "credits": 7,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 8,
+            "play": 1,
+            "advance": 1,
+            "purge": 1
+          }
+        },
+        {
+          "turn": 27,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 6,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 8
+          }
+        },
+        {
+          "turn": 27,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 7,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 8
+          }
+        },
+        {
+          "turn": 29,
+          "side": "corp",
+          "baseline": "play",
+          "command": "play",
+          "reason": "native",
+          "credits": 8,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 8,
+            "play": 1,
+            "purge": 1
+          }
+        },
+        {
+          "turn": 29,
+          "side": "corp",
+          "baseline": "continue",
+          "command": "continue",
+          "reason": "native",
+          "credits": 8,
+          "offered": {
+            "continue": 1
+          }
+        },
+        {
+          "turn": 29,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "install",
+          "reason": "use-defended-scoring-window",
+          "credits": 12,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 8
+          }
+        },
+        {
+          "turn": 29,
+          "side": "corp",
+          "baseline": "advance",
+          "command": "advance",
+          "reason": "native",
+          "credits": 12,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "advance": 1
+          }
+        },
+        {
+          "turn": 31,
+          "side": "corp",
+          "baseline": "advance",
+          "command": "advance",
+          "reason": "native",
+          "credits": 11,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "play": 2,
+            "advance": 1,
+            "purge": 1
+          }
+        },
+        {
+          "turn": 31,
+          "side": "corp",
+          "baseline": "advance",
+          "command": "advance",
+          "reason": "native",
+          "credits": 10,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "play": 2,
+            "advance": 1
+          }
+        },
+        {
+          "turn": 31,
+          "side": "corp",
+          "baseline": "advance",
+          "command": "advance",
+          "reason": "native",
+          "credits": 9,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "play": 1,
+            "advance": 1
+          }
+        },
+        {
+          "turn": 33,
+          "side": "corp",
+          "baseline": "play",
+          "command": "play",
+          "reason": "native",
+          "credits": 15,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "play": 2,
+            "purge": 1
+          }
+        },
+        {
+          "turn": 33,
+          "side": "corp",
+          "baseline": "continue",
+          "command": "continue",
+          "reason": "native",
+          "credits": 15,
+          "offered": {
+            "continue": 1
+          }
+        },
+        {
+          "turn": 33,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 19,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "play": 1
+          }
+        },
+        {
+          "turn": 33,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 20,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "play": 1
+          }
+        },
+        {
+          "turn": 35,
+          "side": "corp",
+          "baseline": "play",
+          "command": "play",
+          "reason": "native",
+          "credits": 21,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "play": 2,
+            "purge": 1
+          }
+        },
+        {
+          "turn": 35,
+          "side": "corp",
+          "baseline": "continue",
+          "command": "continue",
+          "reason": "native",
+          "credits": 21,
+          "offered": {
+            "continue": 1
+          }
+        },
+        {
+          "turn": 35,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 25,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "play": 1
+          }
+        },
+        {
+          "turn": 35,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 26,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "play": 1
+          }
+        },
+        {
+          "turn": 37,
+          "side": "corp",
+          "baseline": "play",
+          "command": "play",
+          "reason": "native",
+          "credits": 27,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "play": 2,
+            "purge": 1
+          }
+        },
+        {
+          "turn": 37,
+          "side": "corp",
+          "baseline": "continue",
+          "command": "continue",
+          "reason": "native",
+          "credits": 27,
+          "offered": {
+            "continue": 1
+          }
+        },
+        {
+          "turn": 37,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 31,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "play": 1
+          }
+        },
+        {
+          "turn": 37,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 32,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "play": 1
+          }
+        },
+        {
+          "turn": 39,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 33,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "play": 2,
+            "purge": 1
+          }
+        },
+        {
+          "turn": 39,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 34,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "play": 2
+          }
+        },
+        {
+          "turn": 39,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 35,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "play": 2
+          }
+        },
+        {
+          "turn": 41,
+          "side": "corp",
+          "baseline": "install",
+          "command": "install",
+          "reason": "native",
+          "credits": 36,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 11,
+            "play": 2,
+            "purge": 1
+          }
+        },
+        {
+          "turn": 41,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 36,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "play": 2
+          }
+        },
+        {
+          "turn": 41,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 37,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "play": 2
+          }
+        },
+        {
+          "turn": 43,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "install",
+          "reason": "use-defended-scoring-window",
+          "credits": 38,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 8,
+            "play": 2,
+            "purge": 1
+          }
+        },
+        {
+          "turn": 43,
+          "side": "corp",
+          "baseline": "gain",
+          "command": "advance",
+          "reason": "advance-installed-agenda",
+          "credits": 38,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "play": 2,
+            "advance": 1
+          }
+        },
+        {
+          "turn": 43,
+          "side": "corp",
+          "baseline": "advance",
+          "command": "advance",
+          "reason": "native",
+          "credits": 37,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "play": 2,
+            "advance": 1
+          }
+        },
+        {
+          "turn": 45,
+          "side": "corp",
+          "baseline": "advance",
+          "command": "advance",
+          "reason": "native",
+          "credits": 36,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 8,
+            "play": 2,
+            "advance": 1,
+            "purge": 1
+          }
+        },
+        {
+          "turn": 45,
+          "side": "corp",
+          "baseline": "advance",
+          "command": "advance",
+          "reason": "native",
+          "credits": 35,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 8,
+            "play": 2,
+            "advance": 1
+          }
+        }
+      ]
+    },
+    "matching": true
+  },
+  {
+    "name": "corp",
+    "choices": 91,
+    "diagnostics": [],
+    "points": {
+      "corp": 1,
+      "runner": 7
+    },
+    "terminal": {
+      "reason": "Runner reached 7 agenda points.",
+      "winner": "runner"
+    },
+    "turn": 46,
+    "version": 1538,
+    "aiAudit": {
+      "policy": "pressure-v1",
+      "reasons": {},
+      "totals": {
+        "runner": {
+          "actions": 119,
+          "gain": 17,
+          "draw": 14,
+          "install": 11,
+          "play": 6,
+          "run": 22,
+          "advance": 0,
+          "score": 0,
+          "overrides": 0,
+          "idleWithAgenda": 0,
+          "scoreOffered": 0,
+          "scoreTaken": 0,
+          "runs": 24,
+          "probesConsidered": 9,
+          "probesRejected": 9
+        },
+        "corp": {
+          "actions": 0,
+          "gain": 0,
+          "draw": 0,
+          "install": 0,
+          "play": 0,
+          "run": 0,
+          "advance": 0,
+          "score": 0,
+          "overrides": 0,
+          "idleWithAgenda": 0,
+          "scoreOffered": 0,
+          "scoreTaken": 0,
+          "runs": 0,
+          "probesConsidered": 0,
+          "probesRejected": 0
+        }
+      },
+      "recent": [
+        {
+          "turn": 16,
+          "side": "runner",
+          "baseline": "draw",
+          "command": "draw",
+          "reason": "native",
+          "credits": 10,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 7,
+            "play": 1,
+            "run": 5,
+            "trigger": 1
+          }
+        },
+        {
+          "turn": 16,
+          "side": "runner",
+          "baseline": "play",
+          "command": "play",
+          "reason": "native",
+          "credits": 10,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 7,
+            "play": 3,
+            "run": 5,
+            "trigger": 1
+          }
+        },
+        {
+          "turn": 16,
+          "side": "runner",
+          "baseline": "continue",
+          "command": "continue",
+          "reason": "native",
+          "credits": 10,
+          "offered": {
+            "continue": 1
+          }
+        },
+        {
+          "turn": 16,
+          "side": "runner",
+          "baseline": "install",
+          "command": "install",
+          "reason": "native",
+          "credits": 14,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 7,
+            "play": 2,
+            "run": 5,
+            "trigger": 1
+          }
+        },
+        {
+          "turn": 16,
+          "side": "runner",
+          "baseline": "run",
+          "command": "run",
+          "reason": "native",
+          "credits": 9,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "play": 2,
+            "run": 5,
+            "trigger": 1
+          }
+        },
+        {
+          "turn": 17,
+          "side": "runner",
+          "baseline": "n",
+          "command": "n",
+          "reason": "native",
+          "credits": 9,
+          "offered": {
+            "n": 1
+          }
+        },
+        {
+          "turn": 18,
+          "side": "runner",
+          "baseline": "play",
+          "command": "play",
+          "reason": "native",
+          "credits": 10,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 2,
+            "play": 2,
+            "run": 5,
+            "trigger": 1
+          }
+        },
+        {
+          "turn": 18,
+          "side": "runner",
+          "baseline": "continue",
+          "command": "continue",
+          "reason": "native",
+          "credits": 10,
+          "offered": {
+            "continue": 2
+          }
+        },
+        {
+          "turn": 18,
+          "side": "runner",
+          "baseline": "run",
+          "command": "run",
+          "reason": "native",
+          "credits": 8,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 3,
+            "run": 5,
+            "trigger": 1
+          }
+        },
+        {
+          "turn": 18,
+          "side": "runner",
+          "baseline": "run",
+          "command": "run",
+          "reason": "native",
+          "credits": 5,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 3,
+            "run": 5,
+            "trigger": 1
+          }
+        },
+        {
+          "turn": 18,
+          "side": "runner",
+          "baseline": "run",
+          "command": "run",
+          "reason": "native",
+          "credits": 4,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 3,
+            "run": 5,
+            "trigger": 1
+          }
+        },
+        {
+          "turn": 19,
+          "side": "runner",
+          "baseline": "n",
+          "command": "n",
+          "reason": "native",
+          "credits": 3,
+          "offered": {
+            "n": 1
+          }
+        },
+        {
+          "turn": 20,
+          "side": "runner",
+          "baseline": "trigger",
+          "command": "trigger",
+          "reason": "native",
+          "credits": 4,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 3,
+            "run": 5,
+            "trigger": 1
+          }
+        },
+        {
+          "turn": 20,
+          "side": "runner",
+          "baseline": "continue",
+          "command": "continue",
+          "reason": "native",
+          "credits": 4,
+          "offered": {
+            "continue": 1
+          }
+        },
+        {
+          "turn": 20,
+          "side": "runner",
+          "baseline": "install",
+          "command": "install",
+          "reason": "native",
+          "credits": 4,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 3,
+            "run": 5,
+            "trigger": 1
+          }
+        },
+        {
+          "turn": 20,
+          "side": "runner",
+          "baseline": "run",
+          "command": "run",
+          "reason": "native",
+          "credits": 3,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 2,
+            "run": 5,
+            "trigger": 2
+          }
+        },
+        {
+          "turn": 20,
+          "side": "runner",
+          "baseline": "run",
+          "command": "run",
+          "reason": "native",
+          "credits": 3,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "run": 5,
+            "trigger": 2
+          }
+        },
+        {
+          "turn": 21,
+          "side": "runner",
+          "baseline": "n",
+          "command": "n",
+          "reason": "native",
+          "credits": 2,
+          "offered": {
+            "n": 1
+          }
+        },
+        {
+          "turn": 22,
+          "side": "runner",
+          "baseline": "run",
+          "command": "run",
+          "reason": "native",
+          "credits": 3,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "run": 5,
+            "trigger": 2
+          }
+        },
+        {
+          "turn": 22,
+          "side": "runner",
+          "baseline": "draw",
+          "command": "draw",
+          "reason": "native",
+          "credits": 2,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "run": 5,
+            "trigger": 2
+          }
+        },
+        {
+          "turn": 22,
+          "side": "runner",
+          "baseline": "draw",
+          "command": "draw",
+          "reason": "native",
+          "credits": 2,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "play": 1,
+            "run": 5,
+            "trigger": 2
+          }
+        },
+        {
+          "turn": 22,
+          "side": "runner",
+          "baseline": "play",
+          "command": "play",
+          "reason": "native",
+          "credits": 2,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "play": 2,
+            "run": 5,
+            "trigger": 2
+          }
+        },
+        {
+          "turn": 22,
+          "side": "runner",
+          "baseline": "continue",
+          "command": "continue",
+          "reason": "native",
+          "credits": 2,
+          "offered": {
+            "continue": 2
+          }
+        },
+        {
+          "turn": 23,
+          "side": "runner",
+          "baseline": "n",
+          "command": "n",
+          "reason": "native",
+          "credits": 2,
+          "offered": {
+            "n": 1
+          }
+        },
+        {
+          "turn": 24,
+          "side": "runner",
+          "baseline": "draw",
+          "command": "draw",
+          "reason": "native",
+          "credits": 3,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 1,
+            "play": 1,
+            "run": 5,
+            "trigger": 2
+          }
+        },
+        {
+          "turn": 24,
+          "side": "runner",
+          "baseline": "draw",
+          "command": "draw",
+          "reason": "native",
+          "credits": 3,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 2,
+            "play": 2,
+            "run": 5,
+            "trigger": 2
+          }
+        },
+        {
+          "turn": 24,
+          "side": "runner",
+          "baseline": "trigger",
+          "command": "trigger",
+          "reason": "native",
+          "credits": 3,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 2,
+            "play": 2,
+            "run": 5,
+            "trigger": 2
+          }
+        },
+        {
+          "turn": 24,
+          "side": "runner",
+          "baseline": "continue",
+          "command": "continue",
+          "reason": "native",
+          "credits": 3,
+          "offered": {
+            "continue": 1
+          }
+        },
+        {
+          "turn": 24,
+          "side": "runner",
+          "baseline": "play",
+          "command": "play",
+          "reason": "native",
+          "credits": 9,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 3,
+            "play": 3,
+            "run": 5,
+            "trigger": 1
+          }
+        },
+        {
+          "turn": 24,
+          "side": "runner",
+          "baseline": "continue",
+          "command": "continue",
+          "reason": "native",
+          "credits": 9,
+          "offered": {
+            "continue": 1
+          }
+        },
+        {
+          "turn": 25,
+          "side": "runner",
+          "baseline": "n",
+          "command": "n",
+          "reason": "native",
+          "credits": 13,
+          "offered": {
+            "n": 1
+          }
+        },
+        {
+          "turn": 26,
+          "side": "runner",
+          "baseline": "run",
+          "command": "run",
+          "reason": "native",
+          "credits": 14,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 3,
+            "play": 2,
+            "run": 6,
+            "trigger": 1
+          }
+        },
+        {
+          "turn": 26,
+          "side": "runner",
+          "baseline": "install",
+          "command": "install",
+          "reason": "native",
+          "credits": 11,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 3,
+            "play": 2,
+            "run": 6,
+            "trigger": 1
+          }
+        },
+        {
+          "turn": 26,
+          "side": "runner",
+          "baseline": "run",
+          "command": "run",
+          "reason": "native",
+          "credits": 10,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 2,
+            "play": 2,
+            "run": 6,
+            "trigger": 1
+          }
+        },
+        {
+          "turn": 26,
+          "side": "runner",
+          "baseline": "play",
+          "command": "play",
+          "reason": "native",
+          "credits": 3,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 1,
+            "play": 2,
+            "run": 6,
+            "trigger": 1
+          }
+        },
+        {
+          "turn": 26,
+          "side": "runner",
+          "baseline": "continue",
+          "command": "continue",
+          "reason": "native",
+          "credits": 3,
+          "offered": {
+            "continue": 1
+          }
+        },
+        {
+          "turn": 27,
+          "side": "runner",
+          "baseline": "n",
+          "command": "n",
+          "reason": "native",
+          "credits": 7,
+          "offered": {
+            "n": 1
+          }
+        },
+        {
+          "turn": 28,
+          "side": "runner",
+          "baseline": "run",
+          "command": "run",
+          "reason": "native",
+          "credits": 8,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 1,
+            "play": 1,
+            "run": 6,
+            "trigger": 1
+          }
+        },
+        {
+          "turn": 29,
+          "side": "runner",
+          "baseline": "n",
+          "command": "n",
+          "reason": "native",
+          "credits": 9,
+          "offered": {
+            "n": 1
+          }
+        },
+        {
+          "turn": 30,
+          "side": "runner",
+          "baseline": "run",
+          "command": "run",
+          "reason": "native",
+          "credits": 9,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 5,
+            "run": 6,
+            "trigger": 1
+          }
+        },
+        {
+          "turn": 31,
+          "side": "runner",
+          "baseline": "n",
+          "command": "n",
+          "reason": "native",
+          "credits": 7,
+          "offered": {
+            "n": 1
+          }
+        },
+        {
+          "turn": 32,
+          "side": "runner",
+          "baseline": "run",
+          "command": "run",
+          "reason": "native",
+          "credits": 7,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 6,
+            "run": 6,
+            "trigger": 1
+          }
+        },
+        {
+          "turn": 32,
+          "side": "runner",
+          "baseline": "run",
+          "command": "run",
+          "reason": "native",
+          "credits": 6,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 1,
+            "run": 6,
+            "trigger": 1
+          }
+        },
+        {
+          "turn": 32,
+          "side": "runner",
+          "baseline": "draw",
+          "command": "draw",
+          "reason": "native",
+          "credits": 0,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 1,
+            "run": 6,
+            "trigger": 1
+          }
+        },
+        {
+          "turn": 32,
+          "side": "runner",
+          "baseline": "trigger",
+          "command": "trigger",
+          "reason": "native",
+          "credits": 0,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 1,
+            "run": 6,
+            "trigger": 1
+          }
+        },
+        {
+          "turn": 32,
+          "side": "runner",
+          "baseline": "continue",
+          "command": "continue",
+          "reason": "native",
+          "credits": 0,
+          "offered": {
+            "continue": 1
+          }
+        },
+        {
+          "turn": 33,
+          "side": "runner",
+          "baseline": "n",
+          "command": "n",
+          "reason": "native",
+          "credits": 0,
+          "offered": {
+            "n": 1
+          }
+        },
+        {
+          "turn": 34,
+          "side": "runner",
+          "baseline": "trigger",
+          "command": "trigger",
+          "reason": "native",
+          "credits": 1,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 2,
+            "run": 6,
+            "trigger": 1
+          }
+        },
+        {
+          "turn": 34,
+          "side": "runner",
+          "baseline": "continue",
+          "command": "continue",
+          "reason": "native",
+          "credits": 1,
+          "offered": {
+            "continue": 1
+          }
+        },
+        {
+          "turn": 34,
+          "side": "runner",
+          "baseline": "run",
+          "command": "run",
+          "reason": "native",
+          "credits": 1,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 2,
+            "run": 6,
+            "trigger": 1
+          }
+        },
+        {
+          "turn": 34,
+          "side": "runner",
+          "baseline": "install",
+          "command": "install",
+          "reason": "native",
+          "credits": 1,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "install": 1,
+            "run": 6,
+            "trigger": 1
+          }
+        },
+        {
+          "turn": 34,
+          "side": "runner",
+          "baseline": "draw",
+          "command": "draw",
+          "reason": "native",
+          "credits": 0,
+          "offered": {
+            "draw": 1,
+            "gain": 1,
+            "run": 6,
+            "trigger": 2
+          }
+        },
+        {
+          "turn": 35,
+          "side": "runner",
+          "baseline": "n",
+          "command": "n",
+          "reason": "native",
+          "credits": 0,
+          "offered": {
+            "n": 1
+          }
+        },
+        {
+          "turn": 36,
+          "side": "runner",
+          "baseline": "install",
+          "command": "install",
+          "reason": "native",
+          "credits": 1,
+          "offered": {
+            "gain": 1,
+            "install": 1,
+            "run": 6,
+            "trigger": 2
+          }
+        },
+        {
+          "turn": 36,
+          "side": "runner",
+          "baseline": "run",
+          "command": "run",
+          "reason": "native",
+          "credits": 1,
+          "offered": {
+            "gain": 1,
+            "run": 6,
+            "trigger": 3
+          }
+        },
+        {
+          "turn": 36,
+          "side": "runner",
+          "baseline": "trigger",
+          "command": "trigger",
+          "reason": "native",
+          "credits": 0,
+          "offered": {
+            "gain": 1,
+            "run": 6,
+            "trigger": 3
+          }
+        },
+        {
+          "turn": 36,
+          "side": "runner",
+          "baseline": "continue",
+          "command": "continue",
+          "reason": "native",
+          "credits": 0,
+          "offered": {
+            "continue": 1
+          }
+        },
+        {
+          "turn": 36,
+          "side": "runner",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 0,
+          "offered": {
+            "gain": 1,
+            "run": 6,
+            "trigger": 3
+          }
+        },
+        {
+          "turn": 37,
+          "side": "runner",
+          "baseline": "n",
+          "command": "n",
+          "reason": "native",
+          "credits": 1,
+          "offered": {
+            "n": 1
+          }
+        },
+        {
+          "turn": 38,
+          "side": "runner",
+          "baseline": "trigger",
+          "command": "trigger",
+          "reason": "native",
+          "credits": 3,
+          "offered": {
+            "gain": 1,
+            "install": 1,
+            "run": 6,
+            "trigger": 3
+          }
+        },
+        {
+          "turn": 38,
+          "side": "runner",
+          "baseline": "continue",
+          "command": "continue",
+          "reason": "native",
+          "credits": 3,
+          "offered": {
+            "continue": 1
+          }
+        },
+        {
+          "turn": 38,
+          "side": "runner",
+          "baseline": "trigger",
+          "command": "trigger",
+          "reason": "native",
+          "credits": 9,
+          "offered": {
+            "gain": 1,
+            "install": 1,
+            "run": 6,
+            "trigger": 2
+          }
+        },
+        {
+          "turn": 38,
+          "side": "runner",
+          "baseline": "continue",
+          "command": "continue",
+          "reason": "native",
+          "credits": 9,
+          "offered": {
+            "continue": 1
+          }
+        },
+        {
+          "turn": 38,
+          "side": "runner",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 9,
+          "offered": {
+            "gain": 1,
+            "install": 1,
+            "run": 6,
+            "trigger": 2
+          }
+        },
+        {
+          "turn": 38,
+          "side": "runner",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 10,
+          "offered": {
+            "gain": 1,
+            "install": 1,
+            "run": 6,
+            "trigger": 2
+          }
+        },
+        {
+          "turn": 39,
+          "side": "runner",
+          "baseline": "n",
+          "command": "n",
+          "reason": "native",
+          "credits": 11,
+          "offered": {
+            "n": 1
+          }
+        },
+        {
+          "turn": 40,
+          "side": "runner",
+          "baseline": "install",
+          "command": "install",
+          "reason": "native",
+          "credits": 13,
+          "offered": {
+            "gain": 1,
+            "install": 1,
+            "run": 6,
+            "trigger": 2
+          }
+        },
+        {
+          "turn": 40,
+          "side": "runner",
+          "baseline": "run",
+          "command": "run",
+          "reason": "native",
+          "credits": 11,
+          "offered": {
+            "gain": 1,
+            "run": 6,
+            "trigger": 2
+          }
+        },
+        {
+          "turn": 40,
+          "side": "runner",
+          "baseline": "run",
+          "command": "run",
+          "reason": "native",
+          "credits": 9,
+          "offered": {
+            "gain": 1,
+            "run": 6,
+            "trigger": 2
+          }
+        },
+        {
+          "turn": 40,
+          "side": "runner",
+          "baseline": "run",
+          "command": "run",
+          "reason": "native",
+          "credits": 9,
+          "offered": {
+            "gain": 1,
+            "run": 6,
+            "trigger": 2
+          }
+        },
+        {
+          "turn": 41,
+          "side": "runner",
+          "baseline": "n",
+          "command": "n",
+          "reason": "native",
+          "credits": 8,
+          "offered": {
+            "n": 1
+          }
+        },
+        {
+          "turn": 42,
+          "side": "runner",
+          "baseline": "run",
+          "command": "run",
+          "reason": "native",
+          "credits": 10,
+          "offered": {
+            "gain": 1,
+            "run": 6,
+            "trigger": 2
+          }
+        },
+        {
+          "turn": 42,
+          "side": "runner",
+          "baseline": "trigger",
+          "command": "trigger",
+          "reason": "native",
+          "credits": 8,
+          "offered": {
+            "gain": 1,
+            "run": 6,
+            "trigger": 2
+          }
+        },
+        {
+          "turn": 42,
+          "side": "runner",
+          "baseline": "continue",
+          "command": "continue",
+          "reason": "native",
+          "credits": 8,
+          "offered": {
+            "continue": 1
+          }
+        },
+        {
+          "turn": 42,
+          "side": "runner",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 8,
+          "offered": {
+            "gain": 1,
+            "run": 6,
+            "trigger": 2
+          }
+        },
+        {
+          "turn": 42,
+          "side": "runner",
+          "baseline": "gain",
+          "command": "gain",
+          "reason": "native",
+          "credits": 9,
+          "offered": {
+            "gain": 1,
+            "run": 6,
+            "trigger": 2
+          }
+        },
+        {
+          "turn": 43,
+          "side": "runner",
+          "baseline": "n",
+          "command": "n",
+          "reason": "native",
+          "credits": 10,
+          "offered": {
+            "n": 1
+          }
+        },
+        {
+          "turn": 44,
+          "side": "runner",
+          "baseline": "run",
+          "command": "run",
+          "reason": "native",
+          "credits": 12,
+          "offered": {
+            "gain": 1,
+            "run": 6,
+            "trigger": 2
+          }
+        },
+        {
+          "turn": 45,
+          "side": "runner",
+          "baseline": "n",
+          "command": "n",
+          "reason": "native",
+          "credits": 12,
+          "offered": {
+            "n": 1
+          }
+        },
+        {
+          "turn": 46,
+          "side": "runner",
+          "baseline": "run",
+          "command": "run",
+          "reason": "native",
+          "credits": 14,
+          "offered": {
+            "gain": 1,
+            "run": 6,
+            "trigger": 2
+          }
+        }
+      ]
+    },
+    "matching": true
+  }
+]

@@ -1,0 +1,220 @@
+{
+  "choices": [
+    {
+      "command": "n",
+      "index": 0,
+      "version": 2
+    },
+    {
+      "command": "install",
+      "index": 1,
+      "version": 33
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 35
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 36
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 37
+    },
+    {
+      "command": "play",
+      "index": 0,
+      "version": 38
+    },
+    {
+      "command": "continue",
+      "index": 1,
+      "version": 39
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 40
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 42
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 45
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 46
+    },
+    {
+      "command": "continue",
+      "index": 0,
+      "version": 47
+    },
+    {
+      "command": "continue",
+      "index": 0,
+      "version": 48
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 49
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 56
+    },
+    {
+      "command": "trigger",
+      "index": 0,
+      "version": 61
+    },
+    {
+      "command": "access",
+      "index": 0,
+      "version": 65
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 66
+    },
+    {
+      "command": "access",
+      "index": 0,
+      "version": 67
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 68
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 71
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 72
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 73
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 75
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 80
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 85
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 89
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 92
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 98
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 101
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 104
+    },
+    {
+      "command": "draw",
+      "index": 0,
+      "version": 108
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 109
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 110
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 111
+    },
+    {
+      "command": "gain",
+      "index": 0,
+      "version": 112
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 113
+    },
+    {
+      "command": "run",
+      "index": 1,
+      "version": 114
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 115
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 117
+    },
+    {
+      "command": "n",
+      "index": 0,
+      "version": 120
+    }
+  ],
+  "conceded": false,
+  "config": {
+    "deckIds": {
+      "corp": "precision-design-v2",
+      "runner": "loup-v1"
+    },
+    "rulesVersion": "26.03-local-2",
+    "seed": "44c63774-37dd-4100-a690-ddf9105bc650",
+    "side": "runner"
+  },
+  "engine": "chiriboga-77c80b1-local-1"
+}
