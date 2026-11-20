@@ -1,6 +1,6 @@
 # Vantage Point implementation and testing
 
-Status: all 66 cards implemented with native test evidence; nine complete shared-browser games; 1,200/1,200 benchmark games completed. Target: a staged 0.3.0 preview; no release is authorized by this plan.
+Status: all 66 cards implemented with native test evidence; nine complete shared-browser games; 1,200/1,200 benchmark games completed. Included in the 0.3.0 alpha release following separate release qualification and explicit publication authorization.
 
 ## Product scope
 
@@ -35,7 +35,7 @@ The pinned official metadata and its provenance are in `../research/vantage-poin
 
 ## Remaining qualification work
 
-No Vantage card definitions remain missing. Further work is full rules/cross-card auditing, visual/keyboard/accessibility qualification in the user’s Chrome, strategic and hidden-information AI audits, and release preparation. The shipped 0.2.1 downloads are unchanged. An unqualified Startup label also requires its separate tournament restriction validator.
+No Vantage card definitions remain missing. Further work is full rules/cross-card auditing, visual/keyboard/accessibility qualification in the user’s Chrome, strategic and hidden-information AI audits, and continued release qualification. The 0.3.0 release includes Vantage as an experimental preview; previous 0.2.1 downloads remain available. An unqualified Startup label also requires its separate tournament restriction validator.
 
 ## Release gates
 
@@ -46,7 +46,7 @@ No Vantage card definitions remain missing. Further work is full rules/cross-car
 - Private deck looks, hidden identities, and facedown hosted cards do not leak to the opponent or player-facing replays.
 - Every new identity and curated deck has actual Chrome playthrough evidence. UI, rules, and AI coverage are reported independently.
 - Startup tournament restrictions are a separate, versioned validator feature, with dated source attribution, before using an unqualified Startup label.
-- Release packaging and publication require a later release task; the current 0.2.1 release stays unchanged.
+- 0.3.0 packaging and publication were handled by a separate, explicitly authorized release task; exact checks and limitations are recorded in builds/0.3.0/.
 
 ## Sources
 

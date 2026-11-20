@@ -30,7 +30,7 @@ Use **Quit game** in the older launcher before opening 0.3.0. Reuse the same bro
 - Saved custom decks retain their original baseline for cumulative comparisons. Local experiment notes can copy empty plan fields from that baseline while preserving existing text and excluding previous results.
 - Encounter and payment clarity, deck-support advice, and targeted rules and AI fixes. Old versioned rules profiles remain available for replay compatibility.
 
-This is a release candidate until the release-readiness report is complete.
+Release qualification passed, including native package checks on all four targets. See RELEASE-NOTES.md and release-0.3.0-readiness.json for the verified source, results and limitations.
 
 ## Build from source
 

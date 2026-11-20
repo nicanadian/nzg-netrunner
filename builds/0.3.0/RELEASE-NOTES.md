@@ -1,4 +1,4 @@
-# 0.3.0 · alpha release candidate
+# 0.3.0 · alpha release
 
 Vantage Point joins the local game as a separate preview, with all 66 cards, four new identities, local artwork and selectable/tunable decks. Gateway remains the default; Elevation and Vantage keep their experimental labels. This release does not claim tournament rules or strategic AI certification.
 

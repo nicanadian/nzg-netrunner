@@ -1,6 +1,6 @@
 {
   "build": "0.3.0",
-  "status": "ready-draft",
+  "status": "published",
   "verifiedAt": "2026-11-20T00:23:29.092Z",
   "sourceCommit": "29655f4f589e75f39f3d9388ed9f3640923d1b8f",
   "cleanBuild": true,
@@ -107,8 +107,8 @@
     ]
   },
   "draft": {
-    "url": "https://github.com/nicanadian/nzg-netrunner/releases/tag/untagged-d75f5b460544408f7727",
-    "published": false,
+    "url": "https://github.com/nicanadian/nzg-netrunner/releases/tag/v0.3.0",
+    "published": true,
     "uploadedPackagesVerified": true,
     "id": 452090846,
     "apiUrl": "https://api.github.com/repos/nicanadian/nzg-netrunner/releases/452090846"
@@ -165,5 +165,12 @@
     "Recorded browser sessions were replayed; this qualification did not recruit a new browser playtest cohort.",
     "Native launcher checks test assets/help/relaunch/shutdown, not complete manual games on every operating system."
   ],
-  "published": false
+  "published": true,
+  "publishedAt": "2026-11-20T02:47:17Z",
+  "release": {
+    "url": "https://github.com/nicanadian/nzg-netrunner/releases/tag/v0.3.0",
+    "tag": "v0.3.0",
+    "isPrerelease": true,
+    "publishedAt": "2026-11-20T02:47:17Z"
+  }
 }
